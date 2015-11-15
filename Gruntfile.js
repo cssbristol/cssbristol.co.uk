@@ -249,7 +249,7 @@ module.exports = function (grunt) {
         dir: 'dist',
         commit: true,
         push: true,
-        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+        message: 'Built from commit %sourceCommit% on branch %sourceBranch%'
       },
       pages: {
         options: {
@@ -295,4 +295,6 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('default', ['build']);
+
+  grunt.registerTask('deploy', ['buildcontrol:pages']);
 };
