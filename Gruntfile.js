@@ -242,6 +242,21 @@ module.exports = function (grunt) {
       //   dest: '.tmp/styles/',
       //   src: '**/*.css'
       // }
+    },
+
+    buildcontrol: {
+      options: {
+        dir: 'dist',
+        commit: true,
+        push: true,
+        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+      },
+      pages: {
+        options: {
+          remote: 'git@github.com:cssbristol/cssbristol.github.io.git',
+          branch: 'master'
+        }
+      },
     }
   });
 
