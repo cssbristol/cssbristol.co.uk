@@ -1,1 +1,6 @@
-/dev
+dist
+node_modules
+.tmp
+bower_components
+*.sublime-project
+*.sublime-workspace
