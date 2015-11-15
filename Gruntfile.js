@@ -256,7 +256,7 @@ module.exports = function (grunt) {
           remote: 'git@github.com:cssbristol/cssbristol.github.io.git',
           branch: 'master'
         }
-      },
+      }
     }
   });
 
