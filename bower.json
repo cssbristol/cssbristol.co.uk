@@ -1,0 +1,9 @@
+{
+  "name": "Computer Science Society - University of Bristol",
+  "private": true,
+  "dependencies": {
+  	"fastclick": "^1.0.6",
+    "jquery": "~2.1.4",
+    "normalize.css": "^3.0.0"
+  }
+}
