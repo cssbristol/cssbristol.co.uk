@@ -166,10 +166,16 @@ module.exports = function (grunt) {
           '<%= config.dist %>',
           '<%= config.dist %>/images',
           '<%= config.dist %>/styles'
-        ]
+        ],
+        patterns: {
+          js: [
+            [/(images\/header-bg\.jpg)/g, 'Replacing reference to header-bg.jpg']
+          ]
+        }
       },
       html: ['<%= config.dist %>/**/*.html'],
-      css: ['<%= config.dist %>/styles/**/*.css']
+      css: ['<%= config.dist %>/styles/**/*.css'],
+      js: ['<%= config.dist %>/scripts/*.js']
     },
 
     // The following *-min tasks produce minified files in the dist folder
@@ -275,6 +281,8 @@ module.exports = function (grunt) {
       'watch'
     ]);
   });
+
+  grunt.registerTask('dist', ['build']);
 
   grunt.registerTask('build', [
     'newer:eslint',
