@@ -38,4 +38,4 @@ Currently, all code was handcrafted with <3 and is maintained by the current CSS
 
 ## License
 
-This software is free to use under the [MIT](https://raw.githubusercontent.com/cssbristol/css-website-2015/master/LICENSE) license.
+This software is free to use under the [MIT](https://raw.githubusercontent.com/cssbristol/cssbristol.github.io/master/LICENSE.md) license.
