@@ -1,11 +1,11 @@
 /* Header styles */
 
 @media (max-width: 950px) {
-  #nav-links li:not(#nav-icon) {
+  #nav-links li:not(#nav-open) {
     display: none;
   }
 
-  #nav-icon {
+  #nav-open {
     display: inline-block;
   }
 }
@@ -13,6 +13,10 @@
 @media (max-width: 550px) {
   #navigation {
     padding: 20px 30px;
+  }
+
+  #nav-close {
+    right: 10px;
   }
 
   #nav-logo-large {
