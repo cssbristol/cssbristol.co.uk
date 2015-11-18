@@ -12,21 +12,13 @@ Questions? Comments? Feel free to drop us a line on Twitter at [@CSSBristol](htt
 
 ## Contributing
 
-#### Articles
-
-Coming soon!
-
-#### Tutorials
+#### Blog Posts, Tutorials & Alumni Profiles
 
 Coming soon!
 
 #### Job Offers
 
-Coming soon!
-
-#### Alumni Profiles
-
-Coming soon!
+Have a job offer you would like to advertise? Please fill in the form that can be found at [LINK] and send it to president@cssbristol.co.uk. We will be in touch shortly!
 
 #### Site improvements
 

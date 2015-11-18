@@ -1,0 +1,106 @@
+/* Header styles */
+
+@media (max-width: 950px) {
+  #nav-links li:not(#nav-open) {
+    display: none;
+  }
+
+  #nav-open {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 550px) {
+  #navigation {
+    padding: 20px 30px;
+  }
+
+  #nav-close {
+    right: 10px;
+  }
+
+  #nav-logo-large {
+    display: none;
+  }
+
+  #nav-logo-small {
+    display: block;
+  }
+}
+
+@media (max-height: 500px) {
+  #collapsed-nav li a {
+    padding: 20px;
+  }
+}
+
+/* Content styles */
+
+@media (max-width: 550px) {
+  #content { 
+    padding: 50px 0px 20px;
+  }
+}
+
+/* Section styles */
+
+@media (max-width: 550px) {
+  .section, .inner-section {
+    margin: 0 auto 50px;
+    padding: 0px 30px;
+    .section-title {
+      font-size: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  }
+}
+
+/* Sponsor styles */
+
+@media (max-width: 900px) {
+  .sponsor-item {
+    width: 50%;
+    &.last-item {
+      width: 50%;
+    }  
+  }
+}
+
+@media (max-width: 550px) {
+  .sponsor-item {
+    width: 100%;
+    &.last-item {
+      width: 100%;
+    }  
+  }
+
+  #new-sponsor {
+    margin-top: 20px;
+  }
+}
+
+/* Footer styles */
+
+@media (max-width: 900px) {
+  #footer {
+    text-align: center;
+    padding: 20px 50px 5px;
+  }
+
+  #footer-copy {
+    float: none;
+  }
+
+  #footer-nav {
+    float: none;
+    padding: 0;
+    li {
+      display: inline-block;
+      margin-left: 0px;
+      a {
+        padding: 5px 10px;
+      }
+    }
+  }
+}

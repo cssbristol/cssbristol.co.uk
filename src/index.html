@@ -7,6 +7,13 @@
   <meta name="description" content="Computer Science Society of the University of Bristol. We organise events and promote job offers for our members and students.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <meta name="og:type" property="og:type" content="website" />
+  <meta name="og:image" property="og:image" content="/images/logo-dark.png" />
+  <meta name="og:title" property="og:title" content="Computer Science Society | University of Bristol" />
+  <meta name="og:description" property="og:description" content="Computer Science Society of the University of Bristol. We organise events and promote job offers for our members and students." />
+  <!-- TODO: change to actual URL -->
+  <meta name="og:url" property="og:url" content="https://cssbristol.github.io"/>
+
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/favicon.png">
@@ -17,8 +24,10 @@
   <!-- endbower -->
   <!-- endbuild -->
 
-  <!-- build:css(.tmp) styles/app.css -->
+  <!-- build:css(.tmp) styles/index.css -->
   <link rel="stylesheet" href="/styles/fonts.css">
+  <link rel="stylesheet" href="/styles/general.css">
+  <link rel="stylesheet" href="/styles/general-responsive.css">
   <link rel="stylesheet" href="/styles/index.css">
   <link rel="stylesheet" href="/styles/index-responsive.css">
   <!-- endbuild -->
@@ -29,7 +38,7 @@
   <div id="collapsed-header">
     <img src="/images/close-icon-light.png" alt="Close icon" title="Close menu" id="nav-close" />
     <ul id="collapsed-nav">
-      <li><a href="#">About</a></li>
+      <li><a href="/about">About</a></li>
       <li><a href="#">Events</a></li>
       <li><a href="#">Jobs</a></li>
       <li><a href="#">Tutorials</a></li>
@@ -44,7 +53,7 @@
         <img id="nav-logo-small" src="/images/logo-small-light.png" alt="CSS Bristol logo" />
       </a>
       <ul id="nav-links" class="clear">
-        <li><a href="#">About</a></li>
+        <li><a href="/about">About</a></li>
         <li><a href="#">Events</a></li>
         <li><a href="#">Jobs</a></li>
         <li><a href="#">Tutorials</a></li>
@@ -56,7 +65,7 @@
       <div id="strapline-content">
         <div id="strap-top">University of Bristol</div>
         <div id="strap-centre">Computer Science Society</div>
-        <a class="btn btn-light" href="#">About us</a>
+        <a class="btn btn-light" href="/about">About us</a>
       </div>
     </div>
   </div>
@@ -140,7 +149,7 @@
 
         <div id="new-sponsor" class="sponsor-item last-item">
           <div>This could be you!</div>
-          <a class="btn" href="#">Get in touch</a>
+          <a class="btn" href="mailto:president@cssbristol.co.uk" target="_blank">Get in touch</a>
         </div>
 
       </div>
@@ -150,7 +159,7 @@
   <div id="footer" class="clear">
     <span id="footer-copy">&copy; University of Bristol Computer Science Society</span>
     <ul id="footer-nav">
-      <li><a href="#">About</a></li>
+      <li><a href="/about">About</a></li>
       <li><a href="#">Events</a></li>
       <li><a href="#">Jobs</a></li>
       <li><a href="#">Tutorials</a></li>
@@ -165,7 +174,8 @@
   <script src="/bower_components/canvas-particle-network/particle-network.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
-  <!-- build:js scripts/app.js -->
+  <!-- build:js scripts/index.js -->
+  <script src="/scripts/general.js"></script>
   <script src="/scripts/index.js"></script>
   <!-- endbuild -->
 

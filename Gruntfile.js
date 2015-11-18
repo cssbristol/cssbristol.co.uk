@@ -13,6 +13,8 @@ module.exports = function (grunt) {
     dist: 'dist'
   };
 
+  // var modRewrite = require('connect-modrewrite');
+
   // Define the configuration for all the tasks
   grunt.initConfig({
 
@@ -30,7 +32,11 @@ module.exports = function (grunt) {
         tasks: ['eslint']
       },
       styles: {
-        files: ['<%= config.app %>/styles/**/*.less'],
+        files: ['<%= config.app %>/styles/**/*.less', '!<%= config.app %>/styles/imports.less'],
+        tasks: ['newer:less', 'newer:postcss']
+      },
+      lessImports: {
+        files: ['<%= config.app %>/styles/imports.less'],
         tasks: ['less', 'postcss']
       }
     },
@@ -109,7 +115,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '.tmp/styles/',
-          src: ['**/*.css'],
+          src: ['**/*.css', '!imports.css'],
           dest: '.tmp/styles/'
         }]
       }
@@ -121,7 +127,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= config.app %>/styles/',
-          src: ['**/*.less'],
+          src: ['**/*.less', '!imports.less'],
           dest: '.tmp/styles/',
           ext: '.css'
         }]
@@ -131,7 +137,7 @@ module.exports = function (grunt) {
     // Automatically inject Bower components into the HTML file
     wiredep: {
       app: {
-        src: ['<%= config.app %>/index.html'],
+        src: ['<%= config.app %>/**/*.html'],
         ignorePath: /^(\.\.\/)*\.\./
       }
     },
@@ -156,7 +162,7 @@ module.exports = function (grunt) {
       options: {
         dest: '<%= config.dist %>'
       },
-      html: '<%= config.app %>/index.html'
+      html: '<%= config.app %>/**/*.html'
     },
 
     // Performs rewrites based on rev and the useminPrepare configuration
@@ -285,7 +291,7 @@ module.exports = function (grunt) {
   grunt.registerTask('dist', ['build']);
 
   grunt.registerTask('build', [
-    'newer:eslint',
+    'eslint',
     'clean:dist',
     'wiredep',
     'useminPrepare',

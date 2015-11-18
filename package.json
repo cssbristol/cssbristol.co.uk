@@ -2,6 +2,7 @@
   "private": true,
   "devDependencies": {
     "autoprefixer": "^6.0.2",
+    "connect-modrewrite": "^0.8.2",
     "grunt": "^0.4.5",
     "grunt-assemble": "^0.4.0",
     "grunt-browser-sync": "^2.1.2",
