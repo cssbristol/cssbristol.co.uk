@@ -13,7 +13,7 @@ module.exports = function (grunt) {
     dist: 'dist'
   };
 
-  // var modRewrite = require('connect-modrewrite');
+  var modRewrite = require('connect-modrewrite');
 
   // Define the configuration for all the tasks
   grunt.initConfig({
@@ -62,7 +62,12 @@ module.exports = function (grunt) {
             baseDir: ['.tmp', config.app],
             routes: {
               '/bower_components': './bower_components'
-            }
+            },
+            middleware: [
+              modRewrite([
+                '^.([^\\.]+)$ /$1.html [L]'
+              ])
+            ]
           }
         }
       },
