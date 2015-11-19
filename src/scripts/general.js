@@ -15,7 +15,7 @@ navClose.on('click', function () {
 });
 
 $(window).resize(function () {
-  if ($(window).width() > 950) {
+  if ($(window).width() > 1050) {
     navOpen.css('display', '');
     collapsedNav.fadeOut();
   }

@@ -1,42 +1,19 @@
 @import 'imports.less'; 
 
-/* Header styles */
-
-#header {
-  height: 90px;
-  width: 100%;
-  background-image: url('../images/header-bg.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-/* Section styles */
-
-.section, .inner-section {
-	.section-title {
-	  text-align: center;
-	}
-}
-
 /* Intro section styles */
 
-#intro-section .section-content {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 300;
-  a {
-    color: @blue;
-    font-weight: 500;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom .2s;
-    &:hover {
-      border-bottom: 2px solid @blue;
-    }
-  }
+#intro-section {
+  width: 100%;
+  max-width: none;
+  padding: 0 0 20px;
+  background: url('../images/gradient-up.png') repeat-x bottom left;
 }
 
 /* Committee section styles */
+
+#committee-section {
+  margin-bottom: 30px;
+}
 
 .committee-item {
   float: left;
@@ -72,4 +49,13 @@
       color: @blue;
     }
   }
+}
+
+/* Sponsors section */
+
+#sponsors-section {
+  width: 100%;
+  max-width: none;
+  padding: 80px 0 0;
+  background: url('../images/gradient-down.png') repeat-x top left;
 }
