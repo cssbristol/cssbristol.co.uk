@@ -186,7 +186,7 @@ module.exports = function (grunt) {
       },
       html: ['<%= config.dist %>/**/*.html'],
       css: ['<%= config.dist %>/styles/**/*.css'],
-      js: ['<%= config.dist %>/scripts/*.js']
+      js: ['<%= config.dist %>/scripts/**/*.js']
     },
 
     // The following *-min tasks produce minified files in the dist folder
