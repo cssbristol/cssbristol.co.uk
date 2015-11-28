@@ -1,6 +1,10 @@
+/* --------------------
+Jobs scripts
+-------------------- */
+
 // Setup Isotope layout for job items
 
-$('#job-section .section-content').isotope({
+$('#job-page #job-section .section-content').isotope({
   itemSelector: '.job-item',
   percentPosition: true,
   masonry: {
