@@ -1,39 +1,46 @@
 <div class="section" id="featured-section">
   <div class="section-title">What's currently on</div>
   <div class="section-content clear">
-
+    <!-- First featured items column -->
     <div class="feat-col">
-      <a id="feat-item-1" class="feat-item item-large type-{{ :: main.featuredItems[0].type }}" href="#" target="_blank" title="{{ :: main.featuredItems[0].title }}">
+      <!-- Featured item #1 -->
+      <a id="feat-item-1" class="feat-item item-large type-{{ :: main.featuredItems[0].type }}" href="{{ main.featuredItems[0].link ? main.featuredItems[0].link : '#' }}" target="_blank" title="{{ :: main.featuredItems[0].title }}">
         <div class="item-title">{{ :: main.featuredItems[0].title }}</div>
         <div class="item-meta">{{ :: main.featuredItems[0].meta }}</div>
       </a>
-      <a id="feat-item-2" class="feat-item item-small type-{{ :: main.featuredItems[1].type }}" href="#" title="{{ :: main.featuredItems[1].title }}">
+      <!-- Featured item #2 -->
+      <a id="feat-item-2" class="feat-item item-small type-{{ :: main.featuredItems[1].type }}" href="{{ main.featuredItems[1].link ? main.featuredItems[1].link : '#' }}" title="{{ :: main.featuredItems[1].title }}">
         <div class="item-title">{{ :: main.featuredItems[1].title }}</div>
         <div class="item-meta">{{ :: main.featuredItems[1].meta }}</div>
       </a>
     </div>
-
+    <!-- Second featured items column -->
     <div class="feat-col">
-      <a id="feat-item-3" class="feat-item item-small type-{{ :: main.featuredItems[2].type }}" href="#" title="{{ :: main.featuredItems[2].title }}">
+    <!-- Featured item #3 -->
+      <a id="feat-item-3" class="feat-item item-small type-{{ :: main.featuredItems[2].type }}" href="{{ main.featuredItems[2].link ? main.featuredItems[2].link : '#' }}" title="{{ :: main.featuredItems[2].title }}">
         <div class="item-title">{{ :: main.featuredItems[2].title }}</div>
         <div class="item-meta">{{ :: main.featuredItems[2].meta }}</div>
       </a>
-      <a id="feat-item-4" class="feat-item item-small type-{{ :: main.featuredItems[3].type }}" href="#" title="{{ :: main.featuredItems[3].title }}">
+      <!-- Featured item #4 -->
+      <a id="feat-item-4" class="feat-item item-small type-{{ :: main.featuredItems[3].type }}" href="{{ main.featuredItems[3].link ? main.featuredItems[3].link : '#' }}" title="{{ :: main.featuredItems[3].title }}">
         <div class="item-title">{{ :: main.featuredItems[3].title }}</div>
         <div class="item-meta">{{ :: main.featuredItems[3].meta }}</div>
       </a>
-      <a id="feat-item-5" class="feat-item item-small type-{{ :: main.featuredItems[4].type }}" href="#" target="_blank" title="{{ :: main.featuredItems[4].title }}">
+      <!-- Featured item #5 -->
+      <a id="feat-item-5" class="feat-item item-small type-{{ :: main.featuredItems[4].type }}" href="{{ main.featuredItems[4].link ? main.featuredItems[4].link : '#' }}" target="_blank" title="{{ :: main.featuredItems[4].title }}">
         <div class="item-title">{{ :: main.featuredItems[4].title }}</div>
         <div class="item-meta">{{ :: main.featuredItems[4].meta }}</div>
       </a>
     </div>
-
+    <!-- Third featured items column -->
     <div class="feat-col last-col">
-      <a id="feat-item-6" class="feat-item item-small type-{{ :: main.featuredItems[5].type }}" href="#" target="_blank" title="{{ :: main.featuredItems[5].title }}">
+      <!-- Featured item #6 -->
+      <a id="feat-item-6" class="feat-item item-small type-{{ :: main.featuredItems[5].type }}" href="{{ main.featuredItems[5].link ? main.featuredItems[5].link : '#' }}" target="_blank" title="{{ :: main.featuredItems[5].title }}">
         <div class="item-title">{{ :: main.featuredItems[5].title }}</div>
         <div class="item-meta">{{ :: main.featuredItems[5].meta }}</div>
       </a>
-      <a id="feat-item-7" class="feat-item item-large type-{{ :: main.featuredItems[6].type }}" href="#" title="{{ :: main.featuredItems[6].title }}">
+      <!-- Featured item #71 -->
+      <a id="feat-item-7" class="feat-item item-large type-{{ :: main.featuredItems[6].type }}" href="{{ main.featuredItems[6].link ? main.featuredItems[6].link : '#' }}" title="{{ :: main.featuredItems[6].title }}">
         <div class="item-title">{{ :: main.featuredItems[6].title }}</div>
         <div class="item-meta">{{ :: main.featuredItems[6].meta }}</div>
       </a>
