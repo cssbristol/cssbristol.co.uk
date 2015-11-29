@@ -6,7 +6,7 @@ This repo hosts the source code for the University of Bristol Computer Science S
 
 Please visit the `develop` branch for the inner workings of the site, as `master` only hosts the latest build hooked up to https://cssbristol.co.uk via GitHub Pages.
 
-This static site structure was chosen as it allows any and all to contribute tutorials, articles, and site improvements, etc. with minimal fuss. For more information on contributing, please see the section below!
+The entire website is an AngularJS single page application (SPA), built with Grunt, and with dynamic content written in YAML. This allows any and all to contribute tutorials, articles, and site improvements, etc. with minimal fuss. For more information on contributing, please see the section below!
 
 Questions? Comments? Feel free to drop us a line on Twitter at [@CSSBristol](https://twitter.com/cssbristol) or via e-mail at webmaster@cssbristol.co.uk!
 
