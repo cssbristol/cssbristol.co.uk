@@ -1,12 +1,7 @@
-<div id="collapsed-header" ng-show="header.showCollapsed">
-  <img src="/assets/images/close-icon-light.png" alt="Close icon" title="Close menu" id="nav-close" ng-click="header.showCollapsed = false" />
+<div id="collapsed-header" ng-show="header.showCollapsed" ng-click="header.showCollapsed = false">
+  <img src="/assets/images/close-icon-light.png" alt="Close icon" title="Close menu" id="nav-close" />
   <ul id="collapsed-nav">
-    <li><a href="/about">About</a></li>
-    <li><a href="#">Events</a></li>
-    <li><a href="/jobs">Jobs</a></li>
-    <li><a href="/support">Support</a></li>
-    <li><a href="#">Tutorials</a></li>
-    <li><a href="#">Blog</a></li>
+    <li ng-repeat="(item, link) in navItems"><a href="{{ link }}">{{ item }}</a></li>
   </ul>
 </div>
 
@@ -17,12 +12,7 @@
       <img id="nav-logo-small" src="/assets/images/logo-small-light.png" alt="CSS Bristol logo" />
     </a>
     <ul id="nav-links" class="clear">
-      <li><a href="/about">About</a></li>
-      <li><a href="#">Events</a></li>
-      <li><a href="/jobs">Jobs</a></li>
-      <li><a href="/support">Support</a></li>
-      <li><a href="#">Tutorials</a></li>
-      <li><a href="#">Blog</a></li>
+      <li ng-repeat="(item, link) in navItems"><a href="{{ link }}">{{ item }}</a></li>
       <li id="nav-open" ng-click="header.showCollapsed = true" ng-show="!header.showCollapsed"><img src="/assets/images/menu-icon-light.png" alt="Menu icon" title="Open menu" /></li>
     </ul>
   </div>
@@ -42,12 +32,7 @@
       <img id="nav-logo-small" src="/assets/images/logo-small-light.png" alt="CSS Bristol logo" />
     </a>
     <ul id="nav-links" class="clear">
-      <li><a href="/about">About</a></li>
-      <li><a href="#">Events</a></li>
-      <li><a href="/jobs">Jobs</a></li>
-      <li><a href="/support">Support</a></li>
-      <li><a href="#">Tutorials</a></li>
-      <li><a href="#">Blog</a></li>
+      <li ng-repeat="(item, link) in navItems"><a href="{{ link }}">{{ item }}</a></li>
       <li id="nav-open" ng-click="header.showCollapsed = true" ng-show="!header.showCollapsed"><img src="/assets/images/menu-icon-light.png" alt="Menu icon" title="Open menu" /></li>
     </ul>
   </div>

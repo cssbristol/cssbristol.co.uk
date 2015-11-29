@@ -14,9 +14,15 @@ cssApp.config(function ($routeProvider, $locationProvider) {
     })
     .when('/about', {
       templateUrl: '/app/components/about/aboutView.html',
-      controller: 'aboutController',
-      controllerAs: 'about',
       title: 'About Us'
+    })
+    .when('/support', {
+      templateUrl: '/app/components/support/supportView.html',
+      title: 'Support'
+    })
+    .when('/jobs', {
+      templateUrl: '/app/components/jobs/jobView.html',
+      title: 'Job Openings'
     })
     .otherwise({
       redirectTo: '/'

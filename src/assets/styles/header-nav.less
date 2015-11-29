@@ -65,6 +65,47 @@
   }
 }
 
+/* Header strapline styles */
+
+#strapline {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  text-align: center;
+  text-transform: uppercase;
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+}
+
+#strapline-content {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 50px;
+  width: 80%;
+  .btn {
+    margin-top: 30px;
+  }
+}
+
+#strap-top {
+  font-size: 16px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+#strap-centre {
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  line-height: 38px;
+}
+
 /* Collapsed header styles */
 
 #collapsed-header {

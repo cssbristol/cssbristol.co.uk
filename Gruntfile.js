@@ -11,7 +11,7 @@ module.exports = function (grunt) {
     dist: 'dist'
   };
 
-  // var modRewrite = require('connect-modrewrite');
+  var modRewrite = require('connect-modrewrite');
 
   // Define the configuration for all the tasks
   grunt.initConfig({
@@ -26,7 +26,7 @@ module.exports = function (grunt) {
         tasks: ['wiredep']
       },
       js: {
-        files: ['<%= config.app %>/assets/scripts/**/*.js', 'Gruntfile.js'],
+        files: ['<%= config.app %>/**/*.js', 'Gruntfile.js'],
         tasks: ['eslint']
       },
       styles: {
@@ -56,12 +56,12 @@ module.exports = function (grunt) {
             baseDir: ['.tmp', config.app],
             routes: {
               '/bower_components': './bower_components'
-            }
-            // middleware: [
-            //   modRewrite([
-            //     '^.([^\\.]+)$ /$1.html [L]'
-            //   ])
-            // ]
+            },
+            middleware: [
+              modRewrite([
+                '^.([^\\.]+)$ /index.html [L]'
+              ])
+            ]
           }
         }
       },
@@ -246,13 +246,6 @@ module.exports = function (grunt) {
           ]
         }]
       }
-      // styles: {
-      //   expand: true,
-      //   dot: true,
-      //   cwd: '<%= config.app %>/styles',
-      //   dest: '.tmp/styles/',
-      //   src: '**/*.css'
-      // }
     },
 
     buildcontrol: {

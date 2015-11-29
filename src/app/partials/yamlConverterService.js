@@ -9,14 +9,15 @@ cssApp.factory('yamlConverterService', function ($http, $filter) {
     if (type === 'featured') {
       return '/data/featuredItems.yaml';
     }
+    else if (type === 'sponsors') {
+      return '/data/sponsors.yaml';
+    }
     return '';
   };
 
   // Parse data based on type
   var parseData = function (type, data) {
     if (type === 'featured') {
-
-      var featuredItems = [];
 
       for (var i = 0; i < data.length; i++) {
         // Amend author if exists
@@ -29,9 +30,9 @@ cssApp.factory('yamlConverterService', function ($http, $filter) {
           data[i].meta = (data[i].type === 'job') ? 'Deadline: ' + data[i].date : data[i].date;
         }
       }
-
-      return data;
     }
+
+    return data;
   }
 
   // Public converter method

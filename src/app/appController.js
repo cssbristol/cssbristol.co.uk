@@ -9,4 +9,13 @@ cssApp.controller('appController', function ($scope, $route, $location) {
     $scope.currentPage = $route.current.title;
   });
   
+  // Set nav items
+  $scope.navItems = {
+    'About': '/about',
+    'Events': '#',
+    'Jobs': '/jobs',
+    'Support': '/support',
+    'Tutorials': '#',
+    'Blog': '#'
+  };
 });
