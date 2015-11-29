@@ -2,7 +2,7 @@
 
 var cssApp = angular.module('cssApp');
 
-cssApp.factory('yamlConverterService', function ($http, $filter) {
+cssApp.factory('yamlConverterService', ['$http', '$filter', function ($http, $filter) {
 
   // Get filename from type
   var getFileName = function (type) {
@@ -48,4 +48,4 @@ cssApp.factory('yamlConverterService', function ($http, $filter) {
   return {
     converter: converter
   };
-});
+}]);

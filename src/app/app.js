@@ -4,7 +4,7 @@
 
 var cssApp = angular.module('cssApp', ['ngRoute', 'ngAnimate']);
 
-cssApp.config(function ($routeProvider, $locationProvider) {
+cssApp.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
   $routeProvider
     .when('/', {
       templateUrl: '/app/components/main/mainView.html',
@@ -28,4 +28,4 @@ cssApp.config(function ($routeProvider, $locationProvider) {
       redirectTo: '/'
     });
   $locationProvider.html5Mode(true);
-});
+}]);

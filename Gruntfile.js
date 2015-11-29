@@ -149,7 +149,9 @@ module.exports = function (grunt) {
           '<%= config.dist %>/assets/styles/**/*.css',
           '<%= config.dist %>/assets/images/**/*.*',
           '<%= config.dist %>/assets/fonts/**/*.*',
-          '<%= config.dist %>/*.{ico,png}'
+          '<%= config.dist %>/*.{ico,png}',
+          '!<%= config.dist %>/assets/images/sponsors/*.*',
+          '!<%= config.dist %>/assets/images/featured/*.*'
         ]
       }
     },
@@ -239,6 +241,7 @@ module.exports = function (grunt) {
           dest: '<%= config.dist %>',
           src: [
             '*.{ico,png,txt}',
+            'data/**/*.*',
             'assets/images/**/*.webp',
             '**/*.html',
             '*.md',

@@ -2,7 +2,7 @@
 
 var cssApp = angular.module('cssApp');
 
-cssApp.controller('appController', function ($scope, $route, $location) {
+cssApp.controller('appController', ['$scope', '$route', '$location', function ($scope, $route, $location) {
 
   // On route change, update current page
   $scope.$on('$routeChangeSuccess', function ($currentRoute, $previousRoute) {
@@ -18,4 +18,4 @@ cssApp.controller('appController', function ($scope, $route, $location) {
     'Tutorials': '#',
     'Blog': '#'
   };
-});
+}]);

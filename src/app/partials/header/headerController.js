@@ -2,7 +2,7 @@
 
 var cssApp = angular.module('cssApp');
 
-cssApp.controller('headerController', function ($scope, $window) {
+cssApp.controller('headerController', ['$scope', '$window', function ($scope, $window) {
 
   this.showCollapsed = false;
   
@@ -16,4 +16,4 @@ cssApp.controller('headerController', function ($scope, $window) {
     }
   }.bind(this));
 
-});
+}]);
