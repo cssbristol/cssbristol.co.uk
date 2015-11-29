@@ -1,0 +1,62 @@
+# This file stores the featured items to be displayed on the website's homepage
+# Entries must be formatted in YAML (https://en.wikipedia.org/wiki/YAML)
+
+# Each item possesses the following fields:
+# - title: Title of the featured item
+# - type: Valid types: event, tutorial, blog (for blog posts), job (for job offers)
+# - link: URL to the item in question, be it on the CSS website or the calendar in case of events
+# - date: The date for events, or deadline for job offers if applicable. Must follow the international ISO standard. Leave empty if not-applicable
+# - author: The author, if a blog post or tutorial. Must simply be the name. Leave empty if not-applicable
+
+# PLEASE NOTE that the date and author fields are mutually exclusive. If both are present, only the author will be displayed!
+
+---
+
+# First item (1st column, 1st item)
+- title: BAML Tech Presentation BAML Tech Presentation BAML Tech Presentation
+  type: event
+  link: 
+  date: 2014-11-12 19:00:00
+  author:
+
+# Second item (1st column, 2nd item)
+- title: Smilemachine is recruiting!
+  type: job
+  link: 
+  date: 2014-12-05 23:00:00
+  author:
+
+# Third item (2nd column, 1st item)
+- title: Ammeon is recruiting!
+  type: job
+  link: 
+  date: 
+  author:
+
+# Fourth item (2nd column, 2nd item)
+- title: Using Sublime in the Linux Labs
+  type: tutorial
+  link:  
+  date:
+  author: Rob Briggs
+
+# Fifth item (2nd column, 3rd item)
+- title: Wriggle Talk
+  type: event
+  link: 
+  date: 2014-10-31 18:30:00
+  author:
+
+# Sixth item (3rd column, 1st item)
+- title: Super Smash Barcrawl
+  type: event
+  link:
+  date: 2014-12-02 18:30:00
+  author: 
+
+# Seventh item (3rd column, 2nd item)
+- title: Outreach - trip to my school
+  type: blog
+  link: 
+  date:
+  author: Sam Healer

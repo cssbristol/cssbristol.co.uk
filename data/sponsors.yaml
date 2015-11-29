@@ -1,0 +1,17 @@
+# This file stores the society's current sponsors as displayed on the home and about pages
+# Entries must be formatted in YAML (https://en.wikipedia.org/wiki/YAML)
+
+# Each item possesses the following fields:
+# - name: Name of the company
+# - logo: Company logo. The image itself must be stored under /assets/images/sponsors, and it will be prefixed as such in the HTML
+# - url: URL of the sponsor. Please prefix it with https:// whenever possible, or leave blank if not-applicable
+
+---
+
+- name: Bloomberg
+  logo: bloomberg.png
+  url: https://bloomberg.com
+
+- name: Purple Secure Systems
+  logo: purplesecure.png
+  url: https://purplesecure.com
