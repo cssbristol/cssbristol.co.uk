@@ -1,0 +1,156 @@
+/* Header & navigation styles */
+
+#header {
+  width: 100%;
+  color: #fff;
+  &.hero {
+    overflow: hidden;
+    height: 500px;
+  }
+  &:not(.hero) {
+    height: 90px;
+    background-image: url('../images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+#navigation {
+  position: absolute;
+  width: 100%;
+  z-index: 1001;
+  padding: 20px 50px;
+  box-sizing: border-box;
+}
+
+#nav-home {
+  float: left;
+  margin-top: 5px;
+  img {
+    height: 40px;
+  }
+}
+#nav-logo-small {
+  display: none;
+}
+
+#nav-links {
+  float: right;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  li:not(#nav-open) {
+    display: inline-block;
+    margin-left: 10px;
+    a {
+      padding: 10px;
+      color: #fff;
+    }
+  }
+}
+
+#nav-open {
+  cursor: pointer;
+  display: none;
+  transition: opacity .2s;
+  img {
+    height: 20px;
+    width: 20px;
+  }
+  &.ng-hide {
+    opacity: 0;
+  }
+}
+
+/* Collapsed header styles */
+
+#collapsed-header {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1002;
+  font-size: 0;
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  transition: all .2s;
+  &.ng-hide {
+    opacity: 0;
+  }
+}
+
+#nav-close {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  padding: 20px;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+
+#collapsed-nav {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  li {
+    transition: background .2s;
+    a {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 2px;
+      padding: 30px;
+      display: block;
+    }
+    &:first-of-type {
+      background: darken(@purple, 5%);
+      &:hover {
+        background: @purple;
+      }
+    }
+    &:nth-of-type(2) {
+      background: darken(@green, 5%);
+      &:hover {
+        background: @green;
+      }
+    }
+    &:nth-of-type(3) {
+      background: darken(@red, 5%);
+      &:hover {
+        background: @red;
+      }
+    }
+    &:nth-of-type(4) {
+      background: darken(@blue, 5%);
+      &:hover {
+        background: @blue;
+      }
+    }
+    &:nth-of-type(5) {
+      background: darken(@orange, 5%);
+      &:hover {
+        background: @orange;
+      }
+    }
+    &:last-of-type {
+      background: darken(@turquoise, 5%);
+      &:hover {
+        background: @turquoise;
+      }
+    }
+  }
+}
