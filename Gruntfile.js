@@ -251,6 +251,17 @@ module.exports = function (grunt) {
             'assets/fonts/**/*.*'
           ]
         }]
+      },
+      err404: {
+        files: [{
+          cwd: '<%= config.dist %>',
+          dest: '<%= config.dist %>/',
+          expand: true,
+          src: ['index.html'],
+          rename: function (dest, src) {
+            return dest + src.replace('index', '404');
+          }
+        }]
       }
     },
 
@@ -331,7 +342,7 @@ module.exports = function (grunt) {
     'concat',
     'cssmin',
     'uglify',
-    'copy:dist',
+    'copy',
     'filerev',
     'usemin',
     'htmlmin'
