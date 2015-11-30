@@ -35,8 +35,6 @@ Currently, all code was handcrafted with <3 and is maintained by the current CSS
 - Finalise support page
 - Add site notice if JS disabled
 - Fix Page Insights
-- Restructure job image folder naming
-- Fix redirect on refresh
 
 ## License
 
