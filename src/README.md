@@ -33,6 +33,10 @@ Currently, all code was handcrafted with <3 and is maintained by the current CSS
 - Optimise SEO via HTML snapshots of pages
 - Add pagination to job offers, tutorials & blogs
 - Finalise support page
+- Add site notice if JS disabled
+- Fix Page Insights
+- Restructure job image folder naming
+- Fix redirect on refresh
 
 ## License
 

@@ -154,8 +154,7 @@ module.exports = function (grunt) {
           '<%= config.dist %>/assets/images/**/*.*',
           '<%= config.dist %>/assets/fonts/**/*.*',
           '<%= config.dist %>/*.{ico,png}',
-          '!<%= config.dist %>/assets/images/sponsors/*.*',
-          '!<%= config.dist %>/assets/images/featured/*.*'
+          '!<%= config.dist %>/assets/images/{sponsors,featured,ind-jobs}/*'
         ]
       }
     },
