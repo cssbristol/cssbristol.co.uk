@@ -57,7 +57,7 @@
 
       <a ng-repeat="job in jobs.jobList" class="job-item {{ :: job.allowed.join(' ') }}" href="#" data-job-created="{{ :: job.created }}" data-job-deadline="{{ :: job.deadline }}" event-on-finish="isotopeReady">
         <div class="job-logo">
-          <img ng-src="/assets/images/ind-jobs/{{ :: job.logo }}" alt="Job logo" />
+          <img ng-src="/assets/images/contrib/jobs/{{ :: job.logo }}" alt="Job logo" />
         </div>
         <div class="job-name">{{ :: job.name }}</div>
         <div class="job-company job-meta" title="Company">{{ :: job.company }}</div>

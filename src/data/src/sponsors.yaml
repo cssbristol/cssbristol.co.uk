@@ -3,7 +3,7 @@
 
 # Each item possesses the following fields:
 # - name: Name of the company
-# - logo: Company logo. The image itself must be stored under /assets/images/sponsors, and it will be prefixed as such in the HTML
+# - logo: Company logo. The image itself must be stored under /assets/images/contrib/sponsors, and it will be prefixed as such in the HTML
 # - url: URL of the sponsor. Please prefix it with https:// whenever possible, or leave blank if not-applicable
 
 ---

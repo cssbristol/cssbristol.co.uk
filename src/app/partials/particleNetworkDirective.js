@@ -10,7 +10,7 @@ cssApp.directive('particleNetwork', function () {
     link: function (scope, element, attrs) {
       var options = {
         particleColor: '#999',
-        background: 'assets/images/header-bg.jpg',
+        background: 'assets/images/core/header-bg.jpg',
         interactive: false,
         speed: 'none',
         density: 'high'

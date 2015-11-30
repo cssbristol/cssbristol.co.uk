@@ -151,10 +151,9 @@ module.exports = function (grunt) {
         src: [
           '<%= config.dist %>/assets/scripts/**/*.js',
           '<%= config.dist %>/assets/styles/**/*.css',
-          '<%= config.dist %>/assets/images/**/*.*',
+          '<%= config.dist %>/assets/images/core/**/*.*',
           '<%= config.dist %>/assets/fonts/**/*.*',
-          '<%= config.dist %>/*.{ico,png}',
-          '!<%= config.dist %>/assets/images/{sponsors,featured,ind-jobs}/*'
+          '<%= config.dist %>/*.{ico,png}'
         ]
       }
     },
@@ -179,7 +178,7 @@ module.exports = function (grunt) {
         ],
         patterns: {
           js: [
-            [/(assets\/images\/header-bg\.jpg)/g, 'Replacing reference to header-bg.jpg']
+            [/(assets\/images\/core\/header-bg\.jpg)/g, 'Replacing reference to header-bg.jpg']
           ]
         }
       },
