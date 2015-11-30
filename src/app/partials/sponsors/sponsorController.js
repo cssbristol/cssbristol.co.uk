@@ -2,9 +2,9 @@
 
 var cssApp = angular.module('cssApp');
 
-cssApp.controller('sponsorController', ['$scope', 'yamlConverterService', function ($scope, yamlConverterService) {
+cssApp.controller('sponsorController', ['$scope', 'yamlService', function ($scope, yamlService) {
 
-  yamlConverterService.converter('sponsors').then(function (data) {
+  yamlService.fetch('sponsors').then(function (data) {
     this.sponsors = data;
   }.bind(this));
 

@@ -22,7 +22,9 @@ cssApp.config(['$routeProvider', '$locationProvider', function ($routeProvider, 
     })
     .when('/jobs', {
       templateUrl: '/app/components/jobs/jobView.html',
-      title: 'Job Openings'
+      title: 'Job Openings',
+      controller: 'jobController',
+      controllerAs: 'jobs'
     })
     .otherwise({
       redirectTo: '/'

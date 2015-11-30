@@ -5,7 +5,7 @@
 # - title: Title of the featured item
 # - type: Valid types: event, tutorial, blog (for blog posts), job (for job offers)
 # - link: URL to the item in question, be it on the CSS website or the calendar in case of events
-# - date: The date for events, or deadline for job offers if applicable. Must follow the international ISO standard. Leave empty if not-applicable
+# - date: The date for events, or deadline for job offers if applicable. Must follow the international ISO standard (yyyy-mm-dd hh:mm:ss). Leave empty if not-applicable
 # - author: The author, if a blog post or tutorial. Must simply be the name. Leave empty if not-applicable
 
 # PLEASE NOTE that the date and author fields are mutually exclusive. If both are present, only the author will be displayed!

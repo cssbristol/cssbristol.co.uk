@@ -32,6 +32,10 @@ module.exports = function (grunt) {
       styles: {
         files: ['<%= config.app %>/assets/styles/**/*.less'],
         tasks: ['less', 'postcss']
+      },
+      yaml: {
+        files: ['<%= config.app %>/data/src/**/*.yaml'],
+        tasks: ['dumpDir']
       }
     },
 
@@ -266,8 +270,37 @@ module.exports = function (grunt) {
       }
     }
   });
+  
+  grunt.registerTask('dumpDir', 'Dump directory to json', function (target) {
 
-  grunt.registerTask('serve', 'start the server and preview your app', function (target) {
+    target = target === undefined ? 'all' : target;
+    var cwd;
+
+    if (target === 'sponsors' || target === 'all') {
+      cwd = config.app + '/data/src/';
+      grunt.file.write(config.app + '/data/dist/sponsors.json', JSON.stringify(grunt.file.readYAML(cwd + 'sponsors.yaml')));
+    }
+
+    if (target === 'featured' || target === 'all') {
+      cwd = config.app + '/data/src/';
+      grunt.file.write(config.app + '/data/dist/featuredItems.json', JSON.stringify(grunt.file.readYAML(cwd + 'featuredItems.yaml')));
+    }
+
+    if (target === 'jobs' || target === 'all') {
+
+      cwd = config.app + '/data/src/jobs/';
+      var files = grunt.file.expand({ cwd: cwd }, '*.yaml');
+      
+      var dump = {};
+      for (var i = 0; i < files.length; i++) {
+        dump[files[i]] = grunt.file.readYAML(cwd + files[i]);
+      }
+
+      grunt.file.write(config.app + '/data/dist/allJobs.json', JSON.stringify(dump));
+    }
+  });
+
+  grunt.registerTask('serve', 'Start the server and preview app', function (target) {
 
     if (target === 'dist') {
       return grunt.task.run(['build', 'browserSync:dist']);
@@ -277,6 +310,7 @@ module.exports = function (grunt) {
       'clean:server',
       'wiredep',
       'less',
+      'dumpDir',
       'postcss',
       'browserSync:livereload',
       'watch'
@@ -291,6 +325,7 @@ module.exports = function (grunt) {
     'wiredep',
     'useminPrepare',
     'less',
+    'dumpDir',
     'imagemin',
     'svgmin',
     'postcss',

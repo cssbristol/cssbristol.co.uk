@@ -2,9 +2,9 @@
 
 var cssApp = angular.module('cssApp');
 
-cssApp.controller('mainController', ['$scope', 'yamlConverterService', function ($scope, yamlConverterService) {
+cssApp.controller('mainController', ['$scope', 'yamlService', function ($scope, yamlService) {
 
-  yamlConverterService.converter('featured').then(function (data) {
+  yamlService.fetch('featured').then(function (data) {
     this.featuredItems = data;
   }.bind(this));
 
