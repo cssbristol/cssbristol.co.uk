@@ -32,6 +32,23 @@
 
 <body>
 
+  <!-- If JS is disabled -->
+  <noscript>
+
+    <div ng-if="currentPage != ''" id="header">
+      <div id="navigation">
+        <a id="nav-home" href="/">
+          <img id="nav-logo-large" src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" />
+          <img id="nav-logo-small" src="/assets/images/core/logo-small-light.png" alt="CSS Bristol logo" />
+        </a>
+      </div>
+    </div>
+    <div id="noscript-warning">
+      <div class="section-title align-left">JavaScript required</div>
+      <div class="section-content">Uh oh! Please enable JavaScript to view this website. <a href="/">Reload page</a></div>
+    </div>   
+  </noscript>
+
   <div header></div>
 
   <!-- Page content -->

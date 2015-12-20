@@ -1,0 +1,28 @@
+/* Noscript styles */
+
+#noscript-warning {
+  box-sizing: border-box;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  margin: 70px auto 0;
+
+  .section-title {
+    margin-bottom: 20px;
+  }
+
+  .section-content {
+    font-size: 16px;
+    font-weight: 300;
+    a {
+      color: @blue;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      transition: border-bottom .2s;
+      &:hover {
+        border-bottom: 2px solid @blue;
+      }
+    }
+  }
+}
