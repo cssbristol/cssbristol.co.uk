@@ -1,1 +1,1 @@
-<div id=footer class=clear> <span id=footer-copy>&copy; University of Bristol Computer Science Society</span> <ul id=footer-nav> <li ng-repeat="(item, link) in navItems"><a href="{{ link }}">{{ item }}</a></li> </ul> </div>
+<div id=footer class=clear> <span id=footer-copy>&copy; University of Bristol Computer Science Society</span> <ul id=footer-nav> <li ng-repeat="item in navItems"><a href="{{ item.url }}" target="{{ item.newtab ? '_blank' : '_self' }}">{{ item.title }}</a></li> </ul> </div>

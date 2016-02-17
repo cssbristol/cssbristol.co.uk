@@ -26,15 +26,14 @@ Coming soon!
 
 ## Contributors
 
-Currently, all code was handcrafted with <3 and is maintained by the current CSS webmaster, [Julian Laval](https://github.com/JulianLaval).
+Currently, all code was handcrafted with <3 and is maintained by the current CSS webmaster, [Julian Laval](https://github.com/JulianLaval), with additional contributions by [Ben Marshall](https://github.com/ben-marshall).
 
 ## To-do
 
-- Optimise SEO via HTML snapshots of pages
+- Finish individual job pages
+- Finish tutorial section
+- Finish blog section
 - Add pagination to job offers, tutorials & blogs
-- Finalise support page
-- Add site notice if JS disabled
-- Fix Page Insights
 
 ## License
 
