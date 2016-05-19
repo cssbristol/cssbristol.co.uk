@@ -1,0 +1,10 @@
+title: CSS Bristol
+email: webmaster@cssbristol.co.uk
+description: > # A website for the University of Bristol Computer Science Society
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.cssbristol.co.uk" # the base hostname & protocol for your site
+twitter_username: cssbristol
+github_username: cssbristol
+
+# Build settings
+markdown: kramdown
