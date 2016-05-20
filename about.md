@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+# Hi there we're CSS Bristol!
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+CSS is the official Computer Science Society at the University of Bristol, run by students, for students. We represent all the students within our department, organise social events and industry talks, run a mentor scheme, advertise jobs openings exclusive to our students, and much more!
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+This website is our society's hub: feel free to read our user-submitted tutorials and student blogs, see what we're up to on our social media presences, and get updates on society news and events.
+
+To get in touch, please e-mail the relevant committee position below. To report an issue with the website, the source code of which is freely available on GitHub, please submit an issue here. See you around!

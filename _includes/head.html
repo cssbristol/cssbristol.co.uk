@@ -1,10 +1,23 @@
 <head>
-  <meta charset="utf-8">
+  <meta charset=utf-8>
+  <title>{{ site.title }} {{ currentPage ? ' | ' + currentPage : '' }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="og:type" property="og:type" content="website">
+  <meta name="og:image" property="og:image" content="/images/logo-dark.png">
+  <meta name="og:title" property="og:title" content="{{ site.title }}">
+  <meta name="og:description" property="og:description" content="{{ site.description }}">
+  <meta name="og:url" property="og:url" content="https://cssbristol.github.io">
+  <link rel="shortcut icon" href="/favicon.d1b48279.ico">
+  <link rel="icon" type="image/png" href="/favicon.f1be47c8.png">
+  <link rel="apple-touch-icon" href="/favicon.f1be47c8.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script> 
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

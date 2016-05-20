@@ -1,0 +1,14 @@
+<section class="page-section page-section">
+    <h1>Our lovely sponsors</h1>
+    <div class="sponsors">
+      {% for sponsor in site.data.sponsors %}
+        <a class="sponsors__item" href="{{ sponsor.url }}" title="{{ sponsor.name }}" target="_blank">
+          <img src="/assets/images/contrib/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo">
+        </a>
+      {% endfor %}
+      <div class="sponsors__item">
+        <p>This could be you!</p>
+        <p><a class="btn" href="mailto:president@cssbristol.co.uk">Get in touch</a></p>
+      </div>
+    </div>
+</section>

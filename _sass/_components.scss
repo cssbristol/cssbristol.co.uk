@@ -1,0 +1,127 @@
+.social-links {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  justify-content: center;
+  max-width: $content-width;
+  width: 100%;
+
+  .social-links__item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    &--facebook {
+      background: linear-gradient(#4264aa,#344e86);
+      &:hover {
+        background: #344e86;
+      }
+    }
+    &--twitter {
+      background: linear-gradient(#5aa7ff,#268bff);
+      &:hover {
+        background: #268bff;
+      }
+    }
+    &--github {
+      background: linear-gradient(#404040,#262626);
+      &:hover {
+        background: #262626;
+      }
+    }
+    img {
+      height: 40px;
+      width: 40px;
+    }
+  }
+}
+
+.sponsors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: $content-width;
+  width: 100%;
+
+  .sponsors__item {
+    width: 25%;
+    height: 60px;
+    margin: 10px auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 200px;
+    }
+  }
+}
+
+.article {
+  max-width: $content-width;
+  text-align: left;
+  width: 100%;
+}
+
+.hero {
+  text-align: center;
+  margin: 100px auto;
+  max-width: $content-width;
+  width: 100%;
+
+  &__title {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: 38px;
+    text-transform: uppercase;
+
+    &--small {
+      font-size: 16px;
+      letter-spacing: 5px;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+  }
+
+  &--light {
+    color: #ffffff;
+  }
+
+  .btn {
+    margin-top: 30px;
+  }
+}
+
+.btn {
+  border: 1px solid #999;
+  border-radius: 3px;
+  color: #999;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 20px;
+  margin: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .2s;
+
+  &:hover {
+    border: 1px solid #777777;
+    color: #555555;
+  }
+
+  &--light {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    &:hover {
+      border: 1px solid #ffffff;
+      color: #ffffff;
+      background: rgba(255,255,255,.1);
+    }
+  }
+}
