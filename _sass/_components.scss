@@ -105,6 +105,10 @@
   text-align: left;
   width: 100%;
 
+  p {
+
+  }
+
   a {
     color: $blue;
     font-weight: 500;
@@ -113,6 +117,17 @@
     transition: border-bottom .2s;
     &:hover {
       border-bottom: 2px solid $blue;
+    }
+  }
+
+  ul {
+    margin: 10px 0;
+    li {
+      list-style-type: none;
+      text-indent: -10px;
+      &:before {
+        content: "- ";
+      }
     }
   }
 }

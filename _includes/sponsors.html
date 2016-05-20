@@ -1,7 +1,7 @@
 <section class="page-section page-section">
     <h1>Our lovely sponsors</h1>
     <div class="sponsors">
-      {% for sponsor in site.data.sponsors %}
+      {% for sponsor in include.sponsors-data-file %}
         <a class="sponsors__item" href="{{ sponsor.url }}" title="{{ sponsor.name }}" target="_blank">
           <img src="/assets/images/contrib/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo">
         </a>
