@@ -12,4 +12,10 @@ This website is our society's hub: feel free to read our user-submitted tutorial
 
 To get in touch, please e-mail the relevant committee position below. To report an issue with the website, the [source code](https://github.com/cssbristol/cssbristol.github.io) of which is freely available on GitHub, please [submit an issue](https://github.com/cssbristol/cssbristol.github.io/issues). See you around!
 
-{% include committee-2016-17.html %}
+# Committee 2016-17
+
+{% include committee.html data-file=site.data.committee-2016-17 %}
+
+# Committee 2015-16
+
+{% include committee.html data-file=site.data.committee-2015-16 %}

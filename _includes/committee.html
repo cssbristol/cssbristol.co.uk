@@ -1,7 +1,5 @@
-<h1>Committee 2016-17</h1>
-
 <div class="committee">
-  {% for committee-member in site.data.committee-2016-17 %}
+  {% for committee-member in include.data-file %}
   <div class="committee__member committee-member">
     <img src="{{ committee-member.image }}" alt="President image" class="committee-member__image" />
     <p class="committee-member__name">{{ committee-member.name }}</p>
