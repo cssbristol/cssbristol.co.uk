@@ -105,10 +105,6 @@
   text-align: left;
   width: 100%;
 
-  p {
-
-  }
-
   a {
     color: $blue;
     font-weight: 500;
@@ -160,6 +156,10 @@
   .btn {
     margin-top: 30px;
   }
+}
+
+.calendar {
+  max-width: 1000px;
 }
 
 .btn, a.btn {
