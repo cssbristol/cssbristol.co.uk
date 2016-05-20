@@ -58,10 +58,63 @@
   }
 }
 
+.committee {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__member {
+    margin: 30px 0;
+    width: 25%;
+  }
+}
+
+.committee-member {
+  text-align: center;
+  &__image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+  }
+  &__name {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  &__position {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  &__email {
+    font-size: 15px;
+    a {
+      color: #222222;
+      transition: color .2s;
+    }
+    a:hover {
+      color: $blue;
+    }
+  }
+}
+
 .article {
   max-width: $content-width;
   text-align: left;
   width: 100%;
+
+  a {
+    color: $blue;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    transition: border-bottom .2s;
+    &:hover {
+      border-bottom: 2px solid $blue;
+    }
+  }
 }
 
 .hero {
@@ -94,8 +147,8 @@
   }
 }
 
-.btn {
-  border: 1px solid #999;
+.btn, a.btn {
+  border: 1px solid #999999;
   border-radius: 3px;
   color: #999;
   display: inline-block;

@@ -11,7 +11,6 @@ body {
   align-content: center;
   flex-wrap: wrap;
 
-  margin-bottom: 100px;
   padding: 20px 50px;
 
   &__logo {
@@ -50,24 +49,22 @@ body {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding: 30px 0;
+
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
 
   h1 {
     font-size: 25px;
     font-weight: 300;
-    margin-bottom: 50px;
+    margin: 50px 10px;
     max-width: 1000px;
     text-align: center;
   }
 
   h2 {
-  }
-
-  p {
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 25px;
   }
 
   &--shaded {

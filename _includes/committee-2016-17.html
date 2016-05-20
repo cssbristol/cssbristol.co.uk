@@ -1,0 +1,12 @@
+<h1>Committee 2016-17</h1>
+
+<div class="committee">
+  {% for committee-member in site.data.committee-2016-17 %}
+  <div class="committee__member committee-member">
+    <img src="{{ committee-member.image }}" alt="President image" class="committee-member__image" />
+    <p class="committee-member__name">{{ committee-member.name }}</p>
+    <p class="committee-member__position">{{ committee-member.position }}</p>
+    <p class="committee-member__email"><a href="mailto:{{ committee-member.email }}">{{ committee-member.email }}</a></p>
+  </div>
+  {% endfor %}
+</div>
