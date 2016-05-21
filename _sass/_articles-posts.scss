@@ -2,6 +2,7 @@
   max-width: $content-width;
   padding: 0 20px;
   text-align: left;
+  overflow: hidden;
 
   a {
     color: $blue;
@@ -31,16 +32,20 @@
   pre {
     font-family: "Consolas", monospace;
     padding: 5px;
+    min-width: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
   }
 
   code {
     font-family: "Consolas", monospace;
+    min-width: 0;
   }
 }
 
 .blog-posts {
   max-width: 1000px;
-  width: 100%;
+  padding: 0 20px;
 
   .blog-post-item {
     color: $dark-text;

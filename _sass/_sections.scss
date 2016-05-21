@@ -78,6 +78,7 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   margin-bottom: 50px;
+  overflow: hidden;
   padding: 30px 0;
 
   font-size: 16px;
@@ -87,6 +88,10 @@ body {
   @include media-query($on-palm) {
     margin-bottom: 20px;
     padding: 10px 0;
+  }
+
+  &--nopad {
+    padding: 0 0;
   }
 
   p {

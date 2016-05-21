@@ -72,6 +72,7 @@
     @include media-query($on-palm) {
       width: 100%;
       justify-content: flex-start;
+      height: auto;
 
       p {
         margin: 2px;
@@ -96,4 +97,5 @@
 
 .calendar {
   max-width: 1000px;
+  margin: 0 20px;
 }
