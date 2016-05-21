@@ -1,7 +1,7 @@
 .article {
   max-width: $content-width;
+  padding: 0 20px;
   text-align: left;
-  width: 100%;
 
   a {
     color: $blue;
@@ -19,6 +19,9 @@
     li {
       list-style-type: none;
       text-indent: -10px;
+      @include media-query($on-palm) {
+        text-indent: 0px;
+      }
       &:before {
         content: "- ";
       }
@@ -45,6 +48,9 @@
     &__meta {
       margin-top: -30px;
       text-align: center;
+      @include media-query($on-palm) {
+        margin: 0px auto 20px;
+      }
     }
   }
 }
@@ -53,5 +59,8 @@
   &__meta {
     margin: -30px auto 60px !important;
     text-align: center;
+    @include media-query($on-palm) {
+      margin: 0px auto 20px !important;
+    }
   }
 }

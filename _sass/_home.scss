@@ -13,6 +13,10 @@
     text-decoration: none;
     position: relative;
 
+    @include media-query($on-palm) {
+      width: 94%;
+    }
+
     &--purple { background: linear-gradient(lighten($purple, 5%), darken($purple, 5%)); }
     &--green { background: linear-gradient(lighten($green, 5%), darken($green, 5%)); }
     &--red { background: linear-gradient(lighten($purple, 5%), darken($purple, 5%)); }
@@ -52,7 +56,12 @@
   text-align: center;
   margin: 100px auto;
   max-width: $content-width;
-  width: 100%;
+
+  @include media-query($on-palm) {
+    margin: 20px auto;
+  }
+
+  flex-shrink: 1;
 
   &__title {
     font-size: 40px;
