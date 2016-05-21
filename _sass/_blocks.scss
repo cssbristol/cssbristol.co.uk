@@ -3,6 +3,7 @@
   flex-direction: row;
   height: 150px;
   justify-content: center;
+  align-content: stretch;
   max-width: $content-width;
   width: 100%;
 
@@ -11,6 +12,11 @@
     align-items: center;
     justify-content: center;
     flex-grow: 1;
+    flex-shrink: 1;
+
+    color: #ffffff;
+    text-decoration: none;
+
     &--facebook {
       background: linear-gradient(#4264aa,#344e86);
       &:hover {
@@ -27,6 +33,12 @@
       background: linear-gradient(#404040,#262626);
       &:hover {
         background: #262626;
+      }
+    }
+    &--linkedin {
+      background: linear-gradient(lighten(#1c87bd, 5%), darken(#1c87bd, 5%));
+      &:hover {
+        background: #1c87bd;
       }
     }
     img {

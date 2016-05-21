@@ -46,3 +46,5 @@ The site was ported to Jekyll and is currently maintained by [Ross Gardiner](htt
 The code and contents of this website are freely available under the [MIT License](https://raw.githubusercontent.com/cssbristol/cssbristol.github.io/master/LICENSE.md).
 
 Jekyll, and any parts of the Jekyll default template are also available under the [MIT License](https://raw.githubusercontent.com/jekyll/jekyll/master/LICENSE).
+
+FontAwesome icons are licensed under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL).
