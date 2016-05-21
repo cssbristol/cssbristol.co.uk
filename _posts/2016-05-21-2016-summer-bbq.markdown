@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "2016 Summer BBQ"
+date:   2016-05-21 22:33:00 +0100
+categories:
+author: "Ross Gardiner"
+---
+The annual CSS BBQ is upon us again!
+
+We continue the annual traditional mark the end of a busy year and to celebrate the end of exams!
+
+Come for free food, drink and lots of entertainment!
+
+* [Join the Facebook event](https://www.facebook.com/events/100217857059598/)
+* [Save the Google Calendar entry](https://calendar.google.com/calendar/render?eid=aWc0YnQ0dW1ncnRvOXQ0Z3QwM29idHZqdTAgY3NzYnJpc3RvbC5jby51a19jbW1iNzdpNGtkNmQ5b2tmdjVuYzFwaWJuMEBn)
+
+Got a song you want blaring at the BBQ? [Add it to the jukebox](http://goo.gl/forms/1fQzdA7E68).
+
+[Remember to book your free ticket through Eventbrite](https://www.eventbrite.co.uk/e/css-bbq-tickets-25051709337)
+
+## Entertainment
+
+![Entertainment poster](/assets/images/contrib/blog/2016-summer-bbq-ents.jpg)
