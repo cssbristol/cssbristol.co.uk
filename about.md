@@ -17,6 +17,9 @@ To get in touch, please e-mail the relevant committee position below. To report 
 
 * [CSS Constitution](/pages/constitution)
 * [Old CSS site](/old)
+* [Department Teaching pages](http://www.cs.bris.ac.uk/Teaching/)
+* [Department Unit Catalogue](https://www.bris.ac.uk/esu/unitprogcat/UnitsForDept.jsa?orgCode=COSC)
+* [Computer Science Society - Bristol SU](http://www.bristolsu.org.uk/activities/societies/CSS/)
 
 # Committee 2016-17
 
