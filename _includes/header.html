@@ -6,7 +6,9 @@
     <ul class="page-navigation__links">
       {% for page in site.pages %}
         {% if page.title %}
+        {% unless page.hide-from-nav == true %}
         <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+        {% endunless %}
         {% endif %}
       {% endfor %}
     </ul>
