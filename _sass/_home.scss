@@ -57,6 +57,7 @@
   margin: 100px auto;
   max-width: $content-width;
   padding: 0 10px;
+  width: 100%;
 
   @include media-query($on-palm) {
     margin: 20px auto;
