@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-# Hi there we're CSS Bristol!
+# Hi there, we're CSS Bristol!
 
 CSS is the official Computer Science Society at the University of Bristol, run by students, for students. We represent all the students within our department, organise social events and industry talks, run a mentor scheme, advertise jobs openings exclusive to our students, and much more!
 

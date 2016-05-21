@@ -8,3 +8,8 @@ github_username: cssbristol
 
 # Build settings
 markdown: kramdown
+
+collections:
+  tutorials:
+    output: true
+    permalink: /tutorials/:path/

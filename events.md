@@ -7,6 +7,8 @@ permalink: /events/
 <div class="page-section">
   <h1>Events</h1>
   <div id="calendar" class="calendar"></div>
+  <h2>Calendar details</h2>
+   cssbristol.co.uk_cmmb77i4kd6d9okfv5nc1pibn0@group.calendar.google.com
 </div>
 
 <script type="text/javascript">

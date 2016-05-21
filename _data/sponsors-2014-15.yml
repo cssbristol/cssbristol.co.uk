@@ -1,0 +1,19 @@
+- name: Microsoft
+  logo:
+  url: https://microsoft.com
+
+- name: Bloomberg
+  logo: bloomberg.png
+  url: https://bloomberg.com
+
+- name: Imagination Technologies
+  logo:
+  url: https://imgtec.com
+
+- name: Somnium
+  logo:
+  url: http://www.somniumtech.com/
+
+- name: Bank of America
+  logo:
+  url: https://www.bankofamerica.com/

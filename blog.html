@@ -1,0 +1,17 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+<div class="page-section">
+  <div class="blog-posts">
+    {% for post in site.posts limit:4 %}
+      <a class="blog-posts__item blog-post-item" href="{{ post.url }}">
+        <h1 class="blog-post-item__title">{{ post.title }}</h1>
+      </a>
+      <p class="blog-post-item__meta">{{ post.author }} on {{ post.date | date: '%B %d, %Y' }}</p>
+      {{ post.excerpt }}
+    {% endfor %}
+  </div>
+</div>

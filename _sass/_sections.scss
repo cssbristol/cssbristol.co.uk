@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -44,6 +47,7 @@ body {
 }
 
 .page-section {
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;

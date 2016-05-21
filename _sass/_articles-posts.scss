@@ -1,0 +1,57 @@
+.article {
+  max-width: $content-width;
+  text-align: left;
+  width: 100%;
+
+  a {
+    color: $blue;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    transition: border-bottom .2s;
+    &:hover {
+      border-bottom: 2px solid $blue;
+    }
+  }
+
+  ul {
+    margin: 10px 0;
+    li {
+      list-style-type: none;
+      text-indent: -10px;
+      &:before {
+        content: "- ";
+      }
+    }
+  }
+
+  pre {
+    font-family: "Consolas", monospace;
+    padding: 5px;
+  }
+
+  code {
+    font-family: "Consolas", monospace;
+  }
+}
+
+.blog-posts {
+  max-width: 1000px;
+  width: 100%;
+
+  .blog-post-item {
+    color: $dark-text;
+    text-decoration: none;
+    &__meta {
+      margin-top: -30px;
+      text-align: center;
+    }
+  }
+}
+
+.blog-post {
+  &__meta {
+    margin: -30px auto 60px !important;
+    text-align: center;
+  }
+}

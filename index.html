@@ -11,9 +11,9 @@ hero:
   <h1>Latest</h1>
   <div class="featured-items">
     {% for post in site.posts limit:4 %}
-      <a class="featured-items__item" href="{{ post.url }}">
-          <h3>{{ post.title }}</h3>
-          <p>{{ post.metaline }}</p>
+      <a class="featured-item featured-item--{{ site.data.colour-names | sample }}" href="{{ post.url }}">
+          <h3 class="featured-item__title">{{ post.title }}</h3>
+          <p class="featured-item__meta">{{ post.author }} on {{ post.date | date: '%B %d, %Y' }}</p>
       </a>
     {% endfor %}
   </div>
