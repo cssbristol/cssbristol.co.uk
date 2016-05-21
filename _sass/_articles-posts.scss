@@ -41,6 +41,14 @@
     font-family: "Consolas", monospace;
     min-width: 0;
   }
+
+  strong {
+    font-weight: 500;
+  }
+
+  em {
+    font-style: italic;
+  }
 }
 
 .blog-posts {
