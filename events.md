@@ -9,7 +9,9 @@ show-in-nav: true
   <h1>Events</h1>
   <div id="calendar" class="calendar"></div>
   <h2>Calendar details</h2>
-   cssbristol.co.uk_cmmb77i4kd6d9okfv5nc1pibn0@group.calendar.google.com
+  <p>cssbristol.co.uk_cmmb77i4kd6d9okfv5nc1pibn0@group.calendar.google.com</p>
+  <h2>Facebook</h2>
+  <p><a href="https://www.facebook.com/groups/CSSBristol/events/">CSS events on Facebook</a> (you must be a member of the CSS group).</p>
 </div>
 
 <script type="text/javascript">
