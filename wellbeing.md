@@ -2,6 +2,7 @@
 layout: page
 title: Wellbeing
 permalink: /wellbeing/
+show-in-nav: true
 ---
 
 # Student Health & Support

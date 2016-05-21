@@ -3,12 +3,10 @@
   <nav class="page-footer__menu">
     <ul>
     {% for page in site.pages %}
-      {% if page.title %}
-      {% unless page.hide-from-nav %}
+      {% if page.title and page.show-in-nav == true %}
       <li>
         <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
       </li>
-      {% endunless %}
       {% endif %}
     {% endfor %}
     </ul>

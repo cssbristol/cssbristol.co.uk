@@ -2,6 +2,7 @@
 layout: default
 title: Events
 permalink: /events/
+show-in-nav: true
 ---
 
 <div class="page-section">
