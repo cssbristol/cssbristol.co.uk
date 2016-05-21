@@ -27,7 +27,7 @@ We're all ears for any ideas that you might have. If you want to write it yourse
 ## Roadmap
 
 * Import content from the [old site](http://old.cssbristol.co.uk/).
-*
+* Add a jobs section
 
 ## Contributors
 
