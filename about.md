@@ -18,6 +18,12 @@ To get in touch, please e-mail the relevant committee position below. To report 
 
 {% include committee.html data-file=site.data.committee-2016-17 %}
 
-# Committee 2015-16
+# Previous committees
+
+## Committee 2015-16
 
 {% include committee.html data-file=site.data.committee-2015-16 %}
+
+## Committee 2014-15
+
+{% include committee.html data-file=site.data.committee-2014-15 %}
