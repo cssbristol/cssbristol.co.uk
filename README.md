@@ -26,11 +26,11 @@ We're all ears for any ideas that you might have. If you want to write it yourse
 
 ## Roadmap
 
-* Add URL redirect from the [old site](http://old.cssbristol.co.uk/) to the [new old site](http://cssbristol.co.uk/old/)
 * Add a jobs section
-* Port the rest of the old tutorials
 * Add outreach information
 * Add sports information
+* Add sponsorship tiers
+* Write some more tutorials!
 
 ## Contributors
 
