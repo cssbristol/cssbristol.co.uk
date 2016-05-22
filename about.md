@@ -16,6 +16,7 @@ To get in touch, please e-mail the relevant committee position below. To report 
 # Things you might find useful
 
 * [CSS Constitution](/pages/constitution)
+* [CSS Assets](/pages/assets)
 * [Old CSS site](/old)
 * [Department Teaching pages](http://www.cs.bris.ac.uk/Teaching/)
 * [Department Unit Catalogue](https://www.bris.ac.uk/esu/unitprogcat/UnitsForDept.jsa?orgCode=COSC)

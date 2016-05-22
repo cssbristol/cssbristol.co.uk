@@ -117,6 +117,18 @@ body {
     line-height: 25px;
   }
 
+  h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 22px;
+  }
+
+  img {
+    margin: 20px 0;
+    max-width: 100%;
+  }
+
   &--shaded {
     background: $light-grey;
   }

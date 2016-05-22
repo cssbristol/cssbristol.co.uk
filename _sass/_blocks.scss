@@ -45,6 +45,12 @@
         background: #1c87bd;
       }
     }
+    &--youtube {
+      background: linear-gradient(#e52d27, #b31217);
+      &:hover {
+        background: #c3201e;
+      }
+    }
     img {
       height: 40px;
       width: 40px;

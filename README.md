@@ -30,6 +30,7 @@ We're all ears for any ideas that you might have. If you want to write it yourse
 * Add a jobs section
 * Port the rest of the old tutorials
 * Add outreach information
+* Add sports information
 
 ## Contributors
 
