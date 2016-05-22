@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<section class="page-section">
+  <article class="article">
+    <div itemscope itemtype="http://schema.org/JobPosting">
+      <header class="job-post__header">
+        <h1 class="job-post__title" itemprop="title">{{ page.title }}</h1>
+        <p>Posted <span itemprop="datePosted">{{ page.datePosted }}</span></p>
+        <p>Apply by <span itemprop="validThrough">{{ page.validThrough }}</span></p>
+        <span itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization">
+          <p><span itemprop="name">{{ page.hiringOrganization.name }}</span></p>
+          <p><span itemprop="address">{{ page.hiringOrganization.address }}</span></p>
+        </span>
+      </header>
+
+      <div class="job-post__body">
+        <dl>
+          <dt>Location</dt>
+          <dd itemprop="jobLocation">{{ page.jobLocation }}</dd>
+          <dt>Industry</dt>
+          <dd itemprop="industry">{{ page.industry }}</dd>
+          <dt>Occupational Category</dt>
+          <dd itemprop="occupationalCategory">{{ page.occupationalCategory }}</dd>
+          <dt>Hours</dt>
+          <dd itemprop="employmentType">{{ page.employmentType }}</dd>
+          <dt>Salary</dt>
+          <dd>
+            <span itemprop="salaryCurrency">{{ page.salaryCurrency }}</span>
+            <span itemprop="baseSalary">{{ page.baseSalary }}</span>
+            {{ page.salaryPeriod }}
+          </dd>
+        </dl>
+
+        <h2>Description</h2>
+        <p itemprop="description">
+          {{ page.description }}
+        </p>
+        <h2>Responsibilities</h2>
+        <ul itemprop="responsibilities">
+          {% for responsibility in page.responsibilities %}
+            <li>{{ responsibility }}</li>
+          {% endfor %}
+        </ul>
+        <h2>Educational requirements:</h2>
+        <ul itemprop="educationRequirements">
+          {% for educationRequirement in page.educationRequirements %}
+            <li>{{ educationRequirement }}</li>
+          {% endfor %}
+        </ul>
+        <h2>Experience requirements:</h2>
+        <ul itemprop="experienceRequirements">
+          {% for experienceRequirements in page.experienceRequirements %}
+            <li>{{ experienceRequirement }}</li>
+          {% endfor %}
+        </ul>
+        <h2>Desired Skills:</h2>
+        <ul itemprop="skills">
+          {% for skill in page.skills %}
+            <li><strong>{{ skill.importance }}</strong>: {{ skill.skill }}</li>
+          {% endfor %}
+        </ul>
+
+        <h2>Incentives</h2>
+        <p itemprop="incentiveCompensation">{{ page.incentiveCompensation }}</p>
+
+        {{ content }}
+      </div>
+    </div>
+
+    <h2>Feedback</h2>
+    <p>Any issues with this job? Submit <a href="https://github.com/cssbristol/cssbristol.github.io/issues">an issue</a> or a <a href="https://github.com/cssbristol/cssbristol.github.io/pulls">pull request</a> and we'll get it sorted out right away.</p>
+  </article>
+</section>

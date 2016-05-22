@@ -13,3 +13,6 @@ collections:
   tutorials:
     output: true
     permalink: /tutorials/:path/
+  jobs:
+    output: true
+    permalink: /jobs/:path/
