@@ -2,6 +2,7 @@
 layout: job
 title: Student Laptop and Mobile Clinic Technician
 sponsored: true
+hide: true
 logo: /assets/images/contrib/jobs/bristoluni.png
 datePosted: 2016-03-01 12:00:00 +0100
 employmentType: part-time

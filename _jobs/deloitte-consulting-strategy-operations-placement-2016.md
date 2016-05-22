@@ -1,6 +1,7 @@
 ---
 layout: job
 title: Consulting - Strategy & Operations
+hide: true
 datePosted: 2016-04-14 16:09:00 +0100
 employmentType: temporary
 hiringOrganization:

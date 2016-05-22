@@ -1,6 +1,7 @@
 ---
 layout: job
 title: Junior Embedded SW Engineer
+hide: true
 logo: /assets/images/contrib/jobs/bluwireless.png
 datePosted: 2015-12-01 12:00:00 +0100
 employmentType: full-time
