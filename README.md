@@ -31,6 +31,7 @@ We're all ears for any ideas that you might have. If you want to write it yourse
 * Add sports information
 * Add sponsorship tiers
 * Write some more tutorials!
+* Add alumni profiles
 
 ## Contributors
 
