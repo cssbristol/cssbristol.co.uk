@@ -26,12 +26,16 @@ We're all ears for any ideas that you might have. If you want to write it yourse
 
 ## Roadmap
 
-* Add a jobs section
-* Add outreach information
-* Add sports information
-* Add sponsorship tiers
-* Write some more tutorials!
-* Add alumni profiles
+* [ ] Add a jobs section
+* [ ] Add outreach information
+* [ ] Add sports information
+* [ ] Add sponsorship tiers
+* [ ] Write some more tutorials!
+* [ ] Add alumni profiles
+* [ ] Add information for freshers
+* [ ] Links to related societies
+* [ ] Add committee meeting minutes
+* [ ] Add society history
 
 ## Contributors
 
