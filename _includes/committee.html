@@ -8,10 +8,11 @@
       <p class="committee-member__name" itemprop="name">{{ committee-member.name }}</p>
     {% endif %}
     <p class="committee-member__position" itemprop="jobtitle">{{ committee-member.position }}</p>
-    <p class="committee-member__email"><a href="mailto:{{ committee-member.email }}" itemprop="email">{{ committee-member.email }}</a></p>
+    <p class="committee-member__email"><a href="mailto:{{ committee-member.email }}"><span itemprop="email">{{ committee-member.email }}</span></a></p>
     <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" style="display: none;">
       <div><span itemprop="addressLocality">Bristol</span></div><div itemprop="addressCountry">United Kingdom</div>
     </div>
+    <div itemscope itemtype="http://schema.org/Organization" style="display: none;"><span itemprop="name">University of Bristol Computer Science Society</span></div>
   </div>
   {% endfor %}
 </div>
