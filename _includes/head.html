@@ -1,6 +1,5 @@
 <head>
   <meta charset=utf-8>
-  <title>{{ site.title }} {{ currentPage ? ' | ' + currentPage : '' }}</title>
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="og:type" property="og:type" content="website">
@@ -11,7 +10,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Hello, world"
-date:   2016-05-21 01:42:00 +0100
+title: "Hello, world"
+date: 2016-05-21 01:42:00 +0100
 categories:
 author: "Ross Gardiner"
 ---
