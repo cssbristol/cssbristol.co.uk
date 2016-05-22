@@ -1,0 +1,52 @@
+.job-posts {
+  max-width: 1000px;
+  padding: 0 20px;
+
+  .job-post-item {
+    color: $dark-text;
+    text-decoration: none;
+    &__meta {
+      margin-top: -30px;
+      text-align: center;
+      @include media-query($on-palm) {
+        margin: 0px auto 20px;
+      }
+    }
+  }
+}
+
+.job-post {
+  &__dates {
+    margin: -30px auto 10px !important;
+    text-align: center;
+    @include media-query($on-palm) {
+      margin: 0px auto 20px !important;
+    }
+  }
+
+  *[itemprop=hiringOrganization] {
+    text-align: center;
+    *[itemprop=address] {
+      font-size: 12px;
+    }
+    p {
+      margin: 4px 0;
+    }
+  }
+
+  dl {
+    margin: 20px 0;
+    dt {
+      display: inline-block;
+      font-weight: 400;
+      min-width: 150px;
+    }
+    dd {
+      display: inline;
+      &:after {
+        display: block;
+        content: '';
+      }
+    }
+  }
+}

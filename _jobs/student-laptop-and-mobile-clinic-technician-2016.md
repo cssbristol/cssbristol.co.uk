@@ -18,7 +18,7 @@ validThrough: 2016-04-27 23:59:00 +0100
 description: >
   This is a part-time (casual) role for current University of Bristol students.
 
-  Student Laptop and Mobile Clinic Technicians provide support to students in person at Student Laptop and Mobile Clinics. Staff must have excellent communication and customer service abilities as well as technical and problem solving skills. 
+  Student Laptop and Mobile Clinic Technicians provide support to students in person at Student Laptop and Mobile Clinics. Staff must have excellent communication and customer service abilities as well as technical and problem solving skills.
 
   The majority of the work will be available during term-time throughout the year working on the Student Laptop and Mobile Clinics, fixing software and configuration problems with laptops, (mostly Windows and Mac OSX) or mobile devices, (mostly iOS, Android and Windows). Typically you will be connecting people to eduroam, removing viruses, restoring corrupt operating systems and advising students on how to look after their devices. You are likely to work one or two 3-hour shifts each week and these can be fitted around your academic timetable. Staff are paid at an hourly rate on the basis of timesheets completed once a month.
 skills:
@@ -38,7 +38,7 @@ skills:
     importance: Desirable
   - skill: Experience with Linux.
     importance: Desirable
-  - Don't be put off if you don't have all of these skills, you will learn a lot in the job but we would like to know what you can do.
+  - skill: Don't be put off if you don't have all of these skills, you will learn a lot in the job but we would like to know what you can do.
 ---
 To apply for one of these positions please complete the [application form](http://www.bristol.ac.uk/it-services/advice/homeusers/help/laptopclinic/student_it_appform_1617.rtf) and send it to us. Either:
 

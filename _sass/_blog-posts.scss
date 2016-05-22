@@ -1,0 +1,26 @@
+.blog-posts {
+  max-width: 1000px;
+  padding: 0 20px;
+
+  .blog-post-item {
+    color: $dark-text;
+    text-decoration: none;
+    &__meta {
+      margin-top: -30px;
+      text-align: center;
+      @include media-query($on-palm) {
+        margin: 0px auto 20px;
+      }
+    }
+  }
+}
+
+.blog-post {
+  &__meta {
+    margin: -30px auto 60px !important;
+    text-align: center;
+    @include media-query($on-palm) {
+      margin: 0px auto 20px !important;
+    }
+  }
+}
