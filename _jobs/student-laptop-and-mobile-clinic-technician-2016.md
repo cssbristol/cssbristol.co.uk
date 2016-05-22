@@ -1,6 +1,8 @@
 ---
 layout: job
 title: Student Laptop and Mobile Clinic Technician
+sponsored: true
+logo: /assets/images/contrib/jobs/bristoluni.png
 datePosted: 2016-03-01 12:00:00 +0100
 employmentType: part-time
 hiringOrganization:
@@ -12,7 +14,6 @@ occupationalCategory: 15-1151.00 Computer User Support Specialists
 baseSalary: 12.22
 salaryCurrency: GBP
 salaryPeriod: per hour
-skills: User IT support, communication, customer service, problem solving
 startDate: 2016-09-12
 validThrough: 2016-04-27 23:59:00 +0100
 description: >
@@ -30,7 +31,7 @@ skills:
     importance: Essential
   - skill: Ability to work under pressure.
     importance: Essential
-  - skill: (Desirable) Experience using and troubleshooting Apple Mac OSX (10.9 onwards) - eg as above for Windows, mainly.
+  - skill: Experience using and troubleshooting Apple Mac OSX (10.9 onwards) - eg as above for Windows, mainly.
     importance: Desirable
   - skill: Prior experience in computer support, formal or informal.
     importance: Desirable

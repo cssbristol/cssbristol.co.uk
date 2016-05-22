@@ -1,0 +1,27 @@
+---
+layout: default
+title: Jobs
+permalink: /jobs/
+show-in-nav: true
+---
+
+<div class="page-section">
+  <h1>Jobs</h1>
+  <div class="job-posts">
+    {% for job in site.jobs %}
+      {% unless job.hide %}
+      <div itemscope itemtype="http://schema.org/JobPosting" class="job-posts__item job-post-item {% if job.sponsored %}job-post-item--sponsored{% endif %}">
+        <a href="{{ job.url }}">
+          <h2 class="job-post-item__title">{{ job.title }}</h2>
+          <span itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization">
+            <p class="job-post-item__company"><span itemprop="name">{{ job.hiringOrganization.name }}</span></p>
+          </span>
+          <p class="job-post-item__date">Posted <span itemprop="datePosted">{{ job.datePosted | date: "%b %-d, %Y"  }}</span></p>
+          <p class="job-post-item__date">Apply by <span itemprop="validThrough">{{ job.validThrough | date: "%b %-d, %Y"  }}</span></p>
+          {% if job.logo %}<img class="job-post-item__logo" src="{{ job.logo }}" alt="{{ job.hiringOrganization.name }} logo" />{% endif %}
+        </a>
+      </div>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</div>

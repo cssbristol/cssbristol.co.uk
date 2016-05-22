@@ -1,0 +1,110 @@
+.job-posts {
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 1;
+  width: 100%;
+
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  &__item {
+    margin: 10px 1%;
+    width: 42%;
+    @include media-query($on-palm) {
+      margin: 20px;
+      width: 100%;
+    }
+  }
+
+  .job-post-item {
+    border: 1px solid $medium-text;
+    border-radius: 3px;
+    color: $dark-text;
+    padding: 10px 2%;
+    position: relative;
+    text-decoration: none;
+
+    &__title {
+        font-size: 24px;
+        margin: 10px 0 10px;
+    }
+
+    &__date {
+      text-align: left;
+      @include media-query($on-palm) {
+        margin: 0px auto 20px;
+      }
+    }
+
+    &__company {
+      font-weight: 400;
+    }
+
+    &__logo {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      height: 40px;
+      margin: 0;
+    }
+
+    &--sponsored {
+      &:before {
+        background: $purple;
+        border-radius: 3px;
+        color: #ffffff;
+        content: 'Sponsored';
+        font-size: 12px;
+        font-weight: 500;
+        margin: 5px 0 10px;
+        padding: 5px;
+        text-transform: uppercase;
+      }
+
+      background: linear-gradient(lighten($purple, 25%), lighten($purple, 15%));
+      border: 1px solid #ffffff;
+    }
+
+    p {
+      margin: 5px 0;
+    }
+  }
+}
+
+.job-post {
+  &__dates {
+    margin: -30px auto 10px !important;
+    text-align: center;
+  }
+
+  *[itemprop=hiringOrganization] {
+    text-align: center;
+    *[itemprop=address] {
+      font-size: 12px;
+    }
+    p {
+      margin: 4px 0;
+    }
+  }
+
+  dl {
+    margin: 20px 0;
+    dt {
+      display: inline-block;
+      font-weight: 400;
+      min-width: 150px;
+    }
+    dd {
+      display: inline;
+      &:after {
+        display: block;
+        content: '';
+      }
+    }
+  }
+}
