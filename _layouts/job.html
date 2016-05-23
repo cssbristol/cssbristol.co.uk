@@ -7,7 +7,8 @@ layout: default
     <div itemscope itemtype="http://schema.org/JobPosting" class="job-post">
       <header class="job-post__header">
         <h1 class="job-post__title" itemprop="title">{{ page.title }}</h1>
-        <p class="job-post__dates">Posted <span itemprop="datePosted">{{ page.datePosted | date: "%b %-d, %Y"  }}</span> | Apply by <span itemprop="validThrough">{{ page.validThrough | date: "%H:%M %b %-d, %Y"  }}</span></p>
+        <p class="job-post__dates">Posted <time datetime="{{ page.datePosted | date_to_xmlschema }}" itemprop="datePosted">{{ page.datePosted | date: "%b %-d, %Y"  }}</time>
+          | Apply by <time datetime="{{ page.validThrough | date_to_xmlschema }}" itemprop="validThrough">{{ page.validThrough | date: "%H:%M %b %-d, %Y"  }}</time></p>
         <span itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization">
           <p><span itemprop="name">{{ page.hiringOrganization.name }}</span></p>
           <p><span itemprop="address">{{ page.hiringOrganization.address }}</span></p>
