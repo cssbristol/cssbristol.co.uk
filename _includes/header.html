@@ -1,7 +1,10 @@
 <header class="page-header">
-  <a href="/" class="page-header__logo">
-    <img src="/assets/images/core/logo-inline-light.png" alt="{{ site.title }} logo">
-  </a>
+  <div itemscope itemtype="http://schema.org/Organization">
+    <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
+    <a href="{{ site.url }}" class="page-header__logo" itemprop="url">
+      <img src="/assets/images/core/logo-inline-light.png" alt="{{ site.title }} logo" itemprop="logo">
+    </a>
+  </div>
   <nav class="page-navigation">
     <ul class="page-navigation__links">
       {% for page in site.pages %}
