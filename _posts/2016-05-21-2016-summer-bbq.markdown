@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2016 Summer BBQ"
+title:  "2016 Summer BBQ - June 4"
 date:   2016-05-21 22:33:00 +0100
 categories:
 author: "Ross Gardiner"
@@ -10,6 +10,9 @@ The annual CSS BBQ is upon us again!
 Join us as we continue the annual tradition marking the end of a busy year (and the end of exams!)
 
 Come for free food, drink and lots of entertainment!
+
+**Location:** Berkeley Square, Bristol
+**Date:** June 4, midday
 
 [Remember to book your free ticket through Eventbrite](https://www.eventbrite.co.uk/e/css-bbq-tickets-25051709337)
 
