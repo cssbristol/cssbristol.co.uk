@@ -11,6 +11,6 @@ We'll be chatting informally about anything and everything to do with wellbeing 
 
 All students and staff from the faculty (and other faculties) are welcome.
 
-The lunches will be at the same time and place for the next three Fridays - the last being June 11.
+The lunches will be at the same time and place for the next three Fridays - the last being June 10.
 
 [Event on Google Calendar](https://calendar.google.com/calendar/render?eid=aW8wNG1rM2I4dGxrc2U1ZDhtY2o2MTM5a2tfMjAxNjA1MjdUMTEwMDAwWiBjc3NicmlzdG9sLmNvLnVrX2NtbWI3N2k0a2Q2ZDlva2Z2NW5jMXBpYm4wQGc&sf=true&output=xml#eventpage_6)
