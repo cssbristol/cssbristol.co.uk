@@ -39,9 +39,14 @@ $(document).ready(function() {
       },
       defaultView: 'agendaWeek',
       googleCalendarApiKey: 'AIzaSyBoDRhd5JAtBWVaN0zzEmrKo8_0W5RKF_0',
-      events: {
+      eventSources: [
+        {
           googleCalendarId: 'cssbristol.co.uk_cmmb77i4kd6d9okfv5nc1pibn0@group.calendar.google.com'
-      }
+        },
+        {
+          googleCalendarId: '77q6gepe08n9hbqdd91om074u8@group.calendar.google.com'
+        }
+      ]
     })
 
 });
