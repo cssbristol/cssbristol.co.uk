@@ -12,7 +12,7 @@ industry: Research & Development
 jobLocation: Cambridge, United Kingdom
 occupationalCategory:
 baseSalary:
-salaryCurrency: GBP
+salaryCurrency: 
 salaryPeriod:
 startDate:
 validThrough: 2016-07-15 15:00:00 +0100
