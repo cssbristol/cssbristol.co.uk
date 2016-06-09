@@ -11,6 +11,7 @@ layout: default
           | Apply by <time datetime="{{ page.validThrough | date_to_xmlschema }}" itemprop="validThrough">{{ page.validThrough | date: "%H:%M %b %-d, %Y"  }}</time></p>
         <span itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization">
           <p><span itemprop="name">{{ page.hiringOrganization.name }}</span></p>
+          {% if page.logo %}<img class="job-post__logo" src="{{ page.logo }}" alt="{{ page.hiringOrganization.name }} logo" />{% endif %}
           <p><span itemprop="address">{{ page.hiringOrganization.address }}</span></p>
         </span>
       </header>
@@ -20,8 +21,10 @@ layout: default
         <dd itemprop="jobLocation">{{ page.jobLocation }}</dd>
         <dt>Industry</dt>
         <dd itemprop="industry">{{ page.industry }}</dd>
-        <dt>Category</dt>
-        <dd itemprop="occupationalCategory">{{ page.occupationalCategory }}</dd>
+        {% if page.occupationalCategory %}
+          <dt>Category</dt>
+          <dd itemprop="occupationalCategory">{{ page.occupationalCategory }}</dd>
+        {% endif %}
         <dt>Hours</dt>
         <dd itemprop="employmentType">{{ page.employmentType }}</dd>
         <dt>Salary</dt>
@@ -32,39 +35,52 @@ layout: default
         </dd>
       </dl>
 
-      <h2>Description</h2>
-      <p itemprop="description">
-        {{ page.description | markdownify }}
-      </p>
-      <h2>Responsibilities</h2>
-      <ul itemprop="responsibilities">
-        {% for responsibility in page.responsibilities %}
-          <li>{{ responsibility }}</li>
-        {% endfor %}
-      </ul>
-      <h2>Educational requirements</h2>
-      <ul itemprop="educationRequirements">
-        {% for educationRequirement in page.educationRequirements %}
-          <li>{{ educationRequirement }}</li>
-        {% endfor %}
-      </ul>
-      <h2>Experience requirements</h2>
-      <ul itemprop="experienceRequirements">
-        {% for experienceRequirements in page.experienceRequirements %}
-          <li>{{ experienceRequirement }}</li>
-        {% endfor %}
-      </ul>
-      <h2>Desired Skills</h2>
-      <ul itemprop="skills">
-        {% for skill in page.skills %}
-          <li>{% if skill.importance %}<strong>{{ skill.importance }}</strong>: {% endif %}{{ skill.skill }}</li>
-        {% endfor %}
-      </ul>
+      {% if page.description %}
+        <h2>Description</h2>
+        <p itemprop="description">
+          {{ page.description | markdownify }}
+        </p>
+      {% endif %}
+      {% if page.responsibilities %}
+        <h2>Responsibilities</h2>
+        <ul itemprop="responsibilities">
+          {% for responsibility in page.responsibilities %}
+            <li>{{ responsibility }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if page.educationRequirements %}
+        <h2>Educational requirements</h2>
+        <ul itemprop="educationRequirements">
+          {% for educationRequirement in page.educationRequirements %}
+            <li>{{ educationRequirement }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if page.experienceRequirements %}
+        <h2>Experience requirements</h2>
+        <ul itemprop="experienceRequirements">
+          {% for experienceRequirement in page.experienceRequirements %}
+            <li>{{ experienceRequirement }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if page.skills %}
+        <h2>Desired Skills</h2>
+        <ul itemprop="skills">
+          {% for skill in page.skills %}
+            <li>{% if skill.importance %}<strong>{{ skill.importance }}</strong>: {% endif %}{{ skill.skill }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if page.incentiveCompensation %}
+        <h2>Incentives</h2>
+        <p itemprop="incentiveCompensation">{{ page.incentiveCompensation }}</p>
+      {% endif %}
 
-      <h2>Incentives</h2>
-      <p itemprop="incentiveCompensation">{{ page.incentiveCompensation }}</p>
-
+      <h2>More information</h2>
       {{ content }}
+
     </div>
 
     <h2>Feedback</h2>

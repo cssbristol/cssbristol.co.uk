@@ -77,6 +77,16 @@
 }
 
 .job-post {
+  &__header {
+    text-align: center;
+    h1 {
+    }
+    img {
+      margin: 10px;
+      max-width: 200px;
+    }
+  }
+
   &__dates {
     margin: -30px auto 10px !important;
     text-align: center;
