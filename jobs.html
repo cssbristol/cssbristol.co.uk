@@ -21,6 +21,7 @@ show-in-nav: true
           <span itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization">
             <p class="job-post-item__company"><span itemprop="name">{{ job.hiringOrganization.name }}</span></p>
           </span>
+          <p class="job-post-item__location">{{ job.jobLocation }}</p>
           <p class="job-post-item__date">Posted <time datetime="{{ job.datePosted | date_to_xmlschema }}" itemprop="datePosted">{{ job.datePosted | date: "%b %-d, %Y"  }}</time></p>
           <p class="job-post-item__date">Apply by <time datetime="{{ job.validThrough | date_to_xmlschema }}" itemprop="validThrough">{{ job.validThrough | date: "%b %-d, %Y"  }}</time></p>
           {% if job.logo %}<img class="job-post-item__logo" src="{{ job.logo }}" alt="{{ job.hiringOrganization.name }} logo" />{% endif %}
