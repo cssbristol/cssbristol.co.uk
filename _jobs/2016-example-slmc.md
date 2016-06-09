@@ -14,15 +14,9 @@ jobLocation: Senate House, Tyndall Avenue, University of Bristol, BS8 1TH
 occupationalCategory: 15-1151.00 Computer User Support Specialists
 baseSalary: 12.22
 salaryCurrency: GBP
-salaryPeriod: per hour
+salaryPeriod: hour
 startDate: 2016-09-12
 validThrough: 2016-04-27 23:59:00 +0100
-description: >
-  This is a part-time (casual) role for current University of Bristol students.
-
-  Student Laptop and Mobile Clinic Technicians provide support to students in person at Student Laptop and Mobile Clinics. Staff must have excellent communication and customer service abilities as well as technical and problem solving skills.
-
-  The majority of the work will be available during term-time throughout the year working on the Student Laptop and Mobile Clinics, fixing software and configuration problems with laptops, (mostly Windows and Mac OSX) or mobile devices, (mostly iOS, Android and Windows). Typically you will be connecting people to eduroam, removing viruses, restoring corrupt operating systems and advising students on how to look after their devices. You are likely to work one or two 3-hour shifts each week and these can be fitted around your academic timetable. Staff are paid at an hourly rate on the basis of timesheets completed once a month.
 skills:
   - skill: Excellent experience using and troubleshooting Windows (7, 8 and 10) - eg configuring network connections, removing malware, diagnosing faults with systems which will not connect and repairing corrupted operating systems where laptops which will not start up.
     importance: Essential
@@ -42,6 +36,12 @@ skills:
     importance: Desirable
   - skill: Don't be put off if you don't have all of these skills, you will learn a lot in the job but we would like to know what you can do.
 ---
+This is a part-time (casual) role for current University of Bristol students.
+
+Student Laptop and Mobile Clinic Technicians provide support to students in person at Student Laptop and Mobile Clinics. Staff must have excellent communication and customer service abilities as well as technical and problem solving skills.
+
+The majority of the work will be available during term-time throughout the year working on the Student Laptop and Mobile Clinics, fixing software and configuration problems with laptops, (mostly Windows and Mac OSX) or mobile devices, (mostly iOS, Android and Windows). Typically you will be connecting people to eduroam, removing viruses, restoring corrupt operating systems and advising students on how to look after their devices. You are likely to work one or two 3-hour shifts each week and these can be fitted around your academic timetable. Staff are paid at an hourly rate on the basis of timesheets completed once a month.
+
 To apply for one of these positions please complete the [application form](http://www.bristol.ac.uk/it-services/advice/homeusers/help/laptopclinic/student_it_appform_1617.rtf) and send it to us. Either:
 
 Email it to [student-it-jobs@bristol.ac.uk](mailto:student-it-jobs@bristol.ac.uk)

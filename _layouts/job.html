@@ -31,14 +31,14 @@ layout: default
         <dd>
           <span itemprop="salaryCurrency">{{ page.salaryCurrency }}</span>
           <span itemprop="baseSalary">{{ page.baseSalary }}</span>
-          {{ page.salaryPeriod }}
+          {% if page.salaryPeriod %}per {{ page.salaryPeriod }}{% endif %}
         </dd>
       </dl>
 
-      {% if page.description %}
+      {% if content %}
         <h2>Description</h2>
         <p itemprop="description">
-          {{ page.description | markdownify }}
+          {{ content }}
         </p>
       {% endif %}
       {% if page.responsibilities %}
@@ -77,9 +77,6 @@ layout: default
         <h2>Incentives</h2>
         <p itemprop="incentiveCompensation">{{ page.incentiveCompensation }}</p>
       {% endif %}
-
-      <h2>More information</h2>
-      {{ content }}
 
     </div>
 
