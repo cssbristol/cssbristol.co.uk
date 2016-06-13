@@ -3,7 +3,7 @@ layout: job
 title: Graduate Engineer
 hide: false
 logo: /assets/images/contrib/jobs/juniper.png
-datePosted: 2016-06-30 12:00:00 +0100
+datePosted: 2016-06-13 16:26:00 +0100
 employmentType: full-time
 hiringOrganization:
   address: Amsterdam
@@ -15,7 +15,7 @@ baseSalary: 38000
 salaryCurrency: EUR
 salaryPeriod: year
 startDate:
-validThrough: 2016-07-15 15:00:00 +0100
+validThrough: 2016-06-30 15:00:00 +0100
 skills:
   - skill: Knowledge of IP networking layer technologies
     importance:
