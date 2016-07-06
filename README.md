@@ -26,10 +26,10 @@ We're all ears for any ideas that you might have. If you want to write it yourse
 
 ## Roadmap
 
-* [ ] Add a jobs section
+* [x] Add a jobs section
 * [ ] Add outreach information
 * [ ] Add sports information
-* [ ] Add sponsorship tiers
+* [x] Add sponsorship tiers
 * [ ] Write some more tutorials!
 * [ ] Add alumni profiles
 * [ ] Add information for freshers
@@ -54,5 +54,7 @@ The site was ported to Jekyll and is currently maintained by [Ross Gardiner](htt
 The code and contents of this website are freely available under the [MIT License](https://raw.githubusercontent.com/cssbristol/cssbristol.github.io/master/LICENSE.md).
 
 Jekyll, and any parts of the Jekyll default template are also available under the [MIT License](https://raw.githubusercontent.com/jekyll/jekyll/master/LICENSE).
+
+ViewerJS is licensed under the [AGPL 3.0](https://github.com/kogmbh/ViewerJS/blob/master/AGPL-3.0.txt).
 
 FontAwesome icons are licensed under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL).
