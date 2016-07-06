@@ -108,6 +108,11 @@ body {
     @include media-query($on-palm) {
       margin: 20px 10px;
     }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
   }
 
   h2 {
