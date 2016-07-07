@@ -26,4 +26,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.7.2/fullcalendar.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.7.2/gcal.js"></script>
+
+  <script type="text/javascript">
+    $(function() {
+      var images = ['header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg'];
+      $('#page-header--random-bg').css({'background-image': 'url(/assets/images/core/' + images[Math.floor(Math.random() * images.length)] + ')'});
+    });
+  </script>
 </head>
