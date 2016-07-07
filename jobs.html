@@ -13,8 +13,11 @@ show-in-nav: true
     <p><strong>Bristol alumni</strong>: we would like to write profiles illustrating the careers of our students post-graduation. <a href="mailto:webmaster@cssbristol.co.uk">Get in touch</a> if you are interested in taking part.</p>
   </article>
   <div class="job-posts">
+    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
     {% for job in site.jobs %}
       {% unless job.hide %}
+      {% capture jobtime %}{{job.validThrough | date: '%s'}}{% endcapture %}
+      {% unless jobtime < (nowunix + 7200) %}
       <div itemscope itemtype="http://schema.org/JobPosting" class="job-posts__item job-post-item {% if job.sponsored %}job-post-item--sponsored{% endif %}">
         <a href="{{ job.url }}">
           <h2 class="job-post-item__title">{{ job.title }}</h2>
@@ -27,6 +30,7 @@ show-in-nav: true
           {% if job.logo %}<img class="job-post-item__logo" src="{{ job.logo }}" alt="{{ job.hiringOrganization.name }} logo" />{% endif %}
         </a>
       </div>
+      {% endunless %}
       {% endunless %}
     {% endfor %}
   </div>
