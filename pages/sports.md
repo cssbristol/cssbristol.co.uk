@@ -3,6 +3,7 @@ layout: page
 title: Sports
 permalink: /pages/sports
 ---
+# Sports
 
 We have a full year of sports planned to give you a break and time to have to fun with your fellow students. We will be running a 5-aside football team throughout the year representing the Computer Science department. Details on how to participate will be provided later in the year.
 
