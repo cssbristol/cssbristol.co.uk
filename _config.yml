@@ -16,3 +16,6 @@ collections:
   jobs:
     output: true
     permalink: /jobs/:path/
+
+gems:
+  - jekyll-redirect-from
