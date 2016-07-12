@@ -2,7 +2,7 @@
 layout: job
 title: IT Support and Systems Graduate
 hide: false
-logo: /assets/images/contrib/jobs/TVF.png
+logo: /assets/images/contrib/jobs/tvf.png
 datePosted: 2016-07-09 10:43:00 +0100
 employmentType: full-time
 hiringOrganization:
