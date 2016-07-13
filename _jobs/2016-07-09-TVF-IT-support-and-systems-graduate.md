@@ -30,7 +30,8 @@ We pride ourselves for having successfully created our own systems in-house, rat
 Successful candidates will have:
 
 * An interest in and aptitude for both hardware and programming
-* The desire to innovate and expand upon existing systems • An excellent educational background with a minimum 2:1 degree from a top university.
+* The desire to innovate and expand upon existing systems
+* An excellent educational background with a minimum 2:1 degree from a top university.
 * A creative mindset
 * Linux experience and some knowledge of Microsoft Excel are also desirable.
 
