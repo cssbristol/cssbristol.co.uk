@@ -35,6 +35,10 @@ $(document).ready(function() {
         {
           googleCalendarId: '77q6gepe08n9hbqdd91om074u8@group.calendar.google.com',
           className: 'calendar__event--university'
+        },
+        {
+          googleCalendarId: 'rihoqatfnklaqfbegvj0nu4nhk@group.calendar.google.com',
+          className: 'calendar__event--beees'
         }
       ]
     })
