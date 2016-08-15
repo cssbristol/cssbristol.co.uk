@@ -18,14 +18,13 @@
   ul {
     margin: 10px 0;
     li {
-      list-style-type: none;
-      text-indent: -10px;
+      list-style-type: circle;
+      list-style-position: inside;
+      text-indent: 0px;
       @include media-query($on-palm) {
-        text-indent: 0px;
+        text-indent: 10px;
       }
-      &:before {
-        content: "- ";
-      }
+
     }
     ul {
       margin-left: 10px;

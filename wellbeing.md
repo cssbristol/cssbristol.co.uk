@@ -5,11 +5,33 @@ permalink: /wellbeing/
 show-in-nav: true
 ---
 
+
+[Link](#what-help-is-on-offer)
+
 # Student Health & Support
 
 We are working hard with the department to make sure this page be as well-informed as possible. If you think something is missing, you can get in touch with someone on [the committee](/about), or you can add the content yourself and [file a pull request](https://github.com/cssbristol/cssbristol.github.io).
 
 While we sort this page out though, you can use the [Student Union's JustAsk service](https://www.bristolsu.org.uk/justask/welfare/mentalhealth/), or the [Student Health & Counselling Services](http://www.bristol.ac.uk/students/services/mental-health/). They are equipped to handle just about everything and anything!
+
+
+# Table of Contents
+1. [Who is this page for?](#who-is-this-page-for)
+2. [What sort of problems does this include?](#what-sort-of-problems-does-this-include)
+  * [Stress and Mental Health](#stress-and-mental-health)
+  * [Nastiness In Online Discussion Spaces](#nastiness-in-online-discussion-spaces)
+3. [What help is on offer](#what-help-is-on-offer)
+  * [Personal Tutors](#personal-tutors)
+  * [Senior Tutors](#senior-tutoros)
+  * [University Student Health Service](#university-student-health-service)
+  * [University Student Counselling Service](#university-student-counselling-service)
+  * [University Disability Services](#university-disability-services)
+  * [Bristol SU JustAsk](#bristol-su-justask)
+  * [Bristol Nightline](#bristol-nightline)
+  * [University Multi-faith Chaplaincy](#university-multi-faith-chaplaincy)
+  * [Sex and Consent](#sex-and-consent)
+  * [Vulnerable Students Support](#vulnerable-students-support)
+
 
 # Who is this page for?
 
@@ -27,7 +49,7 @@ In short, anything that is having a negative impact on your ability to study, or
 
 It is worth giving special mention to two subjects in particular. We do not hold them to be more or less important than others mentioned, but time has shown that they have been encountered a disproportionate amount both at Bristol, and in the wider Computer Science community.
 
-## Stress & Mental Health
+## Stress and Mental Health
 
 Studying Computer Science is stressful. Multiple deadlines, exams and group projects all add up and take their toll. Many people are able to cope with this stress, but for some people it starts to affect their health outside of University and their ability to function properly. For some, it can lead to bouts of depression, and other mental illness. This has been a very taboo topic in the past, with a lot of misunderstanding and grief as a result. It is important that we create an environment within the computer science community at Bristol where people feel able to ask for help without worrying about stigma and how their peers will judge them. Similarly, if someone does open up to you, it is important that you are comfortable in knowing how to respond! There is a lot of advice on line on talking about mental health, and how to seek help. This page won't seek to replicate that, but the services listed below have lots of information on it.
 
@@ -184,7 +206,7 @@ Please refer to them for issues relating to any of the following:
 * Friendship
 * Family
 
-## Sex & Consent
+## Sex and Consent
 
 The University offers a lot of support and information around sex, consent, and clearing up myths and misunderstandings. If you don't know what the fuss is about, want to understand more about consent, or need support for yourself or a friend, then the University can help. It is nothing to be embarrassed about.
 
