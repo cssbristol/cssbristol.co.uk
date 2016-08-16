@@ -5,9 +5,6 @@ permalink: /wellbeing/
 show-in-nav: true
 ---
 
-
-[Link](#what-help-is-on-offer)
-
 # Student Health & Support
 
 We are working hard with the department to make sure this page be as well-informed as possible. If you think something is missing, you can get in touch with someone on [the committee](/about), or you can add the content yourself and [file a pull request](https://github.com/cssbristol/cssbristol.github.io).
@@ -20,7 +17,7 @@ While we sort this page out though, you can use the [Student Union's JustAsk ser
 2. [What sort of problems does this include?](#what-sort-of-problems-does-this-include)
   * [Stress and Mental Health](#stress-and-mental-health)
   * [Nastiness In Online Discussion Spaces](#nastiness-in-online-discussion-spaces)
-3. [What help is on offer](#what-help-is-on-offer)
+3. [What help is on offer?](#what-help-is-on-offer)
   * [Personal Tutors](#personal-tutors)
   * [Senior Tutors](#senior-tutoros)
   * [University Student Health Service](#university-student-health-service)
