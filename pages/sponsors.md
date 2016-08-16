@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Sponsors
+title: Partners and sponsors
 permalink: /pages/sponsors
 ---
 
-# Thinking about sponsoring CSS?
+# Partner with CSS
 
-Whether you're interested in partnering with us to run an event or looking to begin a longer collaboration, we're always happy to hear from potential sponsors.
+Whether you're interested in running an event or looking to begin a longer collaboration, we're always happy to hear from potential partners.
 
 * [Our sponsorship packages, 2016-17](/assets/files/sponsorship-2016-17.pdf)
 * [Contact us about sponsorship](mailto:vice-president@cssbristol.co.uk)
