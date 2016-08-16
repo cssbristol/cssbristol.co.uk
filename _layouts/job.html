@@ -76,7 +76,11 @@ layout: default
       {% endif %}
       {% if page.incentiveCompensation %}
         <h2>Incentives</h2>
-        <p itemprop="incentiveCompensation">{{ page.incentiveCompensation }}</p>
+        <ul itemprop="incentiveCompensation">
+          {% for incentive in page.incentiveCompensation %}
+            <li>{{ incentive }}</li>
+          {% endfor %}
+        </div>
       {% endif %}
     </div>
 
