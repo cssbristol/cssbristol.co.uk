@@ -11,9 +11,9 @@ hiringOrganization:
 industry: Fintech
 jobLocation: London, United Kingdom
 occupationalCategory:
-baseSalary: 35000
+baseSalary: 35000+
 salaryCurrency: GBP
-salaryPeriod: year
+salaryPeriod: year (dependent on experience)
 startDate: Immediate
 validThrough: 2016-11-30 12:00:00 +0000
 skills:
@@ -33,7 +33,7 @@ incentiveCompensation:
 - Work in a collaborative, flexible, open-minded and flat organisation
 - Work on challenging real-world problems that you can take ownership of
 - We are located in Fitrzovia in the heart of central London with a ton of great food, coffee and bars/pubs within a 2min walking distance
-- The salary range for this job is from 35K - 70K GBP depending on the experience level (junior to senior)
+- The salary range for this job is from £35K - £70K GBP depending on the experience level (junior to senior)
 ---
 [Apply for this position](https://yoyo.workable.com/jobs/281666)
 

@@ -1,6 +1,6 @@
 ---
 layout: job
-title: Software Engineer (iOS or Android)
+title: Mobile Engineer (iOS or Android)
 hide: false
 logo: /assets/images/contrib/jobs/yoyo-wallet.png
 datePosted: 2016-08-16 22:26:00 +0100
@@ -11,9 +11,9 @@ hiringOrganization:
 industry: Fintech
 jobLocation: London, United Kingdom
 occupationalCategory:
-baseSalary: 30000
+baseSalary: 30000+
 salaryCurrency: GBP
-salaryPeriod: year
+salaryPeriod: year (dependent on experience)
 startDate: Immediate
 validThrough: 2016-08-31 12:00:00 +0000
 skills:
@@ -39,7 +39,7 @@ incentiveCompensation:
 - Work on challenging real-world problems that you can take ownership of
 - Build something today and see it in people’s hands tomorrow
 - We are located in Fitrzovia in the heart of central London with a ton of great food, coffee and bars/pubs within a 2min walking distance
-- The salary range for this job is from 35K - 70K GBP depending on the experience level (junior to senior)
+- The salary range for this job is from £30K+ depending on the experience level
 ---
 [Apply for this position](https://yoyo.workable.com/jobs/217951)
 
