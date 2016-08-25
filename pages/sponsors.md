@@ -2,6 +2,7 @@
 layout: page
 title: Partners and sponsors
 permalink: /pages/sponsors
+redirect_from: "/partnerwithus"
 ---
 
 # Partner with CSS
