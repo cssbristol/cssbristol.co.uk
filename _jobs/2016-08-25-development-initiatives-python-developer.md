@@ -71,7 +71,7 @@ responsibilities:
 educationRequirements:
 experienceRequirements:
 incentiveCompensation:
-- Great work-life balance - 35 hours per week - 25 days’ annual leave, plus bank holidays - Flexible hours system - Work from home policy
+- "Great work-life balance: 35 hours per week; 25 days’ annual leave, plus bank holidays; flexible hours system; work from home policy"
 - Company pension scheme (after 3 months service) with 5% employer contribution
 - Opportunities for occasional international travel to attend IATI meetups and conferences
 - Personal development budget to buy books/training
