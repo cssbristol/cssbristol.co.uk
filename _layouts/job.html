@@ -34,6 +34,8 @@ layout: default
           <span itemprop="baseSalary">{{ page.baseSalary }}</span>
           {% if page.salaryPeriod %}per {{ page.salaryPeriod }}{% endif %}
         </dd>
+        <dt>Start</dt>
+        <dd>{{ page.startDate }}</dd>
       </dl>
 
       {% if content %}
