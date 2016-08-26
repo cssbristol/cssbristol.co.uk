@@ -106,4 +106,4 @@ If you would like to make a positive impact increasing the reach of a dynamic or
 
 All in all, this is an exciting opportunity to make a real difference to the transparency and accountability of international aid and development. In addition to your tech skills, your contributions to team discussions will help shape the future of this prestigious open data standard.
 
-[See the full job description for more details and how to apply](http://devinit.org/wp-content/uploads/2016/08/IATI-Pythn-Developer-Developer.pdf)
+[See the full job description for more details and how to apply](http://devinit.org/wp-content/uploads/2016/08/IATI-Pythn-Developer-Developer.pdf).
