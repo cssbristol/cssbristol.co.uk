@@ -11,7 +11,7 @@ hiringOrganization:
 industry: Software Development
 jobLocation: Bristol, United Kingdom
 occupationalCategory:
-baseSalary: 25000
+baseSalary: 25000-35000
 salaryCurrency: GBP
 salaryPeriod: year (dependent on experience)
 startDate: October
@@ -86,7 +86,6 @@ incentiveCompensation:
 - Enhanced maternity/paternity leave
 - Childcare vouchers.
 ---
-[Apply for this position](mailto:dale.potter@devinit.org)
 
 Are you passionate about using your skills to write code and build systems to transform the impact of billions of dollars of aid and development resources?
 
@@ -105,4 +104,6 @@ If you would like to make a positive impact increasing the reach of a dynamic or
 
 [All our code is open-source and hosted on GitHub](https://github.com/iati).
 
-All in all, this is an exciting opportunity to make a real difference to the transparency and accountability of international aid and development, and play an important role in a leading international open data initiative. In addition to your tech skills, your contributions
+All in all, this is an exciting opportunity to make a real difference to the transparency and accountability of international aid and development. In addition to your tech skills, your contributions to team discussions will help shape the future of this prestigious open data standard.
+
+[See the full job description for more details and how to apply](http://devinit.org/wp-content/uploads/2016/08/IATI-Pythn-Developer-Developer.pdf)
