@@ -36,7 +36,7 @@ $(document).ready(function() {
       },
       views: {
         agenda: {
-          minTime: "12:00:00"
+          minTime: "09:00:00"
         }
       }
       defaultView: 'agendaWeek',
