@@ -30,7 +30,7 @@ We've got a number of exciting events lined up for Freshers' Week (or, as the un
 $(document).ready(function() {
     $('#calendar').fullCalendar({
       header: {
-        left: 'title'
+        left: 'title',
         center: '',
         right: ''
       },
