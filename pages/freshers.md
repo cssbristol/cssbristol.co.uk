@@ -38,7 +38,7 @@ $(document).ready(function() {
         agenda: {
           minTime: "09:00:00"
         }
-      }
+      },
       defaultView: 'agendaWeek',
       defaultDate: '2016-09-19',
       firstDay: 1,
