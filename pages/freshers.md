@@ -24,6 +24,31 @@ We've got a number of exciting events lined up for Freshers' Week (or, as the un
 * An exciting(-ish) stand at the Welcome Fair
 * A night out. Yes, computer scientists *can* party 🎉💾
 
+<div id="calendar" class="calendar"></div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#calendar').fullCalendar({
+      header: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'agendaWeek'
+      },
+      defaultView: 'agendaWeek',
+      defaultDate: '2016-09-19',
+      firstDay: 1,
+      googleCalendarApiKey: 'AIzaSyBoDRhd5JAtBWVaN0zzEmrKo8_0W5RKF_0',
+      eventSources: [
+        {
+          googleCalendarId: 'cssbristol.co.uk_cmmb77i4kd6d9okfv5nc1pibn0@group.calendar.google.com',
+          className: 'calendar__event--css'
+        }
+      ]
+    })
+
+});
+</script>
+
 ## Freshers' Booklet 2016-17
 
 There's lots of useful information available in our Freshers' Booklet. You should be receiving a copy of this soon, if you haven't already.
