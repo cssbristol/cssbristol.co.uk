@@ -30,8 +30,9 @@ We've got a number of exciting events lined up for Freshers' Week (or, as the un
 $(document).ready(function() {
     $('#calendar').fullCalendar({
       header: {
-        center: 'title',
-        right: 'agendaWeek'
+        left: 'title'
+        center: '',
+        right: ''
       },
       defaultView: 'agendaWeek',
       defaultDate: '2016-09-19',
