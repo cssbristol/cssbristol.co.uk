@@ -20,7 +20,7 @@ Think there's something missing from this page? [Raise an issue on GitHub](https
 We've got a number of exciting events lined up for Freshers' Week (or, as the uni would rather have us call it, Welcome Week). Details will be posted here and on the calendar as they become available, but here's what we're planning:
 
 * Trip to Allstars for some pool (and beer)
-* Film evening
+* A trip outside (a scary place for many of us)
 * An exciting(-ish) stand at the Welcome Fair
 * A night out. Yes, computer scientists *can* party 🎉💾
 
