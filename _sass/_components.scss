@@ -62,4 +62,14 @@
       background: rgba(255,255,255,.1);
     }
   }
+
+  &--dark {
+    border: 1px solid #555555;
+    color: $dark-text;
+    &:hover {
+      border: 1px solid #000000;
+      color: #000000;
+      background: rgba(0,0,0,.1);
+    }
+  }
 }
