@@ -16,6 +16,7 @@ To get in touch, please e-mail the relevant committee position below. To report 
 # Things you might find useful
 
 * [Sponsorship](/pages/sponsors)
+* [Information for Freshers](/pages/freshers)
 * [CSS Constitution](/pages/constitution)
 * [CSS Assets](/pages/assets)
 * [Old CSS site](/old)

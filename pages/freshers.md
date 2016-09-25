@@ -2,7 +2,7 @@
 layout: page
 title: Freshers
 permalink: /pages/freshers/
-show-in-nav: true
+show-in-nav: false
 ---
 
 # Welcome!
