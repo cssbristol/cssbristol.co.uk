@@ -20,7 +20,9 @@ We'll be taking a whistle-stop tour through:
 
 We hope to see you there!
 
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fevents%2F1735506040033485%2F&width=500" width="500" height="446" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+<a class="btn btn--dark" href="https://www.facebook.com/events/1735506040033485/">
+  View on Facebook
+</a>
 
 <a class="btn btn--dark" href="https://calendar.google.com/calendar/render?eid=aDVoZDZwajc5OGs4bmdobjl1Yzg0OGw4NWsgY3NzYnJpc3RvbC5jby51a19jbW1iNzdpNGtkNmQ5b2tmdjVuYzFwaWJuMEBn&sf=true&output=xml">
   View on Google Calendar
