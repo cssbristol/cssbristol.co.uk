@@ -15,7 +15,7 @@ baseSalary: 35000
 salaryCurrency: GBP
 salaryPeriod: year
 startDate: 2017-09-01
-validThrough: 2016-11-01 12:00:00 +0100
+validThrough: 2016-11-01 12:00:00 +0000
 skills:
 - skill: A passion for IT and an interest in developing and delivering leading edge technologies, especially cloud based technologies
 - skill: Competency in at least one programming language (e.g. Java, Python, Javascript)
