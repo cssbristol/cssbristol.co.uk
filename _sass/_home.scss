@@ -49,6 +49,12 @@
       height: 20px;
       width: 20px;
     }
+
+    &--event {
+      &:after {
+        background-image: url('/assets/images/core/featured/event-icon.png');
+      }
+    }
   }
 }
 

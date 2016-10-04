@@ -2,7 +2,8 @@
 layout: post
 title:  "Event: Oracle - Software Engineering at Global Scale"
 date:   2016-09-27 23:25:00 +0100
-categories:
+category: "event"
+event_date: 2016-10-04 13:00:00 +0100
 author: "Ross Gardiner"
 ---
 We're lucky to have two engineers from Oracle's Bristol office coming to the department next Tuesday to talk about software deployment and delivery.

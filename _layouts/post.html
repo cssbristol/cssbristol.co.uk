@@ -10,6 +10,11 @@ layout: default
         {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> on {% endif %}
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
       </p>
+      {% if page.category == "event" %}
+        <p class="blog-post__meta">
+          <strong>Event: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.event_date | date: "%b %-d, %Y %H:%M" }}</time></strong>
+        </p>
+      {% endif %}
     </header>
     <div itemprop="articleBody" class="blog-post__body">
       {{ content }}

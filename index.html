@@ -14,9 +14,12 @@ hero:
   <h1>Latest</h1>
   <div class="featured-items">
     {% for post in site.posts limit:4 %}
-      <a class="featured-item featured-item--{{ site.data.colour-names | sample }}" href="{{ post.url }}">
+      <a class="featured-item featured-item--{{ site.data.colour-names | sample }} {% if post.category %}featured-item--{{ post.category }}{% endif %}" href="{{ post.url }}">
           <h3 class="featured-item__title">{{ post.title }}</h3>
           <p class="featured-item__meta">{{ post.author }} on {{ post.date | date: '%B %d, %Y' }}</p>
+          {% if post.category == "event" %}
+            <p class="featured-item__meta">Event: {{ post.event_date | date: '%B %d, %Y' }}</p>
+          {% endif %}
       </a>
     {% endfor %}
   </div>
