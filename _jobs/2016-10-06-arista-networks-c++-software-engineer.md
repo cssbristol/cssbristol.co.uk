@@ -21,7 +21,7 @@ skills:
 responsibilities:
 - driving the design
 - writing the code (of course)
-- pushing, testing, documenting the feature -
+- pushing, testing, documenting the feature
 - working alongside customers in the field if needed along the way, you might
 - extend and improve the test infrastructure
 - enhance our engineering tools, including Fedora, p4, git, django, python, rpm, ...
