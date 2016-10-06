@@ -23,7 +23,8 @@ responsibilities:
 - writing the code (of course)
 - pushing, testing, documenting the feature -
 - working alongside customers in the field if needed along the way, you might
-- extend and improve the test infrastructure ● enhance our engineering tools, including Fedora, p4, git, django, python, rpm, ...
+- extend and improve the test infrastructure
+- enhance our engineering tools, including Fedora, p4, git, django, python, rpm, ...
 - work with sales and business development
 - and perhaps even help improve the content on our website :)
 educationRequirements:
