@@ -14,7 +14,7 @@ occupationalCategory:
 baseSalary:
 salaryCurrency: EUR
 salaryPeriod:
-startDate: 2017-07-01
+startDate: Immediately
 validThrough: 2017-09-30 12:00:00 +0000
 skills:
 - skill: Coding, coding and more coding using C/C++/Python or Go
