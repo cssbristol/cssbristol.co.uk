@@ -25,8 +25,8 @@ Topics include:
 * On Stack Replacement
 
 
-<a class="btn btn--dark">
-  *Facebook event coming soon*
+<a class="btn btn--dark" href="https://www.facebook.com/events/604257646426183/">
+  Facebook event
 </a>
 
 <a class="btn btn--dark" href="https://calendar.google.com/calendar/render?eid=YXVkYTJtcnQyMm8yZDlvbzgyaTFmdWNhN28gY3NzYnJpc3RvbC5jby51a19jbW1iNzdpNGtkNmQ5b2tmdjVuYzFwaWJuMEBn&sf=true&output=xml">
