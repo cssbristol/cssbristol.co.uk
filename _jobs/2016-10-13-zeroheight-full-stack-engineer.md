@@ -19,7 +19,7 @@ validThrough: 2016-12-01 10:00:00 +0000
 skills:
 - skill: You love writing code – the elegant, maintainable kind
 - skill: You are experienced in both back-end and front-end web development
-- skill: nothing scares you – you’re eager to learn new frameworks, databases, languages and tools if you need to
+- skill: Nothing scares you – you’re eager to learn new frameworks, databases, languages and tools if you need to
 - skill: The idea of solving hard engineering problems as we scale to thousands of users sounds really fun
 - skill: You care deeply about user experience and user engagement
 responsibilities:
