@@ -2,7 +2,7 @@
 layout: post
 title:  "Event: CSS Discusses: Wellbeing and Workload"
 date:   2016-10-14 15:22:00 +0100
-event_date: 2016-10-26 17:00:00 +0100
+event_date: 2016-10-26 17:00:00 +0000
 category: "event"
 author: "Ross Gardiner"
 ---
