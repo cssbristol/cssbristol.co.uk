@@ -11,6 +11,7 @@ Further to the success of last year’s Panel Discussion about Equality and Dive
 Members from all engineering departments are encouraged to take part in a discussion where they can learn about the topic, make suggestions to the faculty and share ideas with other staff and students.
 
 Our goals are to:
+
 * Feed back to the staff body what could be improved about wellbeing and workload
 * Provide advice for students about managing workload and stress
 * Provide information about support available inside and outside the department
