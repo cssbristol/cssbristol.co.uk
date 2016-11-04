@@ -22,6 +22,7 @@ Lastly, the point of this event is to learn together. Learning to program can be
 A simple implementation of a phonebook in C. Good for getting to grips with structs and I/O.
 
 Difficulty: Easy.
+
 ## [Snake (Haskell)](/pages/2016-11-05-codelounge/snake)
 
 A neat version of snake in Haskell. To show that you really can do things with functional programming.
