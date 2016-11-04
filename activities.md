@@ -11,7 +11,7 @@ show-in-nav: true
 
 # **Outreach**
 
-*Coming soon!*
+* [CodeLounge 2016](/pages/codelounge)
 
 # Our plans, 2016-17
 

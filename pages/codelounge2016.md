@@ -1,17 +1,13 @@
 ---
 layout: page
 title: CodeLounge
-permalink: /pages/CodeLounge
+permalink: /pages/codelounge
 ---
 
 # CodeLounge 2016
 
-This is the page for CodeLounge projects for 2016.
+![CodeLounge](/assets/images/contrib/events/2016-11-05-codelounge/codelounge-cover-image.png)
 
-## Projects
+## [Phonebook (C)](/pages/2016-11-05-codelounge/phonebook)
 
-### Phonebook
-[Phonebook in C](https://github.com/cssbristol/codelounge-phonebook/archive/master.zip)
-
-### Snake
-[Snake in Haskell](https://github.com/cssbristol/codelounge-haskell-snake/archive/master.zip)
+## [Snake (Haskell)](/pages/2016-11-05-codelounge/snake)
