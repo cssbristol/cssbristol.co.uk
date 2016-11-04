@@ -35,3 +35,5 @@ Food and refreshments will be provided!
 </a>
 
 We look forward to seeing you there!
+
+![Bloomberg CodeCon](/assets/images/contrib/events/2016-11-09-bloomberg-codecon/bloomberg-codecon-cover-image.png)
