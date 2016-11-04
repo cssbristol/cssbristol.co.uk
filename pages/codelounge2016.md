@@ -14,14 +14,14 @@ Below are the several projects we have provided for you to work on during this e
 
 The choice is yours!
 
-Snacks and drinks will be all around at all times but there'll be falafel coming at 13:00 so don't fill yourself up. Stick around till the end of the day and let us see what you did for a chance to win some prizes including google cardboard, kick-ass computery stationary and some vouchers for Falafel King.
+Snacks and drinks will be all around at all times but there'll be falafel coming at 13:00 so don't fill yourself up. Stick around till the end of the day and let us see what you did for a chance to win some prizes including Google Cardboard, kick-ass computery stationery and some vouchers for Falafel King.
 
 Lastly, the point of this event is to learn together. Learning to program can be daunting but we're hoping to give you a bit more confidence to start your own projects as well as give you peace of mind in the work you've been doing thus far. Bug the helpers and work together!
 
 ## [Phonebook (C)](/pages/2016-11-05-codelounge/phonebook)
 A simple implementation of a phonebook in C. Good for getting to grips with structs and I/O.
 
-Difficulty: Easy.
+Difficulty: Easy
 
 ## [Snake (Haskell)](/pages/2016-11-05-codelounge/snake)
 
@@ -35,6 +35,6 @@ The classic game Pong in a language that although different won't be too difficu
 
 Difficulty: Hard
 
-## [Arduino Projects](/pages/2016-11-05-codelounge/arduio)
+## [Arduino Projects](/pages/2016-11-05-codelounge/arduino)
 
 Fancy getting your hands on some hardware? Make a lie detector or just get to grips with the tech on the several arduino projects we have.
