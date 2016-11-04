@@ -2,11 +2,11 @@
 layout: post
 title:  "Bloomberg's CodeCon"
 date:   2016-11-04 16:00:00 +0000
-categories:
+categories: "event"
 author: "Hakeem Kushoro"
 ---
 
-SIGN-UP LINK: http://tinyurl.com/z9ugbym
+///////// SIGN-UP LINK: http://tinyurl.com/z9ugbym /////////
 
 Bloomberg CodeCon is coming to Bristol University on the 9th of November!
 
