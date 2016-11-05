@@ -7,7 +7,7 @@ permalink: /pages/2016-11-05-codelounge/arduino
 
 # Arduino
 
-Below are worksheets to started with arduino
+Here are some worksheets to get started with the Arduino:
 
 [Starter Worksheets](https://github.com/cssbristol/codelounge-arduino/archive/master.zip)
 
