@@ -41,5 +41,6 @@ Naturally, we're looking for the smartest, most ambitious graduates from Science
 Sure, starting your career after graduating is a big step. So, our experienced team are here to offer you advice and support to help with your move to one of the most vibrant cities in the UK. During your time on our Graduate programme you will get connected with a growing team of young, like-minded graduates and if that's not enough, we will invite you to the annual QA Consulting conference abroad, in 2016 this is being held in Barcelona.
 
 Add it all together and it's no surprise that we have achieved some outstanding external praise including:
+
 * Voted 4th in a poll of Top Technical Companies for Graduates to work for
 * Microsoft Worldwide Learning Partner of the Year
