@@ -19,6 +19,10 @@
       margin: 20px;
       width: 100%;
     }
+
+    &--sponsored {
+      width: 90%;
+    }
   }
 
   .job-post-item {
@@ -68,7 +72,7 @@
       }
 
       background: linear-gradient(lighten($purple, 25%), lighten($purple, 15%));
-      border: 1px solid #ffffff;
+      border: 2px solid $medium-text;
     }
 
     p {

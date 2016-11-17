@@ -3,6 +3,7 @@ layout: job
 title: Graduate IT Consultant
 hide: false
 logo: /assets/images/contrib/jobs/qa.png
+sponsored: true
 datePosted: 2016-11-16 22:30:00 +0000
 employmentType: full-time
 hiringOrganization:
