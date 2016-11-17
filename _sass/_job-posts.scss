@@ -92,6 +92,18 @@
     }
   }
 
+  &__sponsored {
+    background: $purple;
+    border-radius: 3px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 5px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+  }
+
   &__dates {
     margin: -30px auto 10px !important;
     text-align: center;

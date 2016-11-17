@@ -15,6 +15,7 @@ layout: default
           {% if page.logo %}<img class="job-post__logo" src="{{ page.logo }}" alt="{{ page.hiringOrganization.name }} logo" />{% endif %}
           <p><span itemprop="address">{{ page.hiringOrganization.address }}</span></p>
         </span>
+        {% if page.sponsored %}<p class="job-post__sponsored">Sponsored</p>{% endif %}
       </header>
 
       <dl class="">
