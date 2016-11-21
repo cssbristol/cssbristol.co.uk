@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Blog
+title: News + Events
 permalink: /blog/
 show-in-nav: true
 ---
 
 <div class="page-section">
   <div class="blog-posts">
-    {% for post in site.posts limit:4 %}
+    {% for post in site.posts %}
       <a class="blog-posts__item blog-post-item" href="{{ post.url }}">
         <h1 class="blog-post-item__title">{{ post.title }}</h1>
       </a>
