@@ -12,6 +12,7 @@ Gresham Computing are coming to the department to talk about AWS and cloud compu
 We will give a brief overview of considerations and potential pitfalls when starting out building a service on a cloud computing platform. In addition to building the core functionality we will explore topics including build pipelines, continuous delivery, monitoring, high availability and disaster recovery.
 
 Discussed technologies:
+
 * Build & Deployment - AWS CloudFormation, Spot Fleets, Docker & Chef
 * Monitoring - Amazon CloudWatch, Nagios, Splunk
 * Microservices - AWS Lambda
