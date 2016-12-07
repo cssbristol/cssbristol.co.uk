@@ -23,8 +23,6 @@ Come on down to the Brass Pig! Grab yourself a Team (Max. 5), a witty name and a
 
 **The Brass Pig - 8th December - 7:30pm - Be there!**
 
-![](/assets/images/contrib/events/2016-12-08-christmas-pub-quiz/css-christmas-pub-quiz-cover.jpg)
-
 <a class="btn btn--dark" href="https://www.facebook.com/events/1792153927726062/">
   Facebook event
 </a>
@@ -32,3 +30,5 @@ Come on down to the Brass Pig! Grab yourself a Team (Max. 5), a witty name and a
 <a class="btn btn--dark" href="https://calendar.google.com/calendar/render?eid=bjFiOGFqbjExbjVpbWNzaDZpNHVoMTZyZ3MgY3NzYnJpc3RvbC5jby51a19jbW1iNzdpNGtkNmQ5b2tmdjVuYzFwaWJuMEBn&sf=true&output=xml#eventpage_6">
   Google Calendar
 </a>
+
+![](/assets/images/contrib/events/2016-12-08-christmas-pub-quiz/css-christmas-pub-quiz-cover.jpg)
