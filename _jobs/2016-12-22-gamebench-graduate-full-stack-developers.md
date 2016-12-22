@@ -10,13 +10,13 @@ hiringOrganization:
   address: Bristol And Bath Science Park, Emersons Green, Bristol
   name: GameBench
 industry: Software Development
-jobLocation: Bristol
+jobLocation: Bristol, United Kingdom
 occupationalCategory:
-baseSalary:
-salaryCurrency:
-salaryPeriod:
-startDate:
-validThrough: 2017-01-31 12:00:00 +0000
+baseSalary: 25000-28000
+salaryCurrency: GBP
+salaryPeriod: year
+startDate: Immediate
+validThrough: 2017-02-28 12:00:00 +0000
 skills:
 - skill: Passion and a can-do attitude
 - skill: Ability to program in C, C++ or Java
