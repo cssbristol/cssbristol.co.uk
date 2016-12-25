@@ -27,7 +27,7 @@ experienceRequirements:
 incentiveCompensation:
 - Pension scheme, share schemes, interest-free season ticket loan and, of course, healthy Ocado staff discounts (and free delivery).
 ---
-[Apply now](http://careers.ocado.com/VacancyInformation.aspx?VId=26073)
+[Email Adam](mailto:ar1406@my.bristol.ac.uk) to find out more about the graduate scheme and how to apply.
 
 You’re about to leave university with a lot of skills, a lot of knowledge, and a lot of options. What are you going to do with it all?
 
