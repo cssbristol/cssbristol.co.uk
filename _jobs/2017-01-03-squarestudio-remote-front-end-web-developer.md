@@ -5,7 +5,7 @@ hide: false
 logo: /assets/images/contrib/jobs/square-studio.png
 sponsored: false
 datePosted: 2017-01-03 21:46:00 +0000
-employmentType: Contract
+employmentType: Contract, flexible
 hiringOrganization:
   address: Unit 4.6, Paintworks, Bristol, BS4 3EH
   name: SquareStudio
