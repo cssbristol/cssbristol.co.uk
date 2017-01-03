@@ -23,7 +23,7 @@ responsibilities:
 - Using leading-edge cloud technology – implementation and integration of new products
 - Working as a member of a highly expert and professional software development team.
 educationRequirements:
-- Must be a student or Bristol University, ideally in a Software Development related degree.
+- Must be a student of Bristol University, ideally in a Software Development related degree.
 experienceRequirements:
 - Coding and software engineering.
 incentiveCompensation:
