@@ -10,6 +10,12 @@ IT Services hosts a huge range of systems, many of which are well kept secrets! 
 
 Every CS student has an account on the departmental server, snowy. [Read the snowy tutorial](/tutorials/ssh-into-snowy/).
 
+IT Services maintain [a page with other remote access information](http://www.bristol.ac.uk/it-services/locations/zones/zonee/cosc/remote-access), including the addresses of lab machines that you can remote into.
+
+## Frosty
+
+If you're doing Design Verification (COMS31700), you'll probably need to use Frosty for remote access to Cadence tools. This machine supports [NoMachine](https://www.nomachine.com/), which makes remoting a lot more pleasant.
+
 ## VPN
 
 The university VPN allows you to access university resources (e.g. journals, firewalled internal systems) from anywhere.
@@ -27,6 +33,10 @@ You can also remote into a standard university desktop from anywhere. Some comme
 Every student has a 'MyFiles' filestore, which you can mount on your own device while connected through the university network (i.e. eduroam, VPN, Remote Desktop).
 
 [Setup instructions](http://www.bris.ac.uk/it-services/applications/filestore/myfiles/byod/)
+
+## Mediasite
+
+Rewatching (ahem) lectures for revision? Wouldn't it be nice if you could speed them up? Well, you can - just not with Flash enabled. Append `&usehtml5=true` to the URL of a Mediasite video and voila: you can speed up playback.
 
 ## Free Software
 
