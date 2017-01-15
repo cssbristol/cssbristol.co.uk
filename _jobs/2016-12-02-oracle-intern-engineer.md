@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Summer Intern - Software Engineering
-hide: false
+hide: true
 logo: /assets/images/contrib/jobs/oracle.png
 sponsored: true
 datePosted: 2016-12-02 20:12:00 +0000
