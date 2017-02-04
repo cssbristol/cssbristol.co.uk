@@ -34,6 +34,8 @@ We're deliberately keeping this as broad as possible, because we want to see wha
 
 Maybe you'll write a piece of software with super-low energy requirements. What about a system for monitoring your vegetable patch? Or a robot that turns off unused appliances? You could write a vision algorithm that detects damage to forests or ice shelves. Perhaps you'll even write a cool visualisation that uses Bristol's Open Data platform.
 
+If you want some inspiration, we've put together a huge list of ideas and resources below.
+
 ## Resources
 
 This year, we're keen to help teams with access to any equipment or resources they might need for their project. [Contact us](mailto:webmaster@cssbristol.co.uk) if you know you're going to need something, and we'll see what we can do.
