@@ -20,6 +20,8 @@ This year we're holding our first ever Explore Week Hackathon! **Make the most o
 
 Teams can be composed of **up to 6 people**. Make sure you [sign up](https://goo.gl/forms/lFDrMaW7tgRLT0ah2) so we can reserve your place!
 
+**Don't have a team yet?** We're happy to help match you up with people! Just mention it on the signup form.
+
 Never done something like this before? Don't worry - anyone can participate!
 
 ## Prizes
