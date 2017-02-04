@@ -5,7 +5,7 @@ permalink: /pages/hackathon-2017
 redirect_from: "/hackathon"
 ---
 
-# CSS Explore Week Hackathon 2017
+# Boeing Explore Week Hackathon 2017
 
 ## Midday February 27 - Midday February 28
 
