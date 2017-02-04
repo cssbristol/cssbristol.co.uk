@@ -9,7 +9,7 @@ redirect_from: "/hackathon"
 
 ## Midday February 27 - Midday February 28
 
-This year we're holding our first ever Explore Week Hackathon! Make the most of a week free from lectures and deadlines by entering our biggest, best Hackathon yet.
+This year we're holding our first ever Explore Week Hackathon! **Make the most of a week free from lectures and deadlines** by entering our biggest, best Hackathon yet.
 
 <a href="https://www.facebook.com/events/392877197725107/" class="btn">Facebook Event</a>
 <a href="https://goo.gl/forms/lFDrMaW7tgRLT0ah2" class="btn">Sign Up Now</a>
@@ -18,7 +18,7 @@ This year we're holding our first ever Explore Week Hackathon! Make the most of 
 
 ## [Sign up now!](https://goo.gl/forms/lFDrMaW7tgRLT0ah2)
 
-[Sign up as a team of 1-6 people](https://goo.gl/forms/lFDrMaW7tgRLT0ah2).
+Teams can be composed of **up to 6 people**. Make sure you [sign up](https://goo.gl/forms/lFDrMaW7tgRLT0ah2) so we can reserve your place!
 
 Never done something like this before? Don't worry - anyone can participate!
 
@@ -36,7 +36,7 @@ Maybe you'll write a piece of software with super-low energy requirements. What 
 
 ## Resources
 
-This year, we're keen to help teams with access to any equipment or resources they might need for their project. [mailto:webmaster@cssbristol.co.uk](Contact us) if you know you're going to need something, and we'll see what we can do.
+This year, we're keen to help teams with access to any equipment or resources they might need for their project. [Contact us](mailto:webmaster@cssbristol.co.uk) if you know you're going to need something, and we'll see what we can do.
 
 For example, you might want:
 
