@@ -88,7 +88,6 @@ The US National Snow and Ice Data Center provides some useful [climate data](htt
 
 ### Recommended libraries
 
-You might find some of these libraries useful:
 * [OpenCV](http://opencv.org/) - everyone's favourite open-source computer vision library. Remember, it works with Python too!
 
 ## Easy hacks
