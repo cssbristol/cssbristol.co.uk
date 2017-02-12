@@ -5,6 +5,8 @@ permalink: /pages/explore-week-spring-2017
 redirect_from: "/exploreweek"
 ---
 
+<center><img src="/assets/images/contrib/events/2017-02-explore-week/css-explore-week-icon.png" style="height: 100px; width: auto; margin: 0 auto;"/></center>
+
 # Explore Week - Spring 2017
 
 **Make the most of the first-ever CS Explore Week, free from lectures and deadlines**. We're putting on a range of events to keep you entertained and help you explore the world of Computer Science.
