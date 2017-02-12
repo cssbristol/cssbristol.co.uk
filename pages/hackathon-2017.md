@@ -5,6 +5,8 @@ permalink: /pages/hackathon-2017
 redirect_from: "/hackathon"
 ---
 
+[Back to Explore Week](/pages/explore-week-spring-2017)
+
 # Boeing Explore Week Hackathon 2017
 
 ## Midday February 27 - Midday February 28
