@@ -78,7 +78,7 @@ Imagine you want to monitor the environmental condition of a remote region of Ea
 
 When you're trying to fly a drone around the complex edges of a polar ice cap, efficient route planning becomes particularly important. Could you build a system that suggests the best route? What about a *fleet* of drones?
 
-[ar-drone](https://github.com/felixge/node-ar-drone) is a library that implements the control protocol of the Parrot AR Drone as a Node app. Perhaps you could build a drone simulator that listens to the control output and displays it in 3D? If you're really ambitious, could you get it to control a different model of WiFi drone? Maybe you could do something cool using [voxel-drone](https://github.com/shama/voxel-drone), which simulates ar-drone in a Minecraft-y world?
+[ar-drone](https://github.com/felixge/node-ar-drone) is a library that implements the control protocol of the Parrot AR Drone as a Node app. Perhaps you could build a drone simulator that listens to the control output and displays it in 3D? Maybe you could do something cool using [voxel-drone](https://github.com/shama/voxel-drone), which simulates ar-drone in a Minecraft-y world?
 
 ![Voxel Drone screenshot](/assets/images/contrib/events/2017-02-27-hackathon/voxel-drone.png)
 
