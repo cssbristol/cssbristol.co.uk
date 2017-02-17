@@ -28,7 +28,16 @@ Never done something like this before? Don't worry - anyone can participate!
 
 ## Prizes
 
-There will be prizes! We'll be publishing more details soon.
+There are three prize categories:
+
+### Best environmental impact
+£100 cash per team member
+
+### Best-implemented prototype
+Quadcopter per team member
+
+### Most creative idea
+Google Chromecast per team member
 
 ## Theme
 
