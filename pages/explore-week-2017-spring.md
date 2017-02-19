@@ -27,6 +27,8 @@ This year we're holding our first ever Explore Week Hackathon! It's our biggest 
 
 We're holding a series of short Lightning Talks from current students and staff. These are not to be missed! We'll be releasing more details soon.
 
+<a href="https://www.facebook.com/events/366437693738236/" class="btn btn--dark">Facebook Event</a>
+
 ## **Thursday March 2**: CSS + COGS Games Night
 
 ![CSS+COGS](/assets/images/contrib/events/2017-02-explore-week/css-cogs-cover-image.png)
@@ -34,3 +36,13 @@ We're holding a series of short Lightning Talks from current students and staff.
 It was such a success last term, we're bringing it back for Explore Week! Come and chill out in MVB 1.11. We're bringing the pizza, COGS are bringing the games.
 
 <a href="https://www.facebook.com/events/1835664206693165/" class="btn btn--dark">Facebook Event</a>
+
+## **Friday March 3**: All Stars social
+
+![All Stars trip](/assets/images/contrib/events/2017-02-explore-week/explore-week-all-stars.png)
+
+Why not round off Explore Week with a well deserved game of pool and a drink down at All Stars?
+
+We have booked out a big room of pool tables for a Sports Bar CSS trip. This event is for students and staff, so we'd love to see you down there with the rest of the department!
+
+<a href="https://www.facebook.com/events/198441143969693/" class="btn btn--dark">Facebook Event</a>
