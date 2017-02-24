@@ -14,7 +14,7 @@ show-in-nav: true
   </article>
   <div class="job-posts">
     {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-    {% for job in site.jobs %}
+    {% for job in site.jobs reversed %}
       {% if job.sponsored %}
       {% unless job.hide %}
       {% capture jobtime %}{{job.validThrough | date: '%s'}}{% endcapture %}
@@ -35,7 +35,7 @@ show-in-nav: true
       {% endunless %}
       {% endif %}
     {% endfor %}
-    {% for job in site.jobs %}
+    {% for job in site.jobs reversed %}
       {% unless job.sponsored %}
       {% unless job.hide %}
       {% capture jobtime %}{{job.validThrough | date: '%s'}}{% endcapture %}
