@@ -1,7 +1,7 @@
 ---
 layout: job
 title: C++ Computer Vision Developer
-hide: true
+hide: false
 logo: /assets/images/contrib/jobs/goal-scanner.png
 sponsored: false
 datePosted: 2017-03-03 23:40:00 +0000
