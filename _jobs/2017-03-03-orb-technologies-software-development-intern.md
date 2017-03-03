@@ -1,20 +1,20 @@
 ---
 layout: job
 title: Software Development Intern
-hide: true
+hide: false
 logo: /assets/images/contrib/jobs/orb-technologies.gif
 sponsored: false
 datePosted: 2017-03-03 23:40:00 +0000
-employmentType: Internship (summer)
+employmentType: Internship (summer, flexible length)
 hiringOrganization:
   address: Entrepreneurial Spark, Bristol
   name: Orb Technologies
 industry: Software Development
 jobLocation: Entrepreneurial Spark, Bristol
 occupationalCategory:
-baseSalary:
+baseSalary: £7.50
 salaryCurrency: GBP
-salaryPeriod:
+salaryPeriod: hour
 startDate: Flexible
 validThrough: 2017-04-23 12:00:00 +0000
 skills:
