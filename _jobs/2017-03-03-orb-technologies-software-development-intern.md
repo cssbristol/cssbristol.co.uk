@@ -2,7 +2,7 @@
 layout: job
 title: Software Development Intern
 hide: false
-logo: /assets/images/contrib/jobs/goal-scanner.png
+logo: /assets/images/contrib/jobs/orb-technologies.gif
 sponsored: false
 datePosted: 2017-03-03 23:40:00 +0000
 employmentType: Internship (summer)
@@ -12,9 +12,9 @@ hiringOrganization:
 industry: Software Development
 jobLocation: Entrepreneurial Spark, Bristol
 occupationalCategory:
-baseSalary: 20
+baseSalary:
 salaryCurrency: GBP
-salaryPeriod: hour
+salaryPeriod:
 startDate: Flexible
 validThrough: 2017-04-23 12:00:00 +0000
 skills:
@@ -29,7 +29,8 @@ responsibilities:
 educationRequirements:
 - You’re studying Computer Science or Software at the University of Bristol.
 experienceRequirements:
-- You have Java programming experience. o UX programming experience in Java and Objective C would be useful.
+- You have Java programming experience.
+- UX programming experience in Java and Objective C would be useful.
 - App publishing experience in Android and iOS would be useful.
 - Experience in user-focused development would be useful.
 - Experience with older people and people living with dementia would be useful.
