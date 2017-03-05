@@ -26,11 +26,18 @@ We're all ears for any ideas that you might have. If you want to write it yourse
 
 ### Build & Run
 
-Requires [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and the Ruby Gem, [Bundler](http://bundler.io/).
+#### Pre-requisites
 
-- Fork the project, then clone your fork, e.g. `git clone https://github.com/<username>/cssbristol.github.io`
-- `bundle install` to install all dependencies (ruby gems).
-- `bundle exec jekyll build` to build the site
+- Install [Git](https://git-scm.com/downloads).
+- Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/).
+- Install [Bundler](http://bundler.io/) by running `gem install bundler`.
+
+#### Acquiring and building the project
+
+- Fork the project on GitHub.
+- Clone your fork, e.g. `git clone https://github.com/<username>/cssbristol.github.io`
+- `bundle install` to install all dependencies (Ruby gems).
+- `bundle exec jekyll build` to build the site.
 - `bundle exec jekyll serve`, then view site at [http://localhost:4000/](http://localhost:4000/)
 
 ## Roadmap
