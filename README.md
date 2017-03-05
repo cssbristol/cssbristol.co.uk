@@ -24,6 +24,15 @@ We would love to add your content to the site! If you think you can contribute a
 
 We're all ears for any ideas that you might have. If you want to write it yourself, let us know and we'll see if we can help out. If you just want to submit a feature request or idea, create an issue.
 
+### Build & Run
+
+Requires [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and the Ruby Gem, [Bundler](http://bundler.io/).
+
+- Fork the project, then clone your fork, e.g. `git clone https://github.com/<username>/cssbristol.github.io`
+- `bundle install` to install all dependencies (ruby gems).
+- `bundle exec jekyll build` to build the site
+- `bundle exec jekyll serve`, then view site at [http://localhost:4000/](http://localhost:4000/)
+
 ## Roadmap
 
 * [x] Add a jobs section
