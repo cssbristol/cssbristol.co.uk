@@ -1,7 +1,7 @@
 ---
 layout: job
 title: GUI Developer Intern
-hide: true
+hide: false
 logo: /assets/images/contrib/jobs/accis.png
 sponsored: false
 datePosted: 2017-03-14 00:38:00 +0000

@@ -1,0 +1,19 @@
+- name: Bloomberg
+  logo: bloomberg.png
+  url: https://bloomberg.com
+
+- name: Deloitte Digital
+  logo: deloitte.png
+  url: https://deloittedigital.com
+
+- name: ARM
+  logo: arm.png
+  url: http://www.arm.com/
+
+- name: Oracle
+  logo: oracle.png
+  url: http://www.oracle.com/
+
+- name: QA
+  logo: qa.png
+  url: https://www.qa.com/qa-consulting
