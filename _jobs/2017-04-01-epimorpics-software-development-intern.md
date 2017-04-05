@@ -11,7 +11,7 @@ logo: /assets/images/contrib/jobs/epimorphics.png
 jobLocation: Portishead, near Bristol
 industry: Software Development
 employmentType: Internship (summer)
-validThrough: 2017-04-30 11:59:00 +0000
+validThrough: 2017-04-30 11:59:00 +0100
 startDate: mid-June
 occupationalCategory:
 baseSalary: 1500

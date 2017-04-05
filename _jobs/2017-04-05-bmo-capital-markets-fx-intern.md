@@ -2,7 +2,7 @@
 layout: job
 hide: false
 sponsored: false
-datePosted: 2017-04-01 15:04:00 +0000
+datePosted: 2017-04-05 15:04:00 +0000
 hiringOrganization:
   name: BMO Capital Markets
   address: 95 Queen Victoria Street, London
@@ -11,7 +11,7 @@ logo: /assets/images/contrib/jobs/bmo-capital-markets.png
 jobLocation: London, UK
 industry: FX Intern, Trading Products
 employmentType: Internship (summer)
-validThrough: 2017-04-14 18:00:00 +0000
+validThrough: 2017-04-14 18:00:00 +0100
 startDate: Immediately / ASAP
 occupationalCategory:
 baseSalary: 20000
@@ -49,7 +49,7 @@ skills:
 - skill: Focus on meeting and understanding client needs
 - skill: Personable and team player
 incentiveCompensation:
-- 3 month internship with opportunity to become full-time 
+- 3 month internship with opportunity to become full-time
 ---
 
 [Apply now](mailto:EMEA.recruitment@bmo.com?subject=FX Intern)

@@ -16,7 +16,7 @@ baseSalary: 16000
 salaryCurrency: GBP
 salaryPeriod: year (stipend)
 startDate: 30th May 2017
-validThrough: 2017-05-05 17:00:00 +0000
+validThrough: 2017-05-05 17:00:00 +0100
 skills:
 responsibilities:
 educationRequirements:
