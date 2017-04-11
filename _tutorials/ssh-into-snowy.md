@@ -8,9 +8,30 @@ You are likely to find at some point that you need to work on a department syste
 
 If you're familiar with SSH, here are the details you need:
 
+**Snowy SSH details**
+
 * Server: `snowy.cs.bris.ac.uk`
 * Username: your university username, e.g. `ab12345`
 * Password: your university password
+
+**Other available machines**
+
+`snowy.cs.bris.ac.uk` is not the only server/machine you have access too.
+
+When connecting from inside the university you can use the following servers:
+
+* `paris.cs.bris.ac.uk`
+* `london.cs.bris.ac.uk`
+* `rome.cs.bris.ac.uk`
+
+In addition, all the lab machines in MVB 2.11 are available when using snowy as
+a jump box, this involves first connecting to snowy then to the lab machine in
+a chain like fashion making use of SSH's `ProxyCommand`.
+
+Lab machine addresses: `it<ID>.users.bris.ac.uk` where ID is in the following range:
+
+* `it025956.users.bris.ac.uk` -- `it025995.users.bris.ac.uk`
+* `it052556.users.bris.ac.uk` -- `it052595.users.bris.ac.uk`
 
 # SSH
 
@@ -131,3 +152,67 @@ cat ~/.ssh/id_rsa.pub | ssh ab12345@snowy.cs.bris.ac.uk 'cat >> .ssh/authorized_
 PuTTY comes with a tool called PuTTYgen for creating new SSH keys. If you have something like cygwin installed, `ssh-keygen` is probably available in your shell.
 
 You can copy the public key across using FileZilla, as described above.
+
+## Example SSH config
+
+An example SSH config is given below:
+
+```
+# ~/.ssh/config
+
+Host *
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+
+#######################################
+#         University machines         #
+#######################################
+# University of Bristol machines
+# See http://www.bristol.ac.uk/it-services/locations/zones/zonee/cosc/remote-access
+
+Host snowy
+    Hostname snowy.cs.bris.ac.uk
+    Port 22
+    User <USERNAME>
+    IdentityFile ~/.ssh/id_rsa
+    ForwardX11 no
+    ForwardX11Trusted no
+
+# To use only for Cadence tools
+Host frosty
+    Hostname frosty.fen.bris.ac.uk
+    Port 22
+    User <USERNAME>
+    IdentityFile ~/.ssh/id_rsa
+    ProxyCommand ssh snowy nc %h %p 2> /dev/null
+
+# CS lab machines live on the follow ranges
+#
+#   - 025956--025995
+#   - 052556--052595
+#
+# CentOS 6 machines:
+#
+#   - 052569--052572
+#   - 052579--052582
+
+Host cs-desktop-01
+    HostName it025980.users.bris.ac.uk
+    User <USERNAME>
+    ProxyCommand ssh snowy nc %h %p 2> /dev/null
+
+Host cs-desktop-02
+    HostName it052573.users.bris.ac.uk
+    User <USERNAME>
+    ProxyCommand ssh snowy nc %h %p 2> /dev/null
+
+Host cs-desktop-03
+    HostName it052574.users.bris.ac.uk
+    User <USERNAME>
+    ProxyCommand ssh snowy nc %h %p 2> /dev/null
+```
+
+## Resources
+
+* [IT Services: Remote Access](http://www.bristol.ac.uk/it-services/locations/zones/zonee/cosc/remote-access)
