@@ -121,7 +121,27 @@ Responsible for the society’s advertisement and designs. The Advertising offic
 
 ---
 
+## Motions
+
+### Motion 2017-01: Addition of 2 'General' committee roles
+
+This motion will add 2 CSS committee roles, both named 'General'. These two roles will be full roles of the committee, have full voting rights (and will attend meetings) but will not have a specific responsibility. The 'general' role will be more of an assisting role to any other role that needs an extra pair of hands. For example, if the Treasurer needs to get forms filled and submitted to the bank but cannot do it, for some reason, or the Advertising officer needs posters put up but is away for a few days, the 'General' role can be asked to do either of these tasks.
+
+### Motion 2017-02: Introduce a first year CSS Rep
+
+Currently, first years don't have anyone to represent them on the CSS committee due to all positions being elected in the AGM during the previous year.
+
+This motion proposes the CSS introduce a First Year CSS Rep to the committee. The position would be elected in an EGM in October or November. An interim rep would be elected at the AGM to hold the position until the EGM in October or November.
+
+A First Year CSS Rep would be responsible for providing first year's with a voice in the committee. They would also play a major part in organising first year specific events and schemes (like parenting) for the following year.
+
+A First Year CSS Rep can only be nominated if they are currently studying their first year of Computer Science.
+
+---
+
 If you would like to run for a 2017/18 committee position or submit a motion, please [fill out the form](https://goo.gl/forms/sF1PL3w7bkVqmE7Z2).
+
+[CSS Constitution](/pages/constitution)
 
 * The deadline for applying for a committee position is **Sunday 23rd April 11:59pm**
 * The deadline for submitting a motion is **Tuesday 25th April 11:59pm**
