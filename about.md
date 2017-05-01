@@ -25,12 +25,16 @@ To get in touch, please e-mail the relevant committee position below. To report 
 * [Computer Science Society - Bristol SU](http://www.bristolsu.org.uk/groups/computer-science-society)
 * [UoB Unix Blog](http://unix.bris.ac.uk/)
 
-# Committee 2016-17
+# Committee 2017-18
 
-{% include committee.html data-file=site.data.committee-2016-17 %}
+{% include committee.html data-file=site.data.committee-2017-18 %}
 
 
 # Previous committees
+
+# Committee 2016-17
+
+{% include committee.html data-file=site.data.committee-2016-17 %}
 
 ## Committee 2015-16
 
