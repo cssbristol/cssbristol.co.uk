@@ -59,7 +59,9 @@ We're all ears for any ideas that you might have. If you want to write it yourse
 
 The initial version of the current site was designed and written by [Julian Laval](https://github.com/JulianLaval), the 2015-16 webmaster.
 
-The site was ported to Jekyll and is currently maintained by [Ross Gardiner](https://github.com/rossng), the 2016-17 webmaster.
+The site was ported to Jekyll by [Ross Gardiner](https://github.com/rossng), the 2016-17 webmaster.
+
+The site is currently maintained by Louis Heath
 
 ### Authors
 
