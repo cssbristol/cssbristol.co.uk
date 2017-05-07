@@ -1,6 +1,6 @@
 ---
 layout: job
-hide: false
+hide: true
 sponsored: false
 datePosted: 2017-05-02 20:21:00 +0100
 hiringOrganization:
@@ -29,6 +29,6 @@ incentiveCompensation:
 
 [Apply now](mailto:Jb@happygoapp.org)
 
-An iOS Developer to join an exciting startup. We are a small team looking to hire a talented individual on contract, with the potential to become full time, with an equity package. 
+An iOS Developer to join an exciting startup. We are a small team looking to hire a talented individual on contract, with the potential to become full time, with an equity package.
 
 Please get in touch for more information. We have an extremely strong advisory board, and this application has the potential to disrupt an entire industry.
