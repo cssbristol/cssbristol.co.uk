@@ -1,7 +1,7 @@
 ---
 layout: job
 title: C++ Software Engineer
-hide: true
+hide: false
 logo: /assets/images/contrib/jobs/arista.png
 datePosted: 2016-10-06 22:44:00 +0100
 employmentType: full-time
@@ -11,7 +11,7 @@ hiringOrganization:
 industry: Software Development
 jobLocation: Dublin, Ireland
 occupationalCategory:
-baseSalary:
+baseSalary: 42-45K
 salaryCurrency: EUR
 salaryPeriod:
 startDate: Immediately
