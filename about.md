@@ -16,7 +16,7 @@ To get in touch, please e-mail the relevant committee position below. To report 
 # Minutes
 
 The committee holds frequent meetings to organise events and to decide the future of the society.
-Take a look at the [minutes](https://drive.google.com/drive/folders/0Bw8lYTnOhFe7dGRfR0ZMc3JTSXc?usp=sharing) to see what we're up to!
+Take a look at the [minutes](https://drive.google.com/open?id=0B4WgBXYPLrCzaEp6Z3BnOUFleWs) to see what we're up to!
 
 # Things you might find useful
 
