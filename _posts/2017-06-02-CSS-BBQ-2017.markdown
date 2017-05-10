@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Event: CSS BBQ 2017"
+date:   2017-05-10 19:00:00 +0100
+event_date: 2017-06-02 12:00:00 +0100
+category: "event"
+author: "Louis Heath"
+image: /assets/images/contrib/events/2017-06-02-CSS-BBQ-2017/BBQ-wide.png
+---
+
+**The Old Bowling Green, Brandon Hill - 2nd June 2017 - 12-6pm**
+
+It's that time of year again! Celebrate the end of exams with our annual CSS BBQ! Join us at The Old Bowling Green on Brandon Hill for a day of free food, drinks and entertainment!
+
+![](/assets/images/contrib/events/2017-06-02-CSS-BBQ-2017/BBQ.jpg)

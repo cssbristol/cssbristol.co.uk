@@ -13,6 +13,9 @@ show-in-nav: true
       </a>
       <p class="blog-post-item__meta">{{ post.author }} on {{ post.date | date: '%B %d, %Y' }}</p>
       {{ post.excerpt }}
+      {% if post.image %}
+      <img src="{{ post.image }}">
+      {% endif %}
     {% endfor %}
   </div>
 </div>
