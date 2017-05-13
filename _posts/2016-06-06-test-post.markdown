@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Test post"
+date:   2016-06-06 12:36:00 +0100
+categories:
+author: "Hakeem Kushoro"
+---
+This is my test post.
