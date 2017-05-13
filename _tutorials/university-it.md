@@ -36,7 +36,10 @@ Every student has a 'MyFiles' filestore, which you can mount on your own device 
 
 ## Mediasite
 
-Rewatching (ahem) lectures for revision? Wouldn't it be nice if you could speed them up? Well, you can - just not with Flash enabled. Append `&usehtml5=true` to the URL of a Mediasite video and voila: you can speed up playback.
+Rewatching (ahem) lectures for revision? Wouldn't it be nice if you could speed
+them up? Well, you can - just not with Flash enabled. Append `&usehtml5=true`
+to the URL of a Mediasite video and voila: you can speed up playback. If you're
+tired of having to do this manually, then use the [HTML5 mediasite userscript](https://openuserjs.org/scripts/willprice/HTML5_Mediasite) to automatically append it (using an extension like [TamperMonkey](https://tampermonkey.net/))
 
 ## Free Software
 
