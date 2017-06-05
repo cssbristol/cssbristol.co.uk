@@ -9,10 +9,10 @@ redirect_from: "/partnerwithus"
 
 Whether you're interested in running an event or looking to begin a longer collaboration, we're always happy to hear from potential partners.
 
-* [Our sponsorship packages, 2016-17](/assets/files/sponsorship-2016-17.pdf)
+* [Our sponsorship packages, 2017-18](/assets/files/sponsorship-2017-18.pdf)
 * [Contact us about sponsorship](mailto:vice-president@cssbristol.co.uk)
 
-<iframe src = "/ViewerJS/#../assets/files/sponsorship-2016-17.pdf" width='100%' height='600' allowfullscreen webkitallowfullscreen></iframe>
+<iframe src = "/ViewerJS/#../assets/files/sponsorship-2017-18.pdf" width='100%' height='600' allowfullscreen webkitallowfullscreen></iframe>
 
 ## Tech Talk Top Tips
 
