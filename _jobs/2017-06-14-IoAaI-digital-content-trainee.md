@@ -28,7 +28,7 @@ skills:
 - skill: Mailchimp
 incentiveCompensation:
 ---
-Please apply by emailing jobs@artandideas.org with subject line ‘Digital Content Trainee’ and attaching your CV and Cover Letter
+Please apply by emailing jobs@artandideas.org with subject line ‘Digital Content Trainee’ and attaching your CV and Cover Letter.
 [Apply now](jobs@artandideas.org)
 
 
