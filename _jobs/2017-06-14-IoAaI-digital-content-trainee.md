@@ -16,7 +16,7 @@ startDate: Immediate
 occupationalCategory:
 baseSalary: 20000
 salaryCurrency: GBP
-salaryPeriod: Month
+salaryPeriod: year
 responsibilities:
 educationRequirements:
 experienceRequirements:
@@ -28,9 +28,7 @@ skills:
 - skill: Mailchimp
 incentiveCompensation:
 ---
-Please apply by emailing jobs@artandideas.org with subject line ‘Digital Content Trainee’ and attaching your CV and Cover Letter.
-[Apply now](jobs@artandideas.org)
-
+Please [apply by email](mailto:jobs@artandideas.org?subject=Digital Content Trainee), attaching your CV and Cover Letter.
 
 This is a remarkable opportunity to play a key part in the growth of a rapidly expanding and unique organisation, the Institute of Art and Ideas (IAI).The IAI team are originating and developing cutting edge ideas and conveying them to the wider public through events, festivals and our educational media platforms, described by the Guardian as “Europe's answer to TED”.  
 As a Digital Content Trainee you will need strategic and creative vision, along with the technical knowledge, to help a small dynamic team of exceptionally talented individuals deliver cutting edge digital campaigns, and exponential website traffic. You will help grow the digital side of the IAI and drive ongoing success through web analytics.
