@@ -1,0 +1,14 @@
+<div class="reps">
+  {% for course-rep in include.data-file %}
+  <div class="course__rep course-rep" itemscope itemtype="http://schema.org/Person">
+    <img src="{{ course-rep.image }}" alt="Picture of {{ course-rep.name }}" class="course-rep__image" />
+    <p class="course-rep__name" itemprop="name">{{ course-rep.name }}</p>
+    <p class="course-rep__course" itemprop="course">{{ course-rep.course }}</p>
+    <p class="course-rep__email"><a href="mailto:{{ course-rep.email }}"><span itemprop="email">{{ course-rep.email }}</span></a></p>
+    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" style="display: none;">
+      <div><span itemprop="addressLocality">Bristol</span></div><div itemprop="addressCountry">United Kingdom</div>
+    </div>
+    <div itemscope itemtype="http://schema.org/Organization" style="display: none;"><span itemprop="name">University of Bristol Computer Science Society</span></div>
+  </div>
+  {% endfor %}
+</div>
