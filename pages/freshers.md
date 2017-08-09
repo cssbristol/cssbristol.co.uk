@@ -16,11 +16,13 @@ You'll be pretty busy over the next few weeks, so we've collected together some 
 
 ## Freshers' Week 2017
 
-We've got a number of exciting events lined up for Freshers' Week (also known as Welcome Week). Details will be posted here and on the calendar as they become available, but here's what we're planning:
+We've got a number of exciting events lined up for Freshers' Week (also known as Welcome Week). Details will be posted here and on the calendar as they become available, but here's an idea of what we're planning:
 
-* A trip outside (a scary place for many of us)
 * An exciting(-ish) stand at the Welcome Fair
-* A night out. Yes, computer scientists *can* party 🎉💾
+* A night out or two. Yes, computer scientists *can* party 🎉💾
+* Complete the Cori tap [challenge](https://thetab.com/uk/bristol/2017/03/24/ten-step-guide-cori-tap-challenge-29087) ??
+* Have a crack at some coding at the CSS Hackathon!
+* Attempt to use 3D printers
 * more detailed events to come ...
 
 <div id="calendar" class="calendar"></div>
