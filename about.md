@@ -29,6 +29,8 @@ Take a look at the [minutes](https://drive.google.com/open?id=0B4WgBXYPLrCzaEp6Z
 * [Department Unit Catalogue](https://www.bris.ac.uk/esu/unitprogcat/UnitsForDept.jsa?orgCode=COSC)
 * [Computer Science Society - Bristol SU](http://www.bristolsu.org.uk/groups/computer-science-society)
 * [UoB Unix Blog](http://unix.bris.ac.uk/)
+* [CSS Facebook Group](https://www.facebook.com/groups/CSSBristol/)
+* [CSS FB Code of Conduct](https://drive.google.com/open?id=0Bw8lYTnOhFe7ZlFGQk9DSnVoeFE)
 
 # Committee 2017-18
 
