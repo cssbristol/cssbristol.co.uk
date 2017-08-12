@@ -16,7 +16,7 @@ You'll be pretty busy over the next few weeks, so we've collected together some 
 
 ## Freshers' Week 2017
 
-We've got a number of exciting events lined up for Freshers' Week (also known as Welcome Week). Details will be posted here and on the calendar as they become available, but here's an idea of what we're planning:
+We've got a number of exciting events lined up for Freshers' Week (also known as Welcome Week). As details become available they will be posted here, on the calendar and most importantly on the [Facebook group](https://www.facebook.com/groups/CSSBristol/), but here's an idea of what we're planning:
 
 * An exciting(-ish) stand at the Welcome Fair
 * A night out or two. Yes, computer scientists *can* party 🎉💾
@@ -69,7 +69,7 @@ There's lots of useful information available in our Freshers' Booklet. You shoul
 
 All our events are published on the [calendar](/events/). Add it to your Google Calendar account and sync it to your phone!
 
-The society is run each year by an [elected committee](/about/). Come say hi! We don't bite.
+The society is run each year by an [elected committee](/contact/). Come say hi! We don't bite.
 
 Join the Facebook group, and follow us on Twitter! You'll miss out if you don't...
 

@@ -7,7 +7,7 @@ show-in-nav: true
 
 # [Sign up](http://eepurl.com/cie4y1)
 
-Find out about events, socials, jobs and more! We send a monthly(-ish) newsletter and important updates. [Sign up now.](http://eepurl.com/cie4y1)
+Find out about events, socials, jobs and more! We send a monthly(-ish) newsletter with important updates. [Sign up now.](http://eepurl.com/cie4y1)
 
 # Archive
 

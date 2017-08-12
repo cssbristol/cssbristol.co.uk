@@ -1,10 +1,11 @@
-<div class="reps">
+<div class="committee">
   {% for course-rep in include.data-file %}
-  <div class="course__rep course-rep" itemscope itemtype="http://schema.org/Person">
-    <img src="{{ course-rep.image }}" alt="Picture of {{ course-rep.name }}" class="course-rep__image" />
-    <p class="course-rep__name" itemprop="name">{{ course-rep.name }}</p>
-    <p class="course-rep__course" itemprop="course">{{ course-rep.course }}</p>
-    <p class="course-rep__email"><a href="mailto:{{ course-rep.email }}"><span itemprop="email">{{ course-rep.email }}</span></a></p>
+  <div class="committee__member committee-member" itemscope itemtype="http://schema.org/Person">
+    <img src="{{ course-rep.image }}" alt="Picture of {{ course-rep.name }}" class="committee-member__image" />
+    <p class="committee-member__name" itemprop="name">{{ course-rep.name }}</p>
+    <p class="committee-member__position" itemprop="course">{{ course-rep.year }} Year</p>
+    <p class="committee-member__position" itemprop="course">{{ course-rep.course }}</p>
+    <p class="committee-member__email"><a href="mailto:{{ course-rep.email }}"><span itemprop="email">{{ course-rep.email }}</span></a></p>
     <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" style="display: none;">
       <div><span itemprop="addressLocality">Bristol</span></div><div itemprop="addressCountry">United Kingdom</div>
     </div>

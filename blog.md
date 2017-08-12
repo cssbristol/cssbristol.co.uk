@@ -1,17 +1,9 @@
 ---
 layout: page
-title: Activities
-permalink: /activities/
-show-in-nav: false
+title: News + Events
+permalink: /blog/
+show-in-nav: true
 ---
-
-# [Sports](/pages/sports)
-
-[Read more](/pages/sports)
-
-# **Outreach**
-
-* [CodeLounge 2016](/pages/codelounge)
 
 # Our plans, 2017-18
 
@@ -29,3 +21,5 @@ We've been planning a jam-packed year. More details soon - but here's a teaser:
 * Christmas Pub Quiz
 * Hackathons
 * and more...
+
+{% include blog.html %}

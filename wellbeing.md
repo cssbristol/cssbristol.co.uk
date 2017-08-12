@@ -7,7 +7,7 @@ show-in-nav: true
 
 # Student Health & Support
 
-We are working hard with the department to make sure this page be as well-informed as possible. If you think something is missing, you can get in touch with someone on [the committee](/about), or you can add the content yourself and [file a pull request](https://github.com/cssbristol/cssbristol.github.io).
+We are working hard with the department to make sure this page be as well-informed as possible. If you think something is missing, you can get in touch with someone on [the committee](/contact), or you can add the content yourself and [file a pull request](https://github.com/cssbristol/cssbristol.github.io).
 
 While we sort this page out though, you can use the [Student Union's JustAsk service](https://www.bristolsu.org.uk/justask/welfare/mentalhealth/), or the [Student Health & Counselling Services](http://www.bristol.ac.uk/students/services/mental-health/). They are equipped to handle just about everything and anything!
 

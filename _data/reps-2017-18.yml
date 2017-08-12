@@ -1,24 +1,30 @@
 - name: Bradley Miles
-  course: Year 3 Computer Science
+  year: Third
+  course: Computer Science
   email:
   image: /assets/images/contrib/reps/2017-18/Y3-1.jpg
 - name: Spencer Warren
-  course: Year 3 Computer Science
+  year: Third
+  course: Computer Science
   email:
   image: /assets/images/contrib/reps/2017-18/Y3-2.jpg
 - name: Manan Waswani
-  course: Year 3 Mathematics and Computer Science
+  year: Third
+  course: Maths and Computer Science
   email:
   image: /assets/images/contrib/reps/2017-18/Y3-M.jpg
 - name: Sam Alpyssov
-  course: Year 2 Computer Science
+  year: Second
+  course: Computer Science
   email:
   image: /assets/images/contrib/reps/2017-18/Y2-1.jpg
 - name: Charlie Harding
-  course: Year 2 Computer Science
+  year: Second
+  course: Computer Science
   email:
   image: /assets/images/contrib/reps/2017-18/Y2-2.jpg
 - name: Laura Pozzetti
-  course: Year 2 Mathematics and Computer Science
+  year: Second
+  course: Maths and Computer Science
   email:
   image: /assets/images/contrib/reps/2017-18/Y2-M.jpg
