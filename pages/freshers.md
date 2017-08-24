@@ -68,7 +68,7 @@ All our events are published on the [calendar](/events/). Add it to your Google 
 
 ## Useful Information
 
-There's lots of useful information available in our Freshers' Booklet. You should be receiving a hard copy soon, but [here it is](https://drive.google.com/file/d/0B9_3SHvksdTbNnR3Qk1LQmxLZ1U/view?usp=sharing) if you haven't already.
+There's lots of useful information available in our Freshers' Booklet. You should be receiving a hard copy soon, but [here it is](https://github.com/cssbristol/freshers-booklet-2017/releases) if you haven't already.
 
 The society is run each year by an [elected committee](/contact/). Come say hi! We don't bite.
 
