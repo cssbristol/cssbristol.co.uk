@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "CSS joins Strava!"
+date:   2017-08-30 22:00:00 +0100
+categories:
+author: "Louis Heath"
+---
+
+**Who said nerds have to be unfit?**
+
+[Join the club](https://www.strava.com/clubs/cssbristol) on Strava for friendly competition and motivation!
+
+![](/assets/images/contrib/blog/2017-08-30-nerd-run.jpg)
