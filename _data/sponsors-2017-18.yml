@@ -2,17 +2,9 @@
   logo: bloomberg.png
   url: https://bloomberg.com
 
-- name: Deloitte Digital
-  logo: deloitte.png
-  url: https://deloittedigital.com
-
 - name: Arm
   logo: arm.png
   url: http://www.arm.com/
-
-- name: Oracle
-  logo: oracle.png
-  url: http://www.oracle.com/
 
 - name: QA
   logo: qa.png
@@ -21,3 +13,7 @@
 - name: CreditCall
   logo: creditcall.png
   url: https://www.creditcall.com/
+
+- name: G-Research
+  logo: g-research.png
+  url: http://www.gresearch.co.uk/
