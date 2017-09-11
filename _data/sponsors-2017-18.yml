@@ -6,10 +6,6 @@
   logo: arm.png
   url: http://www.arm.com/
 
-- name: QA
-  logo: qa.png
-  url: https://www.qa.com/qa-consulting
-
 - name: CreditCall
   logo: creditcall.png
   url: https://www.creditcall.com/
