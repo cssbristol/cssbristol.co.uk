@@ -3,10 +3,10 @@ layout: post
 title:  "Advice for Second Years"
 date:   2017-09-24 14:00:00 +0100
 categories:
-author: "Louis Heath"
+author: "Louis Heath, Chris Priscott, Tess Conway, Ian Lawson, Harshna Patel"
 ---
 
-The second year of Computer Science at Bristol is a tough one - below is a thread of valuable tips to help you through:
+The second year of Computer Science at Bristol is a tough one - here's a thread of valuable tips from students who've seen it through
 
 
 ## Note to my younger self: advice for thriving in second year
