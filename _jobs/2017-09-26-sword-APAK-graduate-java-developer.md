@@ -7,7 +7,7 @@ hiringOrganization:
   name: Sword APAK
   address: Sword Apak, Nibley Court, 3 Turner Drive, Westerleigh Business Park, Bristol, BS37 5YX
 title: Graduate Java Developer
-logo: /assets/images/contrib/jobs/sword-APAK.jpg
+logo: /assets/images/contrib/jobs/sword-apak.jpg
 jobLocation: Yate
 industry: Software Development
 employmentType: Full-time
