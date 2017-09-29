@@ -10,8 +10,9 @@ redirect_from: "/barcrawl"
 
 It's that time of year again! Get your t-shirt and join us on the 2017 CSS Bar Crawl.
 
-## Get your t-shirt now 👕🎽👚👔
-https://www.bristolsu.org.uk/groups/computer-science-society/events/css-bar-crawl-2017
+<a class="btn btn--dark" href="https://www.bristolsu.org.uk/groups/computer-science-society/events/css-bar-crawl-2017/buy_ticket">
+  Get your t-shirt now 👕🎽👚👔 (£6.50)
+</a>
 
 For £6.50 you get:
 * An **incredibly exclusive** bar crawl t-shirt
