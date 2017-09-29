@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Software Development Intern (6 months)
-hide: false
+hide: true
 logo: /assets/images/contrib/jobs/arm.png
 sponsored: true
 datePosted: 2017-03-16 09:00:00 +0000

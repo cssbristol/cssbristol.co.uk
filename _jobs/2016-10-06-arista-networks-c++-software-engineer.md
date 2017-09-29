@@ -1,7 +1,7 @@
 ---
 layout: job
 title: C++ Software Engineer
-hide: false
+hide: true
 logo: /assets/images/contrib/jobs/arista.png
 datePosted: 2016-10-06 22:44:00 +0100
 employmentType: full-time
