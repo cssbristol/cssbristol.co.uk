@@ -11,6 +11,8 @@ We are working hard with the department to make sure this page be as well-inform
 
 While we sort this page out though, you can use the [Student Union's JustAsk service](https://www.bristolsu.org.uk/justask/welfare/mentalhealth/), or the [Student Health & Counselling Services](http://www.bristol.ac.uk/students/services/mental-health/). They are equipped to handle just about everything and anything!
 
+If you're in first or second year and would like advice on getting through the year, check out [this thread](/2017/09/24/second-year-advice.html) of tips from students who've done it.
+
 
 # Table of Contents
 1. [Who is this page for?](#who-is-this-page-for)
@@ -77,7 +79,7 @@ Please refer to them for issues relating to any of the following:
 
 These tutors are "one up" from your personal tutor, and can be turned to for problems that for whatever reason, you can't solve with your personal tutor. These might be academic or personal in nature.
 
-According to the 2014/15 staff duties list, the three senior tutors for the Computer Science department are [Peter Flach](https://www.cs.bris.ac.uk/People/personal.jsp?key=4252), [Steve Gregory](https://www.cs.bris.ac.uk/People/personal.jsp?key=4214) and [Elizabeth Oswald](https://www.cs.bris.ac.uk/People/personal.jsp?key=5293).
+According to the 2014/15 staff duties list, the three senior tutors for the Computer Science department are [Conor Houghton](http://www.bristol.ac.uk/engineering/people/conor-j-houghton/index.html) and [Elizabeth Oswald](http://www.bris.ac.uk/engineering/people/elisabeth-e-oswald/index.html).
 
 Please refer to them for issues relating to any of the following:
 

@@ -7,19 +7,20 @@ show-in-nav: true
 
 # Our plans, 2017-18
 
-We've been planning a jam-packed year. More details soon - but here's a teaser:
+We hope you enjoyed Welcome Week - we sure did. Here's what we're planning for you next:
 
-* Freshers' Week
-  * Socials
-  * Sports
-  * Film night
-  * Freshers' Fair (yes - we're actually planning to turn up this year!)
+* Tech talks
 * Bar crawls
+* Reading Week
+  * Potential Hackathon
+  * OMG night out
+  * Lightning Talks
+  * Code Lounge
 * Discussion panels
-* CodeLounge
 * CSS+COGS LAN night
 * Christmas Pub Quiz
-* Hackathons
+* More Hackathons!
+* CTF coding challenge
 * and more...
 
 {% include blog.html %}
