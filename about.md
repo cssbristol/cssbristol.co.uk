@@ -21,6 +21,7 @@ Take a look at the [minutes](https://drive.google.com/open?id=0B4WgBXYPLrCzaEp6Z
 * [CSS Facebook Group](https://www.facebook.com/groups/CSSBristol/)
 * [Sponsorship](/pages/sponsors)
 * [Information for Freshers](/pages/freshers)
+* [Wisdom from alumni](/pages/alumni)
 * [CSS Constitution](/pages/constitution)
 * [Department Teaching pages](http://www.cs.bris.ac.uk/Teaching/)
 * [Department Unit Catalogue](https://www.bris.ac.uk/esu/unitprogcat/UnitsForDept.jsa?orgCode=COSC)
