@@ -30,8 +30,20 @@ body {
       margin-bottom: 30px;
       padding: 0 5px;
     }
+
+    // TODO: Convert to variable media query
+    @media screen and (max-width: 450px) {
+      // padding: 0;
+      min-width: 100%;
+    }
+
     img {
       height: 40px;
+
+     // TODO: Convert to variable media query
+     @media screen and (max-width: 450px) {
+        height: 25px;
+      }
     }
   }
 }

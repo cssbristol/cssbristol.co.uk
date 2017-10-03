@@ -78,6 +78,12 @@
     line-height: 38px;
     text-transform: uppercase;
 
+    // TODO: Convert to variable media query
+    @media screen and (max-width: 450px) {
+      font-size: 35px;
+      letter-spacing: 1px;
+    }
+
     &--small {
       font-size: 16px;
       letter-spacing: 5px;
