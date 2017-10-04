@@ -13,12 +13,12 @@ show-in-nav: true
     <p><strong>Bristol alumni</strong>: we would like to write profiles illustrating the careers of our students post-graduation. <a href="mailto:webmaster@cssbristol.co.uk">Get in touch</a> if you are interested in taking part.</p>
   </article>
   <div class="job-posts">
-    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+    {% capture nowunix %}{{'now' | date: '%s' | plus: 7200}}{% endcapture %}
     {% for job in site.jobs reversed %}
       {% if job.sponsored %}
       {% unless job.hide %}
       {% capture jobtime %}{{job.validThrough | date: '%s'}}{% endcapture %}
-      {% unless jobtime < (nowunix + 7200) %}
+      {% unless jobtime < nowunix %}
       <div itemscope itemtype="http://schema.org/JobPosting" class="job-posts__item {% if job.sponsored %}job-posts__item--sponsored{% endif %} job-post-item {% if job.sponsored %}job-post-item--sponsored{% endif %}">
         <a href="{{ job.url }}">
           <h2 class="job-post-item__title">{{ job.title }}</h2>
@@ -39,7 +39,7 @@ show-in-nav: true
       {% unless job.sponsored %}
       {% unless job.hide %}
       {% capture jobtime %}{{job.validThrough | date: '%s'}}{% endcapture %}
-      {% unless jobtime < (nowunix + 7200) %}
+      {% unless jobtime < nowunix %}
       <div itemscope itemtype="http://schema.org/JobPosting" class="job-posts__item job-post-item {% if job.sponsored %}job-post-item--sponsored{% endif %}">
         <a href="{{ job.url }}">
           <h2 class="job-post-item__title">{{ job.title }}</h2>
@@ -62,6 +62,6 @@ show-in-nav: true
 <div class="page-section">
   <h1>Careers Service</h1>
   <article class="article">
-       <!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="36266/"></script> <!-- end feedwind code --> 
+       <!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="36266/"></script> <!-- end feedwind code -->
   </article>
 </div>
