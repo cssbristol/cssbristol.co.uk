@@ -7,9 +7,13 @@ show-in-nav: true
 
 # Our plans, 2017-18
 
-We hope you enjoyed Welcome Week - we sure did. Here's what we're planning for you next:
+We hope you enjoyed Welcome Week - we sure did. There's plenty more to come; tech talks, bar crawls, hackathons and more! We've even got a joint LAN with COGS planned! Watch this space or our [Facebook page](https://www.facebook.com/css.bristol.9/) for updates.
 
-* Tech talks
+&nbsp;
+
+-----------
+
+<!-- * Tech talks
 * Bar crawls
 * Reading Week
   * Potential Hackathon
@@ -21,6 +25,6 @@ We hope you enjoyed Welcome Week - we sure did. Here's what we're planning for y
 * Christmas Pub Quiz
 * More Hackathons!
 * CTF coding challenge
-* and more...
+* and more... -->
 
 {% include blog.html %}
