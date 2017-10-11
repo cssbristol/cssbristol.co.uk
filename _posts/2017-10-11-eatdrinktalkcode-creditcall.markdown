@@ -26,4 +26,8 @@ Developers worldwide use our SDKs in their own solutions to enable them to accep
 
 Being born and bred in Bristol (though we’re now known worldwide), all of us at Creditcall HQ wanted to welcome new and returning students to Bristol - so we asked everyone in our Bristol office to share their best bits of Bristol:
 
-[Creditcall: 10 things you should know hen studying in bristol](https://www.creditcall.com/10-things-you-should-know-when-studying-in-bristol)
+[Creditcall: 10 things you should know when studying in bristol](https://www.creditcall.com/10-things-you-should-know-when-studying-in-bristol)
+
+<a class="btn btn--dark" href="https://www.facebook.com/events/1918754915115321/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A186624821720134%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A186624821720134%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D">
+  Facebook Event
+</a>
