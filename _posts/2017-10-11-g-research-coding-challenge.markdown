@@ -5,6 +5,7 @@ date:   2017-10-11 11:30:00 +0100
 event_date: 2017-10-24 18:30:00 +0100
 category: "event"
 author: "Louis Heath"
+redirect_from: "/gresearch2018"
 ---
 
 Come along to 1.11A MVB on the 24th October for coding, prizes and food - and a chance to chat with one of our great sponsors G-Research!
