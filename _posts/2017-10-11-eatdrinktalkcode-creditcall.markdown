@@ -5,6 +5,7 @@ date:   2017-10-11 11:00:00 +0100
 event_date: 2017-10-19 17:00:00 +0100
 category: "event"
 author: "Louis Heath"
+redirect_from: "/creditcallsocial"
 ---
 
 [Creditcall](http://www.creditcall.com/) will be hosting a social very close to the MVB immediately after the careers fair on October 19 - exact location soon to be confirmed.
