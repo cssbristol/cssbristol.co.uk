@@ -8,7 +8,7 @@ author: "Louis Heath"
 redirect_from: "/creditcallsocial"
 ---
 
-[Creditcall](http://www.creditcall.com/) will be hosting a social very close to the MVB immediately after the careers fair on October 19 - exact location soon to be confirmed.
+[Creditcall](http://www.creditcall.com/) is hosting a social at the White Harte immediately after the careers fair on October 19! Come along for a chat and free food.
 
 Here’s your chance to mingle with like-minded students and experienced developers alike to share ideas and insights on all things code in central Bristol over a few drinks and some grub.
 
