@@ -1,8 +1,7 @@
 ---
-layout: post
-title: First Steps with Git
+layout: tutorial
+title: "First Steps with Git"
 date: 2017-10-18 15:00:00 +0100
-categories: tutorial
 author: "David Bernhard"
 ---
 

@@ -1,6 +1,6 @@
 - name: Bloomberg
   logo: bloomberg.png
-  url: https://bloomberg.com
+  url: https://www.bloomberg.com
 
 - name: Arm
   logo: arm.png
@@ -8,8 +8,12 @@
 
 - name: CreditCall
   logo: creditcall.png
-  url: https://www.creditcall.com/
+  url: http://www.creditcall.com/
 
 - name: G-Research
   logo: g-research.png
   url: /sponsors/g-research
+
+- name: Dyson
+  logo: dyson.png
+  url: http://careers.dyson.com/
