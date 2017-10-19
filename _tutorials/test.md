@@ -113,38 +113,3 @@ Create a file called `.gitignore` (yes, it starts with a dot) with one line `hel
 So far we've just saved our project's history in a subfolder on our own machine. The next step is to save it in the cloud so that several people can work on it together, or you can work on it from different machines (for example, home and lab PC).
 
 There are three big free providers of git services: [gitlab](https://gitlab.com/), [github](https://github.com/) and [bitbucket](https://bitbucket.org/). Gitlab and bitbucket offer you unlimited (within reason) free private repositories (where you control who can read/write them), github gives you one free private repository (5 if you sign up for their student pack with your university e-mail). All three providers offer unlimited free public repositories for open-source projects.
-
-**WARNING: do not under any circumstances place code that you have submitted or intend to submit as assessed coursework to a public repository on any provider. If another student finds this code and submits a copy of it, you are both in trouble for plagiarism. Yes, this has happened in the past.**
-
-The next few steps in this tutorial are based on the gitlab UI to create a remote repository, but github and bitbucket offer the same features.
-
-  * Go to [gitlab.com](https://gitlab.com) and register an account.
-  * Click "New project", choose a project name and set visibility to private.
-
-You get to see your project page. The git address of your project is `https://gitlab.com/USERNAME/PROJECTNAME.git`, so for example my username is `david-bristol` and I have a project called `coconut` that lives at [https://gitlab.com/david-bristol/coconut.git](https://gitlab.com/david-bristol/coconut.git). If you access this link on the web, it'll remove the ".git" part at the end but you need it in your terminal.
-
-The command `git clone ADDRESS` downloads a repository and sets up some information so that you can synchronise the local and remote copies. For example, `git clone https://gitlab.com/david-bristol/coconut.git` will create a subfolder `coconut` with the contents of my coconut project. Since this is a public project, the files will just appear - for a private project, git will ask for your username and password first.
-
-You can now use the following two commands to synchronise the local and remote copies:
-
-  * `git pull` pulls any changes from the remote copy to the local one.
-  * `git push` pushes your local changes to the remote copy.
-
-It is advised to use these commands only when your working tree is clean.
-
-The rough outline of setting up a git project to work together:
-
-  * Everyone creates an account with the same provider.
-  * One person creates the online repository and gives everyone else on the project access to it (assuming a private repository). On gitlab, choose settings/members in the left menu, enter the other developers' gitlab usernames and set their role to "Developer" (the default "Guest" lets you read but not write).
-  * Everyone clones the repository to their own machine.
-
-The commands `git add` and `git commit` add changes from your **working tree** to the **local copy of the repository**. The commands `git push` and `git pull` move committed changes from the **local copy of the repository** to the **remote copy of the repository** and back again. After pushing/pulling, all copies of the repository should be identical.
-
-Your daily coding routine:
-
-  * `git pull` to download any changes that your colleagues have made.
-  * Make changes, commit, repeat. Once again: make small changes and commit frequently. This step only writes to the local copy of your repository and does not require internet access.
-  * At the end of the day, or whenever you want to share code with others, `git push`. This uploads your changes to the server.
-
-You can save yourself a lot of trouble by only doing push/pull operations with a clean working tree, e.g. you've added and committed all changes to the local copy of your repository.
-In theory, that's all you need. In practice, what happens if two people edit the same file?
