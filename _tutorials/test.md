@@ -124,3 +124,18 @@ The next few steps in this tutorial are based on the gitlab UI to create a remot
 You get to see your project page. The git address of your project is `https://gitlab.com/USERNAME/PROJECTNAME.git`, so for example my username is `david-bristol` and I have a project called `coconut` that lives at [https://gitlab.com/david-bristol/coconut.git](https://gitlab.com/david-bristol/coconut.git). If you access this link on the web, it'll remove the ".git" part at the end but you need it in your terminal.
 
 The command `git clone ADDRESS` downloads a repository and sets up some information so that you can synchronise the local and remote copies. For example, `git clone https://gitlab.com/david-bristol/coconut.git` will create a subfolder `coconut` with the contents of my coconut project. Since this is a public project, the files will just appear - for a private project, git will ask for your username and password first.
+
+You can now use the following two commands to synchronise the local and remote copies:
+
+  * `git pull` pulls any changes from the remote copy to the local one.
+  * `git push` pushes your local changes to the remote copy.
+
+It is advised to use these commands only when your working tree is clean.
+
+The rough outline of setting up a git project to work together:
+
+  * Everyone creates an account with the same provider.
+  * One person creates the online repository and gives everyone else on the project access to it (assuming a private repository). On gitlab, choose settings/members in the left menu, enter the other developers' gitlab usernames and set their role to "Developer" (the default "Guest" lets you read but not write).
+  * Everyone clones the repository to their own machine.
+
+The commands `git add` and `git commit` add changes from your **working tree** to the **local copy of the repository**. The commands `git push` and `git pull` move committed changes from the **local copy of the repository** to the **remote copy of the repository** and back again. After pushing/pulling, all copies of the repository should be identical.
