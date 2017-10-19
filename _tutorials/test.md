@@ -113,3 +113,14 @@ Create a file called `.gitignore` (yes, it starts with a dot) with one line `hel
 So far we've just saved our project's history in a subfolder on our own machine. The next step is to save it in the cloud so that several people can work on it together, or you can work on it from different machines (for example, home and lab PC).
 
 There are three big free providers of git services: [gitlab](https://gitlab.com/), [github](https://github.com/) and [bitbucket](https://bitbucket.org/). Gitlab and bitbucket offer you unlimited (within reason) free private repositories (where you control who can read/write them), github gives you one free private repository (5 if you sign up for their student pack with your university e-mail). All three providers offer unlimited free public repositories for open-source projects.
+
+**WARNING: do not under any circumstances place code that you have submitted or intend to submit as assessed coursework to a public repository on any provider. If another student finds this code and submits a copy of it, you are both in trouble for plagiarism. Yes, this has happened in the past.**
+
+The next few steps in this tutorial are based on the gitlab UI to create a remote repository, but github and bitbucket offer the same features.
+
+  * Go to [gitlab.com](https://gitlab.com) and register an account.
+  * Click "New project", choose a project name and set visibility to private.
+
+You get to see your project page. The git address of your project is `https://gitlab.com/USERNAME/PROJECTNAME.git`, so for example my username is `david-bristol` and I have a project called `coconut` that lives at [https://gitlab.com/david-bristol/coconut.git](https://gitlab.com/david-bristol/coconut.git). If you access this link on the web, it'll remove the ".git" part at the end but you need it in your terminal.
+
+The command `git clone ADDRESS` downloads a repository and sets up some information so that you can synchronise the local and remote copies. For example, `git clone https://gitlab.com/david-bristol/coconut.git` will create a subfolder `coconut` with the contents of my coconut project. Since this is a public project, the files will just appear - for a private project, git will ask for your username and password first.
