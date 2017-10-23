@@ -16,7 +16,7 @@ validThrough: 2017-11-14 23:00:00 +0100
 
 startDate: ASAP
 occupationalCategory:
-baseSalary:
+baseSalary: Competitive
 salaryCurrency:
 salaryPeriod:
 responsibilities:
