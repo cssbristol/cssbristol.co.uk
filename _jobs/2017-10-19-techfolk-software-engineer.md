@@ -16,9 +16,9 @@ validThrough: 2017-12-21 09:00:00 +0100
 
 startDate: Immediately / during Q4
 occupationalCategory:
-baseSalary: £27500
+baseSalary: £25000 - £30000 per year negotiable
 salaryCurrency:
-salaryPeriod: year
+salaryPeriod:
 responsibilities:
 educationRequirements:
 - Degree-level understanding of Computer Science, through study or time industry
