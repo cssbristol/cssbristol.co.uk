@@ -16,9 +16,9 @@ validThrough: 2017-11-30 17:00:00 +0100
 
 startDate: Immediately, October - January
 occupationalCategory:
-baseSalary: £28000
+baseSalary: £28,000 - £45,000+ per year negotiable
 salaryCurrency:
-salaryPeriod: year
+salaryPeriod:
 responsibilities:
 educationRequirements:
 experienceRequirements:
@@ -32,8 +32,7 @@ skills:
 - skill: Someone who has - or who'd like to gain - skills in data intensive projects, especially if includes use of Linked Data or Big Data technologies
 - skill: Or, someone who has - or who'd like to gain - skills in DevOps – not just the coding of software, but the art and craft of deploying, scaling and supporting software-based infrastructure services
 incentiveCompensation:
-- £28,000 - £45,000+ negotiable
-- Optional discretionary home working (e.g. Tuesdays, Thursdays and Fridays)
+- Optional discretionary home working
 - 25 days holiday, flexible hours, discretionary travel season ticket, pension, workstation and OS of your choice, training courses, budget for books, time to attend conferences, contribute to open source, good coffee and teas, staff kitchen, indoor bike storage, free parking
 ---
 
