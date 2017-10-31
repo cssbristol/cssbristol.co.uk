@@ -14,13 +14,13 @@ redirect_from: "/accessibilityhack2017"
 This year we're holding our first ever Explore Week Mini Hackathon. **Make the most of a week free from lectures and deadlines** and take six hours out of your day to build something cool! As ever, there will be plenty of free food and drinks to keep you fuelled.
 
 <a href="https://www.facebook.com/events/479772452408106/" class="btn btn--dark">Accessibility Hack (Facebook)</a>
-<a href="https://goo.gl/forms/lFDrMaW7tgRLT0ah2" class="btn btn--dark">Sign Up Now</a>
+<a href="https://goo.gl/forms/GzbDAco2xhJcih0t2" class="btn btn--dark">Sign Up Now</a>
 
 ![CSS Explore Week Hackathon 2017](/assets/images/contrib/events/2017-11-explore-week/accessibility-hackathon-cover-image.png)
 
-## [Sign up now!](https://goo.gl/forms/lFDrMaW7tgRLT0ah2)
+## [Sign up now!](https://goo.gl/forms/GzbDAco2xhJcih0t2)
 
-Teams can be composed of **up to 4 people**. Make sure you [sign up](https://goo.gl/forms/lFDrMaW7tgRLT0ah2) so we can reserve your place!
+Teams can be composed of **up to 4 people**. Make sure you [sign up](https://goo.gl/forms/GzbDAco2xhJcih0t2) so we can reserve your place!
 
 **Don't have a team yet?** We're happy to help match you up with people! Just mention it on the signup form.
 
@@ -49,7 +49,7 @@ The more ambitious, the better 😉
 
 ## Resources
 
-We're keen to help teams with access to any equipment or resources they might need for their project. [Contact us](mailto:webmaster@cssbristol.co.uk) if you know you're going to need something, and we'll see what we can do.
+We're keen to help teams with access to any equipment or resources they might need for their project. [Contact us](mailto:president@cssbristol.co.uk) if you know you're going to need something, and we'll see what we can do.
 
 For example, you might want:
 
