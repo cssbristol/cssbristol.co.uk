@@ -2,7 +2,6 @@
 layout: page
 title: Explore Week Spring 2017
 permalink: /pages/explore-week-spring-2017
-redirect_from: "/exploreweek"
 ---
 
 <center><img src="/assets/images/contrib/events/2017-02-explore-week/css-explore-week-icon.png" style="height: 100px; width: auto; margin: 0 auto;"/></center>
