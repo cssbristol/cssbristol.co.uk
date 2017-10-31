@@ -13,7 +13,7 @@ redirect_from: "/exploreweek"
 
 ## **Tuesday November 14**: Bloomberg Accessibility Hackathon
 
-![CSS Explore Week Hackathon 2017](/assets/images/contrib/events/2017-11-explore-week/accessibility-hackathon-cover-image.png)
+<a href="https://www.facebook.com/events/479772452408106/">![CSS Explore Week Hackathon 2017](/assets/images/contrib/events/2017-11-explore-week/accessibility-hackathon-cover-image.png)</a>
 
 **10am-4.30pm, MVB Atrium**
 
@@ -38,7 +38,7 @@ There will be food, drinks and prizes (of course!)
 
 ## **Wednesday November 15**: CodeLounge
 
-![CSS Explore Week Hackathon 2017](/assets/images/contrib/events/2017-11-explore-week/codelounge-cover-image.png)
+<a href="https://www.facebook.com/events/1868800843433282/">![CSS Explore Week Hackathon 2017](/assets/images/contrib/events/2017-11-explore-week/codelounge-cover-image.png)</a>
 
 **Midday-4pm, MVB Atrium**
 
@@ -60,7 +60,7 @@ We'll be heading out for a low-key social on Wednesday evening. More details com
 
 **2pm-4pm, MVB Atrium**
 
-![Lightning Talks](/assets/images/contrib/events/2017-11-explore-week/lightning-talks-cover-image.png)
+<a href="https://www.facebook.com/events/136873833631865/">![Lightning Talks](/assets/images/contrib/events/2017-11-explore-week/lightning-talks-cover-image.png)</a>
 
 We're holding a series of short Lightning Talks from current students and staff. These are not to be missed! We'll be releasing more details soon.
 
@@ -72,7 +72,7 @@ We're holding a series of short Lightning Talks from current students and staff.
 
 **2pm-4pm, MVB Atrium**
 
-![CSS+COGS](/assets/images/contrib/events/2017-11-explore-week/css-cogs-cover-image.png)
+<a href="https://www.facebook.com/events/200291933845976/">![CSS+COGS](/assets/images/contrib/events/2017-11-explore-week/css-cogs-cover-image.png)</a>
 
 We're bringing it back for another Explore Week! Come and chill out in MVB 1.11. We're bringing the pizza, COGS are bringing the games.
 
