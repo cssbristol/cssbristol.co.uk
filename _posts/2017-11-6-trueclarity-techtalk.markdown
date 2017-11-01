@@ -24,3 +24,5 @@ Nick is a principal developer and Sitecore MVP working at True Clarity. At the m
 </a>
 
 The talk will be in MVB 1.11A from 1-2pm
+
+![](/assets/images/contrib/events/2017-11-06-trueclarity/trueclarity-cover.jpg)
