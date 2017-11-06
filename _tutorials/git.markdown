@@ -98,7 +98,7 @@ $ git log --oneline
 $ git checkout 4f25 hello.c`
 ```
 
-The command `git checkout HASH FILENAME` reverts the file to the state in the given commit. The file is now in "changed and not tracked" state as if you'd edited it by hand. You can also `git checkout HASH`  filename to revert all files back to an older commit.
+The command `git checkout HASH FILENAME` reverts the file to the state in the given commit. The file is now in "changed and not tracked" state as if you'd edited it by hand. You can also `git checkout HASH` to revert all files back to an older commit.
 
 ## Excluding files
 
