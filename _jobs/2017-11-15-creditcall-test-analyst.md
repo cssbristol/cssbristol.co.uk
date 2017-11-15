@@ -1,6 +1,6 @@
 ---
 layout: job
-hide: true
+hide: false
 sponsored: true
 datePosted: 2017-11-15 12:00:00 +0100
 hiringOrganization:
