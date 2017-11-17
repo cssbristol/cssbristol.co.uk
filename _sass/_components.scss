@@ -32,6 +32,48 @@
   }
 }
 
+.idea {
+  border: 1px solid #999999;
+  border-radius: 3px;
+  padding: 10px;
+
+  h2 {
+    margin-top: 5px;
+  }
+
+  ul.idea__statuses {
+    li.idea-status {
+      list-style-type: none;
+      margin: 10px 0;
+      padding: 10px;
+
+      h3 {
+        margin-top: 5px;
+      }
+
+      &--in-progress {
+        background-color: #fffdaa;
+      }
+
+      &--stalled {
+        background-color: #ffd89e;
+      }
+
+      &--rejected {
+        background-color: #ffa293;
+      }
+
+      &--completed {
+        background-color: #c3ff99;
+      }
+
+      &--proposed {
+        background-color: #e5e5e5;
+      }
+    }
+  }
+}
+
 .btn, a.btn {
   border: 1px solid #999999;
   border-radius: 3px;

@@ -100,3 +100,14 @@
     margin: 30px 0;
   }
 }
+
+.ideas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+
+  &__idea {
+    margin: 30px 0;
+    width: 100%;
+  }
+}
