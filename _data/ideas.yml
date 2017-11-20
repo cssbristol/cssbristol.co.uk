@@ -44,6 +44,12 @@
   - status: Proposed
     reason: Proposed at SCEEM SSLC meeting.
     date: 2017-11-17
+- name: Install Re/Play in the new Queen's Wing (F101)
+  description: Re/Play equipment has not yet been installed in these rooms, which are used for many lectures.
+  statuses:
+  - status: Proposed
+    reason: Proposed at SCEEM SSLC meeting.
+    date: 2017-11-17
 - name: Introduce a Reading Week
   description: Add a reading week to both terms for parity with other subjects.
   statuses:
