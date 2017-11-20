@@ -2,7 +2,7 @@
 layout: post
 title:  "Workshop: Introduction to iOS Development"
 date:   2017-11-11 13:00:00 +0100
-event_date: 2017-11-06 13:00:00 +0100
+event_date: 2017-11-20 13:00:00 +0100
 category: "event"
 author: "Louis Heath"
 ---
