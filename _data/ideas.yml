@@ -2,6 +2,9 @@
   contact_name: Rebecca Mear
   contact_email: rebecca.mear@bristol.ac.uk
   statuses:
+  - status: Completed
+    reason: Hackspace is now open!
+    date: 2017-11-17
   - status: In Progress
     reason: Hackspace is built and opening in a couple of weeks.
     date: 2017-11-17
