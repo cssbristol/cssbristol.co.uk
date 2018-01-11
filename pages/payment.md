@@ -23,5 +23,4 @@ redirect_from: "/payment"
   </script>
   <input name="amount" value="999" type="hidden">
   <input name="description" value="test payment" type="hidden">
-  <input name="metadata" value="{ product_id: '12345' }" type="hidden">
 </form>
