@@ -11,13 +11,17 @@ redirect_from: "/payment"
 
 <form action="https://css-checkout.herokuapp.com/" method="POST">
   <script
-    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    src="https://checkout.stripe.com/checkout.js"
+    class="stripe-button"
     data-key="pk_test_xQxLXcl78GmSYv48ZqMBp0H3"
-    data-amount="999"
-    data-name="cssbristol"
-    data-description="Widget"
-    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+    data-amount="9.99"
+    data-name="CSS Bristol"
+    data-description="Payment Gateway"
+    data-image="assets/images/contrib/branding/css-logo.png"
     data-locale="auto"
     data-currency="gbp">
   </script>
+  <input name="amount" value="9.99" type="hidden">
+  <input name="description" value="Hoodie" type="hidden">
+  <input name="metadata" value="{ product_id : 0 }" type="hidden">
 </form>
