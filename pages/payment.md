@@ -14,14 +14,14 @@ redirect_from: "/payment"
     src="https://checkout.stripe.com/checkout.js"
     class="stripe-button"
     data-key="pk_test_xQxLXcl78GmSYv48ZqMBp0H3"
-    data-amount="9.99"
+    data-amount="999"
     data-name="CSS Bristol"
     data-description="Payment Gateway"
-    data-image="assets/images/contrib/branding/css-logo.png"
+    data-image="/assets/images/contrib/branding/css-logo.png"
     data-locale="auto"
     data-currency="gbp">
   </script>
-  <input name="amount" value="9.99" type="hidden">
-  <input name="description" value="Hoodie" type="hidden">
-  <input name="metadata" value="{ product_id : 0 }" type="hidden">
+  <input name="amount" value="999" type="hidden">
+  <input name="description" value="" type="hidden">
+  <input name="metadata" value="" type="hidden">
 </form>
