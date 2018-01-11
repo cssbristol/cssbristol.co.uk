@@ -22,6 +22,6 @@ redirect_from: "/payment"
     data-currency="gbp">
   </script>
   <input name="amount" value="999" type="hidden">
-  <input name="description" value="" type="hidden">
+  <input name="description" value="test payment" type="hidden">
   <input name="metadata" value="" type="hidden">
 </form>
