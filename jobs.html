@@ -9,9 +9,12 @@ show-in-nav: true
   <h1>Jobs</h1>
   <article class="article">
     <p>CSS helps computer science students discover high-quality job opportunities.</p>
-    <p>Want to add a job opening to this page? <a href="https://docs.google.com/forms/d/1TY1gmN8f02Np_B--DGcSC5YxhywfpPPxNl4jU8ok4S0/viewform">Just fill out this form</a> and we'll publish it as soon as we can.</p>
-    <p><strong>Bristol alumni</strong>: we would like to write profiles illustrating the careers of our students post-graduation. <a href="mailto:webmaster@cssbristol.co.uk">Get in touch</a> if you are interested in taking part.</p>
+    <p>
+      To post a job with us, simply <a href="https://docs.google.com/forms/d/1TY1gmN8f02Np_B--DGcSC5YxhywfpPPxNl4jU8ok4S0/viewform">fill out this form</a>. Also consider <a href="http://www.bristol.ac.uk/careers/employers/recruit/">advertising with the University Careers Service</a>, and <a href="https://www.bristol.ac.uk/engineering/ilo/students/mentoring/">signing up to be an industrial mentor</a>!
+    </p>
   </article>
+
+
   <div class="job-posts">
     {% capture nowunix %}{{'now' | date: '%s' | plus: 7200}}{% endcapture %}
     {% for job in site.jobs reversed %}
