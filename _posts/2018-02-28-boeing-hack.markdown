@@ -7,7 +7,7 @@ category: "event"
 author: "Louis Heath"
 ---
 
-**MVB, 11am Wednesday 18th Feb - 1pm Thursday 1st March**
+**MVB, 11am Wednesday 28th Feb - 1pm Thursday 1st March**
 
 ![](/assets/images/contrib/events/2018-02-28-boeing-hack/cover.jpg)
 
