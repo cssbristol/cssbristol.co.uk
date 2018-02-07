@@ -2,7 +2,6 @@
 layout: page
 title: CSS Hackathon 2017
 permalink: /pages/hackathon-2017
-redirect_from: "/hackathon"
 ---
 
 [Back to Explore Week](/pages/explore-week-spring-2017)
