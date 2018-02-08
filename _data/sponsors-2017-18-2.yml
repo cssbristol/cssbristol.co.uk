@@ -1,0 +1,23 @@
+- name: Bloomberg
+  logo: bloomberg.png
+  url: https://www.bloomberg.com
+
+- name: Arm
+  logo: arm.png
+  url: http://www.arm.com/
+
+- name: CreditCall
+  logo: creditcall.png
+  url: http://www.creditcall.com/
+
+- name: G-Research
+  logo: g-research.png
+  url: /sponsors/g-research
+
+- name: Dyson
+  logo: dyson.png
+  url: http://careers.dyson.com/
+
+- name: Jump Trading
+  logo: jumptrading.png
+  url: http://jumptrading.com/
