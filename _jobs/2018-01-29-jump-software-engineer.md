@@ -1,7 +1,7 @@
 ---
 layout: job
 hide: false
-sponsored: false
+sponsored: true
 datePosted: 2018-01-29 17:00:00 +0100
 hiringOrganization:
   name: Jump Trading
