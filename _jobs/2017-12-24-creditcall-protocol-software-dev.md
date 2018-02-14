@@ -11,7 +11,7 @@ logo: /assets/images/contrib/jobs/creditcall.png
 jobLocation: Bristol BS1
 industry: Software Development
 employmentType: Full-time
-validThrough: 2018-01-22 23:59:59 +0100
+validThrough: 2018-04-14 12:00:00 +0100
 
 
 startDate: Immediately
