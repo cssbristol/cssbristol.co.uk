@@ -7,45 +7,43 @@ category: "event"
 author: "Louis Heath"
 ---
 
-**MVB, 11am Wednesday 28th Feb - 1pm Thursday 1st March**
+**The CSS Boeing Hackathon is back! MVB, 11am Wednesday 28th Feb - 1pm Thursday 1st March**
 
 ![](/assets/images/contrib/events/2018-02-28-boeing-hack/cover.jpg)
 
-The CSS Boeing Hackathon is back!
+# //// IMPORTANT INFORMATION ////
 
-//// IMPORTANT INFORMATION ////
-
-// SIGNUP //
+## // SIGNUP //
 
 - [Link here](https://goo.gl/forms/PFVMp2J89mdVkdRi1). Teams of up to 6 people
 - Not got anyone to work with or a full team? No worries. Just indicate that you'd like to be matched with others and we'll sort out the rest.
 
-// PRIZES //
+## // PRIZES //
 
-- TBC (they'll be awesome though)
+- 6x Sphero Mini!
+- 6x Google Home Mini!
+- 6x Something Unconfirmed and Exciting!
 
-// FREE FOOD AND DRINKS //
+## // FREE FOOD AND DRINKS //
 
 - If you have any dietary requirements, state them on the signup form or email events@cssbristol.co.uk
 
-// RULES //
+## // RULES //
 
 - TBC
 
-// THEME //
+## // THEME //
 
 - Our theme this year is SPACE! 🌌🚀
 
 The prizes will be awarded in three categories:
 
-### Space data
-Find a cool way to use satellite imagery or other data collected in space.
-
-### Software/hardware for space
-Build something that we could send into space!
-
-### Explore space
-Help non-scientists to explore and learn about space.
+1. *Space data*
+  - Find a cool way to use satellite imagery or other data collected in space.
+2. *Software/hardware for space*
+  - Build something that we could send into space!
+3. *Explore space*
+  - Help non-scientists to explore and learn about space.
 
 Here are some example projects to get your brains whirring:
 
@@ -84,11 +82,12 @@ Maybe you'll write a piece of software that will improve shipping efficiency. Ho
 
 If you want to make use of satellite data, we'll be releasing some guides to help you soon.
 
-// TOOLS AVAILABLE //
+## // TOOLS AVAILABLE //
 
-- TBC for now
+- Join the Discord server [here](https://discordapp.com/invite/pt97nDh) for updates on the day!
+- More to come
 
-// GOOD LUCK! //
+## // GOOD LUCK! //
 
 <a class="btn btn--dark" href="https://www.facebook.com/events/153087555349796/">
     Facebook Event
