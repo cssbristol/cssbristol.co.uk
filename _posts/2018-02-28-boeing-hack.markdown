@@ -22,7 +22,7 @@ author: "Louis Heath"
 
 - 6x Sphero Mini!
 - 6x Google Home Mini!
-- 6x Something Unconfirmed and Exciting!
+- 6x LIFX Smart Lights!
 
 ## // FREE FOOD AND DRINKS //
 
@@ -30,7 +30,7 @@ author: "Louis Heath"
 
 ## // RULES //
 
-- TBC
+- [Can be found here!](https://docs.google.com/document/d/1RXPGyz3aqpJKMluvNhWkN_rSwItzHjIUJPS2jEG26y4/edit?usp=sharing)
 
 ## // THEME //
 
