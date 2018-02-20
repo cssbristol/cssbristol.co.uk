@@ -7,7 +7,7 @@ redirect_from: "/hackathon"
 
 **The CSS Boeing Hackathon is back! MVB, 11am Wednesday 28th Feb - 1pm Thursday 1st March**
 
-![](/assets/images/contrib/events/2018-02-28-boeing-hack/cover.jpg)
+[![](/assets/images/contrib/events/2018-02-28-boeing-hack/cover.jpg)](https://www.facebook.com/events/153087555349796/)
 
 # IMPORTANT INFORMATION
 
