@@ -28,7 +28,7 @@ redirect_from: "/hackathon"
 
 ## // RULES //
 
-- TBC
+- [Can be found here!](https://docs.google.com/document/d/1RXPGyz3aqpJKMluvNhWkN_rSwItzHjIUJPS2jEG26y4/edit?usp=sharing)
 
 ## // THEME //
 
