@@ -24,11 +24,16 @@
     reason: Proposed at SCEEM SSLC meeting.
     date: 2017-11-17
 - name: Get laptop stands for MVB
+  contact_name: Richard Grafton
+  contact_email: richard.grafton@bristol.ac.uk
   description: Improve posture by providing laptop stands for student use.
   statuses:
   - status: Proposed
     reason: Proposed at SCEEM SSLC meeting.
     date: 2017-11-17
+  - status: Completed
+    reason: Richard Grafton has bought a couple of stands as a trial for the backlab in MVB
+    date: 2018-02-18
 - name: Reorganise faculty/school website to be task-oriented for students
   description: >
       At the moment, the Faculty website is mostly organised around external marketing.
