@@ -21,7 +21,7 @@ redirect_from: "/hackathon"
 
 - 6x Sphero Mini!
 - 6x Google Home Mini!
-- 6x Something Unconfirmed and Exciting!
+- 6x LIFX Smart Lights!
 
 ## FREE FOOD AND DRINKS
 
