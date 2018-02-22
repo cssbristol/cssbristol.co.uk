@@ -5,11 +5,18 @@ permalink: /pages/hackathon-2018
 redirect_from: "/hackathon"
 ---
 
-**The CSS Boeing Hackathon is back! MVB, 11am Wednesday 28th Feb - 1pm Thursday 1st March**
+# CSS Boeing Space Hackathon 2018
 
-[![](/assets/images/contrib/events/2018-02-28-boeing-hack/cover.jpg)](https://www.facebook.com/events/153087555349796/)
+<p align="center"><strong>MVB, 11am Wednesday 28th Feb - 1pm Thursday 1st March</strong></p>
 
-# IMPORTANT INFORMATION
+<a href="https://www.facebook.com/events/153087555349796/" style="display: block; text-align: center;"><img src="/assets/images/contrib/events/2018-02-28-boeing-hack/cover.jpg" style="" /></a>
+
+<img src="/assets/images/contrib/events/2018-02-28-boeing-hack/hackathon-2017-1.jpg" width="24.5%" />
+<img src="/assets/images/contrib/events/2018-02-28-boeing-hack/hackathon-2017-2.jpg" width="24.5%" />
+<img src="/assets/images/contrib/events/2018-02-28-boeing-hack/hackathon-2017-3.jpg" width="24.5%" />
+<img src="/assets/images/contrib/events/2018-02-28-boeing-hack/hackathon-2017-4.jpg" width="24.5%" />
+
+The CSS Boeing Hackathon is back!
 
 ## SIGNUP
 
