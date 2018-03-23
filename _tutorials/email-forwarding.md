@@ -28,18 +28,35 @@ The main benifit with fetching is that all of your filters and configuration are
 
 ## Outlook (`@bristol.ac.uk`)[³](https://support.office.com/en-ie/article/forward-email-from-office-365-to-another-email-account-1ed4ee1e-74f8-4f53-a174-86b748ff6a0e)
 
+If you are a HTP, then to visit your `@bristol.ac.uk` email you need to go to [`https://outlook.office365.com/owa/`](https://outlook.office365.com/owa/?path=/options/mail), login with `<username>@bristol.ac.uk` and your normal password. Now that you've logged in, either go to the settings tab then the mail link, or click [here](https://outlook.office365.com/owa/?path=/options/forwarding).
+
+![Forwarding mail settings in Outlook](/assets/images/contrib/tutorials/email-forwarding/outlook-forwarding.png)
+
+From here you can initiate mail forwarding from your outlook account to any other email. You may find that the address that you're forwarding to marks some of the emails as spam, so you can add a filter to prevent that. 
+
+If you'd like to fetch emails from other accounts you're looking for the connected accounts tab, or click [here](https://outlook.office365.com/owa/?path=/options/connectedaccounts).
+
+![Fetching mail settings in Outlook](/assets/images/contrib/tutorials/email-forwarding/outlook-connected.png)
 
 
-## GSuite[4](https://gsuite.google.com/) (`@my.bristol.ac.uk`)[5](https://support.google.com/mail/answer/21289)
 
-If you use the University of Bristol Email for Life `@my.bristol.ac.uk` email[5](https://www.bristol.ac.uk/it-services/advice/iam/leaver-info-student.html), you'll find that your settings looks slightly different from a normal gmail account.
+## GSuite[⁴](https://gsuite.google.com/) (`@my.bristol.ac.uk`)[5](https://support.google.com/mail/answer/21289)
 
+If you use the University of Bristol Email for Life `@my.bristol.ac.uk` email[⁵](https://www.bristol.ac.uk/it-services/advice/iam/leaver-info-student.html), you'll find that your settings looks slightly different from a normal gmail account. The university disables some features such as `Importing mail and contacts` and `Inbox for Google`[⁶](https://www.google.co.uk/inbox/). Login to your `@my.bristol.ac.uk` account [`www.google.com/gmail/`](www.google.com/gmail/), then go to settings then the forwarding tab or click [here](https://mail.google.com/mail/#settings/fwdandpop).
 
-bristol uni for life
+![Forwarding mail settings in Gmail and GSuite](/assets/images/contrib/tutorials/email-forwarding/gmail-forwarding.png)
+
+From here you can forward your emails to another address. If you prefer using another email client, you can also enable and configure options for the `POP3` or `IMAP`. If you'd like to use your gmail account to fetch emails, you need to go to the accounts tab or click [here](https://mail.google.com/mail/#settings/accounts). 
+
+![Fetching mail settings in GSuite](/assets/images/contrib/tutorials/email-forwarding/gsuite-accounts.png)
 
 ### Gmail
 
-accounts and import is different
+If you have a personal gmail account, the accounts tab will give you a few more options such as importing all the mail from another server. This can be useful but I've found it doesn't work most of the time. 
 
+![Fetching mail settings in Gmail](/assets/images/contrib/tutorials/email-forwarding/gmail-accounts.png)
 
+## Final Remarks
+
+It's important to consider what will happen if you ever loose access to an account. It's not uncommon to switch to a new email address, so you'll have to do these steps again. If you've setup a chain of forwarding you only need to forward the emails to the new address, but some emails might be caught by a spam filter along the way. If you're using fetching then you'll have to keep those account details handy. Having some filters are a good idea, lest you want to be overwhelmed by thousands of useless emails! 
 Power of citations: ⁰¹²³⁴⁵⁶⁷⁸⁹
