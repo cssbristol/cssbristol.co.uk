@@ -26,14 +26,20 @@ You give the key to your mailbox to someone else. Periodically they are able to 
 
 The main benifit with fetching is that all of your filters and configuration are in once place. Fetching will only occur periodically, but with modern inboxes this isn't really a concenrn anymore. 
 
-## GSuite[³](https://gsuite.google.com/) (`@my.bristol.ac.uk`)[⁴](https://support.google.com/mail/answer/21289)
+## Outlook (`@bristol.ac.uk`)[³](https://support.office.com/en-ie/article/forward-email-from-office-365-to-another-email-account-1ed4ee1e-74f8-4f53-a174-86b748ff6a0e)
 
-bristol uni for life[5](https://www.bristol.ac.uk/it-services/advice/iam/leaver-info-student.html)
+
+
+## GSuite[4](https://gsuite.google.com/) (`@my.bristol.ac.uk`)[5](https://support.google.com/mail/answer/21289)
+
+If you use the University of Bristol Email for Life `@my.bristol.ac.uk` email[5](https://www.bristol.ac.uk/it-services/advice/iam/leaver-info-student.html), you'll find that your settings looks slightly different from a normal gmail account.
+
+
+bristol uni for life
 
 ### Gmail
 
 accounts and import is different
 
-## Outlook[⁵](https://support.office.com/en-ie/article/forward-email-from-office-365-to-another-email-account-1ed4ee1e-74f8-4f53-a174-86b748ff6a0e)
 
 Power of citations: ⁰¹²³⁴⁵⁶⁷⁸⁹
