@@ -14,7 +14,7 @@ employmentType: Full-time
 validThrough: 2018-06-30 12:00:00 +0100
 
 
-startDate: -
+startDate: Not fixed
 occupationalCategory:
 baseSalary: €38,000 per year
 salaryCurrency:
