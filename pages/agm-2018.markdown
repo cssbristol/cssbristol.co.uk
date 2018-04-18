@@ -29,6 +29,24 @@ Want to make a change to how the society runs? Put forward a motion to change ou
 
 Proposer: Alessio Zakaria
 
+The proposer has updated the motion to clarify the constitution wording:
+
+This motion proposes that it be compulsory for CSS to query dietary requirements
+for events prior to all events and cater for these. A proposed method of doing
+so would be a poll on a Facebook event. This is to ensure equality of access to
+CSS events and promote inclusivity.
+
+To ensure that this requirement is upheld, a change to the constitution is
+proposed as follows;
+
+Add a new section, entitled Equality and Diversity, which has the following
+text:
+
+"The committee must make a reasonable attempt to gather dietary requirements
+prior to catered events and adapt food and drink provision appropriately."
+
+#### Previous draft
+
 This motion proposes that it be compulsory for CSS to query dietary requirements for events prior to all events and cater for these. A proposed method of doing so would be a poll on a Facebook event. This is to ensure equality of access to CSS events and promote inclusivity.
 
 ### [Change nomination period](https://goo.gl/forms/MJbVc9KXIPp6Hg0Y2)
