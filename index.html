@@ -12,6 +12,10 @@ hero:
 
 <div class="page-section">
   <h1>Latest</h1>
+  <div class = "unit-choice">
+    <h1>Looking for more information about Unit Choices?</h1>
+    <p><a href="https://wikis.bris.ac.uk/display/CSS/Unit+Feedback" class="btn">Unit Choice Feedback</a></p>
+  </div>
   <div class="featured-items">
     {% for post in site.posts limit:4 %}
       <a class="featured-item featured-item--{{ site.data.colour-names | sample }} {% if post.category %}featured-item--{{ post.category }}{% endif %}" href="{{ post.url }}">

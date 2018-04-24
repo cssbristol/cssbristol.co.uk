@@ -113,3 +113,25 @@
     margin-top: 25px;
   }
 }
+
+.unit-choice {
+  background-color: $blue;
+  padding: 50px;
+  width: 600px;
+  margin: 30px;
+  margin-top: 0;
+  text-align: center;
+  .btn {
+    color: $dark-text;
+    border: $dark-text solid;
+    &:hover {
+      background-color: #ffffff;
+      color: $dark-text;
+      border: $dark-text solid;
+    }
+  }
+  h1 {
+    color: #ffffff;
+    line-height: 100%;
+  }
+}
