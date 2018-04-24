@@ -20,7 +20,7 @@
     &--purple { background: linear-gradient(lighten($purple, 5%), darken($purple, 5%)); }
     &--green { background: linear-gradient(lighten($green, 5%), darken($green, 5%)); }
     &--red { background: linear-gradient(lighten($purple, 5%), darken($purple, 5%)); }
-    &--blue { background: linear-gradient(lighten($blue, 5%), darken($blue, 5%)); }
+   // commented out for unit choice &--blue { background: linear-gradient(lighten($blue, 5%), darken($blue, 5%)); }
     &--orange { background: linear-gradient(lighten($orange, 5%), darken($orange, 5%)); }
     &--turquoise { background: linear-gradient(lighten($turquoise, 5%), darken($turquoise, 5%)); }
     &--yellow { background: linear-gradient(lighten($yellow, 5%), darken($yellow, 5%)); }
