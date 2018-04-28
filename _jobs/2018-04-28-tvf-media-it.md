@@ -7,7 +7,7 @@ hiringOrganization:
   name: TVF Media
   address: 375 City Road, London, EC1V 1NB
 title: IT Support and Systems Graduate
-logo: /assets/images/contrib/jobs/TVF-company-logo.png
+logo: /assets/images/contrib/jobs/TVF-company-logo-small.png
 jobLocation: London
 industry: IT
 employmentType: Full-time
