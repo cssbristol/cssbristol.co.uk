@@ -15,7 +15,7 @@ Course directors, tutors and other key staff contacts can be found [here](http:/
 
 Perhaps you're looking for a [previous committee member](/pages/halloffame)?
 
-# CSS Committee 2017-18
+# CSS Committee 2018-19
 
 {% include committee.html data-file=site.data.committee-2018-19 %}
 
