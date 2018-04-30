@@ -7,6 +7,10 @@ show-in-nav: false
 
 # Previous committees
 
+## Committee 2017-18
+
+{% include committee.html data-file=site.data.committee-2017-18 %}
+
 ## Committee 2016-17
 
 {% include committee.html data-file=site.data.committee-2016-17 %}
