@@ -17,7 +17,7 @@ Perhaps you're looking for a [previous committee member](/pages/halloffame)?
 
 # CSS Committee 2017-18
 
-{% include committee.html data-file=site.data.committee-2017-18 %}
+{% include committee.html data-file=site.data.committee-2018-19 %}
 
 # Course Reps 2017-18
 
