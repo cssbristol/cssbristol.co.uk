@@ -7,7 +7,7 @@ hiringOrganization:
   name: Student
   address: Bristol University
 title: iOS Developer
-logo:
+logo: /assets/images/contrib/jobs/bristoluni.png
 jobLocation: Remote Work
 industry: Software Development
 employmentType: Contract

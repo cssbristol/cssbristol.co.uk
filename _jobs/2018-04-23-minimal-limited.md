@@ -6,8 +6,8 @@ datePosted: 2018-04-27 13:00:00 +0100
 hiringOrganization:
   name: Minimal Limited
   address: 5 Church Street Llandybie, Carmarthenshire, SA18 3HZ
-title: Director & Data Scientist
-logo:
+title: Full Stack Developer & Junior Data Scientist
+logo: /assets/images/contrib/jobs/minimal.png
 jobLocation: Bristol University
 industry: Software Development
 employmentType: Internship (summer)
