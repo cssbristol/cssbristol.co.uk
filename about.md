@@ -14,7 +14,7 @@ This website is our society's hub: feel free to read our [user-submitted tutoria
 To get in touch with a committee member or a course rep, please feel free to [send us an e-mail](/contact). To report an issue with the website, you may do so via [GitHub](https://github.com/cssbristol/cssbristol.github.io/issues) or by e-mailing the current Webmaster.
 
 The committee holds frequent meetings to organise events and to decide the future of the society.
-Take a look at the [minutes](https://drive.google.com/open?id=11IjgcZ8T9o9GghWwNd2Wn29jSz8un7sY) to see what we're up to!
+Take a look at the [minutes](https://drive.google.com/drive/folders/11IjgcZ8T9o9GghWwNd2Wn29jSz8un7sY?usp=sharing) to see what we're up to!
 
 # Things you might find useful
 
