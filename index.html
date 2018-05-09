@@ -4,18 +4,14 @@ hero:
   pretitle: University of Bristol
   title: Computer Science Society
   buttons:
-    - location: /pages/agm
-      text: Annual General Meeting
+    - location: /pages/bbq
+      text: Summer BBQ
     - location: /wellbeing
       text: Wellbeing
 ---
 
 <div class="page-section">
   <h1>Latest</h1>
-  <div class = "unit-choice">
-    <h1>Looking for more information about Unit Choices?</h1>
-    <a href="https://wikis.bris.ac.uk/display/CSS/Unit+Feedback" class="btn">Unit Choice Feedback</a>
-  </div>
   <div class="featured-items">
     {% for post in site.posts limit:4 %}
       <a class="featured-item featured-item--{{ site.data.colour-names | sample }} {% if post.category %}featured-item--{{ post.category }}{% endif %}" href="{{ post.url }}">
