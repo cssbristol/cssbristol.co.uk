@@ -11,7 +11,7 @@ logo: /assets/images/contrib/jobs/tvf.png
 jobLocation: London
 industry: IT
 employmentType: Full-time
-validThrough: 2018-05-13 11:59:00 +0100
+validThrough: 2018-06-10 11:59:00 +0100
 
 
 startDate: Immediately
@@ -20,6 +20,8 @@ baseSalary: 22 000
 salaryCurrency: GBP
 salaryPeriod: Month
 responsibilities:
+skills:
+- skill: Linux
 educationRequirements: 2.1 degree in a relevant field desirable, but not essential.
 experienceRequirements: Some IT support experience desirable, but not essential.
 incentiveCompensation: The company benefits package includes contributory private healthcare insurance, cycle scheme, charity donation scheme, childcare voucher scheme, pension scheme, monthly performance prizes (£300 each) and monthly company drinks.
