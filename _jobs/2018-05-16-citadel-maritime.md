@@ -7,7 +7,7 @@ hiringOrganization:
   name: Citadel Maritime Limited
   address: 12 Whiteladies Road, Bristol, BS8 1PD, UK
 title: Full Stack Developer - Potential CTO/Founders
-logo: /assets/images/contrib/jobs/dealer-app.png
+logo: /assets/images/contrib/jobs/citadel-maritime.jpg
 jobLocation: Bristol
 industry: Platform for Global Security Services
 employmentType: Internship (year-long)
