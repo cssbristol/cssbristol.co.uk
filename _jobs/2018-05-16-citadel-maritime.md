@@ -11,7 +11,7 @@ logo: /assets/images/contrib/jobs/citadel-maritime.jpg
 jobLocation: Bristol
 industry: Platform for Global Security Services
 employmentType: Internship (year-long)
-validThrough: 2018-07-15 12:00:00 +0100
+validThrough: 2018-06-15 12:00:00 +0100
 
 
 startDate: Immediately
