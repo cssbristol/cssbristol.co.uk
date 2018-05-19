@@ -21,10 +21,8 @@ salaryCurrency: GBP
 salaryPeriod: Hour
 responsibilities: Building a WordPress website from an Adobe XD design (PDF) using Bridge theme by Qode and WP Bakery Page builder so content and design can easily be updated by clients in the future.
 skills:
-educationRequirements:  WordPress
-Bridge theme by Qode
-experienceRequirements: WordPress
-Bridge theme by Qode
+educationRequirements:
+experienceRequirements: WordPress, Bridge theme by Qode
 incentiveCompensation: As we are a rapidly growing studio, this is an opportunity for an ongoing, long-term workflow for the right candidate.
 ---
 Growing design studio looking for web developer with WordPress Bridge theme experience.
