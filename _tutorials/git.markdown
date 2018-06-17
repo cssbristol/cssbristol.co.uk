@@ -112,7 +112,7 @@ Create a file called `.gitignore` (yes, it starts with a dot) with one line `hel
 
 So far we've just saved our project's history in a subfolder on our own machine. The next step is to save it in the cloud so that several people can work on it together, or you can work on it from different machines (for example, home and lab PC).
 
-There are three big free providers of git services: [gitlab](https://gitlab.com/), [github](https://github.com/) and [bitbucket](https://bitbucket.org/). Gitlab and bitbucket offer you unlimited (within reason) free private repositories (where you control who can read/write them), github gives you one free private repository (5 if you sign up for their student pack with your university e-mail). All three providers offer unlimited free public repositories for open-source projects.
+There are many free providers of git services, including: [GitLab](https://gitlab.com/), [GitHub](https://github.com/) and [Bitbucket](https://bitbucket.org/). All three provide provide unlimited (within reason) free private repositories, allowing you to control who can read/write to them, in addition to unlimited free public repositories for open-source projects. [GitHub's Student Pack](https://education.github.com/pack) can be obtained, using your university email, to give you access to private repositories in addition to other interesting offers.
 
 **WARNING: do not under any circumstances place code that you have submitted or intend to submit as assessed coursework to a public repository on any provider. If another student finds this code and submits a copy of it, you are both in trouble for plagiarism. Yes, this has happened in the past.**
 
