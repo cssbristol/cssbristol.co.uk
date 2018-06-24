@@ -2,7 +2,7 @@
 layout: job
 hide: false
 sponsored: false
-datePosted: 2018-04-28 17:00:00 +0100
+datePosted: 2018-06-24 17:23:00 +0100
 hiringOrganization:
   name: TVF Media
   address: 375 City Road, London, EC1V 1NB
@@ -11,7 +11,7 @@ logo: /assets/images/contrib/jobs/tvf.png
 jobLocation: London
 industry: IT
 employmentType: Full-time
-validThrough: 2018-06-10 11:59:00 +0100
+validThrough: 2018-07-22 11:59:00 +0100
 
 
 startDate: Immediately
