@@ -7,7 +7,9 @@ redirect_from: "/bbq"
 
 # Summer BBQ 2018
 
+<div align = "center">
 [![](/assets/images/contrib/events/2018-5-BBQ/bbq.jpg)](https://www.eventbrite.co.uk/e/css-bbq-2018-tickets-45797393236)
+</div>
 
 <p align = "center">
 The end of exams means it's time to go outside and see the world you forget existed! Come join us on Brandon Hill on Sat. June 2nd for free food, drinks, entertainment, and fun.
