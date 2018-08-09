@@ -32,7 +32,6 @@ experienceRequirements:
 - Additional academic or extracurricular projects are desirable but not required.
 educationalRequirements: BSc Computer Science or similar scientific or numerate discipline with a strong academic record
 incentiveCompensation: At Netcompany, your development and career is just as important to us as it is to you. You will have extensive on-the-job training and responsibility from day one, alongside our Career Development Programme, Netcompany Academy, and you will be able to select your future route from 3 pathways - Specialist, Generalist, or Architect (whatever suits you).
-
 ---
 We are looking for graduates who want to work on some of the most exciting technology transformation projects in the world.
 
