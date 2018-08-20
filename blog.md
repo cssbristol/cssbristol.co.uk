@@ -5,9 +5,9 @@ permalink: /blog/
 show-in-nav: true
 ---
 
-# Our plans, 2017-18
+# Our plans, 2018-19
 
-We hope you enjoyed Welcome Week - we sure did. There's plenty more to come; tech talks, bar crawls, hackathons and more! We've even got a joint LAN with COGS planned! Watch this space or our [Facebook page](https://www.facebook.com/css.bristol.9/) for updates.
+Congratulations for making it - you're now a Computer Science student in Bristol! We hope you are excited about starting the Explore Week which will be filled with lots of interesting events. Watch our [Facebook page](https://www.facebook.com/css.bristol.9/) for updates.
 
 &nbsp;
 

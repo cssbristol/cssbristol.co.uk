@@ -1,19 +1,21 @@
 <header class="page-header" id="page-header--random-bg">
-  <div itemscope itemtype="http://schema.org/Organization">
-    <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
-    <a href="{{ site.url }}" class="page-header__logo" itemprop="url">
-      <img src="/assets/images/core/logo-inline-light.png" alt="{{ site.title }} logo" itemprop="logo">
-    </a>
+  <div class="navigation-items">
+    <div itemscope itemtype="http://schema.org/Organization">
+      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
+      <a href="{{ site.url }}" class="page-header__logo" itemprop="url">
+        <img src="/assets/images/core/logo-inline-light.png" alt="{{ site.title }} logo" itemprop="logo">
+      </a>
+    </div>
+    <nav class="page-navigation">
+      <ul class="page-navigation__links">
+        {% for page in site.pages %}
+          {% if page.title and page.show-in-nav == true %}
+          <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
   </div>
-  <nav class="page-navigation">
-    <ul class="page-navigation__links">
-      {% for page in site.pages %}
-        {% if page.title and page.show-in-nav == true %}
-        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </nav>
   {% if include.hero-contents %}
     {% include hero.html hero-contents=include.hero-contents %}
   {% endif %}
