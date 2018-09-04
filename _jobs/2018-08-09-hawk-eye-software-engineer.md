@@ -14,7 +14,7 @@ employmentType: Full-time
 validThrough: 2018-10-31 10:00:00 +0100
 startDate: As soon as possible
 occupationalCategory:
-baseSalary: 25 000
+baseSalary: 25-30 000
 salaryCurrency: GBP
 salaryPeriod: Year
 responsibilities:
