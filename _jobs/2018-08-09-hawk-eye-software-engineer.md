@@ -16,7 +16,7 @@ startDate: As soon as possible
 occupationalCategory:
 baseSalary: 25 000
 salaryCurrency: GBP
-salaryPeriod: Month
+salaryPeriod: Year
 responsibilities:
 - Deliver the best possible solutions in sports technology!
 skills:
