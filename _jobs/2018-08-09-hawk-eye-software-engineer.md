@@ -18,17 +18,8 @@ baseSalary: 25-30 000
 salaryCurrency: GBP
 salaryPeriod: Year
 responsibilities:
-- Deliver the best possible solutions in sports technology!
 skills:
-- skill: Multi-view geometry knowledge.
-- skill: Familiarity with OpenCV.
 experienceRequirements:
-- Highly competent in C++
-- Some experience with CUDA/GPU
-- CMake
-- QT
-- ZMQ
-- Boost
 educationalRequirements:
 incentiveCompensation:
 
@@ -38,6 +29,21 @@ Our graduate scheme offers a variety of opportunities to learn from a versatile 
 Our expertise range from computer vision, computer graphics, real time video streaming, and front-end and back-end web development.
 
 We encourage all new graduates to move around the team before choosing an area they enjoy and feel they can add value. We expect this to happen within the first 2 years in the team.
+
+## Job Responsibilities
+Deliver the best possible solutions in sports technology!
+
+## Desired Skills
+- Multi-view geometry knowledge.
+- Familiarity with OpenCV
+
+## Experience Requirements
+- Highly competent in C++
+- Some experience with CUDA/GPU
+- CMake
+- QT
+- ZMQ
+- Boost
 
 ## Incentive Compensation
 
@@ -49,5 +55,11 @@ In addition to being a part of a great team, working  in a fun and creative envi
 - Stocked kitchen space & game lounge
 - Private Sony Cinema and Sony Pictures movie discounts.
 
-Link/contact details to apply:
-https://hawk-eye-innovations.workable.com/jobs/738386
+<div class="to-apply" style="text-align: center">
+  <h2>Link to apply</h2>
+  <a class="btn btn--dark" style="margin: 20px" href="https://hawk-eye-innovations.workable.com/jobs/738386">
+      Apply now
+  </a>
+</div>
+
+---
