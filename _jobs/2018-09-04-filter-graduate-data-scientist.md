@@ -22,7 +22,8 @@ skills:
 experienceRequirements:
 educationalRequirements:
 incentiveCompensation:
-linkToApply: "https://www.thefilter.com/open-positions/grad-data-scientist/"
+linkToApply:
+
 ---
 
 The Filter is a machine learning company based in Bath. We work with some of the world’s largest media businesses and are currently recruiting for ambitious Graduate Data Scientists to join our team. We are looking for someone who loves working with data and is knowledgeable about Statistics and Machine Learning.
