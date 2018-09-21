@@ -40,7 +40,7 @@ Bristol is an exciting place to be and you're going to want to hear about the co
 
 ## Useful Information
 
-There's lots of useful information available in our Freshers' Booklet. You should be receiving a hard copy soon, but [here it is](https://github.com/cssbristol/freshers-booklet-2017/releases) if you haven't already.
+There's lots of useful information available in our Freshers' Booklet. You should be receiving a hard copy soon, but [here it is](https://drive.google.com/file/d/13TDrIpra9e8VHeubmNHxgXFOp8tKOL0K/view) if you haven't already.
 
 The society is run each year by an [selected committee](/contact/). Come say hi! We don't bite.
 
