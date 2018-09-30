@@ -91,6 +91,12 @@
   }
 }
 
+.sponsors__action_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .committee {
   display: flex;
   flex-wrap: wrap;

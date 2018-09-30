@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Freshers Essentials"
-date:   2018-09-21 17:30:00 +0100
+title:  "2018 Summer BBQ - June 2"
+date:   2018-05-09 22:33:00 +0100
 categories:
 author: "Sibela Chinareva"
 ---
 
-![](/assets/images/contrib/events/2018-5-BBQ/bbq.jpg)
+[![](/assets/images/contrib/events/2018-5-BBQ/bbq.jpg)](https://www.eventbrite.co.uk/e/css-bbq-2018-tickets-45797393236)
 
-Hello, freshers! And welcome to the Computer Science Society!
+The annual CSS BBQ is upon us again!
 
 Join us as we continue the annual tradition marking the end of a busy year (and the end of exams!)
 
