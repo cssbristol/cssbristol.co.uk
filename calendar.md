@@ -8,16 +8,17 @@ show-in-nav: true
 
 <div class="page-section">
   <h1>Events</h1>
+  <iframe src="https://calendar.google.com/calendar/embed?src=events%40cssbristol.co.uk&ctz=Europe%2FLondon" style="border: 0" height="800" width="100%" frameborder="0" scrolling="no"></iframe>
   <div id="calendar" class="calendar"></div>
   <article class="article">
-    <h2>Calendar details</h2>
-    <p>cssbristol.co.uk_cmmb77i4kd6d9okfv5nc1pibn0@group.calendar.google.com</p>
+    <!-- <h2>Calendar details</h2>
+    <p>cssbristol.co.uk_cmmb77i4kd6d9okfv5nc1pibn0@group.calendar.google.com</p> -->
     <h2>Facebook</h2>
-    <p><a href="https://www.facebook.com/groups/CSSBristol/events/">CSS events on Facebook</a> (you must be a member of the CSS group).</p>
+    <p><a href="https://www.facebook.com/pg/css.bristol.9/events/?ref=page_internal">CSS events on Facebook</a> (you must be a member of the CSS group).</p>
   </article>
 </div>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 $(document).ready(function() {
     $('#calendar').fullCalendar({
       header: {
@@ -44,6 +45,6 @@ $(document).ready(function() {
     })
 
 });
-</script>
+</script> -->
 
 {% include social-links.html %}
