@@ -1,6 +1,6 @@
 - name: Just Eat
   logo: justeat.png
-  url: www.just-eat.co.uk/‎
+  url: https://www.just-eat.co.uk/
 
 - name: Cookpad
   logo: cookpad.png
@@ -8,7 +8,7 @@
 
 - name: Dyson
   logo: dyson.png
-  url: www.dyson.co.uk/‎
+  url: https://www.dyson.co.uk/
 
 - name: Lloyds Bank
   logo: lloyds.png
