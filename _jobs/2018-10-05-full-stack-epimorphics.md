@@ -102,8 +102,8 @@ EMI share scheme. All our shareholders are employees, and we offer all employees
 
 <div class="to-apply" style="text-align: center">
   <h2>Link to apply</h2>
-  <h3> For further details and how to apply, please see our website: </h3>
-  <a class="btn btn--dark" style="margin: 20px" href="http://techfolk.co.uk/current-jobs/junior-linked-data-modeller-portishead-bristol-tl258">
+  <h3> Please submit your CV to Vittoria at hello@techfolk.co.uk. Alternatively apply by clicking the button below. Even if your CV isn't ready, please talk with us to find out more: 0117 318 2447 | hello@techfolk.co.uk | @we_are_techfolk </h3>
+  <a class="btn btn--dark" style="margin: 20px" href="http://techfolk.co.uk/current-jobs/full-stack-software-developer-javascript-and-ruby-portishead-bristol-tl259">
       Apply now
   </a>
 </div>
