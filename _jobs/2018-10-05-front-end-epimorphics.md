@@ -4,10 +4,10 @@ hide: false
 sponsored: false
 datePosted: 2018-10-05 13:20:00 +0100
 hiringOrganization:
-  name: Techfolk
+  name: Epimorphics
   address: Court Lodge 105 High Street, Portishead Bristol BS20 6PT
 title: Front End Developer
-logo: /assets/images/contrib/jobs/techfolk.png
+logo: /assets/images/contrib/jobs/epimorphics.png
 jobLocation: Portishead, Bristol, South West England. Commutable by car or bike, 1 hour by bus from Bristol (X3 and X4 buses)
 industry: Software Development
 employmentType: Full-time
@@ -26,6 +26,11 @@ incentiveCompensation:
 linkToApply:
 
 ---
+
+<div class = "aligned-image">
+<p>Job posted by Techfolk, recruiting partners with Epimorphics.</p>
+<img style="width:200px" src="/assets/images/contrib/jobs/techfolk.png" alt="parenting"/>
+</div>
 
 Epimorphics is hiring a front end developer to help produce interactive web applications and data visualisations using JavaScript, HTML, CSS, SVG, and other languages.
 

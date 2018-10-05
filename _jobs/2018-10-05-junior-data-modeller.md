@@ -27,6 +27,11 @@ linkToApply:
 
 ---
 
+<div class = "aligned-image">
+<p>Job posted by Techfolk, recruiting partners with Epimorphics.</p>
+<img style="width:200px" src="/assets/images/contrib/jobs/techfolk.png" alt="parenting"/>
+</div>
+
 Epimorphics is hiring for someone with an affinity for data modelling and making sense of intricate data.
 
 Growing fast, we are ready to mentor a postgraduate - or someone with a theoretical, academic or industry-gained grounding in data design - to become a skilled Linked Data Modeller, creating solutions that simplify complex data.

@@ -27,6 +27,11 @@ linkToApply:
 
 ---
 
+<div class = "aligned-image">
+<p>Job posted by Techfolk, recruiting partners with Epimorphics.</p>
+<img style="width:200px" src="/assets/images/contrib/jobs/techfolk.png" alt="parenting"/>
+</div>
+
 Epimorphics is hiring a full stack developer to help produce interactive web applications and data visualisations using JavaScript and Ruby on Rails, and other languages.
 
 Working at the forefront of open data publication in the UK, we help our clients manage, publish and gain insight from data in a wide range of domains, often with a positive benefit for society. We’re expanding, and are open both to practiced JavaScript / Ruby developers and to people with less experience, including new graduates, who are keen to learn.
