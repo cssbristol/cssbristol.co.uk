@@ -8,7 +8,7 @@ show-in-nav: true
 
 <div class="page-section">
   <h1>Events</h1>
-  <iframe src="https://calendar.google.com/calendar/embed?src=events%40cssbristol.co.uk&ctz=Europe%2FLondon" style="border: 0" height="800" width="100%" frameborder="0" scrolling="no"></iframe>
+  <iframe src="https://calendar.google.com/calendar/embed?src=cssbristol.co.uk_cmmb77i4kd6d9okfv5nc1pibn0%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="100%" height="800" frameborder="0" scrolling="no"></iframe>
   <div id="calendar" class="calendar"></div>
   <article class="article">
     <!-- <h2>Calendar details</h2>
