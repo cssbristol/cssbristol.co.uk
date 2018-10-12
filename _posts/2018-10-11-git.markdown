@@ -2,7 +2,7 @@
 layout: post
 title:  "Talk: Intro to Git"
 date:   2018-10-11 13:00:00 +0000
-event_date: 2018-11-16 13:50:00 +0000
+event_date: 2018-10-11 13:00:00 +0000
 category: "event"
 author: "Adam Deegan"
 ---
