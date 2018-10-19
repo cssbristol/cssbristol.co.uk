@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Talk: Intro to Git"
+date:   2018-10-11 13:00:00 +0000
+event_date: 2018-10-11 13:00:00 +0000
+category: "event"
+author: "Adam Deegan"
+---
+
+[![](/assets/images/contrib/events/2018-10-git/git-Twitter-Timeline.png)](https://www.facebook.com/events/345279159369573/)
+
+**11th October 1.00-1:50pm MVB 1.11**
+
+Welcome to our first talk of the year!
+Our very own David Bernhard will be giving an introductory talk on how to use **Git**, aimed at first-years (but everyone is welcome)
+
+There will be free pizza 🍕 as always (& vegan/gf alternatives 🥙 - see poll in discussion).
+
+Not able to go to the talk? Relevant notes are available [here](www.ole.bris.ac.uk/bbcswebdav/users/csxdb/pub/git/)

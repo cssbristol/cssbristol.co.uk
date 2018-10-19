@@ -5,7 +5,6 @@ date:   2017-09-29 18:40:00 +0100
 event_date: 2017-10-17 19:30:00 +0100
 category: "event"
 author: "Ross Gardiner"
-redirect_from: "/barcrawl"
 ---
 
 It's that time of year again! Get your t-shirt and join us on the 2017 CSS Bar Crawl.
