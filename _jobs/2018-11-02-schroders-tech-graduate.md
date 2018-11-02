@@ -11,7 +11,7 @@ logo: /assets/images/contrib/jobs/bt.png
 jobLocation: Central London
 industry: Finance
 employmentType: Full-time
-validThrough: 2019-11-02 23:59:00 +0100
+validThrough: 2018-11-02 23:59:00 +0100
 startDate: 2019
 occupationalCategory:
 baseSalary: 35 000
