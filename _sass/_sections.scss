@@ -164,6 +164,10 @@ body {
   &--shaded {
     background: $light-grey;
   }
+
+  .sponsor-section {
+    border-top: 1px gray solid;
+  }
 }
 
 .sponsors__item {
@@ -228,8 +232,4 @@ body {
       text-decoration: none;
     }
   }
-}
-
-.sponsor-section {
-  border-top: 1px gray solid;
 }
