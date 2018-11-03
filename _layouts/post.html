@@ -12,9 +12,9 @@ layout: default
       </p>
       {% if page.category == "event" %}
         <p class="blog-post__meta">
-          <h2>
+          <h2 class="blog-post__meta">
             <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.event_date | date: "%b %-d, %Y %H:%M" }}</time>
-            {% if page.loc %} {{ page.loc }} {% endif %}
+             | {% if page.loc %} {{ page.loc }} {% endif %}
           </h2>
         </p>
       {% endif %}
