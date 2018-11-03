@@ -7,7 +7,7 @@ category: "event"
 author: "Adam Deegan"
 ---
 
-[![](/assets/images/contrib/events/2018-10-lan/cover.jpg)](https://www.facebook.com/events/257145254998782/)
+[![](/assets/images/contrib/events/2018-10-halloween/cover.jpg)](https://www.facebook.com/events/257145254998782/)
 
 # Netflix and Thrill
 
