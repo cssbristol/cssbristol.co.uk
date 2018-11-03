@@ -9,11 +9,6 @@ author: "Adam Deegan"
 
 [![](/assets/images/contrib/events/2018-10-halloween/cover.jpg)](https://www.facebook.com/events/257145254998782/)
 
-# Netflix and Thrill
-
-## Wednesday 31st October | 4-6pm
-
-
 Hey all! You can't celebrate Halloween without "enjoying" a horror!
 
 So we'll be showing a horror film this Wednesday in Chemisty: Lecture Theater 3 (for educational purposes)
