@@ -28,8 +28,10 @@ permalink: /explore
         <div id="eventcont">
             {% for post in posts reversed %}
                     <div class="event">
-                        {% if post.url %}<a href="{{ post.url }}">
-                            <div class="image" {% if post.image %}style="background: url({{ post.explore2018_img }}) center; background-size: cover;"{% endif %}></div>
+                        {% if post.url %}<a class="image" href="{{ post.url }}" {% if post.image %}style="background: url({{ post.explore2018_img }}) center; background-size: cover;"{% endif %}>
+                            {% if post.fb_link %}
+                                <a class="fb" href="{{ post.fb_link }}"></a>
+                            {% endif %}
                         </a>{% endif %}
                         <div class="desc">
                             <div class="info" {% if post.explore2018_col %}style="background: {{ post.explore2018_col }};"{% endif %}>
