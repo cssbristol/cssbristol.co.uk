@@ -7,7 +7,9 @@
       <p class="blog-post-item__meta">{{ post.author }} on {{ post.date | date: '%B %d, %Y' }}</p>
       {{ post.excerpt }}
       {% if post.image %}
-      <img src="{{ post.image }}">
+        {% if post.fb_link %}<a href="{{ post.fb_link }}">{% endif %}
+          <img src="{{ post.image }}">
+        {% if post.fb_link %}</a>{% endif %}
       {% endif %}
     {% endfor %}
   </div>
