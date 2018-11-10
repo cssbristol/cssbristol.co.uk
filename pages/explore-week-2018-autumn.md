@@ -44,6 +44,6 @@ permalink: /explore
             {% endfor %}
         </div>
     </div>
-    <div class="side">
+    <div class="side" id="right">
     </div>
 </div>

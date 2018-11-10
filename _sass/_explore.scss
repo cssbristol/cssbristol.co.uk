@@ -18,6 +18,8 @@ $pacblue:   #2422dc;
         background: url(/assets/images/contrib/events/2018-11-explore/bg.png);
         width: 80%;
     }
+    #left { margin-right: 20%; }
+    #right { margin-left:20%; }
 
     #middle {
         grid-area: 1 / 2 / 2 / 3;
@@ -33,6 +35,8 @@ $pacblue:   #2422dc;
         }
         #maintext {
             padding: 2em;
+            margin-bottom: 2em;
+            background: $pacred;
         }
     }
 }
