@@ -8,6 +8,10 @@ $pacpink:   #fcb6dc;
 $pacorange: #fcb644;
 $pacblue:   #2422dc;
 
+body {
+    margin: 0;
+}
+
 #explorecont {
     display: grid;
     grid-template: 1fr / 1fr minmax(10%, 960px) 1fr;
@@ -54,12 +58,13 @@ $pacblue:   #2422dc;
 
     .event {
         display: grid;
-        grid-template: 13.5em 1fr / 24em;
+        grid-template: 13.5em 1fr / minmax(100%, 24em);
         border: 5px solid $pacblue;
         border-radius: 0.5em;
         overflow: hidden;
         color: $pacblack;
-        max-width: 90%;
+        max-width: 100%;
+        margin-bottom: 2em;
 
         .image {
             grid-area: 1 / 1 / 2 / 2;
@@ -76,7 +81,7 @@ $pacblue:   #2422dc;
                 justify-content: space-evenly;
                 border-bottom: 1px solid gray;
                 background: $pacpink;
-                height: 2em;
+                
                 p {
                     width: 50%;
                     text-align: center;
