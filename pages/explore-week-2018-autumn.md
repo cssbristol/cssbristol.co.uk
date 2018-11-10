@@ -45,6 +45,15 @@ permalink: /explore
                     </div>
             {% endfor %}
         </div>
+        <div>
+            <br />
+            <br />
+            <a class="btn btn--dark" href="/" style="display: block; margin: 0 auto 0 auto; background: white;">
+                Back home
+            </a>
+        </div>
+        <br />
+        <br />
     </div>
     <div class="side" id="right">
     </div>
