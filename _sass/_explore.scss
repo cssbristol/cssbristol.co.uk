@@ -15,10 +15,10 @@ $pacblue:   #2422dc;
     font-family: 'Press Start 2P', cursive;
 
     .side {
-        background: url(/assets/images/contrib/events/2018-11-explore/bg.png);
+        background: url(/assets/images/contrib/events/2018-11-explore/bg.jpg);
         width: 80%;
     }
-    #left { margin-right: 20%; }
+    #left { margin-right: 20%; background-position-x: right; }
     #right { margin-left:20%; }
 
     #middle {
