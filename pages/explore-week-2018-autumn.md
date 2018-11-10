@@ -9,6 +9,8 @@ permalink: /explore
 {% assign posts = site.posts | where: "explore2018", true %}
 
 <div id="explorecont">
+    <div class="side" id="left">
+    </div>
     <div id="middle">
         <div>
             <img src="/assets/images/contrib/events/2018-11-explore/Logo.png"/>
@@ -23,7 +25,6 @@ permalink: /explore
                         {% if post.url %}<a href="{{ post.url }}">
                             <div class="image" {% if post.image %}style="background: url({{ post.image }}) center; background-size: cover;"{% endif %}></div>
                         </a>{% endif %}
-
                         <div class="desc">
                             <div class="info">
                                 <p style="border-right: 1px solid gray">
@@ -42,5 +43,7 @@ permalink: /explore
                     </div>
             {% endfor %}
         </div>
+    </div>
+    <div class="side">
     </div>
 </div>

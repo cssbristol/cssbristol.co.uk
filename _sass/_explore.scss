@@ -14,6 +14,11 @@ $pacblue:   #2422dc;
     background: $pacblack;
     font-family: 'Press Start 2P', cursive;
 
+    .side {
+        background: url(/assets/images/contrib/events/2018-11-explore/bg.png);
+        width: 80%;
+    }
+
     #middle {
         grid-area: 1 / 2 / 2 / 3;
         color: $pacwhite;
