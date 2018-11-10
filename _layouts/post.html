@@ -20,6 +20,12 @@ layout: default
       {% endif %}
     </header>
     <div itemprop="articleBody" class="blog-post__body">
+      {% if page.image %}
+        {% if page.fb_link %}<a href={{ page.fb_link }}>{% endif %}
+          <img src={{ page.image }}/>
+        {% if page.fb_link %}</a>{% endif %}
+      {% endif %}
+
       {{ content }}
     </div>
   </article>
