@@ -1,4 +1,41 @@
 .blog-posts {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+
+  &__item {
+    width: 20em;
+    height: 13.25em;
+    margin: auto auto 1em auto;
+
+    display: flex;
+    flex-direction: column;
+
+    &__img {
+      height: 9em;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    &__info {
+      background: lightgray;
+      height: 2em;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      p {
+        margin: auto;
+        width: 33%;
+        text-align: center;
+      }
+    }
+  }
+}
+
+/* .blog-posts {
   max-width: 1000px;
   padding: 0 20px;
 
@@ -28,3 +65,4 @@
     display: block;
   }
 }
+ */
