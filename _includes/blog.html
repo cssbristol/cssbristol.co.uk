@@ -19,10 +19,12 @@
             {% endif %}
 
             {% if post.date %}
-              <p>{{ post.date | date: "%d/%m/%y" }}</p>
+              <p><strong>{{ post.date | date: "%d/%m/%y" }}</strong></p>
             {% endif %}
 
-            <p>FB</p>
+            {% if post.fb_link %}
+              <a class="fb" href="{{ post.fb_link }}">FB</a>
+            {% endif %}
           </div>
         </div>
       {% endif %}
