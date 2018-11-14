@@ -12,7 +12,14 @@
           <a class="blog-posts__item__img" href="{{ post.url }}"
             {% if post.image %}
               style="background-image: url({{ post.image }});"
-            {% endif %}></a>
+            {% else %}
+              style="border: 1px solid lightgray; border-bottom: none"
+            {% endif %}
+          >
+            {% if post.image == null %}
+              {{ post.title }}
+            {% endif %}
+          </a>
           <div class="blog-posts__item__info">
             {% if post.loc %}
               <p>{{ post.loc }}</p>
