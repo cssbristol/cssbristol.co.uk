@@ -1,23 +1,35 @@
+{% capture now %}{{'now' | date: '%s'}}{% endcapture %}
+{% assign max_old = 3 %}
+{% assign old = 0 %}
+
 <div class="page-section">
   <div class="blog-posts">
     {% for post in site.posts %}
-      <div class="blog-posts__item">
-        <a class="blog-posts__item__img" href="{{ post.url }}"
-          {% if post.image %}
-            style="background-image: url({{ post.image }});"
-          {% endif %}></a>
-        <div class="blog-posts__item__info">
-          {% if post.loc %}
-            <p>{{ post.loc }}</p>
-          {% endif %}
+      {% capture date %}{{ post.event_date | date: '%s' }}{% endcapture %}
 
-          {% if post.date %}
-            <p>{{ post.date | date: "%d/%m/%y" }}</p>
-          {% endif %}
+      {% if old < max_old %}
+        <div class="blog-posts__item {% if date < now %}old{% endif %}">
+          <a class="blog-posts__item__img" href="{{ post.url }}"
+            {% if post.image %}
+              style="background-image: url({{ post.image }});"
+            {% endif %}></a>
+          <div class="blog-posts__item__info">
+            {% if post.loc %}
+              <p>{{ post.loc }}</p>
+            {% endif %}
 
-          <p>FB</p>
+            {% if post.date %}
+              <p>{{ post.date | date: "%d/%m/%y" }}</p>
+            {% endif %}
+
+            <p>FB</p>
+          </div>
         </div>
-      </div>
+      {% endif %}
+
+      {% if date < now %}
+        {% assign old = old | plus:1 %}
+      {% endif %}
       <!-- <a class="blog-posts__item blog-post-item" href="{{ post.url }}">
         <h1 class="blog-post-item__title">{{ post.title }}</h1>
       </a>

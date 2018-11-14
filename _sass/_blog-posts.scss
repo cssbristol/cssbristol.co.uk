@@ -3,6 +3,10 @@
   flex-flow: row wrap;
   justify-content: space-evenly;
 
+  .old {
+    opacity: 0.5;
+  }
+
   &__item {
     width: 20em;
     height: 13.25em;
