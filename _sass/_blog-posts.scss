@@ -1,7 +1,7 @@
 .blog-posts {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: start;
 
   .old {
     opacity: 0.5;
@@ -10,10 +10,15 @@
   &__item {
     width: 20em;
     height: 11.5em;
-    margin: auto auto 1em auto;
+    margin: .6em .3em auto .3em;
 
     display: flex;
     flex-direction: column;
+
+    
+  @include media-query(1040px) {
+    flex-grow: 1;
+  }
 
     &__img {
       height: 9em;
