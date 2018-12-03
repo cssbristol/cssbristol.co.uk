@@ -39,6 +39,7 @@
       {% if date < now %}
         {% assign old = old | plus:1 %}
       {% endif %}
+
       <!-- <a class="blog-posts__item blog-post-item" href="{{ post.url }}">
         <h1 class="blog-post-item__title">{{ post.title }}</h1>
       </a>
@@ -51,4 +52,5 @@
       {% endif %} -->
     {% endfor %}
   </div>
+  <button class="btn btn--dark">View Old Posts</button>
 </div>
