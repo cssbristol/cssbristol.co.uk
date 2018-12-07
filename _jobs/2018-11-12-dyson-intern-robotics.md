@@ -50,7 +50,7 @@ Our internships are different. Join us and you’ll be working at the forefront 
 
 <div class="to-apply" style="text-align: center">
   <h2>Link to apply</h2>
-  <a class="btn btn--dark" style="margin: 20px" href="https://careers.dyson.com/en-gb/job-description/intern-placement-robotics-engineers-2019-uk/20215">
+  <a class="btn btn--dark" style="margin: 20px" href="https://careers.dyson.com/">
       Apply now
   </a>
 </div>

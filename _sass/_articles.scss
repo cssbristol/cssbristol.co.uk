@@ -77,3 +77,15 @@
 .aligned-image {
   text-align: center;
 }
+
+.home-image-poster {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  background-image: url(/assets/images/contrib/events/ChristmasPoster.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.page-section {
+  width: 100%;
+}
