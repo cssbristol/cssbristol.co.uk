@@ -12,7 +12,7 @@ jobLocation: London, UK
 industry: Hardware/electronics
 employmentType: Full-time
 validThrough: 2018-12-31 12:00:00 +0100
-startDate: -
+startDate: 
 occupationalCategory:
 baseSalary: Competitive
 salaryCurrency:
