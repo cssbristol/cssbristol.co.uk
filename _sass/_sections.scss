@@ -131,7 +131,8 @@ body {
     margin: 50px 10px;
     max-width: 1000px;
     text-align: center;
-
+    line-height: 1;
+    
     @include media-query($on-palm) {
       margin: 20px 10px;
     }
