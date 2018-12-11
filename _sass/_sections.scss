@@ -55,6 +55,10 @@ body {
   align-items: center;
   align-content: center;
   padding: 10px 0;
+
+  @include media-query($on-palm) {
+    flex-direction: column;
+  }
 }
 
 .page-navigation {
@@ -83,6 +87,7 @@ body {
       margin: 10px 0;
       text-align: center;
       width: 100%;
+      font-size: x-large;
     }
   }
 
@@ -94,6 +99,10 @@ body {
     padding: 10px;
     text-decoration: none;
     text-transform: uppercase;
+
+    @include media-query($on-palm) {
+      /* font-size: x-large; */
+    }
   }
 }
 
