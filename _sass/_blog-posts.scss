@@ -1,3 +1,8 @@
+$ITEM_W: 20em;
+$ITEM_H: 15em;
+$ITEM_IMG_H: 11em;
+$ITEM_META_H: $ITEM_H - $ITEM_IMG_H;
+
 .blog-posts {
   display: flex;
   flex-flow: row wrap;
@@ -9,31 +14,31 @@
 
   &__item {
     width: 20em;
-    height: 11.5em;
+    height: $ITEM_H;
     margin: .6em .3em auto .3em;
 
     display: flex;
     flex-direction: column;
 
     
-  @include media-query(1040px) {
-    flex-grow: 1;
-    flex-basis: 100%;
-  }
+    @include media-query(1040px) {
+      flex-grow: 1;
+      flex-basis: 100%;
+    }
 
     &__img {
-      height: 9em;
+      height: $ITEM_IMG_H;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       text-align: center;
-      line-height: 9em;
+      line-height: $ITEM_H;
       color: black;
     }
 
     &__info {
       background: lightgray;
-      height: 2.5em;
+      height: $ITEM_META_H;
 
       display: flex;
       flex-direction: row;
