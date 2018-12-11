@@ -23,18 +23,25 @@ body {
 
   &__logo {
     display: block;
+    background-image: url(/assets/images/core/logo-inline-light.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    height: 50px;
     width: 25%;
     min-width: 350px;
     padding-left: 50px;
+
     @include media-query($on-palm) {
-      margin-bottom: 30px;
-      padding: 0 5px;
+      padding: 0;
+      background-image: url(/assets/images/core/logo-small-light.png);
+      background-position: center;
     }
 
     // TODO: Convert to variable media query
     @media screen and (max-width: 450px) {
       // padding: 0;
-      min-width: 100%;
+      //min-width: 100%;
     }
 
     img {
