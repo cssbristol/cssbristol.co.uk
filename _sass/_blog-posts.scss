@@ -18,6 +18,7 @@
     
   @include media-query(1040px) {
     flex-grow: 1;
+    flex-basis: 100%;
   }
 
     &__img {
