@@ -39,18 +39,7 @@
       {% if date < now %}
         {% assign old = old | plus:1 %}
       {% endif %}
-
-      <!-- <a class="blog-posts__item blog-post-item" href="{{ post.url }}">
-        <h1 class="blog-post-item__title">{{ post.title }}</h1>
-      </a>
-      <p class="blog-post-item__meta">{{ post.author }} on {{ post.date | date: '%B %d, %Y' }}</p>
-      {{ post.excerpt }}
-      {% if post.image %}
-        {% if post.fb_link %}<a href="{{ post.fb_link }}">{% endif %}
-          <img src="{{ post.image }}">
-        {% if post.fb_link %}</a>{% endif %}
-      {% endif %} -->
     {% endfor %}
   </div>
-  <button class="btn btn--dark">View All Posts</button>
+  <a class="btn btn--dark" href="/blog_all">View All Events</a>
 </div>
