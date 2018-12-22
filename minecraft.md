@@ -8,7 +8,8 @@ permalink: /minecraft/
 
 ## Connecting
 
-* **ip**: `18.130.226.51`
+* **ip**: `132.145.54.223`
+  * this might change - it'll be `minecraft.cssbristol.co.uk` eventually
 * **whitelist**: apply [here](https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVGxsrbThU-mNCqM0m5H2UA4hURExVMFhTNVpCT0c2RjFZVkNIQUxBUUxFUi4u)
 
 ## Rules
