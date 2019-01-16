@@ -2,7 +2,7 @@
 layout: page
 title: Newsletter
 permalink: /newsletter/
-show-in-nav: true
+#show-in-nav: true
 ---
 
 # [Sign up](http://eepurl.com/cie4y1)

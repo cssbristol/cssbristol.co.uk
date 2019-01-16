@@ -23,18 +23,25 @@ body {
 
   &__logo {
     display: block;
+    background-image: url(/assets/images/core/logo-inline-light.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    height: 50px;
     width: 25%;
     min-width: 350px;
     padding-left: 50px;
+
     @include media-query($on-palm) {
-      margin-bottom: 30px;
-      padding: 0 5px;
+      padding: 0;
+      background-image: url(/assets/images/core/logo-small-light.png);
+      background-position: center;
     }
 
     // TODO: Convert to variable media query
     @media screen and (max-width: 450px) {
       // padding: 0;
-      min-width: 100%;
+      //min-width: 100%;
     }
 
     img {
@@ -55,6 +62,10 @@ body {
   align-items: center;
   align-content: center;
   padding: 10px 0;
+
+  @include media-query($on-palm) {
+    flex-direction: column;
+  }
 }
 
 .page-navigation {
@@ -83,6 +94,7 @@ body {
       margin: 10px 0;
       text-align: center;
       width: 100%;
+      font-size: x-large;
     }
   }
 
@@ -94,6 +106,10 @@ body {
     padding: 10px;
     text-decoration: none;
     text-transform: uppercase;
+
+    @include media-query($on-palm) {
+      /* font-size: x-large; */
+    }
   }
 }
 
@@ -131,7 +147,8 @@ body {
     margin: 50px 10px;
     max-width: 1000px;
     text-align: center;
-
+    line-height: 1;
+    
     @include media-query($on-palm) {
       margin: 20px 10px;
     }

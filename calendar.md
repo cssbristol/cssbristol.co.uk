@@ -3,7 +3,7 @@ layout: default
 title: Calendar
 permalink: /events/
 redirect_from: "/calendar"
-show-in-nav: true
+#show-in-nav: true
 ---
 
 <div class="page-section">

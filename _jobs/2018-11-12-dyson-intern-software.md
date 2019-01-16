@@ -52,7 +52,7 @@ Since we launched our first connected machine in 2014, our new technology is adv
 
 <div class="to-apply" style="text-align: center">
   <h2>Link to apply</h2>
-  <a class="btn btn--dark" style="margin: 20px" href="https://careers.dyson.com/en-gb/job-description/intern-placement-software-engineers-2019-uk/20216">
+  <a class="btn btn--dark" style="margin: 20px" href="https://careers.dyson.com/">
       Apply now
   </a>
 </div>
