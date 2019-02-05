@@ -61,6 +61,7 @@ body {
   justify-content: space-between;
   align-items: center;
   align-content: center;
+  margin: 0 auto;
   padding: 10px 0;
 
   @include media-query($on-palm) {
@@ -120,7 +121,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin-top: 50px;
   overflow: hidden;
   padding: 30px 0;
 
@@ -135,6 +136,14 @@ body {
 
   &--nopad {
     padding: 0 0;
+  }
+
+  &--nopad-bottom {
+    padding-bottom: 0;
+  }
+
+  &--nopad-top {
+    padding-top: 0;
   }
 
   p {
