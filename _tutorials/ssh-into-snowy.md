@@ -14,24 +14,17 @@ If you're familiar with SSH, here are the details you need:
 * Username: your university username, e.g. `ab12345`
 * Password: your university password
 
-**Other available machines**
+**SSH into lab machines**
 
-`snowy.cs.bris.ac.uk` is not the only server/machine you have access too.
-
-When connecting from inside the university you can use the following servers:
-
-* `paris.cs.bris.ac.uk`
-* `london.cs.bris.ac.uk`
-* `rome.cs.bris.ac.uk`
-
-In addition, all the lab machines in MVB 2.11 are available when using snowy as
+All the lab machines in MVB 2.11 are available when using snowy as
 a jump box, this involves first connecting to snowy then to the lab machine in
-a chain like fashion making use of SSH's `ProxyCommand`.
+a chain like fashion making use of SSH's `ProxyCommand`. This step can be
+skipped if you are using the university VPN.
 
-Lab machine addresses: `it<ID>.users.bris.ac.uk` where ID is in the following range:
+Lab machine addresses: `it<ID>.wks.bris.ac.uk` where ID is in the following range:
 
-* `it025956.users.bris.ac.uk` -- `it025995.users.bris.ac.uk`
-* `it052556.users.bris.ac.uk` -- `it052595.users.bris.ac.uk`
+* `it025956.wks.bris.ac.uk` -- `it025995.wks.bris.ac.uk`
+* `it052556.wks.bris.ac.uk` -- `it052595.wks.bris.ac.uk`
 
 # SSH
 
@@ -63,7 +56,7 @@ Type your university username and press return. Then type your password and pres
 
 You will probably end up working in a terminal a lot of the time, even on Windows. Unfortunately, the set of text-based utilities that comes with Windows is rather lacking. Several efforts exist to make these available on Windows:
 
-* [Ubuntu on Windows (Beta)](https://msdn.microsoft.com/en-us/commandline/wsl/about?f=255&MSPPError=-2147217396) - an official Microsoft project that lets you run Linux binaries natively on Windows.
+* [Bash on Windows on Ubuntu](https://msdn.microsoft.com/en-us/commandline/wsl/about?f=255&MSPPError=-2147217396) - an official Microsoft project that lets you run Linux binaries natively on Windows.
 * [MSYS2](https://msys2.github.io/)
 * [Babun](http://babun.github.io/)
 * [Cygwin](https://www.cygwin.com/)
@@ -76,7 +69,7 @@ Snowy (like most current Linux systems) supports a feature called X Forwarding. 
 
 ## Mac/Linux
 
-To enable X Forwarding, add the `-X` option when running OpenSSH:
+To enable X Forwarding, add the `-X` flag when running OpenSSH:
 
 ```
 ssh ab12345@snowy.cs.bris.ac.uk -X
@@ -86,7 +79,17 @@ Once logged in, you will be able to launch utilities like `nautilus` (the GNOME 
 
 ## Windows
 
-Windows does not support X11, so cannot display forwarded applications natively. However, you can install third-party software that allows graphical remote desktop. One possible solution is the [NoMachine client](https://www.nomachine.com/download).
+Windows requires additional steps for X Forwading. Firstly, you need to install [Ximg](https://sourceforge.net/projects/xming/), this allows graphical interface on server to be displayed. If you are using putty, all you should have to do tick the Enable X11 forewarding box under Connections\SSH\X11 in your putty connection.
+As for Bash on Windows on Ubuntu, Cygwin... etc, you need to add `-X`  flag when running OpenSSH like in Mac/Linux:
+
+```
+ssh ab12345@snowy.cs.bris.ac.uk -X
+```
+
+# Remote Desktop (NoMachine)
+
+If you would like to access lab machines or university softwares at home, then SSH with X11 forwarding might not be a good option. This is because X11
+forwarding does not compress data, so the graphical interface will be very slow.  [NoMachine client](https://www.nomachine.com/download) allows graphical remote desktop with less lag. The server snowy can be accessed with NoMachine, if you desire to use a lab machine, you can still SSH into them using snowy with or without X11 forwarding.
 
 # Copying files with scp
 
