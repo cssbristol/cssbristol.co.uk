@@ -1,0 +1,101 @@
+---
+layout: page
+title: Explore Week Autumn 2018
+permalink: /agm
+---
+
+<h1>CSS AGM 2019</h1>
+
+<div class="agm-timer">
+    <div class="agm-timer-title" width="300px">Submission Ends May 1st, 12pm</div>
+    <div class="agm-timer-cont">
+        <span id="agm__time-days"></span>
+        <span id="agm__time-hours"></span>
+        <span id="agm__time-mins"></span>
+        <span id="agm__time-secs"></span>
+    </div>
+</div>
+
+<p>
+    CSS' AGM is upon us once again!
+</p>
+
+<p>
+    If you're abroad this year or can't attend the AGM - don't worry! You can still nominate yourself/submit a motion. We recommend recording a short video of yourself speaking so that we can play it at the AGM. If you like, we can read out a written statement instead.
+</p>
+
+<p>
+    Free pizza 🍕, falafel 🧆, and cider/beer 🍺 as per usual x
+</p>
+
+<script>
+    const end = new Date("May 01, 2019 12:00:00").getTime();
+    // thank you https://www.developerdrive.com/2019/02/build-countdown-timer-pure-javascript/
+
+    var timer = setInterval(() => {
+        let now = new Date().getTime();
+        let t = end - now;
+
+        let days = Math.floor(t / (1000 * 60 * 60 * 24));
+        let hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        let mins = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+        let secs = Math.floor((t % (1000 * 60)) / 1000);
+
+        document.getElementById('agm__time-days').innerHTML = days + 'd';
+        document.getElementById('agm__time-hours').innerHTML = hours + 'h';
+        document.getElementById('agm__time-mins').innerHTML = mins + 'm';
+        document.getElementById('agm__time-secs').innerHTML = secs + 's';
+    }, 1000);
+</script>
+
+<br>
+<hr>
+
+<h2>Roles</h2>
+<br>
+
+<a class="agm btn btn--dark" href="http://bit.ly/css-agm19-roles">
+    Nominate yourself for a role!
+</a>
+
+<p>
+    Could you see yourself at the helm of our next Hackathon or Bar Crawl? Being a committee member is a great way to gain experience running events, dealing with industrial sponsors and communications. And to boot - it's a whole lot of fun!
+</p>
+<p>
+    You will have a chance to speak for 60s (once, regardless of how many positions you apply for) during the AGM.
+</p>
+
+<p>
+    Here's a taste of what each role does:
+</p>
+
+{% for role in site.data.roles %}
+    <div class="agm-role">
+        <h6 class="agm-role-title">{{ role.role }}</h6>
+        <p class="agm-role-desc">
+            <ul>
+                {% for point in role.desc %}
+                    <li>{{ point }}</li>
+                {% endfor %}
+            </ul>
+        </p>
+        <!-- <p class="agm-role-desc">{{ role.desc }}</p> -->
+    </div>
+{% endfor %}
+
+<br>
+<hr>
+
+<h2>Motions</h2>
+<br>
+
+<a class="agm btn btn--dark" href="http://bit.ly/css-agm19-motions">
+    Submit a motion!
+</a>
+
+<p>
+    Want to make a change to how the society runs? Put forward a motion to change our constitution (https://cssbristol.co.uk/pages/constitution).
+</p>
+<p>
+    Constitutional changes must receive a two-thirds majority. Non-constitutional motions must receive a majority.
+</p>

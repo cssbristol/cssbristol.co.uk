@@ -1,8 +1,6 @@
 ---
 layout: page
 title: AGM
-permalink: /pages/agm
-redirect_from: "/agm"
 ---
 
 # Annual General Meeting 2018
