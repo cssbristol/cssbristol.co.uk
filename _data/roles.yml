@@ -8,6 +8,11 @@
   desc:
     - helps out the President with the above tasks
     - responsible for talking to companies and organising sponsorship
+- role: Treasurer
+  desc:
+    - controls and tracks spending
+    - makes big purchases/deals with invoices
+    - ensures we're following SU rules and the law
 - role: Secretary
   desc:
     - records minutes in meetings
@@ -24,6 +29,7 @@
     - manages social media accounts
 - role: Events
   desc:
+    - organises the CSS event calendar
     - helps organise and run technical events
 - role: Webmaster
   desc:
@@ -43,4 +49,5 @@
 - role: General
   desc:
     - helps out wherever needed
+    - pizza/falafel runner
     - jack of all trades
