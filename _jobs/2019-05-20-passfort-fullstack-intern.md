@@ -16,7 +16,7 @@ startDate: immediately
 occupationalCategory:
 baseSalary: 2000
 salaryCurrency: GBP
-salaryPeriod: Hour
+salaryPeriod: Month
 responsibilities:
 skills:
 experienceRequirements:
