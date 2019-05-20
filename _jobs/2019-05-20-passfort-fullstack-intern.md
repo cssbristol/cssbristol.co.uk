@@ -8,7 +8,7 @@ hiringOrganization:
   address: 11 Princelet Street, London, E1 6QH
 title: Fullstack Developer - Summer Internship
 logo: /assets/images/contrib/jobs/passfort.png
-jobLocation: Central Bristol
+jobLocation: London
 industry: Software Development
 employmentType: Internship (Summer)
 validThrough: 2019-06-1 12:00:00 +0100
