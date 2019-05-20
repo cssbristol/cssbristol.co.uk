@@ -7,7 +7,7 @@ hiringOrganization:
   name: PassFort
   address: 11 Princelet Street, London, E1 6QH
 title: Fullstack Developer - Summer Internship
-logo: /assets/images/contrib/jobs/bePyramid.png
+logo: /assets/images/contrib/jobs/passfort.png
 jobLocation: Central Bristol
 industry: Software Development
 employmentType: Internship (Summer)
