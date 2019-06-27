@@ -6,7 +6,7 @@ datePosted: 2019-05-25 22:00:00 +0100
 hiringOrganization:
   name: 3D Metal Printing
   address: Innovation Centre University of Bath, Broad Quay, BATH – BA1 1UD (UK)
-title: Automation Developer
+title: Software Developer
 logo: /assets/images/contrib/jobs/3d_metal_printing.png
 jobLocation: Bath, UK
 industry: Medical Software
@@ -26,10 +26,12 @@ incentiveCompensation:
 ---
 
 ## Job Description
-We’re looking for an ambitious Software Developer to join a fast-growing team and partner on the creation of TOKA® virtual surgical planning software. Your work will be pivotal to achieve our ambition to disrupt Healthcare Industry approaches the surgical experience.
+We’re looking for an ambitious Software Developer to join a fast-growing team and partner on the creation of TOKA® virtual surgical planning software. TOKA is hiring a C++ software engineer to build the ground-breaking application that blends imaging techniques with 3D printing to treat early stage osteoarthritis. This is your chance to advance novel technology that will benefit mobility, health and quality of life for patients of all demographics worldwide.
 
 ## Job Responsibilities
-Developing the TOKA® virtual surgery planning software Release Management – supporting the release cycle and version control Robust Software Testing, Documentation & Commenting
+- Developing the TOKA® virtual surgery planning software
+- Release Management – supporting the release cycle and version control
+- Robust Software Testing, Documentation & Commenting
 
 ## Educational requirements
 - Mathematics / Computer Science (or equivalent) Degree
