@@ -7,7 +7,7 @@ hiringOrganization:
   name: Osbourne Clark
   address:  2 Temple Back E, Bristol BS1 6EG
 title: Legal Tech Placement
-logo: /assets/images/contrib/jobs/synoptix.png
+logo: /assets/images/contrib/jobs/osbourne_clark.png
 jobLocation: Bristol
 industry: Law
 employmentType: Temporary
@@ -37,22 +37,25 @@ Based within their IT team, these technology-focused placements will allow you t
 They are looking for UoB Computer Science and Engineering Mathematics students (BEng, 2nd year only; MEng, 2nd & 3rd years only).
 
 ## Desired skills
-## Desired skills
+They are looking for applicants with a problem-solving approach, excellent communication skills and a team-working ethos.
+
+## Other Benefits
+
+The project work may continue beyond the initial 2-week placement on an ad-hoc basis, and Osborne Clarke will work with selected students to establish how this could work with their existing university commitments. Any additional work would be paid at the same rate as the placement.
+
+In addition:
+ 
+* Please note that these placements may not involve any coding or development work, but will primarily focus on researching emerging third-party solutions
+* The placement will likely take place between 9-20th September 2019
+* Interviews will be in August and can be held via Skype if necessary
+* Reasonable travel expenses to an interview could be covered. If invited to interview, please ask before booking anything
 
 
-## Desired skills
-
-
-## Desired skills
-## Desired skills
-
-
-## Desired skills
 
 ## To apply:
-Email your CV to tarnison@synoptix.co.uk
+
 <div class="to-apply" style="text-align: center">
-  <a class="btn btn--dark" style="margin: 20px" href="mailto:tarnison@synoptix.co.uk">
+  <a class="btn btn--dark" style="margin: 20px" href="https://fsr.cvmailuk.com/osborneclarkefuturetrainees/main.cfm?page=jobSpecific&jobId=45070&rcd=28008&queryString=srxksl%3D1&srxksl=1">
     Apply
   </a>
 </div>
