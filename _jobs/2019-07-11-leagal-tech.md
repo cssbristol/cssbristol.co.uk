@@ -7,7 +7,7 @@ hiringOrganization:
   name: Osbourne Clark
   address:  2 Temple Back E, Bristol BS1 6EG
 title: Legal Tech Placement
-logo: /assets/images/contrib/jobs/osbourne_clark.png
+logo: /assets/images/contrib/jobs/OC - Huw Andrews.png
 jobLocation: Bristol
 industry: Law
 employmentType: Temporary
