@@ -5,23 +5,16 @@ permalink: /wellbeing/
 show-in-nav: true
 ---
 
-# Student Health & Support
-
-We are working hard with the department to make sure this page be as well-informed as possible. If you think something is missing, you can get in touch with someone on [the committee](/contact), or you can add the content yourself and [file a pull request](https://github.com/cssbristol/cssbristol.github.io).
-
-While we sort this page out though, you can use the [Student Union's JustAsk service](https://www.bristolsu.org.uk/justask/welfare/mentalhealth/), or the [Student Health & Counselling Services](http://www.bristol.ac.uk/students/services/mental-health/). They are equipped to handle just about everything and anything!
-
-If you're in first or second year and would like advice on getting through the year, check out [this thread](/2017/09/24/second-year-advice.html) of tips from students who've done it.
-
-
 # Table of Contents
 1. [Who is this page for?](#who-is-this-page-for)
 2. [What sort of problems does this include?](#what-sort-of-problems-does-this-include)
   * [Stress and Mental Health](#stress-and-mental-health)
-  * [Nastiness In Online Discussion Spaces](#nastiness-in-online-discussion-spaces)
+  * [Online Discussion Spaces](#online-discussion-spaces)
 3. [What help is on offer?](#what-help-is-on-offer)
   * [Personal Tutors](#personal-tutors)
   * [Senior Tutors](#senior-tutoros)
+  * [Wellbeing advisers](#wellbeing-advisers)
+  * [Residential life advisors](#residential-life-advisors)
   * [University Student Health Service](#university-student-health-service)
   * [University Student Counselling Service](#university-student-counselling-service)
   * [University Disability Services](#university-disability-services)
@@ -29,8 +22,7 @@ If you're in first or second year and would like advice on getting through the y
   * [Bristol Nightline](#bristol-nightline)
   * [University Multi-faith Chaplaincy](#university-multi-faith-chaplaincy)
   * [Sex and Consent](#sex-and-consent)
-  * [Vulnerable Students Support](#vulnerable-students-support)
-
+  * [Drugs](#drugs)
 
 # Who is this page for?
 This page is for all University of Bristol Computer Science students, undergraduate and postgraduate alike. It also serves for students on joint honours courses like Computer Science and Electronics, Computer Science and Maths, and Computer Science with Innovation.
