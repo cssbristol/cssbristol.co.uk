@@ -31,6 +31,12 @@ incentiveCompensation:
 ## Job Responsibilities
 <++>
 
+## Educational Requirements
+<++>
+
+## Experience Requirements
+<++>
+
 ## Desired skills
 <++>
 
