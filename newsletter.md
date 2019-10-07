@@ -34,7 +34,7 @@ permalink: /newsletter/
 <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
     <div class="content__gdpr">
         <label>Marketing Permissions</label>
-        <p>Please select all the ways you would like to hear from CSS Bristol - Outreach:</p>
+        <p>Please select all the ways you would like to hear from CSS Bristol:</p>
         <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
 		<label class="checkbox subfield" for="gdpr_17577"><input type="checkbox" id="gdpr_17577" name="gdpr[17577]" value="Y" class="av-checkbox gdpr"><span>Email</span> </label>
         </fieldset>
