@@ -6,7 +6,7 @@ datePosted: 2019-10-06 12:00:00 +0100
 hiringOrganization:
   name: TPP
   address: 
-title: Technical Operations
+title: Software Developer (Intern)
 logo: /assets/images/contrib/jobs/tpp.png
 jobLocation: 
 industry: Software Development
