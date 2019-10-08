@@ -17,3 +17,7 @@
 - name: TPP
   logo: tpp.png
   url: https://www.tpp-uk.com
+
+- name: GRAPHCORE
+  logo: graphcore.png
+  url: https://www.graphcore.ai
