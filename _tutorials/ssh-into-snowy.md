@@ -23,8 +23,7 @@ skipped if you are using the university VPN.
 
 Lab machine addresses: `it<ID>.wks.bris.ac.uk` where ID is in the following range:
 
-* `it025956.wks.bris.ac.uk` -- `it025995.wks.bris.ac.uk`
-* `it052556.wks.bris.ac.uk` -- `it052595.wks.bris.ac.uk`
+* `it075829.wks.bris.ac.uk` -- `it075829.wks.bris.ac.uk`
 
 # SSH
 
