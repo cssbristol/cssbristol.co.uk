@@ -1,6 +1,6 @@
 ---
 layout: job
-hide: true
+hide: false
 sponsored: true
 datePosted: 2019-11-10 15:30:00 +0100
 hiringOrganization:
@@ -63,8 +63,7 @@ We are not accepting third-party resume submissions.
 ## To apply:
 
 <div class="to-apply" style="text-align: center">
-LINK IS BROKEN
-  <a class="btn btn--dark" style="margin: 20px" href="https://jumptrading.greenhouse.io/sdash/1137250">
+  <a class="btn btn--dark" style="margin: 20px" href="https://www.jumptrading.com/apply.html?gh_jid=1815371">
     Apply
   </a>
 </div>

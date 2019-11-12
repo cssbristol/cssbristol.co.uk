@@ -1,6 +1,6 @@
 ---
 layout: job
-hide: true
+hide: false
 sponsored: true
 datePosted: 2019-11-10 15:30:00 +0100
 hiringOrganization:
@@ -63,9 +63,8 @@ No finance or economics study or work experience required
 Past internship or job experience in a software development role is a plus 
 
 ## To apply:
-LINK IS BROKEN
 <div class="to-apply" style="text-align: center">
-  <a class="btn btn--dark" style="margin: 20px" href="https://jumptrading.greenhouse.io/sdash/983659">
+  <a class="btn btn--dark" style="margin: 20px" href="https://www.jumptrading.com/apply.html?gh_jid=1550590">
     Apply
   </a>
 </div>
