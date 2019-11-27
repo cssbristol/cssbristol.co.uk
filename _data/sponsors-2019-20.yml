@@ -22,6 +22,10 @@
   logo: graphcore.png
   url: https://www.graphcore.ai
 
+- name: Visa
+  logo: visa.webp
+  url: https://www.visa.co.uk/
+
 - name: Pilgrim Brewery
   logo: pilgrim.png
   url: https://pilgrim.co.uk/
