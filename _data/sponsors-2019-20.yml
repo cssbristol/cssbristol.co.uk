@@ -21,3 +21,7 @@
 - name: GRAPHCORE
   logo: graphcore.png
   url: https://www.graphcore.ai
+
+- name: Pilgrim Brewery
+  logo: pilgrim.png
+  url: https://pilgrim.co.uk/
