@@ -23,7 +23,7 @@ skipped if you are using the university VPN.
 
 Lab machine addresses: `it<ID>.wks.bris.ac.uk` where ID is in the following range:
 
-* `it075829.wks.bris.ac.uk` -- `it075829.wks.bris.ac.uk`
+* `it075638.wks.bris.ac.uk` -- `it075906.wks.bris.ac.uk`
 
 # SSH
 
@@ -191,26 +191,21 @@ Host frosty
 
 # CS lab machines live on the follow ranges
 #
-#   - 025956--025995
-#   - 052556--052595
+#   - 075638--075906
 #
-# CentOS 6 machines:
-#
-#   - 052569--052572
-#   - 052579--052582
 
 Host cs-desktop-01
-    HostName it025980.users.bris.ac.uk
+    HostName it075638.users.bris.ac.uk
     User <USERNAME>
     ProxyCommand ssh snowy nc %h %p 2> /dev/null
 
 Host cs-desktop-02
-    HostName it052573.users.bris.ac.uk
+    HostName it075639.users.bris.ac.uk
     User <USERNAME>
     ProxyCommand ssh snowy nc %h %p 2> /dev/null
 
 Host cs-desktop-03
-    HostName it052574.users.bris.ac.uk
+    HostName it075640.users.bris.ac.uk
     User <USERNAME>
     ProxyCommand ssh snowy nc %h %p 2> /dev/null
 ```
