@@ -85,6 +85,7 @@ body {
     list-style-type: none;
     padding-bottom: 3px;
     transition: 0.1s;
+    border: 1px solid rgba(0,0,0,0);
 
     &:hover {
       border: 1px solid white;
