@@ -64,15 +64,16 @@
         border-radius: 3px;
         color: #ffffff;
         content: 'Sponsored';
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 500;
         margin: 5px 0 10px;
         padding: 5px;
         text-transform: uppercase;
+        float: right;
       }
 
-      background: linear-gradient(lighten($purple, 25%), lighten($purple, 15%));
-      border: 2px solid $medium-text;
+      background: #fa8a90;
+      box-shadow: 5px 5px 10px #3f3f3f;
     }
 
     p {
