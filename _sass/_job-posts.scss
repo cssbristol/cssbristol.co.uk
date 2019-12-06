@@ -26,7 +26,8 @@
   }
 
   .job-post-item {
-    border: 1px solid $medium-text;
+    /*border: 1px solid $medium-text;*/
+    box-shadow: 5px 5px 10px #3f3f3f;
     border-radius: 3px;
     color: $dark-text;
     min-height: 250px;
@@ -60,7 +61,6 @@
 
     &--sponsored {
       &:before {
-        /*background: $purple;*/
         border-radius: 3px;
         color: #ffffff;
         content: 'Sponsored';
