@@ -13,8 +13,11 @@
 
     {% include footer.html %}
 
-    {% include ga.html %}
+    {% include cookie-consent.html %}
 
+    if(readCookie('cookie-notice-dismissed')=='true') {
+      {% include ga.html %}
+    }
   </body>
 
 </html>
