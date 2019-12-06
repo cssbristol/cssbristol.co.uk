@@ -1,38 +1,4 @@
-.agm {
-    &-timer {
-        display: block;
-        margin: auto;
-        width: 300px;
-        border: 1px solid lightgray;
-        border-radius: 5px;
-        padding: 10px;
+.acumin {
+  font-family: acumin-pro, "Helvetica Neue", Helvetica, "Open Sans", sans-serif; }
 
-        &-title {
-            margin: 0;
-            text-align: center;
-            font-weight: bold;
-        }
-
-        &-cont {
-            display: flex;
-
-            span {
-                flex-grow: 1;
-                text-align: center;
-                font-size: large;
-            }
-        }
-    }
-    
-    &-role {
-        border: 1px solid lightgray;
-        border-radius: 5px;
-        margin-bottom: 5px;
-        padding: 10px;
-        background: url('/assets/images/contrib/agm/css-tilebg.png');
-        background-position: center;
-
-        &-title { margin: 0; font-weight: bold; }
-    }
-    &.btn { display: block; }
-}
+/*# sourceMappingURL=_agm.scss.map */
