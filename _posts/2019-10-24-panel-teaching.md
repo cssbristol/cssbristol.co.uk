@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "BAE Systems AI CTF"
-date:   2019-09-19 09:15:00 +0000
-event_date: 2019-09-19 17:00:00 +0000
+title:  "A Panel of Teaching"
+date:   2019-10-24 13:00:00 +0000
+event_date: 2019-10-24 14:00:00 +0000
 loc: MVB 1.11/1.11A
 category: "event"
 author: "Daniel Jones"
