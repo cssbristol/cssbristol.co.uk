@@ -1,0 +1,16 @@
+---
+layout: event
+published: true
+title: $TITLE
+banner: $BANNER
+location: $LOCATION
+fb_link: $FB
+ticket_link: $TICKET_LINK
+price: $PRICE
+category:
+    - Social
+    - Tech Talk
+    - Trip
+    - Networking
+    - Careers
+---
