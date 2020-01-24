@@ -2,7 +2,9 @@
 layout: event
 published: true
 title: Xmas Movie night
-banner: 2019_12_17_xmas_movie_night.png
+date:     2019-12-17 17:30:00 +0000
+date_end: 2019-12-17 21:30:00 +0000
+banner: 2019_12_17_xmas_movie_night.jpg
 location: Queens 1.15 SLT
 fb_link: https://www.facebook.com/events/478460012789277/
 ticket_link:

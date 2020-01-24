@@ -1,7 +1,9 @@
 ---
 layout: event
 published: true
-title: Graphcore: AI algorithms for large scale machines
+title: AI algorithms for large scale machines by Graphcore
+date:     2019-11-27 13:00:00 +0000
+date_end: 2019-11-27 14:00:00 +0000
 banner: 2019_11_27_Graphcore_ai.png
 location: Queens 1.6 SLT
 fb_link: https://www.facebook.com/events/418489025723362/

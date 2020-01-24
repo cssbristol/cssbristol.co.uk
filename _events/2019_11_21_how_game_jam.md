@@ -1,7 +1,9 @@
 ---
 layout: event
 published: true
-title: Student Talk: How to Game Jam
+title: How to Game Jam
+date:     2019-11-20 15:00:00 +0000
+date_end: 2019-11-20 16:00:00 +0000
 banner: 2019_11_21_how_game_jam.jpg
 location: MVB 2.11
 fb_link: https://www.facebook.com/events/1257528924436386/

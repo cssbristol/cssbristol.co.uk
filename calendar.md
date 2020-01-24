@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Calendar
-permalink: /events/
-redirect_from: "/calendar"
+permalink: /calendar
 #show-in-nav: true
 ---
 

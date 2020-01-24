@@ -1,7 +1,9 @@
 ---
 layout: event
 published: true
-title: LV: The power of Data Science
+title: The power of Data Science by LV=
+date:     2019-11-28 13:00:00 +0000
+date_end: 2019-11-28 14:00:00 +0000
 banner: 2019_11_28_css_lv_power_of_data.png
 location: Quuens 1.15 SLT
 fb_link: https://www.facebook.com/events/574368899802299/

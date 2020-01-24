@@ -17,6 +17,9 @@ collections:
   jobs:
     output: true
     permalink: /jobs/:path/
+  events:
+      output: true
+      permalink: /events/:path/
 
 plugins:
   - jekyll-redirect-from

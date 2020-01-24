@@ -2,6 +2,8 @@
 layout: event
 published: true
 title: Bloomberg interview and CV workshop
+date:     2019-11-20 13:00:00 +0000
+date_end: 2019-11-20 16:00:00 +0000
 banner: 2019_11_20_bloomberg_cv.jpg
 location: MVB 1.15
 fb_link: https://www.facebook.com/events/1452085498274712/

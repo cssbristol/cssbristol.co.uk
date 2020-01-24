@@ -2,7 +2,9 @@
 layout: event
 published: true
 title: CSS Watches a Movie
-banner: 2019_10_31_moive.jpg
+date:     2019-10-31 18:00:00 +0000
+date_end: 2019-10-31 21:30:00 +0000
+banner: 2019_10_31_movie.jpg
 location: Pugsley Queens
 fb_link: https://www.facebook.com/events/576136083127316/
 ticket_link:
