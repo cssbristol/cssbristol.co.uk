@@ -16,9 +16,10 @@ hero:
 --!>
 
 <div class="page-section">
-  <h1>Latest</h1>
+  <h1>Coming up</h1>
   <div class="featured-items">
-    {% for post in site.posts limit:4 %}
+  {% assign latest = (site.events | where_exp: "post", "post.date >= site.time") %}
+    {% for post in latest limit:4 %}
       <a class="featured-item featured-item--{{ site.data.colour-names | sample }} {% if post.category %}featured-item--{{ post.category }}{% endif %}" href="{{ post.url }}">
           <h3 class="featured-item__title">{{ post.title }}</h3>
           <p class="featured-item__meta">{{ post.author }} on {{ post.date | date: '%B %d, %Y' }}</p>
@@ -27,7 +28,7 @@ hero:
           {% endif %}
       </a>
     {% endfor %}
-      <p><a href="/blog" class="btn">More</a></p>
+      <p><a href="/events" class="btn">More</a></p>
   </div>
 </div>
 

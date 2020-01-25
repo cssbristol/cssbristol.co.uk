@@ -2,9 +2,10 @@
 layout: page
 title: All Events
 permalink: /events/
+show-in-nav: true
 ---
 
-# All New Events
+# All Events
 
 -----------
 <div class="page-section">
@@ -38,5 +39,5 @@ permalink: /events/
         </div>
     {% endfor %}
   </div>
-  <a class="btn btn--dark" href="/blog">View Only Upcoming Events</a>
+  <a class="btn btn--dark" href="/blog_all">View Older evens</a>
 </div>
