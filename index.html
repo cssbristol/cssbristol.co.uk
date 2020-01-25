@@ -18,13 +18,16 @@ hero:
 <div class="page-section">
   <h1>Coming up</h1>
   <div class="featured-items">
-  {% assign latest = (site.events | where_exp: "post", "post.date >= site.time") %}
-    {% for post in latest limit:4 %}
-      <a class="featured-item featured-item--{{ site.data.colour-names | sample }} {% if post.category %}featured-item--{{ post.category }}{% endif %}" href="{{ post.url }}">
-          <h3 class="featured-item__title">{{ post.title }}</h3>
-          <p class="featured-item__meta">{{ post.author }} on {{ post.date | date: '%B %d, %Y' }}</p>
-          {% if post.category == "event" %}
-            <p class="featured-item__meta">Event: {{ post.event_date | date: '%B %d, %Y' }}</p>
+  {% assign latest = (site.events | where_exp: "event", "event.date >= site.time") %}
+    {% for event in latest limit:4 %}
+      <a href="{{ event.url }}">
+        
+      </a>
+      <a class="featured-item featured-item--{{ site.data.colour-names | sample }} {% if event.category %}featured-item--{{ event.category }}{% endif %}" href="{{ event.url }}">
+          <h3 class="featured-item__title">{{ event.title }}</h3>
+          <p class="featured-item__meta">{{ event.author }} on {{ event.date | date: '%B %d, %Y' }}</p>
+          {% if event.category == "event" %}
+            <p class="featured-item__meta">Event: {{ event.event_date | date: '%B %d, %Y' }}</p>
           {% endif %}
       </a>
     {% endfor %}
