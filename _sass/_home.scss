@@ -1,62 +1,38 @@
 .featured-items {
-  max-width: 1000px;
-  width: 100%;
+  max-width: $content-width;
+  width: 95%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 
   .featured-item {
-    background: linear-gradient(#a66bbe,#8f4bab);
-    color: #ffffff;
-    padding: 20px 3%;
-    width: 44%;
-    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
     text-decoration: none;
-    position: relative;
+    color: $dark-text;
 
-    @include media-query($on-palm) {
-      width: 94%;
+    div {
+      width: calc(50% - 50px);
+      padding: 5px 25px;
     }
-
-    &--purple { background: linear-gradient(lighten($purple, 5%), darken($purple, 5%)); }
-    &--green { background: linear-gradient(lighten($green, 5%), darken($green, 5%)); }
-    &--red { background: linear-gradient(lighten($purple, 5%), darken($purple, 5%)); }
-    &--blue { background: linear-gradient(lighten($blue, 5%), darken($blue, 5%)); }
-    &--orange { background: linear-gradient(lighten($orange, 5%), darken($orange, 5%)); }
-    &--turquoise { background: linear-gradient(lighten($turquoise, 5%), darken($turquoise, 5%)); }
-    &--yellow { background: linear-gradient(lighten($yellow, 5%), darken($yellow, 5%)); }
-
-    &__meta {
-      font-size: 12px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
+    img {
+      width: 50%;
     }
+  }
+  :nth-child(even) {
+    flex-direction: row-reverse;
+  }
 
-    &__title {
-      font-size: 24px;
-      font-weight: 500;
-      max-height: 70px;
-      margin-bottom: 10px;
-    }
-
-    &:after {
-      background-image: url('/assets/images/core/featured/blog-icon.png');
-      background-repeat: no-repeat;
-      background-size: 100%;
-      content: '';
-      position: absolute;
-      bottom: 20px;
-      right: 20px;
-      height: 20px;
-      width: 20px;
-    }
-
-    &--event {
-      &:after {
-        background-image: url('/assets/images/core/featured/event-icon.png');
+  @include media-query($on-palm) {
+    .featured-item {
+      flex-direction: column-reverse;
+      align-items: center;
+      div, img {
+        width: 95%;
+        max-width: 500px;
       }
     }
   }
-
   .btn{
     &:hover{
       background-color: $light-grey;

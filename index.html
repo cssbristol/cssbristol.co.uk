@@ -20,9 +20,16 @@ hero:
   <div class="featured-items">
   {% assign latest = (site.events | where_exp: "event", "event.date >= site.time") %}
     {% for event in latest limit:4 %}
-      <a href="{{ event.url }}">
-        
+      <a class="featured-item" href="{{ event.url }}">
+        <div>
+          <h2>{{ event.title }}</h2>
+          <p>{{ event.date | date: '%A %d %B at %R' }}</p>
+          <p>{{ event.location }}</p>
+          <p>{{ event.price }}</p>
+        </div>
+        <img src="/assets/images/contrib/events/{{ event.banner }}" alt="{{ event.title }} banner"/>
       </a>
+      {% comment %}
       <a class="featured-item featured-item--{{ site.data.colour-names | sample }} {% if event.category %}featured-item--{{ event.category }}{% endif %}" href="{{ event.url }}">
           <h3 class="featured-item__title">{{ event.title }}</h3>
           <p class="featured-item__meta">{{ event.author }} on {{ event.date | date: '%B %d, %Y' }}</p>
@@ -30,8 +37,9 @@ hero:
             <p class="featured-item__meta">Event: {{ event.event_date | date: '%B %d, %Y' }}</p>
           {% endif %}
       </a>
+      {% endcomment %}
     {% endfor %}
-      <p><a href="/events" class="btn">More</a></p>
+    <a href="/events" class="btn">More</a>
   </div>
 </div>
 
