@@ -29,15 +29,6 @@ hero:
         </div>
         <img src="/assets/images/contrib/events/{{ event.banner }}" alt="{{ event.title }} banner"/>
       </a>
-      {% comment %}
-      <a class="featured-item featured-item--{{ site.data.colour-names | sample }} {% if event.category %}featured-item--{{ event.category }}{% endif %}" href="{{ event.url }}">
-          <h3 class="featured-item__title">{{ event.title }}</h3>
-          <p class="featured-item__meta">{{ event.author }} on {{ event.date | date: '%B %d, %Y' }}</p>
-          {% if event.category == "event" %}
-            <p class="featured-item__meta">Event: {{ event.event_date | date: '%B %d, %Y' }}</p>
-          {% endif %}
-      </a>
-      {% endcomment %}
     {% endfor %}
     <a href="/events" class="btn">More</a>
   </div>
