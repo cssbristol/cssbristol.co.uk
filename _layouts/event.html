@@ -21,6 +21,15 @@ layout: default
       {% endif %}
 
       {{ content }}
+      {% if page.cohost %}
+        <hr/>
+        Hosted with:
+        <ul>
+        {% for host in page.cohost %}
+          <li>{{ host }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
     </div>
   </article>
 </section>

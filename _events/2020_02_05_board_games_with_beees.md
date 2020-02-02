@@ -11,6 +11,9 @@ ticket_link:
 price: Free
 category:
     - Social
+cohost:
+    - BEEES
+    - CSS
 ---
 
 Weather it's cards against humanity or monopoly join us as we take over MVB with our BEEES friends!
