@@ -9,10 +9,10 @@ PRODID:-//hacksw/handcal//NONSGML v1.0//EN
 {% for event in site.events %}
 BEGIN:VEVENT
 UID:https://cssbristol.co.uk{{ event.url }}
-DTSTAMP:{{ event.date |  date_to_xmlschema }}
+DTSTAMP:{{ event.date |  date: "%Y%m%dT%H%M00Z" }}
 ORGANIZER;CN=CSS:MAILTO:webmaster@cssbristol.co.uk
-DTSTART:{{ event.date | date_to_xmlschema }}
-DTEND: {{ event.date_end | date_to_xmlschema }}
+DTSTART:{{ event.date | date: "%Y%m%dT%H%M00Z" }}
+DTEND: {{ event.date_end | date: "%Y%m%dT%H%M00Z" }}
 SUMMARY: {{ event.title }}
 END:VEVENT 
 {% endfor %} 
