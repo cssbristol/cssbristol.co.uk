@@ -13,5 +13,5 @@ DTEND:{{ event.date_end | date: "%Y%m%dT%H%M00Z" }}
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:{{ event.title }}
 LOCATION:{{ event.location }}
-END:VEVENT 
+END:VEVENT
 {% endfor %}END:VCALENDAR
