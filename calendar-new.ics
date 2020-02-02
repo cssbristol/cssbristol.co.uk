@@ -5,7 +5,7 @@ permalink: /calendar-new.ics
 
 BEGIN:VCALENDAR
 VERSION:2.0
-
+PRODID:-//hacksw/handcal//NONSGML v1.0//EN
 {% for event in site.events %}
 BEGIN:VEVENT
 UID:https://cssbristol.co.uk{{ event.url }}
