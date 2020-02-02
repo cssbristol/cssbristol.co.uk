@@ -11,6 +11,9 @@ ticket_link:
 price: Free
 category:
     - Social
+cohost:
+    - CSS
+    - Matrix
 ---
 
 Join us to watch Home Alone in Queens 1.15 (Small lecture theater).
