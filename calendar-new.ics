@@ -4,6 +4,7 @@ permalink: /calendar-new.ics
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
+NAME:CSS Bristol Events
 LAST-MODIFIED:{{ site.date | date: "%Y%m%dT%H%M00Z" }}
 URL:https://www.cssbristol.co.uk/events
 REFRESH-INTERVAL;VALUE=6H
