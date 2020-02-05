@@ -2,17 +2,10 @@
   <meta charset=utf-8>
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="og:type" property="og:type" content="website">
-  <meta name="og:title" property="og:title" content="{{ site.title }}">
-  <meta name="og:description" property="og:description" content="{{ site.description }}">
-  <meta name="og:image" property="og:image" content="/assets/images/core/og-image.png" />
-  <meta name="og:url" property="og:url" content="https://cssbristol.github.io">
-  {% include favicon-links.html %}
-  <meta name="twitter:card" content="/assets/images/core/og-image.png">
-  <meta name="twitter:site" content="@cssbristol">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ {% include favicon-links.html %}
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  {% include social_meta.html %}
   <title>{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
