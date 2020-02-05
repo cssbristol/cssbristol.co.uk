@@ -1,11 +1,11 @@
 <meta name="og:type" property="og:type" content="website">
-<meta name="og:title" property="og:title" content="{{ site.title }}">
-<meta name="og:description" property="og:description" content="{{ site.description }}">
-<meta name="og:image" property="og:image" content="/assets/images/core/og-image.png" />
-<meta name="og:url" property="og:url" content="https://cssbristol.github.io">
+<meta name="og:title" property="og:title" content="{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}">
+<meta name="og:description" property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:50 | strip | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
+<meta name="og:image" property="og:image" content="{% if page.banner %}/assets/images/contrib/events/{{ page.banner }}{% else %}/assets/images/core/og-image.png{% endif %}" />
+<meta name="og:url" property="og:url" content="https://cssbristol.co.uk">
 
-<meta name="twitter:title" content="{{ site.title }}">
-<meta name="twitter:description" content="{{site.description }}">
-<meta name="twitter:card" content="/assets/images/core/og-image.png">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}">
+<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:50 | strip | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:card" content="{% if page.banner %}/assets/images/contrib/events/{{ page.banner }}{% else %}/assets/images/core/og-image.png{% endif %}">
 <meta name="twitter:site" content="@cssbristol">
  
