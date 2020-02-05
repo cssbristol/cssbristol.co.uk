@@ -18,7 +18,7 @@ hero:
 <div class="page-section">
   <h1>Coming up</h1>
   <div class="featured-items">
-  {% assign latest = (site.events | where_exp: "event", "event.date >= site.time") %}
+  {% assign latest = (site.events | where_exp: "event", "event.date_end >= site.time") %}
     {% for event in latest limit:4 %}
       <a class="featured-item" href="{{ event.url }}">
         <div>
