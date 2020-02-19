@@ -19,6 +19,8 @@ Perhaps you're looking for a [previous committee member](/pages/halloffame)?
 
 {% include committee.html data-file=site.data.committee-2019-20 %}
 
+{% comment %}
 # Course Reps 2018-19
 
 {% include reps.html data-file=site.data.reps-2018-19 %}
+{% comment %}
