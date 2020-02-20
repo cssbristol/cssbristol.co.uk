@@ -9,11 +9,11 @@ redirect_from: "/partnerwithus"
 
 Whether you're interested in running an event or looking to begin a longer collaboration, we're always happy to hear from potential partners.
 
-* [Our sponsorship packages, 2018-19](/assets/files/CSS_Sponsorship_Leaflet-2018.pdf)
-* [Our sponsorship packages, 2018-19 (Bath and Bristol)](/assets/files/CSS_Sponsorship_Leaflet_Discount-2018.pdf)
+* [Our sponsorship packages, 2019-20](/assets/files/Sponsorship_leaflet_2020.pdf)
+* [Our sponsorship packages, 2019-20 (Bath and Bristol)](/assets/files/Sponsorship_leaflet_2020_disc.pdf)
 * [Contact us about sponsorship](mailto:vice-president@cssbristol.co.uk)
 
-<iframe src = "/ViewerJS/#../assets/files/CSS_Sponsorship_Leaflet-2018.pdf" width='100%' height='600' allowfullscreen webkitallowfullscreen></iframe>
+<iframe src = "/ViewerJS/#../assets/files/Sponsorship_leaflet_2020.pdf" width='100%' height='600' allowfullscreen webkitallowfullscreen></iframe>
 
 ## Tech Talk Top Tips
 
