@@ -20,6 +20,7 @@ $blue:            #3498db;
 $orange:          #ea5d00;
 $turquoise:       #1abc9c;
 $yellow:          #f39c12; 
+$darkgray:        #333333;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -43,6 +44,7 @@ $yellow:          #f39c12;
         "sections",
         "articles",
         "blog-posts",
+        "events",
         "job-posts",
         "components",
         "home",

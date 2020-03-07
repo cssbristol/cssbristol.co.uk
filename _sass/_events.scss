@@ -1,0 +1,57 @@
+.event-card-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+
+  &__card {
+    margin: 0px 12.5px 25px 12.5px;
+    padding: 10px 15px;
+    width: 250px;
+    box-shadow: 5px 5px 10px $darkgray; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    &__banner {
+      width: auto;
+      /* Set height to be aspect ratio of 16:9 */
+      padding-top: 56.25%;
+      margin: -10px -15px 10px -15px;
+      border-radius: 10px 10px 0px 0px;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+    &__info {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: space-between;
+       
+    }
+
+    &__more{
+      margin-top: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 10px; 
+    }
+
+    p {
+      margin: unset;
+    }
+
+    h3 {
+      margin: unset;
+    }
+  }
+}
