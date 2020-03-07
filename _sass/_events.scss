@@ -48,7 +48,6 @@
     }
 
     &__more{
-      margin-top: auto;
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
@@ -63,6 +62,7 @@
 
     h3 {
       margin: unset;
+      margin-bottom: auto;
     }
   }
 }
