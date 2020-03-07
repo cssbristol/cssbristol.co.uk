@@ -18,11 +18,13 @@ show-in-nav: true
         <h3>{{ event.title }}</h3>
         {% if event.date %}
           <div class="event-card-list__card__info">
+            <i class="fas fa-calendar-day"></i>
             <p><strong>{{ event.date | date: "%d/%m/%y" }}</strong></p>
           </div>
         {% endif %}
         {% if event.location %}
           <div class="event-card-list__card__info">
+            <i class="fas fa-map-marker"></i>
             <p>{{ event.location }}</p>
           </div>
         {% endif %}

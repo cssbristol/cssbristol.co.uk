@@ -33,7 +33,18 @@
       flex-wrap: nowrap;
       align-items: center;
       justify-content: space-between;
-       
+      margin-bottom: 0.5rem;
+      
+      .fas {
+        font-size: 1.5rem;
+        color: $darkgray;
+        width: 1.5rem;
+        text-align: center;
+      }  
+
+      p {
+        line-height: 1.5rem;
+      }
     }
 
     &__more{
