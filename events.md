@@ -35,7 +35,7 @@ show-in-nav: true
 
         <div class="event-card-list__card__more">
           <p>More info</p>
-          <a href="{{ event.url }}"><i class="fas fa-chevron-right"></i></a>
+          <a class="event-card-list__card__more__btn" href="{{ event.url }}"><i class="fas fa-chevron-right"></i></a>
         </div>
       </div>
     {% endfor %}

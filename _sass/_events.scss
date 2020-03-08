@@ -47,13 +47,30 @@
       }
     }
 
-    &__more{
+    &__more {
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
       align-items: center;
       justify-content: space-between;
       padding-top: 10px; 
+
+      &__btn {
+        all: unset !important;
+        font-size: 1.5rem !important;
+        width: 2.5rem !important;
+        height: 2.5rem !important;
+        border-radius: 2.5rem !important;
+        line-height: 2.5rem !important;
+        text-decoration: none !important;
+        color: $white !important;
+        background-color: $salmon !important;
+        text-align: center !important;
+      }
+
+      &__btn:hover {
+        background-color: $salmon-light !important;
+      }
     }
 
     p {
