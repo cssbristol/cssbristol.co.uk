@@ -21,6 +21,10 @@ show-in-nav: true
             <i class="fas fa-calendar-day"></i>
             <p><strong>{{ event.date | date: "%d/%m/%y" }}</strong></p>
           </div>
+          <div class="event-card-list__card__info">
+            <i class="fas fa-clock"></i>
+            <p><strong>{{ event.date | date: "%H:%M" }}</strong></p>
+          </div>
         {% endif %}
         {% if event.location %}
           <div class="event-card-list__card__info">
