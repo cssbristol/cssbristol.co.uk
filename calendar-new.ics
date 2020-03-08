@@ -15,7 +15,8 @@ DTSTAMP:{{ event.date |  date: "%Y%m%dT%H%M00Z" }}
 DTSTART:{{ event.date | date: "%Y%m%dT%H%M00Z" }}
 DTEND:{{ event.date_end | date: "%Y%m%dT%H%M00Z" }}
 URL:https://www.cssbristol.co.uk{{ event.url }}
-IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/images/contrib/events/{{ event.banner }}
+IMAGE;VALUE=URI:
+ https://www.cssbristol.co.uk/assets/images/contrib/events/{{ event.banner }}
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:{{ event.title }}
 DESCRIPTION:{{ event.excerpt | strip_html | truncate:50 | strip | strip_newlines }}
