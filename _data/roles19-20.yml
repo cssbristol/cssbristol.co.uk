@@ -30,7 +30,7 @@
 - role: Technical Events
   desc:
     - organises the CSS event calendar
-    - helps organise and run technical events
+    - organises and runs technical events - Bris hack, CTFs, etc.
 - role: Webmaster
   desc:
     - keeps the CSS website updated
@@ -46,10 +46,11 @@
     - responsible for wellbeing
     - ensures we are inclusive of all groups
     - organises events with and assists other societies
-- role: Company Liason
+- role: Company Liaison
   desc:
     - communicates with companies
-    - ensures good company relations
+    - helps VP with sponsorship
+    - helps organise company lead tech talks
 - role: General
   desc:
     - helps out wherever needed
