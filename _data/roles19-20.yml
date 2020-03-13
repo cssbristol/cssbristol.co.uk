@@ -7,7 +7,7 @@
 - role: Vice-President
   desc:
     - helps out the President with the above tasks
-    - responsible for talking to companies and organising sponsorship
+    - talks to companies and organising sponsorship
 - role: Treasurer
   desc:
     - controls and tracks spending
@@ -27,13 +27,13 @@
   desc:
     - represents CSS in outreach activities
     - manages social media accounts
-- role: Events
+- role: Technical Events
   desc:
     - organises the CSS event calendar
     - helps organise and run technical events
 - role: Webmaster
   desc:
-    - keps the CSS website updated
+    - keeps the CSS website updated
     - manages logins and useful tools
     - ensures we store personal data securely
 - role: Press
@@ -46,6 +46,10 @@
     - responsible for wellbeing
     - ensures we are inclusive of all groups
     - organises events with and assists other societies
+- role: Company Liason
+  desc:
+    - communicates with companies
+    - ensures good company relations
 - role: General
   desc:
     - helps out wherever needed
