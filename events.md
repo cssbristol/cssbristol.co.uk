@@ -9,34 +9,36 @@ show-in-nav: true
 
 -----------
 <div class="page-section">
-  <div class="event-card-list">
+  <div class="event-grid card-grid">
     {% assign upcoming = site.events | where_exp: "event", "event.date_end >= site.time" %}
     {% for event in upcoming %}
-      <div class="event-card-list__card">
+      <div class="card-grid__card">
         {% if event.banner %}
-          <div class="event-card-list__card__banner" style="background-image: url(/assets/images/contrib/events/{{ event.banner }});"></div>
+          <div class="card-grid__card__banner" style="background-image: url(/assets/images/contrib/events/{{ event.banner }});"></div>
         {% endif %}
         <h3>{{ event.title }}</h3>
         {% if event.date %}
-          <div class="event-card-list__card__info">
+          <div class="card-grid__card__row">
             <i class="fas fa-calendar-day"></i>
             <p><strong>{{ event.date | date: "%d/%m/%y" }}</strong></p>
           </div>
-          <div class="event-card-list__card__info">
+          <div class="card-grid__card__row">
             <i class="fas fa-clock"></i>
             <p><strong>{{ event.date | date: "%H:%M" }}</strong></p>
           </div>
         {% endif %}
         {% if event.location %}
-          <div class="event-card-list__card__info">
+          <div class="card-grid__card__row">
             <i class="fas fa-map-marker"></i>
             <p>{{ event.location }}</p>
           </div>
         {% endif %}
 
-        <div class="event-card-list__card__more">
+        <div class="card-grid__card__footer">
           <p>More info</p>
-          <a class="event-card-list__card__more__btn" href="{{ event.url }}"><i class="fas fa-chevron-right"></i></a>
+          <a class="card-grid__card__footer__next-btn" href="{{ event.url }}">
+            <i class="fas fa-chevron-right"></i>
+          </a>
         </div>
       </div>
     {% endfor %}
@@ -46,34 +48,36 @@ show-in-nav: true
 # Past Events
 ---
 <div class="page-section">
-  <div class="event-card-list">
+  <div class="event-grid card-grid">
     {% assign past = site.events | where_exp: "event", "event.date_end < site.time" %}
     {% for event in past reversed %}
-      <div class="event-card-list__card">
+      <div class="card-grid__card">
         {% if event.banner %}
-          <div class="event-card-list__card__banner" style="background-image: url(/assets/images/contrib/events/{{ event.banner }});"></div>
+          <div class="card-grid__card__banner" style="background-image: url(/assets/images/contrib/events/{{ event.banner }});"></div>
         {% endif %}
         <h3>{{ event.title }}</h3>
         {% if event.date %}
-          <div class="event-card-list__card__info">
+          <div class="card-grid__card__row">
             <i class="fas fa-calendar-day"></i>
             <p><strong>{{ event.date | date: "%d/%m/%y" }}</strong></p>
           </div>
-          <div class="event-card-list__card__info">
+          <div class="card-grid__card__row">
             <i class="fas fa-clock"></i>
             <p><strong>{{ event.date | date: "%H:%M" }}</strong></p>
           </div>
         {% endif %}
         {% if event.location %}
-          <div class="event-card-list__card__info">
+          <div class="card-grid__card__row">
             <i class="fas fa-map-marker"></i>
             <p>{{ event.location }}</p>
           </div>
         {% endif %}
 
-        <div class="event-card-list__card__more">
+        <div class="card-grid__card__footer">
           <p>More info</p>
-          <a class="event-card-list__card__more__btn" href="{{ event.url }}"><i class="fas fa-chevron-right"></i></a>
+          <a class="card-grid__card__footer__next-btn" href="{{ event.url }}">
+            <i class="fas fa-chevron-right"></i>
+          </a>
         </div>
       </div>
     {% endfor %}

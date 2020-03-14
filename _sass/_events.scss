@@ -1,86 +1,18 @@
-.event-card-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
+.event-grid {
+  .card-grid__card h3 {
+    margin: auto 0;
+  }
 
-  &__card {
-    margin: 0px 12.5px 25px 12.5px;
-    padding: 10px 15px;
-    width: 250px;
-    box-shadow: 5px 5px 10px $darkgray; 
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
+  .card-grid__card__footer {
+    margin-top: 0 !important;
+  }
 
-    &__banner {
-      width: auto;
-      /* Set height to be aspect ratio of 16:9 */
-      padding-top: 56.25%;
-      margin: -10px -15px 10px -15px;
-      border-radius: 10px 10px 0px 0px;
-      background: no-repeat center center scroll;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    }
+  /* Add margin to the top of the first row */
+  .card-grid__card > .card-grid__card__row {
+    margin-top: 0.75rem;
+  }
 
-    &__info {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 0.5rem;
-      
-      .fas {
-        font-size: 1.5rem;
-        color: $darkgray;
-        width: 1.5rem;
-        text-align: center;
-      }  
-
-      p {
-        line-height: 1.5rem;
-      }
-    }
-
-    &__more {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      align-items: center;
-      justify-content: space-between;
-      padding-top: 10px; 
-
-      &__btn {
-        all: unset !important;
-        font-size: 1.5rem !important;
-        width: 2.5rem !important;
-        height: 2.5rem !important;
-        border-radius: 2.5rem !important;
-        line-height: 2.5rem !important;
-        text-decoration: none !important;
-        color: $white !important;
-        background-color: $salmon !important;
-        text-align: center !important;
-      }
-
-      &__btn:hover {
-        background-color: $salmon-light !important;
-      }
-    }
-
-    p {
-      margin: unset;
-    }
-
-    h3 {
-      margin: unset;
-      margin-bottom: auto;
-      text-align: center;
-    }
+  .card-grid__card > .card-grid__card__row ~ .card-grid__card__row {
+    margin-top: 0rem;
   }
 }
