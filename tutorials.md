@@ -5,6 +5,9 @@ permalink: /tutorials/
 show-in-nav: true
 ---
 
+# Tutorials
+---
+
 <div class="page-section">
   <div class="tutorials-grid card-grid">
     {% for tutorial in site.tutorials %}
