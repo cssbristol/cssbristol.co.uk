@@ -1,8 +1,10 @@
 ---
 layout: tutorial
+published: true
 title: "Introduction to Git"
 date: 2019-08-29 10:00:00 +0100
 author: "David Bernhard"
+abstract: "Git is a way to store, back up and organise your code. It is one of those things that you wish you'd been taught in your first term if you discover it later on"
 ---
 
 Git is a way to store, back up and organise your code. It is one of those things that you wish you'd been taught in your first term if you discover it later on.

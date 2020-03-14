@@ -1,8 +1,10 @@
 ---
 layout: tutorial
+published: true
 title:  "University IT"
 date:   2016-05-21 23:41:00 +0100
 author: "Ross Gardiner"
+abstract: "IT Services hosts a huge range of systems, many of which are well kept secrets! We'll have a look at some of them in this article."
 ---
 IT Services hosts a huge range of systems, many of which are well kept secrets! We'll have a look at some of them in this article.
 
