@@ -97,7 +97,7 @@ To copy from the university to your computer do:
 scp snowy:source target
 ```
 
-If you with to copy a folder add the recursive flag `-r`
+If you wish to copy a folder add the recursive flag `-r`
 
 ## Working remote with GUIs
 If you're using the configuration file above then X window forwarding is enabled for any lab machine.
