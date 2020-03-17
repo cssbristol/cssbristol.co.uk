@@ -95,19 +95,19 @@ You don't need to configure Fork separately for this - Fork calls Git behind the
 
 You are writing some code, and you have some files:
 
-![some files](../git-assets/files.png)
+![some files](/assets/images/contrib/tutorials/git-assets/files.png)
 
 The code you're currently working on is called your **working copy** in git-speak.
 
 I will indicate the working copy with a folder symbol like this from now on:
 
-![folder](../git-assets/folder.png)
+![folder](/assets/images/contrib/tutorials/git-assets/folder.png)
 
 _This image and others in this tutorial are taken from the gnome-colors-common icon set which is released under the GNU LGPL version 2._
 
 A repository is a database with the complete history of your code. I represent it with this symbol:
 
-![repository](../git-assets/repository.png)
+![repository](/assets/images/contrib/tutorials/git-assets/repository.png)
 
 You work on your working copy with whatever tools you like, but you only talk to the repository through Git (and Fork, if you're using it).
 
@@ -117,7 +117,7 @@ Instead of copying the files to a USB stick to take them home, you make a commit
 
 The basic workflow is this: write or edit some code, commit to the repository, repeat. Your repository, or at least mine for the CNuT notes and exercises, then looks like this:
 
-![some commits](../git-assets/commits.png)
+![some commits](/assets/images/contrib/tutorials/git-assets/commits.png)
 
 Each dot is a single commit, with the newest one on top. Git does not of course store a copy of your whole project for each commit; instead it only records the changes since the last commit so it doesn't waste space.
 
@@ -125,7 +125,7 @@ Sometimes you want to copy code from the repository back to your working copy, f
 
 Summary so far:
 
-![commit and checkout](../git-assets/commit-checkout.png)
+![commit and checkout](/assets/images/contrib/tutorials/git-assets/commit-checkout.png)
 
 ## Practice: make a repository and a commit
 
@@ -139,7 +139,7 @@ Normally it's quickest to create an empty repository on an online service and th
 You have now got a working copy and a local copy of the repository in a folder on your disk (press the "curly arrow" `Open in` buttin in Fork's toolbar to open the folder).
 Your repository, which actually lives in a folder called `.git` inside the working copy folder, currently has one commit called `initial commit` with the readme file.
 
-![a new repository](../git-assets/fork-clone.png)
+![a new repository](/assets/images/contrib/tutorials/git-assets/fork-clone.png)
 
 At the top you have the menu and toolbar. `Repository / Open in Explorer`, the shortcut `Ctrl+Alt+O` or, if you make the window wider, the "curly arrow" that appears in the toolbar opens a folder window for your working copy. Below the toolbar is the tab bar, with one tab per working copy - I currently have five tabs open.
 
@@ -159,7 +159,7 @@ Let's make a commit:
 
 Fork now shows `Changes (1)` in the left bar to show that something has changed in the working copy. Click on that to see the change:
 
-![a changed file](../git-assets/fork-stage.png)
+![a changed file](/assets/images/contrib/tutorials/git-assets/fork-stage.png)
 
 Under `Unstaged Changes` you see all the files that have changed since your last commit. Selecting one of these files shows you the file on the right, with lines that you added in green and lines that you deleted in red.
 
@@ -167,7 +167,7 @@ Under `Unstaged Changes` you see all the files that have changed since your last
   - In the bottom right corner is a button that now reads `Commit 1 File`, but it is currently turned off because a commit must have a message describing it. Enter a message in the box labelled `Enter commit subject` immediately above, then press the button.
   - Click on the `All Commits` item in the list on the left to see your first successful commit:
 
-![a committed file](../git-assets/fork-commit.png)
+![a committed file](/assets/images/contrib/tutorials/git-assets/fork-commit.png)
 
 When you select a commit in the list, the bottom part of the window tells you the commit details. Each commit has a unique hash - a long random number that you need in some cases to identify a particular commit (if you're using the command line). Below that you see the commit message ("Added text to readme" in my case) and the file(s) affected in this commit.
 If you click on the triangle next to a file in the commit screen, it expands to show you the changes in this commit. This feature is useful for browsing the history of your code to see what line(s) relate to what commits.
@@ -190,7 +190,7 @@ Try and make commits
 
 Here's the example from my CNuT lecture notes again (which you'll be able to look at in more detail in a moment):
 
-![some commits](../git-assets/commits.png)
+![some commits](/assets/images/contrib/tutorials/git-assets/commits.png)
 
 This can be really useful later on to search for "how did I do that again?". Imagine you at some point add a "reset" button to a form on a web application you're making, then later on you have another form where you also need a reset button. If you can search for commits with the word "reset" in the description (with the magnifying glass icon to the very right of the toolbar) and find the last time you did this, then you can quickly apply the same technique to the new form you're making.
 
@@ -202,7 +202,7 @@ When you make a commit, you copy files from the working copy to the local reposi
 
 To work with the remote repository, we need to introduce to new terms:
 
-![push and fetch](../git-assets/remotes-with-pull.png)
+![push and fetch](/assets/images/contrib/tutorials/git-assets/remotes-with-pull.png)
 
   - Copying from the local repository to a remote repository is called a **push**.
   - Copying from the remote repository to the local one is called a **fetch**.
@@ -221,7 +221,7 @@ As long as you always fetch before you start working and commit+push before you 
 
 If you've followed the tutorial so far your window will have a part like this:
 
-![one commit to push](../git-assets/fetched.png)
+![one commit to push](/assets/images/contrib/tutorials/git-assets/fetched.png)
 
 Under `Branches`, you currently have one default branch called `master` which you can interpret as "the latest commit". You can see on the right that the `master` tag is on the latest commit.
 Under `Remotes`, you can see one entry with the default name `origin` - this is the repository on gitlab. On the right, you can see that the `origin/master` tag is still on the initial commit: the remote is one commit behind the local repository. This is also shown after the master branch entry with the one followed by an arrow pointing up (pronounced: "1 up"). If you saw for example "3 down" it would mean that the remote is 3 commits ahead, and if you see both for example "1 up 2 down" then it means that you have made commits to the local repository and someone else has meanwhile made commits to the remote one, a situation that we'll deal with later on.
@@ -265,7 +265,7 @@ hint: not have locally...
 
 The first rule of "multiplayer Git" is that you can only push if no-one else has changed the repository since your last fetch. If you get this error, do a fetch instead:
 
-![conflict on different files](../git-assets/conflict1.png)
+![conflict on different files](/assets/images/contrib/tutorials/git-assets/conflict1.png)
 
 The timeline has split into two: after "updated README", someone else made a commit "File A" and you made a commit "File B". (The list on the left will show `1 up, 1 down` to indicate this situation too.)
 
@@ -278,7 +278,7 @@ I should warn you that some people on the internet have strong opinions about th
 
 What **rebase** does is pretend that you'd done a fetch before making your changes, so the repository after the push looks like this:
 
-![after rebase and push](../git-assets/after-rebase.png)
+![after rebase and push](/assets/images/contrib/tutorials/git-assets/after-rebase.png)
 
 Everything's fine again.
 
@@ -308,13 +308,13 @@ This means that you, person two in this case (HEAD), added the line `edited by p
 
 Fix the file, remove Git's markers and go back to Fork. You get this warning:
 
-![merge warning](../git-assets/merge-warning.png)
+![merge warning](/assets/images/contrib/tutorials/git-assets/merge-warning.png)
 
 If you're happy that you've fixed the conflict, `Resolve` takes you to the commit window, where you can stage your changes and commit (Git has created a default commit message for you, which you can edit if you like). `Abort` gets you back to before you tried to push.
 
 Your timeline now looks like this:
 
-![timeline after merge](../git-assets/merge.png)
+![timeline after merge](/assets/images/contrib/tutorials/git-assets/merge.png)
 
 You can now try and push again, and if no-one else has changed anything in the meantime, the push will go through and the green tags will move to the top commit.
 
@@ -360,7 +360,7 @@ For team projects, I recommend the following workflow:
 
 A reminder of the Git commands we've learnt so far:
 
-![git commands](../git-assets/remotes-with-pull.png)
+![git commands](/assets/images/contrib/tutorials/git-assets/remotes-with-pull.png)
 
 ## Tags
 
@@ -376,7 +376,7 @@ You can create your own tags, and Git won't mess with them. For example, if you 
 
 When you create a tag, it lives in your local repository. Tick the `Push all tags` box next time you push changes to copy it to the remote; a fetch will automatically fetch tags. (The reason for this convention is that on a group project, an individual member might want a "private" tag on their local repository that others can't see, but tags that end up in the remote are assumed to apply to everyone.)
 
-![tags](../git-assets/tag.png)
+![tags](/assets/images/contrib/tutorials/git-assets/tag.png)
 
 In this image, the `HEAD` commit of the local repository is the one in bold (at the top), `master` is a local tag, `0.1` is a user-defined tag and the tags `origin/HEAD` and `origin/master` are from the remote repository called `origin`.
 
@@ -402,7 +402,7 @@ Branches let you work on different versions of your code at once without conflic
 
 Instead, Danny can create a new branch called "design" and work on that, meanwhile Charlie creates a branch called "server" and works on that. After a few commits, the repositories look like this:
 
-![branches](../git-assets/branches.png)
+![branches](/assets/images/contrib/tutorials/git-assets/branches.png)
 
 In Danny's view, `design` is the current branch (pink dot, latest commit (HEAD) in bold). Danny has made three commits on this branch, meanwhile Charlie has been wokring on the server branch and made a few commits there. The order of commits in the list is by date (latest on top) and commits on other branches than the current are shown in gray text. Charlie's view of the repository is the same, but she's currently on the `server` branch so the HEAD pointer on her local copy of the repository is on the "server now works" commit.
 
@@ -421,7 +421,7 @@ Danny and Charlie have decided to do their own work on branches called `design` 
 
 Charlie does the same, and so the commit graph looks like this:
 
-![merged branches](../git-assets/merged-branches.png)
+![merged branches](/assets/images/contrib/tutorials/git-assets/merged-branches.png)
 
 This is Danny's view on the design branch. The three branch tags are all on the same commit as the respective "origin" tags, showing that all local changes have been copied to the server. (To see if there are new changes on the server, Danny would do a fetch.)
 
@@ -478,6 +478,6 @@ The Git reference manual is written in a style that's not everyone's cup of tea,
 
 And finally, a bit of programmer humour:
 
-![in case of fire](../git-assets/fire.jpg)
+![in case of fire](/assets/images/contrib/tutorials/git-assets/fire.jpg)
 
 (Copied from http://abload.de/img/in_case_of_fireirrtb.jpg. This should be obvious, but as a fire warden I feel the need to point out that in case of a real fire alarm you must leave the building immediately by the nearest emergency exit.)
