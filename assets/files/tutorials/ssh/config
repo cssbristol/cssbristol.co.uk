@@ -1,0 +1,2783 @@
+#####################################
+#      UNIVERSITY LAB MACHINES      #
+#####################################
+# See http://www.bristol.ac.uk/it-services/locations/zones/zonee/cosc/remote-access
+
+Host snowy
+    Hostname snowy.cs.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 no
+    ForwardX11Trusted no
+    IdentityFile KEYFILE
+
+Host icy
+    Hostname icy.cs.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 no
+    ForwardX11Trusted no
+    IdentityFile KEYFILE
+
+# To use only for Cadence tools
+Host frosty
+    Hostname frosty.fen.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 no
+    ForwardX11Trusted no
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab1
+    Hostname it075638.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab2
+    Hostname it075639.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab3
+    Hostname it075640.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab4
+    Hostname it075641.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab5
+    Hostname it075642.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab6
+    Hostname it075643.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab7
+    Hostname it075644.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab8
+    Hostname it075645.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab9
+    Hostname it075646.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab10
+    Hostname it075647.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab11
+    Hostname it075648.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab12
+    Hostname it075649.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab13
+    Hostname it075650.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab14
+    Hostname it075651.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab15
+    Hostname it075652.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab16
+    Hostname it075653.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab17
+    Hostname it075654.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab18
+    Hostname it075655.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab19
+    Hostname it075656.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab20
+    Hostname it075657.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab21
+    Hostname it075658.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab22
+    Hostname it075659.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab23
+    Hostname it075660.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab24
+    Hostname it075661.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab25
+    Hostname it075662.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab26
+    Hostname it075663.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab27
+    Hostname it075664.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab28
+    Hostname it075665.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab29
+    Hostname it075666.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab30
+    Hostname it075667.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab31
+    Hostname it075668.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab32
+    Hostname it075669.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab33
+    Hostname it075670.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab34
+    Hostname it075671.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab35
+    Hostname it075672.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab36
+    Hostname it075673.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab37
+    Hostname it075674.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab38
+    Hostname it075675.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab39
+    Hostname it075676.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab40
+    Hostname it075677.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab41
+    Hostname it075678.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab42
+    Hostname it075679.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab43
+    Hostname it075680.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab44
+    Hostname it075681.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab45
+    Hostname it075682.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab46
+    Hostname it075683.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab47
+    Hostname it075684.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab48
+    Hostname it075685.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab49
+    Hostname it075686.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab50
+    Hostname it075687.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab51
+    Hostname it075688.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab52
+    Hostname it075689.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab53
+    Hostname it075690.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab54
+    Hostname it075691.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab55
+    Hostname it075692.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab56
+    Hostname it075693.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab57
+    Hostname it075694.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab58
+    Hostname it075695.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab59
+    Hostname it075696.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab60
+    Hostname it075697.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab61
+    Hostname it075698.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab62
+    Hostname it075699.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab63
+    Hostname it075700.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab64
+    Hostname it075701.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab65
+    Hostname it075702.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab66
+    Hostname it075703.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab67
+    Hostname it075704.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab68
+    Hostname it075705.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab69
+    Hostname it075706.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab70
+    Hostname it075707.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab71
+    Hostname it075708.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab72
+    Hostname it075709.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab73
+    Hostname it075710.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab74
+    Hostname it075711.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab75
+    Hostname it075712.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab76
+    Hostname it075713.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab77
+    Hostname it075714.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab78
+    Hostname it075715.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab79
+    Hostname it075716.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab80
+    Hostname it075717.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab81
+    Hostname it075718.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab82
+    Hostname it075719.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab83
+    Hostname it075720.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab84
+    Hostname it075721.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab85
+    Hostname it075722.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab86
+    Hostname it075723.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab87
+    Hostname it075724.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab88
+    Hostname it075725.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab89
+    Hostname it075726.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab90
+    Hostname it075727.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab91
+    Hostname it075728.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab92
+    Hostname it075729.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab93
+    Hostname it075730.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab94
+    Hostname it075731.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab95
+    Hostname it075732.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab96
+    Hostname it075733.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab97
+    Hostname it075734.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab98
+    Hostname it075735.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab99
+    Hostname it075736.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab100
+    Hostname it075737.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab101
+    Hostname it075738.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab102
+    Hostname it075739.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab103
+    Hostname it075740.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab104
+    Hostname it075741.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab105
+    Hostname it075742.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab106
+    Hostname it075743.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab107
+    Hostname it075744.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab108
+    Hostname it075745.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab109
+    Hostname it075746.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab110
+    Hostname it075747.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab111
+    Hostname it075748.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab112
+    Hostname it075749.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab113
+    Hostname it075750.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab114
+    Hostname it075751.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab115
+    Hostname it075752.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab116
+    Hostname it075753.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab117
+    Hostname it075754.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab118
+    Hostname it075755.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab119
+    Hostname it075756.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab120
+    Hostname it075757.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab121
+    Hostname it075758.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab122
+    Hostname it075759.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab123
+    Hostname it075760.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab124
+    Hostname it075761.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab125
+    Hostname it075762.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab126
+    Hostname it075763.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab127
+    Hostname it075764.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab128
+    Hostname it075765.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab129
+    Hostname it075766.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab130
+    Hostname it075767.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab131
+    Hostname it075768.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab132
+    Hostname it075769.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab133
+    Hostname it075770.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab134
+    Hostname it075771.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab135
+    Hostname it075772.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab136
+    Hostname it075773.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab137
+    Hostname it075774.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab138
+    Hostname it075775.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab139
+    Hostname it075776.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab140
+    Hostname it075777.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab141
+    Hostname it075778.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab142
+    Hostname it075779.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab143
+    Hostname it075780.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab144
+    Hostname it075781.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab145
+    Hostname it075782.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab146
+    Hostname it075783.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab147
+    Hostname it075784.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab148
+    Hostname it075785.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab149
+    Hostname it075786.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab150
+    Hostname it075787.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab151
+    Hostname it075788.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab152
+    Hostname it075789.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab153
+    Hostname it075790.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab154
+    Hostname it075791.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab155
+    Hostname it075792.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab156
+    Hostname it075793.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab157
+    Hostname it075794.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab158
+    Hostname it075795.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab159
+    Hostname it075796.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab160
+    Hostname it075797.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab161
+    Hostname it075798.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab162
+    Hostname it075799.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab163
+    Hostname it075800.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab164
+    Hostname it075801.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab165
+    Hostname it075802.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab166
+    Hostname it075803.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab167
+    Hostname it075804.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab168
+    Hostname it075805.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab169
+    Hostname it075806.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab170
+    Hostname it075807.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab171
+    Hostname it075808.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab172
+    Hostname it075809.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab173
+    Hostname it075810.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab174
+    Hostname it075811.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab175
+    Hostname it075812.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab176
+    Hostname it075813.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab177
+    Hostname it075814.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab178
+    Hostname it075815.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab179
+    Hostname it075816.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab180
+    Hostname it075817.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab181
+    Hostname it075818.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab182
+    Hostname it075819.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab183
+    Hostname it075820.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab184
+    Hostname it075821.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab185
+    Hostname it075822.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab186
+    Hostname it075823.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab187
+    Hostname it075824.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab188
+    Hostname it075825.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab189
+    Hostname it075826.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab190
+    Hostname it075827.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab191
+    Hostname it075828.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab192
+    Hostname it075829.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab193
+    Hostname it075830.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab194
+    Hostname it075831.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab195
+    Hostname it075832.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab196
+    Hostname it075833.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab197
+    Hostname it075834.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab198
+    Hostname it075835.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab199
+    Hostname it075836.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab200
+    Hostname it075837.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab201
+    Hostname it075838.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab202
+    Hostname it075839.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab203
+    Hostname it075840.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab204
+    Hostname it075841.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab205
+    Hostname it075842.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab206
+    Hostname it075843.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab207
+    Hostname it075844.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab208
+    Hostname it075845.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab209
+    Hostname it075846.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab210
+    Hostname it075847.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab211
+    Hostname it075848.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab212
+    Hostname it075849.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab213
+    Hostname it075850.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab214
+    Hostname it075851.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab215
+    Hostname it075852.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab216
+    Hostname it075853.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab217
+    Hostname it075854.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab218
+    Hostname it075855.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab219
+    Hostname it075856.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab220
+    Hostname it075857.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab221
+    Hostname it075858.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab222
+    Hostname it075859.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab223
+    Hostname it075860.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab224
+    Hostname it075861.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab225
+    Hostname it075862.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab226
+    Hostname it075863.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab227
+    Hostname it075864.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab228
+    Hostname it075865.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab229
+    Hostname it075866.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab230
+    Hostname it075867.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab231
+    Hostname it075868.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab232
+    Hostname it075869.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab233
+    Hostname it075870.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab234
+    Hostname it075871.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab235
+    Hostname it075872.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab236
+    Hostname it075873.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab237
+    Hostname it075874.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab238
+    Hostname it075875.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab239
+    Hostname it075876.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab240
+    Hostname it075877.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab241
+    Hostname it075878.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab242
+    Hostname it075879.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab243
+    Hostname it075880.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab244
+    Hostname it075881.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab245
+    Hostname it075882.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab246
+    Hostname it075883.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab247
+    Hostname it075884.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab248
+    Hostname it075885.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab249
+    Hostname it075886.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab250
+    Hostname it075887.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab251
+    Hostname it075888.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab252
+    Hostname it075889.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab253
+    Hostname it075890.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab254
+    Hostname it075891.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab255
+    Hostname it075892.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab256
+    Hostname it075893.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab257
+    Hostname it075894.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab258
+    Hostname it075895.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab259
+    Hostname it075896.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab260
+    Hostname it075897.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab261
+    Hostname it075898.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab262
+    Hostname it075899.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab263
+    Hostname it075900.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab264
+    Hostname it075901.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab265
+    Hostname it075902.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab266
+    Hostname it075903.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab267
+    Hostname it075904.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab268
+    Hostname it075905.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab269
+    Hostname it075906.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab270
+    Hostname it075907.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab271
+    Hostname it075908.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab272
+    Hostname it075909.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab273
+    Hostname it075910.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab274
+    Hostname it075911.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
+Host lab275
+    Hostname it075912.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
