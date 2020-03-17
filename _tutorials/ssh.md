@@ -77,6 +77,16 @@ ssh lab175
 ```
 You can do this for each of lab machines or go to one of the aforementioned servers with `ssh <name>`
 
+### Checking logged in users
+When SSH-ing to a lab machine its important to be courteous to your peers and check that no one is using the machine before using it.
+
+To check who's logged onto a machine by running:
+```
+w
+```
+
+If someone is logged in (and it's not your own username) then please logout and use a different box.
+
 ## Mount your university files to your computer
 You can actually mount all your university home directory to your computer and then use any program on your PC to edit them.
 
