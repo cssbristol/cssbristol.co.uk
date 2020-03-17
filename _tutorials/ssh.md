@@ -12,7 +12,7 @@ These instructions are designed to work on the following systems:
 - MacOS
 - Linux subsystem for Windows
 
-They should, in theory, work on Windows using Powershell.
+They should, *in theory*, work on Windows using Powershell.
 
 ## Setting up
 We're going to set up a nice environment for us to SSH into each lab machine with relatively little head ache
