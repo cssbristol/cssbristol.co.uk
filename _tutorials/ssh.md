@@ -20,7 +20,7 @@ We're going to set up a nice environment for us to SSH into each lab machine wit
 To do this we:
 - Generate a SSH key pair
 - Upload the public key to the university systems
-- Set up a configuration file to make our lives easy
+- Set up a configuration file to make our lives easier
 
 ### Generate SSH key pair
 At the time of writing, only *RSA keys* are supported.
@@ -100,3 +100,11 @@ scp snowy:source target
 If you with to copy a folder add the recursive flag `-r`
 
 ## Working remote with GUIs
+If you're using the configuration file above then X window forwarding is enabled for any lab machine.
+Simply execute the graphical program and it'll be forwarded to your system.
+It's important to note that X forwarding is very slow so it is advisable to either work in the terminal or mount the uni file system.
+
+For example to view a pdf on the lab machine with:
+```
+xdg-open test.pdf
+```
