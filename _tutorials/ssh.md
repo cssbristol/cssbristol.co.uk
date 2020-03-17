@@ -12,7 +12,7 @@ These instructions are designed to work on the following systems:
 - MacOS
 - Linux subsystem for Windows
 
-They should, *in theory*, work on Windows using Powershell.
+For Widows users who do not wish to use Linux subsystem for Windows please see the old tutorial (SSH and Snowy)[https://cssbristol.co.uk/tutorials/ssh-into-snowy/]
 
 ## Setting up
 We're going to set up a nice environment for us to SSH into each lab machine with relatively little head ache
