@@ -69,7 +69,7 @@ Now that you've set the above configuration you can SSH into many machines which
 - snowy  (SSH jump server)
 - icy    (staff SSH jump server)
 - frosty (server for running Cadence tools)
-- lab1 to lab275
+- lab0 to lab275
 
 To work on a lab 175 run the following command:
 ```

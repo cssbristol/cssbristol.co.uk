@@ -32,6 +32,16 @@ Host frosty
     IdentityFile KEYFILE
     ProxyJump snowy
 
+Host lab0
+    Hostname it075637.wks.bris.ac.uk
+    Port 22
+    User USERNAME
+    ForwardAgent yes
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile KEYFILE
+    ProxyJump snowy
+
 Host lab1
     Hostname it075638.wks.bris.ac.uk
     Port 22
