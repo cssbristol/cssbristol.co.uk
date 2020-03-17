@@ -46,7 +46,7 @@ To do this run the following command but replacing username with your Bristol us
 
 You'll be asked for your password which is the password used to log into the lab machines
 ```
-ssh-copy-id -f $HOME/.ssh/lab-machines username@snowy.cs.bris.ac.uk
+ssh-copy-id -i $HOME/.ssh/lab-machines username@snowy.cs.bris.ac.uk
 ```
 
 ### Set up a nice configuration
