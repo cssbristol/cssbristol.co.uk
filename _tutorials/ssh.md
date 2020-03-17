@@ -58,7 +58,7 @@ To make this easier, I've created a script to automatically append the 200+ mach
 
 This is done by running the following command:
 ```
-sh -c "$(curl -fsSL cssbristol.co.uk/assets/files/tutorials/ssh/setup.sh)"
+sh -c "$(curl -fsSL https://cssbristol.co.uk/assets/files/tutorials/ssh/setup.sh)"
 ```
 When asked for your username this is your university username e.g. ab12345
 

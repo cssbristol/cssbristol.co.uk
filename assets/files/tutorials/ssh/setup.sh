@@ -20,6 +20,6 @@ fi
 # Escape keyfile path for sed from https://stackoverflow.com/a/2705678
 keyfile=$(echo $keyfile | sed -e 's/[\/&]/\\&/g')
 
-curl -fsSL localhost:4000/assets/files/tutorials/ssh/config | sed s/USERNAME/$user/g | sed s/KEYFILE/$keyfile/g >> $HOME/.ssh/config
+curl -fsSL https://cssbristol.co.uk/assets/files/tutorials/ssh/config | sed s/USERNAME/$user/g | sed s/KEYFILE/$keyfile/g >> $HOME/.ssh/config
 
 echo "Appended lab machine configuration to ~/.ssh/config"
