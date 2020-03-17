@@ -52,7 +52,7 @@ ssh-copy-id -i $HOME/.ssh/lab-machines username@snowy.cs.bris.ac.uk
 ### Set up a nice configuration
 SSH allows us to create a configuration file which allows us to specify how to connect to each host.
 
-As well as this we can set alias such as lab1 to mean connect to i5075638.wks.bris.ac.uk
+As well as this we can set alias such as lab1 to mean connect to it075638.wks.bris.ac.uk
 
 To make this easier, I've created a script to automatically append the 200+ machines to your configuration
 
