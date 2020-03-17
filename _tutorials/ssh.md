@@ -118,3 +118,4 @@ For example to view a pdf on the lab machine with:
 ```
 xdg-open test.pdf
 ```
+Pro tip: `xdg-open` is the terminal equivalent of double clicking a file!
