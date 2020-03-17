@@ -10,7 +10,7 @@ show-in-nav: true
 
 <div class="page-section">
   <div class="tutorials-grid card-grid">
-    {% for tutorial in site.tutorials %}
+    {% for tutorial in site.tutorials reversed %}
       <div class="card-grid__card">
         <h3>{{ tutorial.title }}</h3>
         <p>{{ tutorial.abstract }}</p>
