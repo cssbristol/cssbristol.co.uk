@@ -3,6 +3,15 @@
     margin: auto 0;
   }
 
+  .card-grid__card.cancelled {
+    opacity: 0.4;
+    transition: opacity ease-in-out 0.275s;
+  }
+
+  .card-grid__card.cancelled:hover{
+    opacity: 1;
+  }
+
   .card-grid__card__footer {
     margin-top: 0 !important;
   }

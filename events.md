@@ -12,11 +12,11 @@ show-in-nav: true
   <div class="event-grid card-grid">
     {% assign upcoming = site.events | where_exp: "event", "event.date_end >= site.time" %}
     {% for event in upcoming %}
-      <div class="card-grid__card">
+      <div class="card-grid__card{% if event.cancelled %} cancelled {% endif %}">
         {% if event.banner %}
           <div class="card-grid__card__banner" style="background-image: url(/assets/images/contrib/events/{{ event.banner }});"></div>
         {% endif %}
-        <h3>{{ event.title }}</h3>
+        <h3>{% if event.cancelled %}[CANCELLED] {% endif %}{{ event.title }}</h3>
         {% if event.date %}
           <div class="card-grid__card__row">
             <i class="fas fa-calendar-day"></i>
@@ -51,11 +51,11 @@ show-in-nav: true
   <div class="event-grid card-grid">
     {% assign past = site.events | where_exp: "event", "event.date_end < site.time" %}
     {% for event in past reversed %}
-      <div class="card-grid__card">
+      <div class="card-grid__card{% if event.cancelled %} cancelled {% endif %}">
         {% if event.banner %}
           <div class="card-grid__card__banner" style="background-image: url(/assets/images/contrib/events/{{ event.banner }});"></div>
         {% endif %}
-        <h3>{{ event.title }}</h3>
+        <h3>{% if event.cancelled %}[CANCELLED] {% endif %}{{ event.title }}</h3>
         {% if event.date %}
           <div class="card-grid__card__row">
             <i class="fas fa-calendar-day"></i>
