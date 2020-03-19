@@ -68,10 +68,16 @@
         color: $white !important;
         background-color: $salmon !important;
         text-align: center !important;
+        transition: all ease-in-out 0.25s !important;
       }
 
       &__next-btn:hover {
         background-color: $salmon-light !important;
+      }
+
+      &__next-btn:focus {
+        background-color: $salmon-light !important;
+        border: 1px solid $salmon !important;
       }
     }
   }
@@ -88,4 +94,3 @@
     font-size: 1.5rem;
   }
 }
-

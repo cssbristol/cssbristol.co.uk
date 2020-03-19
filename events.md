@@ -36,7 +36,7 @@ show-in-nav: true
 
         <div class="card-grid__card__footer">
           <p>More info</p>
-          <a class="card-grid__card__footer__next-btn" href="{{ event.url }}">
+          <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="{{ event.url }}">
             <i class="fas fa-chevron-right"></i>
           </a>
         </div>
@@ -75,7 +75,7 @@ show-in-nav: true
 
         <div class="card-grid__card__footer">
           <p>More info</p>
-          <a class="card-grid__card__footer__next-btn" href="{{ event.url }}">
+          <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="{{ event.url }}">
             <i class="fas fa-chevron-right"></i>
           </a>
         </div>

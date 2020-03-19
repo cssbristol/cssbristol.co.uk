@@ -16,7 +16,7 @@ show-in-nav: true
         <p>{{ tutorial.abstract }}</p>
         <div class="card-grid__card__footer">
           <h4>Read more</h4>
-          <a href="{{ tutorial.url }}" class="card-grid__card__footer__next-btn">
+          <a aria-label="Read more button" href="{{ tutorial.url }}" class="card-grid__card__footer__next-btn">
             <i class="fas fa-chevron-right"></i>
           </a>
         </div>
