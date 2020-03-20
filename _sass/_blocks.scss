@@ -23,34 +23,19 @@
     text-decoration: none;
 
     &--facebook {
-      background: linear-gradient(#4264aa,#344e86);
-      /*&:hover {
-        background: #344e86;
-      }*/
+      background: #3b5998;
     }
     &--twitter {
-      background: linear-gradient(#5aa7ff,#268bff);
-      /*&:hover {
-        background: #268bff;
-      }*/
+      background: #1da1f2;
     }
     &--github {
-      background: linear-gradient(#404040,#262626);
-      /*&:hover {
-        background: #262626;
-      }*/
+      background: #24292e;
     }
     &--linkedin {
-      background: linear-gradient(lighten(#1c87bd, 5%), darken(#1c87bd, 5%));
-      /*&:hover {
-        background: #1c87bd;
-      }*/
+      background: #4875b4;
     }
     &--youtube {
-      background: linear-gradient(#e52d27, #b31217);
-      /*&:hover {
-        background: #c3201e;
-      }*/
+      background: #c4302b;
     }
 
     &--instagram {
