@@ -1,6 +1,7 @@
 ---
 layout: none
 permalink: /calendar.ics
+# Validate this vile using https://icalendar.org/validator.html?url=https://cssbristol.co.uk/calendar.ics
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
@@ -20,7 +21,8 @@ IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:{{ event.title }}
 DESCRIPTION:{{ event.excerpt | strip_html | truncate:50 | strip | strip_newlines }}
-LOCATION:{{ event.location }}{% if event.cancelled %}STATUS:CANCELLED
+LOCATION:{{ event.location }}{% if event.cancelled %}
+STATUS:CANCELLED
 {% endif %}
 END:VEVENT
 {% endfor %}END:VCALENDAR
