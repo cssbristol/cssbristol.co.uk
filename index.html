@@ -16,22 +16,28 @@ hero:
 --!>
 
 <div class="page-section">
-  <h1>Coming up</h1>
-  <div class="featured-items">
-  {% assign latest = site.events | where_exp: "event", "event.date_end >= site.time" | where_exp: "event", "event.cancelled != true" %}
-    {% for event in latest limit:4 %}
-      <a class="featured-item" href="{{ event.url }}">
-        <div>
-          <h2>{{ event.title }}</h2>
-          <p>{{ event.date | date: '%A %d %B at %R' }}</p>
-          <p>{{ event.location }}</p>
-          <p>{{ event.price }}</p>
-        </div>
-        <img src="/assets/images/contrib/events/{{ event.banner }}" alt="{{ event.title }} banner"/>
-      </a>
-    {% endfor %}
-    <a href="/events" class="btn">More</a>
-  </div>
+ {% assign latest = site.events | where_exp: "event", "event.date_end >= site.time" | where_exp: "event", "event.cancelled != true" %}
+  {% unless latest == empty %}
+    <h1>Coming up</h1>
+    <div class="featured-items">
+      {% for event in latest limit:4 %}
+        <a class="featured-item" href="{{ event.url }}">
+          <div>
+            <h2>{{ event.title }}</h2>
+            <p>{{ event.date | date: '%A %d %B at %R' }}</p>
+            <p>{{ event.location }}</p>
+            <p>{{ event.price }}</p>
+          </div>
+          <img src="/assets/images/contrib/events/{{ event.banner }}" alt="{{ event.title }} banner"/>
+        </a>
+      {% endfor %}
+      <a href="/events" class="btn">More</a>
+    </div>
+  {% else %}
+    <h1>We're hard at work planning new events!</h1>
+    <p>Why not check out past events <a aria-label="Events page" href="/events">here</a>?</p>
+    <p>Maybe you'd like to give a talk or sponsor an event? Check out sponsorship opportunities <a aria-label="Sponsor us link" href="/pages/sponsors">here</a></p>
+  {% endunless %}
 </div>
 
 {% include social-links.html %}
