@@ -16,7 +16,7 @@ category:
 cohost: 
 ---
 
-Corona Virus has all of us board - lets stay social and play Minecraft together!
+Corona Virus has all of us bored - lets stay social and play Minecraft together!
 
 Join us on our Minecraft server at mc.cssbristol.co.uk
 
