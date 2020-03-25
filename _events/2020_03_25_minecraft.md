@@ -8,7 +8,7 @@ date:     2020-03-20 13:00:00 +0000
 date_end: 2020-09-20 14:00:00 +0000 
 banner: 2020_03_25_minecraft.png
 location: mc.cssbristol.co.uk
-fb_link: 
+fb_link: https://www.facebook.com/events/2554547364861901
 ticket_link: 
 price: Free
 category:
