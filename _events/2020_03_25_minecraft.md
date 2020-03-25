@@ -20,7 +20,7 @@ Corona Virus has all of us board - lets stay social and play Minecraft together!
 
 Join us on our Minecraft server at mc.cssbristol.co.uk
 
-To get whitelisted message Dan or email your username to [webmaster@cssbristol.co.uk](mailto:webmaster@cssbristol.co.uk)
+To get whitelisted message Dan or email, from your University account, your username to [webmaster@cssbristol.co.uk](mailto:webmaster@cssbristol.co.uk)
 
 Make sure you join the Discord server [here](https://discord.gg/nYwbhf8)
 
