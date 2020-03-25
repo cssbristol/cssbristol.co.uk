@@ -51,8 +51,8 @@
     }
 
     &:hover, &:focus {
-      transform: translateY(-1rem);
       box-shadow: 0px 10px 10px $shadow;
+      transform: translateY(-1px) scale(1.02);
     }
 
     i {
