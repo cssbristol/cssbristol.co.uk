@@ -32,3 +32,17 @@ Any problems email: [webmaster@cssbristol.co.uk](mailto:webmaster@cssbristol.co.
 3. Don't grief
 4. Be nice
 5. Have fun
+
+## Plugins 
+
+### LWC - light weight chest protection
+This plugin can lock chests, pressure plates, doors and more
+- Placing a chest should automatically lock it
+    - Lock private `/cprivate`
+    - Password protect `/cpassword <pass>`
+    - Public access `/cpublic`
+- Grant someone access with `/cmodify <name>`
+    - You can give a person admin control over the chest which allows them to add and remove plays from the chest by prepending '@' to their name
+- Revoke access with  `/cmodify -<name>` e.g. `/cmodify -Steve`
+- View permissions granted with `/cinfo`
+- Remove protection `/cremove`
