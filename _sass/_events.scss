@@ -5,7 +5,7 @@
 
   .card-grid__card.cancelled {
     opacity: 0.4;
-    transition: opacity ease-in-out 0.275s;
+    transition: transform ease-in-out 0.275s, opacity ease-in-out 0.275s;
   }
 
   .card-grid__card.cancelled:hover{
