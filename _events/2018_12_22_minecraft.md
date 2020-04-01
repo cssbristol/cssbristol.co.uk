@@ -1,10 +1,20 @@
 ---
-layout: page
-title: Minecraft
-permalink: /minecraft/
+layout: event
+published: false
+cancelled: false
+cancel_reason:
+title: CSS plays Minecraft
+date:     2018-12-22 13:00:00 +0000
+date_end: 2019-02-01 14:00:00 +0000
+banner: 2018_12_22_minecraft.png
+location:
+fb_link:
+ticket_link: https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVGxsrbThU-mNCqM0m5H2UA4hURExVMFhTNVpCT0c2RjFZVkNIQUxBUUxFUi4u
+price: Free
+category:
+    - Social
+cohost:
 ---
-
-# Minecraft
 
 ## Connecting
 
