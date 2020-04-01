@@ -3,11 +3,11 @@ layout: event
 published: true
 title: CSSxAI Gaming Minihack
 date:     2019-04-03 17:30:00 +0000
-date_end: 2019-04-03 21:40:00 +0000 
+date_end: 2019-04-03 21:40:00 +0000
 banner: 2019_04_03_css_minihack.jpg
 location: MVB
 fb_link: https://www.facebook.com/events/280600549508146/
-ticket_link: 
+ticket_link:
 price: Free
 category:
     - Competition

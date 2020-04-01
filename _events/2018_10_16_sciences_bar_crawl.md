@@ -3,15 +3,15 @@ layout: event
 published: true
 title: Sciences Bar Crawl 2018
 date:     2018-10-16 21:00:00 +0000
-date_end: 2018-10-17 04:00:00 +0000 
+date_end: 2018-10-17 04:00:00 +0000
 banner: 2018_10_16_sciences_bar_crawl.jpg
 location: Berkeley Wetherspoons
 fb_link: https://www.facebook.com/events/1773642616018649/
-ticket_link: 
+ticket_link:
 price: £7
 category:
     - Social
-cohost: 
+cohost:
     - Sciences Bar Crawl
 ---
 
@@ -24,11 +24,11 @@ Route:
 - 0.00 SWX
 
 We'll be doing the route with:
-- EFM 
-- BioMed 
-- Vets 
-- Social Policy 
-- Electrical Engineering 
-- Neuroscience 
-- Medicine 
-- Anatomy 
+- EFM
+- BioMed
+- Vets
+- Social Policy
+- Electrical Engineering
+- Neuroscience
+- Medicine
+- Anatomy

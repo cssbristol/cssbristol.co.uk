@@ -7,7 +7,7 @@ date_end: 2019-11-23 15:00:00 +0000
 banner: 2019_11_22_Explore_week_game_jam.png
 location: MVB Atriums
 fb_link: https://www.facebook.com/events/2201178300181313/
-ticket_link: 
+ticket_link:
 price: Free
 category:
     - Competition
@@ -15,9 +15,9 @@ category:
 
 Join us from Friday to Saturday to make the best (or worst) game you can. Please note that MVB will not be open for a continuous 24 hours. If you wish to stay on campus overnight we recommend the ASS library.
 Food and drinks provided.
-Prizes for the winning team! 
+Prizes for the winning team!
 
-Rules: 
+Rules:
 - Max team size: 6
 - Don't interfere with other teams' code.
 - No offensive imagery in games.

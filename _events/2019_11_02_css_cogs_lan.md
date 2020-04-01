@@ -7,7 +7,7 @@ date_end: 2019-11-03 12:00:00 +0000
 banner: 2019_11_02_css_cogs_lan.png
 location: MVB 1.11
 fb_link: https://www.facebook.com/events/508047843080933/
-ticket_link: 
+ticket_link:
 price: £5
 category:
     - Social

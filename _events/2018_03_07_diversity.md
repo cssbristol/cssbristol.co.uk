@@ -3,7 +3,7 @@ layout: event
 published: true
 title: Diversity in STEM
 date:     2018-03-07 13:30:00 +0000
-date_end: 2018-03-07 17:00:00 +0000 
+date_end: 2018-03-07 17:00:00 +0000
 banner: 2018_03_07_diversity.jpg
 location: School of Chemistry
 fb_link: https://www.facebook.com/events/398174470630749/
@@ -11,7 +11,7 @@ ticket_link:
 price: Free
 category:
     - Networking
-cohost: 
+cohost:
     - Fusion UoB
     - Bristol University LGBT+ Society
 ---

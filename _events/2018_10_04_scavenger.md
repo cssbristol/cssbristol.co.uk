@@ -3,7 +3,7 @@ layout: event
 published: true
 title: Family Scavenger Hung
 date:     2018-10-04 20:30:00 +0000
-date_end: 2018-10-04 22:30:00 +0000 
+date_end: 2018-10-04 22:30:00 +0000
 banner: 2018_10_04_scavenger.jpg
 location: The Berkeley Wetherspoons
 fb_link: https://www.facebook.com/events/2192281860991041/
@@ -11,13 +11,13 @@ ticket_link:
 price: Free
 category:
     - Social
-cohost: 
+cohost:
 ---
 
-Hey all! 
+Hey all!
 
 Nothing brings people closer together than slightly odd stories.
-So, we have organised a scavenger hunt for you this Thursday. 
+So, we have organised a scavenger hunt for you this Thursday.
 Get into your families or other groups of friends and see if you can get enough points to win top prize!
 
 The actual hunt starts at 9pm, so make sure you come early (8:30pm) to prepare.

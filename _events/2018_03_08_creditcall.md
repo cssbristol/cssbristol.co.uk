@@ -5,7 +5,7 @@ title: "Tech Talk: The technology behind payments"
 cancelled: true
 cancel_reason: "Unfortunately we've had to postpone this event - Creditcall has just been acquired and the CTO is a bit busy! We hope to be able to run it some time in the next few weeks."
 date:     2018-03-08 13:00:00 +0000
-date_end: 2018-03-08 14:00:00 +0000 
+date_end: 2018-03-08 14:00:00 +0000
 banner: 2018_03_08_creditcall.jpg
 location: MVB 1.11
 fb_link: https://www.facebook.com/events/1212687995531195/
@@ -13,7 +13,7 @@ ticket_link:
 price: Free
 category:
     - Tech Talk
-cohost: 
+cohost:
     - Creditcall
 ---
 

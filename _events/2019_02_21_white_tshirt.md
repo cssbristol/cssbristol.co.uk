@@ -3,11 +3,11 @@ layout: event
 published: true
 title: White T-Shirt Social
 date:     2019-02-21 20:00:00 +0000
-date_end: 2019-02-22 04:00:00 +0000 
+date_end: 2019-02-22 04:00:00 +0000
 banner: 2019_02_21_white_tshirt.jpg
 location: The Berkeley Wetherspoons
 fb_link: https://www.facebook.com/events/258711685004367/
-ticket_link: 
+ticket_link:
 price: Free
 category:
     - Social

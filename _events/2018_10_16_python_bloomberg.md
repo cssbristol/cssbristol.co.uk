@@ -3,7 +3,7 @@ layout: event
 published: true
 title: Declarative Software Design in Python by Bloomberg
 date:     2018-10-16 13:00:00 +0000
-date_end: 2018-10-16 14:00:00 +0000 
+date_end: 2018-10-16 14:00:00 +0000
 banner: 2018_10_16_python_bloomberg.png
 location: Queens 1.15
 fb_link: https://www.facebook.com/events/1820133684772325/
@@ -11,7 +11,7 @@ ticket_link:
 price: Free
 category:
     - Tech Talk
-cohost: 
+cohost:
     - Bloomberg
 ---
 

@@ -5,7 +5,7 @@ title: "Debate: AI, Media & our obsession with Data"
 cancelled: false
 cancel_reason:
 date:     2018-03-20 17:15:00 +0000
-date_end: 2018-03-20 18:30:00 +0000 
+date_end: 2018-03-20 18:30:00 +0000
 banner: 2018_03_20_debate.jpg
 location: 1.68 Queens
 fb_link: https://www.facebook.com/events/1667979293295515
@@ -14,7 +14,7 @@ price: Free
 category:
     - Tech Talk
     - Debate
-cohost: 
+cohost:
 ---
 
 Join us on Tuesday for the third & the last #DigitalDilemma event! A debate between Professor Nello Cristianini and Dr Carl Henrik Ek (CSS) will cover the perks and perils of our obsession with Data.

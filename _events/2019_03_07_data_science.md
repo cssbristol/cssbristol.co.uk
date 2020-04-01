@@ -3,11 +3,11 @@ layout: event
 published: true
 title: Meet Industry in CS & Data science | Explore week
 date:     2019-03-07 13:00:00 +0000
-date_end: 2019-03-07 16:00:00 +0000 
+date_end: 2019-03-07 16:00:00 +0000
 banner: 2019_03_07_data_science.jpg
 location: MVB 1.11A
 fb_link: https://www.facebook.com/events/552628041906532/
-ticket_link: 
+ticket_link:
 price: Free
 category:
     - Networking
