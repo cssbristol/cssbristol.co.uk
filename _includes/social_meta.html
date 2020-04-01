@@ -1,8 +1,8 @@
-<meta name="og:type" property="og:type" content="website">
-<meta name="og:title" property="og:title" content="{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}">
-<meta name="og:description" property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:50 | strip | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
-<meta name="og:image" property="og:image" content="{% if page.banner %}https://cssbristol.co.uk/assets/images/contrib/events/{{ page.banner }}{% else %}https://cssbristol.co.uk/assets/images/core/og-image.png{% endif %}" />
-<meta name="og:url" property="og:url" content="https://cssbristol.co.uk{{ page.url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}">
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:50 | strip | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:image" content="{% if page.banner %}https://cssbristol.co.uk/assets/images/contrib/events/{{ page.banner }}{% else %}https://cssbristol.co.uk/assets/images/core/og-image.png{% endif %}" />
+<meta property="og:url" content="https://cssbristol.co.uk{{ page.url }}">
 
 <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}">
 <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:50 | strip | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
