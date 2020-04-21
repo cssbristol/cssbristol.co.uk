@@ -20,7 +20,7 @@ show-in-nav: true
         {% if event.date %}
           {% assign end = event.date_end | date: "%D" | | date: '%s' %}
           {% assign start = event.date | date: "%D" | date: '%s' %}
-          {% assign diffDays = end | minus: start | divided_by: 86400 %}
+          {% assign diffDays = end | minus: start %}
           {% if diffDays < 1 %}
             <div class="card-grid__card__row">
               <i class="fas fa-calendar-day"></i>
