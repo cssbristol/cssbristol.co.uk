@@ -20,7 +20,7 @@ show-in-nav: true
         {% if event.date %}
           {% assign endDay = event.date_end | date: '%j' %}
           {% assign startDay = event.date | date: '%j' %}
-          {% if startDay != endDay %}
+          {% if startDay == endDay %}
             <div class="card-grid__card__row">
               <i class="fas fa-calendar-day"></i>
               <p>{{ event.date | date: "%d/%m/%y" }}</p>
@@ -68,7 +68,7 @@ show-in-nav: true
         {% if event.date %}
           {% assign endDay = event.date_end | date: '%j' %}
           {% assign startDay = event.date | date: '%j' %}
-          {% if startDay != endDay %}
+          {% if startDay == endDay %}
             <div class="card-grid__card__row">
               <i class="fas fa-calendar-day"></i>
               <p>{{ event.date | date: "%d/%m/%y" }}</p>
