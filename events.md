@@ -18,13 +18,23 @@ show-in-nav: true
         {% endif %}
         <h3>{% if event.cancelled %}[CANCELLED] {% endif %}{{ event.title }}</h3>
         {% if event.date %}
-          <div class="card-grid__card__row">
-            <i class="fas fa-calendar-day"></i>
-            <p><strong>{{ event.date | date: "%d/%m/%y" }}</strong></p>
-          </div>
-          <div class="card-grid__card__row">
+          {% assign end = event.date_end | date: '%s' %}
+          {% assign start = event.date | date: #%s' %}
+          {% assign diffDays = end | minus: start | divided_by: 86400 %}
+          {% if diffDays < 1 %}
+            <div class="card-grid__card__row">
+              <i class="fas fa-calendar-day"></i>
+              <p>{{ event.date | date: "%d/%m/%y" }}</p>
+            </div>
+          {% else %}
+             <div class="card-grid__card__row">
+              <i class="fas fa-calendar-day"></i>
+              <p>{{ event.date | date: "%d/%m/%y" }} - {{ event.date_end | date: "%d/%m/%y }}</p>
+            </div>
+          {% endif %}
+            <div class="card-grid__card__row">
             <i class="fas fa-clock"></i>
-            <p><strong>{{ event.date | date: "%H:%M" }}</strong></p>
+            <p>{{ event.date | date: "%H:%M" }}</p>
           </div>
         {% endif %}
         {% if event.location %}
@@ -57,13 +67,23 @@ show-in-nav: true
         {% endif %}
         <h3>{% if event.cancelled %}[CANCELLED] {% endif %}{{ event.title }}</h3>
         {% if event.date %}
-          <div class="card-grid__card__row">
-            <i class="fas fa-calendar-day"></i>
-            <p><strong>{{ event.date | date: "%d/%m/%y" }}</strong></p>
-          </div>
+          {% assign end = event.date_end | date: '%s' %}
+          {% assign start = event.date | date: #%s' %}
+          {% assign diffDays = end | minus: start | divided_by: 86400 %}
+          {% if diffDays < 1 %}
+            <div class="card-grid__card__row">
+              <i class="fas fa-calendar-day"></i>
+              <p>{{ event.date | date: "%d/%m/%y" }}</p>
+            </div>
+          {% else %}
+             <div class="card-grid__card__row">
+              <i class="fas fa-calendar-day"></i>
+              <p>{{ event.date | date: "%d/%m/%y" }} - {{ event.date_end | date: "%d/%m/%y }}</p>
+            </div>
+          {% endif %}
           <div class="card-grid__card__row">
             <i class="fas fa-clock"></i>
-            <p><strong>{{ event.date | date: "%H:%M" }}</strong></p>
+            <p>{{ event.date | date: "%H:%M" }} - {{ event.date_end | date: "%H:%M" }}</p>
           </div>
         {% endif %}
         {% if event.location %}
