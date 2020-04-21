@@ -34,7 +34,7 @@ show-in-nav: true
           {% endif %}
             <div class="card-grid__card__row">
             <i class="fas fa-clock"></i>
-            <p>{{ event.date | date: "%H:%M" }}</p>
+            <p>{{ event.date | date: "%H:%M" }} - {{ event.date_end | date: "%H:%M" }}</p>
           </div>
         {% endif %}
         {% if event.location %}
