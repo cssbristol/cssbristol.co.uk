@@ -29,7 +29,7 @@ show-in-nav: true
           {% else %}
              <div class="card-grid__card__row">
               <i class="fas fa-calendar-day"></i>
-              <p>{{ event.date | date: "%d/%m/%y" }} - {{ event.date_end | date: "%d/%m/%y }}</p>
+              <p>{{ event.date | date: "%d/%m/%y" }} - {{ event.date_end | date: "%d/%m/%y" }}</p>
             </div>
           {% endif %}
             <div class="card-grid__card__row">
@@ -68,7 +68,7 @@ show-in-nav: true
         <h3>{% if event.cancelled %}[CANCELLED] {% endif %}{{ event.title }}</h3>
         {% if event.date %}
           {% assign end = event.date_end | date: '%s' %}
-          {% assign start = event.date | date: #%s' %}
+          {% assign start = event.date | date: '%s' %}
           {% assign diffDays = end | minus: start | divided_by: 86400 %}
           {% if diffDays < 1 %}
             <div class="card-grid__card__row">
@@ -78,7 +78,7 @@ show-in-nav: true
           {% else %}
              <div class="card-grid__card__row">
               <i class="fas fa-calendar-day"></i>
-              <p>{{ event.date | date: "%d/%m/%y" }} - {{ event.date_end | date: "%d/%m/%y }}</p>
+              <p>{{ event.date | date: "%d/%m/%y" }} - {{ event.date_end | date: "%d/%m/%y" }}</p>
             </div>
           {% endif %}
           <div class="card-grid__card__row">
