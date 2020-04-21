@@ -5,7 +5,7 @@ title: Game Jam
 date:     2019-11-22 11:00:00 +0000
 date_end: 2019-11-23 15:00:00 +0000
 banner: 2019_11_22_Explore_week_game_jam.png
-location: MVB Atriums
+location: MVB Atrium
 fb_link: https://www.facebook.com/events/2201178300181313/
 ticket_link:
 price: Free
