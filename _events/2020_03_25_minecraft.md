@@ -20,7 +20,7 @@ Corona Virus has all of us bored - lets stay social and play Minecraft together!
 
 Join us on our Minecraft server at mc.cssbristol.co.uk
 
-Sign up to the server [here](https://forms.gle/vaGvMCKPmMzsBM3w9)
+~~Sign up to the server [here](https://forms.gle/vaGvMCKPmMzsBM3w9)~~ *whitelist now disabled*
 
 Make sure you join the Discord server [here](https://discord.gg/nYwbhf8)
 
