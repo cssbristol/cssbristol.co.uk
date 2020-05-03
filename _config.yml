@@ -23,3 +23,6 @@ collections:
 
 plugins:
   - jekyll-redirect-from
+
+exclude:
+  - _tutorials/template
