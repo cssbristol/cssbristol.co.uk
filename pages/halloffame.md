@@ -26,3 +26,11 @@ show-in-nav: false
 ## Committee 2014-15
 
 {% include committee.html data-file=site.data.committee-2014-15 %}
+
+## Committee 2013-14
+
+{% include committee.html data-file=site.data.committee-2013-14 %}
+
+## Committee 2011-12
+
+{% include committee.html data-file=site.data.committee-2011-12 %}
