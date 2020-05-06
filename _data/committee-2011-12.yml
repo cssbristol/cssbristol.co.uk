@@ -1,0 +1,28 @@
+- name: Callum Muir
+  position: President
+  email:
+  image: /assets/images/contrib/committee/default.png
+- name: James Stephenson
+  position: Vice-President
+  email:
+  image: /assets/images/contrib/committee/default.png
+- name: Philip McMahon
+  position: Secretary
+  email:
+  image: /assets/images/contrib/committee/default.png
+- name: Matt Bessey
+  position: Events
+  email:
+  image: /assets/images/contrib/committee/default.png
+- name: Jamie Davies
+  position: Treasurer
+  email:
+  image: /assets/images/contrib/committee/default.png
+- name: Alistair Lockyer
+  position: Sports
+  email:
+  image: /assets/images/contrib/committee/default.png
+- name: Dan Gilbert
+  position: Webmaster
+  email: 
+  image: /assets/images/contrib/committee/default.png

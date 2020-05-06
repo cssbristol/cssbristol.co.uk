@@ -1,0 +1,40 @@
+- name: Tom Ryczanowski
+  position: President
+  email:
+  image: /assets/images/contrib/committee/default.png
+- name: Aankhi Mukherjee
+  position: Vice-President
+  email:
+  image: /assets/images/contrib/committee/default.png
+- name: James Pedlingham
+  position: Secretary
+  email:
+  image: /assets/images/contrib/committee/default.png
+- name: Adam Renak
+  position: Press
+  email:
+  image: /assets/images/contrib/committee/default.png
+- name: Kathryn Webb
+  position: Events
+  email:
+  image: /assets/images/contrib/committee/default.png
+- name: Benji Barash
+  position: Treasurer
+  email:
+  image: /assets/images/contrib/committee/default.png
+- name: Hannah Oliver
+  position: Outreach
+  email:
+  image: /assets/images/contrib/committee/default.png
+- name: Nick Phillips
+  position: Outreach
+  email:
+  image: /assets/images/contrib/committee/default.png
+- name: Dan Smith
+  position: Sports
+  email:
+  image: /assets/images/contrib/committee/default.png
+- name: Maciej Kumorek
+  position: Webmaster
+  email: 
+  image: /assets/images/contrib/committee/default.png
