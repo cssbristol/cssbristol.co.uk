@@ -70,24 +70,22 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   max-width: $content-width;
   width: 100%;
 
+  @include media-query($on-palm) {
+    flex-direction: column;
+  }
+
   .sponsors__item {
     width: 33%;
-    height: 100px;
-    margin: 15px auto;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
     @include media-query($on-palm) {
       width: 100%;
-      justify-content: flex-start;
       height: auto;
+      margin: 0.5rem 0;
 
       p {
         margin: 2px;
