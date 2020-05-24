@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: CSS plays Minecraft
-date:     2020-03-20 13:00:00 +0000
-date_end: 2020-09-20 14:00:00 +0000
+date:     2020-03-20 13:00:00 +0100
+date_end: 2020-05-24 01:00:00 +0100
 banner: 2020_03_25_minecraft.png
 location: mc.cssbristol.co.uk
 fb_link: https://www.facebook.com/events/2554547364861901
@@ -15,7 +15,13 @@ category:
     - Social
 cohost:
 ---
+## That's all folks
+We've had a good run building, farming, and socialising but as with all great things there comes an end 😢
 
+We've slain the Ender Dragon and hosted our AGM in the MVB (Minecraft Ventures Building)
+
+But don't worry you're work has not been wasted. You can download the world [here](https://drive.google.com/file/d/1YBXUcCRvF-c4AQkl2nOdWEgct8oMJY_E/view?usp=sharing)
+---
 Corona Virus has all of us bored - lets stay social and play Minecraft together!
 
 Join us on our Minecraft server at mc.cssbristol.co.uk
