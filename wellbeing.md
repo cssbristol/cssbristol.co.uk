@@ -41,21 +41,23 @@ In short, anything that is having a negative impact on your ability to study, or
 - Struggling to cope with deadlines
 - Mental or physical health issues
 - Flare-up of a pre existing problem
-- Sexism, homophobia, racism, transphobia, ableism or discrimination of any kind
+- Sexism, homophobia, racism, transphobia, ableism, or discrimination of any kind
+
+We are committed to ensuring inclusivity and creating a safe environment for all groups. If you are experiencing any form of discrimination, rest assured that there are people here to help you. You can speak to your personal tutor, wellbeing or residential life advisor or one of our committee members. We are all here to help.
 
 We would like to highlight two in particular. They are no more or no less important or severe than the others but they are by far the most common in Bristol and the Computer Science community.
 
 ## Stress and Mental Health
 Studying Computer Science can be stressful. Multiple deadlines, exams and group projects can all add up and seem insurmountable. For some people the resulting pressure can affect their health outside of University and their ability to function properly.
 
-This has had issues with being a taboo topic in the past, resulting in unnecessary misunderstanding and grief. We seek to create an environment within the computer science community at Bristol where people feel able to ask for help without worrying about being judged or not gritting their teeth enough and carrying on. 
+This has had issues with being a taboo topic in the past, resulting in unnecessary misunderstanding and grief. We seek to create an environment within the computer science community at Bristol where people feel able to ask for help without worrying about being judged or not gritting their teeth enough and carrying on.
 
 Similarly, if someone does open up to you, it is important that you are comfortable in knowing how to respond! There is a lot of advice online on talking about mental health, and how to seek help. This page is not meant to be a singular guide for that but the services and resources listed will guide you on the right path.
 
 
 ## Online Discussion Spaces
 
-The internet has both wonderful corners and dark ones. We value respect online as much as in person and knowing that there is a human on the other end of the comment thread. Sometimes this gets forgotten. 
+The internet has both wonderful corners and dark ones. We value respect online as much as in person and knowing that there is a human on the other end of the comment thread. Sometimes this gets forgotten.
 
 If you feel uncomfortable in an online space or in person, the department, students union, and university have guidelines on how to resolve the situation. As a union affiliated society, CSS is bound by their safe space policy. Such policies are often drastically misunderstood and end up being ridiculed online. Bristol SU’s safe space policy, recently renamed "code of conduct", can be read [here](https://www.bristolsu.org.uk/resources/code-of-conduct-ec57) so you know exactly what it does and does not say. There are also some guidelines available for how to interpret the safe space policy in a sensible way. Any problems you have yourself or witness as a 3rd party, can be raised with your personal tutor or the students union.
 
@@ -98,7 +100,7 @@ Please refer to them for:
 
 ## Residential life advisors
 
-Residential life advisors are available 24/7/365 to students in halls for just about anything, even things not related to accommodation. If they cannot help directly then they are able to show you the way to people who can. 
+Residential life advisors are available 24/7/365 to students in halls for just about anything, even things not related to accommodation. If they cannot help directly then they are able to show you the way to people who can.
 [More info](https://www.bristol.ac.uk/students/wellbeing/services/residential-life-service/)
 
 ## University Student Health Service
