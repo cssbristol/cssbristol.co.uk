@@ -9,7 +9,7 @@ show-in-nav: true
 {% if upcoming == empty %}
 # We're busy planning new events!
 
-<p>Maybe you'd like to give a talk or sponsor an event? Check out sponsorship opportunities <a aria-label="Sponsor us link" href="/pages/sponsors">here</a></p>
+<p style="text-align: center;">Maybe you'd like to give a talk or sponsor an event? Check out sponsorship opportunities <a aria-label="Sponsor us link" href="/pages/sponsors">here</a></p>
 {% else %}
 # Upcoming Events
 
