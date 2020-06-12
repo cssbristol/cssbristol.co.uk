@@ -5,12 +5,17 @@ permalink: /events/
 show-in-nav: true
 ---
 
+{% assign upcoming = site.events | where_exp: "event", "event.date_end >= site.time" %}
+{% if upcoming == empty %}
+# We're busy planning new events!
+
+<p>Maybe you'd like to give a talk or sponsor an event? Check out sponsorship opportunities <a aria-label="Sponsor us link" href="/pages/sponsors">here</a></p>
+{% else %}
 # Upcoming Events
 
 -----------
 <div class="page-section">
   <div class="event-grid card-grid">
-    {% assign upcoming = site.events | where_exp: "event", "event.date_end >= site.time" %}
     {% for event in upcoming %}
       <div class="card-grid__card{% if event.cancelled %} cancelled {% endif %}">
         {% if event.banner %}
@@ -53,6 +58,7 @@ show-in-nav: true
     {% endfor %}
   </div>
 </div>
+{% endif %}
 
 # Past Events
 ---
