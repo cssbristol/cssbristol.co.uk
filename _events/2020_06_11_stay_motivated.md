@@ -20,3 +20,5 @@ Join us for weekly catch up sessions to share project ideas, help each other fix
 Just hop onto the [discord server](https://https://discord.gg/nYwbhf8) and join the *STAY MOTIVATED* channels every Monday and Thursday!
 
 There will be two sessions on each day with the first at 14:30-15:30 and the second at 20:00-21:00
+
+These sessions will be running until in person lectures return!
