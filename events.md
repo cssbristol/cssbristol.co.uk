@@ -69,7 +69,7 @@ show-in-nav: true
                     <i popup="Networking" class="fas fa-network-wired"></i>
                 {% endif %}
                 {% if  c == "Careers" %}
-                    <i popup="Careers" class="fas fa-breifcase"></i>
+                    <i popup="Careers" class="fas fa-briefcase"></i>
                 {% endif %}
                 {% if  c == "Competition" %}
                     <i popup="Competition" class="fas fa-trophy"></i>
@@ -143,7 +143,7 @@ show-in-nav: true
                     <i popup="Networking" class="fas fa-network-wired"></i>
                 {% endif %}
                 {% if  c == "Careers" %}
-                    <i popup="Careers" class="fas fa-breifcase"></i>
+                    <i popup="Careers" class="fas fa-briefcase"></i>
                 {% endif %}
                 {% if  c == "Competition" %}
                     <i popup="Competition" class="fas fa-trophy"></i>
