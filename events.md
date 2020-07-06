@@ -54,6 +54,31 @@ show-in-nav: true
             <i class="fas fa-chevron-right"></i>
           </a>
         </div>
+        <div class="categories">
+            {% for c in event.category %}
+                {% if c == "Social" %}
+                    <i popup="Social" class="fas fa-beer"></i>
+                {% endif %}
+                {% if  c == "Tech Talk" %}
+                    <i popup="Tech Talk" class="fas fa-chalkboard-teacher"></i>
+                {% endif %}
+                {% if  c == "Trip" %}
+                    <i popup="Trip" class="fas fa-bus"></i>
+                {% endif %}
+                {% if  c == "Networking" %}
+                    <i popup="Networking" class="fas fa-network-wired"></i>
+                {% endif %}
+                {% if  c == "Careers" %}
+                    <i popup="Careers" class="fas fa-breifcase"></i>
+                {% endif %}
+                {% if  c == "Competition" %}
+                    <i popup="Competition" class="fas fa-trophy"></i>
+                {% endif %}
+                {% if  c == "Debate" %}
+                    <i popup="Debate" class="fas fa-gavel"></i>
+                {% endif %}
+            {% endfor %}
+        </div>
       </div>
     {% endfor %}
   </div>
@@ -102,6 +127,31 @@ show-in-nav: true
           <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="{{ event.url }}">
             <i class="fas fa-chevron-right"></i>
           </a>
+        </div>
+        <div class="categories">
+            {% for c in event.category %}
+                {% if c == "Social" %}
+                    <i popup="Social" class="fas fa-beer"></i>
+                {% endif %}
+                {% if  c == "Tech Talk" %}
+                    <i popup="Tech Talk" class="fas fa-chalkboard-teacher"></i>
+                {% endif %}
+                {% if  c == "Trip" %}
+                    <i popup="Trip" class="fas fa-bus"></i>
+                {% endif %}
+                {% if  c == "Networking" %}
+                    <i popup="Networking" class="fas fa-network-wired"></i>
+                {% endif %}
+                {% if  c == "Careers" %}
+                    <i popup="Careers" class="fas fa-breifcase"></i>
+                {% endif %}
+                {% if  c == "Competition" %}
+                    <i popup="Competition" class="fas fa-trophy"></i>
+                {% endif %}
+                {% if  c == "Debate" %}
+                    <i popup="Debate" class="fas fa-gavel"></i>
+                {% endif %}
+            {% endfor %}
         </div>
       </div>
     {% endfor %}

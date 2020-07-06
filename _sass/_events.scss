@@ -24,4 +24,39 @@
   .card-grid__card > .card-grid__card__row ~ .card-grid__card__row {
     margin-top: 0rem;
   }
+
+  .card-grid__card {
+    .categories {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      color: $gray;
+      font-size: 0.75rem;
+      margin-top: 1rem;
+      margin-bottom: -0.5rem;
+
+      i {
+        margin: 0 0.75ch;
+        position: relative;
+      }
+
+      i::after {
+        content: attr(popup);
+        display: block;
+        position: absolute;
+        top: calc(100% + 1rem);
+        left: 0;
+        background-color: $darkgray;
+        color: $white;
+        border-radius: 5px;
+        padding: 0.5rem;
+        transition: opacity ease 0.2s;
+        opacity: 0;
+        font-family: "Fira Sans";
+      }
+      i:hover::after {
+        opacity: 1;
+      }
+    }
+  }
 }
