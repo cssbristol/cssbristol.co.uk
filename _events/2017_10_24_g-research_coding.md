@@ -1,18 +1,26 @@
 ---
-layout: post
-title:  "Event: G-Research Coding Challenge"
-date:   2017-10-11 11:30:00 +0100
-event_date: 2017-10-24 18:30:00 +0100
-category: "event"
-author: "Louis Heath"
-redirect_from: "/gresearch2018"
+layout: event
+published: true
+cancelled: false
+cancel_reason:
+title: G-Research Coding Challenge
+date:     2017-10-24 18:30:00 +0000
+date_end: 2017-10-24 21:30:00 +0000
+banner: 2017_10_24_g-research_coding.png
+location: MVB 1.11A
+fb_link: https://www.facebook.com/events/1619186934779420/
+ticket_link: mailto:graduates@gresearch.co.uk
+price: Free
+category:
+    - Careers
+    - Competition
+cohost:
+    - G-research
 ---
 
 Come along to 1.11A MVB on the 24th October for coding, prizes and food - and a chance to chat with one of our great sponsors [G-Research](http://www.g-research.co.uk/)!
 
 -----------
-
-![](/assets/images/contrib/events/2017-10-24-g-research-coding-challenge/g-research-coding-challenge-cover-image.png)
 
 G-Research is a leading quantitative research and technology company. We apply scientific techniques to find patterns in large, noisy and real-world data sets, using the latest statistical and "big data" analysis methodologies to predict global financial markets.
 
@@ -24,10 +32,3 @@ Afterwards we will provide food and drinks and a chance for you to talk to our e
 
 To register your interest please email [graduates@gresearch.co.uk](mailto:graduates@gresearch.co.uk). You can register alone or as part of a team of up to 4 members, if you register individually you will be allocated a team at the event.
 
-<a class="btn btn--dark" href="mailto:graduates@gresearch.co.uk">
-    REGISTER NOW!
-</a>
-
-<a class="btn btn--dark" href="https://www.facebook.com/events/1619186934779420/">
-    Facebook Event
-</a>
