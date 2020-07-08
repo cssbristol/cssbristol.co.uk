@@ -59,23 +59,26 @@ show-in-nav: true
                 {% if c == "Social" %}
                     <i popup="Social" class="fas fa-beer"></i>
                 {% endif %}
-                {% if  c == "Tech Talk" %}
+                {% if c == "Tech Talk" %}
                     <i popup="Tech Talk" class="fas fa-chalkboard-teacher"></i>
                 {% endif %}
-                {% if  c == "Trip" %}
+                {% if c == "Trip" %}
                     <i popup="Trip" class="fas fa-bus"></i>
                 {% endif %}
-                {% if  c == "Networking" %}
+                {% if c == "Networking" %}
                     <i popup="Networking" class="fas fa-network-wired"></i>
                 {% endif %}
-                {% if  c == "Careers" %}
+                {% if c == "Careers" %}
                     <i popup="Careers" class="fas fa-briefcase"></i>
                 {% endif %}
-                {% if  c == "Competition" %}
+                {% if c == "Competition" %}
                     <i popup="Competition" class="fas fa-trophy"></i>
                 {% endif %}
-                {% if  c == "Debate" %}
+                {% if c == "Debate" %}
                     <i popup="Debate" class="fas fa-gavel"></i>
+                {% endif %}
+                {% if c == "Workshop" %}
+                    <i popup="Workshop" class="fas fa-tools"></i>
                 {% endif %}
             {% endfor %}
         </div>
@@ -133,23 +136,26 @@ show-in-nav: true
                 {% if c == "Social" %}
                     <i popup="Social" class="fas fa-beer"></i>
                 {% endif %}
-                {% if  c == "Tech Talk" %}
+                {% if c == "Tech Talk" %}
                     <i popup="Tech Talk" class="fas fa-chalkboard-teacher"></i>
                 {% endif %}
-                {% if  c == "Trip" %}
+                {% if c == "Trip" %}
                     <i popup="Trip" class="fas fa-bus"></i>
                 {% endif %}
-                {% if  c == "Networking" %}
+                {% if c == "Networking" %}
                     <i popup="Networking" class="fas fa-network-wired"></i>
                 {% endif %}
-                {% if  c == "Careers" %}
+                {% if c == "Careers" %}
                     <i popup="Careers" class="fas fa-briefcase"></i>
                 {% endif %}
-                {% if  c == "Competition" %}
+                {% if c == "Competition" %}
                     <i popup="Competition" class="fas fa-trophy"></i>
                 {% endif %}
-                {% if  c == "Debate" %}
+                {% if c == "Debate" %}
                     <i popup="Debate" class="fas fa-gavel"></i>
+                {% endif %}
+                {% if c == "Workshop" %}
+                    <i popup="Workshop" class="fas fa-tools"></i>
                 {% endif %}
             {% endfor %}
         </div>
