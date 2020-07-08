@@ -1,11 +1,22 @@
 ---
-layout: post
-title:  "Event: Eat; drink; talk code - Creditcall"
-date:   2017-10-11 11:00:00 +0100
-event_date: 2017-10-19 17:00:00 +0100
-category: "event"
-author: "Louis Heath"
-redirect_from: "/creditcallsocial"
+layout: event
+published: true
+cancelled: false
+cancel_reason:
+title: Eat; drink; talk code - with Creditcall
+date:     2017-10-19 17:00:00 +0000
+date_end: 2017-10-19 22:00:00 +0000
+banner: 2017_10_19_creditcall.png
+location: The White Harte
+fb_link: https://www.facebook.com/events/1918754915115321
+ticket_link: https://go.creditcall.com/students
+price: Free
+category:
+    - Social
+    - Networking
+    - Careers
+cohost:
+    - Creditcall
 ---
 
 [Creditcall](http://www.creditcall.com/) is hosting a social at the White Harte immediately after the careers fair on October 19! Come along for a chat and free food.
@@ -16,8 +27,6 @@ Here’s your chance to mingle with like-minded students and experienced develop
 <a class="btn btn--dark" href="http://go.creditcall.com/students">
   GET A TICKET NOW! 🍻
 </a>
-
-![](/assets/images/contrib/events/2017-10-19-creditcall-social/creditcall-social-cover-image.png)
 
 -----------
 
@@ -31,6 +40,3 @@ Being born and bred in Bristol (though we’re now known worldwide), all of us a
 
 [Creditcall: 10 things you should know when studying in bristol](https://www.creditcall.com/10-things-you-should-know-when-studying-in-bristol)
 
-<a class="btn btn--dark" href="https://www.facebook.com/events/1918754915115321/">
-  Facebook Event
-</a>
