@@ -1,8 +1,8 @@
 ---
 layout: event
 published: true
-cancelled: false
-cancel_reason:
+cancelled: true
+cancel_reason: This event has been cancelled
 title: Board Games Night
 date:     2018-02-22 18:00:00 +0000
 date_end: 2018-02-22 20:00:00 +0000
