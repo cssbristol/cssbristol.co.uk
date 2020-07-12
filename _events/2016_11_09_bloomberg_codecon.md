@@ -1,14 +1,22 @@
 ---
-layout: post
-title:  "Event: Bloomberg CodeCon"
-date:   2016-11-04 16:00:00 +0000
-event_date: 2016-11-09 18:00:00 +0000
-category: "event"
-author: "Hakeem Kushoro"
+layout: event
+published: true
+cancelled: false
+cancel_reason:
+title: Bloomberg CodeCon
+date:     2016-11-09 17:30:00
+date_end: 2016-11-09 20:00:00
+banner: 2016_11_09_bloomberg_codecon.png
+location: Physics Enderby
+fb_link: https://www.facebook.com/events/1665502050406417
+ticket_link: https://tinyurl.com/z9ugbym
+price: Free
+category:
+    - Careers
+    - Competition
+cohost:
+    - Bloomberg
 ---
-<a class="btn btn--dark" href="http://tinyurl.com/z9ugbym">
-  Sign up now
-</a>
 
 Bloomberg CodeCon is coming to Bristol University on the 9th of November!
 
@@ -20,20 +28,10 @@ Please **make sure you register with your university email address** and bring y
 
 The event will take place at The Physics Building, Enderby Room. Come early for food and to set up as kick-off is at 6.00pm!
 
-<a class="btn btn--dark" href="https://www.facebook.com/events/1665502050406417/">
-  Facebook event
-</a>
-
 <a class="btn btn--dark" href="https://goo.gl/maps/h3vZRLJN6XG2">
   Location Map
 </a>
 
 Food and refreshments will be provided!
 
-<a class="btn btn--dark" href="http://tinyurl.com/z9ugbym">
-  Sign up now
-</a>
-
 We look forward to seeing you there!
-
-![Bloomberg CodeCon](/assets/images/contrib/events/2016-11-09-bloomberg-codecon/bloomberg-codecon-cover-image.png)
