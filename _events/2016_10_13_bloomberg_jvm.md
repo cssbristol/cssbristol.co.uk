@@ -1,11 +1,23 @@
 ---
-layout: post
-title:  "Event: Bloomberg - How the JVM Executes Java"
-date:   2016-10-04 18:00:00 +0100
-event_date: 2016-10-13 13:00:00 +0100
-category: "event"
-author: "Ross Gardiner"
+layout: event
+published: true
+cancelled: false
+cancel_reason:
+title: Bloomberg - How the JVM Executes Java
+date:     2016-10-13 13:00:00
+date_end: 2016-10-13 14:00:00
+banner: 2016_10_13_bloomberg_jvm.png
+location: MVB 1.06
+fb_link: https://www.facebook.com/events/604257646426183/
+ticket_link:
+price: Free
+category:
+    - Tech Talk
+    - Careers
+cohost:
+    - Bloomberg
 ---
+
 We have an engineer from Bloomberg coming to talk to us about how the JVM executes Java.
 
 When Java was released in 1995 it was slow, a reputation it has carried for many years. Today, Java can give performance that is comparable to C++ and can emit instructions that are more optimal than code which is statically compiled. But how?
@@ -24,13 +36,4 @@ Topics include:
 * Monomorphic Dispatch
 * On Stack Replacement
 
-
-<a class="btn btn--dark" href="https://www.facebook.com/events/604257646426183/">
-  Facebook event
-</a>
-
-<a class="btn btn--dark" href="https://calendar.google.com/calendar/render?eid=YXVkYTJtcnQyMm8yZDlvbzgyaTFmdWNhN28gY3NzYnJpc3RvbC5jby51a19jbW1iNzdpNGtkNmQ5b2tmdjVuYzFwaWJuMEBn&sf=true&output=xml">
-  View on Google Calendar
-</a>
-
-![](/assets/images/contrib/blog/2016-10-04-bloomberg-how-the-jvm-executes-java.png)
+![](/assets/images/contrib/events/2016_10_13_bloomberg_jvm_poster.png)
