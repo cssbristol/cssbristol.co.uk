@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Eat; drink; talk code - with Creditcall
-date:     2017-10-19 17:00:00 +0000
-date_end: 2017-10-19 22:00:00 +0000
+date:     2017-10-19 17:00:00
+date_end: 2017-10-19 22:00:00
 banner: 2017_10_19_creditcall.png
 location: The White Harte
 fb_link: https://www.facebook.com/events/1918754915115321

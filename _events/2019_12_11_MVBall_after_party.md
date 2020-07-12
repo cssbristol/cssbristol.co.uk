@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: MVBall after party
-date:     2019-12-10 23:00:00 +0000
-date_end: 2019-12-11 04:00:00 +0000
+date:     2019-12-10 23:00:00
+date_end: 2019-12-11 04:00:00
 banner: 2019_12_11_MVBall_after_party.png
 location: Lola Lo
 fb_link: https://www.facebook.com/events/422590671743135/

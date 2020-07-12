@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Bloomberg Virtual Quiz
-date:     2020-06-25 17:00:00 +0100
-date_end: 2020-06-25 21:00:00 +0100
+date:     2020-06-25 17:00:00
+date_end: 2020-06-25 21:00:00
 banner: 2020_06_25_bb_virtual_quiz.png
 location: Google Meet
 fb_link:

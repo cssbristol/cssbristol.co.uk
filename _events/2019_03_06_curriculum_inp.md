@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: CS Curriculum Input Session
-date:     2019-03-06 11:00:00 +0000
-date_end: 2019-03-06 13:00:00 +0000
+date:     2019-03-06 11:00:00
+date_end: 2019-03-06 13:00:00
 banner: 2019_03_06_curriculum_inp.jpg
 location: Queens Building 1.7
 fb_link: https://www.facebook.com/events/392125768266882/

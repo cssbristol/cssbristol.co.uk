@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: CSS on Ice!
-date:     2018-12-14 20:00:00 +0000
-date_end: 2018-12-14 23:59:00 +0000
+date:     2018-12-14 20:00:00
+date_end: 2018-12-14 23:59:00
 banner: 2018_12_14_ice_skating.jpg
 location: We The Curious
 fb_link: https://www.facebook.com/events/385417018865505/

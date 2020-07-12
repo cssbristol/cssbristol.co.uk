@@ -4,8 +4,8 @@ published: true
 cancelled: true
 cancel_reason: This event has been cancelled
 title: Board Games Night
-date:     2018-02-22 18:00:00 +0000
-date_end: 2018-02-22 20:00:00 +0000
+date:     2018-02-22 18:00:00
+date_end: 2018-02-22 20:00:00
 banner: 2018_02_22_board_game_night.jpg
 location: Broad Quay House
 fb_link: https://www.facebook.com/events/140088270137161

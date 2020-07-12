@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Next generation arm processors
-date:     2017-12-01 12:00:00 +0000
-date_end: 2017-12-01 13:00:00 +0000
+date:     2017-12-01 12:00:00
+date_end: 2017-12-01 13:00:00
 banner: 2017_12_01_arm_processors.jpg
 location: MVB 1.11/1.11(A)
 fb_link: https://www.facebook.com/events/904891876346724

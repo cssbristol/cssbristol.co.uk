@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: End of exam drinks
-date:     2019-01-25 18:00:00 +0000
-date_end: 2019-01-25 23:00:00 +0000
+date:     2019-01-25 18:00:00
+date_end: 2019-01-25 23:00:00
 banner: 2019_01_25_end_exam_drinks.jpg
 location: The White Harte
 fb_link: https://www.facebook.com/events/229382884604224/

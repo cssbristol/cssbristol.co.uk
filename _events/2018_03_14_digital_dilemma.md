@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: "Technological Revolution: Implications for Democracy | The Digital Dilemma"
-date:     2018-03-14 17:15:00 +0000
-date_end: 2018-03-14 19:15:00 +0000
+date:     2018-03-14 17:15:00
+date_end: 2018-03-14 19:15:00
 banner: 2018_03_14_digital_dilemma.jpg
 location: 1.15 Queens Building
 fb_link: https://www.facebook.com/events/341100409724737/

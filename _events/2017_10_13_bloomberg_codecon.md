@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Bloomberg CodeCon Qualifiers
-date:     2017-10-13 18:30:00 +0000
-date_end: 2017-10-13 21:30:00 +0000
+date:     2017-10-13 18:30:00
+date_end: 2017-10-13 21:30:00
 banner: 2017_10_13_bloomberg_codecon.jpg
 location: MVB 1.11
 fb_link: https://www.facebook.com/events/1771833383117588/

@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: Netflix and Thrill
-date:     2018-10-31 16:00:00 +0000
-date_end: 2018-10-31 18:00:00 +0000
+date:     2018-10-31 16:00:00
+date_end: 2018-10-31 18:00:00
 banner: 2018_10_31_netflix_and_thrill.jpg
 location: Chemistry LT3
 fb_link: https://www.facebook.com/events/257145254998782/

@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Accessibility Hack
-date:     2017-11-14 10:00:00 +0000
-date_end: 2017-11-14 16:30:00 +0000
+date:     2017-11-14 10:00:00
+date_end: 2017-11-14 16:30:00
 banner: 2017_11_14_accessibility_hack.jpg
 location: MVB Atrium
 fb_link: https://www.facebook.com/events/479772452408106/

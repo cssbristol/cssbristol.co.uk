@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Welcome Drinks 2017
-date:     2017-09-18 19:30:00 +0000
-date_end: 2017-09-19 01:00:00 +0000
+date:     2017-09-18 19:30:00
+date_end: 2017-09-19 01:00:00
 banner: 2017_09_18_welcome_drinks.jpg
 location: The Berkeley
 fb_link: https://www.facebook.com/events/275610189604165/

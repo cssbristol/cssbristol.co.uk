@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: After Exams Bar Crawl
-date:     2018-01-25 20:00:00 +0000
-date_end: 2018-01-26 02:00:00 +0000
+date:     2018-01-25 20:00:00
+date_end: 2018-01-26 02:00:00
 banner: 2018_01_25_end_exams_bar_crawl.jpg
 location: White Harte
 fb_link: https://www.facebook.com/events/2034757046759209/

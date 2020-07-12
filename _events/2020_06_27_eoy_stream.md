@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: CSS End of Year Stream
-date:     2020-06-27 12:00:00 +0100
-date_end: 2020-06-27 21:00:00 +0100
+date:     2020-06-27 12:00:00
+date_end: 2020-06-27 21:00:00
 banner: 2020_06_27_eoy_stream.png
 location: Discord
 fb_link:

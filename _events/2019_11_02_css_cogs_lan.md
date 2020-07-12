@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: CSSxCOGS Lan
-date:     2019-11-02 12:00:00 +0000
-date_end: 2019-11-03 12:00:00 +0000
+date:     2019-11-02 12:00:00
+date_end: 2019-11-03 12:00:00
 banner: 2019_11_02_css_cogs_lan.png
 location: MVB 1.11
 fb_link: https://www.facebook.com/events/508047843080933/

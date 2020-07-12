@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: How To Hack a Computer
-date:     2018-02-14 13:00:00 +0000
-date_end: 2018-02-14 14:00:00 +0000
+date:     2018-02-14 13:00:00
+date_end: 2018-02-14 14:00:00
 banner: 2018_02_14_bae_hack_talk.jpg
 location: Queens 1.69
 fb_link: https://www.facebook.com/events/546054989086813/

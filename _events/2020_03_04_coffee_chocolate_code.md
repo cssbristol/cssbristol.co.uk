@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: Coffee, Chocolate, and Code
-date:     2020-03-04 14:00:00 +0000
-date_end: 2020-03-04 17:00:00 +0000
+date:     2020-03-04 14:00:00
+date_end: 2020-03-04 17:00:00
 banner: 2020_03_04_coffee_chocolate_code.png
 location: Mrs Potts Chocolate House
 fb_link: https://www.facebook.com/events/525180921745706/

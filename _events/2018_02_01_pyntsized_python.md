@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: "Pyntsized Python: A language in an hour"
-date:     2018-02-01 13:00:00 +0000
-date_end: 2018-02-01 14:00:00 +0000
+date:     2018-02-01 13:00:00
+date_end: 2018-02-01 14:00:00
 banner: 2018_02_01_pyntsized_python.jpg
 location: MVB 1.11A
 fb_link: https://www.facebook.com/events/305430316645179/

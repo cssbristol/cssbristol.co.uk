@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: Family Meet Up
-date:   2019-09-26 13:00:00 +0100
-date_end:   2019-09-26 17:00:00 +0100
+date:   2019-09-26 13:00:00
+date_end:   2019-09-26 17:00:00
 banner: 2019_09_26_family_meet_up.png
 location: MVB Atrium
 fb_link: https://www.facebook.com/events/562932227446724/

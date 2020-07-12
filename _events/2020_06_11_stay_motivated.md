@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Stay Motivated
-date:     2020-06-11 14:30:00 +0100
-date_end: 2020-10-05 21:00:00 +0100
+date:     2020-06-11 14:30:00
+date_end: 2020-10-05 21:00:00
 banner: 2020_06_11_stay_motivated.png
 location: Discord
 fb_link:
