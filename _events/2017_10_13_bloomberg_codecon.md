@@ -1,10 +1,21 @@
 ---
-layout: post
-title:  "Event: Bloomberg CodeCon Qualifiers"
-date:   2017-10-05 14:00:00 +0100
-event_date: 2017-10-13 18:30:00 +0100
-category: "event"
-author: "Louis Heath"
+layout: event
+published: true
+cancelled: false
+cancel_reason:
+title: Bloomberg CodeCon Qualifiers
+date:     2017-10-13 13:00:00 +0000
+date_end: 2017-10-13 14:00:00 +0000
+banner: 2017_10_13_bloomberg_codecon.jpg
+location: MVB 1.11
+fb_link: https://www.facebook.com/events/1771833383117588/
+ticket_link: https://tinyurl.com/yamoka5k
+price: Free
+category:
+    - Networking
+    - Competition
+cohost:
+    - Bloomberg
 ---
 
 CodeCon is coming back to Bristol on the 13th October! CodeCon is a live programming contest developed in-house at Bloomberg.
@@ -26,5 +37,3 @@ Kick-off at 6.30pm, come early to get a seat! Food and refreshments will be prov
 We look forward to seeing you there!
 
 CSS and the Bloomberg CodeCon Team ❤️
-
-[Click here for the Facebook event!](https://www.facebook.com/events/1771833383117588/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A186624821720134%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A186624821720134%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D)
