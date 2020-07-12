@@ -1,11 +1,23 @@
 ---
-layout: post
-title:  "Event: CSS Discusses: Wellbeing and Workload"
-date:   2016-10-14 15:22:00 +0100
-event_date: 2016-10-26 17:00:00 +0000
-category: "event"
-author: "Ross Gardiner"
+layout: event
+published: true
+cancelled: false
+cancel_reason:
+title: "CSS Discusses: Wellbeing and Workload"
+date:     2016-10-26 17:00:00
+date_end: 2016-10-26 19:00:00
+banner: 2016_10_26_wellbeing_discussion.png
+location: Pusley Lecture Theatre, Queens
+fb_link: https://www.facebook.com/events/1799726423645110
+ticket_link:
+price: Free
+category:
+    - Networking
+    - Debate
+    - Workshop
+cohost:
 ---
+
 Further to the success of last year’s Panel Discussion about Equality and Diversity, the Computer Science Society will hold a cross-faculty dialogue about Wellbeing and Workload on October 26 from 5–7pm in Pugsley Lecture Theater, Queen’s Building.
 
 Members from all engineering departments are encouraged to take part in a discussion where they can learn about the topic, make suggestions to the faculty and share ideas with other staff and students.
@@ -26,11 +38,3 @@ Members of the panel discussion include:
 * David Bernhard, Senior Teaching Associate and member of Peace of Mind
 * Ben Marshall, Bristol Computer Science alumni and member of Peace of Mind
 
-
-<a class="btn btn--dark" href="https://www.facebook.com/events/1799726423645110/">
-  Facebook event
-</a>
-
-<a class="btn btn--dark" href="https://calendar.google.com/calendar/event?eid=YWhkb2dldGM5a3N0YzAzNHJsNHY5OGJpbzggY3NzYnJpc3RvbC5jby51a19jbW1iNzdpNGtkNmQ5b2tmdjVuYzFwaWJuMEBn">
-  View on Google Calendar
-</a>
