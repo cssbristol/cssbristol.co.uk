@@ -1,10 +1,21 @@
 ---
-layout: post
-title:  "Event: Expedia Tech Talk - A/B and multi-variate Testing"
-date:   2016-11-11 16:31:00 +0000
-event_date: 2016-11-16 12:00:00 +0000
-category: "event"
-author: "Ross Gardiner"
+layout: event
+published: true
+cancelled: false
+cancel_reason:
+title: Expedia - A/B and Multi-variate testing
+date:     2016-11-16 12:00:00
+date_end: 2016-11-16 13:00:00
+banner: 2016_11_16_expedia_ab_testing.png
+location: MVB 1.06
+fb_link: https://www.facebook.com/events/667745960059783
+ticket_link:
+price: Free
+category:
+    - Tech Talk
+    - Careers
+cohost:
+    - Expedia
 ---
 
 With any design, it is important to know how big a success (or failure!) a new feature is.
@@ -17,10 +28,3 @@ Over beers and pizza, Caroline & Ralph will introduce the approach Expedia has c
 
 **MVB 1.06, midday, Nov 16**
 
-<a class="btn btn--dark" href="https://www.facebook.com/events/667745960059783/">
-  Facebook event
-</a>
-
-<a class="btn btn--dark" href="https://calendar.google.com/calendar/b/2/render#eventpage_6%7Ceid-MGp2OHY0Yjd0Mjk2NnQydjhsdmJlNWlhN28gY3NzYnJpc3RvbC5jby51a19jbW1iNzdpNGtkNmQ5b2tmdjVuYzFwaWJuMEBn-1-0-">
-  Google Calendar
-</a>
