@@ -61,7 +61,9 @@ The initial version of the current site was designed and written by [Julian Lava
 
 The site was ported to Jekyll by [Ross Gardiner](https://github.com/rossng), the 2016-17 webmaster.
 
-The site is currently maintained by Louis Heath
+The site was then maintained by: Louis Heath and then Sibela Chinareva
+
+The site is currently maintained and updated by [Daniel Jones](https://github.com/danjones1618)
 
 ### Authors
 
