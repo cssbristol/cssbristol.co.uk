@@ -7,7 +7,7 @@ hiringOrganization:
   name: Scribeless
   address:  120 Castlemead, Lower Castle Street, Bristol, BS1 3AG
 title: Junior Software Engineer
-logo: /assets/images/contrib/jobs/<++>
+logo: /assets/images/contrib/jobs/scribeless.png
 jobLocation: Bristol/ Remote
 industry: Software Development
 employmentType: Full Time
