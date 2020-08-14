@@ -18,11 +18,15 @@ collections:
     output: true
     permalink: /jobs/:path/
   events:
-      output: true
-      permalink: /events/:path/
+    output: true
+    permalink: /events/:path/
 
 plugins:
   - jekyll-redirect-from
 
 exclude:
   - _tutorials/template
+  - _jobs/template
+  - _events/template
+  - _posts/template
+  - [vendor]
