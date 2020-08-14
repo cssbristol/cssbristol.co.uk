@@ -28,24 +28,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:type" content="website">
-<meta property="og:title" content="CSS Bristol">
+<meta property="og:title" content="Calendar - CSS Bristol">
 <meta property="og:description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
 <meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
-<meta property="og:url" content="https://cssbristol.co.uk/">
+<meta property="og:url" content="https://cssbristol.co.uk/calendar">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="CSS Bristol">
+<meta name="twitter:title" content="Calendar - CSS Bristol">
 <meta name="twitter:description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
 <meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
 <meta name="twitter:site" content="@cssbristol">
  
 
-  <title>CSS Bristol</title>
+  <title>Calendar - CSS Bristol</title>
   <meta name="description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
 
 
   <link rel="stylesheet" href="/assets/css/site.css" />
-  <link rel="canonical" href="http://www.cssbristol.co.uk/" />
+  <link rel="canonical" href="http://www.cssbristol.co.uk/calendar" />
   <link rel="alternate" type="application/rss+xml" title="CSS Bristol" href="http://www.cssbristol.co.uk/feed.xml" />
 
   <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous"></script>
@@ -249,45 +249,49 @@
     </nav>
   </div>
   
-    <section class="hero hero--light">
-  <h1 class="hero__title"><span class="hero__title--small">University of Bristol</span><br />Computer Science Society</h1>
-  
-</section>
-
-  
 </header>
 
 
-    <!--
-<div class="page-section hero ">
-  <h1 style="font-weight: 700">
-    <img style="width: 2em; height: 2em;" src="/assets/images/contrib/1up.png" alt="" />
-  </h1>
-  <p>
-  </p>
+    <div class="page-section">
+  <h1>Events</h1>
+  <iframe src="https://calendar.google.com/calendar/embed?src=cssbristol.co.uk_cmmb77i4kd6d9okfv5nc1pibn0%40group.calendar.google.com&amp;ctz=Europe%2FLondon" style="border: 0" width="100%" height="800" frameborder="0" scrolling="no"></iframe>
+  <div id="calendar" class="calendar"></div>
+  <article class="article">
+    <!-- <h2>Calendar details</h2>
+    <p>cssbristol.co.uk_cmmb77i4kd6d9okfv5nc1pibn0@group.calendar.google.com</p> -->
+    <h2>Facebook</h2>
+    <p><a href="https://www.facebook.com/pg/css.bristol.9/events/?ref=page_internal">CSS events on Facebook</a> (you must be a member of the CSS group).</p>
+  </article>
 </div>
---!>
 
-<div class="page-section">
- 
-  
-    <h1>Coming up</h1>
-    <div class="featured-items">
-      
-        <a class="featured-item" href="/events/2020_06_11_stay_motivated/">
-          <div>
-            <h2>Stay Motivated</h2>
-            <p>Thursday 11 June at 14:30</p>
-            <p>Discord</p>
-            <p>Free</p>
-          </div>
-          <img src="/assets/images/contrib/events/2020_06_11_stay_motivated.png" alt="Stay Motivated banner"/>
-        </a>
-      
-      <a href="/events" class="btn">More</a>
-    </div>
-  
-</div>
+<!-- <script type="text/javascript">
+$(document).ready(function() {
+    $('#calendar').fullCalendar({
+      header: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'agendaWeek,month'
+      },
+      defaultView: 'agendaWeek',
+      googleCalendarApiKey: 'AIzaSyBoDRhd5JAtBWVaN0zzEmrKo8_0W5RKF_0',
+      eventSources: [
+        {
+          googleCalendarId: 'cssbristol.co.uk_cmmb77i4kd6d9okfv5nc1pibn0@group.calendar.google.com',
+          className: 'calendar__event--css'
+        },
+        {
+          googleCalendarId: '77q6gepe08n9hbqdd91om074u8@group.calendar.google.com',
+          className: 'calendar__event--university'
+        },
+        {
+          googleCalendarId: 'rihoqatfnklaqfbegvj0nu4nhk@group.calendar.google.com',
+          className: 'calendar__event--beees'
+        }
+      ]
+    })
+
+});
+</script> -->
 
 <section class="page-section page-section--shaded page-section--nopad-bottom">
   <h1>Stay in the loop</h1>
@@ -325,13 +329,6 @@
     </a>
   </div>
 </section>
-
-
-<!-- <section class="page-section page-section--nopad">
-  <h1>Twitter</h1>
-  <a class="twitter-timeline" data-width="1000" data-height="800" data-dnt="true" data-theme="light" data-link-color="#7EA84A" href="https://twitter.com/CSSBristol">Tweets by CSSBristol</a>
-  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-</section> -->
 
 
 

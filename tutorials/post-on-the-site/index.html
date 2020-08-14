@@ -28,24 +28,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:type" content="website">
-<meta property="og:title" content="CSS Bristol">
-<meta property="og:description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
+<meta property="og:title" content="Writing a post for cssbristol.co.uk - CSS Bristol">
+<meta property="og:description" content="So you want to write a post for the CSS website? Great! This tutorial will walk you through the process. Basic familiarity with git is assumed. Getting the code First, you will need to create a GitHub account. If you have one already, log in. Now, navigate to the website...">
 <meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
-<meta property="og:url" content="https://cssbristol.co.uk/">
+<meta property="og:url" content="https://cssbristol.co.uk/tutorials/post-on-the-site/">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="CSS Bristol">
-<meta name="twitter:description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
+<meta name="twitter:title" content="Writing a post for cssbristol.co.uk - CSS Bristol">
+<meta name="twitter:description" content="So you want to write a post for the CSS website? Great! This tutorial will walk you through the process. Basic familiarity with git is assumed. Getting the code First, you will need to create a GitHub account. If you have one already, log in. Now, navigate to the website...">
 <meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
 <meta name="twitter:site" content="@cssbristol">
  
 
-  <title>CSS Bristol</title>
-  <meta name="description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
+  <title>Writing a post for cssbristol.co.uk - CSS Bristol</title>
+  <meta name="description" content="So you want to write a post for the CSS website? Great! This tutorial will walk you through the process. Basic familiarity with git is assumed.Getting the co...">
 
 
   <link rel="stylesheet" href="/assets/css/site.css" />
-  <link rel="canonical" href="http://www.cssbristol.co.uk/" />
+  <link rel="canonical" href="http://www.cssbristol.co.uk/tutorials/post-on-the-site/" />
   <link rel="alternate" type="application/rss+xml" title="CSS Bristol" href="http://www.cssbristol.co.uk/feed.xml" />
 
   <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous"></script>
@@ -249,90 +249,90 @@
     </nav>
   </div>
   
-    <section class="hero hero--light">
-  <h1 class="hero__title"><span class="hero__title--small">University of Bristol</span><br />Computer Science Society</h1>
-  
-</section>
-
-  
 </header>
 
 
-    <!--
-<div class="page-section hero ">
-  <h1 style="font-weight: 700">
-    <img style="width: 2em; height: 2em;" src="/assets/images/contrib/1up.png" alt="" />
-  </h1>
-  <p>
-  </p>
-</div>
---!>
+    <section class="page-section">
+  <article class="article">
+    <header class="blog-post__header">
+      <h1 class="blog-post__title">Writing a post for cssbristol.co.uk</h1>
+      <p class="blog-post__meta">
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Ross Gardiner</span></span> on 
+        <time datetime="2016-05-21T00:52:00+00:00">May 21, 2016</time>
+      </p>
+    </header>
+    <div class="blog-post__body">
+      <p>So you want to write a post for the CSS website? Great! This tutorial will walk you through the process. Basic familiarity with git is assumed.</p>
 
-<div class="page-section">
- 
-  
-    <h1>Coming up</h1>
-    <div class="featured-items">
-      
-        <a class="featured-item" href="/events/2020_06_11_stay_motivated/">
-          <div>
-            <h2>Stay Motivated</h2>
-            <p>Thursday 11 June at 14:30</p>
-            <p>Discord</p>
-            <p>Free</p>
-          </div>
-          <img src="/assets/images/contrib/events/2020_06_11_stay_motivated.png" alt="Stay Motivated banner"/>
-        </a>
-      
-      <a href="/events" class="btn">More</a>
+<h2 id="getting-the-code">Getting the code</h2>
+
+<p>First, you will need to create a GitHub account. If you have one already, log in.</p>
+
+<p><img src="/assets/images/contrib/tutorials/post-on-the-site/log-into-github.png" alt="Log into GitHub" /></p>
+
+<p>Now, navigate to the <a href="https://github.com/cssbristol/cssbristol.github.io">website repository</a>. In the top-right hand corner of the page, you will see a ‘Fork’ button. Click this to create a copy of the repository in your own account.</p>
+
+<p><img src="/assets/images/contrib/tutorials/post-on-the-site/fork.png" alt="Fork the repository" /></p>
+
+<p>After a few seconds, you will have your own fork of the repository.</p>
+
+<p><img src="/assets/images/contrib/tutorials/post-on-the-site/forked-repo.png" alt="Forked repository" /></p>
+
+<p>Now, if you’re familiar with git, clone the repository and make your changes. I’ll show you how to make a post without leaving the GitHub website - but the principles are the same whether you clone the repository or use the web interface.</p>
+
+<h2 id="writing-a-post">Writing a post</h2>
+
+<p>Let’s try writing a new blog post. First, click on the <code class="language-plaintext highlighter-rouge">_posts</code> folder to see the existing blog posts on the site. If you click on one, you can read and modify it.</p>
+
+<p><img src="/assets/images/contrib/tutorials/post-on-the-site/edit-post.png" alt="Editing a post" /></p>
+
+<p>Now let’s add a new post - click the ‘Create new file’ button:</p>
+
+<p><img src="/assets/images/contrib/tutorials/post-on-the-site/create-file.png" alt="Creating a file" /></p>
+
+<p>First, name the file. The format of the name should be <code class="language-plaintext highlighter-rouge">yyyy-mm-dd-title-of-the-post.markdown</code>, for example <code class="language-plaintext highlighter-rouge">2016-05-21-pining-for-the-fjords.markdown</code>. With the file named, we first need to provide some metadata about the post. The very first thing in the file should be something like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: post
+title:  "Pining for the fjords"
+date:   2016-05-21 21:51:00 +0100
+categories:
+author: "John Cleese"
+---
+</code></pre></div></div>
+
+<p>On the next line, you can start writing your post. If you hadn’t already guessed, posts are written in a very simple formatting language called Markdown. If you haven’t used it before, <a href="http://www.markdowntutorial.com/">here’s a tutorial</a>.</p>
+
+<p><img src="/assets/images/contrib/tutorials/post-on-the-site/write-post.png" alt="Writing a new post" /></p>
+
+<p>If you want to preview your post, you can click the ‘Preview’ tab at the top of the editor. Once you’re happy with the content, it’s time to commit it to your local version of the site (don’t worry, it won’t be published to the live site yet!).</p>
+
+<p>Scroll down, and write a short description for your commit. Choose to commit directly to <code class="language-plaintext highlighter-rouge">master</code>. Now click ‘Commit new file’.</p>
+
+<p><img src="/assets/images/contrib/tutorials/post-on-the-site/commit-master.png" alt="Starting a pull request" /></p>
+
+<p>You will be taken back to the <code class="language-plaintext highlighter-rouge">_posts</code> folder. Notice that there is now a message: ‘This branch is 1 commit ahead of cssbristol:master’. That means we can make a pull request to have our changes merged back into the main site. Click the ‘Pull request’ button to begin the process.</p>
+
+<p><img src="/assets/images/contrib/tutorials/post-on-the-site/pull-request-button.png" alt="Starting a pull request" /></p>
+
+<p>GitHub should choose to do the right thing automatically. At the top, you can see a ‘base’ and ‘head’. The ‘base’ is the repository that you want to merge into (the main CSS website repository), and the ‘head’ is your local copy. Below, in green, you can see you additions.</p>
+
+<p><img src="/assets/images/contrib/tutorials/post-on-the-site/pull-request.png" alt="Submitting a pull request" /></p>
+
+<p>Click ‘Create pull request’, and write a short description of your changes in the box provided. The clearer the information you provide, the easier it will be for us to merge your changes.</p>
+
+<p><img src="/assets/images/contrib/tutorials/post-on-the-site/pull-request-description.png" alt="Describing a pull request" /></p>
+
+<p>And now you’re done! We’ll see to it as soon as possible.</p>
+
+<p><img src="/assets/images/contrib/tutorials/post-on-the-site/pull-request-submitted.png" alt="A submitted pull request" /></p>
+
+
+      <h2>Feedback</h2>
+      <p>Any issues with this tutorial? Submit <a href="https://github.com/cssbristol/cssbristol.github.io/issues">an issue</a> or a <a href="https://github.com/cssbristol/cssbristol.github.io/pulls">pull request</a> and we'll get it sorted out right away.
     </div>
-  
-</div>
-
-<section class="page-section page-section--shaded page-section--nopad-bottom">
-  <h1>Stay in the loop</h1>
-  <div class="social-links">
-    <a class="social-links__item social-links__item--facebook" href="https://www.facebook.com/groups/CSSBristol/" title="Facebook">
-      <i class="fab fa-facebook-f" aria-hidden="true"></i>
-    </a>
-
-    <a class="social-links__item social-links__item--instagram" href="https://instagram.com/cssbristol" title="Instagram">
-      <i class="fab fa-instagram" aria-hidden="true"></i>
-    </a>
-
-    <a class="social-links__item social-links__item--twitter" href="https://twitter.com/cssbristol" title="Twitter">
-      <i class="fab fa-twitter" aria-hidden="true"></i>
-    </a>
-
-    <a class="social-links__item social-links__item--discord" href="https://discord.gg/nYwbhf8" title="Twitter">
-      <i class="fab fa-discord" aria-hidden="true"></i>
-    </a>
-
-    <a class="social-links__item social-links__item--github" href="https://github.com/cssbristol" title="GitHub">
-      <i class="fab fa-github" aria-hidden="true"></i>
-    </a>
-
-    <a class="social-links__item social-links__item--linkedin" href="https://www.linkedin.com/groups/6512283" title="LinkedIn">
-      <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-    </a>
-
-    <a class="social-links__item social-links__item--youtube" href="http://www.youtube.com/c/cssbristoluk" title="YouTube">
-      <i class="fab fa-youtube" aria-hidden="true"></i>
-    </a>
-
-    <a class="social-links__item social-links__item--newsletter" href="/newsletter" title="Newletter">
-      <i class="far fa-envelope" aria-hidden="true"></i>
-    </a>
-  </div>
+  </article>
 </section>
-
-
-<!-- <section class="page-section page-section--nopad">
-  <h1>Twitter</h1>
-  <a class="twitter-timeline" data-width="1000" data-height="800" data-dnt="true" data-theme="light" data-link-color="#7EA84A" href="https://twitter.com/CSSBristol">Tweets by CSSBristol</a>
-  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-</section> -->
-
 
 
     <section class="page-section sponsorsec">

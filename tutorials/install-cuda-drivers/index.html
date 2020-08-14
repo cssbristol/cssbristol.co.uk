@@ -28,24 +28,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:type" content="website">
-<meta property="og:title" content="CSS Bristol">
-<meta property="og:description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
+<meta property="og:title" content="Install Nvidia CUDA Drivers on Ubuntu - CSS Bristol">
+<meta property="og:description" content="Notes: This guide was written using an Ubuntu 16.04 image, therefore it may not work on other systems Connect to your AWS Instance, for instructions follow this guide Next we install the dependencies for the CUDA installation First update the package manage sudo apt-get update Install build essentials sudo apt-get...">
 <meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
-<meta property="og:url" content="https://cssbristol.co.uk/">
+<meta property="og:url" content="https://cssbristol.co.uk/tutorials/install-cuda-drivers/">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="CSS Bristol">
-<meta name="twitter:description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
+<meta name="twitter:title" content="Install Nvidia CUDA Drivers on Ubuntu - CSS Bristol">
+<meta name="twitter:description" content="Notes: This guide was written using an Ubuntu 16.04 image, therefore it may not work on other systems Connect to your AWS Instance, for instructions follow this guide Next we install the dependencies for the CUDA installation First update the package manage sudo apt-get update Install build essentials sudo apt-get...">
 <meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
 <meta name="twitter:site" content="@cssbristol">
  
 
-  <title>CSS Bristol</title>
-  <meta name="description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
+  <title>Install Nvidia CUDA Drivers on Ubuntu - CSS Bristol</title>
+  <meta name="description" content="Notes:This guide was written using an Ubuntu 16.04 image, therefore it may not work on other systems  Connect to your AWS Instance, for instructions follow t...">
 
 
   <link rel="stylesheet" href="/assets/css/site.css" />
-  <link rel="canonical" href="http://www.cssbristol.co.uk/" />
+  <link rel="canonical" href="http://www.cssbristol.co.uk/tutorials/install-cuda-drivers/" />
   <link rel="alternate" type="application/rss+xml" title="CSS Bristol" href="http://www.cssbristol.co.uk/feed.xml" />
 
   <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous"></script>
@@ -249,90 +249,70 @@
     </nav>
   </div>
   
-    <section class="hero hero--light">
-  <h1 class="hero__title"><span class="hero__title--small">University of Bristol</span><br />Computer Science Society</h1>
-  
-</section>
-
-  
 </header>
 
 
-    <!--
-<div class="page-section hero ">
-  <h1 style="font-weight: 700">
-    <img style="width: 2em; height: 2em;" src="/assets/images/contrib/1up.png" alt="" />
-  </h1>
-  <p>
-  </p>
-</div>
---!>
+    <section class="page-section">
+  <article class="article">
+    <header class="blog-post__header">
+      <h1 class="blog-post__title">Install Nvidia CUDA Drivers on Ubuntu</h1>
+      <p class="blog-post__meta">
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">John Griffith</span></span> on 
+        <time datetime="2017-02-20T00:52:00+00:00">Feb 20, 2017</time>
+      </p>
+    </header>
+    <div class="blog-post__body">
+      <p>Notes:
+This guide was written using an Ubuntu 16.04 image, therefore it may not work on other systems</p>
 
-<div class="page-section">
- 
-  
-    <h1>Coming up</h1>
-    <div class="featured-items">
-      
-        <a class="featured-item" href="/events/2020_06_11_stay_motivated/">
-          <div>
-            <h2>Stay Motivated</h2>
-            <p>Thursday 11 June at 14:30</p>
-            <p>Discord</p>
-            <p>Free</p>
-          </div>
-          <img src="/assets/images/contrib/events/2020_06_11_stay_motivated.png" alt="Stay Motivated banner"/>
-        </a>
-      
-      <a href="/events" class="btn">More</a>
+<ol>
+  <li>Connect to your AWS Instance, for instructions follow this <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html">guide</a></li>
+  <li>Next we install the dependencies for the CUDA installation
+    <ol>
+      <li>First update the package manage</li>
+      <li><code class="language-plaintext highlighter-rouge">sudo apt-get update</code></li>
+      <li>Install build essentials</li>
+      <li><code class="language-plaintext highlighter-rouge">sudo apt-get install build-essential</code></li>
+      <li>The newer versions of gcc and g++ can cause issues with popular machine learning libraries, so we’ll install older versions:</li>
+      <li><code class="language-plaintext highlighter-rouge">sudo apt-get install gcc-4.9</code></li>
+      <li><code class="language-plaintext highlighter-rouge">sudo apt-get install g++-4.8</code></li>
+      <li>Remove the original version and replace them with symbolic links to the older versions:</li>
+      <li><code class="language-plaintext highlighter-rouge">sudo rm -f /usr/bin/gcc</code></li>
+      <li><code class="language-plaintext highlighter-rouge">sudo rm -f /usr/bin/g++</code></li>
+      <li><code class="language-plaintext highlighter-rouge">sudo ln -s /usr/bin/g++-4.8 /usr/bin/g++</code></li>
+      <li><code class="language-plaintext highlighter-rouge">sudo ln -s /usr/bin/gcc-4.9 /usr/bin/gcc</code></li>
+      <li>Install the missing Linux header files:</li>
+      <li><code class="language-plaintext highlighter-rouge">sudo apt-get install linux-headers-generic</code></li>
+      <li>Next, reboot the server: <code class="language-plaintext highlighter-rouge">sudo reboot</code></li>
+    </ol>
+  </li>
+  <li>Download the CUDA toolkit
+    <ol>
+      <li>In your webrowser navigate to the <a href="https://developer.nvidia.com/cuda-downloads">CUDA download section</a></li>
+      <li>Navigate through to your target platform</li>
+      <li>For our target platform of Ubuntu 16.04, navigate: Linux &gt; x86_64 &gt; Ubuntu &gt; 16.04 &gt; run file (local)</li>
+      <li>Right click on the download link and select <code class="language-plaintext highlighter-rouge">copy link</code></li>
+      <li>Back in the terrainal window type <code class="language-plaintext highlighter-rouge">wget &lt;your_link&gt;</code> where <code class="language-plaintext highlighter-rouge">&lt;your_link&gt;</code> is the link you copied in the previous step</li>
+      <li>After the file has downloaded, change the permissions using <code class="language-plaintext highlighter-rouge">chmod 751 &lt;file_name&gt;</code> so we can run it</li>
+    </ol>
+  </li>
+  <li>Next run the installation <code class="language-plaintext highlighter-rouge">./&lt;file_name&gt;</code>
+    <ol>
+      <li>After reading the EULA press <code class="language-plaintext highlighter-rouge">q</code> to begin the installation</li>
+      <li>Follow the installation steps</li>
+    </ol>
+  </li>
+  <li>Next install NVIDIA Toolkit <code class="language-plaintext highlighter-rouge">sudo apt-get install nvidia-cuda-toolkit</code></li>
+  <li>Reboot the server <code class="language-plaintext highlighter-rouge">sudo reboot</code></li>
+  <li>If you have installed the Nvidia sample pack, build and the <code class="language-plaintext highlighter-rouge">deviceQuery</code> program located in <code class="language-plaintext highlighter-rouge">&lt;sample_dir&gt;/1_Utilities/deviceQuery</code></li>
+</ol>
+
+
+      <h2>Feedback</h2>
+      <p>Any issues with this tutorial? Submit <a href="https://github.com/cssbristol/cssbristol.github.io/issues">an issue</a> or a <a href="https://github.com/cssbristol/cssbristol.github.io/pulls">pull request</a> and we'll get it sorted out right away.
     </div>
-  
-</div>
-
-<section class="page-section page-section--shaded page-section--nopad-bottom">
-  <h1>Stay in the loop</h1>
-  <div class="social-links">
-    <a class="social-links__item social-links__item--facebook" href="https://www.facebook.com/groups/CSSBristol/" title="Facebook">
-      <i class="fab fa-facebook-f" aria-hidden="true"></i>
-    </a>
-
-    <a class="social-links__item social-links__item--instagram" href="https://instagram.com/cssbristol" title="Instagram">
-      <i class="fab fa-instagram" aria-hidden="true"></i>
-    </a>
-
-    <a class="social-links__item social-links__item--twitter" href="https://twitter.com/cssbristol" title="Twitter">
-      <i class="fab fa-twitter" aria-hidden="true"></i>
-    </a>
-
-    <a class="social-links__item social-links__item--discord" href="https://discord.gg/nYwbhf8" title="Twitter">
-      <i class="fab fa-discord" aria-hidden="true"></i>
-    </a>
-
-    <a class="social-links__item social-links__item--github" href="https://github.com/cssbristol" title="GitHub">
-      <i class="fab fa-github" aria-hidden="true"></i>
-    </a>
-
-    <a class="social-links__item social-links__item--linkedin" href="https://www.linkedin.com/groups/6512283" title="LinkedIn">
-      <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-    </a>
-
-    <a class="social-links__item social-links__item--youtube" href="http://www.youtube.com/c/cssbristoluk" title="YouTube">
-      <i class="fab fa-youtube" aria-hidden="true"></i>
-    </a>
-
-    <a class="social-links__item social-links__item--newsletter" href="/newsletter" title="Newletter">
-      <i class="far fa-envelope" aria-hidden="true"></i>
-    </a>
-  </div>
+  </article>
 </section>
-
-
-<!-- <section class="page-section page-section--nopad">
-  <h1>Twitter</h1>
-  <a class="twitter-timeline" data-width="1000" data-height="800" data-dnt="true" data-theme="light" data-link-color="#7EA84A" href="https://twitter.com/CSSBristol">Tweets by CSSBristol</a>
-  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-</section> -->
-
 
 
     <section class="page-section sponsorsec">

@@ -1,0 +1,2471 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+NAME:CSS Bristol Events
+URL:https://www.cssbristol.co.uk/events
+PRODID:-//CSS Bristol//NONSGML website//EN
+BEGIN:VEVENT
+UID:events-20161004oraclescale
+ @cssbristol.co.uk
+DTSTAMP:20161004T130000Z
+DTSTART:20161004T130000Z
+DTEND:20161004T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2016_10_04_oracle_scale/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2016_10_04_oracle_scale.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Oracle - Software Engineering at Global Scale
+DESCRIPTION:We’re lucky to have two engineers from Oracle’s...
+LOCATION:MVB 1.06
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20161013bloombergjvm
+ @cssbristol.co.uk
+DTSTAMP:20161013T130000Z
+DTSTART:20161013T130000Z
+DTEND:20161013T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2016_10_13_bloomberg_jvm/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2016_10_13_bloomberg_jvm.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Bloomberg - How the JVM Executes Java
+DESCRIPTION:We have an engineer from Bloomberg coming to ta...
+LOCATION:MVB 1.06
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20161025barcrawl
+ @cssbristol.co.uk
+DTSTAMP:20161025T200000Z
+DTSTART:20161025T200000Z
+DTEND:20161026T040000Z
+URL:https://www.cssbristol.co.uk
+ /events/2016_10_25_bar_crawl/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2016_10_25_bar_crawl.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS Bar Crawl
+DESCRIPTION:The CSS Bar Crawl returns for another year!Th...
+LOCATION:W.G. Grace
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20161026wellbeingdiscussion
+ @cssbristol.co.uk
+DTSTAMP:20161026T170000Z
+DTSTART:20161026T170000Z
+DTEND:20161026T190000Z
+URL:https://www.cssbristol.co.uk
+ /events/2016_10_26_wellbeing_discussion/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2016_10_26_wellbeing_discussion.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS Discusses: Wellbeing and Workload
+DESCRIPTION:Further to the success of last year’s Panel Dis...
+LOCATION:Pusley Lecture Theatre, Queens
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20161105codelounge
+ @cssbristol.co.uk
+DTSTAMP:20161105T110000Z
+DTSTART:20161105T110000Z
+DTEND:20161105T170000Z
+URL:https://www.cssbristol.co.uk
+ /events/2016_11_05_codelounge/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2016_11_05_codelounge.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CodeLounge
+DESCRIPTION:Confused about coding? Crying over your compile...
+LOCATION:MVB Lower Atrium
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20161109bloombergcodecon
+ @cssbristol.co.uk
+DTSTAMP:20161109T173000Z
+DTSTART:20161109T173000Z
+DTEND:20161109T200000Z
+URL:https://www.cssbristol.co.uk
+ /events/2016_11_09_bloomberg_codecon/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2016_11_09_bloomberg_codecon.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Bloomberg CodeCon
+DESCRIPTION:Bloomberg CodeCon is coming to Bristol Universi...
+LOCATION:Physics Enderby
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20161116expediaabtesting
+ @cssbristol.co.uk
+DTSTAMP:20161116T120000Z
+DTSTART:20161116T120000Z
+DTEND:20161116T130000Z
+URL:https://www.cssbristol.co.uk
+ /events/2016_11_16_expedia_ab_testing/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2016_11_16_expedia_ab_testing.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Expedia - A/B and Multi-variate testing
+DESCRIPTION:With any design, it is important to know how bi...
+LOCATION:MVB 1.06
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20161117gamesnight
+ @cssbristol.co.uk
+DTSTAMP:20161117T183000Z
+DTSTART:20161117T183000Z
+DTEND:20161117T213000Z
+URL:https://www.cssbristol.co.uk
+ /events/2016_11_17_games_night/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2016_11_17_games_night.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS+COGS Games and Pizza night
+DESCRIPTION:What’s the best way to chill after a long day o...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20161122greshamaws
+ @cssbristol.co.uk
+DTSTAMP:20161122T130000Z
+DTSTART:20161122T130000Z
+DTEND:20161122T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2016_11_22_gresham_aws/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2016_11_22_gresham_aws.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Gresham: AWS for secure, resilient and scalable...
+DESCRIPTION:Gresham Computing are coming to the department ...
+LOCATION:MVB 1.06
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20161123baectftalk
+ @cssbristol.co.uk
+DTSTAMP:20161123T110000Z
+DTSTART:20161123T110000Z
+DTEND:20161123T120000Z
+URL:https://www.cssbristol.co.uk
+ /events/2016_11_23_bae_ctf_talk/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2016_11_23_bae_ctf_talk.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:BAE Systems - Binary Exploitation and Reverse E...
+DESCRIPTION:This talk will briefly introduce BAE Systems Ap...
+LOCATION:MVB 1.06
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20161203baectf
+ @cssbristol.co.uk
+DTSTAMP:20161203T093000Z
+DTSTART:20161203T093000Z
+DTEND:20161203T163000Z
+URL:https://www.cssbristol.co.uk
+ /events/2016_12_03_bae_ctf/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2016_12_03_bae_ctf.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:BAE Cyber Security Capture the Flag
+DESCRIPTION:Note: signup is essential - don’t delay!About...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20161208oracleci
+ @cssbristol.co.uk
+DTSTAMP:20161208T130000Z
+DTSTART:20161208T130000Z
+DTEND:20151208T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2016_12_08_oracle_ci/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2016_12_08_oracle_ci.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Oracle: Delivering Fast and Slow
+DESCRIPTION:How do companies deliver software to their cust...
+LOCATION:MVB 1.06
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20161208pubquiz
+ @cssbristol.co.uk
+DTSTAMP:20161208T193000Z
+DTSTART:20161208T193000Z
+DTEND:20161208T220000Z
+URL:https://www.cssbristol.co.uk
+ /events/2016_12_08_pub_quiz/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2016_12_08_pub_quiz.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:2016 Christmas Pub Quiz
+DESCRIPTION:What’s this? A CSS Pub Quiz? Christmas must hav...
+LOCATION:The Brass Pig
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20170130postexamsocial
+ @cssbristol.co.uk
+DTSTAMP:20170130T200000Z
+DTSTART:20170130T200000Z
+DTEND:20170131T040000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_01_30_post_exam_social/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_01_30_post_exam_social.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:End Of Exams Social
+DESCRIPTION:Time to celebrate the end of Exams!Meet at th...
+LOCATION:The Berkeley
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20170131oracleci
+ @cssbristol.co.uk
+DTSTAMP:20170131T120000Z
+DTSTART:20170131T120000Z
+DTEND:20170131T130000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_01_31_oracle_ci/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_01_31_oracle_ci.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Oracle: Delivering Fast and Slow
+DESCRIPTION:How do companies deliver software to their cust...
+LOCATION:MVB 1.06
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20170208deloittesecurity
+ @cssbristol.co.uk
+DTSTAMP:20170208T130000Z
+DTSTART:20170208T130000Z
+DTEND:20170208T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_02_08_deloitte_security/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_02_08_deloitte_security.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Deloitte - Security in Banking
+DESCRIPTION:How do you deliver a secure Mobile Banking Expe...
+LOCATION:Pugsley Lecture Theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20170223hashcode
+ @cssbristol.co.uk
+DTSTAMP:20170223T170000Z
+DTSTART:20170223T170000Z
+DTEND:20170223T220000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_02_23_hashcode/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_02_23_hashcode.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Google Hash Code 2017
+DESCRIPTION:Hash Code is an online team programming competi...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20170302lightningtalks
+ @cssbristol.co.uk
+DTSTAMP:20170302T143000Z
+DTSTART:20170302T143000Z
+DTEND:20170302T160000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_03_02_lightning_talks/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_03_02_lightning_talks.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Lightning Talks
+DESCRIPTION:You’ve seen talks put on by companies in the in...
+LOCATION:MVB Lower Atrium
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20170302games
+ @cssbristol.co.uk
+DTSTAMP:20170302T170000Z
+DTSTART:20170302T170000Z
+DTEND:20170302T200000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_03_02_games/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_03_02_games.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS + COGS Pizza/Games Night
+DESCRIPTION:CSS and COGS meet again for another epic evenin...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20170303allstars
+ @cssbristol.co.uk
+DTSTAMP:20170303T170000Z
+DTSTART:20170303T170000Z
+DTEND:20170303T210000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_03_03_all_stars/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_03_03_all_stars.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Student/Staff All-Stars Trip
+DESCRIPTION:Why not round off Explore Week with a well dese...
+LOCATION:Allstars Sports Bar Bristol
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20170322fun
+ @cssbristol.co.uk
+DTSTAMP:20170322T120000Z
+DTSTART:20170322T120000Z
+DTEND:20170322T130000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_03_22_fun/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_03_22_fun.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Really fun things you aren't supposed to do wit...
+DESCRIPTION:Spring 1990, Berkeley: “You’re really going to ...
+LOCATION:MVB 1.06
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20170323dug
+ @cssbristol.co.uk
+DTSTAMP:20170323T140000Z
+DTSTART:20170323T140000Z
+DTEND:20170323T150000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_03_23_dug/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_03_23_dug.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Programming 14 Petaflops of Xeon Phis
+DESCRIPTION:DownUnder GeoSolutions are giving a talk about ...
+LOCATION:MVB 1.06
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20170330mysql
+ @cssbristol.co.uk
+DTSTAMP:20170330T170000Z
+DTSTART:20170330T170000Z
+DTEND:20170330T180000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_03_30_mysql/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_03_30_mysql.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:MySQL Talk
+DESCRIPTION:We’re hosting a talk by Monty Widenius, author ...
+LOCATION:Pugsley Lecture Theatre, Queen's Building
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20170330karaoke
+ @cssbristol.co.uk
+DTSTAMP:20170330T200000Z
+DTSTART:20170330T200000Z
+DTEND:20170330T235900Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_03_30_karaoke/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_03_30_karaoke.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Karaoke Social
+DESCRIPTION:After the Monty Widenius talk (https://www.face...
+LOCATION:Illusions Magic Bar
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20170426agm
+ @cssbristol.co.uk
+DTSTAMP:20170426T170000Z
+DTSTART:20170426T170000Z
+DTEND:20170426T200000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_04_26_agm/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_04_26_agm.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:AGM 2017
+DESCRIPTION:The time of year has come! The time where the C...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20170427armformalverification
+ @cssbristol.co.uk
+DTSTAMP:20170427T140000Z
+DTSTART:20170427T140000Z
+DTEND:20170427T150000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_04_27_arm_formal_verification/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_04_27_arm_formal_verification.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Formal Verification - ARM
+DESCRIPTION:In the ever-accelerating industry of CPU design...
+LOCATION:Queens 1.18
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20170918welcomedrinks
+ @cssbristol.co.uk
+DTSTAMP:20170918T193000Z
+DTSTART:20170918T193000Z
+DTEND:20170919T010000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_09_18_welcome_drinks/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_09_18_welcome_drinks.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Welcome Drinks 2017
+DESCRIPTION:Welcome, CSS members old and new! Come join us ...
+LOCATION:The Berkeley
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20171013bloombergcodecon
+ @cssbristol.co.uk
+DTSTAMP:20171013T183000Z
+DTSTART:20171013T183000Z
+DTEND:20171013T213000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_10_13_bloomberg_codecon/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_10_13_bloomberg_codecon.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Bloomberg CodeCon Qualifiers
+DESCRIPTION:CodeCon is coming back to Bristol on the 13th O...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20171019creditcall
+ @cssbristol.co.uk
+DTSTAMP:20171019T170000Z
+DTSTART:20171019T170000Z
+DTEND:20171019T220000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_10_19_creditcall/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_10_19_creditcall.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Eat; drink; talk code - with Creditcall
+DESCRIPTION:Creditcall is hosting a social at the White Har...
+LOCATION:The White Harte
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20171024g-researchcoding
+ @cssbristol.co.uk
+DTSTAMP:20171024T183000Z
+DTSTART:20171024T183000Z
+DTEND:20171024T213000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_10_24_g-research_coding/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_10_24_g-research_coding.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:G-Research Coding Challenge
+DESCRIPTION:Come along to 1.11A MVB on the 24th October for...
+LOCATION:MVB 1.11A
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20171101ux
+ @cssbristol.co.uk
+DTSTAMP:20171101T120000Z
+DTSTART:20171101T120000Z
+DTEND:20171101T130000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_11_01_ux/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_11_01_ux.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Bloomberg UX design and accessibility
+DESCRIPTION:We have an exciting talk this week from Bloombe...
+LOCATION:MVB 1.11A
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20171106alexa
+ @cssbristol.co.uk
+DTSTAMP:20171106T130000Z
+DTSTART:20171106T130000Z
+DTEND:20171106T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_11_06_alexa/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_11_06_alexa.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Amazon Alexa // Whos round is it anyway?
+DESCRIPTION:We’re excited to host Nick Hills from Bristol b...
+LOCATION:MVB 1.11A
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20171109iot
+ @cssbristol.co.uk
+DTSTAMP:20171109T133000Z
+DTSTART:20171109T133000Z
+DTEND:20171109T143000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_11_09_iot/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_11_09_iot.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:IoT at Scale
+DESCRIPTION:The Dyson Connectivity team design, develop and...
+LOCATION:MVB 1.11A
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20171114accessibilityhack
+ @cssbristol.co.uk
+DTSTAMP:20171114T100000Z
+DTSTART:20171114T100000Z
+DTEND:20171114T163000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_11_14_accessibility_hack/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_11_14_accessibility_hack.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Accessibility Hack
+DESCRIPTION:You asked for a shorter hackathon: we delivered!
+LOCATION:MVB Atrium
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20171115codelounge
+ @cssbristol.co.uk
+DTSTAMP:20171115T120000Z
+DTSTART:20171115T120000Z
+DTEND:20171115T160000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_11_15_codelounge/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_11_15_codelounge.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CodeLounge
+DESCRIPTION:Confused about coding? Crying over your compile...
+LOCATION:MVB Lower Atrium
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20171115omg
+ @cssbristol.co.uk
+DTSTAMP:20171115T220000Z
+DTSTART:20171115T220000Z
+DTEND:20171116T030000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_11_15_omg/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_11_15_omg.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:★ CSS explores OMG ★
+DESCRIPTION:Bored of coursework? Not had your weekly dose o...
+LOCATION:OMG Bristol
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20171116lightning
+ @cssbristol.co.uk
+DTSTAMP:20171116T140000Z
+DTSTART:20171116T140000Z
+DTEND:20171116T160000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_11_16_lightning/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_11_16_lightning.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Lightning Talks
+DESCRIPTION:You’ve seen talks put on by companies in the in...
+LOCATION:MVB Lower Atrium
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20171116games
+ @cssbristol.co.uk
+DTSTAMP:20171116T180000Z
+DTSTART:20171116T180000Z
+DTEND:20171116T213000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_11_16_games/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_11_16_games.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSSxCOGS Games and Pizza
+DESCRIPTION:CSS and COGS meet again for another epic evenin...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20171120ios
+ @cssbristol.co.uk
+DTSTAMP:20171120T130000Z
+DTSTART:20171120T130000Z
+DTEND:20171120T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_11_20_ios/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_11_20_ios.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Introduction to iOS development
+DESCRIPTION:To celebrate the opening of the new Hackspace w...
+LOCATION:MVB 1.11A
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20171120pubquiz
+ @cssbristol.co.uk
+DTSTAMP:20171120T180000Z
+DTSTART:20171120T180000Z
+DTEND:20171120T213000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_11_20_pub_quiz/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_11_20_pub_quiz.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Pub Quiz
+DESCRIPTION:Time has come for a CompSci Pub Quiz! Get yours...
+LOCATION:The Brass Pig
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20171124iosar
+ @cssbristol.co.uk
+DTSTAMP:20171124T130000Z
+DTSTART:20171124T130000Z
+DTEND:20171124T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_11_24_ios_ar/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_11_24_ios_ar.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Introduction to AR for IOS
+DESCRIPTION:After Monday’s successful workshop Jay has offe...
+LOCATION:MVB 1.11(A)
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20171127iosworkshop3
+ @cssbristol.co.uk
+DTSTAMP:20171127T130000Z
+DTSTART:20171127T130000Z
+DTEND:20171127T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_11_27_ios_workshop_3/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_11_27_ios_workshop_3.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Introduction to ML for IOS
+DESCRIPTION:Come along for the grand finale of our iOS work...
+LOCATION:MVB 1.11A
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20171201armprocessor
+ @cssbristol.co.uk
+DTSTAMP:20171201T120000Z
+DTSTART:20171201T120000Z
+DTEND:20171201T130000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_12_01_arm_processor/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_12_01_arm_processors.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Next generation arm processors
+DESCRIPTION:The talk is held at Merchant Ventures Building,...
+LOCATION:MVB 1.11/1.11(A)
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20171205cameratalk
+ @cssbristol.co.uk
+DTSTAMP:20171205T120000Z
+DTSTART:20171205T120000Z
+DTEND:20171205T130000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_12_05_camera_talk/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_12_05_camera_talk.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:What can a wearable camera know about me?
+DESCRIPTION:Mobile cameras are everywhere; wearable cameras...
+LOCATION:MVB 1.11A
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20171206xmasdrinks
+ @cssbristol.co.uk
+DTSTAMP:20171206T190000Z
+DTSTART:20171206T190000Z
+DTEND:20171206T220000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017_12_06_xmas_drinks/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017_12_06_xmas_drinks.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Christmas Drinks!
+DESCRIPTION:Take a break from the burden of coursework and ...
+LOCATION:The Berkeley
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180125endexamsbarcrawl
+ @cssbristol.co.uk
+DTSTAMP:20180125T200000Z
+DTSTART:20180125T200000Z
+DTEND:20180126T020000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_01_25_end_exams_bar_crawl/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_01_25_end_exams_bar_crawl.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:After Exams Bar Crawl
+DESCRIPTION:“Let’s start our coursework!” Or “Spoons?”
+LOCATION:White Harte
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180127aigaminghack
+ @cssbristol.co.uk
+DTSTAMP:20180127T173000Z
+DTSTART:20180127T173000Z
+DTEND:20180127T220000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_01_27_aigaming_hack/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_01_27_aigaming_hack.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:AIGaming Competition
+DESCRIPTION:It’s our first event of this term! You’ll be wr...
+LOCATION:Queens F101
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180201pyntsizedpython
+ @cssbristol.co.uk
+DTSTAMP:20180201T130000Z
+DTSTART:20180201T130000Z
+DTEND:20180201T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_02_01_pyntsized_python/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_02_01_pyntsized_python.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Pyntsized Python: A language in an hour
+DESCRIPTION:Join us for the first talk/workshop of the year...
+LOCATION:MVB 1.11A
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180214baehacktalk
+ @cssbristol.co.uk
+DTSTAMP:20180214T130000Z
+DTSTART:20180214T130000Z
+DTEND:20180214T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_02_14_bae_hack_talk/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_02_14_bae_hack_talk.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:How To Hack a Computer
+DESCRIPTION:Break hearts on valentines day with your newly ...
+LOCATION:Queens 1.69
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180217baectf
+ @cssbristol.co.uk
+DTSTAMP:20180217T094500Z
+DTSTART:20180217T094500Z
+DTEND:20180217T160000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_02_17_bae_ctf/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_02_17_bae_ctf.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:BAE CTF
+DESCRIPTION:///// SEE SIGNUP DETAILS BELOW! /////BAE Syst...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180222boardgamenight
+ @cssbristol.co.uk
+DTSTAMP:20180222T180000Z
+DTSTART:20180222T180000Z
+DTEND:20180222T200000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_02_22_board_game_night/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_02_22_board_game_night.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Board Games Night
+DESCRIPTION:With the help of Just Eat, join us for a magica...
+LOCATION:Broad Quay House
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180222pintofprogramming
+ @cssbristol.co.uk
+DTSTAMP:20180222T180000Z
+DTSTART:20180222T180000Z
+DTEND:20180222T220000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_02_22_pint_of_programming/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_02_22_pint_of_programming.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:A Pint of Programming
+DESCRIPTION:Join us at The White Harte Pub for Beer and Pro...
+LOCATION:The White Heart
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180301hashcode
+ @cssbristol.co.uk
+DTSTAMP:20180301T183000Z
+DTSTART:20180301T183000Z
+DTEND:20180301T223000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_03_01_hashcode/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_03_01_hashcode.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Google Hash Code 2018
+DESCRIPTION:// SIGN UP NOW! //https://events.withgoogle.co...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180302minecraft
+ @cssbristol.co.uk
+DTSTAMP:20180302T160000Z
+DTSTART:20180302T160000Z
+DTEND:20180302T200000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_03_02_minecraft/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_03_02_minecraft.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS Does Minecraft!
+DESCRIPTION:Need a calm break from the chaos that is CS? Co...
+LOCATION:MVB Atrium
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180307diversity
+ @cssbristol.co.uk
+DTSTAMP:20180307T133000Z
+DTSTART:20180307T133000Z
+DTEND:20180307T170000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_03_07_diversity/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_03_07_diversity.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Diversity in STEM
+DESCRIPTION:Have you ever felt underrepresented within the ...
+LOCATION:School of Chemistry
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180308creditcall
+ @cssbristol.co.uk
+DTSTAMP:20180308T130000Z
+DTSTART:20180308T130000Z
+DTEND:20180308T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_03_08_creditcall/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_03_08_creditcall.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Tech Talk: The technology behind payments
+DESCRIPTION:We’ll have Creditcall’s CTO here to talk about ...
+LOCATION:MVB 1.11
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180308rights
+ @cssbristol.co.uk
+DTSTAMP:20180308T171500Z
+DTSTART:20180308T171500Z
+DTEND:20180308T181500Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_03_08_rights/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_03_08_rights.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Big Brother Watch: Championing Civil Rights in ...
+DESCRIPTION:Come to the first event in our series “Digital ...
+LOCATION:Wodehouse LT, 35 Berkeley Square
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180314digitaldilemma
+ @cssbristol.co.uk
+DTSTAMP:20180314T171500Z
+DTSTART:20180314T171500Z
+DTEND:20180314T191500Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_03_14_digital_dilemma/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_03_14_digital_dilemma.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Technological Revolution: Implications for Demo...
+DESCRIPTION:Join us on Wednesday 14 March for the #DigitalD...
+LOCATION:1.15 Queens Building
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180315units
+ @cssbristol.co.uk
+DTSTAMP:20180315T130000Z
+DTSTART:20180315T130000Z
+DTEND:20180315T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_03_15_units/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_03_15_units.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Units Choice Exhibition
+DESCRIPTION:You asked for it, you waited for it for a long ...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180315mvball
+ @cssbristol.co.uk
+DTSTAMP:20180315T190000Z
+DTSTART:20180315T190000Z
+DTEND:20180316T000000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_03_15_mvball/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_03_15_mvball.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:MVBAll 2018
+DESCRIPTION:Tickets are now sold out! We look forward to se...
+LOCATION:Mercure Bristol Grand Hotel
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180316bloombergml
+ @cssbristol.co.uk
+DTSTAMP:20180316T120000Z
+DTSTART:20180316T120000Z
+DTEND:20180316T130000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_03_16_bloomberg_ml/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_03_16_bloomberg_ml.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Tech Talk: Read Less, Learn More
+DESCRIPTION:Come to Queens 1.6 at 12pm on March 16th for a ...
+LOCATION:Queens 1.6
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180329datadebate
+ @cssbristol.co.uk
+DTSTAMP:20180320T171500Z
+DTSTART:20180320T171500Z
+DTEND:20180320T183000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_03_29_data_debate/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_03_20_debate.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Debate: AI, Media & our obsession with Data
+DESCRIPTION:Join us on Tuesday for the third &amp; the last...
+LOCATION:1.68 Queens
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180411agm
+ @cssbristol.co.uk
+DTSTAMP:20180418T171500Z
+DTSTART:20180418T171500Z
+DTEND:20180418T184500Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_04_11_agm/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_04_11_agm.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:AGM 2018
+DESCRIPTION:It’s that time of year again! Come to the CSS A...
+LOCATION:MVB 1.11/1.11(A)
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180602bbq
+ @cssbristol.co.uk
+DTSTAMP:20180602T120000Z
+DTSTART:20180602T120000Z
+DTEND:20180602T180000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_06_02_bbq/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_06_02_bbq.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:2018 Summer BBQ
+DESCRIPTION:The annual CSS BBQ is upon us again!Join us a...
+LOCATION:Brandon Hill
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180924welcome
+ @cssbristol.co.uk
+DTSTAMP:20180924T180000Z
+DTSTART:20180924T180000Z
+DTEND:20180924T230000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_09_24_welcome/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_09_24_welcome.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS Welcome Drinks 2018
+DESCRIPTION:Welcome (back) to uni!Join us at at the White ...
+LOCATION:The White Harte
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20180927family
+ @cssbristol.co.uk
+DTSTAMP:20180927T130000Z
+DTSTART:20180927T130000Z
+DTEND:20180927T163000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_09_27_family/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_09_27_family.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS Family Meetup
+DESCRIPTION:All new first-year CS students are invited to c...
+LOCATION:MVB
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181004scavenger
+ @cssbristol.co.uk
+DTSTAMP:20181004T203000Z
+DTSTART:20181004T203000Z
+DTEND:20181004T223000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_10_04_scavenger/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_10_04_scavenger.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Family Scavenger Hung
+DESCRIPTION:Hey all!
+LOCATION:The Berkeley Wetherspoons
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181011git
+ @cssbristol.co.uk
+DTSTAMP:20181011T130000Z
+DTSTART:20181011T130000Z
+DTEND:20181011T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_10_11_git/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_10_11_git.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Intro To Git
+DESCRIPTION:Welcome to our first talk of the year!Our very...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181015siliconvalley
+ @cssbristol.co.uk
+DTSTAMP:20181015T130000Z
+DTSTART:20181015T130000Z
+DTEND:20181015T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_10_15_silicon_valley/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_10_15_silicon_valley.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Talk - Silicon Valley
+DESCRIPTION:Two graduates from the University of Bristol, T...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181016pythonbloomberg
+ @cssbristol.co.uk
+DTSTAMP:20181016T130000Z
+DTSTART:20181016T130000Z
+DTEND:20181016T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_10_16_python_bloomberg/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_10_16_python_bloomberg.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Declarative Software Design in Python by Bloomberg
+DESCRIPTION:📍 WHERE: Queens Building, 1.15🕐 WHEN: 13:00-13...
+LOCATION:Queens 1.15
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181016sciencesbarcrawl
+ @cssbristol.co.uk
+DTSTAMP:20181016T210000Z
+DTSTART:20181016T210000Z
+DTEND:20181017T040000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_10_16_sciences_bar_crawl/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_10_16_sciences_bar_crawl.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Sciences Bar Crawl 2018
+DESCRIPTION:Join us on the Sciences Bar Crawl!
+LOCATION:Berkeley Wetherspoons
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181018arduino
+ @cssbristol.co.uk
+DTSTAMP:20181018T130000Z
+DTSTART:20181018T130000Z
+DTEND:20181018T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_10_18_arduino/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_10_18_arduino.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Intro to Arduino - Workshop Session 1
+DESCRIPTION:Welcome to the third session of the Intro to Ar...
+LOCATION:MVB Hackspace
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181019arduino
+ @cssbristol.co.uk
+DTSTAMP:20181019T130000Z
+DTSTART:20181019T130000Z
+DTEND:20181019T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_10_19_arduino/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_10_19_arduino.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Intro to Arduino - Workshop Session 2
+DESCRIPTION:Welcome to the third session of the Intro to Ar...
+LOCATION:MVB Hackspace
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181023arduino
+ @cssbristol.co.uk
+DTSTAMP:20181023T130000Z
+DTSTART:20181023T130000Z
+DTEND:20181023T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_10_23_arduino/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_10_23_arduino.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Intro to Arduino - Workshop Session 3
+DESCRIPTION:Welcome to the third session of the Intro to Ar...
+LOCATION:MVB Hackspace
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181023barcrawl
+ @cssbristol.co.uk
+DTSTAMP:20181023T200000Z
+DTSTART:20181023T200000Z
+DTEND:20181024T040000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_10_23_bar_crawl/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_10_23_bar_crawl.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS Bar Crawl 2018
+DESCRIPTION:It’s that time of year again! Get your t-shirt ...
+LOCATION:The White Harte
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181027cogslan
+ @cssbristol.co.uk
+DTSTAMP:20181027T100000Z
+DTSTART:20181027T100000Z
+DTEND:20181028T100000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_10_27_cogs_lan/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_10_27_cogs_lan.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSSxCOGS Lan Party
+DESCRIPTION:First COGS LAN of the year, joint with the Comp...
+LOCATION:MVB
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181031netflixandthrill
+ @cssbristol.co.uk
+DTSTAMP:20181031T160000Z
+DTSTART:20181031T160000Z
+DTEND:20181031T180000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_10_31_netflix_and_thrill/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_10_31_netflix_and_thrill.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Netflix and Thrill
+DESCRIPTION:Hey all! You can’t celebrate Halloween without ...
+LOCATION:Chemistry LT3
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181101visa
+ @cssbristol.co.uk
+DTSTAMP:20181101T130000Z
+DTSTART:20181101T130000Z
+DTEND:20181101T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_11_01_visa/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_11_01_visa.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Visa Talk
+DESCRIPTION:Philip Adler, visiting from Visa, will speak ab...
+LOCATION:MVB 1.11/1.11(A)
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181101ghyston
+ @cssbristol.co.uk
+DTSTAMP:20181101T160000Z
+DTSTART:20181101T160000Z
+DTEND:20181101T220000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_11_01_ghyston/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_11_01_ghyston.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Meet the Devs at Ghyston
+DESCRIPTION:📍 WHERE: Cosy Club, 31 Corn St, BS1 1HT🕐 WHEN:...
+LOCATION:Cosy Club
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181109codecon
+ @cssbristol.co.uk
+DTSTAMP:20181109T173000Z
+DTSTART:20181109T173000Z
+DTEND:20181109T203000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_11_09_codecon/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_11_09_codecon.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Bloomberg CodeCon 2018
+DESCRIPTION:Open to all coders, CodeCon is a Global program...
+LOCATION:MVB 1.11/1.11(A)
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181115unity
+ @cssbristol.co.uk
+DTSTAMP:20181115T130000Z
+DTSTART:20181115T130000Z
+DTEND:20181115T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_11_15_unity/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_11_15_unity.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Intro to Unity | Explore Week
+DESCRIPTION:Ibrahim Qasim is giving an introductory talk on...
+LOCATION:MVB 1.11/1.11A
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181116egm
+ @cssbristol.co.uk
+DTSTAMP:20181116T170000Z
+DTSTART:20181116T170000Z
+DTEND:20181116T181500Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_11_16_egm/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_11_16_egm.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:EGM
+DESCRIPTION:VOTING LINKS (use Bristol email):  Motion 1: ...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181119gamejam
+ @cssbristol.co.uk
+DTSTAMP:20181119T100000Z
+DTSTART:20181119T100000Z
+DTEND:20181120T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_11_19_gamejam/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_11_19_gamejam.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Game Jam | Explore Week
+DESCRIPTION:Our 24h in-house Gamejam is here.
+LOCATION:MVB
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181119panel
+ @cssbristol.co.uk
+DTSTAMP:20181119T100000Z
+DTSTART:20181119T100000Z
+DTEND:20181119T110000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_11_19_panel/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_11_19_panel.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Game Industry Panel | Explore Week
+DESCRIPTION:A few special guests from the games industry ar...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181121omg
+ @cssbristol.co.uk
+DTSTAMP:20181121T200000Z
+DTSTART:20181121T200000Z
+DTEND:20181122T040000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_11_21_omg/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_11_21_omg.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS takes on OMG!
+DESCRIPTION:Hey all! For our next social we will start at t...
+LOCATION:OMG
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181122lounge
+ @cssbristol.co.uk
+DTSTAMP:20181122T130000Z
+DTSTART:20181122T130000Z
+DTEND:20181122T150000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_11_22_lounge/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_11_22_lounge.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Code Lounge | Explore Week
+DESCRIPTION:Confounded with currying? Confused by cryptogra...
+LOCATION:MVB Lower Atrium
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181123lightning
+ @cssbristol.co.uk
+DTSTAMP:20181123T130000Z
+DTSTART:20181123T130000Z
+DTEND:20181123T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_11_23_lightning/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_11_23_lightning.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Lightning Talks | Explore Week
+DESCRIPTION:/// INTERESTED IN GIVING A TALK? ///https://go...
+LOCATION:MVB 1.11/1.11A
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181127cookpad
+ @cssbristol.co.uk
+DTSTAMP:20181127T130000Z
+DTSTART:20181127T130000Z
+DTEND:20181127T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_11_27_cookpad/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_11_27_cookpad.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:A Journey Through Recipies and Embeddings | Coo...
+DESCRIPTION:Gianandrea Minneci is coming down from Cookpad,...
+LOCATION:Queens 1.15
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181204btctf
+ @cssbristol.co.uk
+DTSTAMP:20181204T180000Z
+DTSTART:20181204T180000Z
+DTEND:20181204T203000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_12_04_bt_ctf/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_12_04_bt_ctf.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:BT CTF
+DESCRIPTION:BT Security are running a Capture the Flag (CTF...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181214iceskating
+ @cssbristol.co.uk
+DTSTAMP:20181214T200000Z
+DTSTART:20181214T200000Z
+DTEND:20181214T235900Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_12_14_ice_skating/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_12_14_ice_skating.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS on Ice!
+DESCRIPTION:No better way to get into the Christmas spirit ...
+LOCATION:We The Curious
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181218mvball
+ @cssbristol.co.uk
+DTSTAMP:20181218T190000Z
+DTSTART:20181218T190000Z
+DTEND:20181218T230000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_12_18_mvball/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_12_18_mvball.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:MVBall
+DESCRIPTION:CSS and BEEES are excited to announce our secon...
+LOCATION:Mercure Bristol Grand Hotel
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181218mvballafter
+ @cssbristol.co.uk
+DTSTAMP:20181218T230000Z
+DTSTART:20181218T230000Z
+DTEND:20181219T040000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_12_18_mvball_after/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_12_18_mvball_after.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:MVBall Official After Party
+DESCRIPTION:Wristbands for discounted entry will be given o...
+LOCATION:Lola Lo
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181220pubquiz
+ @cssbristol.co.uk
+DTSTAMP:20181220T183000Z
+DTSTART:20181220T183000Z
+DTEND:20181220T213000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_12_20_pub_quiz/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_12_20_pub_quiz.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS Christmas Pub Quiz
+DESCRIPTION:Hosted by the legendary Quizmaster ✨HAKEEM KUSH...
+LOCATION:The White Rabbit
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20181222minecraft
+ @cssbristol.co.uk
+DTSTAMP:20181222T130000Z
+DTSTART:20181222T130000Z
+DTEND:20190201T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018_12_22_minecraft/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_12_22_minecraft.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS plays Minecraft
+DESCRIPTION:Connecting
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190125endexamdrinks
+ @cssbristol.co.uk
+DTSTAMP:20190125T180000Z
+DTSTART:20190125T180000Z
+DTEND:20190125T230000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_01_25_end_exam_drinks/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_01_25_end_exam_drinks.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:End of exam drinks
+DESCRIPTION:Exams are over - time to celebrate!Join us at ...
+LOCATION:The White Harte
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190207dyson
+ @cssbristol.co.uk
+DTSTAMP:20190207T130000Z
+DTSTART:20190207T130000Z
+DTEND:20190207T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_02_07_dyson/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_02_07_dyson.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Dyson's Experts Present
+DESCRIPTION:CSS presents a series of three short talks from...
+LOCATION:Pugsley
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190216baectf
+ @cssbristol.co.uk
+DTSTAMP:20190216T090000Z
+DTSTART:20190216T090000Z
+DTEND:20190216T163000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_02_16_bae_ctf/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_02_16_bae_ctf.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:BAE Systems CTF 2019
+DESCRIPTION:BAE Systems Applied Intelligence are running a ...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190221whitetshirt
+ @cssbristol.co.uk
+DTSTAMP:20190221T200000Z
+DTSTART:20190221T200000Z
+DTEND:20190222T040000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_02_21_white_tshirt/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_02_21_white_tshirt.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:White T-Shirt Social
+DESCRIPTION:Hello everyone! It’s time for our next social a...
+LOCATION:The Berkeley Wetherspoons
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190228hashcode
+ @cssbristol.co.uk
+DTSTAMP:20190228T170000Z
+DTSTART:20190228T170000Z
+DTEND:20190228T213000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_02_28_hash_code/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_02_28_hash_code.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Google Hash Code 2019
+DESCRIPTION:IMPORTANT: This event requires registration ahe...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190305codelounge
+ @cssbristol.co.uk
+DTSTAMP:20190305T130000Z
+DTSTART:20190305T130000Z
+DTEND:20190305T150000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_03_05_code_lounge/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_03_05_code_lounge.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CodeLounge II | Explore Week
+DESCRIPTION:Confounded with currying? Confused by cryptogra...
+LOCATION:MVB 1.11A
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190306curriculuminp
+ @cssbristol.co.uk
+DTSTAMP:20190306T110000Z
+DTSTART:20190306T110000Z
+DTEND:20190306T130000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_03_06_curriculum_inp/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_03_06_curriculum_inp.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CS Curriculum Input Session
+DESCRIPTION:The CS department is exploring how they can mak...
+LOCATION:Queens Building 1.7
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190306hardwarehacking
+ @cssbristol.co.uk
+DTSTAMP:20190306T170000Z
+DTSTART:20190306T170000Z
+DTEND:20190306T180000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_03_06_hardware_hacking/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_03_06_hardware_hacking.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:An Introduction to Hardware Hacking
+DESCRIPTION:In this talk/discussion we will go over what ha...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190307datascience
+ @cssbristol.co.uk
+DTSTAMP:20190307T130000Z
+DTSTART:20190307T130000Z
+DTEND:20190307T160000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_03_07_data_science/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_03_07_data_science.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Meet Industry in CS & Data science | Explore week
+DESCRIPTION:The department has recently established two Ext...
+LOCATION:MVB 1.11A
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190307pubquiz
+ @cssbristol.co.uk
+DTSTAMP:20190307T190000Z
+DTSTART:20190307T190000Z
+DTEND:20190307T220000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_03_07_pub_quiz/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_03_07_pub_quiz.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Pub Quiz with TPP | Explore Week
+DESCRIPTION:Join us at Racks Bar &amp; Kitchen for a Pub Qu...
+LOCATION:Racks Bar & Kitchen
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190308hackathon
+ @cssbristol.co.uk
+DTSTAMP:20190308T130000Z
+DTSTART:20190308T130000Z
+DTEND:20190308T150000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_03_08_hackathon/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_03_08_hackathon.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSSxBoeing Hackathon 2019
+DESCRIPTION:The CSSxBoeing Hackathon is back!
+LOCATION:MVB Atrium
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190312iandrinks
+ @cssbristol.co.uk
+DTSTAMP:20190312T200000Z
+DTSTART:20190312T200000Z
+DTEND:20190313T040000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_03_12_ian_drinks/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_03_12_ian_drinks.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Dr Ian's Leaving Drinks | CSS Bar Crawl 2
+DESCRIPTION:TICKETS BOUGHT PAST 6th MARCH WILL INCLUDE ENTR...
+LOCATION:Alterego
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190314flowers
+ @cssbristol.co.uk
+DTSTAMP:20190314T130000Z
+DTSTART:20190314T130000Z
+DTEND:20190314T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_03_14_flowers/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_03_14_flowers.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Stop and Smell the Flowers - Augmenting VR with...
+DESCRIPTION:Dr. Jon Bird Has offered to give a talk on his ...
+LOCATION:Pugsley
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190329whatunit
+ @cssbristol.co.uk
+DTSTAMP:20190329T130000Z
+DTSTART:20190329T130000Z
+DTEND:20190329T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_03_29_what_unit/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_03_29_what_unit.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CS Unit Choices Exhibition
+DESCRIPTION:📍 WHERE: MVB 1.11A🕐 WHEN: 13:00-13:50—Come a...
+LOCATION:MVB 1.11A
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190403cssminihack
+ @cssbristol.co.uk
+DTSTAMP:20190403T173000Z
+DTSTART:20190403T173000Z
+DTEND:20190403T214000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_04_03_css_minihack/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_04_03_css_minihack.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSSxAI Gaming Minihack
+DESCRIPTION:Join us and the lovely guys from AIGaming and c...
+LOCATION:MVB
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190503agm
+ @cssbristol.co.uk
+DTSTAMP:20190503T170000Z
+DTSTART:20190503T170000Z
+DTEND:20190503T200000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_05_03_agm/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_05_03_agm.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS AGM 2019
+DESCRIPTION:CSS AGM 2019
+LOCATION:MVB 1.11/1.11(A)
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190609BBQbanner
+ @cssbristol.co.uk
+DTSTAMP:20190609T130000Z
+DTSTART:20190609T130000Z
+DTEND:20190609T180000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_06_09_BBQ_banner/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_06_09_BBQ_banner.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:BarbeqWU
+DESCRIPTION:Join us for a post-exam barbeqWU!Free food, al...
+LOCATION:Brandon Hill
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190924welcomedrinks
+ @cssbristol.co.uk
+DTSTAMP:20190924T190000Z
+DTSTART:20190924T190000Z
+DTEND:20190924T230000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_09_24_welcome_drinks/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_09_24_welcome_drinks.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Freshers Welcome Drinks
+DESCRIPTION:Join us at 7pm for drinks (and food if you are ...
+LOCATION:The White Harte
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20190926familymeetup
+ @cssbristol.co.uk
+DTSTAMP:20190926T130000Z
+DTSTART:20190926T130000Z
+DTEND:20190926T170000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_09_26_family_meet_up/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_09_26_family_meet_up.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Family Meet Up
+DESCRIPTION:Freshers come and meet your CS family, play som...
+LOCATION:MVB Atrium
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191009gittalk
+ @cssbristol.co.uk
+DTSTAMP:20191009T130000Z
+DTSTART:20191009T130000Z
+DTEND:20191009T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_10_09_git_talk/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_10_09_git_talk.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:GIT GUD with David
+DESCRIPTION:Git is an extremely powerful version control to...
+LOCATION:MVB 1.11/1.11(A)
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191009cssdoesboardgames
+ @cssbristol.co.uk
+DTSTAMP:20191009T140000Z
+DTSTART:20191009T140000Z
+DTEND:20191009T170000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_10_09_css_does_board_games/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_10_09_css_does_board_games.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Board games night
+DESCRIPTION:Join us for a fun filled evening with board gam...
+LOCATION:MVB Atrium
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191014safeleavingdrinks
+ @cssbristol.co.uk
+DTSTAMP:20191014T190000Z
+DTSTART:20191014T190000Z
+DTEND:20191014T210000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_10_14_safe_leaving_drinks/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_10_14_safe_leaving_drinks.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:SAFE Leaving Drinks
+DESCRIPTION:SAFE is going off tonight :’(
+LOCATION:The White Bear
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191019BAECTF
+ @cssbristol.co.uk
+DTSTAMP:20191019T091500Z
+DTSTART:20191019T091500Z
+DTEND:20191019T163000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_10_19_BAE_CTF/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_10_19_BAE_CTF.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:BAE System AI CTF
+DESCRIPTION:Tldr; you must email ctf@baesystems.com with yo...
+LOCATION:MVB Atrium
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191024teachingCSSdoescareers
+ @cssbristol.co.uk
+DTSTAMP:20191024T130000Z
+DTSTART:20191024T130000Z
+DTEND:20191024T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_10_24_teaching_CSS_does_careers/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_10_24_teaching_CSS_does_careers.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:A Panel of Teaching
+DESCRIPTION:Find out what a career in teaching is like with...
+LOCATION:MVB 1.11/1.11(A)
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191029PhDsCSSdoescareers
+ @cssbristol.co.uk
+DTSTAMP:20191029T130000Z
+DTSTART:20191029T130000Z
+DTEND:20191029T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_10_29_PhDs_CSS_does_careers/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_10_29_PhDs_CSS_does_careers.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:A panel of PhDs
+DESCRIPTION:Find out what it’s like to do a PhD from curren...
+LOCATION:1.18 Queens
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191030morganstanlyinteview
+ @cssbristol.co.uk
+DTSTAMP:20191030T130000Z
+DTSTART:20191030T130000Z
+DTEND:20191030T160000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_10_30_morgan_stanly_inteview/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_10_30_morgan_stanly_inteview.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Morgan Stanley Interview Skills
+DESCRIPTION:Morgan Stanley believes capital has the power t...
+LOCATION:Queens 1.6
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191031csswatchesamovie
+ @cssbristol.co.uk
+DTSTAMP:20191031T180000Z
+DTSTART:20191031T180000Z
+DTEND:20191031T213000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_10_31_css_watches_a_movie/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_10_31_movie.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS Watches a Movie
+DESCRIPTION:Join us to watch a Halloween movie on Halloween...
+LOCATION:Pugsley Queens
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191101StartupsCSSdoescareers
+ @cssbristol.co.uk
+DTSTAMP:20191101T130000Z
+DTSTART:20191101T130000Z
+DTEND:20191101T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_11_01_Start_ups_CSS_does_careers/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_11_01_Start_ups_CSS_does_careers.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:A panel of Start-ups
+DESCRIPTION:A panel of Bristol based entrepreneurs, includi...
+LOCATION:1.68 Queens
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191102csscogslan
+ @cssbristol.co.uk
+DTSTAMP:20191102T120000Z
+DTSTART:20191102T120000Z
+DTEND:20191103T120000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_11_02_css_cogs_lan/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_11_02_css_cogs_lan.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSSxCOGS Lan
+DESCRIPTION:Come along to 1.11 in MVB for 24 hours of gamin...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191106boardgames
+ @cssbristol.co.uk
+DTSTAMP:20191106T140000Z
+DTSTART:20191106T140000Z
+DTEND:20191106T170000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_11_06_board_games/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_11_06_css_does_board_games.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Board Games night pt2
+DESCRIPTION:Join us for a night of fun with your favorite b...
+LOCATION:MVB Lower ATrium
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191112Jumptradingdistsystems
+ @cssbristol.co.uk
+DTSTAMP:20191112T130000Z
+DTSTART:20191112T130000Z
+DTEND:20191112T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_11_12_Jump_trading_dist_systems/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_11_12_Jump_trading_dist_systems.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Jump Trading's trading systems
+DESCRIPTION:A tech talk by Jump Trading, one of our new, lo...
+LOCATION:1.18 Queens
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191115November2019egm
+ @cssbristol.co.uk
+DTSTAMP:20191115T180000Z
+DTSTART:20191115T180000Z
+DTEND:20191115T200000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_11_15_November_2019_egm/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_11_15_November_2019_egm.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:2019 EGM
+DESCRIPTION:Join us for our October EGM where will elect ou...
+LOCATION:MVB 1.11/1.11(A)
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191120bloombergcv
+ @cssbristol.co.uk
+DTSTAMP:20191120T130000Z
+DTSTART:20191120T130000Z
+DTEND:20191120T160000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_11_20_bloomberg_cv/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_11_20_bloomberg_cv.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Bloomberg interview and CV workshop
+DESCRIPTION:Join us for an interview skills and CV workshop...
+LOCATION:MVB 1.15
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191120gamedev
+ @cssbristol.co.uk
+DTSTAMP:20191120T140000Z
+DTSTART:20191120T140000Z
+DTEND:20191120T150000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_11_20_game_dev/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_11_20_game_dev.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Principles of Game design
+DESCRIPTION:Come to our first talk to get you ready for the...
+LOCATION:Qeeuns 1.18
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191121howgamejam
+ @cssbristol.co.uk
+DTSTAMP:20191120T150000Z
+DTSTART:20191120T150000Z
+DTEND:20191120T160000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_11_21_how_game_jam/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_11_21_how_game_jam.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:How to Game Jam
+DESCRIPTION:Prepare yourselves for the upcoming CSS Game Ja...
+LOCATION:MVB 2.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191122Exploreweekgamejam
+ @cssbristol.co.uk
+DTSTAMP:20191122T110000Z
+DTSTART:20191122T110000Z
+DTEND:20191123T150000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_11_22_Explore_week_game_jam/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_11_22_Explore_week_game_jam.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Game Jam
+DESCRIPTION:Join us from Friday to Saturday to make the bes...
+LOCATION:MVB Atrium
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191127Graphcoreai
+ @cssbristol.co.uk
+DTSTAMP:20191127T130000Z
+DTSTART:20191127T130000Z
+DTEND:20191127T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_11_27_Graphcore_ai/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_11_27_Graphcore_ai.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:AI algorithms for large scale machines by Graph...
+DESCRIPTION:Our IPU accelerators and Poplar software togeth...
+LOCATION:Queens 1.6 SLT
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191128TriangleCrawl
+ @cssbristol.co.uk
+DTSTAMP:20191127T200000Z
+DTSTART:20191127T200000Z
+DTEND:20191128T040000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_11_28_Triangle_Crawl/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_11_28_Triangle_Crawl.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Triangle Crawl
+DESCRIPTION:Come along to the first CSS Bar Crawl of the Ye...
+LOCATION:The White Harte
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191128csslvpowerofdata
+ @cssbristol.co.uk
+DTSTAMP:20191128T130000Z
+DTSTART:20191128T130000Z
+DTEND:20191128T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_11_28_css_lv_power_of_data/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_11_28_css_lv_power_of_data.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:The power of Data Science by LV=
+DESCRIPTION:LV=GI’s data science team utilises machine lear...
+LOCATION:Quuens 1.15 SLT
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191129treedec
+ @cssbristol.co.uk
+DTSTAMP:20191129T130000Z
+DTSTART:20191129T130000Z
+DTEND:20191129T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_11_29_tree_dec/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_11_29_tree.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Decorating MVB's Christmas Tree
+DESCRIPTION:Join us to decorate the big Christmas tree that...
+LOCATION:MVB Atrium
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191203bpuzzled
+ @cssbristol.co.uk
+DTSTAMP:20191203T180000Z
+DTSTART:20191203T180000Z
+DTEND:20191203T200000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_12_03_bpuzzled/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_12_03_bpuzzled.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:BPuzzled - Bloomberg Logic Puzzle
+DESCRIPTION:Bloomberg invites you to compete in our brand n...
+LOCATION:Bill Brown Suite, Queens
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191211MVBall
+ @cssbristol.co.uk
+DTSTAMP:20191210T190000Z
+DTSTART:20191210T190000Z
+DTEND:20191210T230000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_12_11_MVBall/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_12_11_MVBall.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:MVBall - BEEESxCSS
+DESCRIPTION:Fancy a night of wine, fine dining, getting sma...
+LOCATION:The Bristol Hotel
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191211MVBallafterparty
+ @cssbristol.co.uk
+DTSTAMP:20191210T230000Z
+DTSTART:20191210T230000Z
+DTEND:20191211T040000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_12_11_MVBall_after_party/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_12_11_MVBall_after_party.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:MVBall after party
+DESCRIPTION:Official MVBall After Party!!
+LOCATION:Lola Lo
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191213rollerdisco
+ @cssbristol.co.uk
+DTSTAMP:20191213T190000Z
+DTSTART:20191213T190000Z
+DTEND:20191213T220000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_12_13_roller_disco/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_12_13_roller_disco.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS does Roller Disco
+DESCRIPTION:Join us at the roller disco in Millenium Square...
+LOCATION:Millenium Square
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20191217xmasmovienight
+ @cssbristol.co.uk
+DTSTAMP:20191217T173000Z
+DTSTART:20191217T173000Z
+DTEND:20191217T213000Z
+URL:https://www.cssbristol.co.uk
+ /events/2019_12_17_xmas_movie_night/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2019_12_17_xmas_movie_night.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Xmas Movie night
+DESCRIPTION:Join us to watch Home Alone in Queens 1.15 (Sma...
+LOCATION:Queens 1.15 SLT
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200124drinks
+ @cssbristol.co.uk
+DTSTAMP:20200124T190000Z
+DTSTART:20200124T190000Z
+DTEND:20200124T230000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_01_24_drinks/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_01_24_drinks.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:A well earned pint | end of exam drinks at the ...
+DESCRIPTION:Join us for a well earned pint at The White Har...
+LOCATION:The Berkley Weatherspoons
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200128visa
+ @cssbristol.co.uk
+DTSTAMP:20200128T130000Z
+DTSTART:20200128T130000Z
+DTEND:20200128T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_01_28_visa/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_01_28_visa.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Who's Visa? | Networking event with VISA
+DESCRIPTION:Visa are going to do a talk on:  What Visa do...
+LOCATION:MVB 1.11/1.11(A)
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200205boardgameswithbeees
+ @cssbristol.co.uk
+DTSTAMP:20200205T130000Z
+DTSTART:20200205T130000Z
+DTEND:20200205T170000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_02_05_board_games_with_beees/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_02_05_board_games.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS vs BEEES board game afternoon
+DESCRIPTION:Weather it’s cards against humanity or monopoly...
+LOCATION:MVB
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200210coffee
+ @cssbristol.co.uk
+DTSTAMP:20200210T130000Z
+DTSTART:20200210T130000Z
+DTEND:20200210T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_02_10_coffee/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_02_10_coffee.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Coffee, Cake, and Community
+DESCRIPTION:Come for free cake and coffee provided by the E...
+LOCATION:Bill Brown Suite Atrium
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200211hackml
+ @cssbristol.co.uk
+DTSTAMP:20200211T130000Z
+DTSTART:20200211T130000Z
+DTEND:20200211T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_02_11_hack_ml/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_02_11_hack_ml.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Tricking Binary Trees - The (in)securities of ML
+DESCRIPTION:Joe Gardner from the Cyber Security practice an...
+LOCATION:Queens 1.15
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200220hashcode
+ @cssbristol.co.uk
+DTSTAMP:20200220T173000Z
+DTSTART:20200220T173000Z
+DTEND:20200220T213000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_02_20_hash_code/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_02_20_hash_code.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS does Google Hash Code
+DESCRIPTION:Join us as we tackle this year’s Google Hash Co...
+LOCATION:Queens 1.7
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200224graphics
+ @cssbristol.co.uk
+DTSTAMP:20200224T130000Z
+DTSTART:20200224T130000Z
+DTEND:20200224T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_02_24_graphics/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_02_24_graphics.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Computer Graphics with Carl
+DESCRIPTION:Carl is giving a talk on cool projects he’s don...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200227barcrawl
+ @cssbristol.co.uk
+DTSTAMP:20200227T200000Z
+DTSTART:20200227T200000Z
+DTEND:20200228T040000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_02_27_bar_crawl/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_02_27_bar_crawl.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:I just want SAFE back the Bar Crawl
+DESCRIPTION:It’s been a term without SAFE - a term of painf...
+LOCATION:Steam -> Lounge
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200228cssjoinsGreta
+ @cssbristol.co.uk
+DTSTAMP:20200228T110000Z
+DTSTART:20200228T110000Z
+DTEND:20200228T150000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_02_28_css_joins_Greta/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_02_28_css_joins_Greta.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS Joins Greta (Youth Climate March)
+DESCRIPTION:Greta is coming to Bristol for the climate strike
+LOCATION:College Green
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200229brishack20
+ @cssbristol.co.uk
+DTSTAMP:20200229T110000Z
+DTSTART:20200229T110000Z
+DTEND:20200301T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_02_29_bris_hack_20/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_02_29_bris_hack_20.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Bris Hack 20
+DESCRIPTION:Another year another 24hrs to build something g...
+LOCATION:MVB Atrium
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200304jointopts
+ @cssbristol.co.uk
+DTSTAMP:20200304T130000Z
+DTSTART:20200304T130000Z
+DTEND:20200304T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_03_04_joint_opts/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_03_04_joint_opts.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Joint Honours Yr 2&3 optional choices
+DESCRIPTION:For all Joint honour computer science students ...
+LOCATION:MVB 1.15
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200304coffeechocolatecode
+ @cssbristol.co.uk
+DTSTAMP:20200304T140000Z
+DTSTART:20200304T140000Z
+DTEND:20200304T170000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_03_04_coffee_chocolate_code/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_03_04_coffee_chocolate_code.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Coffee, Chocolate, and Code
+DESCRIPTION:Join us in Explore week to bash out some code a...
+LOCATION:Mrs Potts Chocolate House
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200306boardgames
+ @cssbristol.co.uk
+DTSTAMP:20200306T100000Z
+DTSTART:20200306T100000Z
+DTEND:20200306T170000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_03_06_board_games/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_03_06_board_games.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS does Board Games
+DESCRIPTION:Come to MVB with friends and play board games w...
+LOCATION:MVB Atrium
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200309yr2opts
+ @cssbristol.co.uk
+DTSTAMP:20200309T093000Z
+DTSTART:20200309T093000Z
+DTEND:20200309T103000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_03_09_yr2_opts/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_03_09_yr2_opts.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Optional choices for current yr2 CS
+DESCRIPTION:For all current year 2 computer science student...
+LOCATION:MVB 2.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200309yr3opts
+ @cssbristol.co.uk
+DTSTAMP:20200309T130000Z
+DTSTART:20200309T130000Z
+DTEND:20200309T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_03_09_yr3_opts/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_03_09_yr3_opts.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Optional choices for current yr3 MEng
+DESCRIPTION:For all current MEng yr 3 students
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200317standup
+ @cssbristol.co.uk
+DTSTAMP:20200317T180000Z
+DTSTART:20200317T180000Z
+DTEND:20200317T200000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_03_17_standup/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_03_17_standup.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Stand up comedy night
+DESCRIPTION:Join us for a night of laughs as members of the...
+LOCATION:The White Rabbit
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200325minecraft
+ @cssbristol.co.uk
+DTSTAMP:20200320T130000Z
+DTSTART:20200320T130000Z
+DTEND:20200524T010000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_03_25_minecraft/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_03_25_minecraft.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS plays Minecraft
+DESCRIPTION:That’s all folksWe’ve had a good run building,...
+LOCATION:mc.cssbristol.co.uk
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200326agm
+ @cssbristol.co.uk
+DTSTAMP:20200326T170000Z
+DTSTART:20200326T170000Z
+DTEND:20200326T200000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_03_26_agm/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_03_26_agm.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS AGM 2020
+DESCRIPTION:Join us for our 2020 AGM where we’ll have lots ...
+LOCATION:Queens 1.69
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200401fah
+ @cssbristol.co.uk
+DTSTAMP:20200401T130000Z
+DTSTART:20200401T130000Z
+DTEND:20200601T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_04_01_fah/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_04_01_fah.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS folds @ home
+DESCRIPTION:Got a spare computer? Not using all your comput...
+LOCATION:${Home}
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200503agm
+ @cssbristol.co.uk
+DTSTAMP:20200503T150000Z
+DTSTART:20200503T150000Z
+DTEND:20200503T160000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_05_03_agm/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_05_03_agm.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS Online AGM 2020
+DESCRIPTION:Join us for our first ever Online AGM 😲It’ll b...
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200525coffee
+ @cssbristol.co.uk
+DTSTAMP:20200525T130000Z
+DTSTART:20200525T130000Z
+DTEND:20200525T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_05_25_coffee/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_05_25_coffee.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Coffee, Cake + Community goes virtual!
+DESCRIPTION:We’re back, but virtual! Coffee, Cake and Commu...
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200611staymotivated
+ @cssbristol.co.uk
+DTSTAMP:20200611T143000Z
+DTSTART:20200611T143000Z
+DTEND:20201005T210000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_06_11_stay_motivated/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_06_11_stay_motivated.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Stay Motivated
+DESCRIPTION:Join us for weekly catch up sessions to share p...
+LOCATION:Discord
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200625bbvirtualquiz
+ @cssbristol.co.uk
+DTSTAMP:20200625T170000Z
+DTSTART:20200625T170000Z
+DTEND:20200625T210000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_06_25_bb_virtual_quiz/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_06_25_bb_virtual_quiz.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Bloomberg Virtual Quiz
+DESCRIPTION:BLOOMBERG VIRTUAL QUIZ
+LOCATION:Google Meet
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200627eoystream
+ @cssbristol.co.uk
+DTSTAMP:20200627T120000Z
+DTSTART:20200627T120000Z
+DTEND:20200627T210000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_06_27_eoy_stream/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_06_27_eoy_stream.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS End of Year Stream
+DESCRIPTION:CSS END OF YEAR STREAM
+LOCATION:Discord
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20200709quiz
+ @cssbristol.co.uk
+DTSTAMP:20200717T190000Z
+DTSTART:20200717T190000Z
+DTEND:20200717T210000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_07_09_quiz/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_07_09_quiz.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Virtual Pub Quiz
+DESCRIPTION:Greetings CSS!
+LOCATION:Twitch
+END:VEVENT
+END:VCALENDAR
