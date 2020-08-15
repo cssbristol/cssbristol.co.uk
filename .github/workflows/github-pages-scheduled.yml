@@ -1,12 +1,8 @@
 name: Build and deploy jekyll site
 
 on:
-  push:
-    branches:
-      - dev
-      # - source
-      # It is highly recommended that you only run this action on push to a
-      # specific branch, eg. master or source (if on *.github.io repo)
+  schedule:
+    - cron: "0/15 1,5,15 * * *"
 
 jobs:
   jekyll:
