@@ -2,7 +2,7 @@ name: "Scheduled: Build and deploy jekyll site"
 
 on:
   schedule:
-    - cron: "0/15 1,5,15 * * *"
+    - cron: "0/15 * * * *"
 
 jobs:
   jekyll:
