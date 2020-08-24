@@ -3,33 +3,83 @@ layout: default
 ---
 
 <section class="page-section">
-  <article class="article blog-post" itemscope itemtype="http://schema.org/BlogPosting">
-    <header class="blog-post__header">
-      <h1 class="blog-post__title" itemprop="name headline">{{ page.title }}</h1>
-      <p class="blog-post__meta">
-        <h2 class="blog-post__meta">
-          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y %H:%M" }}</time>
-          {% if page.location %}  | {{ page.location }} {% endif %}
-        </h2>
-      </p>
-    </header>
-    <div itemprop="articleBody" class="blog-post__body">
-      {% if page.banner %}
-        {% if page.fb_link %}<a href={{ page.fb_link }}>{% endif %}
-          <img src="/assets/images/contrib/events/{{ page.banner }}"/>
-        {% if page.fb_link %}</a>{% endif %}
-      {% endif %}
+  {% if page.cancelled %}
+  <div class="cancelled">
+    <h2>The event has been canceled <span role="img">😢</span></h2>
+    {% if page.cancel_reason %}
+    <p>
+      This event was cancelled because: {{ page.cancel_reason }} {% endif %}
+    </p>
+  </div>
 
-      {{ content }}
-      {% if page.cohost %}
-        <hr/>
-        Hosted with:
-        <ul>
-        {% for host in page.cohost %}
-          <li>{{ host }}</li>
-        {% endfor %}
-        </ul>
+  {% endif %}
+  <article class="article event-page">
+    <section>
+      {% if page.banner %}
+      <div
+        class="event-page__banner"
+        style="background-image: url(/assets/images/contrib/events/{{ page.banner }});"
+      ></div>
       {% endif %}
-    </div>
+      <h1 class="event-page__title">{{ page.title }}</h1>
+      <div class="blog-post__body">
+        {{ content }}
+      </div>
+    </section>
+    <section class="event-page__details">
+      <h2>The Details</h2>
+      {% if page.date %} {% assign endDay = page.date_end | date: '%j' %} {%
+      assign startDay = page.date | date: '%j' %} {% if startDay == endDay %}
+      <div class="event-page__details__row">
+        <i class="fas fa-calendar-day"></i>
+        <p>{{ page.date | date: "%d/%m/%y" }}</p>
+      </div>
+      {% else %}
+      <div class="event-page__details__row">
+        <i class="fas fa-calendar-day"></i>
+        <p>
+          {{ page.date | date: "%d/%m/%y" }} - {{ page.date_end | date:
+          "%d/%m/%y" }}
+        </p>
+      </div>
+      {% endif %}
+      <div class="event-page__details__row">
+        <i class="fas fa-clock"></i>
+        <p>
+          {{ page.date | date: "%H:%M" }} - {{ page.date_end | date: "%H:%M" }}
+        </p>
+      </div>
+      {% endif %} {% if page.location %}
+      <div class="event-page__details__row">
+        <i class="fas fa-map-marker"></i>
+        <p>{{ page.location }}</p>
+      </div>
+      {% endif %} {% if page.price %}
+      <div class="event-page__details__row">
+        <i class="fas fa-pound-sign"></i>
+        <p>{{ page.price }}</p>
+      </div>
+      {% endif %} {% if page.ticket_link %}
+      <a class="event-page__details__row" href="{{ page.ticket_link }}">
+        <i class="fas fa-shopping-cart"></i>
+        <p>Get a ticket here</p>
+      </a>
+      {% endif %} {% if page.fb_link %}
+      <a class="event-page__details__row" href="{{ page.fb_link }}">
+        <i class="fab fa-facebook"></i>
+        <p>Join the Facebook event!</p>
+      </a>
+      {% endif %} {% if page.cohost %}
+      <div class="event-page__details__hosted-with">
+        <hr />
+        <h4>Hosted with:</h4>
+        <ul>
+          {% for host in page.cohost %}
+          <li>{{ host }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+    </section>
   </article>
 </section>
