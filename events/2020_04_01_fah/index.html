@@ -253,24 +253,18 @@
 
 
     <section class="page-section">
-  <article class="article blog-post" itemscope itemtype="http://schema.org/BlogPosting">
-    <header class="blog-post__header">
-      <h1 class="blog-post__title" itemprop="name headline">CSS folds @ home</h1>
-      <p class="blog-post__meta">
-        <h2 class="blog-post__meta">
-          <time datetime="2020-04-01T13:00:00+00:00">Apr 1, 2020 13:00</time>
-            | ${Home} 
-        </h2>
-      </p>
-    </header>
-    <div itemprop="articleBody" class="blog-post__body">
+  
+  <article class="article event-page">
+    <section>
       
-        
-          <img src="/assets/images/contrib/events/2020_04_01_fah.png"/>
-        
+      <div
+        class="event-page__banner"
+        style="background-image: url(/assets/images/contrib/events/2020_04_01_fah.png);"
+      ></div>
       
-
-      <p>Got a spare computer? Not using all your computational power? Why not donate it to the <a href="https://foldingathome.org">folding at home</a> project and help the fight against COVID-19!</p>
+      <h1 class="event-page__title">CSS folds @ home</h1>
+      <div class="blog-post__body">
+        <p>Got a spare computer? Not using all your computational power? Why not donate it to the <a href="https://foldingathome.org">folding at home</a> project and help the fight against COVID-19!</p>
 
 <p>Make sure you join our <a href="https://stats.foldingathome.org/team/256958">team</a> so we can see how much work we’ve collectively completed!!</p>
 
@@ -296,8 +290,41 @@
   <li>Read the rules <a href="https://foldingathome.org/support/faq/rules-policies/">here</a></li>
 </ul>
 
+      </div>
+    </section>
+    <section class="event-page__details">
+      <h2>The Details</h2>
+         
+      <div class="event-page__details__row">
+        <i class="fas fa-calendar-day"></i>
+        <p>
+          01/04/20 - 01/06/20
+        </p>
+      </div>
       
-    </div>
+      <div class="event-page__details__row">
+        <i class="fas fa-clock"></i>
+        <p>
+          13:00 - 14:00
+        </p>
+      </div>
+       
+      <div class="event-page__details__row">
+        <i class="fas fa-map-marker"></i>
+        <p>${Home}</p>
+      </div>
+       
+      <div class="event-page__details__row">
+        <i class="fas fa-pound-sign"></i>
+        <p>Electricity</p>
+      </div>
+       
+      <a class="event-page__details__row" href="https://stats.foldingathome.org/team/256958">
+        <i class="fas fa-shopping-cart"></i>
+        <p>Get a ticket here</p>
+      </a>
+        
+    </section>
   </article>
 </section>
 
