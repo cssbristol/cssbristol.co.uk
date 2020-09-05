@@ -15,10 +15,12 @@
   &__item {
     margin: 10px 1%;
     width: 42%;
+
     @include media-query($on-palm) {
       margin: 20px;
       width: 100%;
     }
+
 
     &--sponsored {
       width: 90%;
@@ -27,7 +29,7 @@
 
   .job-post-item {
     /*border: 1px solid $medium-text;*/
-    box-shadow: 5px 5px 10px #3f3f3f;
+    box-shadow: 0px 0px 10px $shadow;
     border-radius: 3px;
     color: $dark-text;
     min-height: 250px;
@@ -36,12 +38,13 @@
     text-decoration: none;
 
     &__title {
-        font-size: 24px;
-        margin: 10px 0 10px;
+      font-size: 24px;
+      margin: 10px 0 10px;
     }
 
     &__date {
       text-align: left;
+
       @include media-query($on-palm) {
         margin: 0px auto 20px;
       }
@@ -73,7 +76,6 @@
       }
 
       background: #fa8a90;
-      box-shadow: 5px 5px 10px #3f3f3f;
     }
 
     p {
@@ -85,8 +87,9 @@
 .job-post {
   &__header {
     text-align: center;
-    h1 {
-    }
+
+    h1 {}
+
     img {
       margin: 10px;
       max-width: 200px;
@@ -112,9 +115,11 @@
 
   *[itemprop=hiringOrganization] {
     text-align: center;
+
     *[itemprop=address] {
       font-size: 12px;
     }
+
     p {
       margin: 4px 0;
     }
@@ -122,13 +127,16 @@
 
   dl {
     margin: 20px 0;
+
     dt {
       display: inline-block;
       font-weight: 400;
       min-width: 150px;
     }
+
     dd {
       display: inline;
+
       &:after {
         display: block;
         content: '';
