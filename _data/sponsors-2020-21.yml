@@ -1,0 +1,15 @@
+- name: TPP
+  logo: tpp.png
+  url: https://www.tpp-uk.com
+
+- name: Visa
+  logo: visa.webp
+  url: https://www.visa.co.uk/
+
+- name: Optiver
+  logo: optiver.svg
+  url: https://www.optiver.com
+
+- name: Pilgrim Brewery
+  logo: pilgrim.png
+  url: https://pilgrim.co.uk/
