@@ -10,6 +10,10 @@
   logo: optiver.svg
   url: https://www.optiver.com
 
+- name: Bloomberg
+  logo: bloomberg.png
+  url: https://www.bloomberg.com/careers/technology/engineering/
+
 - name: Pilgrim Brewery
   logo: pilgrim.png
   url: https://pilgrim.co.uk/
