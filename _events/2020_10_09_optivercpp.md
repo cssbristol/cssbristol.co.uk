@@ -4,17 +4,18 @@ published: true
 cancelled: false
 cancel_reason:
 title: Low-Latency C++ Workshop (by Optiver)
-date:     2020-10-09 13:00:00
+date: 2020-10-09 13:00:00
 date_end: 2020-10-09 14:00:00
 banner: 2020_10_09_optivercpp.png
 location: Zoom
 fb_link: https://www.facebook.com/events/705985230129967/
-ticket_link: 
+ticket_link:
 price: Free
 category:
-    - Tech Talk
-    - Workshop
+  - Tech Talk
+  - Workshop
 cohost:
+  - Optiver
 ---
 
 Do you want to learn how to write the fastest and best-performing code possible? Are you ready to dive into assembly, cache internals and squeeze the last nanosecond out of your code? If so, then join our low-latency workshop on code optimisation!
