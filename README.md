@@ -10,9 +10,9 @@ When a commit is made to `master`, GitHub will automatically rebuild the site an
 
 If you have comments or questions, there are lots of ways to get in touch:
 
-* Email [webmaster@cssbristol.co.uk](mailto:webmaster@cssbristol.co.uk)
-* Create an issue
-* Find a committee member in person
+- Email [webmaster@cssbristol.co.uk](mailto:webmaster@cssbristol.co.uk)
+- Create an issue
+- Find a committee member in person
 
 ## Contributing
 
@@ -42,16 +42,16 @@ We're all ears for any ideas that you might have. If you want to write it yourse
 
 ## Roadmap
 
-* [x] Add a jobs section
-* [ ] Add outreach information
-* [ ] Add sports information
-* [x] Add sponsorship tiers
-* [ ] Write some more tutorials!
-* [ ] Add alumni profiles
-* [ ] Add information for freshers
-* [ ] Links to related societies
-* [ ] Add committee meeting minutes
-* [ ] Add society history
+- [x] Add a jobs section
+- [ ] Add outreach information
+- [ ] Add sports information
+- [x] Add sponsorship tiers
+- [ ] Write some more tutorials!
+- [ ] Add alumni profiles
+- [ ] Add information for freshers
+- [ ] Links to related societies
+- [ ] Add committee meeting minutes
+- [ ] Add society history
 
 ## Contributors
 
