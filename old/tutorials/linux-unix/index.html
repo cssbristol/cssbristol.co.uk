@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Linux/Unix - Computer Science Society Bristol</title><meta name="viewport" content="width=device-width, initial-scale=1"><!-- This site is optimized with the Yoast SEO plugin v3.2.5 - https://yoast.com/wordpress/plugins/seo/ --><link rel="canonical" href="http://cssbristol.co.uk/old/tutorials/linux-unix/"><!-- / Yoast SEO plugin. --><script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.2"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style><link rel="stylesheet" href="http://cssbristol.co.uk/old/wp-content/themes/csstheme/assets/css/main.min.css?ver=a191dc261aef21f9b52b6043fab3b4f1"><!-- This site uses the Google Analytics by MonsterInsights plugin v5.5 - Universal enabled - https://www.monsterinsights.com/ --><script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-32482600-1', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('send','pageview');
+
+</script><!-- / Google Analytics by MonsterInsights --><script type="text/javascript" src="http://cssbristol.co.uk/old/wp-content/themes/csstheme/assets/js/vendor/modernizr-2.7.0.min.js"></script><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><link rel="https://api.w.org/" href="http://cssbristol.co.uk/old/wp-json/"><link rel="alternate" type="application/json+oembed" href="http://cssbristol.co.uk/old/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fold.cssbristol.co.uk%2Ftutorials%2Flinux-unix%2F"><link rel="alternate" type="text/xml+oembed" href="http://cssbristol.co.uk/old/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fold.cssbristol.co.uk%2Ftutorials%2Flinux-unix%2F&amp;format=xml"><script>window.jQuery || document.write('<script src="http://cssbristol.co.uk/old/wp-content/themes/csstheme/assets/js/vendor/jquery-1.11.0.min.js"><\/script>')</script><link rel="alternate" type="application/rss+xml" title="Computer Science Society Bristol Feed" href="http://cssbristol.co.uk/old/feed/"><link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"></head><body class="single single-tutorials postid-832 linux-unix">
+
+  <!--[if lt IE 8]>
+    <div class="alert alert-warning">
+      You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.    </div>
+  <![endif]-->
+
+  <header class="banner navbar navbar-default navbar-static-top" role="banner"><div class="container">
+  <p style="color: black; background: white; padding: 10px;">This page has been archived. <a href="/">Return home</a></p>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="brand" href="http://cssbristol.co.uk/old/">
+        <img src="http://cssbristol.co.uk/old/wp-content/themes/csstheme/assets/img/logo-250-notext.png" alt="Computer Science Society Bristol Logo" height="40"></a>
+    </div>
+
+    <nav class="collapse navbar-collapse" role="navigation"><ul id="menu-main-menu" class="nav navbar-nav"><li class="menu-home"><a href="http://cssbristol.co.uk/old/">Home</a></li>
+<li class="menu-blog"><a href="http://cssbristol.co.uk/old/blog/">Blog</a></li>
+<li class="menu-events"><a href="http://cssbristol.co.uk/old/events/">Events</a></li>
+<li class="menu-committee"><a href="http://cssbristol.co.uk/old/committee/">Committee</a></li>
+<li class="menu-css-outreach-program"><a href="http://cssbristol.co.uk/old/outreach/">CSS Outreach Program</a></li>
+<li class="active menu-tutorials"><a href="http://cssbristol.co.uk/old/tutorials/">Tutorials</a></li>
+<li class="menu-irc"><a href="http://cssbristol.co.uk/old/irc/">IRC</a></li>
+<li class="menu-sponsors"><a href="http://cssbristol.co.uk/old/sponsors/">Sponsors</a></li>
+</ul><ul class="nav navbar-nav navbar-right"><li></li>
+            </ul></nav></div>
+</header><div class="wrap container" role="document">
+    <div class="content row">
+      <main class="main col-sm-12" role="main"><article class="post-832 tutorials type-tutorials status-publish hentry tag-linux tag-unix"><header><div class="page-header">
+          <h1 class="entry-title">Linux/Unix</h1>
+      </div>    
+    </header><div class="entry-content">
+      <div>The majority of computers used in the computer science department run on a kernel called Linux. Unlike traditional operating systems such as Windows, Linux is built on a Unix core. Why should this matter to me? &nbsp;Being a CS student and not knowing Unix would be like a doctor not knowing anything about the heart. It may not be your specialty, but it is still important.</div>
+<div></div>
+<div>Unix is&nbsp;inherently&nbsp;modular and as such allows programs to be easily ported, compiled and run. as such a multitude of command-driven programs have been written which will run on any UNIX-like operating system. Mac and Linux are prime examples of UNIX-like operating systems and as such many of the same commands can be used on both systems. These vary greatly from the basic DOS Shell included in MS Windows based OS&rsquo;s.</div>
+<div></div>
+<div>A large part of UNIX system&rsquo;s popularity is the terminal interface used to execute commands. Buckle up, as you will be using the terminal extensively during your university career. Who knows, it may end up being your&nbsp;favourite&nbsp;program!</div>
+<p>&nbsp;</p>
+<h4>University Computer Systems</h4>
+<p>Linux is segmented into many sub-classes. These sub-classes are called distributions. Distributions are split upon many different features however a good set of features to split distributions (or distro&rsquo;s) upon is package management. In the Linux world, there are two main forms of package management. One stems from the Red Hat Distro and uses packages called .rpm&rsquo;s, the other stems from the Debian distribution and uses .deb packages. The Linux systems in University is called CentOS (CentOS Linux release 6.0 (Final)) and is binary compatible with Red Hat Linux, hence it uses packages in the .rpm format.</p>
+<p>&nbsp;</p>
+<h4>Choosing your own Linux distribution</h4>
+<p>It is likely that as a CS student you will have a need to run a Unix OS on your own machine. If you are a Mac user, great, you&rsquo;re already sorted. If you are coming from the Windows world, I would recommend you choose a Linux distribution and install it locally on your Laptop. This has got a lot easier over the years and is now at a stage that most people&rsquo;s grandmothers could probably manage an installation. I recommend a guide <a href="http://www.zegeniestudios.net/ldc/" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.zegeniestudios.net/ldc/', 'here');" target="_blank">here</a> which will select an appropriate distro for your needs. As the university systems use .rpm management and CentOS, for 100% compatibility you should go for CentOS however in practise it really doesn&rsquo;t matter which distro you choose. I am currently running Linux Mint/Mac and I must say, I&rsquo;ve never had an issue with either (Mac isn&rsquo;t even based on Linux). Linux Mint is a nice easy drop in&nbsp;Linux&nbsp;system which offers a windows like environment while also offering all the UNIX goodies.</p>
+<p>In your Linux travels you may also come across different installation methods with the Ubuntu based distro&rsquo;s . These will be native install or wubi. I will spend a little time explaining the differences between them.</p>
+<p>A native install creates a dual boot configuration. This configuration partitions your Windows Hard drive and creates a Linux Partition and a swap partition. This is the Vanilla install and offers the most speed. At boot time it will give you a menu choice of windows or linux. This is supported by all Linux distro&rsquo;s.&nbsp;Although&nbsp;better for speed and experience, it also comes with the drawback of being harder to reverse back to a windows only install.</p>
+<p>A Wubi install is less persistent. What this install does is it creates a file on your windows computer which is a disk image for Linux. you can boot in and out the same way you would a native install however it is much easier to remove. Wubi can be removed in the same way as any windows program, allowing easy unistallation. Wubi is much better for newcomers to linux as it brings less of a chance to mess up your computer. Wubi will however run slower on your computer due to how it is installed.</p>
+<p>&nbsp;</p>
+<h4>Terminal</h4>
+<p>The terminal program is the main underpinning of any UNIX operating system. Here you are able to issue commands to instruct the OS to carry out certain actions. I will detail some of the most basic commands you may use day to day as a CS student.</p>
+<table><tbody><tr><td>
+<address><a href="#cd">cd</a></address>
+</td>
+<td>
+<address><a href="#./">./</a></address>
+</td>
+<td>
+<address><a href="#ls">ls</a></address>
+</td>
+<td>
+<address><a href="#mv">mv</a></address>
+</td>
+</tr><tr><td>
+<address><a href="#mkdir">mkdir</a></address>
+</td>
+<td>
+<address><a href="#cp">cp</a></address>
+</td>
+<td>
+<address><a href="#rm">rm</a></address>
+</td>
+<td>
+<address><a href="#!!">!!</a></address>
+</td>
+</tr><tr><td>
+<address><a href="#chmod">chmod</a></address>
+</td>
+<td>
+<address><a href="#find">find</a></address>
+</td>
+<td>
+<address><a href="#grep">grep</a></address>
+</td>
+<td>
+<address><a href="#man">man</a></address>
+</td>
+</tr></tbody></table><h5><a name="cd"></a>cd</h5>
+<p>&ldquo;cd&rdquo; changes directory. e.g to move to the ugrads directory at /home/ugrads:</p>
+<pre>cd /home/ugrads</pre>
+<p>To go to the home directory use this shortcut:</p>
+<pre>cd ~/</pre>
+<h5><a name="./"></a>./</h5>
+<p>&ldquo;./&rdquo; means current directory</p>
+<p>&ldquo;../&rdquo; means parent directory</p>
+<p>Therefore to execure a file called main in the current directory:</p>
+<pre>./main</pre>
+<h5><a name="ls"></a>ls</h5>
+<p>The &ldquo;ls&rdquo; command is one of the most common commands used. It lists the contents of a directory. Usage is below.</p>
+<pre>ls</pre>
+<p>To get a more detailed listing of a directory including permissions, file owners, size and date&rsquo;s use:</p>
+<pre>ls -l</pre>
+<p>You can also add a -h to give a more human readable view of filesizes</p>
+<pre>ls -lh</pre>
+<p>You can also show hidden files by adding -a</p>
+<pre>ls -lah</pre>
+<h5><a name="mv"></a>mv</h5>
+<p>&ldquo;mv&rdquo; is the move command. Much like cut and paste, &ldquo;mv&rdquo; will move a file or folder from location1 to location2. It can be used to rename files.</p>
+<pre>mv location1 location2</pre>
+<h5><a name="mkdir"></a>mkdir</h5>
+<p>To create a a directory under the current directory called &ldquo;java&rdquo;</p>
+<pre>mkdir java</pre>
+<p>To create intermediate directories as required add a -p. e.g:</p>
+<pre> mkdir -p ~/java/2012/09/26/src</pre>
+<h5><a name="cp"></a>cp</h5>
+<p>&ldquo;cp&rdquo; is the copy command. It copies a file or folder from location1 to location2</p>
+<pre>cp location1 location2</pre>
+<h5><a name="rm"></a>rm</h5>
+<p>&ldquo;rm&rdquo; is the remove command. Use with caution. Flags to watch out for are -r and -f.</p>
+<p>-r = recursive</p>
+<p>-f = forcefully</p>
+<p>-rf = recursive forcefully</p>
+<p>* = everything</p>
+<p>therefore:</p>
+<p>rm -rf ./* = remove recursively forcefully everything in the current directory</p>
+<p>DO NOT USE THIS COMMAND. I include it so you know to steer clear of it.</p>
+<p>To remove a file called main.c from the current directory:</p>
+<pre>rm ./main.c</pre>
+<h5><a name="!!"></a>!!</h5>
+<p>&ldquo;!!&rdquo; means the same as the previous command.</p>
+<p>If I type first:</p>
+<pre>ls</pre>
+<p>and then decide I wish to add a -l flag I type:</p>
+<pre>!! -l</pre>
+<p>This is the same as:</p>
+<pre>ls -l</pre>
+<h5><a name="chmod"></a>chmod</h5>
+<p>To understand &ldquo;chmod&rdquo; you must first understand Linux user permissions. I reccomend <a href="http://en.wikipedia.org/wiki/Chmod" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://en.wikipedia.org/wiki/Chmod', 'Wikipedia');">Wikipedia</a>.</p>
+<p>Linux has 3 types of permission; User, Group and Everyone.</p>
+<p>Owner is your permission on a file or directory</p>
+<p>Group is the permission assigned to users in the file or directory&rsquo;s Group</p>
+<p>Everyone is the permission that any user on the system has over the file or directory.</p>
+<p>Permissions are octal, the values are:</p>
+<table width="400"><tbody><tr><th>#</th>
+<th>Permission</th>
+<th>rwx</th>
+</tr><tr><td>7</td>
+<td>full</td>
+<td>111</td>
+</tr><tr><td>6</td>
+<td>read and write</td>
+<td>110</td>
+</tr><tr><td>5</td>
+<td>read and execute</td>
+<td>101</td>
+</tr><tr><td>4</td>
+<td>read only</td>
+<td>100</td>
+</tr><tr><td>3</td>
+<td>write and execute</td>
+<td>011</td>
+</tr><tr><td>2</td>
+<td>write only</td>
+<td>010</td>
+</tr><tr><td>1</td>
+<td>execute only</td>
+<td>001</td>
+</tr><tr><td>0</td>
+<td>none</td>
+<td>000</td>
+</tr></tbody></table><p>&nbsp;</p>
+<p>To give rwx permissions to Owner, Group and Everyone on someFile or folder:</p>
+<pre>chmod 777 someFile</pre>
+<p>To only allow the Owner access read and execute access to a file or folder:</p>
+<pre>chmod 500 someFile</pre>
+<p>To give the Owner full access and Group read access:</p>
+<pre>chmod 740 someFile</pre>
+<pre>I recommend you set your home directory to only allow you access:</pre>
+<pre>chmod 700 -R ~/</pre>
+<p>The -R makes changes recursively</p>
+<h5><a name="find"></a>find</h5>
+<p>The &ldquo;find&rdquo; command finds files in the directory structure. To find all files ending in .c (C source files) in the current directory and below:</p>
+<pre>find ./ -name "*.c"</pre>
+<p>To find a file you know the name of (e.g. myAwesomeProgram.o):</p>
+<pre>find ./ -name "myAwesomeProgram.o"</pre>
+<p>You can use <a href="http://en.wikipedia.org/wiki/Regular_expression" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://en.wikipedia.org/wiki/Regular_expression', 'Regular Expressions');">Regular Expressions</a> to find any file using this style syntax.</p>
+<h5><a name="grep"></a>grep</h5>
+<p>&ldquo;grep&rdquo; makes heavy usage of <a href="http://en.wikipedia.org/wiki/Regular_expression" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://en.wikipedia.org/wiki/Regular_expression', 'Regular Expressions');">Regular Expressions</a>&nbsp;to locate files which contain a match to a given pattern. &ldquo;grep&rdquo; searches internally in files.</p>
+<p>The usage of grep is as such:</p>
+<pre>grep "regular expression pattern" locationToFiles</pre>
+<p>If you know a chunk of text inside a file but don&rsquo;t know which file contains the text, grep is your new best friend. It&rsquo;s extremely useful for debugging log files.</p>
+<p>e.g. I know there is a C source file which imports stdlib.h in my current folder but can&rsquo;t remember which file. I search for string &ldquo;# import &lt;stdlib.h&gt;&rdquo;. I can use grep to find the location of this file.</p>
+<pre>grep "#include &lt;stdlib.h&gt;" ./*.c</pre>
+<h5><a name="man"></a>man</h5>
+<p>The &ldquo;man&rdquo; command is probably the most important command of all. &ldquo;man&rdquo; gives you the manual pages for other commands. I have given an extremely brief overview of some useful commands and their usage. Each of these commands can be used in extremely complex ways to solve different problems and can be used together by piping input between commands. If you ever need to reference how to use a particular command just type</p>
+<pre>man &lt;command&gt;</pre>
+<p>So to open the manual for grep, type:</p>
+<pre>man grep</pre>
+<p>Press the q character to return to the terminal.</p>
+<p>&nbsp;</p>
+<h4>Text Editors</h4>
+<p>The war of which text editor is best is a long and everlasting battle. Personally I use nano/pico however every programmer has different preferences. The main ones are:</p>
+<p>Terminal:</p>
+<ul><li><a href="http://en.wikipedia.org/wiki/GNU_nano" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://en.wikipedia.org/wiki/GNU_nano', 'nano/pico');">nano/pico</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Vim_(text_editor)" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://en.wikipedia.org/wiki/Vim_(text_editor)', 'vi/vim');">vi/vim</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Emacs" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://en.wikipedia.org/wiki/Emacs', 'emacs');">emacs</a></li>
+</ul><p>Graphical:</p>
+<ul><li><a href="http://en.wikipedia.org/wiki/Gedit" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://en.wikipedia.org/wiki/Gedit', 'Gedit');">Gedit</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Leafpad" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://en.wikipedia.org/wiki/Leafpad', 'Leafpad');">Leafpad</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Emacs" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://en.wikipedia.org/wiki/Emacs', 'emacs');">emacs</a></li>
+</ul><div>You will need to make a choice of which editor to use, you will find yourself spending a lot of time coding in this environment. For beginners I would recommend Gedit.</div>
+<p>&nbsp;</p>
+<h4>Tips/Tricks</h4>
+<p>This is a small section of standard tricks I use to speed up my life as a Computer&nbsp;scientist. I have only added one trick for now as I&rsquo;m bored of writing guides however in time I&rsquo;m sure this section will expand.</p>
+<h5>.bashrc</h5>
+<p>The &ldquo;.bashrc&rdquo; file is a magical file that is run every time your terminal loads. As such it is a great time saver as you can run certain commands every time you login.</p>
+<p>The .bashrc file is located at &ldquo;~/.bashrc&rdquo;. It is a hidden file (hence having the full stop in front of it&rsquo;s name). You can add any command you wish to be run at startup. Please note, on the mac the .bashrc file is replaced with the .bash_profile file.</p>
+<p>To add a text based welcome message:</p>
+<pre>echo "echo Welcome" | cat &gt;&gt; ~/.bashrc</pre>
+<p>To add a custom ascii art welcome message create a text file filled with ascii art called .art located at ~/.art and type:</p>
+<pre>echo "cat ~/.art" | cat &gt;&gt; ~/.bashrc</pre>
+<p>To add aliases add an alias line to the end of the .bashrc file. e.g</p>
+<pre>echo "alias snowy='ssh username@snowy.cs.bris.ac.uk'" | cat &gt;&gt; ~/.bashrc</pre>
+<p>You can edit this file manually with a text editor like:</p>
+<pre>nano ~/.bashrc</pre>
+<p>&nbsp;</p>
+<p>&lt;/end&gt;</p>
+<p>Mortensson out &#128578;</p>
+    </div>
+    <footer><div class="row entry-meta">
+  <div class="col-md-4 col-md-offset-5">
+    <i class="fa fa-calendar"></i>
+    <time class="published" datetime="2013-02-22T15:08:06+00:00"><small>Created on: February 22, 2013</small>
+    </time></div>
+  <div class="col-md-3">
+      <p class="byline author vcard">
+        <i class="fa fa-user"></i>
+        <small>
+        By 
+        <a href="http://cssbristol.co.uk/old/author/tm0797/" rel="author" class="fn">Thomas Mortensson</a>
+        </small>
+    </p>
+  </div>
+</div>    </footer></article></main><!-- /.main --></div><!-- /.content -->
+  </div><!-- /.wrap -->
+ 
+  <footer class="content-info" role="contentinfo"><div class="container">
+  <div class="row">
+    <div class="col-md-12">
+          </div>
+
+
+  <div class="col-md-3">
+    <p>&copy; 2016 Computer Science Society Bristol</p>
+        <img src="http://cssbristol.co.uk/old/wp-content/themes/csstheme/assets/img/logo-200-white.png" width="150" alt="CSS Logo white"></div>
+  
+  
+      <div class="col-md-9">
+        <h5>We are sponsored by:</h5>
+        <ul class="list-inline"><li>
+              <a href="http://cssbristol.co.uk/old/sponsors/microsoft/" rel="bookmark" title="Permanent Link to Microsoft">
+                                <img src="http://cssbristol.co.uk/old/wp-content/uploads/2015/03/microsoft-light.png" alt="Microsoft" width="125"></a>
+            </li>
+
+                                <li>
+              <a href="http://cssbristol.co.uk/old/sponsors/somnium-technologies/" rel="bookmark" title="Permanent Link to Somnium Technologies">
+                                <img src="http://cssbristol.co.uk/old/wp-content/uploads/2015/02/somnium-light2.png" alt="Somnium Technologies" width="125"></a>
+            </li>
+
+                                <li>
+              <a href="http://cssbristol.co.uk/old/sponsors/bloomberg/" rel="bookmark" title="Permanent Link to Bloomberg">
+                                <img src="http://cssbristol.co.uk/old/wp-content/uploads/2015/02/bloomberg-light.png" alt="Bloomberg" width="125"></a>
+            </li>
+
+                                <li>
+              <a href="http://cssbristol.co.uk/old/sponsors/imagination-technologies/" rel="bookmark" title="Permanent Link to Imagination Technologies">
+                                <img src="http://cssbristol.co.uk/old/wp-content/uploads/2015/02/imagination-light.png" alt="Imagination Technologies" width="125"></a>
+            </li>
+
+                                <li>
+              <a href="http://cssbristol.co.uk/old/sponsors/bank-america/" rel="bookmark" title="Permanent Link to Bank of America">
+                                <img src="http://cssbristol.co.uk/old/wp-content/uploads/2015/02/bankofamerica-light.png" alt="Bank of America" width="125"></a>
+            </li>
+
+                  </ul></div>
+
+      </div>    
+  <div class="row social-icons">
+    <div class="col-md-3 col-md-offset-5">
+      <ul class="list-inline"><li><a href="https://www.facebook.com/cssbristol" alt="Facebook page"><i class="fa fa-facebook fa-2x"></i></a></li>
+        <li><a href="https://twitter.com/cssbristol" alt="Twitter profile"><i class="fa fa-twitter fa-2x"></i></a></li>
+        <li><a href="https://github.com/cssbristol" alt="Github page"><i class="fa fa-github fa-2x"></i></a></li>
+      </ul></div>
+  </div>
+ </div>
+</footer><script type="text/javascript">
+        // <![CDATA[
+        var disqus_shortname = 'universityofbristolcomputersciencesociety';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('data-dsqidentifier'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        // ]]>
+        </script><script type="text/javascript" src="http://cssbristol.co.uk/old/wp-content/themes/csstheme/assets/js/scripts.min.js?ver=0fc6af96786d8f267c8686338a34cd38"></script><script type="text/javascript" src="http://cssbristol.co.uk/old/wp-includes/js/wp-embed.min.js?ver=4.5.2"></script><script>
+  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+  e.src='//www.google-analytics.com/analytics.js';
+  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+  ga('create','UA-32482600-1');ga('send','pageview');
+</script></body></html>
