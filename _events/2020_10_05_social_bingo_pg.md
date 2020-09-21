@@ -1,0 +1,23 @@
+---
+layout: event
+published: true
+cancelled: false
+cancel_reason:
+title: Social Bingo (Postgraduates)
+date:     2020-10-05 17:30:00
+date_end: 2020-10-05 19:00:00
+banner: 
+location: TBA
+fb_link: https://www.facebook.com/events/242093710547686/
+ticket_link: 
+price: Free
+category:
+    - Social
+cohost:
+---
+
+(Note: this event is for postgraduate students only!)
+
+Join your fellow freshers in a game of ✨ social bingo ✨! Get to know your cohort by finding similarities (and differences) between each other as you move & chat between small groups.
+
+Link coming soon...
