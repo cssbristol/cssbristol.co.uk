@@ -6,7 +6,7 @@ cancel_reason:
 title: CSS Discord Party
 date:     2020-10-03 14:00:00
 date_end: 2020-10-03 17:00:00
-banner: 
+banner: 2020_10_03_discord_party.png
 location: TBA
 fb_link: https://www.facebook.com/events/731386067590220/
 ticket_link: 
