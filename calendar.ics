@@ -2528,4 +2528,19 @@ SUMMARY:Low-Latency C++ Workshop (by Optiver)
 DESCRIPTION:Do you want to learn how to write the fastest a...
 LOCATION:Zoom
 END:VEVENT
+BEGIN:VEVENT
+UID:events-20201010familymeetup
+ @cssbristol.co.uk
+DTSTAMP:20201010T180000Z
+DTSTART:20201010T180000Z
+DTEND:20201010T190000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_10_10_family_meetup/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_10_10_family_meetup.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Family Meetup
+DESCRIPTION:(Note: this event is for first years &amp; CS p...
+LOCATION:TBA
+END:VEVENT
 END:VCALENDAR
