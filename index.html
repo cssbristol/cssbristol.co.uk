@@ -5,15 +5,15 @@ hero:
   title: Computer Science Society
   buttons:
 ---
-<!--
 <div class="page-section hero ">
-  <h1 style="font-weight: 700">
-    <img style="width: 2em; height: 2em;" src="/assets/images/contrib/1up.png" alt="" />
+  <h1 style="font-weight: 700; font-size: 50px;">
+    👋
   </h1>
-  <p>
-  </p>
+  <h2 style="margin-top: -0.5em">
+    Hello to our freshers!
+  </h2>
+  <a href="/events" class="btn" style="margin: 2em auto 2.5em auto;">Fresher events & advice</a>
 </div>
---!>
 
 <div class="page-section">
  {% assign latest = site.events | where_exp: "event", "event.date_end >= site.time" | where_exp: "event", "event.cancelled != true" %}
