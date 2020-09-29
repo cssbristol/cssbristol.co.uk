@@ -52,12 +52,6 @@ We've got a number of exciting events lined up for Freshers' Week (also known as
 {% endfor %}
 </div>
 
-## Staying in the loop
-
-Keep an eye on this site and our social media for more events throughout the year!
-
-{% include social-links.html %}
-
 ## Useful Information
 
 There's lots of useful information available in our Freshers' Booklet. You should be receiving a hard copy soon, but [here it is](https://drive.google.com/file/d/1zFGkKHD5yHFsKNd8VkLosrjXmNkjh7yO/view?usp=sharing) if you haven't already.
@@ -97,3 +91,9 @@ You'll get told when you start lectures, but no books are required (didn't find 
 * 'How many notebooks will I need?'
 
 Hard to answer, but I'd suggest around 1 per unit. It varies massively though, so I'd see how you're doing first. You can bring laptops to lectures too if you prefer that.
+
+## Staying in the loop
+
+Keep an eye on this site and our social media for more events throughout the year!
+
+{% include social-links.html %}
