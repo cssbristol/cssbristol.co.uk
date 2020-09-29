@@ -2488,7 +2488,7 @@ UID:events-20201005socialbingoug
  @cssbristol.co.uk
 DTSTAMP:20201005T160000Z
 DTSTART:20201005T160000Z
-DTEND:20201005T173000Z
+DTEND:20201005T170000Z
 URL:https://www.cssbristol.co.uk
  /events/2020_10_05_social_bingo_ug/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2503,7 +2503,7 @@ UID:events-20201005socialbingopg
  @cssbristol.co.uk
 DTSTAMP:20201005T173000Z
 DTSTART:20201005T173000Z
-DTEND:20201005T190000Z
+DTEND:20201005T183000Z
 URL:https://www.cssbristol.co.uk
  /events/2020_10_05_social_bingo_pg/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2542,5 +2542,20 @@ ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Family Meetup
 DESCRIPTION:(Note: this event is for first years &amp; CS p...
 LOCATION:TBA
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20201014msworkshop
+ @cssbristol.co.uk
+DTSTAMP:20201014T140000Z
+DTSTART:20201014T140000Z
+DTEND:20201014T160000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_10_14_ms_workshop/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_10_14_ms_workshop.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Technology Skills Session (by Morgan Stanley)
+DESCRIPTION:Morgan Stanley believes capital has the power t...
+LOCATION:Zoom
 END:VEVENT
 END:VCALENDAR
