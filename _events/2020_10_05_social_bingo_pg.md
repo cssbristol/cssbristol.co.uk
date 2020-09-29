@@ -5,7 +5,7 @@ cancelled: false
 cancel_reason:
 title: Social Bingo (Postgraduates)
 date:     2020-10-05 17:30:00
-date_end: 2020-10-05 19:00:00
+date_end: 2020-10-05 18:30:00
 banner: 2020_10_05_social_bingo_pg.png
 location: TBA
 fb_link: https://www.facebook.com/events/242093710547686/
