@@ -2496,7 +2496,7 @@ IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Social Bingo (Undergraduates)
 DESCRIPTION:(Note: this event is for first years only!)
-LOCATION:TBA
+LOCATION:Remo
 END:VEVENT
 BEGIN:VEVENT
 UID:events-20201005socialbingopg
@@ -2511,7 +2511,7 @@ IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Social Bingo (Postgraduates)
 DESCRIPTION:(Note: this event is for postgraduate students ...
-LOCATION:TBA
+LOCATION:Remo
 END:VEVENT
 BEGIN:VEVENT
 UID:events-20201009optivercpp
