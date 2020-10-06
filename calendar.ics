@@ -2541,7 +2541,7 @@ IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Family Meetup
 DESCRIPTION:(Note: this event is for first years &amp; CS p...
-LOCATION:TBA
+LOCATION:Discord
 END:VEVENT
 BEGIN:VEVENT
 UID:events-20201014msworkshop
