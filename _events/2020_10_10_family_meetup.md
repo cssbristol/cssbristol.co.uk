@@ -7,7 +7,7 @@ title: Family Meetup
 date:     2020-10-10 18:00:00
 date_end: 2020-10-10 19:00:00
 banner: 2020_10_10_family_meetup.png
-location: TBA
+location: Discord
 fb_link: https://en-gb.facebook.com/events/1279223775743944/
 ticket_link: 
 price: Free
