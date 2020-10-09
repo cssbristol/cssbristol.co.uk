@@ -28,7 +28,7 @@ Please note this webinar is suited for students with at least some pre-existing 
 
 ## Zoom details
 
-Link: (https://optiver-ams.zoom.us/j/92046088313?pwd=eFVtVzlFOHk1ZW04b3ZmNVhDMWdxUT09)[https://optiver-ams.zoom.us/j/92046088313?pwd=eFVtVzlFOHk1ZW04b3ZmNVhDMWdxUT09]
+Link: [ https://optiver-ams.zoom.us/j/92046088313?pwd=eFVtVzlFOHk1ZW04b3ZmNVhDMWdxUT09 ](https://optiver-ams.zoom.us/j/92046088313?pwd=eFVtVzlFOHk1ZW04b3ZmNVhDMWdxUT09)
 
 Meeting Id: 920 4608 8313
 
