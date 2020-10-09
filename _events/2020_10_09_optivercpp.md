@@ -9,7 +9,7 @@ date_end: 2020-10-09 14:00:00
 banner: 2020_10_09_optivercpp.png
 location: Zoom
 fb_link: https://www.facebook.com/events/705985230129967/
-ticket_link:
+ticket_link: "https://optiver-ams.zoom.us/j/92046088313?pwd=eFVtVzlFOHk1ZW04b3ZmNVhDMWdxUT09"
 price: Free
 category:
   - Tech Talk
@@ -25,3 +25,11 @@ During this workshop, one of our engineers will demonstrate some of the profilin
 Whether you write games, mobile applications or trading software, these techniques will help you to write faster and more efficient code!
 
 Please note this webinar is suited for students with at least some pre-existing C++ knowledge.
+
+## Zoom details
+
+Link: (https://optiver-ams.zoom.us/j/92046088313?pwd=eFVtVzlFOHk1ZW04b3ZmNVhDMWdxUT09)[https://optiver-ams.zoom.us/j/92046088313?pwd=eFVtVzlFOHk1ZW04b3ZmNVhDMWdxUT09]
+
+Meeting Id: 920 4608 8313
+
+Password: !xm!Sw0a
