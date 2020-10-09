@@ -22,9 +22,7 @@ layout: default
       ></div>
       {% endif %}
       <h1 class="event-page__title">{{ page.title }}</h1>
-      <div class="blog-post__body">
-        {{ content }}
-      </div>
+      <div class="blog-post__body">{{ content }}</div>
     </section>
     <section class="event-page__details">
       <h2>The Details</h2>
@@ -74,9 +72,13 @@ layout: default
         <hr />
         <h4>Hosted with:</h4>
         <ul>
-          {% for host in page.cohost %}
+          {% for host in page.cohost %} {% if host.link %}
+          <li>
+            <a href="{{ host.link }}"> {{ host.name }} </a>
+          </li>
+          {% else %}
           <li>{{ host }}</li>
-          {% endfor %}
+          {% endif %} {% endfor %}
         </ul>
       </div>
       {% endif %}

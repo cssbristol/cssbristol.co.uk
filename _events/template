@@ -20,5 +20,11 @@ category:
     - Competition
     - Debate
     - Workshop
+{% comment %}
+cohost is a list in the following format:
+    - I am name of cohost
+    - name: I am name of cohost
+      link: 
+{% endcomment %}
 cohost:
 ---
