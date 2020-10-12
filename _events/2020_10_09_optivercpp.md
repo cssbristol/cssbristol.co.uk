@@ -36,3 +36,7 @@ Link: [ https://optiver-ams.zoom.us/j/92046088313?pwd=eFVtVzlFOHk1ZW04b3ZmNVhDMW
 Meeting Id: 920 4608 8313
 
 Password: !xm!Sw0a
+
+## Post talk
+
+The slides are availible [here](/assets/files/2020_10_09_low_latency_slides.pdf)
