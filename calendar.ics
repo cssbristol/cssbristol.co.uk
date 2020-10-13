@@ -2561,16 +2561,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:events-20201016careers
  @cssbristol.co.uk
-DTSTAMP:
-DTSTART:
-DTEND:
+DTSTAMP:20201016T130000Z
+DTSTART:20201016T130000Z
+DTEND:20201016T140000Z
 URL:https://www.cssbristol.co.uk
  /events/2020_10_16_careers/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
- images/contrib/events/
+ images/contrib/events/2020_10_16_careers.png
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
-SUMMARY:
-DESCRIPTION:
+SUMMARY:Your career in software engineering/tech
+DESCRIPTION:Have you just started university and want to ma...
 LOCATION:
 END:VEVENT
 END:VCALENDAR
