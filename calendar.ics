@@ -2558,4 +2558,19 @@ SUMMARY:Technology Skills Session (by Morgan Stanley)
 DESCRIPTION:Morgan Stanley believes capital has the power t...
 LOCATION:Zoom
 END:VEVENT
+BEGIN:VEVENT
+UID:events-20201016careers
+ @cssbristol.co.uk
+DTSTAMP:
+DTSTART:
+DTEND:
+URL:https://www.cssbristol.co.uk
+ /events/2020_10_16_careers/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:
+DESCRIPTION:
+LOCATION:
+END:VEVENT
 END:VCALENDAR
