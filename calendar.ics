@@ -2573,4 +2573,19 @@ SUMMARY:Your career in software engineering/tech
 DESCRIPTION:Have you just started university and want to ma...
 LOCATION:
 END:VEVENT
+BEGIN:VEVENT
+UID:events-20201019venice
+ @cssbristol.co.uk
+DTSTAMP:20201019T120000Z
+DTSTART:20201019T120000Z
+DTEND:20201019T130000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_10_19_venice/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_10_19_venice.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Venice's 13th Century Algorithm
+DESCRIPTION:Miranda’s talk will be on the remarkable and ap...
+LOCATION:Zoom
+END:VEVENT
 END:VCALENDAR
