@@ -19,4 +19,4 @@ cohost:
 
 Bloomberg will explore the consensus problem, one of the fundamental problems of distributed systems. This talk will walk you through what the consensus problem's parameters are, how Consul solves it and how we use Consul to offer Discovery as a Service in Bloomberg.
 
-To sign up: http://tinyurl.com/y2j3pfv9
+To sign up: [ http://tinyurl.com/y2j3pfv9 ](http://tinyurl.com/y2j3pfv9)
