@@ -18,8 +18,9 @@ cohost:
   - Bloomberg
 ---
 
-Bpuzzled is a puzzle competition created by Bloomberg engineers, where teams use problem solving, creative thinking, and teamwork to solve challenging and intricate puzzles that are logical in nature, similar to those found in escape rooms. 
+Bpuzzled is a puzzle competition created by Bloomberg engineers, where teams use problem solving, creative thinking, and teamwork to solve challenging and intricate puzzles that are logical in nature, similar to those found in escape rooms.
 
 The winning teams from various universities will be invited to the Global Round to compete in the finals! Come to participate in some friendly competition and network with Bloomberg.
 
-Bpuzzled Tutorial: https://www.youtube.com/embed/BY2PlioESPg?cc_load_policy=1&autoplay=1
+## Bpuzzled Tutorial
+{% include yt.html url="https://www.youtube-nocookie.com/embed/BY2PlioESPg" %}
