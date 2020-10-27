@@ -2633,4 +2633,19 @@ SUMMARY:Bloomberg Bpuzzled
 DESCRIPTION:Bpuzzled is a puzzle competition created by Blo...
 LOCATION:TBA
 END:VEVENT
+BEGIN:VEVENT
+UID:events-20201114gamejam
+ @cssbristol.co.uk
+DTSTAMP:20201114T120000Z
+DTSTART:20201114T120000Z
+DTEND:20201115T120000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_11_14_gamejam/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_11_15_gamejam.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS Gamejam 2020
+DESCRIPTION:Ever wanted to make a video game? Well, don’t w...
+LOCATION:TBA
+END:VEVENT
 END:VCALENDAR
