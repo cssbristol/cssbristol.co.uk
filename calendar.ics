@@ -2603,4 +2603,34 @@ SUMMARY:EGM
 DESCRIPTION:Its this time of the year again! Please join us...
 LOCATION:Online
 END:VEVENT
+BEGIN:VEVENT
+UID:events-20201105bloombergconsensus
+ @cssbristol.co.uk
+DTSTAMP:20201105T130000Z
+DTSTART:20201105T130000Z
+DTEND:20201105T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_11_05_bloomberg_consensus/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_11_05_bloomberg_consensus.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Bloomberg Engineering Talk - 'Consensus in Prac...
+DESCRIPTION:Bloomberg will explore the consensus problem, o...
+LOCATION:TBA
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20201105bloombergbpuzzled
+ @cssbristol.co.uk
+DTSTAMP:20201105T170000Z
+DTSTART:20201105T170000Z
+DTEND:20201105T203000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_11_05_bloomberg_bpuzzled/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_11_05_bloomberg_bpuzzled.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Bloomberg Bpuzzled
+DESCRIPTION:Bpuzzled is a puzzle competition created by Blo...
+LOCATION:TBA
+END:VEVENT
 END:VCALENDAR
