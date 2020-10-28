@@ -2616,7 +2616,7 @@ IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Bloomberg Engineering Talk - 'Consensus in Prac...
 DESCRIPTION:Bloomberg will explore the consensus problem, o...
-LOCATION:TBA
+LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:events-20201105bloombergbpuzzled
@@ -2631,7 +2631,7 @@ IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Bloomberg Bpuzzled
 DESCRIPTION:Bpuzzled is a puzzle competition created by Blo...
-LOCATION:TBA
+LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:events-20201114gamejam
