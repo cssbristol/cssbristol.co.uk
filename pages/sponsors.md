@@ -13,7 +13,7 @@ Whether you're interested in running an event or looking to begin a longer colla
 * [Our sponsorship packages, 2020-21 (Bath and Bristol)](/assets/files/Sponsorship_leaflet_2021_disc.pdf)
 * [Contact us about sponsorship](mailto:vice-president@cssbristol.co.uk)
 
-<iframe src = "/ViewerJS/#../assets/files/Sponsorship_leaflet_2021.pdf" width='100%' height='600' allowfullscreen webkitallowfullscreen></iframe>
+{% include pdf.html url="/assets/files/Sponsorship_leaflet_2021.pdf" %}
 
 ## Tech Talk Top Tips
 
