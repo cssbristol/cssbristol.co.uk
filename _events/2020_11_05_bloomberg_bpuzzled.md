@@ -24,3 +24,7 @@ The winning teams from various universities will be invited to the Global Round 
 
 ## Bpuzzled Tutorial
 {% include yt.html url="https://www.youtube-nocookie.com/embed/BY2PlioESPg" %}
+
+To sign-up: http://tinyurl.com/y5xbkxaq
+
+As there are a limited amount of slots available, please apply as soon as possible and we will get back to you with a confirmation email closer to the date.
