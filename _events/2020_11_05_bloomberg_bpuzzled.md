@@ -7,7 +7,7 @@ title: Bloomberg Bpuzzled
 date: 2020-11-05 17:00:00
 date_end: 2020-11-05 20:30:00
 banner: 2020_11_05_bloomberg_bpuzzled.png
-location: TBA
+location: Online
 fb_link: https://www.facebook.com/events/1271508343211644
 ticket_link: http://tinyurl.com/y5xbkxaq
 price: Free
