@@ -10,6 +10,10 @@
   logo: optiver.svg
   url: https://www.optiver.com
 
+- name: GRAPHCORE
+  logo: graphcore.png
+  url: https://www.graphcore.ai
+
 - name: Visa
   logo: visa.webp
   url: https://www.visa.co.uk/
