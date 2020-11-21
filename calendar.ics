@@ -2679,6 +2679,21 @@ DESCRIPTION:Sign up on the interest form here!
 LOCATION:TBA
 END:VEVENT
 BEGIN:VEVENT
+UID:events-20201128rockpaperscissors
+ @cssbristol.co.uk
+DTSTAMP:20201128T130000Z
+DTSTART:20201128T130000Z
+DTEND:20201128T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_11_28_rock_paper_scissors/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_11_28_rock_paper_scissors.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:The Ultimate CSS Rock Paper Scissors MLG PRO TO...
+DESCRIPTION:AND SHOW YOUR VIRTUAL HAND IN THREE… TWO …ONE! ...
+LOCATION:Discord
+END:VEVENT
+BEGIN:VEVENT
 UID:events-20201130ghystonwasm
  @cssbristol.co.uk
 DTSTAMP:20201130T160000Z
