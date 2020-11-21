@@ -2678,4 +2678,19 @@ SUMMARY:CSS Gamejam 2020
 DESCRIPTION:Sign up on the interest form here!
 LOCATION:TBA
 END:VEVENT
+BEGIN:VEVENT
+UID:events-20201130ghystonwasm
+ @cssbristol.co.uk
+DTSTAMP:20201130T160000Z
+DTSTART:20201130T160000Z
+DTEND:20201130T170000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_11_30_ghyston_wasm/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_11_30_ghyston_wasm.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Blazor & Web Assembly | Ghyston
+DESCRIPTION:Blazor is a new framework from Microsoft for bu...
+LOCATION:Online
+END:VEVENT
 END:VCALENDAR
