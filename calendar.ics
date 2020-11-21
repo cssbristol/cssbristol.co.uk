@@ -2679,6 +2679,21 @@ DESCRIPTION:Sign up on the interest form here!
 LOCATION:TBA
 END:VEVENT
 BEGIN:VEVENT
+UID:events-20201125nextjump
+ @cssbristol.co.uk
+DTSTAMP:20201125T160000Z
+DTSTART:20201125T160000Z
+DTEND:20201125T170000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_11_25_next_jump/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_11_25_next_jump.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:a day in the life with nextjump
+DESCRIPTION:Join Next Jump as they give insight into:  Ex...
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
 UID:events-20201128rockpaperscissors
  @cssbristol.co.uk
 DTSTAMP:20201128T130000Z
