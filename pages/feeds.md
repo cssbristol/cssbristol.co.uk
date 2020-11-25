@@ -2,7 +2,7 @@
 layout: page
 title: Sync all the things
 permalink: /feeds/
-show-in-nav: true
+show-in-nav: false
 ---
 
 # Sync all the things
