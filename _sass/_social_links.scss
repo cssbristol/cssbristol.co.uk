@@ -61,7 +61,7 @@
       background: #2d32ad;
     }
 
-    &:after {
+    /*&:after {
       content: attr(title);
       position: absolute;
       bottom: 0px;
@@ -78,7 +78,7 @@
 
     &:hover:after {
       opacity: 1;
-    }
+    }*/
 
     &:hover, &:focus {
       box-shadow: 0px 10px 10px $shadow;
