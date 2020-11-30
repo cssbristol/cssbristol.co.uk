@@ -25,3 +25,6 @@ Charles is a technical lead at Ghyston, a bespoke software development company b
 
 ## Join
 Join us for the talk on [Microsoft teams](https://teams.microsoft.com/l/meetup-join/19%3ae235af26d46143b39a0d96ba8868edc0%40thread.tacv2/1605262269623?context=%7b%22Tid%22%3a%22b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b%22%2c%22Oid%22%3a%226e61c35b-613a-4904-aede-b98164d29997%22%7d)
+
+## Post-talk
+Slides and code availible [here](https://github.com/charlesrea/blazor-presentation)
