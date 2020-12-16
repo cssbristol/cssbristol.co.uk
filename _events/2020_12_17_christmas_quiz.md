@@ -3,7 +3,7 @@ layout: event
 published: true
 cancelled: false
 cancel_reason:
-title: Blazor & Web Assembly | Ghyston
+title: 2020 Christmas Quiz ft. Hakeem
 date:     2020-12-17 19:00:00
 date_end: 2020-12-17 22:00:00
 banner: 2020_12_17_christmas_quiz.png
