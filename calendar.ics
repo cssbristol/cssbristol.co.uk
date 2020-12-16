@@ -2723,4 +2723,19 @@ SUMMARY:Blazor & Web Assembly | Ghyston
 DESCRIPTION:Blazor is a new framework from Microsoft for bu...
 LOCATION:Online
 END:VEVENT
+BEGIN:VEVENT
+UID:events-20201217christmasquiz
+ @cssbristol.co.uk
+DTSTAMP:20201217T190000Z
+DTSTART:20201217T190000Z
+DTEND:20201217T220000Z
+URL:https://www.cssbristol.co.uk
+ /events/2020_12_17_christmas_quiz/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2020_12_17_christmas_quiz.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Blazor & Web Assembly | Ghyston
+DESCRIPTION:The CSS Christmas quiz returns along with its l...
+LOCATION:Online
+END:VEVENT
 END:VCALENDAR
