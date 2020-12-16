@@ -9,7 +9,7 @@ date_end: 2020-12-17 22:00:00
 banner: 2020_12_17_christmas_quiz.png
 location: Online
 fb_link: https://www.facebook.com/events/108679691028305/
-ticket_link:
+ticket_link: https://bit.ly/css-xmas-quiz
 price: Free
 category:
     - Social
@@ -27,4 +27,4 @@ Rules:
 See you there xxx (bring drinks if you want)
 
 ## Join
-(Link coming soon)
+Join us for on [Microsoft teams](https://teams.microsoft.com/l/meetup-join/19%3ae235af26d46143b39a0d96ba8868edc0%40thread.tacv2/1608139022885?context=%7B%22Tid%22%3A%22b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b%22%2C%22Oid%22%3A%22386d2b1b-fa54-4263-a8cd-26e47d940388%22%7D)
