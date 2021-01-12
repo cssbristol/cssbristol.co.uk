@@ -2738,4 +2738,19 @@ SUMMARY:2020 Christmas Quiz ft. Hakeem
 DESCRIPTION:The CSS Christmas quiz returns along with its l...
 LOCATION:Online
 END:VEVENT
+BEGIN:VEVENT
+UID:events-20210127tradecraft
+ @cssbristol.co.uk
+DTSTAMP:20210127T170000Z
+DTSTART:20210127T170000Z
+DTEND:20210127T193000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021_01_27_tradecraft/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021_01_27_tradecraft.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Tradercraft - an Optiver insights event
+DESCRIPTION:The exciting world of electronic trading is a p...
+LOCATION:Online
+END:VEVENT
 END:VCALENDAR
