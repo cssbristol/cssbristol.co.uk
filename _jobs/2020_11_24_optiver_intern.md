@@ -11,7 +11,7 @@ logo: /assets/images/contrib/jobs/optiver.svg
 jobLocation: Amsterdam
 industry: Software Development
 employmentType: Intern
-validThrough: 2020-12-21 12:00:00 +0100
+validThrough: 2021-04-01 12:00:00 +0100
 startDate: Summer 2021
 occupationalCategory:
 baseSalary: Competitive
