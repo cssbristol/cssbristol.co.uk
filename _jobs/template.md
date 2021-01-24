@@ -7,7 +7,7 @@ hiringOrganization:
   name: <++>
   address:  <++>
 title: <++>
-logo: /assets/images/contrib/jobs/<++>
+logo: <++>
 jobLocation: <++>
 industry: Software Development
 employmentType: <++>
@@ -17,12 +17,7 @@ occupationalCategory:
 baseSalary: <++>
 salaryCurrency: GBP
 salaryPeriod: <++>
-responsibilities:
-skills:
-experienceRequirements:
-educationalRequirements:
-incentiveCompensation:
-
+applicationLink:
 ---
 
 ## Job Description
@@ -42,12 +37,3 @@ incentiveCompensation:
 
 ## Other Benefits
 <++>
-
-## To apply:
-
-<div class="to-apply" style="text-align: center">
-  <a class="btn btn--dark" style="margin: 20px" href="<++>">
-    Apply
-  </a>
-</div>
----

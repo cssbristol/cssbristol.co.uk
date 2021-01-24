@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Insight Programme
 hide: false
 logo: /assets/images/contrib/jobs/teach-first.png

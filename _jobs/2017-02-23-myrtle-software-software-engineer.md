@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Software Engineer
 hide: false
 logo: /assets/images/contrib/jobs/myrtle-software.png

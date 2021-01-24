@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Technology Graduate Programme
 hide: false
 logo: /assets/images/contrib/jobs/citrix.png

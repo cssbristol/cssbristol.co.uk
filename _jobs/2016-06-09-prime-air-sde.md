@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Prime Air SDE
 hide: false
 logo: /assets/images/contrib/jobs/amazon.png

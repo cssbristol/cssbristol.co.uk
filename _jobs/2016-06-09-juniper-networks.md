@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Graduate Engineer
 hide: false
 logo: /assets/images/contrib/jobs/juniper.png

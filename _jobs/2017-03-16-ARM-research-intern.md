@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Research Intern (Summer)
 hide: true
 logo: /assets/images/contrib/jobs/arm.png

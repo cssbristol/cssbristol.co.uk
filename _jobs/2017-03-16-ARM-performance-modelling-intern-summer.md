@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Intern (Summer) - Performance Modelling
 hide: false
 logo: /assets/images/contrib/jobs/arm.png

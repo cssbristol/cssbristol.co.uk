@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Python Developer (#techforgood open data standard)
 hide: false
 logo: /assets/images/contrib/jobs/development-initiatives.png

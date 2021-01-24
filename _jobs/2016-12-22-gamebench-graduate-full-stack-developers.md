@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Graduate Full Stack Developer
 hide: false
 logo: /assets/images/contrib/jobs/gamebench.png

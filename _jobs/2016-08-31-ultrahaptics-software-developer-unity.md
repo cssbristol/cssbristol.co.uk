@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Software Developer (Unity)
 hide: false
 logo: /assets/images/contrib/jobs/ultrahaptics.svg

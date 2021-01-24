@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Software Engineering Summer Internship
 hide: false
 logo: /assets/images/contrib/jobs/jump-trading.png

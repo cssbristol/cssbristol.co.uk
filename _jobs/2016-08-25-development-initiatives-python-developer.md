@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: International Aid Transparency Initiative (IATI) Python Developer
 hide: false
 logo: /assets/images/contrib/jobs/development-initiatives.png

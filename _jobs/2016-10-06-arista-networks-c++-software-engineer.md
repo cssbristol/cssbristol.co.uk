@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: C++ Software Engineer
 hide: true
 logo: /assets/images/contrib/jobs/arista.png

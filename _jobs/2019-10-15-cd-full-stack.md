@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 hide: false
 sponsored: false
 datePosted: 2010-01-01 12:00:00 +0100

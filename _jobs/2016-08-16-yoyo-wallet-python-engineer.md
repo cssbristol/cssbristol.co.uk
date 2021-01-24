@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Software Engineer (Python)
 hide: false
 logo: /assets/images/contrib/jobs/yoyo-wallet.png

@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Summer Intern - Software Engineering
 hide: true
 logo: /assets/images/contrib/jobs/oracle.png

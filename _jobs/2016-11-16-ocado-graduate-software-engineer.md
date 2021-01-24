@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Graduate Software Engineer
 hide: false
 logo: /assets/images/contrib/jobs/ocado.png

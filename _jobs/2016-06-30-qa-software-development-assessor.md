@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Graduate IT Software Development Assessor
 hide: false
 logo: /assets/images/contrib/jobs/qa.png

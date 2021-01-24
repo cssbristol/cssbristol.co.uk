@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Freelance Front End Developer
 hide: false
 logo: /assets/images/contrib/jobs/square-studio.png

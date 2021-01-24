@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Cockpit Software and Electronics Engineer
 hide: false
 logo: /assets/images/contrib/jobs/bloodhound.png

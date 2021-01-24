@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Junior Web Developer (Java)
 hide: false
 logo: /assets/images/contrib/jobs/project-people.png

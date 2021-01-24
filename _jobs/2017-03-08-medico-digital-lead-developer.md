@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Lead Developer
 hide: false
 logo: /assets/images/contrib/jobs/medico-digital.png

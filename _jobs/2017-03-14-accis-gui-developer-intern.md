@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: GUI Developer Intern
 hide: false
 logo: /assets/images/contrib/jobs/accis.png

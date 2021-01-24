@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Student Laptop and Mobile Clinic Technician
 sponsored: true
 hide: true

@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Graduate IT Consultant
 hide: false
 logo: /assets/images/contrib/jobs/qa.png

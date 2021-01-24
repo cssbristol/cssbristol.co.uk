@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 hide: false
 sponsored: true
 datePosted: 2017-10-18 16:00:00 +0100

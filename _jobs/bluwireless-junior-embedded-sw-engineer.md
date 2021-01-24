@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Junior Embedded SW Engineer
 hide: true
 logo: /assets/images/contrib/jobs/bluwireless.png

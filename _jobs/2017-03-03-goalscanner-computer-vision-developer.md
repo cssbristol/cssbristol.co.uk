@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: C++ Computer Vision Developer
 hide: false
 logo: /assets/images/contrib/jobs/goal-scanner.png

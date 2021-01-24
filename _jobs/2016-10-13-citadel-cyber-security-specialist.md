@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Cyber Security Specialist
 hide: false
 logo: /assets/images/contrib/jobs/citadel-maritime.jpg

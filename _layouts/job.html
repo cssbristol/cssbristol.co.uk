@@ -1,97 +1,81 @@
 ---
 layout: default
 ---
-
 <section class="page-section">
-  <article class="article">
-    <a href="/jobs"><img src="/assets/images/core/jobs/back.png" style="height: 40px; margin: 0"/></a>
-    <div itemscope itemtype="http://schema.org/JobPosting" class="job-post">
-      <header class="job-post__header">
-        <h1 class="job-post__title" itemprop="title">{{ page.title }}</h1>
-        <p class="job-post__dates">Posted <time datetime="{{ page.datePosted | date_to_xmlschema }}" itemprop="datePosted">{{ page.datePosted | date: "%b %-d, %Y"  }}</time>
-          | Apply by <time datetime="{{ page.validThrough | date_to_xmlschema }}" itemprop="validThrough">{{ page.validThrough | date: "%H:%M %b %-d, %Y"  }}</time></p>
-        <span itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization">
-          <p><span itemprop="name">{{ page.hiringOrganization.name }}</span></p>
-          {% if page.logo %}<img class="job-post__logo" src="{{ page.logo }}" alt="{{ page.hiringOrganization.name }} logo" />{% endif %}
-          <p><span itemprop="address">{{ page.hiringOrganization.address }}</span></p>
-        </span>
-        {% if page.sponsored %}<p class="job-post__sponsored">Sponsored</p>{% endif %}
-      </header>
-
-      <dl class="">
-        <dt>Location</dt>
-        <dd itemprop="jobLocation">{{ page.jobLocation }}</dd>
-        <dt>Industry</dt>
-        <dd itemprop="industry">{{ page.industry }}</dd>
-        {% if page.occupationalCategory %}
-          <dt>Category</dt>
-          <dd itemprop="occupationalCategory">{{ page.occupationalCategory }}</dd>
-        {% endif %}
-        <dt>Hours</dt>
-        <dd itemprop="employmentType">{{ page.employmentType }}</dd>
-        <dt>Salary</dt>
-        <dd>
-          <span itemprop="salaryCurrency">{{ page.salaryCurrency }}</span>
-          <span itemprop="baseSalary">{{ page.baseSalary }}</span>
-          {% if page.salaryPeriod %}per {{ page.salaryPeriod }}{% endif %}
-        </dd>
-        <dt>Start</dt>
-        <dd>{{ page.startDate }}</dd>
-      </dl>
-
-      {% if content %}
-        <h2>Description</h2>
-        <p itemprop="description">
-          {{ content }}
-        </p>
+  <article class="article event-page">
+    <section>
+      <h1 class="event-page__title">{{ page.title }} at {{ page.hiringOrganization.name }}</h1>
+      <div class="blog-post__body">{{ content }}</div>
+    </section>
+    <section class="event-page__details">
+      <h2>The Details</h2>
+      {% if page.hiringOrganization.name %}
+        <div class="event-page__details__row">
+          <i class="fas fa-building"></i>
+          <p>{{ page.hiringOrganization.name }}</p>
+        </div>
       {% endif %}
-      {% if page.responsibilities %}
-        <h2>Responsibilities</h2>
-        <ul itemprop="responsibilities">
-          {% for responsibility in page.responsibilities %}
-            <li>{{ responsibility }}</li>
-          {% endfor %}
-        </ul>
+      {% if page.startDate %}
+        <div class="event-page__details__row">
+          <i class="fas fa-calendar-day"></i>
+          <p>{{ page.startDate }}</p>
+        </div>
       {% endif %}
-      {% if page.educationRequirements %}
-        <h2>Educational requirements</h2>
-        <ul itemprop="educationRequirements">
-          {% for educationRequirement in page.educationRequirements %}
-            <li>{{ educationRequirement }}</li>
-          {% endfor %}
-        </ul>
+      {% if page.jobLocation %}
+        <div class="event-page__details__row">
+          <i class="fas fa-map-marker"></i>
+          <p>{{ page.jobLocation }}</p>
+        </div>
       {% endif %}
-      {% if page.experienceRequirements %}
-        <h2>Experience requirements</h2>
-        <ul itemprop="experienceRequirements">
-          {% for experienceRequirement in page.experienceRequirements %}
-            <li>{{ experienceRequirement }}</li>
-          {% endfor %}
-        </ul>
+      {% if page.baseSalary %}
+        <div class="event-page__details__row">
+          <i class="fas fa-pound-sign"></i>
+          <p>{{ page.baseSalary }}  {{ page.salaryCurrency }} /{{ page.salaryPeriod }}</p>
+        </div>
       {% endif %}
-      {% if page.skills %}
-        <h2>Desired Skills</h2>
-        <ul itemprop="skills">
-          {% for skill in page.skills %}
-            <li>{% if skill.importance %}<strong>{{ skill.importance }}</strong>: {% endif %}{{ skill.skill }}</li>
-          {% endfor %}
-        </ul>
+      {% if page.employmentType %}
+        <div class="event-page__details__row">
+          <i class="fas fa-user-clock"></i>
+          <p>{{ page.employmentType }}</p>
+        </div>
       {% endif %}
-      {% if page.incentiveCompensation %}
-        <h2>Incentives</h2>
-        <p itemprop="incentiveCompensation">
-          {{ page.incentiveCompensation }}
-        </p>
+      {% if page.validThrough %}
+        <div class="event-page__details__row">
+          <i class="fas fa-hourglass-end"></i>
+          <p>
+            {{ page.validThrough | date: "%d/%m/%y %H:%M" }}
+          </p>
+        </div>
       {% endif %}
-    </div>
-
-    <h3>Want to advertise a job?</h3>
-    <p>We're always on the lookout for high quality jobs that our members might be interested in.
-      <a href="https://docs.google.com/forms/d/1TY1gmN8f02Np_B--DGcSC5YxhywfpPPxNl4jU8ok4S0/viewform">Submit your job posting here.</a>
-    </p>
-
-    <h3>Feedback</h3>
-    <p>Any issues with this job? Submit <a href="https://github.com/cssbristol/cssbristol.github.io/issues">an issue</a> or a <a href="https://github.com/cssbristol/cssbristol.github.io/pulls">pull request</a> and we'll get it sorted out right away.</p>
-    <p>Our sponsors get prioritised job placement and promotion. Interested in sponsoring CSS? <a href="/pages/sponsors">Find out more</a>.</p>
+      {% if page.apply %}
+        <div class="event-page__details__hosted-with">
+          <hr />
+          {% if page.apply.link %}
+            <a
+              class="btn btn--dark"
+              style="margin: 20px"
+              target="_blank"
+              href="{{ page.apply.link }}"
+            >
+              Apply Here
+            </a>
+          {% endif %}
+          {% if page.apply.email.address %}
+            <div>
+              <p>Send:</p>
+              <ul>
+                {% for i in page.apply.email.items %}
+                  <li>{{ i }}</li>
+                {% endfor %}
+              </ul>
+              <span>to:<span>
+              <a href="mailto:{{ page.apply.email.address }}">
+                {{ page.apply.email.address }}
+              </a>
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    </section>
   </article>
 </section>

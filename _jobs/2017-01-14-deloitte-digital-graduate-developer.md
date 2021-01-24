@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Graduate Developer
 hide: false
 logo: /assets/images/contrib/jobs/deloitte-digital.png

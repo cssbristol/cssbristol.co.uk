@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Software Development Intern (6 months)
 hide: true
 logo: /assets/images/contrib/jobs/arm.png

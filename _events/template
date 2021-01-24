@@ -28,4 +28,3 @@ cohost is a list in the following format:
 - name: I am name of cohost
   link:
 {% endcomment %}
-

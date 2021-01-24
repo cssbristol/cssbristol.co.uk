@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Software Engineer Intern (Summer) - Systems Architecture
 hide: false
 logo: /assets/images/contrib/jobs/arm.png

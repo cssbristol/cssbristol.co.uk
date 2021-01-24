@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Mobile Engineer (iOS or Android)
 hide: false
 logo: /assets/images/contrib/jobs/yoyo-wallet.png

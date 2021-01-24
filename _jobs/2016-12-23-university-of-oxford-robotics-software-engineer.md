@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: job-old
 title: Robotics Software Engineer
 hide: false
 logo: /assets/images/contrib/jobs/university-of-oxford.png
