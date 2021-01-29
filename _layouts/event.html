@@ -29,12 +29,12 @@ layout: default
       {% if page.date %} {% assign endDay = page.date_end | date: '%j' %} {%
       assign startDay = page.date | date: '%j' %} {% if startDay == endDay %}
       <div class="event-page__details__row">
-        <i class="fas fa-calendar-day"></i>
+        <i class="fas fa-calendar-day" data-tooltip="Event date" aria-label="Event date"></i>
         <p>{{ page.date | date: "%d/%m/%y" }}</p>
       </div>
       {% else %}
       <div class="event-page__details__row">
-        <i class="fas fa-calendar-day"></i>
+        <i class="fas fa-calendar-day" data-tooltip="Event date" aria-label="Event date"></i>
         <p>
           {{ page.date | date: "%d/%m/%y" }} - {{ page.date_end | date:
           "%d/%m/%y" }}
@@ -42,24 +42,24 @@ layout: default
       </div>
       {% endif %}
       <div class="event-page__details__row">
-        <i class="fas fa-clock"></i>
+        <i class="fas fa-clock" data-tooltip="Event time" aria-label="Event time"></i>
         <p>
           {{ page.date | date: "%H:%M" }} - {{ page.date_end | date: "%H:%M" }}
         </p>
       </div>
       {% endif %} {% if page.location %}
       <div class="event-page__details__row">
-        <i class="fas fa-map-marker"></i>
+        <i class="fas fa-map-marker" data-tooltip="Event location" aria-label="Event location"></i>
         <p>{{ page.location }}</p>
       </div>
       {% endif %} {% if page.price %}
       <div class="event-page__details__row">
-        <i class="fas fa-pound-sign"></i>
+        <i class="fas fa-pound-sign" data-tooltip="Ticket price" aria-label="Ticket price"></i>
         <p>{{ page.price }}</p>
       </div>
       {% endif %} {% if page.ticket_link %}
       <a class="event-page__details__row" href="{{ page.ticket_link }}">
-        <i class="fas fa-shopping-cart"></i>
+        <i class="fas fa-shopping-cart" data-tooltip="Ticket link" aria-label="Ticket link"></i>
         <p>Get a ticket here</p>
       </a>
       {% endif %} {% if page.fb_link %}

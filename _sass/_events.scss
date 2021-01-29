@@ -37,26 +37,6 @@
 
       i {
         margin: 0 0.75ch;
-        position: relative;
-      }
-
-      i::after {
-        content: attr(popup);
-        display: block;
-        position: absolute;
-        top: calc(100% + 1rem);
-        left: 0;
-        background-color: $darkgray;
-        color: $white;
-        border-radius: 5px;
-        padding: 0.5rem;
-        transition: opacity ease 0.2s;
-        opacity: 0;
-        font-family: "Fira Sans";
-      }
-
-      i:hover::after {
-        opacity: 1;
       }
     }
   }
