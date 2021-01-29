@@ -1,0 +1,30 @@
+[data-tooltip] {
+  position: relative;
+}
+
+[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  background-color: $darkgray;
+  color: $white;
+  border-radius: 5px;
+  padding: 0.5rem;
+  transform: translate(-50%, -50%) scale(0);
+  transition: opacity ease 0.2s, visibility ease 0.2s, transform ease 0.2s;
+  opacity: 0;
+  font-family: "Fira Sans";
+  font-size: 0.75rem;
+  z-index: 9999999;
+  line-height: 1rem;
+  pointer-events: none;
+
+  transform-origin: center top;
+  top: 225%;
+  left: 50%;
+}
+
+[data-tooltip]:hover::after {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(1);
+}
