@@ -1,5 +1,5 @@
 ---
-layout: job-old
+layout: job
 hide: false
 sponsored: false
 datePosted: 2020-11-12 12:00:00 +0100
@@ -7,7 +7,7 @@ hiringOrganization:
   name: Fire Tech Camp
   address:  The Office Group, Hammersmith
 title: Remoute Camp Tutor
-logo: /assets/images/contrib/jobs/firetech.png
+logo: firetech.png
 jobLocation: Remote
 industry: IT
 employmentType: Tempory
@@ -17,12 +17,8 @@ occupationalCategory:
 baseSalary: 330
 salaryCurrency: GBP
 salaryPeriod: Week
-responsibilities:
-skills:
-experienceRequirements:
-educationalRequirements:
-incentiveCompensation:
-
+apply:
+  link: https://www.firetechcamp.com/careers-at-fire-tech/instructor-work-opportunities/
 ---
 
 Launched in April 2013, Fire Tech is the UK’s #1 technology day camp focusing on children aged 9-17. Fire Tech’s mission is to get young people creating and innovating using technology.
@@ -87,12 +83,3 @@ We are growing Fire Tech programmes across the UK and abroad and we need the ver
 Note: There are also opportunities for teaching after school clubs, weekend clubs, and private tutoring clients.
 
 To apply, please head to our website and select the Remote Camp Tutor Role: [https://www.firetechcamp.com/careers-at-fire-tech/instructor-work-opportunities/](https://www.firetechcamp.com/careers-at-fire-tech/instructor-work-opportunities/)
-
-## To apply:
-
-<div class="to-apply" style="text-align: center">
-  <a class="btn btn--dark" style="margin: 20px" href="https://www.firetechcamp.com/careers-at-fire-tech/instructor-work-opportunities/">
-    Apply
-  </a>
-</div>
----

@@ -1,5 +1,5 @@
 ---
-layout: job-old
+layout: job
 hide: false
 sponsored: true
 datePosted: 2020-11-24 12:00:00 +0100
@@ -7,7 +7,7 @@ hiringOrganization:
   name: Optiver
   address:  Amsterdam
 title: Software Engineer Intern
-logo: /assets/images/contrib/jobs/optiver.svg
+logo: optiver.svg
 jobLocation: Amsterdam
 industry: Software Development
 employmentType: Intern
@@ -17,12 +17,8 @@ occupationalCategory:
 baseSalary: Competitive
 salaryCurrency: EUR
 salaryPeriod: Month
-responsibilities:
-skills:
-experienceRequirements:
-educationalRequirements:
-incentiveCompensation:
-
+apply:
+  link: https://www.optiver.com/eu/en/job-opportunities/eu-990203?bar=foo
 ---
 
 Do you want to experience working at a company that is at the cutting edge of technology, running a global network with thousands of high-performance low-latency applications, generating petabytes of data every day? Are you interested in boosting your future career? Then apply for the Summer Internship at Optiver in Amsterdam!
@@ -78,12 +74,3 @@ following your HackerRank test the next steps will be:
 - Remote final interview day (both technical and not technical interviews)
 
 If you have any questions feel free to contact Serena Riccomagno at serenariccomagno@optiver.com or Pamela Jensen at pamelajensen@optiver.com
-
-## To apply:
-
-<div class="to-apply" style="text-align: center">
-  <a class="btn btn--dark" style="margin: 20px" href="https://www.optiver.com/eu/en/job-opportunities/eu-990203?bar=foo">
-    Apply
-  </a>
-</div>
----

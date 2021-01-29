@@ -1,13 +1,13 @@
 ---
-layout: job-old
+layout: job
 hide: false
 sponsored: true
-datePosted: 2020-01-01 12:00:00 +0100
+datePosted: 2020-11-01 12:00:00 +0100
 hiringOrganization:
   name: Bloomberg
   address:  3 Queen Victoria St, London EC4N 4TQ
 title: Software Engineer
-logo: /assets/images/contrib/jobs/bloomberg.png
+logo: bloomberg.png
 jobLocation: London
 industry: Software Development
 employmentType: Full-time
@@ -17,12 +17,8 @@ occupationalCategory:
 baseSalary: Competitive
 salaryCurrency: GBP
 salaryPeriod: Month
-responsibilities:
-skills:
-experienceRequirements:
-educationalRequirements:
-incentiveCompensation:
-
+apply:
+  link: https://careers.bloomberg.com/job/detail/84363
 ---
 
 ## Job Description
@@ -49,14 +45,6 @@ You’ll need to:
 - Programming experience in C, C++, C#, Java or Python
 
 ## Experience Requirements
-We'd love to see: 
+We'd love to see:
 - experience building software in an internship, school, or other technical projects
 
-## To apply:
-
-<div class="to-apply" style="text-align: center">
-  <a class="btn btn--dark" style="margin: 20px" href="https://careers.bloomberg.com/job/detail/84363">
-    Apply
-  </a>
-</div>
----

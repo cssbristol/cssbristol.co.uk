@@ -1,5 +1,5 @@
 ---
-layout: job-old
+layout: job
 hide: false
 sponsored: false
 datePosted: 2021-01-15 12:00:00 +0100
@@ -7,7 +7,7 @@ hiringOrganization:
   name: TVF Media
   address:  375 City Road, London, EC1V 1NB
 title: Junior Web Developer
-logo: /assets/images/contrib/jobs/TVF-company-logo-small.jpg
+logo: TVF-company-logo-small.jpg
 jobLocation: London
 industry: Web
 employmentType: Full Time
@@ -17,18 +17,14 @@ occupationalCategory:
 baseSalary: 25000
 salaryCurrency: GBP
 salaryPeriod: Year
-responsibilities:
-skills:
-experienceRequirements:
-educationalRequirements:
-incentiveCompensation:
-
+apply:
+  link: http://www.tvf.co.uk/careers/tvf-digital/junior-web-developer
 ---
 
 ## Job Description
 TVF Digital is a dynamic and award-winning agency that delivers high profile and successful digital campaigns across a wide range of sectors including broadcast media, film, publishing and healthcare. As part of the TVF Media group, TVF Digital has worked at the forefront of new media for more than 10 years, with clients including BBC, Ogilvy & Mather, IBM, Vice, McCann World Group, and the HowTheLightGetsIn Festival, the world’s largest philosophy and music festival.
 
-After an incredible period of development, we are seeking an enthusiastic, creative Junior Full-stack Web Developer to join our expanding web team in Central London. 
+After an incredible period of development, we are seeking an enthusiastic, creative Junior Full-stack Web Developer to join our expanding web team in Central London.
 
 ## Job Responsibilities
 You'll help create new responsive websites, improve our existing websites, and implement mobile web applications. You'll be joining a close-knit team of designers and developers and will be encouraged to learn and develop your skillset.
@@ -55,12 +51,3 @@ The following is desirable but not essential:
 
 ## Other Benefits
 At TVF Digital we favour internal promotions to external hires, and there is huge potential for future growth for the right candidate.
-
-## To apply:
-
-<div class="to-apply" style="text-align: center">
-  <a class="btn btn--dark" style="margin: 20px" href="http://www.tvf.co.uk/careers/tvf-digital/junior-web-developer">
-    Apply
-  </a>
-</div>
----
