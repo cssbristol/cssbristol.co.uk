@@ -2754,15 +2754,15 @@ DESCRIPTION:The exciting world of electronic trading is a p...
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
-UID:events-20210205connect4
+UID:events-20210212connect4
  @cssbristol.co.uk
-DTSTAMP:20210205T190000Z
-DTSTART:20210205T190000Z
-DTEND:20210205T200000Z
+DTSTAMP:20210212T190000Z
+DTSTART:20210212T190000Z
+DTEND:20210212T200000Z
 URL:https://www.cssbristol.co.uk
- /events/2021_02_05_connect4/
+ /events/2021_02_12_connect4/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
- images/contrib/events/2021_02_05_connect4.jpg
+ images/contrib/events/2021_02_12_connect4.jpg
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Connect 4 Tournament
 DESCRIPTION:It is time for the next CSS Tournament- this ti...
