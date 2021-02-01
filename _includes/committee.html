@@ -8,7 +8,9 @@
       <p class="committee-member__name" itemprop="name">{{ committee-member.name }}</p>
     {% endif %}
     <p class="committee-member__position" itemprop="jobtitle">{{ committee-member.position }}</p>
-    <p class="committee-member__email"><a href="mailto:{{ committee-member.email }}"><span itemprop="email">{{ committee-member.email }}</span></a></p>
+    {% unless include.hide-email %}
+      <p class="committee-member__email"><a href="mailto:{{ committee-member.email }}"><span itemprop="email">{{ committee-member.email }}</span></a></p>
+    {% endunless %}
     <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" style="display: none;">
       <div><span itemprop="addressLocality">Bristol</span></div><div itemprop="addressCountry">United Kingdom</div>
     </div>

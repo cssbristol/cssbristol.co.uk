@@ -9,5 +9,5 @@ show-in-nav: false
 {% assign c = site.data.committee | reverse %}
 {% for committee in c offset:1 %}
 ## Committee {{ committee.year }}
-  {% include committee.html data-file=committee.members %}
+  {% include committee.html data-file=committee.members hide-email=true %}
 {% endfor %}
