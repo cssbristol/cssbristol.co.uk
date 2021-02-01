@@ -15,9 +15,10 @@ Course directors, tutors and other key staff contacts can be found [here](http:/
 
 Perhaps you're looking for a [previous committee member](/pages/halloffame)?
 
-# CSS Committee 2020-21
+{% assign committee = site.data.committee | last %}
+# CSS Committee {{ committee.year }}
 
-{% include committee.html data-file=site.data.committee-2020-21 %}
+{% include committee.html data-file=committee.members %}
 
 # Course Reps
 A list of your course reps can be found on the [SU webpage](https://www.bristolsu.org.uk/course_rep) *(Requires SSO login)*
