@@ -2754,6 +2754,21 @@ DESCRIPTION:The exciting world of electronic trading is a p...
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
+UID:events-20210211stopandsmelltheflowers
+ @cssbristol.co.uk
+DTSTAMP:20210211T170000Z
+DTSTART:20210211T170000Z
+DTEND:20210211T180000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021_02_11_stop_and_smell_the_flowers/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021_02_11_stop_and_smell_the_flowers.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Stop and Smell the Flowers: Augmenting VR with ...
+DESCRIPTION:Affordable virtual reality (VR) technology is n...
+LOCATION:Teams
+END:VEVENT
+BEGIN:VEVENT
 UID:events-20210212connect4
  @cssbristol.co.uk
 DTSTAMP:20210212T190000Z
