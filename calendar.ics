@@ -2783,4 +2783,19 @@ SUMMARY:Connect 4 Tournament
 DESCRIPTION:It is time for the next CSS Tournament- this ti...
 LOCATION:Discord
 END:VEVENT
+BEGIN:VEVENT
+UID:events-20210225hashcode
+ @cssbristol.co.uk
+DTSTAMP:20220225T173000Z
+DTSTART:20220225T173000Z
+DTEND:20210225T213000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021_02_25_hashcode/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021_02_25_hashcode.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Google Hashcode 2021
+DESCRIPTION:Join us to take part in Google’s anual coding c...
+LOCATION:Hash-code Discord
+END:VEVENT
 END:VCALENDAR
