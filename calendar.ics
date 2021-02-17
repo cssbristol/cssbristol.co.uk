@@ -2784,6 +2784,36 @@ DESCRIPTION:It is time for the next CSS Tournament- this ti...
 LOCATION:Discord
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2021-02-17opensafelytpp
+ @cssbristol.co.uk
+DTSTAMP:20210217T140000Z
+DTSTART:20210217T140000Z
+DTEND:20210217T150000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021-02-17_opensafely_tpp/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021-02-17_opensafely_tpp.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:OpenSAFELY - a talk by TPP
+DESCRIPTION:TPP are giving a talk on OpenSAFELY, a new para...
+LOCATION:Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:events-2021-02-19familygamenight
+ @cssbristol.co.uk
+DTSTAMP:20210219T190000Z
+DTSTART:20210219T190000Z
+DTEND:20210219T210000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021-02-19_family_game_night/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021-02-19_family_game_night.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Family Game Night
+DESCRIPTION:(Note: this event is for CSS families set up in...
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
 UID:events-20210225hashcode
  @cssbristol.co.uk
 DTSTAMP:20220225T173000Z
