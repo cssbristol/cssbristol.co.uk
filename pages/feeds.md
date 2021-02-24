@@ -2,6 +2,7 @@
 layout: page
 title: Sync all the things
 permalink: /feeds/
+redirect_from: /calendar
 show-in-nav: false
 ---
 
