@@ -35,3 +35,6 @@ Come for free food, drink and lots of entertainment!
 ## Entertainment
 
 ![Entertainment poster](/assets/images/contrib/blog/2016-summer-bbq-ents.jpg)
+
+## Post event
+[View the photo album on Google Photos](https://goo.gl/photos/yLmv6sp8RroHCBbX6)
