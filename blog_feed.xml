@@ -5,129 +5,9 @@
     <description>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</description>
     <link>http://www.cssbristol.co.uk/</link>
     <atom:link href="http://www.cssbristol.co.uk/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 Feb 2021 20:30:22 +0000</pubDate>
-    <lastBuildDate>Wed, 24 Feb 2021 20:30:22 +0000</lastBuildDate>
+    <pubDate>Wed, 24 Feb 2021 20:57:00 +0000</pubDate>
+    <lastBuildDate>Wed, 24 Feb 2021 20:57:00 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
-    
-      <item>
-        <title>CSS Boeing Hackathon 2018: SPACE</title>
-        <description>&lt;p&gt;&lt;strong&gt;The CSS Boeing Hackathon is back! MVB, 11am Wednesday 28th Feb - 1pm Thursday 1st March&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/contrib/events/2018-02-28-boeing-hack/cover.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;-important-information-&quot;&gt;//// IMPORTANT INFORMATION ////&lt;/h1&gt;
-
-&lt;h2 id=&quot;-signup-&quot;&gt;// SIGNUP //&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://goo.gl/forms/PFVMp2J89mdVkdRi1&quot;&gt;Link here&lt;/a&gt;. Teams of up to 6 people&lt;/li&gt;
-  &lt;li&gt;Not got anyone to work with or a full team? No worries. Just indicate that you’d like to be matched with others and we’ll sort out the rest.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;-prizes-&quot;&gt;// PRIZES //&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;6x Sphero Mini!&lt;/li&gt;
-  &lt;li&gt;6x Google Home Mini!&lt;/li&gt;
-  &lt;li&gt;6x LIFX Smart Lights!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;-free-food-and-drinks-&quot;&gt;// FREE FOOD AND DRINKS //&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;If you have any dietary requirements, state them on the signup form or email events@cssbristol.co.uk&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;-rules-&quot;&gt;// RULES //&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1RXPGyz3aqpJKMluvNhWkN_rSwItzHjIUJPS2jEG26y4/edit?usp=sharing&quot;&gt;Can be found here!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;-theme-&quot;&gt;// THEME //&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Our theme this year is SPACE! 🌌🚀&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The prizes will be awarded in three categories:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;em&gt;Space data&lt;/em&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Find a cool way to use satellite imagery or other data collected in space.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Software/hardware for space&lt;/em&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Build something that we could send into space!&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Explore space&lt;/em&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Help non-scientists to explore and learn about space.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Here are some example projects to get your brains whirring:&lt;/p&gt;
-
-&lt;p&gt;– NEO Mapper&lt;/p&gt;
-
-&lt;p&gt;Identifying natural boundaries (rivers) from 3D asteroid surface data
-https://github.com/abbro-ca/VestaRainbow
-https://www.youtube.com/watch?v=DE0qdKAN31A&amp;amp;t=55m&lt;/p&gt;
-
-&lt;p&gt;– Kid On The Moon&lt;/p&gt;
-
-&lt;p&gt;Interactive app for children to explore the moon and man’s journeys to it
-https://2016.spaceappschallenge.org/challenges/solar-system/book-it-to-the-moon/projects/kid-on-the-moon&lt;/p&gt;
-
-&lt;p&gt;– NatEv Explorer&lt;/p&gt;
-
-&lt;p&gt;Display crowdsourced natural events on a 3D globe
-https://open.nasa.gov/innovation-space/natev-explorer/&lt;/p&gt;
-
-&lt;p&gt;– FractalNet&lt;/p&gt;
-
-&lt;p&gt;P2P wearables for communication in space
-https://2016.spaceappschallenge.org/challenges/space-station/rock-it-space-fashion-and-design/projects/fractalnet&lt;/p&gt;
-
-&lt;p&gt;– Pollen Alert&lt;/p&gt;
-
-&lt;p&gt;Use open data and satellite imagery to predict pollen count
-https://2017.spaceappschallenge.org/challenges/our-ecological-neighborhood/trace-invaders/teams/lemon-py-1/project&lt;/p&gt;
-
-&lt;p&gt;– Heliox&lt;/p&gt;
-
-&lt;p&gt;Use energy and solar radiation data to predict energy production
-https://2017.spaceappschallenge.org/challenges/earth-and-us/you-are-my-sunshine/teams/heliox/project&lt;/p&gt;
-
-&lt;p&gt;Maybe you’ll write a piece of software that will improve shipping efficiency. How about a system for monitoring air pollution? Or something that will enable autonomous vehicles? Perhaps you’ll even write a cool visualisation that uses NASA’s Open Data platform (https://opensource.gsfc.nasa.gov/ ).&lt;/p&gt;
-
-&lt;p&gt;If you want to make use of satellite data, we’ll be releasing some guides to help you soon.&lt;/p&gt;
-
-&lt;h2 id=&quot;-tools-available-&quot;&gt;// TOOLS AVAILABLE //&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Join the Discord server &lt;a href=&quot;https://discordapp.com/invite/pt97nDh&quot;&gt;here&lt;/a&gt; for updates on the day!&lt;/li&gt;
-  &lt;li&gt;More to come&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;-good-luck-&quot;&gt;// GOOD LUCK! //&lt;/h2&gt;
-
-&lt;p&gt;&lt;a class=&quot;btn btn--dark&quot; href=&quot;https://www.facebook.com/events/153087555349796/&quot;&gt;
-    Facebook Event
-&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 29 Jan 2018 17:30:00 +0000</pubDate>
-        <link>http://www.cssbristol.co.uk/event/2018/01/29/boeing-hack.html</link>
-        <guid isPermaLink="true">http://www.cssbristol.co.uk/event/2018/01/29/boeing-hack.html</guid>
-        
-        
-        <category>event</category>
-        
-      </item>
     
       <item>
         <title>First Steps with Git</title>
@@ -475,54 +355,6 @@ It’s that time of year again! Celebrate the end of exams with our annual CSS B
       </item>
     
       <item>
-        <title>Event: Explore Week Boeing Hackathon</title>
-        <description>&lt;p&gt;This year we’re holding our first ever Explore Week Hackathon! &lt;strong&gt;Make the most of a week free from lectures and deadlines&lt;/strong&gt; by entering our biggest, best Hackathon yet.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/events/392877197725107/&quot; class=&quot;btn btn--dark&quot;&gt;Facebook Event&lt;/a&gt;
-&lt;a href=&quot;https://goo.gl/forms/lFDrMaW7tgRLT0ah2&quot; class=&quot;btn btn--dark&quot;&gt;Sign Up Now&lt;/a&gt;
-&lt;a href=&quot;/pages/hackathon-2017&quot; class=&quot;btn btn--dark&quot;&gt;Find out more&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/contrib/events/2017-02-27-hackathon/hackathon-cover-image.png&quot; alt=&quot;CSS Explore Week Hackathon 2017&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;sign-up-now&quot;&gt;&lt;a href=&quot;https://goo.gl/forms/lFDrMaW7tgRLT0ah2&quot;&gt;Sign up now!&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Teams can be composed of &lt;strong&gt;up to 6 people&lt;/strong&gt;. Make sure you &lt;a href=&quot;https://goo.gl/forms/lFDrMaW7tgRLT0ah2&quot;&gt;sign up&lt;/a&gt; so we can reserve your place!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Don’t have a team yet?&lt;/strong&gt; We’re happy to help match you up with people! Just mention it on the signup form.&lt;/p&gt;
-
-&lt;p&gt;Never done something like this before? Don’t worry - anyone can participate!&lt;/p&gt;
-
-&lt;h2 id=&quot;prizes&quot;&gt;Prizes&lt;/h2&gt;
-
-&lt;p&gt;There are three prize categories:&lt;/p&gt;
-
-&lt;h3 id=&quot;best-environmental-impact&quot;&gt;Best environmental impact&lt;/h3&gt;
-&lt;p&gt;£100 cash per team member&lt;/p&gt;
-
-&lt;h3 id=&quot;best-implemented-prototype&quot;&gt;Best-implemented prototype&lt;/h3&gt;
-&lt;p&gt;Quadcopter per team member&lt;/p&gt;
-
-&lt;h3 id=&quot;most-creative-idea&quot;&gt;Most creative idea&lt;/h3&gt;
-&lt;p&gt;Google Chromecast per team member&lt;/p&gt;
-
-&lt;h2 id=&quot;theme&quot;&gt;Theme&lt;/h2&gt;
-
-&lt;p&gt;This year’s theme: &lt;strong&gt;build something that might help protect or improve the environment&lt;/strong&gt;!&lt;/p&gt;
-
-&lt;p&gt;We’re deliberately keeping this as broad as possible, because we want to see what you come up with!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;MVB Atrium - 27th February 2017 - midday&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 17 Feb 2017 15:49:00 +0000</pubDate>
-        <link>http://www.cssbristol.co.uk/event/2017/02/17/boeing-hackathon.html</link>
-        <guid isPermaLink="true">http://www.cssbristol.co.uk/event/2017/02/17/boeing-hackathon.html</guid>
-        
-        
-        <category>event</category>
-        
-      </item>
-    
-      <item>
         <title>CSS Goes Outside: join a sports team!</title>
         <description>&lt;p&gt;Interested in (casually!) playing one of these sports in a CS team?&lt;/p&gt;
 
@@ -597,6 +429,40 @@ It’s that time of year again! Celebrate the end of exams with our annual CSS B
         <pubDate>Mon, 15 Aug 2016 16:04:00 +0000</pubDate>
         <link>http://www.cssbristol.co.uk/2016/08/15/lecturer-of-the-year-2015-16.html</link>
         <guid isPermaLink="true">http://www.cssbristol.co.uk/2016/08/15/lecturer-of-the-year-2015-16.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>2016 BBQ Photos</title>
+        <description>&lt;p&gt;We held our annual CSS Summer BBQ in Brandon Hill Park on June 4. Here are the photos!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://goo.gl/photos/yLmv6sp8RroHCBbX6&quot;&gt;View the album on Google Photos&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/contrib/blog/2016-07-11-css-bbq.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Jul 2016 19:00:00 +0000</pubDate>
+        <link>http://www.cssbristol.co.uk/2016/07/11/2016-summer-bbq-photos.html</link>
+        <guid isPermaLink="true">http://www.cssbristol.co.uk/2016/07/11/2016-summer-bbq-photos.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Wellbeing lunches</title>
+        <description>&lt;p&gt;Interested in &lt;a href=&quot;/wellbeing&quot;&gt;wellbeing&lt;/a&gt; in the department? Bring your lunch to 3.22MVB on a Friday.&lt;/p&gt;
+
+&lt;p&gt;We’ll be chatting informally about anything and everything to do with wellbeing and mental health. Thanks go to &lt;a href=&quot;http://www.cs.bris.ac.uk/~kovacs/&quot;&gt;Tim Kovacs&lt;/a&gt;, who is organising this. If you have any ideas on how to make the faculty a healthier and happier place he would love to hear them.&lt;/p&gt;
+
+&lt;p&gt;All students and staff from the faculty (and other faculties) are welcome.&lt;/p&gt;
+
+&lt;p&gt;The lunches will be at the same time and place for the next three Fridays - the last being June 10.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://calendar.google.com/calendar/render?eid=aW8wNG1rM2I4dGxrc2U1ZDhtY2o2MTM5a2tfMjAxNjA1MjdUMTEwMDAwWiBjc3NicmlzdG9sLmNvLnVrX2NtbWI3N2k0a2Q2ZDlva2Z2NW5jMXBpYm4wQGc&amp;amp;sf=true&amp;amp;output=xml#eventpage_6&quot;&gt;Event on Google Calendar&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 May 2016 11:36:00 +0000</pubDate>
+        <link>http://www.cssbristol.co.uk/2016/05/26/wellbeing-lunches.html</link>
+        <guid isPermaLink="true">http://www.cssbristol.co.uk/2016/05/26/wellbeing-lunches.html</guid>
         
         
       </item>

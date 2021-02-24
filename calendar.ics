@@ -4,6 +4,21 @@ NAME:CSS Bristol Events
 URL:https://www.cssbristol.co.uk/events
 PRODID:-//CSS Bristol//NONSGML website//EN
 BEGIN:VEVENT
+UID:events-2016-06-04summerbbq
+ @cssbristol.co.uk
+DTSTAMP:20160604T120000Z
+DTSTART:20160604T120000Z
+DTEND:20160604T170000Z
+URL:https://www.cssbristol.co.uk
+ /events/2016-06-04_summer_bbq/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2016-06-04_summer_bbq.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:End of Term CSS BBQ
+DESCRIPTION:The annual CSS BBQ is upon us again!Join us a...
+LOCATION:Brandon Hill
+END:VEVENT
+BEGIN:VEVENT
 UID:events-20161004oraclescale
  @cssbristol.co.uk
 DTSTAMP:20161004T130000Z
@@ -173,7 +188,7 @@ UID:events-20161208oracleci
  @cssbristol.co.uk
 DTSTAMP:20161208T130000Z
 DTSTART:20161208T130000Z
-DTEND:20151208T140000Z
+DTEND:20161208T140000Z
 URL:https://www.cssbristol.co.uk
  /events/2016_12_08_oracle_ci/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -258,6 +273,21 @@ ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Google Hash Code 2017
 DESCRIPTION:Hash Code is an online team programming competi...
 LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-2017-02-27boeinghackathon2017
+ @cssbristol.co.uk
+DTSTAMP:20170227T130000Z
+DTSTART:20170227T130000Z
+DTEND:20170228T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017-02-27_boeing_hackathon_2017/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017-02-27-hackathon/hackathon-cover-image.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS Boeing Hackathon 2017
+DESCRIPTION:This year we’re holding our first ever Explore ...
+LOCATION:MVB
 END:VEVENT
 BEGIN:VEVENT
 UID:events-20170302lightningtalks
@@ -393,21 +423,6 @@ ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Formal Verification - ARM
 DESCRIPTION:In the ever-accelerating industry of CPU design...
 LOCATION:Queens 1.18
-END:VEVENT
-BEGIN:VEVENT
-UID:events-2016-06-04summerbbq
- @cssbristol.co.uk
-DTSTAMP:20170604T120000Z
-DTSTART:20170604T120000Z
-DTEND:20170604T170000Z
-URL:https://www.cssbristol.co.uk
- /events/2016-06-04_summer_bbq/
-IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
- images/contrib/events/2016-06-04_summer_bbq.jpg
-ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
-SUMMARY:End of Term CSS BBQ
-DESCRIPTION:The annual CSS BBQ is upon us again!Join us a...
-LOCATION:Brandon Hill
 END:VEVENT
 BEGIN:VEVENT
 UID:events-20170918welcomedrinks
@@ -814,6 +829,21 @@ ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:A Pint of Programming
 DESCRIPTION:Join us at The White Harte Pub for Beer and Pro...
 LOCATION:The White Heart
+END:VEVENT
+BEGIN:VEVENT
+UID:events-2018-02-28boeinghackathon
+ @cssbristol.co.uk
+DTSTAMP:20180228T110000Z
+DTSTART:20180228T110000Z
+DTEND:20180301T130000Z
+URL:https://www.cssbristol.co.uk
+ /events/2018-02-28_boeing_hackathon/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018-02-28-boeing-hack/cover.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS Boeing Hackathon 2018: Space
+DESCRIPTION:The CSS Boeing Hackathon is back! MVB, 11am Wed...
+LOCATION:MVB
 END:VEVENT
 BEGIN:VEVENT
 UID:events-20180301hashcode
