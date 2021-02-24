@@ -1,19 +1,30 @@
 ---
-layout: post
-title:  "Event: Explore Week Boeing Hackathon"
-date:   2017-02-17 15:49:00 +0000
-event_date: 2017-02-27 12:00:00 +0000
-category: "event"
-author: "Ross Gardiner"
+layout: event
+published: true
+cancelled: false
+cancel_reason:
+title: CSS Boeing Hackathon 2017
+date:     2017-02-27 13:00:00
+date_end: 2017-02-28 14:00:00
+banner: 2017-02-27-hackathon/hackathon-cover-image.png
+location: MVB
+fb_link: https://www.facebook.com/events/392877197725107/
+ticket_link: https://goo.gl/forms/lFDrMaW7tgRLT0ah2
+price: Free
+category:
+    - Tech Talk
+    - Networking
+    - Careers
+    - Competition
+cohost:
+  - name: Boeing
+    link: https://boeing.com
 ---
 
 This year we're holding our first ever Explore Week Hackathon! **Make the most of a week free from lectures and deadlines** by entering our biggest, best Hackathon yet.
 
-<a href="https://www.facebook.com/events/392877197725107/" class="btn btn--dark">Facebook Event</a>
 <a href="https://goo.gl/forms/lFDrMaW7tgRLT0ah2" class="btn btn--dark">Sign Up Now</a>
 <a href="/pages/hackathon-2017" class="btn btn--dark">Find out more</a>
-
-![CSS Explore Week Hackathon 2017](/assets/images/contrib/events/2017-02-27-hackathon/hackathon-cover-image.png)
 
 ## [Sign up now!](https://goo.gl/forms/lFDrMaW7tgRLT0ah2)
 
