@@ -2,7 +2,8 @@
   <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
   <nav class="page-footer__menu">
     <ul>
-    {% for page in site.pages %}
+    {% assign ps = site.pages | sort_natural: "title" %}
+    {% for page in ps %}
       {% if page.title and page.show-in-nav == true and page.autogen == nil %}
       <li>
         <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
