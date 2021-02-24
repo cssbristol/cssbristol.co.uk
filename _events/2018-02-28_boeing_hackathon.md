@@ -1,38 +1,48 @@
 ---
-layout: post
-title:  "CSS Boeing Hackathon 2018: SPACE"
-date:   2018-01-29 17:30:00 +0000
-event_date: 2018-02-28 11:00:00 +0000
-category: "event"
-author: "Louis Heath"
+layout: event
+published: true
+cancelled: false
+cancel_reason:
+title: "CSS Boeing Hackathon 2018: Space"
+date:     2018-02-28 11:00:00
+date_end: 2018-03-01 13:00:00
+banner: 2018-02-28-boeing-hack/cover.jpg
+location: MVB
+fb_link: $https://www.facebook.com/events/153087555349796/
+ticket_link: https://goo.gl/forms/PFVMp2J89mdVkdRi1
+price: Free
+category:
+    - Social
+    - Networking
+    - Careers
+    - Competition
+cohost:
+  - name: Boeing
+    link: https://boeing.com
 ---
 
 **The CSS Boeing Hackathon is back! MVB, 11am Wednesday 28th Feb - 1pm Thursday 1st March**
 
-![](/assets/images/contrib/events/2018-02-28-boeing-hack/cover.jpg)
-
-# //// IMPORTANT INFORMATION ////
-
-## // SIGNUP //
+## SIGNUP
 
 - [Link here](https://goo.gl/forms/PFVMp2J89mdVkdRi1). Teams of up to 6 people
 - Not got anyone to work with or a full team? No worries. Just indicate that you'd like to be matched with others and we'll sort out the rest.
 
-## // PRIZES //
+## PRIZES
 
 - 6x Sphero Mini!
 - 6x Google Home Mini!
 - 6x LIFX Smart Lights!
 
-## // FREE FOOD AND DRINKS //
+## FREE FOOD AND DRINKS
 
 - If you have any dietary requirements, state them on the signup form or email events@cssbristol.co.uk
 
-## // RULES //
+## RULES 
 
 - [Can be found here!](https://docs.google.com/document/d/1RXPGyz3aqpJKMluvNhWkN_rSwItzHjIUJPS2jEG26y4/edit?usp=sharing)
 
-## // THEME //
+## THEME
 
 - Our theme this year is SPACE! 🌌🚀
 
@@ -82,12 +92,12 @@ Maybe you'll write a piece of software that will improve shipping efficiency. Ho
 
 If you want to make use of satellite data, we'll be releasing some guides to help you soon.
 
-## // TOOLS AVAILABLE //
+## TOOLS AVAILABLE
 
 - Join the Discord server [here](https://discordapp.com/invite/pt97nDh) for updates on the day!
 - More to come
 
-## // GOOD LUCK! //
+## GOOD LUCK!
 
 <a class="btn btn--dark" href="https://www.facebook.com/events/153087555349796/">
     Facebook Event
