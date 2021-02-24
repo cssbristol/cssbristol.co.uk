@@ -50,15 +50,8 @@
 
   <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous"></script>
 
-  <!-- FullCalendar -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.7.2/fullcalendar.min.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.7.2/fullcalendar.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.7.2/gcal.js"></script>
-
   <script type="text/javascript">
-    $(function() {
+    window.addEventListener('DOMContentLoaded', () => {
       var images = [
         'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
         'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
@@ -74,7 +67,7 @@
         'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
         'header-bg-05.png'
       ];
-      $('#page-header--random-bg').css({'background-image': 'url(/assets/images/core/' + images[Math.floor(Math.random() * images.length)] + ')'});
+      document.getElementById('page-header--random-bg').style = "background-image: url('/assets/images/core/" + images[Math.floor(Math.random() * images.length)] + "')";
     });
   </script>
 </head>
@@ -98,8 +91,6 @@
         
           
           <li><a href="/about/">About</a></li>
-          
-        
           
         
           
@@ -250,6 +241,8 @@
         
           
           <li><a href="/wellbeing/">Wellbeing</a></li>
+          
+        
           
         
           
@@ -460,8 +453,6 @@
       
     
       
-    
-      
       <li>
         <a class="page-link" href="/contact/">Contact</a>
       </li>
@@ -573,6 +564,8 @@
       <li>
         <a class="page-link" href="/wellbeing/">Wellbeing</a>
       </li>
+      
+    
       
     
       
