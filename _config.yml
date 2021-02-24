@@ -37,7 +37,7 @@ pagination:
   enabled: true
   debug: true
   collection: 'events'
-  per_page: 30
+  per_page: 18
   permalink: '/page:num/'
   title: ':title - page :num of :max'
   sort_field: 'date'
