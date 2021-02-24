@@ -2814,6 +2814,21 @@ DESCRIPTION:(Note: this event is for CSS families set up in...
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2021-03-20boeinghackathon
+ @cssbristol.co.uk
+DTSTAMP:20210320T120000Z
+DTSTART:20210320T120000Z
+DTEND:20210321T160000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021-03-20_boeing_hackathon/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021-03-20_boeing_hackathon.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSSxBoeing Hackathon 2021
+DESCRIPTION:Our premier hackathon is back! See what you can...
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
 UID:events-20210225hashcode
  @cssbristol.co.uk
 DTSTAMP:20220225T173000Z
