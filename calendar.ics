@@ -395,6 +395,21 @@ DESCRIPTION:In the ever-accelerating industry of CPU design...
 LOCATION:Queens 1.18
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2016-06-04summerbbq
+ @cssbristol.co.uk
+DTSTAMP:20170604T120000Z
+DTSTART:20170604T120000Z
+DTEND:20170604T170000Z
+URL:https://www.cssbristol.co.uk
+ /events/2016-06-04_summer_bbq/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2016-06-04_summer_bbq.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:End of Term CSS BBQ
+DESCRIPTION:The annual CSS BBQ is upon us again!Join us a...
+LOCATION:Brandon Hill
+END:VEVENT
+BEGIN:VEVENT
 UID:events-20170918welcomedrinks
  @cssbristol.co.uk
 DTSTAMP:20170918T193000Z
@@ -423,6 +438,21 @@ ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Bloomberg CodeCon Qualifiers
 DESCRIPTION:CodeCon is coming back to Bristol on the 13th O...
 LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-2017-10-17barcrawl
+ @cssbristol.co.uk
+DTSTAMP:20171017T193000Z
+DTSTART:20171017T193000Z
+DTEND:20171018T040000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017-10-17_barcrawl/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017-10-17_barcrawl.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS Bar Crawl 2017
+DESCRIPTION:It’s that time of year again! Get your t-shirt ...
+LOCATION:Lola Lo's
 END:VEVENT
 BEGIN:VEVENT
 UID:events-20171019creditcall

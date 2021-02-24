@@ -5,8 +5,8 @@
     <description>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</description>
     <link>http://www.cssbristol.co.uk/</link>
     <atom:link href="http://www.cssbristol.co.uk/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 Feb 2021 20:11:20 +0000</pubDate>
-    <lastBuildDate>Wed, 24 Feb 2021 20:11:20 +0000</lastBuildDate>
+    <pubDate>Wed, 24 Feb 2021 20:27:43 +0000</pubDate>
+    <lastBuildDate>Wed, 24 Feb 2021 20:27:43 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -311,60 +311,6 @@ puts(&quot;Hi world!&quot;);
       </item>
     
       <item>
-        <title>Event: CSS Bar Crawl</title>
-        <description>&lt;p&gt;It’s that time of year again! Get your t-shirt and join us on the 2017 CSS Bar Crawl.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;btn btn--dark&quot; href=&quot;https://www.bristolsu.org.uk/groups/computer-science-society/events/css-bar-crawl-2017/buy_ticket&quot;&gt;
-  Get your t-shirt now 👕🎽👚👔 (£6.50)
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For £6.50 you get:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;An &lt;strong&gt;incredibly exclusive&lt;/strong&gt; bar crawl t-shirt&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Free entry&lt;/strong&gt; and &lt;strong&gt;queue jump&lt;/strong&gt; to Lola Lo until 10.30pm&lt;/li&gt;
-  &lt;li&gt;£2.50 singles at Brass Pig / 5 bombs for £10 / 6 flavoured house shots for £10&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;more to come&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;7.30pm&lt;/strong&gt; The Berkeley&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;8.30pm&lt;/strong&gt; The Brass Pig&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;9.30pm&lt;/strong&gt; mbargo&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;10.30pm&lt;/strong&gt; Lola Lo&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;-families-&quot;&gt;👪 FAMILIES 👨‍👨‍👦&lt;/h2&gt;
-
-&lt;p&gt;You are encouraged to invite your CSS children for dinner before the bar crawl. We’ll supply one £5 Sainsbury’s voucher per family. We’ll be in touch closer to the time.&lt;/p&gt;
-
-&lt;p&gt;Stuck for ideas? &lt;a href=&quot;https://docs.google.com/document/d/1EmM2h5kJbFCklKnKz7HgAVVMYRnUVHOm1Q1JBwdXu8k/edit&quot;&gt;Here are some super-cheap meal suggestions&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;btn btn--dark&quot; href=&quot;https://www.bristolsu.org.uk/groups/computer-science-society/events/css-bar-crawl-2017/buy_ticket&quot;&gt;
-  Buy the t-shirt now (£6.50)
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;btn btn--dark&quot; href=&quot;https://www.facebook.com/events/491272451246870&quot;&gt;
-  Facebook event
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;btn btn--dark&quot; href=&quot;https://calendar.google.com/calendar/b/1/render#eventpage_6%7Ceid-MGw5bTVvMDVxMjdobWV2NGxwZmowNDM4dmUgY3NzYnJpc3RvbC5jby51a19jbW1iNzdpNGtkNmQ5b2tmdjVuYzFwaWJuMEBn-1-0-&quot;&gt;
-  View on Google Calendar
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/contrib/events/2017-09-29-css-bar-crawl/bar-crawl-tshirt-preview.png&quot; alt=&quot;Bar Crawl t-shirt&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/contrib/events/2017-09-29-css-bar-crawl/bar-crawl-photo-1.jpg&quot; alt=&quot;Bar Crawl 2016&quot; /&gt;
-&lt;img src=&quot;/assets/images/contrib/events/2017-09-29-css-bar-crawl/bar-crawl-photo-2.jpg&quot; alt=&quot;Bar Crawl 2016&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 29 Sep 2017 17:40:00 +0000</pubDate>
-        <link>http://www.cssbristol.co.uk/event/2017/09/29/css-bar-crawl.html</link>
-        <guid isPermaLink="true">http://www.cssbristol.co.uk/event/2017/09/29/css-bar-crawl.html</guid>
-        
-        
-        <category>event</category>
-        
-      </item>
-    
-      <item>
         <title>Advice for Second Years</title>
         <description>&lt;p&gt;The second year of Computer Science at Bristol is a tough one - here’s a thread of valuable tips from students who’ve seen it through.&lt;/p&gt;
 
@@ -630,6 +576,27 @@ It’s that time of year again! Celebrate the end of exams with our annual CSS B
         <pubDate>Fri, 19 Aug 2016 21:22:00 +0000</pubDate>
         <link>http://www.cssbristol.co.uk/2016/08/19/welcome.html</link>
         <guid isPermaLink="true">http://www.cssbristol.co.uk/2016/08/19/welcome.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Lecturer of the year 2015/16</title>
+        <description>&lt;p&gt;It is that time of year again where we look back on the year that has just passed. What went well, what could have gone better, what moments we cherished - but most importantly - who got you that 2:1 in the unit that everyone failed!&lt;/p&gt;
+
+&lt;p&gt;Voting is now open for the &lt;strong&gt;2015/16 Lecturer of the Year&lt;/strong&gt; award! &lt;a href=&quot;https://goo.gl/forms/HkuxXZoCzQAuPYZp2&quot;&gt;You can now vote for your favourite lecturer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can also add a little note telling us why you think your choice of lecturer deserves the award (although you don’t have to - you are more than welcome to just cast your vote and leave it at that). Results shall be announced at this year’s returning students reception on October 5th, where the winner shall receive a prize!&lt;/p&gt;
+
+&lt;p&gt;(If you can’t find a lecturer on the list, please let me know on here or at &lt;a href=&quot;mailto:president@cssbristol.co.uk&quot;&gt;president@cssbristol.co.uk&lt;/a&gt; and I shall rectify this. Although, do note: Benjamin Sach is not eligible for this year’s award as he won last year)&lt;/p&gt;
+
+&lt;p&gt;Also, to enforce the 1 vote per person limit (because clearly everyone is out to rig these things, you know?), you must be signed into your @bristol.ac.uk Google Apps account to vote (don’t worry, we don’t retain who voted for which lecturer - we’re not that evil ;) &lt;a href=&quot;https://xkcd.com/541/&quot;&gt;)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Good luck to the lecturers and may the best teacher win!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Aug 2016 16:04:00 +0000</pubDate>
+        <link>http://www.cssbristol.co.uk/2016/08/15/lecturer-of-the-year-2015-16.html</link>
+        <guid isPermaLink="true">http://www.cssbristol.co.uk/2016/08/15/lecturer-of-the-year-2015-16.html</guid>
         
         
       </item>
