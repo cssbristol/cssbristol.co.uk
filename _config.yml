@@ -35,7 +35,7 @@ exclude:
 
 pagination:
   enabled: true
-  debug: true
+  debug: false
   collection: 'events'
   per_page: 18
   permalink: '/page:num/'
