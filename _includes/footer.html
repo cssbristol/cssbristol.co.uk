@@ -3,7 +3,7 @@
   <nav class="page-footer__menu">
     <ul>
     {% for page in site.pages %}
-      {% if page.title and page.show-in-nav == true %}
+      {% if page.title and page.show-in-nav == true and page.autogen == nil %}
       <li>
         <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
       </li>
