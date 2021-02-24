@@ -24,6 +24,7 @@ collections:
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-paginate-v2
 
 exclude:
   - _tutorials/template
@@ -31,3 +32,14 @@ exclude:
   - _events/template
   - _posts/template
   - vendor
+
+pagination:
+  enabled: true
+  debug: true
+  collection: 'events'
+  per_page: 30
+  permalink: '/page:num/'
+  title: ':title - page :num of :max'
+  sort_field: 'date'
+  sort_reverse: true
+  limit: 0

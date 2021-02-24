@@ -8,8 +8,9 @@
     </div>
     <nav class="page-navigation">
       <ul class="page-navigation__links">
-        {% for page in site.pages %}
-          {% if page.title and page.show-in-nav == true %}
+        {% assign ps = site.pages | sort_natural: "title" %}
+        {% for page in ps %}
+          {% if page.title and page.show-in-nav == true and page.autogen == nil %}
           <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
           {% endif %}
         {% endfor %}

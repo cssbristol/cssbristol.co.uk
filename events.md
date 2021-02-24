@@ -1,28 +1,42 @@
 ---
 layout: page
 title: Events
-permalink: /events/
+permalink: '/events'
+pagination:
+  enabled: true
+  collection: events
 show-in-nav: true
 ---
 
-{% assign upcoming = site.events | where_exp: "event", "event.date_end >= site.time" %}
-{% if upcoming == empty %}
-# We're busy planning new events!
+{% assign upcoming = paginator.posts | where_exp: "event", "event.date_end >= site.time" | reverse %}
+{% if upcoming == empty and paginator.page == 1 %}
+<h1>We're busy planning new events!</h1>
 
 <p style="text-align: center;">Maybe you'd like to give a talk or sponsor an event? Check out sponsorship opportunities <a aria-label="Sponsor us link" href="/pages/sponsors">here</a></p>
-{% else %}
-# Upcoming Events
-
------------
+{% elsif upcoming != empty %}
+<h1>Upcoming Events</h1>
+<hr />
 <div class="page-section">
     {% include event_cards.html events=upcoming %}
 </div>
 {% endif %}
 
-# Past Events
----
+<h1>Past Events {% if paginator.page > 1 %}page {{paginator.page}} of {{paginator.total_pages}}{% endif %}</h1>
+<hr />
 <div class="page-section">
-    {% assign past = site.events | where_exp: "event", "event.date_end < site.time" | reverse %}
+    {% assign past = paginator.posts | where_exp: "event", "event.date_end < site.time" %}
     {% include event_cards.html events=past %}
-    <a class="btn btn--dark" href="/blog_all">View Older evens</a>
 </div>
+
+{% if paginator.total_pages > 1 %}
+<div class="pager">
+    {% if paginator.previous_page %}
+      <a class="btn" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Events</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a class="btn" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Events &rarr;</a>
+    {% endif %}
+</div>
+{% endif %}

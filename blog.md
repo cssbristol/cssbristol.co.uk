@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Events
-permalink: /blog/
+permalink: '/blog'
 show-in-nav: false
 ---
 
