@@ -5,8 +5,8 @@
     <description>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</description>
     <link>http://www.cssbristol.co.uk/</link>
     <atom:link href="http://www.cssbristol.co.uk/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 Feb 2021 20:57:00 +0000</pubDate>
-    <lastBuildDate>Wed, 24 Feb 2021 20:57:00 +0000</lastBuildDate>
+    <pubDate>Wed, 24 Feb 2021 21:00:43 +0000</pubDate>
+    <lastBuildDate>Wed, 24 Feb 2021 21:00:43 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -333,28 +333,6 @@ that’s fine too!&lt;/p&gt;
       </item>
     
       <item>
-        <title>Event: CSS BBQ 2017</title>
-        <description>&lt;p&gt;&lt;strong&gt;The Old Bowling Green, Brandon Hill - 2nd June 2017 - 12-6pm&lt;/strong&gt;
-It’s that time of year again! Celebrate the end of exams with our annual CSS BBQ! Join us at The Old Bowling Green on Brandon Hill for a day of free food, drinks and entertainment!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.eventbrite.co.uk/e/css-bbq-2017-tickets-2546474574&quot;&gt;Remember to book your free ticket through Eventbrite&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/contrib/events/2017-06-02-CSS-BBQ-2017/BBQ.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/contrib/events/2017-06-02-CSS-BBQ-2017/bbq-location.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/contrib/events/2017-06-02-CSS-BBQ-2017/css-bbq-poster.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 10 May 2017 18:00:00 +0000</pubDate>
-        <link>http://www.cssbristol.co.uk/event/2017/05/10/CSS-BBQ-2017.html</link>
-        <guid isPermaLink="true">http://www.cssbristol.co.uk/event/2017/05/10/CSS-BBQ-2017.html</guid>
-        
-        
-        <category>event</category>
-        
-      </item>
-    
-      <item>
         <title>CSS Goes Outside: join a sports team!</title>
         <description>&lt;p&gt;Interested in (casually!) playing one of these sports in a CS team?&lt;/p&gt;
 
@@ -463,6 +441,21 @@ It’s that time of year again! Celebrate the end of exams with our annual CSS B
         <pubDate>Thu, 26 May 2016 11:36:00 +0000</pubDate>
         <link>http://www.cssbristol.co.uk/2016/05/26/wellbeing-lunches.html</link>
         <guid isPermaLink="true">http://www.cssbristol.co.uk/2016/05/26/wellbeing-lunches.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hello, world</title>
+        <description>&lt;p&gt;Welcome to the updated CSS website!&lt;/p&gt;
+
+&lt;p&gt;I’m Ross, the new CSS webmaster. Please let me know if you have any suggestions for this site: you can contact me at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;webmaster@cssbristol.co.uk&lt;/code&gt;, file an issue on the &lt;a href=&quot;https://github.com/cssbristol/cssbristol.github.io&quot;&gt;website repository&lt;/a&gt; or come and find me in person.&lt;/p&gt;
+
+&lt;p&gt;If you want to write a tutorial, blog post or anything else for the site, go right ahead! You can fork the repository, make your changes and submit a pull request. I’ll get any changes merged as quickly as possible. A &lt;a href=&quot;/tutorials/post-on-the-site/&quot;&gt;full tutorial&lt;/a&gt; is available (it’s really easy, I promise!)&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 May 2016 00:42:00 +0000</pubDate>
+        <link>http://www.cssbristol.co.uk/2016/05/21/hello-world.html</link>
+        <guid isPermaLink="true">http://www.cssbristol.co.uk/2016/05/21/hello-world.html</guid>
         
         
       </item>

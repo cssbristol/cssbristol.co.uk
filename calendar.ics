@@ -425,6 +425,21 @@ DESCRIPTION:In the ever-accelerating industry of CPU design...
 LOCATION:Queens 1.18
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2017-06-02bbq
+ @cssbristol.co.uk
+DTSTAMP:20170602T120000Z
+DTSTART:20170602T120000Z
+DTEND:20170602T160000Z
+URL:https://www.cssbristol.co.uk
+ /events/2017-06-02_bbq/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2017-06-02-CSS-BBQ-2017/BBQ-wide.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:2017 BBQ
+DESCRIPTION:The Old Bowling Green, Brandon Hill - 2nd June ...
+LOCATION:Brandon Hill
+END:VEVENT
+BEGIN:VEVENT
 UID:events-20170918welcomedrinks
  @cssbristol.co.uk
 DTSTAMP:20170918T193000Z
