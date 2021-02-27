@@ -12,9 +12,9 @@ fb_link: https://www.facebook.com/events/210539002717976/
 ticket_link:
 price: Free
 category:
-    - Social
+  - Social
 cohost:
-    - COGS
+  - company: COGS
 ---
 
 What's the best way to chill after a long day of lectures and studying? Obviously Free Pizza and Video Games!

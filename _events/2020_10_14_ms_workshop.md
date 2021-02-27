@@ -16,7 +16,7 @@ category:
   - Workshop
   - Networking
 cohost:
-  - Morgan Stanley
+  - company: Morgan Stanley
 ---
 
 Morgan Stanley believes capital has the power to create positive change in the world. The biggest and most impactful changes come from people like you. If you come to Morgan Stanley, what will you create? If you want to hear how you can put your talent and ambition to work and be part of a team that creates positive change, join us at our Bristol Technology Skills Session aimed at STEM students in 1st, 2nd and 3rd years interested in applying for our 2021 Programmes.

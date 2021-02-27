@@ -12,9 +12,9 @@ fb_link: https://www.facebook.com/events/2048883198657222/
 ticket_link: https://goo.gl/forms/B5i5vwnV8x8nbK203
 price: Free
 category:
-    - Competition
+  - Competition
 cohost:
-    - AI Gaming
+  - company: AI Gaming
 ---
 
 It's our first event of this term! You'll be writing gaming AI bots to compete against a selection of Oxford and Glasgow's finest societies:

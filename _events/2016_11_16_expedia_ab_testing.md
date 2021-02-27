@@ -12,10 +12,10 @@ fb_link: https://www.facebook.com/events/667745960059783
 ticket_link:
 price: Free
 category:
-    - Tech Talk
-    - Careers
+  - Tech Talk
+  - Careers
 cohost:
-    - Expedia
+  - company: Expedia
 ---
 
 With any design, it is important to know how big a success (or failure!) a new feature is.

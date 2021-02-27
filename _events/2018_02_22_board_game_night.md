@@ -16,8 +16,8 @@ category:
     - Networking
     - Careers
 cohost:
-    - Jump Eat
+    - company: Just Eat
 ---
 
 With the help of Just Eat, join us for a magical evening of board games on February 22nd, 6-8pm! ✨Location specifics TBA but it'll be somewhere in Just Eat's office (Broad Quay House, BS1 4DJ).
-Whether you're a master of Catan 🌾 or a novice at Snakes & Ladders 🐍, everyone is welcome. Feel free to bring your own board games. Food and drink will be provided 🙂 🍕🍺 
+Whether you're a master of Catan 🌾 or a novice at Snakes & Ladders 🐍, everyone is welcome. Feel free to bring your own board games. Food and drink will be provided 🙂 🍕🍺

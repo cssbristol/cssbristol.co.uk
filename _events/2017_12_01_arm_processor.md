@@ -12,10 +12,10 @@ fb_link: https://www.facebook.com/events/904891876346724
 ticket_link:
 price: Free
 category:
-    - Tech Talk
-    - Careers
+  - Tech Talk
+  - Careers
 cohost:
-    - arm
+  - company: arm
 ---
 
 The talk is held at Merchant Ventures Building, Room 1.11 and 1.11a. There will be food provided like always.

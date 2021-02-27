@@ -76,6 +76,10 @@ layout: default
           <li>
             <a href="{{ host.link }}"> {{ host.name }} </a>
           </li>
+          {% elsif host.company %}
+          <li>
+            {% include company_logo.html company=host.company %}
+          </li>
           {% else %}
           <li>{{ host }}</li>
           {% endif %} {% endfor %}

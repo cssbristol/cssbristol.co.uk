@@ -15,10 +15,10 @@ category:
     - Tech Talk
     - Careers
 cohost:
-    - BAE Systems Applied Intelligence
+    - company: BAE Systems Applied Intelligence
 ---
 
-This talk will briefly introduce BAE Systems Applied Intelligence and the [Capture The Flag event](events/2016_12_03_bae_ctf/) which is being hosted in MVB on December 3rd. It will cover what the challenges are, how to play them and go over some of the skills and tools required to succeed in these events.
+This talk will briefly introduce BAE Systems Applied Intelligence and the [Capture The Flag event](/events/2016_12_03_bae_ctf/) which is being hosted in MVB on December 3rd. It will cover what the challenges are, how to play them and go over some of the skills and tools required to succeed in these events.
 
 In particular, we will focus on the topics of Binary Exploitation and Reverse Engineering.
 

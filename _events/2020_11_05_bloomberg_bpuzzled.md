@@ -15,7 +15,7 @@ category:
   - Competition
   - Networking
 cohost:
-  - Bloomberg
+  - company: Bloomberg
 ---
 
 Bpuzzled is a puzzle competition created by Bloomberg engineers, where teams use problem solving, creative thinking, and teamwork to solve challenging and intricate puzzles that are logical in nature, similar to those found in escape rooms.

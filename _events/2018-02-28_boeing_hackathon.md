@@ -17,8 +17,7 @@ category:
     - Careers
     - Competition
 cohost:
-  - name: Boeing
-    link: https://boeing.com
+  - company: Boeing
 ---
 
 **The CSS Boeing Hackathon is back! MVB, 11am Wednesday 28th Feb - 1pm Thursday 1st March**

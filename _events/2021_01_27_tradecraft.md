@@ -16,8 +16,7 @@ category:
     - Competition
     - Workshop
 cohost:
-  - name: Optiver
-    link: https://optiver.com
+  - company: Optiver
 ---
 
 The exciting world of electronic trading is a problem solver’s paradise. However, to truly put your skills to the test, you’ll need to know some secrets of the trade. It’s time to learn some…Tradercraft.

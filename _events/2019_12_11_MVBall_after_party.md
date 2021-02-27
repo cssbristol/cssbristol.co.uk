@@ -11,6 +11,8 @@ ticket_link:
 price: £5
 category:
     - Social
+cohost:
+  - company: BEEES
 ---
 
 Official MVBall After Party!!

@@ -15,7 +15,7 @@ category:
     - Networking
     - Competition
 cohost:
-    - Bloomberg
+    - company: Bloomberg
 ---
 
 CodeCon is coming back to Bristol on the 13th October! CodeCon is a live programming contest developed in-house at Bloomberg.

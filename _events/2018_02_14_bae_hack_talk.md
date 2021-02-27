@@ -12,10 +12,10 @@ fb_link: https://www.facebook.com/events/546054989086813/
 ticket_link:
 price: Free
 category:
-    - Tech Talk
-    - Careers
+  - Tech Talk
+  - Careers
 cohost:
-    - BAE Systems AI
+  - company: BAE Systems Applied Intelligence
 ---
 
 Break hearts on valentines day with your newly earned InfoSec skills! 💔😎

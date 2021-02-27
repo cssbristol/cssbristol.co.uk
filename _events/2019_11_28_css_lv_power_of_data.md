@@ -10,7 +10,9 @@ fb_link: https://www.facebook.com/events/574368899802299/
 ticket_link:
 price: Free
 category:
-    - Tech Talk
+  - Tech Talk
+cohost:
+  - company: LV=
 ---
 
 LV=GI's data science team utilises machine learning across its general insurance arms, focusing on car, home, pet, and travel insurance.

@@ -10,7 +10,9 @@ fb_link: https://www.facebook.com/events/561163404398450/
 ticket_link: http://bit.ly/csshack19-signup
 price: Free
 category:
-    - Competition
+  - Competition
+cohost:
+  - company: Boeing
 ---
 
 The CSSxBoeing Hackathon is back!

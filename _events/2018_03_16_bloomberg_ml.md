@@ -14,6 +14,7 @@ price: Free
 category:
     - Tech Talk
 cohost: 
+  - company: Bloomberg
 ---
 
 Come to Queens 1.6 at 12pm on March 16th for a talk by Bloomberg on machine learning and natural-language processing (with, of course, free food 🍕)!

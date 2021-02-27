@@ -112,6 +112,11 @@
 
     &__hosted-with {
       margin-top: auto;
+      img {
+        height: 1.5rem !important;
+        display: inline-block !important;
+        width: unset !important;
+      }
     }
   }
 }

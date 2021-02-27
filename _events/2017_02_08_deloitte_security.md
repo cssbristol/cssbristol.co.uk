@@ -12,12 +12,12 @@ fb_link: https://www.facebook.com/events/1866119526989648
 ticket_link:
 price: Free
 category:
-    - Tech Talk
-    - Careers
+  - Tech Talk
+  - Careers
 cohost:
-    - Deloitte
-    - Kiril Kamburov (Security Engineer, Manager)
-    - Trevor Bolden (Penetration Testing, Senior Manager)
+  - company: Deloitte
+  - Kiril Kamburov (Security Engineer, Manager)
+  - Trevor Bolden (Penetration Testing, Senior Manager)
 ---
 
 How do you deliver a secure Mobile Banking Experience? Our sponsor, Deloitte, are experienced consultants to the banking industry and, in this talk, they'll reveal some of the tricks of the trade.

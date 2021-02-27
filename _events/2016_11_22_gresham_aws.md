@@ -12,10 +12,10 @@ fb_link: https://www.facebook.com/events/802084196600375
 ticket_link:
 price: Free
 category:
-    - Tech Talk
-    - Careers
+  - Tech Talk
+  - Careers
 cohost:
-    - Gresham
+  - company: Gresham
 ---
 
 Gresham Computing are coming to the department to talk about AWS and cloud computing.

@@ -14,6 +14,7 @@ price: Free
 category:
     - Competition
 cohost:
+  - company: Bloomberg
 ---
 
 You asked for a shorter hackathon: we delivered!

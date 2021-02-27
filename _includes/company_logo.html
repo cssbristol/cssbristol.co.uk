@@ -1,0 +1,11 @@
+{% assign c = site.companies | where_exp: "c", "c.name == include.company" | first %}
+<a
+  href="{{ c.link }}"
+  target="_blank"
+  data-tooltip="{{ c.name }}"
+>
+  <img
+    src="/assets/images/contrib/companies/{{ c.logo }}"
+    alt="{{ c.name }}"
+  />
+</a>

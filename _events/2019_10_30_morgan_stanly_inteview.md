@@ -11,6 +11,8 @@ ticket_link: https://morganstanley.tal.net/vx/lang-en-GB/candidate/postings/5455
 price: Free
 category:
     - Careers
+cohost:
+  - company: Morgan Stanley
 ---
 Morgan Stanley believes capital has the power to create positive change. We help the world finance great ideas that move society forward, and we rely on technology to do it.
 

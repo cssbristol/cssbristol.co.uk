@@ -11,6 +11,8 @@ ticket_link:
 price: Free
 category:
     - Networking
+cohost:
+  - company: Bloomberg
 ---
 
 Join us for an interview skills and CV workshop with Bloomberg!

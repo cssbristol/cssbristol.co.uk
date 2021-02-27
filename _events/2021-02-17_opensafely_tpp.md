@@ -14,8 +14,7 @@ price: Free
 category:
     - Tech Talk
 cohost:
-  - name: TPP
-    link: https://www.tpp-uk.com/
+  - company: TPP
 ---
 
 TPP are giving a talk on OpenSAFELY, a new paradigm in health analytics and research. Join to find out how they handle sensitive data!

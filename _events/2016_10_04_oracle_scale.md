@@ -15,7 +15,7 @@ category:
     - Tech Talk
     - Careers
 cohost:
-    - Oracle
+    - company: Oracle
 ---
 
 We're lucky to have two engineers from Oracle's Bristol office coming to the department next Tuesday to talk about software deployment and delivery.

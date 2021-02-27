@@ -11,6 +11,8 @@ ticket_link:
 price: Free
 category:
     - Social
+cohost:
+  - company: BEEES
 ---
 
 Wristbands for discounted entry will be given out at MVBall!

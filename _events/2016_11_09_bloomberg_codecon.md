@@ -15,7 +15,7 @@ category:
     - Careers
     - Competition
 cohost:
-    - Bloomberg
+    - company: Bloomberg
 ---
 
 Bloomberg CodeCon is coming to Bristol University on the 9th of November!

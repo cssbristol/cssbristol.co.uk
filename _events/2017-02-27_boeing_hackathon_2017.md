@@ -17,8 +17,7 @@ category:
     - Careers
     - Competition
 cohost:
-  - name: Boeing
-    link: https://boeing.com
+  - company: Boeing
 ---
 
 This year we're holding our first ever Explore Week Hackathon! **Make the most of a week free from lectures and deadlines** by entering our biggest, best Hackathon yet.

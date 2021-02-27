@@ -15,7 +15,7 @@ category:
     - Tech Talk
     - Careers
 cohost:
-    - Bloomberg
+    - company: Bloomberg
 ---
 
 We have an engineer from Bloomberg coming to talk to us about how the JVM executes Java.

@@ -16,8 +16,7 @@ category:
     - Careers
     - Competition
 cohost:
-  - name: Boeing
-    link: https://boeing.com
+  - company: Boeing
 ---
 Our premier hackathon is back! See what you can make in 24 hours with a team of up to 6 other students.
 This event is open to all courses & years, not just Computer Science. There are many kinds of projects you could take on, e.g: a piece of software; analysis on a dataset; a real-life piece of equipment... Further examples for each discipline will be put up later on.

@@ -10,7 +10,9 @@ fb_link: https://www.facebook.com/events/418489025723362/
 ticket_link:
 price: Free
 category:
-    - Tech Talk
+  - Tech Talk
+cohost:
+  - company: Graphcore
 ---
 
 Our IPU accelerators and Poplar software together make the fastest and most flexible platform for current and future machine intelligence applications.

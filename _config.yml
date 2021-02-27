@@ -21,6 +21,9 @@ collections:
   events:
     output: true
     permalink: /events/:path/
+  companies:
+    output: false
+    permalink: /companies
 
 plugins:
   - jekyll-redirect-from

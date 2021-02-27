@@ -10,7 +10,9 @@ fb_link: https://www.facebook.com/events/532026974021145/
 ticket_link:
 price: Free
 category:
-    - Tech Talk
+  - Tech Talk
+cohost:
+  - company: Jump Trading
 ---
 
 A tech talk by Jump Trading, one of our new, lovely sponsors! They will talk about:

@@ -10,7 +10,9 @@ fb_link: https://www.facebook.com/events/280600549508146/
 ticket_link:
 price: Free
 category:
-    - Competition
+  - Competition
+cohost:
+  - company: AI Gaming
 ---
 
 Join us and the lovely guys from AIGaming and create an AI for a game which will be revealed on the day! All levels of experience with Python welcome! Free pizza, cookies and redbull included, and prizes for the winners of the tournament!

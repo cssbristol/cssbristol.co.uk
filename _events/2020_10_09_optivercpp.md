@@ -15,10 +15,8 @@ category:
   - Tech Talk
   - Workshop
 cohost:
-  - name: Optiver
-    link: https://www.optiver.com
-  - name: UCCPS
-    link: https://www.facebook.com/uccps.soc
+  - company: Optiver
+  - company: UCCPS
 ---
 
 Do you want to learn how to write the fastest and best-performing code possible? Are you ready to dive into assembly, cache internals and squeeze the last nanosecond out of your code? If so, then join our low-latency workshop on code optimisation!

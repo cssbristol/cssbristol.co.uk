@@ -12,7 +12,7 @@ price: Free
 category:
     - Tech Talk
 cohost:
-    - Bloomberg
+    - company: Bloomberg
 ---
 
 📍 WHERE: Queens Building, 1.15

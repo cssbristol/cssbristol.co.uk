@@ -14,8 +14,7 @@ price: Free
 category:
     - Tech Talk
 cohost:
-  - name: Ghyston
-    link: https://www.ghyston.com
+  - company: Ghyston
 ---
 Blazor is a new framework from Microsoft for building client-side web applications. So what makes it special, compared to all the other front-end frameworks out there? Blazor has a unique feature: you write the code in C#, which runs in the browser using WebAssembly – no need to write any Javascript!
 
