@@ -12,8 +12,9 @@ fb_link:
 ticket_link:
 price: Free
 category:
-    - Social
+  - Social
 cohost:
+  - company: Bloomberg
 ---
 BLOOMBERG VIRTUAL QUIZ
 
