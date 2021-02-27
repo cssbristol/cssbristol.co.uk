@@ -180,7 +180,7 @@ IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/2016_12_03_bae_ctf.png
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:BAE Cyber Security Capture the Flag
-DESCRIPTION:Note: signup is essential - don’t delay!About...
+DESCRIPTION:Note: signup is essential - don’t delay!
 LOCATION:MVB 1.11
 END:VEVENT
 BEGIN:VEVENT
@@ -811,7 +811,7 @@ IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/2018_02_17_bae_ctf.jpg
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:BAE CTF
-DESCRIPTION:///// SEE SIGNUP DETAILS BELOW! /////BAE Syst...
+DESCRIPTION:///// SEE SIGNUP DETAILS BELOW! /////
 LOCATION:MVB 1.11
 END:VEVENT
 BEGIN:VEVENT
@@ -2285,21 +2285,6 @@ ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:I just want SAFE back the Bar Crawl
 DESCRIPTION:It’s been a term without SAFE - a term of painf...
 LOCATION:Steam -> Lounge
-END:VEVENT
-BEGIN:VEVENT
-UID:events-20200228cssjoinsGreta
- @cssbristol.co.uk
-DTSTAMP:20200228T110000Z
-DTSTART:20200228T110000Z
-DTEND:20200228T150000Z
-URL:https://www.cssbristol.co.uk
- /events/2020_02_28_css_joins_Greta/
-IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
- images/contrib/events/2020_02_28_css_joins_Greta.png
-ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
-SUMMARY:CSS Joins Greta (Youth Climate March)
-DESCRIPTION:Greta is coming to Bristol for the climate strike
-LOCATION:College Green
 END:VEVENT
 BEGIN:VEVENT
 UID:events-20200229brishack20
