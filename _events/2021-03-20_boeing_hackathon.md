@@ -9,7 +9,7 @@ date_end: 2021-03-21 16:00:00
 banner: 2021-03-20_boeing_hackathon.jpg
 location: Online
 fb_link: https://www.facebook.com/events/418325086122256
-ticket_link:
+ticket_link: https://forms.gle/P8JeLFHz3gG2NM7t5
 price: Free
 category:
     - Networking
@@ -28,4 +28,5 @@ Life Under Water 🌊🌱 - innovate in one of three areas:
 2. Environment
 3. Communication
 
-Precise schedule, rules, and sign-up will be released closer to the date. Put 'Going' to make sure you receive updates!
+## Sign up!
+Sign up [here](https://forms.gle/P8JeLFHz3gG2NM7t5)
