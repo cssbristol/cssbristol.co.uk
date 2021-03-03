@@ -2889,6 +2889,21 @@ DESCRIPTION:Our premier hackathon is back! See what you can...
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2021-03-26bemsinternational
+ @cssbristol.co.uk
+DTSTAMP:20210326T130000Z
+DTSTART:20210326T130000Z
+DTEND:20210326T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021-03-26_bems_international/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021-03-26_bems_international.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:BEMS' International Social
+DESCRIPTION:Join BEMS’ and BEEES for their international so...
+LOCATION:WeChat
+END:VEVENT
+BEGIN:VEVENT
 UID:events-20210225hashcode
  @cssbristol.co.uk
 DTSTAMP:20220225T173000Z
