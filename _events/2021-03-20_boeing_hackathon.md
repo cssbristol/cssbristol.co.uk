@@ -30,3 +30,6 @@ Life Under Water 🌊🌱 - innovate in one of three areas:
 
 ## Sign up!
 Sign up [here](https://forms.gle/P8JeLFHz3gG2NM7t5)
+
+## FAQ
+{% include pdf.html url="/assets/files/Boeing_Life_Underwater_hackathon_faq.pdf" %}
