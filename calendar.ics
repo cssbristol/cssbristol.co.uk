@@ -2874,6 +2874,21 @@ DESCRIPTION:(Note: this event is for CSS families set up in...
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2021-03-10visainterview
+ @cssbristol.co.uk
+DTSTAMP:20210310T140000Z
+DTSTART:20210310T140000Z
+DTEND:20210310T150000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021-03-10_visa_interview/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021-03-10_visa_interview.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Interview Top Tips with VISA
+DESCRIPTION:Join us next Wednesday, where a speaker from Vi...
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2021-03-20boeinghackathon
  @cssbristol.co.uk
 DTSTAMP:20210320T120000Z
