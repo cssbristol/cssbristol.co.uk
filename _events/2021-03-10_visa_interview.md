@@ -27,3 +27,5 @@ Join us next Wednesday, where a speaker from Visa will be giving out career/inte
 
 ## Join
 Join on Microsoft Teams [here]({{ page.ticket_link }})
+
+Padlet [here](https://padlet.com/president195/gklm3n71nqk4h7nv)
