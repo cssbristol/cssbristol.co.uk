@@ -5,8 +5,8 @@
     <description>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</description>
     <link>http://www.cssbristol.co.uk/</link>
     <atom:link href="http://www.cssbristol.co.uk/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Mar 2021 18:15:33 +0000</pubDate>
-    <lastBuildDate>Wed, 10 Mar 2021 18:15:33 +0000</lastBuildDate>
+    <pubDate>Wed, 10 Mar 2021 19:34:23 +0000</pubDate>
+    <lastBuildDate>Wed, 10 Mar 2021 19:34:23 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -181,7 +181,7 @@ puts(&quot;Hi world!&quot;);
 
 &lt;p&gt;Conflicts, although annoying, are nothing to be afraid of. They can happen as part of normal git working practice in a team and you deal with them as they happen.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 18 Oct 2017 14:00:00 +0000</pubDate>
+        <pubDate>Wed, 18 Oct 2017 15:00:00 +0100</pubDate>
         <link>http://www.cssbristol.co.uk/tutorial/2017/10/18/git.html</link>
         <guid isPermaLink="true">http://www.cssbristol.co.uk/tutorial/2017/10/18/git.html</guid>
         
@@ -310,7 +310,7 @@ that’s fine too!&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;- Harshna Patel&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 24 Sep 2017 13:00:00 +0000</pubDate>
+        <pubDate>Sun, 24 Sep 2017 14:00:00 +0100</pubDate>
         <link>http://www.cssbristol.co.uk/2017/09/24/second-year-advice.html</link>
         <guid isPermaLink="true">http://www.cssbristol.co.uk/2017/09/24/second-year-advice.html</guid>
         
@@ -325,7 +325,7 @@ that’s fine too!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/contrib/blog/2017-08-30-nerd-run.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 30 Aug 2017 21:00:00 +0000</pubDate>
+        <pubDate>Wed, 30 Aug 2017 22:00:00 +0100</pubDate>
         <link>http://www.cssbristol.co.uk/2017/08/30/strava.html</link>
         <guid isPermaLink="true">http://www.cssbristol.co.uk/2017/08/30/strava.html</guid>
         
@@ -351,7 +351,7 @@ that’s fine too!&lt;/p&gt;
   Tell us what you want to do!
 &lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 02 Oct 2016 18:39:00 +0000</pubDate>
+        <pubDate>Sun, 02 Oct 2016 19:39:00 +0100</pubDate>
         <link>http://www.cssbristol.co.uk/2016/10/02/CSS-goes-outside-join-a-sports-team.html</link>
         <guid isPermaLink="true">http://www.cssbristol.co.uk/2016/10/02/CSS-goes-outside-join-a-sports-team.html</guid>
         
@@ -370,7 +370,7 @@ that’s fine too!&lt;/p&gt;
   Get the newsletter
 &lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 24 Sep 2016 12:06:00 +0000</pubDate>
+        <pubDate>Sat, 24 Sep 2016 13:06:00 +0100</pubDate>
         <link>http://www.cssbristol.co.uk/2016/09/24/email-newsletter-signup.html</link>
         <guid isPermaLink="true">http://www.cssbristol.co.uk/2016/09/24/email-newsletter-signup.html</guid>
         
@@ -383,7 +383,7 @@ that’s fine too!&lt;/p&gt;
 
 &lt;p&gt;Sidle on over to our dedicated &lt;a href=&quot;/pages/freshers/&quot;&gt;freshers’ page&lt;/a&gt; for more information.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 19 Aug 2016 21:22:00 +0000</pubDate>
+        <pubDate>Fri, 19 Aug 2016 22:22:00 +0100</pubDate>
         <link>http://www.cssbristol.co.uk/2016/08/19/welcome.html</link>
         <guid isPermaLink="true">http://www.cssbristol.co.uk/2016/08/19/welcome.html</guid>
         
@@ -404,7 +404,7 @@ that’s fine too!&lt;/p&gt;
 
 &lt;p&gt;Good luck to the lecturers and may the best teacher win!&lt;/p&gt;
 </description>
-        <pubDate>Mon, 15 Aug 2016 16:04:00 +0000</pubDate>
+        <pubDate>Mon, 15 Aug 2016 17:04:00 +0100</pubDate>
         <link>http://www.cssbristol.co.uk/2016/08/15/lecturer-of-the-year-2015-16.html</link>
         <guid isPermaLink="true">http://www.cssbristol.co.uk/2016/08/15/lecturer-of-the-year-2015-16.html</guid>
         
@@ -419,7 +419,7 @@ that’s fine too!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/contrib/blog/2016-07-11-css-bbq.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 11 Jul 2016 19:00:00 +0000</pubDate>
+        <pubDate>Mon, 11 Jul 2016 20:00:00 +0100</pubDate>
         <link>http://www.cssbristol.co.uk/2016/07/11/2016-summer-bbq-photos.html</link>
         <guid isPermaLink="true">http://www.cssbristol.co.uk/2016/07/11/2016-summer-bbq-photos.html</guid>
         
@@ -438,7 +438,7 @@ that’s fine too!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://calendar.google.com/calendar/render?eid=aW8wNG1rM2I4dGxrc2U1ZDhtY2o2MTM5a2tfMjAxNjA1MjdUMTEwMDAwWiBjc3NicmlzdG9sLmNvLnVrX2NtbWI3N2k0a2Q2ZDlva2Z2NW5jMXBpYm4wQGc&amp;amp;sf=true&amp;amp;output=xml#eventpage_6&quot;&gt;Event on Google Calendar&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 26 May 2016 11:36:00 +0000</pubDate>
+        <pubDate>Thu, 26 May 2016 12:36:00 +0100</pubDate>
         <link>http://www.cssbristol.co.uk/2016/05/26/wellbeing-lunches.html</link>
         <guid isPermaLink="true">http://www.cssbristol.co.uk/2016/05/26/wellbeing-lunches.html</guid>
         
@@ -453,7 +453,7 @@ that’s fine too!&lt;/p&gt;
 
 &lt;p&gt;If you want to write a tutorial, blog post or anything else for the site, go right ahead! You can fork the repository, make your changes and submit a pull request. I’ll get any changes merged as quickly as possible. A &lt;a href=&quot;/tutorials/post-on-the-site/&quot;&gt;full tutorial&lt;/a&gt; is available (it’s really easy, I promise!)&lt;/p&gt;
 </description>
-        <pubDate>Sat, 21 May 2016 00:42:00 +0000</pubDate>
+        <pubDate>Sat, 21 May 2016 01:42:00 +0100</pubDate>
         <link>http://www.cssbristol.co.uk/2016/05/21/hello-world.html</link>
         <guid isPermaLink="true">http://www.cssbristol.co.uk/2016/05/21/hello-world.html</guid>
         
