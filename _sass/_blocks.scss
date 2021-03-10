@@ -1,33 +1,11 @@
 .sponsors {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-gap: 2rem 4rem;
+  justify-items: stretch;
   align-items: center;
   max-width: $content-width;
-  width: 100%;
-
-  @include media-query($on-palm) {
-    flex-direction: column;
-  }
-
-  .sponsors__item {
-    width: 33%;
-
-    @include media-query($on-palm) {
-      width: 100%;
-      height: auto;
-      margin: 0.5rem 0;
-
-      p {
-        margin: 2px;
-      }
-    }
-
-    img {
-      width: 200px;
-    }
-  }
+  width: 90vw;
 }
 
 .sponsors__action_item {

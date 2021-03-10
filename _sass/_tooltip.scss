@@ -17,14 +17,15 @@
   z-index: 9999999;
   line-height: 1rem;
   pointer-events: none;
+  text-align: center;
 
   transform-origin: center top;
-  top: 225%;
+  top: 100%;
   left: 50%;
 }
 
 [data-tooltip]:hover::after {
   opacity: 1;
   visibility: visible;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, 20%) scale(1);
 }
