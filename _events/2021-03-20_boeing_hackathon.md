@@ -18,15 +18,23 @@ category:
 cohost:
   - company: Boeing
 ---
-Our premier hackathon is back! See what you can make in 24 hours with a team of up to 6 other students.
-This event is open to all courses & years, not just Computer Science. There are many kinds of projects you could take on, e.g: a piece of software; analysis on a dataset; a real-life piece of equipment... Further examples for each discipline will be put up later on.
-Don't have a team you want to work with or worried you aren't skilled enough to take part? No worries - we can group you up with more experienced students, but we're sure you'll be able to come up with something regardless.
+Our premier CSS x Boeing hackathon is back! Join us for a thrilling 24 hours of building, hacking, brainstorming, power-napping, and making. This event is open to all courses & years - we can't wait to see all the different projects you guys come up with!
 
-## THEME: Life Under Water 🌊🌱
-Innovate in one of three areas:
+Freebies are making a comeback - sign up and participate to receive a £10 Just Eat voucher during the event, get a T-shirt, and enjoy the mini events and quizzes throughout!
+
+Participate as a team of up to 6, or sign up solo and we'll match you up with other people - take on some of the most relevant issues the world is facing today!
+
+## THEME Life Under Water 🌊🌱 - innovate in one of three areas:
 1. Exploration
-2. Environment
-3. Communication
+1. Environment
+1. Communication
+
+Each category will have a £500 winning team prize and a £200 runner up prize, based on the quality, completeness and innovation of each project, judged by a panel of your favourite academics.
+
+Make sure you:
+1. Sign up: [ bit.ly/css-hack-2021 ]( https://bit.ly/css-hack-2021 )
+1. Click going on the Facebook event: [fb.me/e/cDaHB72nn](https://fb.me/e/cDaHB72nn)
+1. See the FAQ bellow
 
 ## Schedule
 <table style="margin: 0.75em auto 0;">
