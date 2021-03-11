@@ -32,7 +32,7 @@ Participate as a team of up to 6, or sign up solo and we'll match you up with ot
 Each category will have a £500 winning team prize and a £200 runner up prize, based on the quality, completeness and innovation of each project, judged by a panel of your favourite academics.
 
 Make sure you:
-1. Sign up: [ bit.ly/css-hack-2021 ]( https://bit.ly/css-hack-2021 )
+1. Sign up before **Midnight Wed 17th**: [bit.ly/css-hack-2021](https://bit.ly/css-hack-2021)
 1. Click going on the Facebook event: [fb.me/e/cDaHB72nn](https://fb.me/e/cDaHB72nn)
 1. See the FAQ bellow
 
@@ -64,7 +64,7 @@ Make sure you:
   </tbody>
 </table>
 ## Sign up!
-Sign up [here](https://forms.gle/P8JeLFHz3gG2NM7t5)
+Sign up before **Midnight Wed 17th**: [bit.ly/css-hack-2021](https://bit.ly/css-hack-2021)
 
 ## Ideas for inspiration
 - A simulation for controlling an underwater probe
