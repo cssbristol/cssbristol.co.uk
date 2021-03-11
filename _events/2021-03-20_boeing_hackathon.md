@@ -55,7 +55,7 @@ Make sure you:
     </tr>
     <tr>
       <td style="padding-left: 1em;">12:00 - Hacking begins</td>
-      <td style="padding: 1em;">12:00 - Boeing talk and Quiz</td>
+      <td style="padding: 1em;">13:00 - Boeing talk and Quiz</td>
     </tr>
     <tr>
       <td style="padding-left: 1em;">15:00 - T-shirt form released</td>
