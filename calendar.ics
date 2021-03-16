@@ -2889,6 +2889,21 @@ DESCRIPTION:Join us next Wednesday, where a speaker from Vi...
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2021-03-18robotics
+ @cssbristol.co.uk
+DTSTAMP:20210318T170000Z
+DTSTART:20210318T170000Z
+DTEND:20210318T180000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021-03-18_robotics/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021-03-18_robotics.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Robotics and Computer Science at Bristol and Be...
+DESCRIPTION:Join us for a guest lecture from Prof. Walterio...
+LOCATION:Teams
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2021-03-20boeinghackathon
  @cssbristol.co.uk
 DTSTAMP:20210320T120000Z
