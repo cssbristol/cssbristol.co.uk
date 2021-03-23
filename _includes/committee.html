@@ -1,16 +1,56 @@
 <div class="committee">
   {% for committee-member in include.data-file %}
-  <div class="committee__member committee-member" itemscope itemtype="http://schema.org/Person">
-    <img src="{{ committee-member.image }}" alt="Picture of {{ committee-member.name }}" class="committee-member__image" />
-    {% if committee-member.url %}
-      <a itemprop="url" href="{{ committee-member.url }}"><p class="committee-member__name" itemprop="name">{{ committee-member.name }}</p></a>
-    {% else %}
-      <p class="committee-member__name" itemprop="name">{{ committee-member.name }}</p>
-    {% endif %}
-    <p class="committee-member__position" itemprop="jobtitle">{{ committee-member.position }}</p>
+  <div
+    class="committee__member committee-member"
+    itemscope
+    itemtype="http://schema.org/Person"
+  >
+    <img
+      src="{{ committee-member.image }}"
+      alt="Picture of {{ committee-member.name }}"
+      class="committee-member__image"
+    />
+    <span class="committee-member__name" itemprop="name">{{ committee-member.name }}</span>
+    <span class="committee-member__position" itemprop="jobtitle">{{ committee-member.position }}</span>
+
     {% unless include.hide-email %}
-      <p class="committee-member__email"><a href="mailto:{{ committee-member.email }}"><span itemprop="email">{{ committee-member.email }}</span></a></p>
+      <span class="committee-member__email"><a href="mailto:{{ committee-member.email }}"><span itemprop="email">{{ committee-member.email }}</span></a></span>
     {% endunless %}
+
+    {% if committee-member.links %}
+      <div class="committee-member__socials">
+        {% if committee-member.links.url %}
+          <a href="{{ committee-member.links.url }}">
+            <i class="fas fa-link"></i>
+          </a>
+        {% endif %}
+
+        {% if committee-member.links.github %}
+          <a href="{{ committee-member.links.github }}">
+            <i class="fab fa-github"></i>
+          </a>
+        {% endif %}
+
+        {% if committee-member.links.linkedin %}
+          <a href="{{ committee-member.links.linkedin }}">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        {% endif %}
+
+        {% if committee-member.links.soundcloud %}
+          <a href="{{ committee-member.links.soundcloud }}">
+            <i class="fab fa-soundcloud"></i>
+          </a>
+        {% endif %}
+
+        {% if committee-member.links.spotify %}
+          <a href="{{ committee-member.links.spotify }}">
+            <i class="fab fa-spotify"></i>
+          </a>
+        {% endif %}
+      </div>
+    {% endif %}
+
     <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" style="display: none;">
       <div><span itemprop="addressLocality">Bristol</span></div><div itemprop="addressCountry">United Kingdom</div>
     </div>

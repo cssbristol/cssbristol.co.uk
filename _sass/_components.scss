@@ -1,33 +1,62 @@
+.committee {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+}
+
 .committee-member {
-  width: 220px;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  width: 20ch;
+  gap: 0.5rem;
   text-align: center;
+
   &__image {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 20px;
-    border-radius: 100px;
+    border-radius: 100%;
+    width: 75%;
   }
-  &__name {
-    font-weight: 300;
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-  &__position {
-    font-size: 15px;
-    font-weight: 500;
-    margin-bottom: 5px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
+
+
   &__email {
-    font-size: 15px;
     a {
-      color: #222222;
-      transition: color .2s;
+      color: $medium-text;
+      transform: scale(1);
+      transition:
+        transform ease 200ms,
+        color ease 200ms;
+
+      &:hover {
+        transform: scale(1.25);
+        color: $blue;
+      }
     }
-    a:hover {
-      color: $blue;
+  }
+
+  &__socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 1.125rem;
+
+    a {
+      color: $medium-text;
+      transform: scale(1);
+      transition:
+        transform ease 200ms,
+        color ease 200ms;
+
+      &:hover {
+        transform: scale(1.25);
+        color: $blue;
+      }
     }
   }
 }
