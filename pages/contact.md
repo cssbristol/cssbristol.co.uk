@@ -15,7 +15,7 @@ Course directors, tutors and other key staff contacts can be found [here](http:/
 
 Perhaps you're looking for a [previous committee member](/pages/halloffame)?
 
-{% assign committee = site.data.committee | last %}
+{% assign committee = site.committees | sort: "year" | last %}
 # CSS Committee {{ committee.year }}
 
 {% include committee.html data-file=committee.members %}

@@ -24,6 +24,9 @@ collections:
   companies:
     output: false
     permalink: /companies
+  committees:
+    output: false
+    permalink: /committees
 
 plugins:
   - jekyll-redirect-from
@@ -35,6 +38,8 @@ exclude:
   - _jobs/template
   - _events/template
   - _posts/template
+  - _committees/template
+  - _companies/template
   - vendor
 
 pagination:
