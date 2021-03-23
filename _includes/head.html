@@ -12,7 +12,13 @@
 
   <link rel="stylesheet" href="{{ "/assets/css/site.css" | prepend: site.baseurl }}" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-  {% feed_meta %}
+  {% if page.feed %}
+    <link type="application/atom+xml" rel="alternate" href="{{ page.feed | absolute_url }}" title="{{ page.title }}" />
+  {% endif %}
+
+  {% if layout.feed %}
+    <link type="application/atom+xml" rel="alternate" href="{{ layout.feed | absolute_url }}" title="{{ page.title }}" />
+  {% endif %}
 
   <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous"></script>
 

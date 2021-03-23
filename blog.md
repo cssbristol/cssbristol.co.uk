@@ -2,6 +2,7 @@
 layout: page
 title: Events
 permalink: '/blog'
+feed: "/feed.xml"
 show-in-nav: false
 ---
 

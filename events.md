@@ -5,6 +5,7 @@ permalink: '/events'
 pagination:
   enabled: true
   collection: events
+feed: "/feed/events.xml"
 show-in-nav: true
 ---
 

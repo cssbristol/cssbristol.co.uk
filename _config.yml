@@ -49,7 +49,6 @@ pagination:
   limit: 0
 
 feed:
+  posts_limit: 100000
   collections:
     - events
-    - jobs
-    - tutorials
