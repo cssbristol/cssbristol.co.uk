@@ -2874,6 +2874,21 @@ DESCRIPTION:(Note: this event is for CSS families set up in...
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
+UID:events-20210225hashcode
+ @cssbristol.co.uk
+DTSTAMP:20210225T173000Z
+DTSTART:20210225T173000Z
+DTEND:20210225T213000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021_02_25_hashcode/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021_02_25_hashcode.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Google Hashcode 2021
+DESCRIPTION:Join us to take part in Google’s anual coding c...
+LOCATION:Hash-code Discord
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2021-03-10visainterview
  @cssbristol.co.uk
 DTSTAMP:20210310T140000Z
@@ -2919,6 +2934,21 @@ DESCRIPTION:Our premier CSS x Boeing hackathon is back! Joi...
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2021-03-24privacy
+ @cssbristol.co.uk
+DTSTAMP:20210324T140000Z
+DTSTART:20210324T140000Z
+DTEND:20210324T150000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021-03-24_privacy/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021-03-24_privacy.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Privacy, Mass-surveillance, and Cryptography
+DESCRIPTION:Dr Chloe Martindale is giving a talk on Cryptog...
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2021-03-26bemsinternational
  @cssbristol.co.uk
 DTSTAMP:20210326T130000Z
@@ -2934,18 +2964,18 @@ DESCRIPTION:Join BEMS’ and BEEES for their international so...
 LOCATION:WeChat
 END:VEVENT
 BEGIN:VEVENT
-UID:events-20210225hashcode
+UID:events-2021-03-31chaosdating
  @cssbristol.co.uk
-DTSTAMP:20220225T173000Z
-DTSTART:20220225T173000Z
-DTEND:20210225T213000Z
+DTSTAMP:20210331T190000Z
+DTSTART:20210331T190000Z
+DTEND:20210331T220000Z
 URL:https://www.cssbristol.co.uk
- /events/2021_02_25_hashcode/
+ /events/2021-03-31_chaos_dating/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
- images/contrib/events/2021_02_25_hashcode.jpg
+ images/contrib/events/2021-03-31_chaos_dating.jpg
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
-SUMMARY:Google Hashcode 2021
-DESCRIPTION:Join us to take part in Google’s anual coding c...
-LOCATION:Hash-code Discord
+SUMMARY:Blind Speed Dating
+DESCRIPTION:Chaos are collaborating with SEVEN other societ...
+LOCATION:Online
 END:VEVENT
 END:VCALENDAR
