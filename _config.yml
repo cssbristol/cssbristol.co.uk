@@ -28,6 +28,7 @@ collections:
 plugins:
   - jekyll-redirect-from
   - jekyll-paginate-v2
+  - jekyll-feed
 
 exclude:
   - _tutorials/template
@@ -46,3 +47,9 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
   limit: 0
+
+feed:
+  collections:
+    - events
+    - jobs
+    - tutorials
