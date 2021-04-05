@@ -1,6 +1,6 @@
 {% assign c = site.companies | where_exp: "c", "c.name == include.company" | first %}
 <a
-  href="{{ c.link }}"
+  href="{% if c.link %}{{ c.link }}{% else %}#{% endif %}"
   target="_blank"
   data-tooltip="{{ c.name }}"
 >
