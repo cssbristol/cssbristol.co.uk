@@ -1893,7 +1893,7 @@ IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/2019_10_31_movie.jpg
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:CSS Watches a Movie
-DESCRIPTION:Join us to watch a Halloween movie on Halloween...
+DESCRIPTION:Join us to watch a Halloween movie on Halloween 😱
 LOCATION:Pugsley Queens
 END:VEVENT
 BEGIN:VEVENT
@@ -2977,5 +2977,35 @@ ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Blind Speed Dating
 DESCRIPTION:Chaos are collaborating with SEVEN other societ...
 LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:events-2021-04-23csonsociety
+ @cssbristol.co.uk
+DTSTAMP:20210424T130000Z
+DTSTART:20210424T130000Z
+DTEND:20210424T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021-04-23_cs_on_society/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:How do we understand the impact of computer tec...
+DESCRIPTION:How can we understand the changes currently tak...
+LOCATION:Teams
+END:VEVENT
+BEGIN:VEVENT
+UID:events-2021-05-05waspmiteworlds
+ @cssbristol.co.uk
+DTSTAMP:20210505T130000Z
+DTSTART:20210505T130000Z
+DTEND:20210505T140000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021-05-05_waspmite_worlds/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Waspmite Worlds: Exploring Collective Construct...
+DESCRIPTION:In many colonial species of termites and wasps,...
+LOCATION:Teams
 END:VEVENT
 END:VCALENDAR
