@@ -21,6 +21,11 @@ feed: "/feed/events.xml"
         class="event-page__banner"
         style="background-image: url(/assets/images/contrib/events/{{ page.banner }});"
       ></div>
+      {% else %}
+      <div
+        class="event-page__banner"
+        style="background-image: url(/assets/images/core/default-event-banner.jpg);"
+      ></div>
       {% endif %}
       <h1 class="event-page__title">{{ page.title }}</h1>
       <div class="blog-post__body">{{ content }}</div>
