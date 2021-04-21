@@ -2994,6 +2994,21 @@ DESCRIPTION:How can we understand the changes currently tak...
 LOCATION:Teams
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2021-04-28alexa
+ @cssbristol.co.uk
+DTSTAMP:20210428T140000Z
+DTSTART:20210428T140000Z
+DTEND:20210428T150000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021-04-28_alexa/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Alexa Skills with Amazon
+DESCRIPTION:On Wednesday April 28th at 2:00pm, Amazon will ...
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2021-05-05waspmiteworlds
  @cssbristol.co.uk
 DTSTAMP:20210505T130000Z
