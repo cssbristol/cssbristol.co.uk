@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: How do we understand the impact of computer technology on society?
-date:     2021-04-24 13:00:00
-date_end: 2021-04-24 14:00:00
+date:     2021-04-23 13:00:00
+date_end: 2021-04-23 14:00:00
 banner:
 location: Teams
 fb_link:
