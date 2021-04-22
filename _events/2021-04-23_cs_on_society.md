@@ -6,7 +6,7 @@ cancel_reason:
 title: How do we understand the impact of computer technology on society?
 date:     2021-04-24 13:00:00
 date_end: 2021-04-24 14:00:00
-banner:
+banner: 2021-04-23_cs_on_society.png
 location: Teams
 fb_link:
 ticket_link: https://teams.microsoft.com/l/meetup-join/19%3ae235af26d46143b39a0d96ba8868edc0%40thread.tacv2/1618997788828?context=%7b%22Tid%22%3a%22b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b%22%2c%22Oid%22%3a%220d659579-563a-463a-9d68-218e3c14fb80%22%7d
