@@ -7,7 +7,7 @@
   max-width: $content-width;
   width: 90vw;
   @include media-query($on-palm) {
-    width: 75vw;
+    width: 50vw;
   }
 }
 
