@@ -61,7 +61,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .sponsors { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); grid-gap: 2rem 4rem; justify-items: stretch; align-items: center; max-width: 1000px; width: 90vw; }
 
-@media screen and (max-width: 900px) { .sponsors { width: 75vw; } }
+@media screen and (max-width: 900px) { .sponsors { width: 50vw; } }
 
 .sponsors__action_item { display: flex; flex-direction: column; align-items: center; }
 
