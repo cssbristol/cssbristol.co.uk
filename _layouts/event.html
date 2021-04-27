@@ -6,13 +6,13 @@ feed: "/feed/events.xml"
 <section class="page-section">
   {% if page.cancelled %}
   <div class="event-page-cancelled">
-    <h2>The event has been canceled <span role="img">😢</span></h2>
+    <h2>This event has been canceled <span role="img">😢</span></h2>
     {% if page.cancel_reason %}
     <p>
-      This event was cancelled because: {{ page.cancel_reason }} {% endif %}
+      This event was cancelled because: {{ page.cancel_reason }}
     </p>
+    {% endif %}
   </div>
-
   {% endif %}
   <article class="article event-page">
     <section>
