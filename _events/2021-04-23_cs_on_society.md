@@ -21,4 +21,8 @@ How can we understand the changes currently taking place in society? Two evoluti
 ---
 ## How to join
 
-Join on MS Teams [here]({{ page.ticket_link }})
+~~Join on MS Teams [here]({{ page.ticket_link }})~~
+
+This event has finished.
+
+The talk was recorded and can be viewed [here](https://web.microsoftstream.com/video/df6aa9d0-7d8f-4c4b-bd6d-2c71ae9d8d95) _(UoB login required)_
