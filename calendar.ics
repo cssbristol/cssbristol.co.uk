@@ -3039,4 +3039,19 @@ SUMMARY:Waspmite Worlds: Exploring Collective Construct...
 DESCRIPTION:In many colonial species of termites and wasps,...
 LOCATION:Teams
 END:VEVENT
+BEGIN:VEVENT
+UID:events-2021-05-05lectureawards
+ @cssbristol.co.uk
+DTSTAMP:20210505T143000Z
+DTSTART:20210505T143000Z
+DTEND:20210505T150000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021-05-05_lecture_awards/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021-05-05_lecture_awards.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:The Best Lecturer Awards
+DESCRIPTION:It’s coming to the end of the university year a...
+LOCATION:Teams
+END:VEVENT
 END:VCALENDAR
