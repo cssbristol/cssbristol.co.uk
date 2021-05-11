@@ -3,6 +3,10 @@ html.agm-event {
   scroll-snap-type: y proximity;
   scroll-snap-stop: always;
   overflow-y: scroll;
+
+  @include media-query($on-palm) {
+    scroll-snap-type: unset;
+  }
 }
 
 body.agm-event {
