@@ -1,0 +1,132 @@
+---
+feed: "/feed/events.xml"
+---
+
+<!DOCTYPE html>
+<html lang="en" class="agm-event">
+
+  {% include head.html %}
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+
+  <body class="agm-event">
+    <div class="page hero-page">
+      <a href="/" alt="Home"><img src="/assets/images/core/logo-small-light.png"/></a>
+      <div>
+        <h1>Another year has come to a close</h1>
+        <span>Join us as we celebrate the past year, vote on motions, and elect the new committee!</span>
+        <div class="hero-page-buttons">
+          <a class="agm-btn" target="_blank" href="{{page.agm-motion_link}}">Submit a motion</a>
+          <a class="agm-btn" href="#nominate">Join the committee</a>
+        </div>
+      </div>
+      <span/>
+    </div>
+
+    <section class="page">
+      <div class="page-content event-page">
+        <section>
+          <h2>{{page.title}}</h2>
+          {{ content }}
+        </section>
+
+        <section class="event-page__details">
+          <h2>Details</h2>
+          {% if page.date %} {% assign endDay = page.date_end | date: '%j' %} {%
+          assign startDay = page.date | date: '%j' %} {% if startDay == endDay %}
+          <div class="event-page__details__row">
+            <i class="fas fa-calendar-day" data-tooltip="Event date" aria-label="Event date"></i>
+            <p>{{ page.date | date: "%d/%m/%y" }}</p>
+          </div>
+          {% else %}
+          <div class="event-page__details__row">
+            <i class="fas fa-calendar-day" data-tooltip="Event date" aria-label="Event date"></i>
+            <p>
+              {{ page.date | date: "%d/%m/%y" }} - {{ page.date_end | date:
+              "%d/%m/%y" }}
+            </p>
+          </div>
+          {% endif %}
+          <div class="event-page__details__row">
+            <i class="fas fa-clock" data-tooltip="Event time" aria-label="Event time"></i>
+            <p>
+              {{ page.date | date: "%H:%M" }} - {{ page.date_end | date: "%H:%M" }}
+            </p>
+          </div>
+          {% endif %} {% if page.location %}
+          <div class="event-page__details__row">
+            <i class="fas fa-map-marker" data-tooltip="Event location" aria-label="Event location"></i>
+            <p>{{ page.location }}</p>
+          </div>
+          {% endif %} {% if page.price %}
+          <div class="event-page__details__row">
+            <i class="fas fa-pound-sign" data-tooltip="Ticket price" aria-label="Ticket price"></i>
+            <p>{{ page.price }}</p>
+          </div>
+          {% endif %} {% if page.ticket_link %}
+          <a class="event-page__details__row" href="{{ page.ticket_link }}">
+            <i class="fas fa-shopping-cart" data-tooltip="Ticket link" aria-label="Ticket link"></i>
+            <p>Get a ticket here</p>
+          </a>
+          {% endif %} {% if page.fb_link %}
+          <a class="event-page__details__row" href="{{ page.fb_link }}">
+            <i class="fab fa-facebook"></i>
+            <p>Join the Facebook event!</p>
+          </a>
+          {% endif %} {% if page.cohost %}
+          <div class="event-page__details__hosted-with">
+            <hr />
+            <h4>Hosted with:</h4>
+            <ul>
+              {% for host in page.cohost %} {% if host.link %}
+              <li>
+                <a href="{{ host.link }}"> {{ host.name }} </a>
+              </li>
+              {% elsif host.company %}
+              <li>
+                {% include company_logo.html company=host.company %}
+              </li>
+              {% else %}
+              <li>{{ host }}</li>
+              {% endif %} {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+        </section>
+      </div>
+    </section>
+
+    {% for cat in page.agm-roles %}
+      <section class="page role-page">
+        <h2>{{cat.category}}</h2>
+        <div class="roles-container">
+          {% for role in cat.roles %}
+            <div class="role-card">
+              <h3>{{role.position}}</h3>
+              <p>{{role.description}}</p>
+            </div>
+          {% endfor %}
+        </div>
+        <span>Interested? <a href="#nominate">Nominate yourself!</a></span>
+      </section>
+    {% endfor %}
+
+    <section id="nominate" class="page">
+      <div class="page-content">
+        <h2>Nominate yourself!</h2>
+        <p>So, you've decided you want to help make next year a great year for CSS!</p>
+        <p>But how do you get on the commitee?</p>
+        <ol>
+          <li>Write a <em>short</em> paragraph saying why you want to be on the commitee</li>
+          <li>Apply for the role(s) using the link bellow</li>
+          <li>Give a 2 minuite speech at the AGM <i>(or a recorded video if you can't make it)<i></li>
+        </ol>
+        <div class="center">
+          <a class="agm-btn" target="_blank" href="{{page.agm-apply_link}}">Apply now</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
