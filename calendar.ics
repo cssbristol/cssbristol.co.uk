@@ -3054,4 +3054,19 @@ SUMMARY:The Best Lecturer Awards
 DESCRIPTION:It’s coming to the end of the university year a...
 LOCATION:Teams
 END:VEVENT
+BEGIN:VEVENT
+UID:events-2021-05-17agm
+ @cssbristol.co.uk
+DTSTAMP:20210517T183000Z
+DTSTART:20210517T183000Z
+DTEND:20210517T200000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021-05-17_agm/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021-05-17_agm.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:AGM 2021
+DESCRIPTION:Join us for our 2021 CSS AGM where we’ll chat a...
+LOCATION:Online
+END:VEVENT
 END:VCALENDAR
