@@ -258,7 +258,9 @@ blockquote .citation:before { content: '-'; margin-right: 0.5rem; }
 
 .job-posts .job-post-item__company { font-weight: 400; }
 
-.job-posts .job-post-item__logo { position: absolute; bottom: 20px; right: 20px; height: 40px; margin: 0; }
+.job-posts .job-post-item .company-logo { position: absolute; bottom: 2rem; right: 1rem; }
+
+.job-posts .job-post-item .company-logo img { height: 3rem; }
 
 .job-posts .job-post-item--sponsored { background: #fa8a90; }
 
@@ -287,6 +289,8 @@ blockquote .citation:before { content: '-'; margin-right: 0.5rem; }
 .job-post dl dd { display: inline; }
 
 .job-post dl dd:after { display: block; content: ''; }
+
+.job-details .company-logo img { height: 1.5rem; }
 
 .committee { display: flex; flex-direction: row; gap: 1rem 0.5rem; flex-wrap: wrap; justify-content: center; align-items: start; }
 
