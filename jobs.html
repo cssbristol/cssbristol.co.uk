@@ -31,7 +31,9 @@ show-in-nav: true
           <p class="job-post-item__location">{{ job.jobLocation }}</p>
           <p class="job-post-item__date">Posted <time datetime="{{ job.datePosted | date_to_xmlschema }}" itemprop="datePosted">{{ job.datePosted | date: "%b %-d, %Y"  }}</time></p>
           <p class="job-post-item__date">Apply by <time datetime="{{ job.validThrough | date_to_xmlschema }}" itemprop="validThrough">{{ job.validThrough | date: "%b %-d, %Y"  }}</time></p>
-          {% if job.logo %}<img class="job-post-item__logo" src='{% if job.layout == "job-old" %}{{ job.logo }}{% else %}/assets/images/contrib/jobs/{{ job.logo }}{% endif %}' alt="{{ job.hiringOrganization.name }} logo" />{% endif %}
+          {% if job.logo %}
+            {% include company_logo.html company=job.hiringOrganization.name %}
+          {% endif %}
         </a>
       </div>
       {% endunless %}
@@ -52,7 +54,9 @@ show-in-nav: true
           <p class="job-post-item__location">{{ job.jobLocation }}</p>
           <p class="job-post-item__date">Posted <time datetime="{{ job.datePosted | date_to_xmlschema }}" itemprop="datePosted">{{ job.datePosted | date: "%b %-d, %Y"  }}</time></p>
           <p class="job-post-item__date">Apply by <time datetime="{{ job.validThrough | date_to_xmlschema }}" itemprop="validThrough">{{ job.validThrough | date: "%b %-d, %Y"  }}</time></p>
-          {% if job.logo %}<img class="job-post-item__logo" src='{% if job.layout == "job-old" %}{{ job.logo }}{% else %}/assets/images/contrib/jobs/{{ job.logo }}{% endif %}' alt="{{ job.hiringOrganization.name }} logo" />{% endif %}
+          {% if job.logo %}
+            {% include company_logo.html company=job.hiringOrganization.name %}
+          {% endif %}
         </a>
       </div>
       {% endunless %}

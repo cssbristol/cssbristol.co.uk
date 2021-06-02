@@ -54,12 +54,13 @@
       font-weight: 400;
     }
 
-    &__logo {
+    .company-logo {
       position: absolute;
-      bottom: 20px;
-      right: 20px;
-      height: 40px;
-      margin: 0;
+      bottom: 2rem;
+      right: 1rem;
+      img {
+        height: 3rem;
+      }
     }
 
     &--sponsored {
@@ -142,5 +143,11 @@
         content: '';
       }
     }
+  }
+}
+
+.job-details {
+  .company-logo img {
+    height: 1.5rem;
   }
 }

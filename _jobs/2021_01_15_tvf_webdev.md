@@ -18,7 +18,7 @@ baseSalary: 25000
 salaryCurrency: GBP
 salaryPeriod: Year
 apply:
-  link: http://www.tvf.co.uk/careers/tvf-digital/junior-web-developer
+  link: https://www.tvf.co.uk/careers/tvf-digital/junior-web-developer
 ---
 
 ## Job Description
