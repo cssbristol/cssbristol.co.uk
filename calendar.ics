@@ -3069,4 +3069,19 @@ SUMMARY:AGM 2021
 DESCRIPTION:Join us for our 2021 CSS AGM where we’ll chat a...
 LOCATION:Online
 END:VEVENT
+BEGIN:VEVENT
+UID:events-2021-06-24postlockdownbarcrawl
+ @cssbristol.co.uk
+DTSTAMP:20210624T190000Z
+DTSTART:20210624T190000Z
+DTEND:20210625T040000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021-06-24_post_lockdown_barcrawl/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021-06-24_post_lockdown_barcrawl.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Post-Lockdown Barcrawl
+DESCRIPTION:CSS’s annual barcrawl has finally returned!
+LOCATION:Triangle Pubs
+END:VEVENT
 END:VCALENDAR
