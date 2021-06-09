@@ -4,7 +4,7 @@ hide: false
 sponsored: false
 datePosted: 2021-03-01 12:00:00 +0100
 hiringOrganization:
-  name: <++>
+  name: (Name of company in \_companies directory)
   address:  <++>
 title: <++>
 logo: <++>
