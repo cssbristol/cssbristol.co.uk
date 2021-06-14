@@ -1,0 +1,50 @@
+.page-section.sponsor {
+
+    .header {
+        display: flex;
+        align-items: center;
+
+        h1 {
+            margin: auto;
+        }
+
+        img {
+            height: 3em; 
+            vertical-align:middle;
+            margin-left: 8px;
+        }
+    }
+
+    .sponsor-table {
+        width: fit-content;
+        padding: 10px;
+        border-radius: 20px;
+        align-self: center;
+
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    table {
+        th, td {
+            padding: 5px;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        p {
+            margin: 0px;
+        }
+
+        .category {
+            font-weight: bold;
+            writing-mode: vertical-rl;
+            text-align: center;
+        }
+
+        .break {
+            border-top: 1px solid black;
+        }
+    }
+}
