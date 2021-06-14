@@ -1,0 +1,68 @@
+backend:
+  name: github
+  repo: cssbristol/cssbristol.github.io
+  branch: dev
+
+media_folder: "assets/images/contrib/uploads"
+site_url: https://cssbristol.co.uk
+display_url: https://cssbristol.co.uk
+logo_url: /assets/images/core/logo-small-dark.png
+
+collections:
+  - name: "events"
+    label: "Events"
+    folder: "_events/"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    preview_path: events/{{slug}}
+    editor:
+      preview: false
+    fields: 
+      - {label: layout, name: "layout", widget: "hidden", default: "event"}
+      - {label: Title, name: "title", widget: "string"}
+      - {label: Published?, name: "published", widget: "boolean", default: false}
+      - {label: Cancelled?, name: "cancelled", widget: "boolean", default: false}
+      - {label: Cancel Reason, name: "cancel_reason", widget: "string", required: false}
+      - {label: Start Time/Date, name: date, widget: "datetime"}
+      - {label: End Time/Date, name: date_end, widget: "datetime"}
+      - {label: Banner, name: banner, widget: "image", media_folder: "/assets/images/contrib/events"}
+      - {label: Body, name: "body", widget: "markdown"}
+      - {label: Location, name: location, widget: "string"}
+      - {label: Facebook Link, name: fb_link, widget: "string", required: false}
+      - {label: Ticket Link, name: ticket_link, widget: "string", required: false}
+      - {label: Price, name: price, widget: "string", required: false}
+      - label: Co-Host
+        name: cohost
+        widget: list
+        collapsed: false
+        fields:
+          - label: "Name"
+            name: "Name"
+          - label: "Company"
+            name: "company"
+            widget: "relation"
+            collection: "companies"
+            search_fields: ["name"]
+            value_field: "name"
+
+
+
+  # - name: "jobs"
+  #   label: "Jobs"
+  #   folder: "_jobs/"
+  #   slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+  #   preview_path: jobs/{{slug}}
+  #   editor:
+  #     preview: false
+  #   fields:
+  #     - {label: layout, name: "layout", widget: "hidden", default: "job"}
+  #     - {label: Title, name: "title", widget: "string"}
+
+  - name: "companies"
+    label: "Companies"
+    folder: "_companies/"
+    indentifier_field: name
+    fields:
+      - {label: Name, name: "name"}
+      - {label: Logo, name: logo, widget: "image", media_folder: "/assets/images/contrib/companies"}
+      - {label: Link, name: "link"}
