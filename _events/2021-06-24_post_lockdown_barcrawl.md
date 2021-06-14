@@ -1,8 +1,8 @@
 ---
 layout: event
 published: true
-cancelled: false
-cancel_reason:
+cancelled: true
+cancel_reason: COVID Reopening Delay 
 title: Post-Lockdown Barcrawl
 date:     2021-06-24 19:00:00
 date_end: 2021-06-25 04:00:00
