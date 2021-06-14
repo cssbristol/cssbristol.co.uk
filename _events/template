@@ -27,4 +27,5 @@ cohost is a list in the following format:
 - I am name of cohost
 - name: I am name of cohost
   link:
+- company: Name of company in _companies directory - this will add logo and link
 {% endcomment %}
