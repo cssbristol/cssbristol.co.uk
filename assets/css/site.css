@@ -683,4 +683,22 @@ body.agm-event .agm-btn:after { content: ''; background-color: #ffffff; position
 
 body.agm-event .agm-btn:hover:after { transform: scaleX(1); }
 
+.page-section.sponsor .header { display: flex; align-items: center; }
+
+.page-section.sponsor .header h1 { margin: auto; }
+
+.page-section.sponsor .header img { height: 3em; vertical-align: middle; margin-left: 8px; }
+
+.page-section.sponsor .sponsor-table { width: fit-content; padding: 10px; border-radius: 20px; align-self: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.page-section.sponsor table th, .page-section.sponsor table td { padding: 5px; }
+
+.page-section.sponsor table th { font-weight: bold; }
+
+.page-section.sponsor table p { margin: 0px; }
+
+.page-section.sponsor table .category { font-weight: bold; writing-mode: vertical-rl; text-align: center; }
+
+.page-section.sponsor table .break { border-top: 1px solid black; }
+
 /*# sourceMappingURL=site.css.map */
