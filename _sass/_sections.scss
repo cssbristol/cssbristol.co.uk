@@ -67,7 +67,7 @@ body {
   padding: 30px 0;
 
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 25px;
 
   @include media-query($on-palm) {
@@ -138,7 +138,7 @@ body {
 .sponsors__item {
   h2 {
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 400;
     max-width: 1000px;
     text-align: center;
 
