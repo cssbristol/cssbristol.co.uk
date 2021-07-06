@@ -45,6 +45,9 @@ $salmon-light: #fa9ba1;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 
+// Todo: only used for sponsorship page
+@import "grid";
+
 @import "events";
 @import "meyer-reset";
 @import "blocks";

@@ -1,0 +1,124 @@
+// TODO: make this more simillar to the other media queries on the site
+
+$spacer: 2rem;
+$grid-cols: 12;
+$container-width-xs: 90vw;
+$container-width-md: 80vw;
+$container-width-lg: 70vw;
+$container-width-xl: 65vw;
+$container-breakpoint-md: $on-palm;
+$container-breakpoint-lg: $on-laptop;
+$container-breakpoint-xl: 100em;
+
+@function cols-width($colspan) {
+  @return unquote("calc(#{$colspan} * 100% / #{$grid-cols})");
+}
+
+@mixin grid-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@mixin cols($cols, $breakpoint:0) {
+  @media screen and (min-width: #{$breakpoint}) {
+    width: cols-width($cols);
+    padding-left: $spacer/2;
+    padding-right: $spacer/2;
+  }
+}
+
+@mixin offset-cols($cols, $breakpoint:0) {
+  @media screen and (min-width: #{$breakpoint}) {
+    margin-left: cols-width($cols);
+  }
+}
+
+@mixin pull-cols($cols, $breakpoint:0) {
+  @media screen and (min-width: #{$breakpoint}) {
+    margin-left: unquote("calc(-1 * #{$cols} * 100% / #{$grid-cols})");
+  }
+}
+
+@mixin cols-custom($cols, $totalCols, $breakpoint:0) {
+  @media screen and (min-width: #{$breakpoint}) {
+    width: custom-cols-width($cols, $totalCols);
+    padding-left: $spacer/2;
+    padding-right: $spacer/2;
+  }
+}
+
+@function custom-cols-width($cols, $totalCols) {
+  @return unquote("calc(#{$cols} * 100% / #{$totalCols})");
+}
+
+@mixin container {
+  width: $container-width-xs;
+  margin: 0 auto;
+
+  @media screen and (min-width: 60rem) {
+    width: $container-width-md;
+  }
+
+  @media screen and (min-width: 90rem) {
+    width: $container-width-lg;
+  }
+
+  @media screen and (min-width: 100rem) {
+    width: $container-width-xl;
+  }
+}
+
+@mixin container-padding {
+  padding-left: (100 - $container-width-xs)/2;
+  padding-right: (100 - $container-width-xs)/2;
+
+  @media screen and (min-width: 60rem) {
+    padding-left: (100 - $container-width-md)/2;
+    padding-right: (100 - $container-width-md)/2;
+  }
+
+  @media screen and (min-width: 90rem) {
+    padding-left: (100 - $container-width-lg)/2;
+    padding-right: (100 - $container-width-lg)/2;
+  }
+
+  @media screen and (min-width: 100rem) {
+    padding-left: (100 - $container-width-xl)/2;
+    padding-right: (100 - $container-width-xl)/2;
+  }
+}
+
+.container {
+  @include container();
+}
+
+@mixin center-children-vertically() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@mixin pl-0($breakpoint:0) {
+  @media screen and (min-width: #{$breakpoint}) {
+    padding-left: 0;
+  }
+}
+
+@mixin pr-0($breakpoint:0) {
+  @media screen and (min-width: #{$breakpoint}) {
+    padding-right: 0;
+  }
+}
+
+@mixin pl-auto($breakpoint:0) {
+  @media screen and (min-width: #{$breakpoint}) {
+    padding-left: $spacer/2;
+  }
+}
+
+@mixin pr-auto($breakpoint:0) {
+  @media screen and (min-width: #{$breakpoint}) {
+    padding-right: $spacer/2;
+  }
+}

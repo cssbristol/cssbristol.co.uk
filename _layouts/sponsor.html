@@ -2,13 +2,81 @@
 layout: bare
 ---
 
-{% include header.html hero-contents=page.hero %}
+{% include header.html %}
 
-<section class="page-section sponsor">
-    <article class="article">
-      {{ content }}
-    </article>
-  </section>
+<main class="page-section sponsor">
+    <div class="container">
+        <div class="intro">
+            <h1 class="page-title">We connect top students with innovative brands.</h1>
+            <div class="intro-text">
+                <p>
+                    Students can be a difficult demographic to advertise to, and that’s where CSS comes in. As a student-run
+                    society, we are uniquely poised to advertise your company’s internships and graduate schemes to our
+                    membership of nearly a thousand students from one of the world’s top 50 universities.
+                </p>
+                <div class="link-list">
+                    <a class="btn dark" href="#get-involved">Get Involved</a>
+                    <a class="btn light" href="#">Download Brochure</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--
+    <div class="logo-banner">
+        <h2 class="title">We've worked with</h2>
+        <div class="container">
+            <div class="slider">
+            &lt;!&ndash; TODO: Build Slider  &ndash;&gt;
+            // put slider of logos here
+            </div>
+        </div>
+    </div>
+-->
+
+    <section id="why-css" class="container section">
+        <h2 class="heading">Why CSS?</h2>
+        <div class="grid-container">
+            <div class="text">
+                <p>
+                    All computer science students at the University of Bristol are members of CSS. This gives us
+                    <strong>over 600 undergraduates</strong>, <strong>250 postgraduates</strong>, and a large network of
+                    alumni in our <strong>2600+ member Facebook group</strong>.
+                </p>
+
+                <p>
+                    Sponsorship is an effective way to promote your brand and attract top talent—we ensure you are
+                    visible to students throughout the year. Many of our students go on to intern and work at
+                    companies that sponsor us.
+                </p>
+            </div>
+            <aside>
+                <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in mauris dapibus, iaculis odio ut, commodo magna.</blockquote>
+                <cite>John Doe, Company position @ Company</cite>
+            </aside>
+        </div>
+    </section>
+
+    <section id="get-involved" class="container">
+        <h2 class="screen-reader-text">Ways to get involved</h2>
+        <h3 class="heading">Give a tech-talk</h3>
+        <div class="section">
+            <div class="grid-container">
+                <div class="text">
+                    <p>
+                        You send the presenter, we organise venue, tech setup, and advertising. We usually expect an
+                        audience of around 30 to 50 people (variable depending on the availability and interest of students).
+                        Past talks have covered topics such as high-performance computing, JVM internals, formal hardware
+                        verification and banking security.
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="/assets/images/core/sponsorship/tech-talk.png" alt="A picture of a tech-talk we've hosted in the past" />
+                </div>
+            </div>
+        </div>
+    </section>
+  </main>
 
   {% include sponsors.html %}
 

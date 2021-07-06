@@ -1,4 +1,195 @@
+$dark-pink: #D30055;
+$dark-purple: #220021;
+
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal !important;
+}
+
 .page-section.sponsor {
+    * {
+        box-sizing: border-box;
+    }
+    .grid-container {
+        @include grid-container;
+    }
+
+    h1 {
+        text-align: left;
+    }
+    h2, .heading {
+        font-size: 2em;
+        text-transform: uppercase;
+        margin: 0.5em auto;
+    }
+    strong {
+        font-weight: bold;
+    }
+
+    a.btn {
+        font-weight: 800;
+        margin: 1em 0;
+        border: 4px solid  $dark-pink;
+        font-size: 1em;
+        letter-spacing: 0;
+        padding: 0.5em 1em;
+
+        &.light {
+            background-color: #fff;
+            color: $dark-pink;
+        }
+        &.dark {
+            background-color: $dark-pink;
+            color: #fff;
+        }
+
+        &:hover, &:focus {
+            background-color: $dark-purple;
+            border-color: $dark-purple;
+            color: #fff;
+        }
+        &:focus {
+            transform: scale(0.8);
+            outline-color: $dark-pink;
+        }
+    }
+
+    .intro {
+        @include grid-container;
+        margin: 2rem auto 6rem;
+
+        .page-title, .intro-text {
+            margin: 0;
+            @include cols(12);
+            @include cols(6, $container-breakpoint-lg);
+        }
+
+        .page-title {
+            font-size: 3.5em;
+            background: linear-gradient(to left, $dark-pink, lighten($dark-purple, 10%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            @include pr-0($container-breakpoint-lg);
+            @include pl-0();
+        }
+        .intro-text {
+            @include pl-0($container-breakpoint-lg);
+            @include pr-0();
+            p {
+                margin: 0 auto 1em;
+            }
+            .link-list {
+                .btn:first-child {
+                    margin-right: 1em;
+                }
+            }
+        }
+    }
+
+    .logo-banner {
+        background-color: $dark-purple;
+        background-image: url("/assets/images/core/sponsorship/logos-background.svg");
+        background-repeat: no-repeat;
+        background-position: right 200%;
+        background-size: 20rem;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        padding: 2rem;
+        margin-bottom: 6rem;
+
+        .title {
+            font-size: 1em;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            margin: 0;
+        }
+
+        .slider {
+            min-height: 15em;
+            @include grid-container;
+        }
+    }
+
+    .section {
+        margin-bottom: 6rem;
+    }
+
+    #why-css {
+        .grid-container {
+            .text {
+                @include cols(12);
+                @include cols(6, $container-breakpoint-md);
+                @include pr-0($container-breakpoint-md);
+                @include pl-0();
+            }
+
+            aside {
+                @include cols(12);
+                @include cols(5, $container-breakpoint-md);
+                @include offset-cols(1, $container-breakpoint-md);
+                @include pl-0($container-breakpoint-md);
+                @include pr-0();
+
+                blockquote {
+                    position: relative;
+                    color: inherit;
+                    font-weight: bold;
+                    margin: 0;
+                    border: 0;
+                    padding: 0;
+
+                    &::before {
+                        content: '“';
+                        font-size: 2em;
+                        font-weight: 400;
+                        position: absolute;
+                        top: 0;
+                        left: -0.5em;
+                    }
+                }
+
+                cite {
+                    display: block;
+                    margin-top: 0.5em;
+                }
+            }
+        }
+    }
+
+    #get-involved {
+        .grid-container {
+            .text {
+                @include cols(12);
+                @include cols(6, $container-breakpoint-md);
+                @include pr-0($container-breakpoint-md);
+                @include pl-0();
+            }
+            .image {
+                @include cols(12);
+                @include cols(6, $container-breakpoint-md);
+                @include pl-auto();
+                @include pr-0();
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+        }
+    }
+
+    //OLD
 
     .header {
         display: flex;
