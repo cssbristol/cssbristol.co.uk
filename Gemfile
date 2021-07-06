@@ -19,6 +19,7 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-paginate-v2"
   gem "jekyll-sass-converter"
+  gem 'jekyll-babel'
   gem "jekyll-redirect-from"
 end
 

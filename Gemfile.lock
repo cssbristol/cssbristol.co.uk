@@ -3,12 +3,17 @@ GEM
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    babel-source (5.8.35)
+    babel-transpiler (0.7.0)
+      babel-source (>= 4.0, < 6)
+      execjs (~> 2.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.8)
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
+    execjs (2.8.1)
     ffi (1.15.0)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
@@ -29,6 +34,8 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 2.0)
+    jekyll-babel (1.1.0)
+      babel-transpiler
     jekyll-feed (0.13.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate-v2 (3.0.0)
@@ -75,6 +82,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.2.0)
+  jekyll-babel
   jekyll-feed
   jekyll-paginate-v2
   jekyll-redirect-from
@@ -86,4 +94,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.2.5
+   2.2.21

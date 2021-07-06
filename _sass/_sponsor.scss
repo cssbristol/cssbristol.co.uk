@@ -211,6 +211,11 @@ $dark-purple: #220021;
                             max-width: 10em;
                             height: 3em;
 
+                            &[data-tooltip]::after {
+                                top: 0;
+                                transform: translate(-50%, -20%) scale(1);
+                            }
+
                             img {
                                 width: 100%;
                                 height: 100%;

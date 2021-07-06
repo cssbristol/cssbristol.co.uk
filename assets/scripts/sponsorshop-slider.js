@@ -1,3 +1,6 @@
+---
+---
+
 class Slider {
     constructor(elem) {
         this.active = 0;
@@ -31,12 +34,39 @@ class Slider {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-   const sliders = document.querySelectorAll(".slider");
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)"),
+        sliders = document.querySelectorAll(".slider");
+
    sliders.forEach((elem, key) => {
        let slider = new Slider(elem);
+       let autoscroll = null;
 
-       let autoScroll = window.setInterval(() => {
-           slider.next();
-       }, 1500);
+       // Start scrolling every 7s if prefers reduced motion flag isn't set
+       if(!reduceMotion || !reduceMotion.matches) {
+           autoscroll = window.setInterval(() => {
+               slider.next();
+           }, 7000);
+       }
+
+       // Control buttons
+       elem.querySelector(".controls .next").addEventListener("click", () => {
+           if(autoscroll != null) {
+               window.clearInterval(autoscroll);
+               autoscroll = null;
+           }
+           slider.next()
+       });
+       elem.querySelector(".controls .back").addEventListener("click", () => {
+           if(autoscroll != null) {
+               window.clearInterval(autoscroll);
+               autoscroll = null;
+           }
+           slider.prev()
+       });
+
+       // Resizing the window can fudge up the slider. Update it to to fix it.
+       window.addEventListener("resize", () => {
+           slider.updateScrollPosition();
+       })
    });
 });
