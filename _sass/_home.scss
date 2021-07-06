@@ -13,7 +13,7 @@
 
 .hero {
   text-align: center;
-  margin: 100px auto;
+  margin: 5rem auto 7rem;
   max-width: $content-width;
   padding: 0 10px;
   width: 100%;
@@ -31,6 +31,7 @@
     letter-spacing: 0.1em;
     line-height: 38px;
     text-transform: uppercase;
+    margin: 1em auto;
 
     // TODO: Convert to variable media query
     @media screen and (max-width: 450px) {
@@ -51,7 +52,7 @@
   }
 
   .btn {
-    margin-top: 100px;
+    //margin-bottom: 1em;
   }
 }
 
