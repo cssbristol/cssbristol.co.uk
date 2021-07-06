@@ -7,16 +7,13 @@ layout: bare
 <main class="page-section sponsor">
     <div class="container">
         <div class="intro">
-            <h1 class="page-title">We connect top students with innovative brands.</h1>
+            <h1 class="page-title">{{ page.intro.title }}</h1>
             <div class="intro-text">
-                <p>
-                    Students can be a difficult demographic to advertise to, and that’s where CSS comes in. As a student-run
-                    society, we are uniquely poised to advertise your company’s internships and graduate schemes to our
-                    membership of nearly a thousand students from one of the world’s top 50 universities.
-                </p>
+                {{ page.intro.text }}
                 <div class="link-list">
-                    <a class="btn dark" href="#get-involved">Get Involved</a>
-                    <a class="btn light" href="#">Download Brochure</a>
+                    {% for btn in page.intro.buttons %}
+                    <a class="btn {{ btn.theme }}" href="{{ btn.location }}">{{ btn.text }}</a>
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -26,54 +23,35 @@ layout: bare
         <h2 class="title">We've worked with</h2>
         <div class="container" id="logos-slider">
             <div class="slider">
+
+                <noscript>
+                    <style>
+                        /* Todo: animate slides using @keyframes */
+                        .slider .controls {
+                            display: none;
+                        }
+                    </style>
+                </noscript>
+
                 <div class="controls">
                     <button aria-label="Previous" class="fas fa-chevron-left"></button>
                     <button aria-label="Next" class="fas fa-chevron-right"></button>
                 </div>
+
                 <div class="slides-viewport">
-                    <div class="slides-list">
+                    <div class="slides-list" style="width: calc(100% * {{ page.past-sponsors.size }})">
+                        {% for slide in page.past-sponsors %}
                         <div class="slide">
+                            {% for brand in slide.content %}
                             <div class="brand">
-                                <img src="/assets/images/core/sponsorship/sponsor-logos/bloomberg.svg" alt="Bloomberg" />
+                                <img src="{{ brand.logo }}" alt="{{brand.name}}" />
                             </div>
-                            <div class="brand">
-                                <img src="/assets/images/core/sponsorship/sponsor-logos/just-eat.svg" alt="Just Eat" />
-                            </div>
-                            <div class="brand">
-                                <img src="/assets/images/core/sponsorship/sponsor-logos/dyson.svg" alt="Dyson" />
-                            </div>
-                            <div class="brand">
-                                <img src="/assets/images/core/sponsorship/sponsor-logos/microsoft.svg" alt="Microsoft" />
-                            </div>
-                            <div class="brand">
-                                <img src="/assets/images/core/sponsorship/sponsor-logos/optiver.svg" alt="Optiver" />
-                            </div>
-                            <div class="brand">
-                                <img src="/assets/images/core/sponsorship/sponsor-logos/tpp.svg" alt="TPP" />
-                            </div>
+                            {% endfor %}
                         </div>
-                        <div class="slide">
-                            <div class="brand">
-                                <img src="/assets/images/core/sponsorship/sponsor-logos/bloomberg.svg" alt="Bloomberg" />
-                            </div>
-                            <div class="brand">
-                                <img src="/assets/images/core/sponsorship/sponsor-logos/just-eat.svg" alt="Just Eat" />
-                            </div>
-                            <div class="brand">
-                                <img src="/assets/images/core/sponsorship/sponsor-logos/dyson.svg" alt="Dyson" />
-                            </div>
-                            <div class="brand">
-                                <img src="/assets/images/core/sponsorship/sponsor-logos/microsoft.svg" alt="Microsoft" />
-                            </div>
-                            <div class="brand">
-                                <img src="/assets/images/core/sponsorship/sponsor-logos/optiver.svg" alt="Optiver" />
-                            </div>
-                            <div class="brand">
-                                <img src="/assets/images/core/sponsorship/sponsor-logos/tpp.svg" alt="TPP" />
-                            </div>
-                        </div>
+                        {% endfor %}
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -123,6 +101,6 @@ layout: bare
   </main>
 
   {% include sponsors.html %}
-
+  <script src="/assets/scripts/sponsorshop-slider.js"></script>
     {% include footer.html %}
   

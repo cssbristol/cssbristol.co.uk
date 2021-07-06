@@ -91,7 +91,7 @@ $dark-purple: #220021;
         }
         .intro-text {
             @include cols(6, $container-breakpoint-md);
-            @include offset-cols(1, $container-breakpoint-lg)
+            @include offset-cols(1, $container-breakpoint-lg);
             @include pl-0();
             @include pl-auto($container-breakpoint-lg);
             @include pr-0();
@@ -187,14 +187,16 @@ $dark-purple: #220021;
             .slides-viewport {
                 z-index: 1;
                 overflow: hidden;
-                @include pl-0();
-                @include pr-0();
+                scroll-behavior: smooth;
                 @include cols(10);
                 @include cols(6, $container-breakpoint-md);
+                @include pl-0();
+                @include pr-0();
 
                 .slides-list {
-                    width: 200%;
                     display: flex;
+                    // TODO: Should be possible to use css transforms to slide the slider for js disabled
+
                     .slide {
                         width: 100%;
                         @include grid-container;
