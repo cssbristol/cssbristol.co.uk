@@ -6,7 +6,9 @@ body {
 }
 
 .page-header {
-  background: url('/assets/images/core/header-bg-03.jpg') no-repeat;
+  //background: url('/assets/images/core/header-bg-03.jpg') no-repeat;
+  // Set solid colour background so that page still readable while image loads.
+  background-color: darken($salmon, 0.7);
   background-size: cover;
   display: flex;
   justify-content: space-evenly;
@@ -52,6 +54,35 @@ body {
         height: 25px;
       }
     }
+  }
+}
+
+#page-header--random-bg {
+  position: relative;
+  .bg {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    > div {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 120%;
+      height: 120%;
+      background-size: cover;
+      background-position: center;
+      &.blur {
+        filter: blur(10px);
+      }
+    }
+  }
+  .navigation-items,
+  .hero {
+    z-index: 1;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.58);
   }
 }
 
