@@ -43,7 +43,7 @@ layout: bare
                         {% for slide in page.past-sponsors %}
                         <div class="slide">
                             {% for brand in slide.content %}
-                            <a href="{{ brand.url }}" class="brand" data-tooltip="{{ brand.name }}">
+                            <a target="_BLANK" href="{{ brand.url }}" class="brand" data-tooltip="{{ brand.name }}">
                                 <img src="{{ brand.logo }}" alt="{{brand.name}}" />
                             </a>
                             {% endfor %}
