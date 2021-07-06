@@ -82,7 +82,8 @@ $dark-purple: #220021;
             @include pl-0();
         }
         .intro-text {
-            @include pl-0($container-breakpoint-lg);
+            @include pl-0();
+            @include pl-auto($container-breakpoint-md);
             @include pr-0();
             p {
                 margin: 0 auto 1em;
@@ -99,8 +100,8 @@ $dark-purple: #220021;
         background-color: $dark-purple;
         background-image: url("/assets/images/core/sponsorship/logos-background.svg");
         background-repeat: no-repeat;
-        background-position: right 200%;
-        background-size: 20rem;
+        background-position: right bottom;
+        background-size: contain;
         width: 100%;
         color: #fff;
         text-align: center;
@@ -113,11 +114,64 @@ $dark-purple: #220021;
             text-transform: uppercase;
             letter-spacing: 0.2em;
             margin: 0;
+            z-index: 1;
         }
+
 
         .slider {
             min-height: 15em;
+            position: relative;
             @include grid-container;
+
+            .controls {
+                position: absolute;
+                @include grid-container;
+                @include center-children-vertically;
+                width: 100%;
+                height: 100%;
+                button {
+                    position: absolute;
+                    font-size: 3em;
+                    background: transparent;
+                    border: none;
+                    color: #fff;
+                    cursor: pointer;
+                    transition: text-shadow .5s ease-in-out 0s, color .5s ease 0s, transform .5s ease-in-out 0s;
+                    text-shadow: 0 0 0 #fff,
+                    0 0 0 #fff,
+                    0 0 0 #fff,
+                    0 0 0 #fff;
+
+                    &:nth-child(1) {
+                        left: 0;
+                    }
+                    &:nth-child(2) {
+                        right: 0;
+                    }
+
+                    &:hover,
+                    &:focus {
+                        color: $dark-purple;
+                        // Adds stroke around text
+                        text-shadow: 3px 0 0 #fff,
+                            -3px 0 0 #fff,
+                            0 3px 0 #fff,
+                            0 -3px 0 #fff;
+                    }
+                  &:focus {
+                      outline: none;
+                      transform: scale(1.2);
+                      text-shadow: 5px 0 0 $yellow,
+                      -5px 0 0 $yellow,
+                      0 5px 0 $yellow,
+                      0 -5px 0 $yellow;
+
+                  }
+                }
+                @include media-query($on-laptop) {
+
+                }
+            }
         }
     }
 
