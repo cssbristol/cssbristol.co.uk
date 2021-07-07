@@ -351,6 +351,7 @@ $dark-purple: #220021;
 
     .card {
         width: 100%;
+        box-sizing: border-box;
         @include cols(6, $container-breakpoint-md);
         @media screen and (max-width: $container-breakpoint-md) {
             margin-bottom: 2em;

@@ -47,7 +47,7 @@ layout: bare
     </div>
     <div class="grey-bg">
         <section id="why-css" class="container section">
-            <h2 class="heading">Why CSS?</h2>
+            <h2 class="heading">{{ page.long-intro.title }}</h2>
             <div class="grid-container">
                 <div class="text">
                     <p>
@@ -63,8 +63,8 @@ layout: bare
                     </p>
                 </div>
                 <aside>
-                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in mauris dapibus, iaculis odio ut, commodo magna.</blockquote>
-                    <cite>Joe Bloggs, job title @ Company</cite>
+                    <blockquote>{{ page.long-intro.quote }}</blockquote>
+                    <cite>{{ page.long-intro.quote-author }}</cite>
                 </aside>
             </div>
         </section>
@@ -72,56 +72,17 @@ layout: bare
             <h2 class="screen-reader-text">Ways to get involved</h2>
             <div class="section">
                 <h3 class="heading">Year-long sponsorship</h3>
-                <div class="sponsorship-cards">
-                    <div class="card">
-                        <div class="standard">
-                            <h4>Standard Package</h4>
-                            <ul class="benefits">
-                                <li class="true">Logo on our website</li>
-                                <li class="true break">Logo on our merchandise</li>
-
-                                <li class="true">Run a tech-talk</li>
-                                <li class="false break">Run an event</li>
-
-                                <li class="true">Advertising for your events</li>
-                                <li class="true">Sponsored job postings</li>
-                                <li class="true">Regular dialogue with committee</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="premium">
-                            <h4>Premium Package <i class="fas fa-star"></i></h4>
-                            <ul class="benefits">
-                                <li class="true">Logo on our website</li>
-                                <li class="true break">Logo on our merchandise</li>
-
-                                <li class="true">Run a tech-talk</li>
-                                <li class="true break">Run an event</li>
-
-                                <li class="true">Advertising for your events</li>
-                                <li class="true">Sponsored job postings</li>
-                                <li class="true">Regular dialogue with committee</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <a href="#contact" class="sponsor-cta btn dark">Contact us for pricing</a>
-                </div>
+                {% include sponsor-plans.html contact-link="#contact" %}
             </div>
 
             <div class="section">
-                <h3 class="heading">Give a tech-talk</h3>
+                <h3 class="heading">{{ page.talks.title }}</h3>
                 <div class="grid-container">
                     <div class="left-col">
-                        <p>
-                            You send the presenter, we organise venue, tech setup, and advertising. We usually expect an
-                            audience of around 30 to 50 people (variable depending on the availability and interest of students).
-                            Past talks have covered topics such as high-performance computing, JVM internals, formal hardware
-                            verification and banking security.
-                        </p>
+                        {{ page.talks.text }}
                     </div>
                     <div class="right-col">
-                        <img src="/assets/images/core/sponsorship/tech-talk.png" alt="A picture of a tech-talk we've hosted in the past" />
+                        <img src="{{ page.talks.image }}" alt="{{ page.talks.image-alt }}" />
                     </div>
                 </div>
             </div>
@@ -130,7 +91,7 @@ layout: bare
                 <h3 class="heading">Run an event</h3>
                 <div class="grid-container">
                     <div class="left-col">
-                        <h4>Custom Events</h4>
+                        <h4>{{ page.events.title }}</h4>
                         <p>
                             Running a custom event is the perfect opportunity to show students interesting technical
                             problems you work on, what it’s like to work at your company, and what you’re looking for in
@@ -157,7 +118,7 @@ layout: bare
                 </div>
             </div>
             <div class="section">
-                <h3 class="heading">Outreach</h3>
+                <h3 class="heading">{{ page.outreach.title }}</h3>
                 <div class="grid-container">
                     <div class="left-col">
                         <p>
@@ -172,8 +133,7 @@ layout: bare
                         <a class="btn light" href="#">View outreach plan <i class="fas fa-arrow-right"></i></a>
                     </div>
                     <div class="right-col">
-                        <img src="https://www.digimakers.co.uk/digi-core/uploads/2018/04/DM-09.jpg"
-                             alt="A picture of a DigiMakers outreach event we've participated in." />
+                        <img src="{{ page.outreach.image }}" alt="{{ page.outreach.image-alt }}" />
                     </div>
                 </div>
             </div>

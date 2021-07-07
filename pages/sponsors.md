@@ -82,5 +82,26 @@ past-sponsors:
       logo: /assets/images/core/sponsorship/sponsor-logos/lloyds-banking.svg
       url: "https://www.lloydsbankinggroup.com/"
 
+long-intro:
+  title: "Why CSS?"
+  quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in mauris dapibus, iaculis odio ut,
+    commodo magna."
+  quote-author: "Joe Bloggs, job title @ Company"
 
+talks:
+  title: Give a tech-talk
+  image: /assets/images/core/sponsorship/tech-talk.png
+  image-alt: A picture of a tech-talk we've hosted in the past
+  text: "You send the presenter, we organise venue, tech setup, and advertising. We usually expect an audience of around
+    30 to 50 people (variable depending on the availability and interest of students). Past talks have covered topics
+    such as high-performance computing, JVM internals, formal hardware verification and banking security."
+
+events:
+  title: Run an event
+
+outreach: 
+  title: Outreach
+  link: #"
+  image: "/assets/images/core/sponsorship/digimakers.jpg"
+  image-alt: "A picture of a DigiMakers outreach event we've helped with."
 ---
