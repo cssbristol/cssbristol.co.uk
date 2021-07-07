@@ -48,8 +48,8 @@ class Swipeable {
                 direction: "right",
             }
         });
-        elem.addEventListener("touchstart", this.handleTouchStart.bind(this));
-        elem.addEventListener("touchend", this.handleTouchEnd.bind(this));
+        elem.addEventListener("touchstart", this.handleTouchStart.bind(this), {passive: true});
+        elem.addEventListener("touchend", this.handleTouchEnd.bind(this), {passive: true});
     }
 
     fireEvent() {
