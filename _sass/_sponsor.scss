@@ -41,7 +41,7 @@ $dark-purple: #220021;
         margin: 0.5em auto 1.5em
     }
 
-    a.btn {
+    .btn {
         font-weight: 800;
         margin: 1em 0;
         border: 4px solid  $dark-pink;
@@ -318,53 +318,25 @@ $dark-purple: #220021;
         }
     }
 
-    //OLD
+    .contact {
+        margin-top: 12em;
+        background-image: url('/assets/images/core/sponsorship/horse.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right bottom;
 
-    .header {
-        display: flex;
-        align-items: center;
+        .wrapper {
+            margin: 0 auto;
+            @include cols(12);
+            @include cols(10, $container-breakpoint-md);
+            @include cols(8, $container-breakpoint-lg);
+            @include cols(7, $container-breakpoint-xl);
+            padding: 1em 0;
+            border-top: 1px solid $darkgray;
 
-        h1 {
-            margin: auto;
-        }
-
-        img {
-            height: 3em; 
-            vertical-align:middle;
-            margin-left: 8px;
-        }
-    }
-
-    .sponsor-table {
-        width: fit-content;
-        padding: 10px;
-        border-radius: 20px;
-        align-self: center;
-
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-
-    table {
-        th, td {
-            padding: 5px;
-        }
-
-        th {
-            font-weight: bold;
-        }
-
-        p {
-            margin: 0px;
-        }
-
-        .category {
-            font-weight: bold;
-            writing-mode: vertical-rl;
-            text-align: center;
-        }
-
-        .break {
-            border-top: 1px solid black;
+            .heading {
+                text-align: center;
+            }
         }
     }
 }
@@ -462,4 +434,88 @@ $dark-purple: #220021;
 .sponsorship-cards .sponsor-cta,
 .page-section.sponsor .sponsorship-cards a.btn.sponsor-cta {
     margin: 3em auto 0;
+}
+
+.contact-form {
+    label {
+        display: block;
+        font-weight: 700;
+        font-size: 1em;
+        margin: 0 auto 0.5em;
+    }
+    input, select, textarea {
+        display: block;
+        box-sizing: border-box;
+        font-size: 1em;
+        font-family: $bodyfont;
+        padding: 0.25em 0.5em;
+        width: 100%;
+        background: #fff;
+        border: 1px solid $darkgray;
+        border-radius: 5px;
+        &:focus {
+            border: 3px solid $dark-pink;
+            box-shadow: 0 0 0.5em darken($dark-pink, 30%);
+            outline: none;
+        }
+    }
+    input[type="submit"] {
+        cursor: pointer;
+        text-align: center;
+        max-width: 14ch;
+    }
+
+    .row {
+        @include grid-container;
+        margin: $spacer/2 auto;
+    }
+
+    .half-cols {
+        @include cols(12);
+        @include cols(6, $container-breakpoint-md);
+    }
+    @mixin left-col {
+        @include pl-0;
+        @include pr-0($container-breakpoint-md);
+    }
+    @mixin right-col {
+        @include pr-0;
+        @include pr-0($container-breakpoint-md);
+    }
+    .left-col {
+        @include left-col;
+    }
+    .right-col {
+        @include right-col;
+    }
+    #company-group {
+        @include cols(12);
+        @include cols(8, $container-breakpoint-md);
+        @include left-col;
+    }
+    #budget-group {
+        @include cols(12);
+        @include cols(4, $container-breakpoint-md);
+        @include right-col;
+    }
+    #email-group {
+        @include cols(12);
+        @include cols(6, $container-breakpoint-md);
+        @include left-col;
+    }
+    #tel-group {
+        @include cols(12);
+        @include cols(6, $container-breakpoint-md);
+        @include right-col;
+    }
+    #interest-group {
+        @include cols(12);
+        @include cols(6, $container-breakpoint-md);
+        @include cols(4, $container-breakpoint-xl);
+        @include left-col;
+    }
+    #message-group {
+        @include cols(12);
+        @include left-col;
+    }
 }

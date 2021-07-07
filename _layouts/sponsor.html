@@ -188,8 +188,79 @@ layout: bare
                 </div>
             </div>
         </section>
+        <section class="section container-padding contact" id="contact">
+            <div class="wrapper">
+                <h2 class="heading">Get in touch with us</h2>
+                <p>Drop us a note by filling in the form below. Alternatively, you can send an email to
+                    <a href="mailto:president@cssbristol.co.uk">president@cssbristol.co.uk</a> or
+                    <a href="mailto:vice-president@cssbristol.co.uk.">vice-president@cssbristol.co.uk.</a></p>
 
+                <p>Thank you for your interest!</p>
 
+                <form class="contact-form">
+                    <div class="row">
+                        <div class="input-group half-cols left-col" id="name-group">
+                            <label for="name">Name *</label>
+                            <input type="text" placeholder="Your name" id="name" name="name" />
+                        </div>
+                        <div class="input-group half-cols right-col" id="position-group">
+                            <label for="position">Position *</label>
+                            <input type="text" placeholder="E.g. 'Campus recruiter'" id="position" name="position" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-group two-cols left-col" id="company-group">
+                            <label for="company">Company name *</label>
+                            <input type="text" placeholder="Your company name" id="company" name="company" />
+                        </div>
+                        <div class="input-group two-cols right-col" id="budget-group">
+                            <label for="budget">Budget *</label>
+                            <select name="budget" id="budget">
+                                <option disabled selected>Select from dropdown</option>
+                                <option>Less than £200</option>
+                                <option>£200-499</option>
+                                <option>£500-999</option>
+                                <option>£1000-1499</option>
+                                <option>£1500-1999</option>
+                                <option>£2000-2499</option>
+                                <option>£2500-2999</option>
+                                <option>More than £3000</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-group left-col" id="email-group">
+                            <label for="email">Email address *</label>
+                            <input type="email" placeholder="example@example.com" id="email" name="email" />
+                        </div>
+                        <div class="input-group left-col" id="tel-group">
+                            <label for="tel">Telephone</label>
+                            <input type="tel" placeholder="(+44) ##### #####" id="tel" name="tel" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-group left-col" id="interest-group">
+                            <label for="interest">I'm interested in</label>
+                            <select name="interest" id="interest">
+                                <option disabled selected>Select from dropdown</option>
+                                <option>A year-long sponsorship</option>
+                                <option>A tech-talk</option>
+                                <option>Hackathon or Game-jam</option>
+                                <option>Custom event</option>
+                                <option>Outreach</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-group left-col" id="message-group">
+                            <label for="message">Message *</label>
+                            <textarea rows="12" cols="80" id="message" name="message"></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" value="Send" class="btn dark" />
+                </form>
+            </div>
+        </section>
     </div>
   </main>
 
