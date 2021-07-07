@@ -10,9 +10,11 @@ body {
 }
 
 .page-header {
-  //background: url('/assets/images/core/header-bg-03.jpg') no-repeat;
+  &.noscript {
+    background: url('/assets/images/core/header-bg-03.jpg') no-repeat;
+  }
   // Set solid colour background so that page still readable while image loads.
-  background-color: darken($salmon, 0.7);
+  background-color: #000;
   background-size: cover;
   display: flex;
   justify-content: space-evenly;
