@@ -1,6 +1,6 @@
 ---
 layout: sponsor
-title: Partners and sponsors
+title: Sponsors
 permalink: /pages/sponsors
 redirect_from: "/partnerwithus"
 show-in-nav: true

@@ -376,6 +376,9 @@ $dark-purple: #220021;
     .card {
         width: 100%;
         @include cols(6, $container-breakpoint-md);
+        @media screen and (max-width: $container-breakpoint-md) {
+            margin-bottom: 2em;
+        }
 
         &:first-of-type {
             @include pl-0();
