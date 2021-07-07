@@ -23,10 +23,11 @@
   <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous"></script>
 
   <script type="text/javascript">
-    document.querySelectorAll(".noscript").forEach(elem => {
-      elem.classList.remove("noscript");
-    });
     window.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll(".noscript").forEach(elem => {
+        elem.classList.remove("noscript");
+      });
+
       const bg = document.querySelector('#page-header--random-bg .bg > div');
       let images = [
         'header-bg-01', 'header-bg-02', 'header-bg-03', 'header-bg-04',
