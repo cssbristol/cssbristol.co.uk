@@ -298,7 +298,8 @@ $dark-purple: #220021;
             .right-col {
                 @include cols(12);
                 @include cols(6, $container-breakpoint-md);
-                @include pl-auto();
+                @include pl-0();
+                @include pl-auto($container-breakpoint-md);
                 @include pr-0();
                 img {
                     width: 100%;
