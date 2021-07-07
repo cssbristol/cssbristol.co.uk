@@ -54,7 +54,6 @@ class Swipeable {
 
     fireEvent() {
         const dx = this.x1-this.x0;
-        console.log(dx);
 
         let event;
         if(dx > 0)
@@ -62,7 +61,8 @@ class Swipeable {
         else if(dx < 0)
             event = this.leftSwipe;
 
-        this.elem.dispatchEvent(event);
+        if(dx > 50)
+            this.elem.dispatchEvent(event);
     }
 
     handleTouchStart(e) {
@@ -71,7 +71,6 @@ class Swipeable {
     }
 
     handleTouchEnd(e) {
-        console.log(e.changedTouches);
         this.x1 = e.changedTouches[0].clientX;
         this.fireEvent();
     }
