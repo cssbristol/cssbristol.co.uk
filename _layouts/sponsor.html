@@ -55,49 +55,88 @@ layout: bare
             </div>
         </div>
     </div>
-
-    <section id="why-css" class="container section">
-        <h2 class="heading">Why CSS?</h2>
-        <div class="grid-container">
-            <div class="text">
-                <p>
-                    All computer science students at the University of Bristol are members of CSS. This gives us
-                    <strong>over 600 undergraduates</strong>, <strong>250 postgraduates</strong>, and a large network of
-                    alumni in our <strong>2600+ member Facebook group</strong>.
-                </p>
-
-                <p>
-                    Sponsorship is an effective way to promote your brand and attract top talent—we ensure you are
-                    visible to students throughout the year. Many of our students go on to intern and work at
-                    companies that sponsor us.
-                </p>
-            </div>
-            <aside>
-                <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in mauris dapibus, iaculis odio ut, commodo magna.</blockquote>
-                <cite>John Doe, Company position @ Company</cite>
-            </aside>
-        </div>
-    </section>
-
-    <section id="get-involved" class="container">
-        <h2 class="screen-reader-text">Ways to get involved</h2>
-        <h3 class="heading">Give a tech-talk</h3>
-        <div class="section">
+    <div class="grey-bg">
+        <section id="why-css" class="container section">
+            <h2 class="heading">Why CSS?</h2>
             <div class="grid-container">
                 <div class="text">
                     <p>
-                        You send the presenter, we organise venue, tech setup, and advertising. We usually expect an
-                        audience of around 30 to 50 people (variable depending on the availability and interest of students).
-                        Past talks have covered topics such as high-performance computing, JVM internals, formal hardware
-                        verification and banking security.
+                        All computer science students at the University of Bristol are members of CSS. This gives us
+                        <strong>over 600 undergraduates</strong>, <strong>250 postgraduates</strong>, and a large network of
+                        alumni in our <strong>2600+ member Facebook group</strong>.
+                    </p>
+
+                    <p>
+                        Sponsorship is an effective way to promote your brand and attract top talent—we ensure you are
+                        visible to students throughout the year. Many of our students go on to intern and work at
+                        companies that sponsor us.
                     </p>
                 </div>
-                <div class="image">
-                    <img src="/assets/images/core/sponsorship/tech-talk.png" alt="A picture of a tech-talk we've hosted in the past" />
+                <aside>
+                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in mauris dapibus, iaculis odio ut, commodo magna.</blockquote>
+                    <cite>John Doe, Company position @ Company</cite>
+                </aside>
+            </div>
+        </section>
+        <section id="get-involved" class="container">
+            <h2 class="screen-reader-text">Ways to get involved</h2>
+            <div class="section">
+                <h3 class="heading">Year-long sponsorship</h3>
+                <div class="sponsorship-cards">
+                    <div class="card">
+                        <div class="standard">
+                            <h4>Standard Package</h4>
+                            <ul class="benefits">
+                                <li class="true">Logo on our website</li>
+                                <li class="true break">Logo on our merchandise</li>
+
+                                <li class="true">Run a tech-talk</li>
+                                <li class="false break">Run an event</li>
+
+                                <li class="true">Advertising for your events</li>
+                                <li class="true">Sponsored job postings</li>
+                                <li class="true">Regular dialogue with committee</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="premium">
+                            <h4>Premium Package <i class="fas fa-star"></i></h4>
+                            <ul class="benefits">
+                                <li class="true">Logo on our website</li>
+                                <li class="true break">Logo on our merchandise</li>
+
+                                <li class="true">Run a tech-talk</li>
+                                <li class="true break">Run an event</li>
+
+                                <li class="true">Advertising for your events</li>
+                                <li class="true">Sponsored job postings</li>
+                                <li class="true">Regular dialogue with committee</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#contact" class="sponsor-cta btn dark">Contact us for pricing</a>
                 </div>
             </div>
-        </div>
-    </section>
+
+            <div class="section">
+                <h3 class="heading">Give a tech-talk</h3>
+                <div class="grid-container">
+                    <div class="text">
+                        <p>
+                            You send the presenter, we organise venue, tech setup, and advertising. We usually expect an
+                            audience of around 30 to 50 people (variable depending on the availability and interest of students).
+                            Past talks have covered topics such as high-performance computing, JVM internals, formal hardware
+                            verification and banking security.
+                        </p>
+                    </div>
+                    <div class="image">
+                        <img src="/assets/images/core/sponsorship/tech-talk.png" alt="A picture of a tech-talk we've hosted in the past" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
   </main>
 
   {% include sponsors.html %}

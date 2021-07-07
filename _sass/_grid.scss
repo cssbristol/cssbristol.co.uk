@@ -92,6 +92,9 @@ $container-breakpoint-xl: 100em;
 .container {
   @include container();
 }
+.container-padding {
+  @include container-padding();
+}
 
 @mixin center-children-vertically() {
   display: flex;
