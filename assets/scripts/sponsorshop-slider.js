@@ -55,13 +55,13 @@ class Swipeable {
     fireEvent() {
         const dx = this.x1-this.x0;
 
-        let event;
-        if(dx > 0)
+        let event = null;
+        if(dx > 50)
             event = this.rightSwipe;
-        else if(dx < 0)
+        else if(dx < -50)
             event = this.leftSwipe;
 
-        if(dx > 50)
+        if(event)
             this.elem.dispatchEvent(event);
     }
 
