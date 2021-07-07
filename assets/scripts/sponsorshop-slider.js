@@ -33,6 +33,47 @@ class Slider {
     }
 }
 
+class Swipeable {
+    constructor(elem) {
+        this.elem = elem;
+        this.x0 = 0;
+        this.x1 = 0;
+        this.leftSwipe = new CustomEvent("swipe", {
+            detail: {
+                direction: "left",
+            }
+        });
+        this.rightSwipe = new CustomEvent("swipe", {
+            detail: {
+                direction: "right",
+            }
+        });
+        elem.addEventListener("touchstart", this.handleTouchStart.bind(this));
+        elem.addEventListener("touchend", this.handleTouchEnd.bind(this));
+    }
+
+    fireEvent() {
+        const dx = this.x1-this.x0;
+
+        let event;
+        if(dx > 0)
+            event = this.rightSwipe;
+        else if(dx < 0)
+            event = this.leftSwipe;
+
+        this.elem.dispatchEvent(event);
+    }
+
+    handleTouchStart(e) {
+        this.x0 = e.touches[0].clientX;
+    }
+
+    handleTouchEnd(e) {
+        this.x0 = e.changedTouches[0].clientX;
+        this.fireEvent();
+    }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)"),
         sliders = document.querySelectorAll(".slider");
@@ -40,6 +81,8 @@ document.addEventListener("DOMContentLoaded", () => {
    sliders.forEach((elem, key) => {
        let slider = new Slider(elem);
        let autoscroll = null;
+       new Swipeable(elem);
+
 
        // Start scrolling every 7s if prefers reduced motion flag isn't set
        if(!reduceMotion || !reduceMotion.matches) {
@@ -48,19 +91,30 @@ document.addEventListener("DOMContentLoaded", () => {
            }, 7000);
        }
 
-       // Control buttons
-       elem.querySelector(".controls .next").addEventListener("click", () => {
+       const cancelAutoscroll = () => {
            if(autoscroll != null) {
                window.clearInterval(autoscroll);
                autoscroll = null;
            }
+       }
+
+       // Swipe detection
+       elem.addEventListener("swipe", (e) => {
+           cancelAutoscroll();
+           if(e.detail.direction === "left") {
+               slider.next();
+           } else {
+               slider.prev();
+           }
+       });
+
+       // Control buttons
+       elem.querySelector(".controls .next").addEventListener("click", () => {
+           cancelAutoscroll();
            slider.next()
        });
        elem.querySelector(".controls .back").addEventListener("click", () => {
-           if(autoscroll != null) {
-               window.clearInterval(autoscroll);
-               autoscroll = null;
-           }
+           cancelAutoscroll();
            slider.prev()
        });
 
