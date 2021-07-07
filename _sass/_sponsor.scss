@@ -476,11 +476,13 @@ $dark-purple: #220021;
     }
     @mixin left-col {
         @include pl-0;
-        @include pr-0($container-breakpoint-md);
+        @include pr-0;
+        @include pr-auto($container-breakpoint-md);
     }
     @mixin right-col {
         @include pr-0;
-        @include pr-0($container-breakpoint-md);
+        @include pl-0;
+        @include pl-auto($container-breakpoint-md);
     }
     .left-col {
         @include left-col;
