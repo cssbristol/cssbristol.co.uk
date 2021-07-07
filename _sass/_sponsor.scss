@@ -37,6 +37,9 @@ $dark-purple: #220021;
     strong {
         font-weight: bold;
     }
+    p {
+        margin: 0.5em auto 1.5em
+    }
 
     a.btn {
         font-weight: 800;
@@ -286,13 +289,13 @@ $dark-purple: #220021;
 
     #get-involved {
         .grid-container {
-            .text {
+            .left-col {
                 @include cols(12);
                 @include cols(6, $container-breakpoint-md);
                 @include pr-0($container-breakpoint-md);
                 @include pl-0();
             }
-            .image {
+            .right-col {
                 @include cols(12);
                 @include cols(6, $container-breakpoint-md);
                 @include pl-auto();
@@ -302,7 +305,15 @@ $dark-purple: #220021;
                     height: auto;
                 }
             }
-
+        }
+        .events {
+            h4 {
+                text-transform: uppercase;
+            }
+            h5 {
+                font-weight: 700;
+                margin: 1.5em auto 0;
+            }
         }
     }
 
