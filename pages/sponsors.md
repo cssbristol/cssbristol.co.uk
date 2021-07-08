@@ -23,64 +23,64 @@ past-sponsors:
   - number: 1
     content: 
     - name: Bloomberg
-      logo: /assets/images/core/sponsorship/sponsor-logos/bloomberg.svg
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/bloomberg.svg
       url: "https://www.bloomberg.com/europe"
     - name: Optiver
-      logo: /assets/images/core/sponsorship/sponsor-logos/optiver.svg
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/optiver.svg
       url: "https://optiver.com/"
     - name: Visa
-      logo: /assets/images/core/sponsorship/sponsor-logos/visa.svg
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/visa.svg
       url: "https://visa.co.uk/"
     - name: TPP
-      logo: /assets/images/core/sponsorship/sponsor-logos/tpp.svg
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/tpp.svg
       url: "https://tpp-careers.com/"
     - name: Microsoft
-      logo: /assets/images/core/sponsorship/sponsor-logos/microsoft.svg
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/microsoft.svg
       url: "https://microsoft.com/"
     - name: Dyson
-      logo: /assets/images/core/sponsorship/sponsor-logos/dyson.svg
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/dyson.svg
       url: "https://www.dyson.co.uk/en"
       
   - number: 2
     content:
     - name: BAE Systems
-      logo: /assets/images/core/sponsorship/sponsor-logos/bae.svg
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/bae.svg
       url: "https://www.baesystems.com/en/home"
     - name: Boeing
-      logo: /assets/images/core/sponsorship/sponsor-logos/boeing.svg
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/boeing.svg
       url: "https://www.boeing.com/"
     - name: Just Eat
-      logo: /assets/images/core/sponsorship/sponsor-logos/just-eat.svg
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/just-eat.svg
       url: "https://www.just-eat.co.uk/"
     - name: Morgan Stanley
-      logo: /assets/images/core/sponsorship/sponsor-logos/morgan-stanley.svg
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/morgan-stanley.svg
       url: https://www.morganstanley.com/
     - name: ARM
-      logo: /assets/images/core/sponsorship/sponsor-logos/arm.svg
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/arm.svg
       url: "https://www.arm.com/"
     - name: Graphcore
-      logo: /assets/images/core/sponsorship/sponsor-logos/graphcore.svg
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/graphcore.svg
       url: "https://www.graphcore.ai/"
 
   - number: 3
     content:
     - name: NVIDIA
-      logo: /assets/images/core/sponsorship/sponsor-logos/nvidia.svg
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/nvidia.svg
       url: "https://www.nvidia.com/en-gb/"
     - name: PWC
-      logo: /assets/images/core/sponsorship/sponsor-logos/pwc.svg
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/pwc.svg
       url: "https://www.pwc.co.uk/"
     - name: Amazon
-      logo: /assets/images/core/sponsorship/sponsor-logos/amazon.svg
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/amazon.svg
       url: "https://www.amazon.co.uk/"
     - name: Deloitte
-      logo: /assets/images/core/sponsorship/sponsor-logos/deloitte.svg
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/deloitte.svg
       url: "https://www2.deloitte.com/uk/en.html"
     - name: Oracle
-      logo: /assets/images/core/sponsorship/sponsor-logos/oracle.svg
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/oracle.svg
       url: "https://www.oracle.com/index.html"
     - name: Lloyds Banking Group
-      logo: /assets/images/core/sponsorship/sponsor-logos/lloyds-banking.svg
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/lloyds-banking.svg
       url: "https://www.lloydsbankinggroup.com/"
 
 long-intro:
@@ -91,7 +91,7 @@ long-intro:
 
 talks:
   title: Give a tech-talk
-  image: /assets/images/core/sponsorship/tech-talk.png
+  image: /assets/images/contrib/sponsorship-page/tech-talk.png
   image-alt: A picture of a tech-talk we've hosted in the past
   text: "You send the presenter, we organise venue, tech setup, and advertising. We usually expect an audience of around
     30 to 50 people (variable depending on the availability and interest of students). Past talks have covered topics
@@ -103,6 +103,6 @@ events:
 outreach: 
   title: Outreach
   link: #"
-  image: "/assets/images/core/sponsorship/digimakers.jpg"
+  image: "/assets/images/contrib/sponsorship-page/digimakers.jpg"
   image-alt: "A picture of a DigiMakers outreach event we've helped with."
 ---
