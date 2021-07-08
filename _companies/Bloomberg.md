@@ -1,6 +1,6 @@
 ---
 name: Bloomberg
-logo: bloomberg.png
+logo: bloomberg.svg
 link: https://www.bloomberg.com
 sponsor:
   - start: 2017-09-01 01:00:00

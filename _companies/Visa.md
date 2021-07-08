@@ -1,6 +1,6 @@
 ---
 name: VISA
-logo: visa.webp
+logo: visa.svg
 link: https://visa.co.uk
 sponsor:
   - start: 2019-09-01 01:00:00
