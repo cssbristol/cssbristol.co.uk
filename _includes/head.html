@@ -21,41 +21,9 @@
 
   <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous"></script>
 
-  <script type="text/javascript">
-    window.addEventListener('DOMContentLoaded', () => {
-      document.querySelectorAll(".noscript").forEach(elem => {
-        elem.classList.remove("noscript");
-      });
+  <!-- Script for randomly choosing header background -->
+  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
 
-      const bg = document.querySelector('#page-header--random-bg .bg > div');
-      let images = [
-        'header-bg-01', 'header-bg-02', 'header-bg-03', 'header-bg-04',
-        'header-bg-01', 'header-bg-02', 'header-bg-03', 'header-bg-04',
-        'header-bg-01', 'header-bg-02', 'header-bg-03', 'header-bg-04',
-        'header-bg-01', 'header-bg-02', 'header-bg-03', 'header-bg-04',
-        'header-bg-01', 'header-bg-02', 'header-bg-03', 'header-bg-04',
-        'header-bg-01', 'header-bg-02', 'header-bg-03', 'header-bg-04',
-        'header-bg-01', 'header-bg-02', 'header-bg-03', 'header-bg-04',
-        'header-bg-01', 'header-bg-02', 'header-bg-03', 'header-bg-04',
-        'header-bg-01', 'header-bg-02', 'header-bg-03', 'header-bg-04',
-        'header-bg-01', 'header-bg-02', 'header-bg-03', 'header-bg-04',
-        'header-bg-01', 'header-bg-02', 'header-bg-03', 'header-bg-04',
-        'header-bg-01', 'header-bg-02', 'header-bg-03', 'header-bg-04',
-        'header-bg-05'
-      ];
-      const chosenImage = images[Math.floor(Math.random() * images.length)];
-
-      // Image 5 is special case--don't blur and don't use smaller version
-      let isImg5 = (chosenImage === "header-bg-05");
-
-      let filename;
-      if(isImg5) filename = "header-bg-05.jpg";
-      else filename = `${chosenImage}_70000.jpg`
-
-      bg.style.backgroundImage = `url(/assets/images/core/${filename})`;
-      if(!isImg5) bg.classList.add("blur");
-    });
-  </script>
-
-  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script><!-- End Cloudflare Web Analytics -->
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script><!-- End Cloudflare Web Analytics -->
 </head>
