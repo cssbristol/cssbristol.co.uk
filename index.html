@@ -16,7 +16,7 @@ hero:
 </div>
 -->
 
-<div class="page-section">
+<div class="page-section home">
   {% assign latest = site.events | where_exp: "event", "event.date_end >=
   site.time" | where_exp: "event", "event.cancelled != true" | limit: 3 %} {%
   unless latest == empty %}
