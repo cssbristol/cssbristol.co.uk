@@ -14,7 +14,8 @@ hero:
     >Fresher events & advice</a
   >
 </div>
---!>
+-->
+
 <div class="page-section">
   {% assign latest = site.events | where_exp: "event", "event.date_end >=
   site.time" | where_exp: "event", "event.cancelled != true" | limit: 3 %} {%
