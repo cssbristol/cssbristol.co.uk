@@ -233,7 +233,7 @@ $dark-purple: #220021;
                 overflow: hidden;
                 scroll-behavior: smooth;
                 @include cols(10);
-                @include cols(6, $container-breakpoint-md);
+                @include cols(8, $container-breakpoint-md);
                 @include pl-0();
                 @include pr-0();
 
@@ -252,17 +252,17 @@ $dark-purple: #220021;
                             @include cols(4, $container-breakpoint-md);
                             margin: $spacer/2 0;
                             width: 100%;
-                            max-width: 10em;
                             height: 3em;
-
+                            
                             &[data-tooltip]::after {
                                 top: 0;
                                 transform: translate(-50%, -20%) scale(1);
                             }
-
+                            
                             img {
                                 width: 100%;
                                 height: 100%;
+                                max-width: 10em;
                                 object-fit: contain;
                                 object-position: center;
                             }
