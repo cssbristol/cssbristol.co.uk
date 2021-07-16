@@ -117,7 +117,7 @@ $dark-purple: #220021;
 
         .page-title {
             @include cols(6, $container-breakpoint-md);
-            @include cols(5, $container-breakpoint-lg);
+            // @include cols(5, $container-breakpoint-lg);
             font-size: 3em;
             background: linear-gradient(to left, $dark-pink, lighten($dark-purple, 10%));
             background-clip: text;
@@ -132,7 +132,7 @@ $dark-purple: #220021;
         }
         .intro-text {
             @include cols(6, $container-breakpoint-md);
-            @include offset-cols(1, $container-breakpoint-lg);
+            // @include offset-cols(1, $container-breakpoint-lg);
             @include pl-0();
             @include pl-auto($container-breakpoint-lg);
             @include pr-0();
@@ -360,12 +360,8 @@ $dark-purple: #220021;
         background-position: right bottom;
 
         .wrapper {
-            margin: 0 auto;
-            @include cols(12);
-            @include cols(10, $container-breakpoint-md);
-            @include cols(8, $container-breakpoint-lg);
-            @include cols(7, $container-breakpoint-xl);
-            padding: 1em 0;
+            padding-top: 1em;
+            padding-bottom: 1em;
             border-top: 1px solid $darkgray;
 
             .heading {

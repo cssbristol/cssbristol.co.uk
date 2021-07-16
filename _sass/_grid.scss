@@ -2,10 +2,6 @@
 
 $spacer: 2rem;
 $grid-cols: 12;
-$container-width-xs: 90vw;
-$container-width-md: 80vw;
-$container-width-lg: 70vw;
-$container-width-xl: 65vw;
 $container-breakpoint-md: $on-palm;
 $container-breakpoint-lg: $on-laptop;
 $container-breakpoint-xl: 100em;
@@ -52,48 +48,14 @@ $container-breakpoint-xl: 100em;
   @return unquote("calc(#{$cols} * 100% / #{$totalCols})");
 }
 
-@mixin container {
-  width: $container-width-xs;
-  margin: 0 auto;
-
-  @media screen and (min-width: 60rem) {
-    width: $container-width-md;
-  }
-
-  @media screen and (min-width: 90rem) {
-    width: $container-width-lg;
-  }
-
-  @media screen and (min-width: 100rem) {
-    width: $container-width-xl;
-  }
-}
-
-@mixin container-padding {
-  padding-left: (100 - $container-width-xs)/2;
-  padding-right: (100 - $container-width-xs)/2;
-
-  @media screen and (min-width: 60rem) {
-    padding-left: (100 - $container-width-md)/2;
-    padding-right: (100 - $container-width-md)/2;
-  }
-
-  @media screen and (min-width: 90rem) {
-    padding-left: (100 - $container-width-lg)/2;
-    padding-right: (100 - $container-width-lg)/2;
-  }
-
-  @media screen and (min-width: 100rem) {
-    padding-left: (100 - $container-width-xl)/2;
-    padding-right: (100 - $container-width-xl)/2;
-  }
-}
-
 .container {
-  @include container();
+  box-sizing: border-box;
+  padding: 0 2em;
+  max-width: $content-width-wide;
+  margin: 0 auto;
 }
-.container-padding {
-  @include container-padding();
+.container.narrow {
+  max-width: $content-width-wide*0.65;
 }
 
 @mixin center-children-vertically() {
