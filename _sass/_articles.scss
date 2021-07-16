@@ -4,6 +4,10 @@
   text-align: left;
   overflow: hidden;
 
+  &.wide {
+    max-width: $content-width-wide;
+  }
+
   a {
     color: $blue;
     font-weight: 700;
