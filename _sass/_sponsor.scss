@@ -43,7 +43,7 @@ $dark-purple: #220021;
 
     .btn {
         font-weight: 800;
-        margin: 1em 0;
+        margin: 0.25em 0;
         border: 4px solid  $dark-pink;
         font-size: 1em;
         letter-spacing: 0;
@@ -140,6 +140,7 @@ $dark-purple: #220021;
                 margin: 0 auto 1em;
             }
             .link-list {
+                margin-top: 1em;
                 .btn:first-child {
                     margin-right: 1em;
                 }
@@ -335,6 +336,12 @@ $dark-purple: #220021;
                 @include pl-0();
                 @include pl-auto($container-breakpoint-md);
                 @include pr-0();
+                margin-top: 1.5em;
+
+                @media screen and (min-width: $container-breakpoint-md) {
+                    margin-top: 0;
+                }
+
                 img {
                     width: 100%;
                     height: auto;
@@ -359,10 +366,18 @@ $dark-purple: #220021;
         background-size: contain;
         background-position: right bottom;
 
+        @media screen and (max-width: $container-breakpoint-md) {
+            margin-top: 6em;
+        }
+
+
         .wrapper {
             padding-top: 1em;
             padding-bottom: 1em;
             border-top: 1px solid $darkgray;
+            @media screen and (max-width: $container-breakpoint-md) {
+                border: none;
+            }
 
             .heading {
                 text-align: center;
@@ -393,11 +408,14 @@ $dark-purple: #220021;
 
         .standard, .premium {
             border-radius: 0.5rem;
-            padding: 1em 4em 3em;
             background-repeat: no-repeat;
             background-position: bottom right;
             background-size: contain;
             box-shadow: -1em 1em 2em rgba(0, 0, 0, 0.02), 1em -1em 2em rgb(255, 255, 255);
+            padding: 1em 4em 3em;
+            @media screen and (max-width: $container-breakpoint-md) {
+                padding: 1em 2em 3em;
+            }    
 
             h4 {
                 text-align: center;
