@@ -8,9 +8,6 @@ show-in-nav: true
 
 intro:
   title: We connect top students with innovative brands.
-  text: "Students can be a difficult demographic to advertise to, and that’s where CSS comes in. As a student-run
-    society, we are uniquely poised to advertise your company’s internships and graduate schemes to our membership of
-    nearly a thousand students from one of the world’s top 50 universities."
   buttons:
     - text: Get involved
       theme: dark
@@ -93,16 +90,10 @@ talks:
   title: Give a tech-talk
   image: /assets/images/contrib/sponsorship-page/tech-talk.png
   image-alt: A picture of a tech-talk we've hosted in the past
-  text: "You send the presenter, we organise venue, tech setup, and advertising. We usually expect an audience of around
-    30 to 50 people (variable depending on the availability and interest of students). Past talks have covered topics
-    such as high-performance computing, JVM internals, formal hardware verification and banking security."
-
-events:
-  title: Run an event
 
 outreach: 
   title: Outreach
-  link: #"
+  link: "#"
   image: "/assets/images/contrib/sponsorship-page/digimakers.jpg"
   image-alt: "A picture of a DigiMakers outreach event we've helped with."
 ---

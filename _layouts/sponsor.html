@@ -9,7 +9,11 @@ layout: bare
         <div class="intro">
             <h1 class="page-title">{{ page.intro.title }}</h1>
             <div class="intro-text">
-                {{ page.intro.text }}
+                <p>
+                    Students can be a difficult demographic to advertise to, and that’s where CSS comes in. As a student-run
+                    society, we are uniquely poised to advertise your company’s internships and graduate schemes to our membership of
+                    nearly a thousand students from one of the world’s top 50 universities.
+                </p>
                 <div class="link-list">
                     {% for btn in page.intro.buttons %}
                     <a class="btn {{ btn.theme }}" href="{{ btn.location }}">{{ btn.text }}</a>
@@ -79,7 +83,9 @@ layout: bare
                 <h3 class="heading">{{ page.talks.title }}</h3>
                 <div class="grid-container">
                     <div class="left-col">
-                        {{ page.talks.text }}
+                        <p>You send the presenter, we organise venue, tech setup, and advertising. We usually expect an audience of around
+                            30 to 50 people (variable depending on the availability and interest of students). Past talks have covered topics
+                            such as high-performance computing, JVM internals, formal hardware verification and banking security.</p>
                     </div>
                     <div class="right-col">
                         <img src="{{ page.talks.image }}" alt="{{ page.talks.image-alt }}" width="500" height="300" />
