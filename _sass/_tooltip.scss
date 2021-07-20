@@ -12,7 +12,8 @@
   transform: translate(-50%, -50%) scale(0);
   transition: opacity ease 0.2s, visibility ease 0.2s, transform ease 0.2s;
   opacity: 0;
-  font-family: "Fira Sans";
+  font-family: $bodyfont;
+  font-weight: 700;
   font-size: 0.75rem;
   z-index: 9999999;
   line-height: 1rem;

@@ -1,0 +1,123 @@
+// This is only currently used for sponsorship page, but
+// might be useful for the rest of the site as well
+
+/* Usage: 
+===========================================================================
+<div class="row">
+  <div class="col"></div>
+  <div class="col"></div>
+  <div class="col"></div>
+</div>
+
+.row {
+  @include grid-container;
+}
+.col {
+  @include cols(12); // 12 columns on smallest screen sizes
+  @include cols(6, $breakpoint-md); // 6 columns from $breakpoint-md upwards
+  @include cols(3, $breakpoint-lg); // 3 columns from $breakpoint-lg upwards
+  ...
+  (you get the point)
+}
+ */
+
+$spacer: 2rem; // Space between cols
+$grid-cols: 12; // Total no. columns
+$container-breakpoint-md: $on-palm;
+$container-breakpoint-lg: $on-laptop;
+$container-breakpoint-xl: 100em;
+
+
+// Container to place columns in
+@mixin grid-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+// Helper method - not meant to be used outside of this file.
+@function custom-cols-width($cols, $totalCols) {
+  @return unquote("calc(#{$cols} * 100% / #{$totalCols})");
+}
+
+// If you want a custom number of total columns for one section
+@mixin cols-custom($cols, $totalCols, $breakpoint:0) {
+  @media screen and (min-width: #{$breakpoint}) {
+    width: custom-cols-width($cols, $totalCols);
+    padding-left: $spacer/2;
+    padding-right: $spacer/2;
+  }
+}
+
+// Helper method - not meant to be used outside of this file.
+@function cols-width($colspan) {
+  @return custom-cols-width($colspan, $grid-cols);
+}
+
+// Make element occupy $cols coumns on screens $breakpoint and bigger.
+@mixin cols($cols, $breakpoint:0) {
+  @media screen and (min-width: #{$breakpoint}) {
+    @include cols-custom($cols, $grid-cols, $breakpoint)
+  }
+}
+
+// Push elements to the right by $cols columbs on screens $breakpoint and bigger.
+@mixin offset-cols($cols, $breakpoint:0) {
+  @media screen and (min-width: #{$breakpoint}) {
+    margin-left: cols-width($cols);
+  }
+}
+
+// Pull elements to the left by $cols columbs on screens $breakpoint and bigger.
+@mixin pull-cols($cols, $breakpoint:0) {
+  @media screen and (min-width: #{$breakpoint}) {
+    margin-left: unquote("calc(-1 * #{$cols} * 100% / #{$grid-cols})");
+  }
+}
+
+// Use on container to center children vertically
+@mixin center-children-vertically() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+// Set left padding to 0 at $breakpoint and up
+@mixin pl-0($breakpoint:0) {
+  @media screen and (min-width: #{$breakpoint}) {
+    padding-left: 0;
+  }
+}
+
+// Set right padding to 0 at $breakpoint and up
+@mixin pr-0($breakpoint:0) {
+  @media screen and (min-width: #{$breakpoint}) {
+    padding-right: 0;
+  }
+}
+
+// Set left padding to the correct amount for this grid at $breakpoint and up
+@mixin pl-auto($breakpoint:0) {
+  @media screen and (min-width: #{$breakpoint}) {
+    padding-left: $spacer/2;
+  }
+}
+
+// Set right padding to the correct amount for this grid at $breakpoint and up
+@mixin pr-auto($breakpoint:0) {
+  @media screen and (min-width: #{$breakpoint}) {
+    padding-right: $spacer/2;
+  }
+}
+
+// Pre-made classes for easier use
+// $content-width-wide defined in main.scss
+.container {
+  box-sizing: border-box;
+  padding: 0 2em;
+  max-width: $content-width-wide;
+  margin: 0 auto;
+}
+.container.narrow {
+  max-width: $content-width-wide*0.65;
+}

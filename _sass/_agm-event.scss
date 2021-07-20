@@ -133,6 +133,9 @@ body.agm-event {
   }
 
 
+  h1 {
+    text-transform: none;
+  }
   h1, h2, h3, h4, h5, h6 {
     /* Note: this is only on the agm page */
     --font-weight: 400;
@@ -143,7 +146,7 @@ body.agm-event {
     line-height: 1.1;
     color: var(--col-primary);
     border-bottom: 2px solid;
-    margin-bottom: 0.25em;
+    margin: 0em auto 0.25em;
   }
 
   h1, .h1 {

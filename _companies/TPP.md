@@ -1,6 +1,6 @@
 ---
 name: TPP
-logo: tpp.png
+logo: tpp.svg
 link: https://tpp-careers.com
 sponsor:
   - start: 2019-09-01 01:00:00

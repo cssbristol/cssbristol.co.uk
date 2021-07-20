@@ -1,15 +1,16 @@
 @charset "utf-8";
 
 // Width of the content area
-$content-width: 1000px;
+$content-width: 900px;
+$content-width-wide: 1000px;
 $on-palm: 900px;
 $on-laptop: 1000px;
 
 // Fonts
-$headfont: "Fira Sans", sans-serif;
-$bodyfont: "Oxygen", sans-serif;
-$thinfont: "Oxygen Light", sans-serif;
-$monospacefont: "Oxygen Mono", monospace;
+$headfont: "Open Sans", sans-serif;
+$bodyfont: "Open Sans", sans-serif;
+$thinfont: "Open Sans", sans-serif;
+$monospacefont: "JetBrains Mono", monospace;
 
 // Colours
 $light-grey: #f0f0f0;
@@ -21,7 +22,7 @@ $white: #ffffff;
 $purple: #9b59b6;
 $green: #2ecc71;
 $red: #e74c3c;
-$blue: #3498db;
+$blue: darken(#3498db, 20);
 $orange: #ea5d00;
 $turquoise: #1abc9c;
 $yellow: #f39c12;
@@ -45,6 +46,10 @@ $salmon-light: #fa9ba1;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 
+// Todo: only used for sponsorship page
+@import "grid";
+
+@import "accessibility";
 @import "events";
 @import "meyer-reset";
 @import "blocks";

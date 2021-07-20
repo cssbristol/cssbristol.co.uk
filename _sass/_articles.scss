@@ -4,9 +4,13 @@
   text-align: left;
   overflow: hidden;
 
+  &.wide {
+    max-width: $content-width-wide;
+  }
+
   a {
     color: $blue;
-    font-weight: 500;
+    font-weight: 700;
     border-bottom: 2px solid transparent;
     text-decoration: none;
     transition: border-bottom .2s;
@@ -60,7 +64,7 @@
   }
 
   strong {
-    font-weight: 500;
+    font-weight: 700;
   }
 
   em {

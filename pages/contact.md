@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-wide
 title: Contact
 permalink: /contact/
 show-in-nav: true

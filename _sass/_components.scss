@@ -30,6 +30,7 @@
       transition:
         transform ease 200ms,
         color ease 200ms;
+        font-weight: 400;
 
       &:hover {
         transform: scale(1.25);

@@ -2,15 +2,190 @@
 layout: bare
 ---
 
-{% include header.html hero-contents=page.hero %}
+{% include header.html %}
 
-<section class="page-section sponsor">
-    <article class="article">
-      {{ content }}
-    </article>
-  </section>
+<main class="page-section sponsor">
+    <div class="container wide">
+        <div class="intro">
+            <h1 class="page-title">{{ page.intro.title }}</h1>
+            <div class="intro-text">
+                <p>
+                    Students can be a difficult demographic to advertise to, and that’s where CSS comes in. As a student-run
+                    society, we are uniquely poised to advertise your company’s internships and graduate schemes to our membership of
+                    nearly a thousand students from one of the world’s top 50 universities
+                    (<a href="https://www.topuniversities.com/university-rankings/world-university-rankings/2020" rel="noopener" target="_BLANK">QS World University Rankings 2020</a>).
+                </p>
+                <div class="link-list">
+                    {% for btn in page.intro.buttons %}
+                    <a class="btn {{ btn.theme }}" href="{{ btn.location }}">{{ btn.text }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="logo-banner">
+        <h2 class="title">We've worked with</h2>
+        <div class="container" id="logos-slider">
+            <div class="slider">
+                <div class="controls noscript">
+                    <button aria-hidden="true" class="back fas fa-chevron-left"></button>
+                    <button aria-hidden="true" class="next fas fa-chevron-right"></button>
+                </div>
+
+                <div class="slides-viewport">
+                    <div class="slides-list" style="width: calc(100% * {{ page.past-sponsors.size }})">
+                        {% for slide in page.past-sponsors %}
+                        <div class="slide">
+                            {% for brand in slide.content %}
+                            <dib class="brand" data-tooltip="{{ brand.name }}">
+                                <img src="{{ brand.logo }}" alt="{{brand.name}}" />
+                            </dib>
+                            {% endfor %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="grey-bg">
+        <section id="why-css" class="container section">
+            <h2 class="heading">{{ page.long-intro.title }}</h2>
+            <div class="grid-container">
+                <div class="text">
+                    <p>
+                        All computer science students at the University of Bristol are members of CSS. This gives us
+                        <strong>over 600 undergraduates</strong>, <strong>250 postgraduates</strong>, and a large network of
+                        alumni in our <strong>2600+ member Facebook group</strong>.
+                    </p>
+
+                    <p>
+                        Sponsorship is an effective way to promote your brand and attract top talent—we ensure you are
+                        visible to students throughout the year. Many of our students go on to intern and work at
+                        companies that sponsor us.
+                    </p>
+                </div>
+
+                <div class="right-col">
+                    <!-- <blockquote>{{ page.long-intro.quote }}</blockquote>
+                    <cite>{{ page.long-intro.quote-author }}</cite> -->
+                </div>
+
+            </div>
+        </section>
+        <section id="get-involved" class="container">
+            <h2 class="screen-reader-text">Ways to get involved</h2>
+            <div class="section">
+                <h3 class="heading">Year-long sponsorship</h3>
+                {% include sponsor-plans.html contact-link="#contact" %}
+            </div>
+
+            <div class="section">
+                <h3 class="heading">{{ page.talks.title }}</h3>
+                <div class="grid-container">
+                    <div class="left-col">
+                        <p>You send the presenter, we organise venue, tech setup, and advertising. We usually expect an audience of around
+                            30 to 50 people (variable depending on the availability and interest of students). Past talks have covered topics
+                            such as high-performance computing, JVM internals, formal hardware verification and banking security.</p>
+                    </div>
+                    <div class="right-col">
+                        <img src="{{ page.talks.image }}" alt="{{ page.talks.image-alt }}" width="500" height="300" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="section events">
+                <h3 class="heading">Run an event</h3>
+                <div class="grid-container">
+                    <div class="left-col">
+                        <h4>Custom Event</h4>
+                        <p>
+                            Running a custom event is the perfect opportunity to show students interesting technical
+                            problems you work on, what it’s like to work at your company, and what you’re looking for in
+                            new engineers.
+                        </p>
+                        <p>
+                            We help our partners run social events and programming contests, such as game jams, data science
+                            challenges, capture the flags, and more. These are popular and attract 50 to 100 students.
+                        </p>
+                    </div>
+                    <div class="right-col">
+                        <h4>Existing Events</h4>
+
+                        <p>
+                            We run a number of recurring events which are popular with students. Sponsors of these events
+                            will be involved in planning, prominently featured in all advertising, and have access to
+                            students for the duration of the event:
+                        </p>
+                        <h5>Autumn Event (November 2021):</h5>
+                        <p>The key event of our first term - e.g, a hack-night, game-jam or competition.</p>
+                        <h5>24 Hour Hackathon (February 2022):</h5>
+                        <p>The biggest event of of our calendar, a large-scale hackathon.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <h3 class="heading">{{ page.outreach.title }}</h3>
+                <div class="grid-container">
+                    <div class="left-col">
+                        <p>
+                            We are committed to making computer science at university more accessible and work in
+                            collaboration with the University to host outreach events such as insight days, summer camps,
+                            tutorials for sixth formers and school visits.
+                        </p>
+                        <p>
+                            We are eager to hold more outreach events over the next year and would love your support.
+                            If you're interested in working with us on our outreach programme, please get in touch with us
+                            by emailing <a href="mailto:outreach@cssbristol.co.uk">outreach@cssbristol.co.uk</a>.
+                        </p>
+
+                        {% comment %}
+                        ==================================
+                        UNCOMMENT WHEN OUTREACH PLAN ADDED
+                        ==================================
+                        <p>
+                            You can find more information about our outreach programmes on our outreach page. Please
+                            get in touch if you'd like to support or work with us with outreach.
+                        </p>
+                        <a class="btn light slide" href="#">View outreach plan <i class="fas fa-arrow-right"></i></a>
+                        {% endcomment %}
+                    </div>
+                    <div class="right-col">
+                        <img src="{{ page.outreach.image }}" alt="{{ page.outreach.image-alt }}"  width="500" height="500"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section contact" id="contact">
+            <div class="container narrow wrapper">
+                <h2 class="heading">Get in touch with us</h2>
+                <p>If you'd like to work with us, please get in touch with us by emailing
+                    <a href="mailto:president@cssbristol.co.uk">president@cssbristol.co.uk</a> or
+                    <a href="mailto:vice-president@cssbristol.co.uk">vice-president@cssbristol.co.uk</a>.
+                </p>
+
+
+                {% comment %}
+                ================================================
+                UNCOMMENT THIS WHEN BACK-END FORM HANDLING ADDED
+                remember to also uncomment horse background
+                ================================================
+                <p>Drop us a note by filling in the form below. Alternatively, you can send an email to
+                    <a href="mailto:president@cssbristol.co.uk">president@cssbristol.co.uk</a> or
+                    <a href="mailto:vice-president@cssbristol.co.uk">vice-president@cssbristol.co.uk</a>.
+                </p>
+
+                <p>Thank you for your interest!</p>
+                {% include contact-form.html %}
+                {% endcomment %}
+            </div>
+        </section>
+    </div>
+  </main>
 
   {% include sponsors.html %}
-
+  <script src="/assets/scripts/sponsorshop-slider.js"></script>
     {% include footer.html %}
   

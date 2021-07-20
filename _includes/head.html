@@ -1,14 +1,23 @@
 <head>
   <meta charset=utf-8>
-  <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   {% include favicon-links.html %}
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% include social_meta.html %}
-  <title>{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 300 }}{% else %}{{ site.description }}{% endif %}">
+
+  {% include social_meta.html %}
+
+  <title>{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}</title>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
+  <script src="/assets/scripts/monospace-fonts.js" defer></script>
 
   <link rel="stylesheet" href="{{ "/assets/css/site.css" | prepend: site.baseurl }}" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
@@ -20,28 +29,19 @@
     <link type="application/atom+xml" rel="alternate" href="{{ layout.feed | absolute_url }}" title="{{ page.title }}" />
   {% endif %}
 
-  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous"></script>
+  <!-- Prefetch background images so they load faster next time page loads -->
+  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-05.jpg">
 
-  <script type="text/javascript">
-    window.addEventListener('DOMContentLoaded', () => {
-      var images = [
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-05.png'
-      ];
-      document.getElementById('page-header--random-bg').style = "background-image: url('/assets/images/core/" + images[Math.floor(Math.random() * images.length)] + "')";
-    });
-  </script>
-
-  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script><!-- End Cloudflare Web Analytics -->
+  <!-- Script for FontAwesome icons -->
+  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
+  
+  <!-- Script for randomly choosing header background -->
+  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
+  
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
 </head>

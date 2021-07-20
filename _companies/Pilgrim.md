@@ -1,6 +1,6 @@
 ---
 name: Pilgrim Brewery
-logo: pilgrim.png
+logo: pilgrim.jpg
 link: https://pilgrim.co.uk
 sponsor:
   - start: 2019-09-01 01:00:00

@@ -1,50 +1,560 @@
+/* These colours are only used on sponsorship page,
+but might be worth moving them into main.css and
+using them elsewhere too?
+ */
+
+$dark-pink: #D30055;
+$desaturated-pink: #C63B63;
+$dark-purple: #220021;
+
 .page-section.sponsor {
+    * {
+        box-sizing: border-box;
+    }
+    .grid-container {
+        @include grid-container;
+    }
+    ::selection {
+        background: darken($dark-pink, 10%);
+        color: #fff;
+    }
+    h1 {
+        text-align: left;
+    }
+    h2, .heading {
+        font-size: 2em;
+        text-transform: uppercase;
+        margin: 0.5em auto;
+    }
+    strong {
+        font-weight: bold;
+    }
+    p {
+        margin: 0.5em auto 1.5em
+    }
 
-    .header {
-        display: flex;
-        align-items: center;
+    .btn {
+        font-weight: 800;
+        margin: 0.25em 0;
+        border: 4px solid  $dark-pink;
+        font-size: 1em;
+        letter-spacing: 0;
+        padding: 0.5em 1em;
 
-        h1 {
-            margin: auto;
+        &.light {
+            background-color: #fff;
+            color: $dark-pink;
+        }
+        &.dark {
+            background-color: $dark-pink;
+            color: #fff;
+
         }
 
-        img {
-            height: 3em; 
-            vertical-align:middle;
-            margin-left: 8px;
+        &:hover, &:focus {
+            background-color: $dark-purple;
+            border-color: $dark-purple;
+            color: #fff;
+        }
+        &:focus {
+            transform: scale(0.8);
+            outline: 2px solid $dark-pink;
+        }
+
+
+        &.slide {
+            z-index: 1;
+            position: relative;
+
+            &::before {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                width: 0;
+                height: 100%;
+                background-color: $dark-purple;
+                transition: width .25s ease 0s;
+            }
+            &:hover::before {
+                transition: width .5s ease-in-out 0s;
+                width: 100%;
+            }
+
+            &.dark:hover:not(:focus) {
+                background-color: $dark-pink;
+            }
+            &.light:hover:not(:focus) {
+                background-color: #fff;
+            }
         }
     }
 
-    .sponsor-table {
-        width: fit-content;
-        padding: 10px;
-        border-radius: 20px;
-        align-self: center;
-
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    .grey-bg {
+        width: 100%;
+        // gradient so that margin above footer doesn't look like solid white bar
+        background: linear-gradient(to bottom, $light-grey, #fff);
     }
 
-    table {
-        th, td {
-            padding: 5px;
+    .intro {
+        @include grid-container;
+        margin: 2rem auto 6rem;
+
+        .page-title, .intro-text {
+            margin: 0;
+            @include cols(12);
         }
 
-        th {
-            font-weight: bold;
+        .page-title {
+            @include cols(6, $container-breakpoint-md);
+            // @include cols(5, $container-breakpoint-lg);
+            font-size: 3em;
+            background: linear-gradient(to left, $dark-pink, lighten($dark-purple, 10%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            @include pr-0($container-breakpoint-lg);
+            @include pl-0();
+            @media screen and (max-width: $on-palm) {
+                font-size: 2em;
+                margin-bottom: 0.5em;
+            }
+        }
+        .intro-text {
+            @include cols(6, $container-breakpoint-md);
+            // @include offset-cols(1, $container-breakpoint-lg);
+            @include pl-0();
+            @include pl-auto($container-breakpoint-lg);
+            @include pr-0();
+            p {
+                margin: 0 auto 1em;
+            }
+            .link-list {
+                margin-top: 1em;
+                .btn:first-child {
+                    margin-right: 1em;
+                }
+            }
+        }
+    }
+
+    .logo-banner {
+        background-color: $dark-purple;
+        background-image: url("/assets/images/contrib/sponsorship-page/logos-background.svg");
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: contain;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        padding: 3rem 0;
+        margin-bottom: 0;
+
+        .title {
+            font-size: 1em;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            margin: 0;
+            z-index: 1;
         }
 
-        p {
-            margin: 0px;
+
+        .slider {
+            margin-top: 1em;
+            position: relative;
+            @include grid-container;
+            justify-content: center;
+
+            .controls {
+                &.noscript {
+                    display: none;
+                }
+                position: absolute;
+                @include grid-container;
+                @include center-children-vertically;
+                width: 100%;
+                height: 100%;
+                button {
+                    position: absolute;
+                    font-size: 3em;
+                    @media screen and (max-width: $on-palm) {
+                        font-size: 1.5em;
+                    }
+                    background: transparent;
+                    border: none;
+                    color: #fff;
+                    cursor: pointer;
+                    transition: text-shadow .5s ease-in-out 0s, color .5s ease 0s, transform .5s ease-in-out 0s;
+                    text-shadow: 0 0 0 #fff,
+                    0 0 0 #fff,
+                    0 0 0 #fff,
+                    0 0 0 #fff;
+
+                    &:nth-child(1) {
+                        left: 0;
+                    }
+                    &:nth-child(2) {
+                        right: 0;
+                    }
+
+                    &:hover,
+                    &:focus {
+                        color: $dark-purple;
+                        // Adds stroke around text
+                        text-shadow: 3px 0 0 #fff,
+                            -3px 0 0 #fff,
+                            0 3px 0 #fff,
+                            0 -3px 0 #fff;
+                    }
+                  &:focus {
+                      outline: none;
+                      transform: scale(1.2);
+                      text-shadow: 5px 0 0 $yellow,
+                      -5px 0 0 $yellow,
+                      0 5px 0 $yellow,
+                      0 -5px 0 $yellow;
+
+                  }
+                }
+            }
+
+            .slides-viewport {
+                z-index: 1;
+                overflow: hidden;
+                scroll-behavior: smooth;
+                @include cols(10);
+                @include cols(8, $container-breakpoint-md);
+                @include pl-0();
+                @include pr-0();
+
+                .slides-list {
+                    display: flex;
+                    // TODO: Should be possible to use css transforms to slide the slider for js disabled
+
+                    .slide {
+                        width: 100%;
+                        @include grid-container;
+                        justify-content: space-between;
+                        align-content: space-between;
+
+                        .brand {
+                            @include cols(6);
+                            @include cols(4, $container-breakpoint-md);
+                            margin: $spacer/2 0;
+                            width: 100%;
+                            height: 3em;
+                            
+                            &[data-tooltip]::after {
+                                top: 0;
+                                transform: translate(-50%, -20%) scale(1);
+                            }
+                            
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                max-width: 10em;
+                                object-fit: contain;
+                                object-position: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section {
+        margin-bottom: 6rem;
+    }
+
+    #why-css {
+        margin-top: 6rem;
+
+        .grid-container {
+            .text {
+                @include cols(12);
+                @include cols(6, $container-breakpoint-md);
+                @include pr-0($container-breakpoint-md);
+                @include pl-0();
+            }
+
+            .right-col {
+                @include cols(12);
+                @include cols(5, $container-breakpoint-md);
+                @include offset-cols(1, $container-breakpoint-md);
+                @include pl-0($container-breakpoint-md);
+                @include pr-0();
+
+                blockquote {
+                    position: relative;
+                    color: inherit;
+                    font-weight: bold;
+                    margin: 0;
+                    border: 0;
+                    padding: 0;
+
+                    &::before {
+                        content: '“';
+                        font-size: 2em;
+                        font-weight: 400;
+                        position: absolute;
+                        top: -0.5em;
+                        left: -0.5em;
+                    }
+                }
+
+                cite {
+                    display: block;
+                    margin-top: 0.5em;
+                }
+            }
+        }
+    }
+
+    #get-involved {
+        .grid-container {
+            .left-col {
+                @include cols(12);
+                @include cols(6, $container-breakpoint-md);
+                @include pr-0($container-breakpoint-md);
+                @include pl-0();
+            }
+            .right-col {
+                @include cols(12);
+                @include cols(6, $container-breakpoint-md);
+                @include pl-0();
+                @include pl-auto($container-breakpoint-md);
+                @include pr-0();
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+        .events {
+            h4 {
+                text-transform: uppercase;
+            }
+            h5 {
+                font-weight: 700;
+                margin: 1.5em auto 0;
+            }
+        }
+    }
+
+    .contact {
+        margin-top: 12em;
+        // background-image: url('/assets/images/contrib/sponsorship-page/horse.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right bottom;
+
+        @media screen and (max-width: $container-breakpoint-md) {
+            margin-top: 6em;
         }
 
-        .category {
-            font-weight: bold;
-            writing-mode: vertical-rl;
-            text-align: center;
+
+        .wrapper {
+            padding-top: 1em;
+            padding-bottom: 1em;
+            border-top: 1px solid $darkgray;
+            @media screen and (max-width: $container-breakpoint-md) {
+                border: none;
+            }
+
+            .heading {
+                text-align: center;
+            }
+        }
+    }
+}
+
+.sponsorship-cards {
+    margin-top: 2em;
+    @include grid-container;
+    justify-content: center;
+
+    .card {
+        width: 100%;
+        box-sizing: border-box;
+        @include cols(6, $container-breakpoint-md);
+        @media screen and (max-width: $container-breakpoint-md) {
+            margin-bottom: 2em;
         }
 
-        .break {
-            border-top: 1px solid black;
+        &:first-of-type {
+            @include pl-0();
         }
+        &:last-of-type {
+            @include pr-0();
+        }
+
+        .standard, .premium {
+            border-radius: 0.5rem;
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            background-size: contain;
+            box-shadow: -1em 1em 2em rgba(0, 0, 0, 0.02), 1em -1em 2em rgb(255, 255, 255);
+            padding: 1em 4em 3em;
+            @media screen and (max-width: $container-breakpoint-md) {
+                padding: 1em 2em 3em;
+            }    
+
+            h4 {
+                text-align: center;
+                font-size: 1.25em;
+                margin: 1em auto 1.5em;
+                font-weight: 700;
+            }
+
+            .benefits {
+                .break {
+                    margin-bottom: 1em;
+                }
+
+                .true::before, .false::before {
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                    display: inline-block;
+                    margin-right: 1.5ex;
+                    width: 1em;
+                    content: '\f00c';
+                }
+
+                .false {
+                    color: lighten($dark-text, 40%);
+                  &::before {
+                      content: '\f00d';
+                  }
+                }
+
+            }
+        }
+
+        .standard {
+            background-color: #fff;
+            background-image: url('/assets/images/contrib/sponsorship-page/standard-background.svg');
+
+            .true::before {
+                color: #39A100;
+            }
+            .false::before {
+                color: #C63B3D;
+            }
+        }
+
+
+        .premium {
+            background-color: $desaturated-pink;
+            background-image: url('/assets/images/contrib/sponsorship-page/premium-background.svg');
+            color: #fff;
+
+            h4 {
+                .fas {
+                    border-radius: 50%;
+                    background: #fff;
+                    color: $desaturated-pink;
+                    vertical-align: middle;
+                    font-size: 0.6em;
+                    padding: 0.2em;
+                    margin-left: 0.5em;
+                }
+            }
+
+        }
+    }
+}
+.sponsorship-cards .sponsor-cta,
+.page-section.sponsor .sponsorship-cards a.btn.sponsor-cta {
+    margin: 3em auto 0;
+}
+
+.contact-form {
+    label {
+        display: block;
+        font-weight: 700;
+        font-size: 1em;
+        margin: 0 auto 0.5em;
+    }
+    input, select, textarea {
+        display: block;
+        box-sizing: border-box;
+        font-size: 1em;
+        font-family: $bodyfont;
+        padding: 0.25em 0.5em;
+        width: 100%;
+        background: #fff;
+        border: 1px solid $darkgray;
+        border-radius: 5px;
+        &:focus {
+            border: 3px solid $dark-pink;
+            box-shadow: 0 0 0.5em darken($dark-pink, 30%);
+            outline: none;
+        }
+    }
+    input[type="submit"] {
+        cursor: pointer;
+        text-align: center;
+        max-width: 14ch;
+    }
+
+    .row {
+        @include grid-container;
+        margin: $spacer/2 auto;
+    }
+
+    .half-cols {
+        @include cols(12);
+        @include cols(6, $container-breakpoint-md);
+    }
+    @mixin left-col {
+        @include pl-0;
+        @include pr-0;
+        @include pr-auto($container-breakpoint-md);
+    }
+    @mixin right-col {
+        @include pr-0;
+        @include pl-0;
+        @include pl-auto($container-breakpoint-md);
+    }
+    .left-col {
+        @include left-col;
+    }
+    .right-col {
+        @include right-col;
+    }
+    #company-group {
+        @include cols(12);
+        @include cols(7, $container-breakpoint-md);
+        @include left-col;
+    }
+    #budget-group {
+        @include cols(12);
+        @include cols(5, $container-breakpoint-md);
+        @include right-col;
+    }
+    #email-group {
+        @include cols(12);
+        @include cols(6, $container-breakpoint-md);
+        @include left-col;
+    }
+    #tel-group {
+        @include cols(12);
+        @include cols(6, $container-breakpoint-md);
+        @include right-col;
+    }
+    #interest-group {
+        @include cols(12);
+        @include cols(6, $container-breakpoint-md);
+        @include cols(5, $container-breakpoint-xl);
+        @include left-col;
+    }
+    #message-group {
+        @include cols(12);
+        @include left-col;
     }
 }

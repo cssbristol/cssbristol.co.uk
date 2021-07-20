@@ -1,6 +1,11 @@
+.page-section h1.sponsors-title {
+  font-size: 1rem;
+  margin: 1em auto 3em;
+}
+
 .sponsors {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
   grid-gap: 2rem 4rem;
   justify-items: stretch;
   align-items: center;
@@ -9,12 +14,26 @@
   @include media-query($on-palm) {
     width: 50vw;
   }
+
+  .company-logo img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .sponsors__action_item {
+  /*
+  This stuff was only needed to centre the button
   display: flex;
   flex-direction: column;
   align-items: center;
+  */
+
+  margin: 3em auto 1em;
+
+  a {
+    color: $medium-text;
+  }
 }
 
 .ideas {
