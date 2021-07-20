@@ -281,7 +281,7 @@ $dark-purple: #220021;
                 @include pl-0();
             }
 
-            aside {
+            .right-col {
                 @include cols(12);
                 @include cols(5, $container-breakpoint-md);
                 @include offset-cols(1, $container-breakpoint-md);
