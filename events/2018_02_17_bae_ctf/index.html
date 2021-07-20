@@ -3,7 +3,6 @@
 
   <head>
   <meta charset=utf-8>
-  <meta name="description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
@@ -27,6 +26,9 @@
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="///// SEE SIGNUP DETAILS BELOW! /////">
+
   <meta property="og:type" content="website">
 <meta property="og:title" content="BAE CTF - CSS Bristol">
 <meta property="og:description" content="///// SEE SIGNUP DETAILS BELOW! /////">
@@ -40,52 +42,53 @@
 <meta name="twitter:site" content="@cssbristol">
  
 
-  <title>BAE CTF - CSS Bristol</title>
-  <meta name="description" content="///// SEE SIGNUP DETAILS BELOW! /////">
 
+  <title>BAE CTF - CSS Bristol</title>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
+  <script src="/assets/scripts/monospace-fonts.js" defer></script>
 
   <link rel="stylesheet" href="/assets/css/site.css" />
-  <link rel="canonical" href="http://www.cssbristol.co.uk/events/2018_02_17_bae_ctf/" />
+  <link rel="canonical" href="https://www.cssbristol.co.uk/events/2018_02_17_bae_ctf/" />
   
 
   
-    <link type="application/atom+xml" rel="alternate" href="http://www.cssbristol.co.uk/feed/events.xml" title="BAE CTF" />
+    <link type="application/atom+xml" rel="alternate" href="https://www.cssbristol.co.uk/feed/events.xml" title="BAE CTF" />
   
 
-  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous"></script>
+  <!-- Prefetch background images so they load faster next time page loads -->
+  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-05.jpg">
 
-  <script type="text/javascript">
-    window.addEventListener('DOMContentLoaded', () => {
-      var images = [
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-01.jpg', 'header-bg-02.jpg', 'header-bg-03.jpg', 'header-bg-04.jpg',
-        'header-bg-05.png'
-      ];
-      document.getElementById('page-header--random-bg').style = "background-image: url('/assets/images/core/" + images[Math.floor(Math.random() * images.length)] + "')";
-    });
-  </script>
-
-  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script><!-- End Cloudflare Web Analytics -->
+  <!-- Script for FontAwesome icons -->
+  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
+  
+  <!-- Script for randomly choosing header background -->
+  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
+  
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
 </head>
 
 
   <body>
 
-    <header class="page-header" id="page-header--random-bg">
+    <header class="page-header noscript" id="page-header--random-bg">
+  <div class="bg">
+    <div></div>
+  </div>
   <div class="navigation-items">
     <div itemscope itemtype="http://schema.org/Organization">
       <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
-      <a aria-label="Home" href="http://www.cssbristol.co.uk" class="page-header__logo" itemprop="url">
+      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
         <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
       </a>
     </div>
@@ -224,6 +227,8 @@
           
         
           
+          <li><a href="/pages/sponsors">Sponsor us</a></li>
+          
         
           
         
@@ -243,6 +248,8 @@
         
           
           <li><a href="/wellbeing/">Wellbeing</a></li>
+          
+        
           
         
           
@@ -362,12 +369,15 @@
 <a
   href="https://www.baesystems.com/en/cybersecurity/home"
   target="_blank"
+  rel="noopener sponsored"
   data-tooltip="BAE Systems Applied Intelligence"
   class="company-logo"
 >
   <img
     src="/assets/images/contrib/companies/BAE_Logo.svg"
     alt="BAE Systems Applied Intelligence"
+    width="130"
+    height="170"
   />
 </a>
 
@@ -382,7 +392,7 @@
 
 
     <section class="page-section sponsorsec">
-    <h1><a href="/pages/sponsors">Our lovely sponsors</a></h1>
+    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
     <div class="sponsors">
       
         
@@ -405,12 +415,15 @@
 <a
   href="https://www.bloomberg.com"
   target="_blank"
+  rel="noopener sponsored"
   data-tooltip="Bloomberg"
   class="company-logo"
 >
   <img
-    src="/assets/images/contrib/companies/bloomberg.png"
+    src="/assets/images/contrib/companies/bloomberg.svg"
     alt="Bloomberg"
+    width="130"
+    height="170"
   />
 </a>
 
@@ -469,12 +482,15 @@
 <a
   href="https://optiver.com"
   target="_blank"
+  rel="noopener sponsored"
   data-tooltip="Optiver"
   class="company-logo"
 >
   <img
     src="/assets/images/contrib/companies/optiver.svg"
     alt="Optiver"
+    width="130"
+    height="170"
   />
 </a>
 
@@ -491,12 +507,15 @@
 <a
   href="https://pilgrim.co.uk"
   target="_blank"
+  rel="noopener sponsored"
   data-tooltip="Pilgrim Brewery"
   class="company-logo"
 >
   <img
-    src="/assets/images/contrib/companies/pilgrim.png"
+    src="/assets/images/contrib/companies/pilgrim.jpg"
     alt="Pilgrim Brewery"
+    width="130"
+    height="170"
   />
 </a>
 
@@ -511,12 +530,15 @@
 <a
   href="https://tpp-careers.com"
   target="_blank"
+  rel="noopener sponsored"
   data-tooltip="TPP"
   class="company-logo"
 >
   <img
-    src="/assets/images/contrib/companies/tpp.png"
+    src="/assets/images/contrib/companies/tpp.svg"
     alt="TPP"
+    width="130"
+    height="170"
   />
 </a>
 
@@ -533,12 +555,15 @@
 <a
   href="https://visa.co.uk"
   target="_blank"
+  rel="noopener sponsored"
   data-tooltip="VISA"
   class="company-logo"
 >
   <img
-    src="/assets/images/contrib/companies/visa.webp"
+    src="/assets/images/contrib/companies/visa.svg"
     alt="VISA"
+    width="130"
+    height="170"
   />
 </a>
 
@@ -581,8 +606,7 @@
       
     </div>
     <div class="sponsors__action_item">
-      <h2>This could be you!</h2>
-      <p><a class="btn" href="/pages/sponsors">Get in touch</a></p>
+      <a href="/pages/sponsors">Learn more about working with us.</a>
     </div>
 </section>
 
@@ -732,6 +756,10 @@
       
     
       
+      <li>
+        <a class="page-link" href="/pages/sponsors">Sponsor us</a>
+      </li>
+      
     
       
     
@@ -755,6 +783,8 @@
       <li>
         <a class="page-link" href="/wellbeing/">Wellbeing</a>
       </li>
+      
+    
       
     
       
