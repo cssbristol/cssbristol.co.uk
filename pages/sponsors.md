@@ -12,9 +12,11 @@ intro:
     - text: Get involved
       theme: dark
       location: "#get-involved"
+      file: false
     - text: Download brochure
       theme: light
-      location: "#"
+      location: "/assets/files/sponsorship-brochure-2022.pdf"
+      file: true
 
 past-sponsors:
   - number: 1
