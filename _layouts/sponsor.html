@@ -127,10 +127,21 @@ layout: bare
                             tutorials for sixth formers and school visits.
                         </p>
                         <p>
+                            We are eager to hold more outreach events over the next year and would love your support.
+                            If you're interested in working with us on our outreach programme, please get in touch with us
+                            by emailing <a href="mailto:outreach@cssbristol.co.uk">outreach@cssbristol.co.uk</a>.
+                        </p>
+
+                        {% comment %}
+                        ==================================
+                        UNCOMMENT WHEN OUTREACH PLAN ADDED
+                        ==================================
+                        <p>
                             You can find more information about our outreach programmes on our outreach page. Please
                             get in touch if you'd like to support or work with us with outreach.
                         </p>
                         <a class="btn light slide" href="#">View outreach plan <i class="fas fa-arrow-right"></i></a>
+                        {% endcomment %}
                     </div>
                     <div class="right-col">
                         <img src="{{ page.outreach.image }}" alt="{{ page.outreach.image-alt }}"  width="500" height="500"/>
@@ -141,12 +152,24 @@ layout: bare
         <section class="section contact" id="contact">
             <div class="container narrow wrapper">
                 <h2 class="heading">Get in touch with us</h2>
+                <p>If you'd like to work with us, please get in touch with us by emailing
+                    <a href="mailto:president@cssbristol.co.uk">president@cssbristol.co.uk</a> or
+                    <a href="mailto:vice-president@cssbristol.co.uk">vice-president@cssbristol.co.uk</a>.
+                </p>
+
+
+                {% comment %}
+                ================================================
+                UNCOMMENT THIS WHEN BACK-END FORM HANDLING ADDED
+                ================================================
                 <p>Drop us a note by filling in the form below. Alternatively, you can send an email to
                     <a href="mailto:president@cssbristol.co.uk">president@cssbristol.co.uk</a> or
-                    <a href="mailto:vice-president@cssbristol.co.uk.">vice-president@cssbristol.co.uk.</a></p>
+                    <a href="mailto:vice-president@cssbristol.co.uk">vice-president@cssbristol.co.uk</a>.
+                </p>
 
                 <p>Thank you for your interest!</p>
                 {% include contact-form.html %}
+                {% endcomment %}
             </div>
         </section>
     </div>
