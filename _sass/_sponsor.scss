@@ -534,12 +534,12 @@ $dark-purple: #220021;
     }
     #company-group {
         @include cols(12);
-        @include cols(8, $container-breakpoint-md);
+        @include cols(7, $container-breakpoint-md);
         @include left-col;
     }
     #budget-group {
         @include cols(12);
-        @include cols(4, $container-breakpoint-md);
+        @include cols(5, $container-breakpoint-md);
         @include right-col;
     }
     #email-group {
@@ -555,7 +555,7 @@ $dark-purple: #220021;
     #interest-group {
         @include cols(12);
         @include cols(6, $container-breakpoint-md);
-        @include cols(4, $container-breakpoint-xl);
+        @include cols(5, $container-breakpoint-xl);
         @include left-col;
     }
     #message-group {
