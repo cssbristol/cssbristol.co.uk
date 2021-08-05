@@ -44,9 +44,9 @@
 
 .event-page {
   display: grid;
-  grid-template-columns: 3fr minmax(300px, 1fr);
+  grid-template-columns: 3fr minmax(25rem, 1fr);
   grid-template-rows: 1fr;
-  grid-gap: 4rem;
+  grid-gap: 2rem;
   align-items: start;
 
   @include media-query($on-palm) {
