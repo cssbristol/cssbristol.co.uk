@@ -8,6 +8,10 @@
     max-width: $content-width-wide;
   }
 
+  &.extrawide {
+    max-width: 1.2*$content-width-wide;
+  }
+
   a {
     color: $blue;
     font-weight: 700;
