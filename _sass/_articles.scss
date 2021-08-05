@@ -65,11 +65,13 @@
   code {
     font-family: $monospacefont;
     min-width: 0;
-    display: inline-block;
-    background-color: #efefef;
-    border: 1px solid #ddd;
-    border-radius: 1px;
-    padding: 0 3px;
+    &:not(pre > code) {
+      display: inline-block;
+      background-color: #eef;
+      border: 1px solid darken(#eef, 5%);
+      border-radius: 1px;
+      padding: 0 3px;
+    }
   }
 
   strong {
