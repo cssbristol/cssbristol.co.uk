@@ -8,6 +8,10 @@
     max-width: $content-width-wide;
   }
 
+  &.extrawide {
+    max-width: 1.2*$content-width-wide;
+  }
+
   a {
     color: $blue;
     font-weight: 700;
@@ -61,6 +65,13 @@
   code {
     font-family: $monospacefont;
     min-width: 0;
+    &:not(pre > code) {
+      display: inline-block;
+      background-color: #eef;
+      border: 1px solid darken(#eef, 5%);
+      border-radius: 1px;
+      padding: 0 3px;
+    }
   }
 
   strong {
