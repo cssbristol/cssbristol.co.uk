@@ -60,6 +60,8 @@
       right: 1rem;
       img {
         height: 3rem;
+        object-fit: contain;
+        object-position: bottom right;
       }
     }
 
@@ -149,5 +151,7 @@
 .job-details {
   .company-logo img {
     height: 1.5rem;
+    object-fit: contain;
+    object-position: left center;
   }
 }
