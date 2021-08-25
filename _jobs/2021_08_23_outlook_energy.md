@@ -28,7 +28,6 @@ apply:
 Applications for this position are rolling, so you should apply as soon as possible.
 
 ## About The Company
-Outlook Energy is a leading trading house with offices in Bristol, UK and Melbourne, Australia.
 As the world decarbonises its energy production, the ability to act on short timescales has never been more important than it is now. At Outlook Energy, we specialise in proprietary and asset-backed short-term power trading. Our unique trading insight and forecasting software predicts the fundamentals which drive the market, enabling us to stay ahead of the competition. We are a dedicated team who take pride in our ability to act both fast and effectively in a dynamic energy landscape. With our emphasis on research and development, we deliver a fresh perspective on the energy market.
 
 Outlook Energy is a leading trading house with offices in Bristol, UK and in Melbourne, Australia. Established in 2016, we remain a small team of around 20 employees, but also one of the largest and most successful actors in the UK intraday energy market. 
