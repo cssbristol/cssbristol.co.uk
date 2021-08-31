@@ -1,0 +1,115 @@
+.info-card {
+  margin-top: 2em;
+  @include grid-container;
+  justify-content: center;
+
+  .card {
+      width: 100%;
+      box-sizing: border-box;
+      @include cols(6, $container-breakpoint-md);
+      @media screen and (max-width: $container-breakpoint-md) {
+          margin-bottom: 2em;
+      }
+
+      &:first-of-type {
+          @include pl-0();
+      }
+      &:last-of-type {
+          @include pr-0();
+      }
+
+      .standard, .premium {
+          border-radius: 0.5rem;
+          background-repeat: no-repeat;
+          background-position: bottom right;
+          background-size: contain;
+          box-shadow: -1em 1em 2em rgba(0, 0, 0, 0.02), 1em -1em 2em rgb(255, 255, 255);
+          padding: 1em 4em 3em;
+          @media screen and (max-width: $container-breakpoint-md) {
+              padding: 1em 2em 3em;
+          }    
+
+          h4 {
+              text-align: center;
+              font-size: 1.25em;
+              margin: 1em auto 1.5em;
+              font-weight: 700;
+          }
+
+          .benefits {
+              .break {
+                  margin-bottom: 1em;
+              }
+
+              .true::before, .false::before {
+                  font-family: "Font Awesome 5 Free";
+                  font-weight: 900;
+                  display: inline-block;
+                  margin-left: -1.5ex;
+                  width: 2em;
+                  content: '\f00c';
+              }
+
+              .false {
+                  color: lighten($dark-text, 40%);
+                &::before {
+                    content: '\f00d';
+                }
+              }
+
+          }
+      }
+
+      .standard {
+          background-color: #fff;
+          background-image: url('/assets/images/contrib/sponsorship-page/standard-background.svg');
+
+          .true::before {
+              color: #39A100;
+          }
+          .false::before {
+              color: #C63B3D;
+          }
+      }
+
+
+      .premium {
+          background-color: $desaturated-pink;
+          background-image: url('/assets/images/contrib/sponsorship-page/premium-background.svg');
+          color: #fff;
+
+          h4 {
+              .fas {
+                  border-radius: 50%;
+                  background: #fff;
+                  color: $desaturated-pink;
+                  vertical-align: middle;
+                  font-size: 0.6em;
+                  padding: 0.2em;
+                  margin-left: 0.5em;
+              }
+          }
+
+          a {
+            color: $dark-purple;
+          }
+
+      }
+  }
+
+  .side-note {
+    width: 100%;
+      box-sizing: border-box;
+      @include cols(6, $container-breakpoint-md);
+      @media screen and (max-width: $container-breakpoint-md) {
+          margin-bottom: 2em;
+      }
+
+      &:first-of-type {
+          @include pl-0();
+      }
+      &:last-of-type {
+          @include pr-0();
+      }
+  }
+}

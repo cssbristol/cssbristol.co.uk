@@ -1,12 +1,3 @@
-/* These colours are only used on sponsorship page,
-but might be worth moving them into main.css and
-using them elsewhere too?
- */
-
-$dark-pink: #D30055;
-$desaturated-pink: #C63B63;
-$dark-purple: #220021;
-
 .page-section.sponsor {
     * {
         box-sizing: border-box;
@@ -90,12 +81,6 @@ $dark-purple: #220021;
                 background-color: #fff;
             }
         }
-    }
-
-    .grey-bg {
-        width: 100%;
-        // gradient so that margin above footer doesn't look like solid white bar
-        background: linear-gradient(to bottom, $light-grey, #fff);
     }
 
     .intro {

@@ -145,3 +145,59 @@
     }
   }
 }
+
+.intro {
+  @include grid-container;
+  margin: 2rem auto 6rem;
+
+  .page-title, .intro-text {
+      margin: 0;
+      @include cols(12);
+  }
+
+  .page-title {
+      @include cols(6, $container-breakpoint-md);
+      // @include cols(5, $container-breakpoint-lg);
+      font-size: 3em;
+      background: linear-gradient(to left, $dark-pink, lighten($dark-purple, 10%));
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      @include pr-0($container-breakpoint-lg);
+      @include pl-0();
+      @media screen and (max-width: $on-palm) {
+          font-size: 2em;
+          margin-bottom: 0.5em;
+      }
+  }
+  .intro-text {
+      @include cols(6, $container-breakpoint-md);
+      // @include offset-cols(1, $container-breakpoint-lg);
+      @include pl-0();
+      @include pl-auto($container-breakpoint-lg);
+      @include pr-0();
+      p {
+          margin: 0 auto 1em;
+      }
+      .link-list {
+          margin-top: 1em;
+          .btn:first-child {
+              margin-right: 1em;
+          }
+      }
+  }
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.grey-bg {
+  width: 100%;
+  // gradient so that margin above footer doesn't look like solid white bar
+  background: linear-gradient(to bottom, $light-grey, #fff);
+}
+
+.no-margin {
+  margin-top: 0;
+}
