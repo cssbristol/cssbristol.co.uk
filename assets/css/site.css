@@ -365,6 +365,42 @@ blockquote .citation:before { content: '-'; margin-right: 0.5rem; }
 
 .btn--dark:hover, a.btn--dark:hover { border: 1px solid #000000; color: #000000; background: rgba(0, 0, 0, 0.1); }
 
+.intro { display: flex; flex-direction: row; flex-wrap: wrap; margin: 2rem auto 6rem; }
+
+.intro .page-title, .intro .intro-text { margin: 0; }
+
+@media screen and (min-width: 0) and (min-width: 0) { .intro .page-title, .intro .intro-text { width: calc(12 * 100% / 12); padding-left: 1rem; padding-right: 1rem; } }
+
+.intro .page-title { font-size: 3em; background: linear-gradient(to left, #D30055, #550053); background-clip: text; -webkit-background-clip: text; color: transparent; }
+
+@media screen and (min-width: 900px) and (min-width: 900px) { .intro .page-title { width: calc(6 * 100% / 12); padding-left: 1rem; padding-right: 1rem; } }
+
+@media screen and (min-width: 1000px) { .intro .page-title { padding-right: 0; } }
+
+@media screen and (min-width: 0) { .intro .page-title { padding-left: 0; } }
+
+@media screen and (max-width: 900px) { .intro .page-title { font-size: 2em; margin-bottom: 0.5em; } }
+
+@media screen and (min-width: 900px) and (min-width: 900px) { .intro .intro-text { width: calc(6 * 100% / 12); padding-left: 1rem; padding-right: 1rem; } }
+
+@media screen and (min-width: 0) { .intro .intro-text { padding-left: 0; } }
+
+@media screen and (min-width: 1000px) { .intro .intro-text { padding-left: 1rem; } }
+
+@media screen and (min-width: 0) { .intro .intro-text { padding-right: 0; } }
+
+.intro .intro-text p { margin: 0 auto 1em; }
+
+.intro .intro-text .link-list { margin-top: 1em; }
+
+.intro .intro-text .link-list .btn:first-child { margin-right: 1em; }
+
+.bold-text { font-weight: bold; }
+
+.grey-bg { width: 100%; background: linear-gradient(to bottom, #f0f0f0, #fff); }
+
+.no-margin { margin-top: 0; }
+
 .page-section.home { box-sizing: border-box; padding: 0 1em; }
 
 .featured-items { max-width: 1000px; width: 95%; display: flex; flex-direction: column; }
@@ -600,7 +636,7 @@ body { margin: 0; }
 
 .social-links { display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; align-content: stretch; max-width: 900px; width: 100%; padding-bottom: 2.5rem; }
 
-.social-links .social-links__item { width: 8rem; height: 8rem; margin: 10px 15px; display: inline-flex; align-items: center; justify-content: center; transition: all ease-in-out 0.15s; position: relative; color: #ffffff; text-decoration: none; /*&:after { content: attr(title); position: absolute; bottom: 0px; left: 50%; transform: translateX(-50%) translateY(125%); background: $darkgray; padding: 0.25em 1em; border-radius: 5px; font-size: 0.75rem; opacity: 0; transition: all ease-out 0.3s 0.15s; z-index: -18; } &:hover:after { opacity: 1; }*/ }
+.social-links .social-links__item { width: 8rem; height: 8rem; margin: 10px 15px; display: inline-flex; align-items: center; justify-content: center; transition: all ease-in-out 0.15s; border-radius: 0.5rem; position: relative; color: #ffffff; text-decoration: none; /*&:after { content: attr(title); position: absolute; bottom: 0px; left: 50%; transform: translateX(-50%) translateY(125%); background: $darkgray; padding: 0.25em 1em; border-radius: 5px; font-size: 0.75rem; opacity: 0; transition: all ease-out 0.3s 0.15s; z-index: -18; } &:hover:after { opacity: 1; }*/ }
 
 .social-links .social-links__item--facebook { background: #3b5998; }
 
@@ -629,6 +665,8 @@ body { margin: 0; }
 .social-links .social-links__item i { font-size: 3rem; }
 
 .social-links .social-links__item img { height: 40px; width: 40px; }
+
+.links-holder { border-radius: 1rem; background-repeat: no-repeat; background-position: bottom right; background-size: contain; box-shadow: -1em 1em 2em rgba(0, 0, 0, 0.02), 1em -1em 2em white; background-color: #fff; background-image: url("/assets/images/contrib/sponsorship-page/standard-background.svg"); }
 
 [data-tooltip] { position: relative; }
 
@@ -712,7 +750,6 @@ body.agm-event .agm-btn:after { content: ''; background-color: #ffffff; position
 
 body.agm-event .agm-btn:hover:after { transform: scaleX(1); }
 
-/* These colours are only used on sponsorship page, but might be worth moving them into main.css and using them elsewhere too? */
 .page-section.sponsor * { box-sizing: border-box; }
 
 .page-section.sponsor .grid-container { display: flex; flex-direction: row; flex-wrap: wrap; }
@@ -746,8 +783,6 @@ body.agm-event .agm-btn:hover:after { transform: scaleX(1); }
 .page-section.sponsor .btn.slide.dark:hover:not(:focus) { background-color: #D30055; }
 
 .page-section.sponsor .btn.slide.light:hover:not(:focus) { background-color: #fff; }
-
-.page-section.sponsor .grey-bg { width: 100%; background: linear-gradient(to bottom, #f0f0f0, #fff); }
 
 .page-section.sponsor .intro { display: flex; flex-direction: row; flex-wrap: wrap; margin: 2rem auto 6rem; }
 
@@ -1010,5 +1045,53 @@ body.agm-event .agm-btn:hover:after { transform: scaleX(1); }
 @media screen and (min-width: 0) { .contact-form #message-group { padding-right: 0; } }
 
 @media screen and (min-width: 900px) { .contact-form #message-group { padding-right: 1rem; } }
+
+.info-card { margin-top: 2em; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; }
+
+.info-card .card { width: 100%; box-sizing: border-box; }
+
+@media screen and (min-width: 900px) and (min-width: 900px) { .info-card .card { width: calc(6 * 100% / 12); padding-left: 1rem; padding-right: 1rem; } }
+
+@media screen and (max-width: 900px) { .info-card .card { margin-bottom: 2em; } }
+
+@media screen and (min-width: 0) { .info-card .card:first-of-type { padding-left: 0; } }
+
+@media screen and (min-width: 0) { .info-card .card:last-of-type { padding-right: 0; } }
+
+.info-card .card .standard, .info-card .card .premium { border-radius: 0.5rem; background-repeat: no-repeat; background-position: bottom right; background-size: contain; box-shadow: -1em 1em 2em rgba(0, 0, 0, 0.02), 1em -1em 2em white; padding: 1em 4em 3em; }
+
+@media screen and (max-width: 900px) { .info-card .card .standard, .info-card .card .premium { padding: 1em 2em 3em; } }
+
+.info-card .card .standard h4, .info-card .card .premium h4 { text-align: center; font-size: 1.25em; margin: 1em auto 1.5em; font-weight: 700; }
+
+.info-card .card .standard .benefits .break, .info-card .card .premium .benefits .break { margin-bottom: 1em; }
+
+.info-card .card .standard .benefits .true::before, .info-card .card .standard .benefits .false::before, .info-card .card .premium .benefits .true::before, .info-card .card .premium .benefits .false::before { font-family: "Font Awesome 5 Free"; font-weight: 900; display: inline-block; margin-left: -1.5ex; width: 2em; content: '\f00c'; }
+
+.info-card .card .standard .benefits .false, .info-card .card .premium .benefits .false { color: #999999; }
+
+.info-card .card .standard .benefits .false::before, .info-card .card .premium .benefits .false::before { content: '\f00d'; }
+
+.info-card .card .standard { background-color: #fff; background-image: url("/assets/images/contrib/sponsorship-page/standard-background.svg"); }
+
+.info-card .card .standard .true::before { color: #39A100; }
+
+.info-card .card .standard .false::before { color: #C63B3D; }
+
+.info-card .card .premium { background-color: #C63B63; background-image: url("/assets/images/contrib/sponsorship-page/premium-background.svg"); color: #fff; }
+
+.info-card .card .premium h4 .fas { border-radius: 50%; background: #fff; color: #C63B63; vertical-align: middle; font-size: 0.6em; padding: 0.2em; margin-left: 0.5em; }
+
+.info-card .card .premium a { color: #220021; }
+
+.info-card .side-note { width: 100%; box-sizing: border-box; }
+
+@media screen and (min-width: 900px) and (min-width: 900px) { .info-card .side-note { width: calc(6 * 100% / 12); padding-left: 1rem; padding-right: 1rem; } }
+
+@media screen and (max-width: 900px) { .info-card .side-note { margin-bottom: 2em; } }
+
+@media screen and (min-width: 0) { .info-card .side-note:first-of-type { padding-left: 0; } }
+
+@media screen and (min-width: 0) { .info-card .side-note:last-of-type { padding-right: 0; } }
 
 /*# sourceMappingURL=site.css.map */
