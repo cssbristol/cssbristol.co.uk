@@ -48,9 +48,8 @@ The society is run each year by an [selected committee](/contact/). Come say hi!
 ## FAQs
 
 #### 'Do I need to bring a laptop/desktop?'
-You don't need to! The Uni has plenty of high-powered workstations and laptops you can borrow if you need. We would, 
-however, recommend having your own laptop. It doesn't have to be powerful, in fact we would recommend a small and light one.
-If you don't have one yet, I'd recommend a Chromebook and [install linux on it](https://support.google.com/chromebook/answer/9145439?hl=en-GB)
+Unfortunatly this year the University is mandating you bring your own device. It doesn't have to be powerful, in fact we would recommend a small and light one.
+Contrary to the University's advice, I'd recommend a Chromebook as they have [full linux support](https://support.google.com/chromebook/answer/9145439?hl=en-GB) 
 
 #### 'Where is [insert] lecture?'
 No one knows! Seriously, we still all get lost, just ask someone on campus or follow everyone else.
