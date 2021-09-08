@@ -125,46 +125,72 @@
 }
 
 .btn, a.btn {
-  border: 1px solid #999999;
+  border: 4px solid  $dark-pink;
   border-radius: 3px;
   color: #999;
   display: inline-block;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 2px;
+  font-size: 1em;
+  font-weight: 800;
+  letter-spacing: 0;
   line-height: 20px;
-  margin: 10px;
-  padding: 10px 20px;
+  margin: 0.25em 0;
+  padding: 0.5em 1em;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   transition: all .2s;
 
-  &:hover {
-    border: 1px solid #777777;
-    color: #555555;
+  &--light, &.light {
+    background-color: #fff;
+    color: $dark-pink;
   }
 
-  &--light {
-    border: 1px solid #ffffff;
-    color: #ffffff;
-    &:hover {
-      border: 1px solid #ffffff;
-      color: #ffffff;
-      background: rgba(255,255,255,.1);
-    }
+  &--dark, &.dark {
+    background-color: $dark-pink;
+    color: #fff;
   }
 
-  &--dark {
-    border: 1px solid #555555;
-    color: $dark-text;
-    &:hover {
-      border: 1px solid #000000;
-      color: #000000;
-      background: rgba(0,0,0,.1);
-    }
+  &:hover, &:focus {
+    background-color: $dark-purple;
+    border-color: $dark-purple;
+    color: #fff;
   }
+
+  &:focus {
+    transform: scale(0.8);
+    outline: 2px solid $dark-pink;
+  }
+
+  &.slide {
+    z-index: 1;
+    position: relative;
+
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 0;
+        height: 100%;
+        background-color: $dark-purple;
+        transition: width .25s ease 0s;
+    }
+    &:hover::before {
+        transition: width .5s ease-in-out 0s;
+        width: 100%;
+    }
+
+    &.dark:hover:not(:focus) {
+        background-color: $dark-pink;
+    }
+    &.light:hover:not(:focus) {
+        background-color: #fff;
+    }
 }
+}
+
 
 .intro {
   @include grid-container;
@@ -176,26 +202,17 @@
   }
 
   .page-title {
-      @include cols(6, $container-breakpoint-md);
-      // @include cols(5, $container-breakpoint-lg);
       font-size: 3em;
       background: linear-gradient(to left, $dark-pink, lighten($dark-purple, 10%));
       background-clip: text;
       -webkit-background-clip: text;
       color: transparent;
-      @include pr-0($container-breakpoint-lg);
-      @include pl-0();
       @media screen and (max-width: $on-palm) {
           font-size: 2em;
           margin-bottom: 0.5em;
       }
   }
   .intro-text {
-      @include cols(6, $container-breakpoint-md);
-      // @include offset-cols(1, $container-breakpoint-lg);
-      @include pl-0();
-      @include pl-auto($container-breakpoint-lg);
-      @include pr-0();
       p {
           margin: 0 auto 1em;
       }

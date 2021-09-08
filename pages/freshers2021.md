@@ -3,13 +3,27 @@ layout: freshers
 title: Freshers
 permalink: /pages/freshers21/
 redirect_from: "/freshers"
-show-in-nav: false
+show-in-nav: true
 freshers_start: 2021-09-28 00:00:00
 freshers_end:   2021-10-11 00:00:00
 ---
 
+## Family Scheme
+You may have already been contacted about the university’s peer mentoring scheme, but CSS runs its own Family scheme which you should definitely also sign up for. You’ll be assigned a family of other first years, and two parents from one of the upper years assigned to you.
+
+Whereas the University-run peer mentoring scheme focuses on academic help, we will also host family socials to give you a chance to mingle with other CS students and make the transition to University easier.
+
+To sign up to join a family, please fill in the form below:
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScXV4sdNqXIt0oHytmKDNN79Y1MbnoSSYmKsNkC8hwDZ9GNIg/viewform?embedded=true"
+    onLoad="resizeIframe(this)"
+    width="750" height="1000"
+    style="width: 80%;height: 1000px;display: block;margin: auto;">
+    Loading...
+</iframe>
+
+{% if upcoming %}
+## Freshers Events
 <div style="display: inline-flex; flex-flow: row wrap; justify-content: space-between;">
-<!-- yeah i probs should have used a stylesheet but whatev sue me -->
 {% for event in upcoming %}
     <div style="border: 1px solid lightgray; margin: 5px; padding: 20px; flex: 0 0 30%; flex-grow: 1;">
         <a href="{{ event.fb_link }}">
@@ -17,7 +31,6 @@ freshers_end:   2021-10-11 00:00:00
         </a>
         <br>
         <h3>{{ event.title }}</h3>
-        <!-- event details -->
         <div style="display: flex; border-bottom: 1px lightgray solid; padding: 7px;">
             <div style="flex: 0 0 30%; flex-grow: 1;">
                 <i class="fas fa-calendar-day"></i>
@@ -37,11 +50,7 @@ freshers_end:   2021-10-11 00:00:00
 {% endfor %}
 </div>
 
-## Useful Information
-
-There's lots of useful information available in our Freshers' Booklet. You should be receiving a hard copy soon, but [here it is](https://drive.google.com/file/d/1zFGkKHD5yHFsKNd8VkLosrjXmNkjh7yO/view?usp=sharing) if you haven't already.
-
-The society is run each year by an [selected committee](/contact/). Come say hi! We don't bite.
+{% endif %}
 
 {% include social-links.html %}
 
@@ -75,8 +84,21 @@ the library either physically or as an E-book. And we absolutely cannot recommen
 Hard to answer, but I'd suggest around 1 per unit. It varies massively though, so I'd see how you're doing first. You can bring laptops to lectures too if you prefer that.
 We'd recommend using software like OneNote or Notion to organise your notes as it keeps them searchable and you can add relations between pages.
 
+#### 'How can we get involved in css?'
+Everyone is welcome to Join our tech-talks, socials and competitions. But if you want even more involvement, 
+why not run for our first year rep? Elections (EGM) will run sometime in November so keep an eye out for the announcement. 
+If you have any suggestions for events, we’d also love to hear them!
+
+#### 'How do you cope with stress and stay in sound mental health?'
+Everyone struggles at some point during the year, and it’s important that you don’t feel afraid to ask for help. Your tutor, and the first year senior tutor should be your first point of contact if you’re struggling--telling them earlier means that you can get help earlier. The university also offers counselling and other wellbeing services which we’ve written more about here: [https://cssbristol.co.uk/wellbeing/](https://cssbristol.co.uk/wellbeing/)
+
 #### 'Can I mine bitcoin on the supercomputer?'
 No.
 
-## Staying in the loop
-Keep an eye on this site and our social media for more events throughout the year!
+## Don't miss out
+We’ll be planning events throughout the year (with lots of free pizza), so make sure you don’t miss any events 
+by syncing your calendar with our events calendar, or subscribing to our RSS feed.
+
+<div class="link-list">
+        <a class="btn light" href="/feeds/">Sync your calendar</a>
+    </div>

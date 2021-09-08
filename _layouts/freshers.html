@@ -4,51 +4,46 @@ layout: bare
 
 {% include header.html %}
 
-<main class="page-section sponsor grey-bg no-margin">
+<main class="page-section grey-bg no-margin">
   <div class="container wide">
     <div class="intro">
-      <h1 class="page-title">Welcome to Bristol. Welcome to CSS.</h1>
-      <div class="intro-text">
-        <p style="font-size:larger;">
-          Congratulations on getting a place at the University of Bristol.
-          You'll be very busy over the next few weeks, so we've collated all the
-          important infomation here. Keep this page bookmarked, we can't wait
-          to meet you.
-        </p>
-      </div>
+      <h1 class="page-title">Welcome to Bristol. <br>Welcome to CSS.</h1>
     </div>
     <div class="info-card">
-      <div class="side-note">
+      <div class="side-note intro-text">
         <p>
-          Over the course of the year, CSS runs lots (20-30) events. These include
-          socials, hackathons, bar-crawls, tech-talks, careers events and more!
+          Congratulations on getting a place at the University of Bristol!
+          We’re Bristol’s Computer Science Society,
+          and run tonnes of fun and interesting events throughout the year,
+          ranging from tech-talks, workshops, hackathons and bar crawls.
         </p>
         <p>
-          To make sure you're infomed about these, follow our socials and add
-          our calendar (or RSS feed if your feeling old-school). Most important 
-          for you is our <span class="bold-text">Parent Program</span>, this matches you up with "parents"
-          for your first year (and beyond!) to help you settle and, mainly, to buy
-          you drinks on bar crawls. 
+          Don’t worry about joining us - as a Computer Science student,
+          you’re automatically enrolled!
         </p>
       </div>
       <div class="card">
-          <div class="premium">
-              <h4>Freshers checklist</h4>
-              <ul class="benefits">
-                  <li class="true break bold-text">Make sure your <a href="https://www.bristolsu.org.uk/groups/computer-science-society">enrolled</a> in CSS (It's Free!)</li>
-                  <li class="true">Check out CSS' 2021 Events</li>
-                  <li class="true">Sign up for our parent program</li>
-                  <li class="true">Sign up for SU <a href="https://beta.bristolsu.org.uk/welcome">Welcome week</a> events</li>
-              </ul>
-          </div>
+        <div class="premium">
+          <h4>Freshers checklist</h4>
+          <ul class="benefits">
+            <li class="true">Sign up to join a family!</li>
+            <li class="true">Sign up for SU <a href="https://beta.bristolsu.org.uk/welcome">Welcome week</a> events</li>
+            <li class="true">Sync your calendar to recieve notfications about all of our events</li>
+          </ul>
+        </div>
       </div>
 
-    <article class="">
-      {{ content }}
-    </article>
-  </div>
+      <div class="link-list">
+        <a class="btn light" href="/feeds/">Sync with CSS calendar</a>
+        <a class="btn light" href="/events/">Check out our events</a>
+      </div>
+
+      <article class="">
+        {{ content }}
+      </article>
+    </div>
 </main>
 
 {% include sponsors.html %}
 
-    {% include footer.html %}
+{% include footer.html %}
