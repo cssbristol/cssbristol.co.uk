@@ -357,17 +357,25 @@ blockquote .citation:before { content: '-'; margin-right: 0.5rem; }
 
 .idea ul.idea__statuses li.idea-status--proposed { background-color: #e5e5e5; }
 
-.btn, a.btn { border: 1px solid #999999; border-radius: 3px; color: #999; display: inline-block; font-size: 14px; font-weight: 400; letter-spacing: 2px; line-height: 20px; margin: 10px; padding: 10px 20px; text-align: center; text-decoration: none; text-transform: uppercase; transition: all .2s; }
+.btn, a.btn { border: 4px solid #D30055; border-radius: 3px; color: #999; display: inline-block; font-size: 1em; font-weight: 800; letter-spacing: 0; line-height: 20px; margin: 0.25em 0; padding: 0.5em 1em; text-align: center; text-decoration: none; text-transform: uppercase; transition: all .2s; }
 
-.btn:hover, a.btn:hover { border: 1px solid #777777; color: #555555; }
+.btn--light, .btn.light, a.btn--light, a.btn.light { background-color: #fff; color: #D30055; }
 
-.btn--light, a.btn--light { border: 1px solid #ffffff; color: #ffffff; }
+.btn--dark, .btn.dark, a.btn--dark, a.btn.dark { background-color: #D30055; color: #fff; }
 
-.btn--light:hover, a.btn--light:hover { border: 1px solid #ffffff; color: #ffffff; background: rgba(255, 255, 255, 0.1); }
+.btn:hover, .btn:focus, a.btn:hover, a.btn:focus { background-color: #220021; border-color: #220021; color: #fff; }
 
-.btn--dark, a.btn--dark { border: 1px solid #555555; color: #333333; }
+.btn:focus, a.btn:focus { transform: scale(0.8); outline: 2px solid #D30055; }
 
-.btn--dark:hover, a.btn--dark:hover { border: 1px solid #000000; color: #000000; background: rgba(0, 0, 0, 0.1); }
+.btn.slide, a.btn.slide { z-index: 1; position: relative; }
+
+.btn.slide::before, a.btn.slide::before { content: ""; display: block; position: absolute; top: 0; left: 0; z-index: -1; width: 0; height: 100%; background-color: #220021; transition: width .25s ease 0s; }
+
+.btn.slide:hover::before, a.btn.slide:hover::before { transition: width .5s ease-in-out 0s; width: 100%; }
+
+.btn.slide.dark:hover:not(:focus), a.btn.slide.dark:hover:not(:focus) { background-color: #D30055; }
+
+.btn.slide.light:hover:not(:focus), a.btn.slide.light:hover:not(:focus) { background-color: #fff; }
 
 .intro { display: flex; flex-direction: row; flex-wrap: wrap; margin: 2rem auto 6rem; }
 
@@ -377,21 +385,7 @@ blockquote .citation:before { content: '-'; margin-right: 0.5rem; }
 
 .intro .page-title { font-size: 3em; background: linear-gradient(to left, #D30055, #550053); background-clip: text; -webkit-background-clip: text; color: transparent; }
 
-@media screen and (min-width: 900px) and (min-width: 900px) { .intro .page-title { width: calc(6 * 100% / 12); padding-left: 1rem; padding-right: 1rem; } }
-
-@media screen and (min-width: 1000px) { .intro .page-title { padding-right: 0; } }
-
-@media screen and (min-width: 0) { .intro .page-title { padding-left: 0; } }
-
 @media screen and (max-width: 900px) { .intro .page-title { font-size: 2em; margin-bottom: 0.5em; } }
-
-@media screen and (min-width: 900px) and (min-width: 900px) { .intro .intro-text { width: calc(6 * 100% / 12); padding-left: 1rem; padding-right: 1rem; } }
-
-@media screen and (min-width: 0) { .intro .intro-text { padding-left: 0; } }
-
-@media screen and (min-width: 1000px) { .intro .intro-text { padding-left: 1rem; } }
-
-@media screen and (min-width: 0) { .intro .intro-text { padding-right: 0; } }
 
 .intro .intro-text p { margin: 0 auto 1em; }
 
@@ -1088,7 +1082,7 @@ body.agm-event .agm-btn:hover:after { transform: scaleX(1); }
 
 .info-card .card .premium a { color: #220021; }
 
-.info-card .side-note { width: 100%; box-sizing: border-box; }
+.info-card .side-note { width: 100%; box-sizing: border-box; font-size: larger; }
 
 @media screen and (min-width: 900px) and (min-width: 900px) { .info-card .side-note { width: calc(6 * 100% / 12); padding-left: 1rem; padding-right: 1rem; } }
 
