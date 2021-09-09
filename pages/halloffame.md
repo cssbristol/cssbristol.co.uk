@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hall of Fame
-permalink: /pages/halloffame
+permalink: /halloffame
 show-in-nav: false
 ---
 

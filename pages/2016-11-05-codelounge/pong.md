@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CodeLounge
-permalink: /pages/2016-11-05-codelounge/pong
+permalink: /2016-11-05-codelounge/pong
 ---
 
 
@@ -11,4 +11,4 @@ Below is a link to the zip file of the snake project. It contains the skeleton c
 
 [Pong in C++](https://github.com/cssbristol/codelounge-pong/archive/skeleton.zip)
 
-[Back](/pages/codelounge)
+[Back](/codelounge)

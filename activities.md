@@ -5,13 +5,13 @@ permalink: /activities/
 show-in-nav: false
 ---
 
-# [Sports](/pages/sports)
+# [Sports](/sports)
 
-[Read more](/pages/sports)
+[Read more](/sports)
 
 # **Outreach**
 
-* [CodeLounge 2016](/pages/codelounge)
+* [CodeLounge 2016](/codelounge)
 
 # Our plans, 2017-18
 

@@ -16,6 +16,7 @@
     align-items: center;
     justify-content: center;
     transition: all ease-in-out 0.15s;
+    border-radius: 0.5rem;
     position: relative;
 
     color: #ffffff;
@@ -95,5 +96,17 @@
       width: 40px;
     }
   }
+}
+
+.links-holder {
+  border-radius: 1rem;
+
+  background-repeat: no-repeat;
+            background-position: bottom right;
+            background-size: contain;
+            box-shadow: -1em 1em 2em rgba(0, 0, 0, 0.02), 1em -1em 2em rgb(255, 255, 255);
+
+            background-color: #fff;
+            background-image: url('/assets/images/contrib/sponsorship-page/standard-background.svg');
 }
 

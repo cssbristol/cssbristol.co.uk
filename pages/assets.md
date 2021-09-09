@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Assets
-permalink: /pages/assets
+permalink: /assets
 ---
 
 # CSS Branding and Assets

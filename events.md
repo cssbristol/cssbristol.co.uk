@@ -13,7 +13,7 @@ show-in-nav: true
 {% if upcoming == empty and paginator.page == 1 %}
 <h1>We're busy planning new events!</h1>
 
-<p style="text-align: center;">Maybe you'd like to give a talk or sponsor an event? Check out sponsorship opportunities <a aria-label="Sponsor us link" href="/pages/sponsors">here</a></p>
+<p style="text-align: center;">Maybe you'd like to give a talk or sponsor an event? Check out sponsorship opportunities <a aria-label="Sponsor us link" href="/sponsors">here</a></p>
 {% elsif upcoming != empty %}
 <h1>Upcoming Events</h1>
 <hr />

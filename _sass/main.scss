@@ -30,6 +30,9 @@ $darkgray: #333333;
 $gray: #666666;
 $salmon: #fa8a90;
 $salmon-light: #fa9ba1;
+$dark-pink: #D30055;
+$desaturated-pink: #C63B63;
+$dark-purple: #220021;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -74,3 +77,4 @@ $salmon-light: #fa9ba1;
 @import "pager";
 @import "agm-event";
 @import "sponsor";
+@import "freshers"

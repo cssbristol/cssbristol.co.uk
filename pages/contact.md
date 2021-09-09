@@ -13,7 +13,7 @@ For queries regarding job postings, CSS events or anything else, send an e-mail 
 
 Course directors, tutors and other key staff contacts can be found [here](http://www.bris.ac.uk/engineering/departments/computerscience/contact/).
 
-Perhaps you're looking for a [previous committee member](/pages/halloffame)?
+Perhaps you're looking for a [previous committee member](/halloffame)?
 
 {% assign committee = site.committees | sort: "year" | last %}
 # CSS Committee {{ committee.year }}

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CSS Hackathon 2018
-permalink: /pages/hackathon-2018
+permalink: /hackathon-2018
 redirect_from: "/hackathon"
 ---
 

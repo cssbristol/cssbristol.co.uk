@@ -6,23 +6,24 @@ show-in-nav: true
 ---
 
 # Table of Contents
-1. [Who is this page for?](#who-is-this-page-for)
-2. [What sort of problems does this include?](#what-sort-of-problems-does-this-include)
-  * [Stress and Mental Health](#stress-and-mental-health)
-  * [Online Discussion Spaces](#online-discussion-spaces)
-3. [What help is on offer?](#what-help-is-on-offer)
-  * [Personal Tutors](#personal-tutors)
-  * [Senior Tutors](#senior-tutoros)
-  * [Wellbeing advisers](#wellbeing-advisers)
-  * [Residential life advisors](#residential-life-advisors)
-  * [University Student Health Service](#university-student-health-service)
-  * [University Student Counselling Service](#university-student-counselling-service)
-  * [University Disability Services](#university-disability-services)
-  * [Bristol SU JustAsk](#bristol-su-justask)
-  * [Bristol Nightline](#bristol-nightline)
-  * [University Multi-faith Chaplaincy](#university-multi-faith-chaplaincy)
-  * [Sex and Consent](#sex-and-consent)
-  * [Drugs](#drugs)
+- [Table of Contents](#table-of-contents)
+- [Who is this page for?](#who-is-this-page-for)
+  - [What sort of problems does this include?](#what-sort-of-problems-does-this-include)
+  - [Stress and Mental Health](#stress-and-mental-health)
+  - [Online Discussion Spaces](#online-discussion-spaces)
+- [What help is on offer?](#what-help-is-on-offer)
+  - [Personal Tutors](#personal-tutors)
+  - [Senior Tutors](#senior-tutors)
+  - [Wellbeing advisers](#wellbeing-advisers)
+  - [Residential life advisors](#residential-life-advisors)
+  - [University Student Health Service](#university-student-health-service)
+  - [University Student Counselling Service](#university-student-counselling-service)
+  - [University Disability Services](#university-disability-services)
+  - [Bristol SU JustAsk](#bristol-su-justask)
+  - [Bristol Nightline](#bristol-nightline)
+  - [University Multi-faith Chaplaincy](#university-multi-faith-chaplaincy)
+  - [Sex and Consent](#sex-and-consent)
+  - [Drugs](#drugs)
 
 # Who is this page for?
 This page is for all University of Bristol Computer Science students, undergraduate and postgraduate alike. It also serves for students on joint honours courses like Computer Science and Electronics, Computer Science and Maths, and Computer Science with Innovation.
@@ -184,7 +185,7 @@ Please refer to them for issues relating to any of the following:
 - Stress
 - Anxiety
 
-[Nightline Homepage](https://bristolnightline.org/) · Telephone: 01179 266 266
+[Nightline Homepage](https://bristol.nightline.ac.uk/) · Telephone: 01179 266 266
 
 ## University Multi-faith Chaplaincy
 The University of Bristol Multi-faith Chaplaincy seeks to serve students and staff of all faiths and none by:

@@ -52,6 +52,6 @@ Event attendees will be entered into a random raffle to win a **£10 Just Eat** 
 
 
 Links:
-Oscar voting: [link](https://forms.office.com/pages/responsepage.aspx?id=MH_ksn3NTkql2rGM8aQVGxgrBULCX4VDq4Uout4zqzlURFNVOEVLWkY4Rjg5WUlCRlIzWUNIRVFXUCQlQCN0PWcu)
+Oscar voting: [link](https://forms.office.com/responsepage.aspx?id=MH_ksn3NTkql2rGM8aQVGxgrBULCX4VDq4Uout4zqzlURFNVOEVLWkY4Rjg5WUlCRlIzWUNIRVFXUCQlQCN0PWcu)
 
 Other categories voting: [link](https://forms.office.com/r/vGDhb9Zc4c)

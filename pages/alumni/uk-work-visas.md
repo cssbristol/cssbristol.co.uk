@@ -1,7 +1,7 @@
 ---
 layout: page
 title: UK Work Visas
-permalink: /pages/alumni/uk-work-visas
+permalink: /alumni/uk-work-visas
 show-in-nav: false
 ---
 
