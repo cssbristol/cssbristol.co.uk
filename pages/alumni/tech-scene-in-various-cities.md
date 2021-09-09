@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tech scene in various cities
-permalink: /pages/alumni/tech-scene-in-various-cities
+permalink: /alumni/tech-scene-in-various-cities
 show-in-nav: false
 ---
 

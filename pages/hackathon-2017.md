@@ -1,10 +1,10 @@
 ---
 layout: page
 title: CSS Hackathon 2017
-permalink: /pages/hackathon-2017
+permalink: /hackathon-2017
 ---
 
-[Back to Explore Week](/pages/explore-week-spring-2017)
+[Back to Explore Week](/explore-week-spring-2017)
 
 # Boeing Explore Week Hackathon 2017
 

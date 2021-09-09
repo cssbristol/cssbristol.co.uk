@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Freshers
-permalink: /pages/freshers20/
+permalink: /freshers20/
 redirect_from: "/freshers20"
 show-in-nav: false
 freshers_start: 2020-09-28 00:00:00

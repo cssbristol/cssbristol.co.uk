@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Explore Week Autumn 2017
-permalink: /pages/explore-week-autumn-2017
+permalink: /explore-week-autumn-2017
 redirect_from: "/exploreweek"
 ---
 
@@ -34,7 +34,7 @@ There will be food, drinks and prizes (of course!)
 
 <a href="https://www.facebook.com/events/479772452408106/" class="btn btn--dark">Accessibility Hack (Facebook)</a>
 <a href="https://goo.gl/forms/amhvaj5Qgsgk8KEG3" class="btn btn--dark">Sign Up Now</a>
-<a href="/pages/accessibilityhack2017" class="btn btn--dark">Find Out More</a>
+<a href="/accessibilityhack2017" class="btn btn--dark">Find Out More</a>
 
 ## **Wednesday November 15**: CodeLounge
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CodeLounge
-permalink: /pages/codelounge
+permalink: /codelounge
 ---
 
 # CodeLounge 2016
@@ -18,23 +18,23 @@ Snacks and drinks will be all around at all times but there'll be falafel coming
 
 Lastly, the point of this event is to learn together. Learning to program can be daunting but we're hoping to give you a bit more confidence to start your own projects as well as give you peace of mind in the work you've been doing thus far. Bug the helpers and work together!
 
-## [Phonebook (C)](/pages/2016-11-05-codelounge/phonebook)
+## [Phonebook (C)](/2016-11-05-codelounge/phonebook)
 A simple implementation of a phonebook in C. Good for getting to grips with structs and I/O.
 
 Difficulty: Easy
 
-## [Snake (Haskell)](/pages/2016-11-05-codelounge/snake)
+## [Snake (Haskell)](/2016-11-05-codelounge/snake)
 
 A neat version of snake in Haskell. To show that you really can do things with functional programming.
 
 Difficulty: Medium
 
-## [Pong (C++)](/pages/2016-11-05-codelounge/pong)
+## [Pong (C++)](/2016-11-05-codelounge/pong)
 
 The classic game Pong in a language that although different won't be too difficult to pick up if you fancy a challenge.
 
 Difficulty: Hard
 
-## [Arduino Projects](/pages/2016-11-05-codelounge/arduino)
+## [Arduino Projects](/2016-11-05-codelounge/arduino)
 
 Fancy getting your hands on some hardware? Make a lie detector or just get to grips with the tech on the several arduino projects we have.

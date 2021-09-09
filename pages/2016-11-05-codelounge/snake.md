@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CodeLounge
-permalink: /pages/2016-11-05-codelounge/snake
+permalink: /2016-11-05-codelounge/snake
 ---
 
 
@@ -11,4 +11,4 @@ Below is a link to the zip file of the snake project. It contains the skeleton c
 
 [Snake in Haskell](https://github.com/cssbristol/codelounge-haskell-snake/archive/skeleton.zip)
 
-[Back](/pages/codelounge)
+[Back](/codelounge)

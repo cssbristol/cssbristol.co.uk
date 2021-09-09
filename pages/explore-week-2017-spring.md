@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Explore Week Spring 2017
-permalink: /pages/explore-week-spring-2017
+permalink: /explore-week-spring-2017
 ---
 
 <center><img src="/assets/images/contrib/events/2017-02-explore-week/css-explore-week-icon.png" style="height: 100px; width: auto; margin: 0 auto;"/></center>
@@ -18,7 +18,7 @@ This year we're holding our first ever Explore Week Hackathon! It's our biggest 
 
 <a href="https://www.facebook.com/events/392877197725107/" class="btn btn--dark">Facebook Event</a>
 <a href="https://goo.gl/forms/lFDrMaW7tgRLT0ah2" class="btn btn--dark">Sign Up Now</a>
-<a href="/pages/hackathon-2017" class="btn btn--dark">Find Out More</a>
+<a href="/hackathon-2017" class="btn btn--dark">Find Out More</a>
 
 ## **Thursday March 2**: Lightning Talks
 

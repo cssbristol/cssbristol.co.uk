@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CodeLounge
-permalink: /pages/2016-11-05-codelounge/phonebook
+permalink: /2016-11-05-codelounge/phonebook
 ---
 
 
@@ -13,4 +13,4 @@ Don't be afraid to ask for help or to work in teams to get things accomplished. 
 
 [Phonebook in C](https://github.com/cssbristol/codelounge-phonebook/archive/skeleton.zip)
 
-[Back](/pages/codelounge)
+[Back](/codelounge)

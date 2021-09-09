@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Constitution
-permalink: /pages/constitution
+permalink: /constitution
 ---
 
 # The CSS Constitution

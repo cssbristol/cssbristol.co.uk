@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sports
-permalink: /pages/sports
+permalink: /sports
 ---
 # Sports
 

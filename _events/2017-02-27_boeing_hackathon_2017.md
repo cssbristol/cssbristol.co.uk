@@ -23,7 +23,7 @@ cohost:
 This year we're holding our first ever Explore Week Hackathon! **Make the most of a week free from lectures and deadlines** by entering our biggest, best Hackathon yet.
 
 <a href="https://goo.gl/forms/lFDrMaW7tgRLT0ah2" class="btn btn--dark">Sign Up Now</a>
-<a href="/pages/hackathon-2017" class="btn btn--dark">Find out more</a>
+<a href="/hackathon-2017" class="btn btn--dark">Find out more</a>
 
 ## [Sign up now!](https://goo.gl/forms/lFDrMaW7tgRLT0ah2)
 

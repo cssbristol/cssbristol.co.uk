@@ -1,7 +1,7 @@
 ---
 layout: sponsor
 title: Sponsor us
-permalink: /pages/sponsors
+permalink: /sponsors
 redirect_from: "/partnerwithus"
 excerpt: "Sponsorship is an effective way to promote your brand and attract top talent—we have over 600 undergraduates, 250 postgraduates, and a large network of alumni in our 2600+ member Facebook group to advertise your internships, grad-schemes and jobs."
 show-in-nav: true
