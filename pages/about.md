@@ -29,5 +29,5 @@ Take a look at the [minutes](https://drive.google.com/drive/folders/11IjgcZ8T9o9
 * [Computer Science Society - Bristol SU](http://www.bristolsu.org.uk/groups/computer-science-society)
 * [UoB Unix Blog](http://unix.bris.ac.uk/)
 * [CSS FB Code of Conduct](https://drive.google.com/open?id=0Bw8lYTnOhFe7ZlFGQk9DSnVoeFE)
-* [CSS Assets](/assets)
+* [CSS Assets](/assets_overview)
 * [Old CSS site](/old)
