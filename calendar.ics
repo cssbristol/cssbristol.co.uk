@@ -3130,4 +3130,19 @@ SUMMARY:Meet the Committee With Pizza
 DESCRIPTION:Freshers Event
 LOCATION:Queen's Building
 END:VEVENT
+BEGIN:VEVENT
+UID:events-20210923welcomedrinks
+ @cssbristol.co.uk
+DTSTAMP:20210923T190000Z
+DTSTART:20210923T190000Z
+DTEND:20210924T000000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021_09_23_welcome_drinks/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021_09_23_welcome_drinks.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Welcome Drinks
+DESCRIPTION:Join us at 7pm for welcome drinks at the White ...
+LOCATION:White Harte
+END:VEVENT
 END:VCALENDAR
