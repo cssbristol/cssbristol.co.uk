@@ -13,6 +13,7 @@ category:
     - Social
     - Competition
 ---
+**Freshers event**
 
 Meet other freshers and make some friends at our virtual game session!
 

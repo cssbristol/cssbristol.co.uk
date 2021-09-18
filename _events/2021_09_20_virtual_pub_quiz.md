@@ -13,6 +13,7 @@ category:
     - Social
     - Competition
 ---
+**Freshers event**
 
 Meet your fellow freshers and make some friends at our virtual pub quiz! Join us on the
 CSS [discord server](https://discord.gg/nYwbhf8) at 15:00 to get started.
