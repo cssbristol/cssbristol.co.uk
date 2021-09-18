@@ -3145,4 +3145,19 @@ SUMMARY:Welcome Drinks
 DESCRIPTION:Join us at 7pm for welcome drinks at the White ...
 LOCATION:White Harte
 END:VEVENT
+BEGIN:VEVENT
+UID:events-20211106BAECTF
+ @cssbristol.co.uk
+DTSTAMP:20211106T100000Z
+DTSTART:20211106T100000Z
+DTEND:20211106T160000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021_11_06_BAE_CTF/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:BAE Systems CTF
+DESCRIPTION:BAE Systems Applied Intelligence are running a ...
+LOCATION:MVB 1.11/1.11A
+END:VEVENT
 END:VCALENDAR
