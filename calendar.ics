@@ -3085,4 +3085,49 @@ DESCRIPTION:CSS’s annual barcrawl has finally returned!
 LOCATION:Triangle Pubs
 STATUS:CANCELLED
 END:VEVENT
+BEGIN:VEVENT
+UID:events-20210920virtualpubquiz
+ @cssbristol.co.uk
+DTSTAMP:20210920T150000Z
+DTSTART:20210920T150000Z
+DTEND:20210920T163000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021_09_20_virtual_pub_quiz/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Virtual Pub Quiz
+DESCRIPTION:Freshers event
+LOCATION:Discord
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20210921virtualgamesesh
+ @cssbristol.co.uk
+DTSTAMP:20210921T120000Z
+DTSTART:20210921T120000Z
+DTEND:20210921T130000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021_09_21_virtual_game_sesh/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Virtual Game Sesh
+DESCRIPTION:Freshers event
+LOCATION:Discord
+END:VEVENT
+BEGIN:VEVENT
+UID:events-20210923meetcomitteepizza
+ @cssbristol.co.uk
+DTSTAMP:20210923T150000Z
+DTSTART:20210923T150000Z
+DTEND:20210923T190000Z
+URL:https://www.cssbristol.co.uk
+ /events/2021_09_23_meet_comittee_pizza/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Meet the Committee With Pizza
+DESCRIPTION:Freshers Event
+LOCATION:Queen's Building
+END:VEVENT
 END:VCALENDAR
