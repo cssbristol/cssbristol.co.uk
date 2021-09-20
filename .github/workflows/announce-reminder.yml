@@ -1,7 +1,7 @@
 name: "Daily event announcement"
 on:
   schedule:
-    - cron: "0 8 * * *"
+    - cron: "*/15 * * * *"
 jobs:
   announce:
     runs-on: ubuntu-latest
@@ -15,6 +15,6 @@ jobs:
           path: ~/.cache/pip
           key: ${{ hashFiles('.github/announce/requirements.text') }}
       - run: pip install -r .github/announce/requirements.txt
-      - run: python .github/announce/main.py --daily
+      - run: python .github/announce/main.py
         env:
           DISCORD_URL: ${{ secrets.DISCORD_URL }}
