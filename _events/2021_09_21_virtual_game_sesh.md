@@ -7,6 +7,7 @@ title: Virtual Game Sesh
 date:     2021-09-21 12:00:00
 date_end: 2021-09-21 13:00:00
 location: Discord
+banner: 2021_09_21_game_sesh.png
 ticket_link: https://discord.gg/nYwbhf8
 price: Free
 category:
