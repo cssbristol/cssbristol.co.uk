@@ -13,7 +13,7 @@ jobs:
       - uses: actions/cache@v2
         with:
           path: ~/.cache/pip
-          key: ${{ hashFiles('.github/announce/requirements.text') }}
+          key: ${{ hashFiles('.github/announce/requirements.txt') }}
       - run: pip install -r .github/announce/requirements.txt
       - run: python .github/announce/main.py --daily
         env:
