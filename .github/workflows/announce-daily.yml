@@ -13,3 +13,5 @@ jobs:
           python-version: '3.9'
       - run: pip install -r .github/announce/requirements.txt
       - run: python .github/announce/main.py --daily
+        env:
+          DISCORD_URL: ${{ secrets.DISCORD_URL }}
