@@ -1,0 +1,15 @@
+name: "Daily event announcement"
+on:
+  push:
+    branches:
+      - dev
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - run: pip install -r .github/announce/requirements.txt
+      - run: python .github/announce/main.py --daily
