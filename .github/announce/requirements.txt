@@ -1,0 +1,3 @@
+discord-webhook==0.14.0
+emoji-strings==0.1.0
+python-frontmatter==1.0.0
