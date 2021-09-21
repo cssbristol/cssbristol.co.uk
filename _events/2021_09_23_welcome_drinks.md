@@ -21,4 +21,4 @@ people to expect. But feel free to also show up on the day even if you didn't fi
 
 **This event is open to students from all years.**
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc2HLekn0lLsNecGkTnp1ZJ44eEqmIbRq6-X7RoSPkeTYRk1Q/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc2HLekn0lLsNecGkTnp1ZJ44eEqmIbRq6-X7RoSPkeTYRk1Q/viewform?embedded=true" width="300" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
