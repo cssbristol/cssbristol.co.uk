@@ -3341,14 +3341,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:events-20210923welcomedrinks
  @cssbristol.co.uk
-DTSTAMP:20210923T190000
-DTSTART:20210923T190000
-DTEND:20210924T000000
+DTSTAMP:20210923T200000
+DTSTART:20210923T200000
+DTEND:20210923T235900
 LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021_09_23_welcome_drinks/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
- images/contrib/events/2021_09_23_welcome_drinks.png
+ images/contrib/events/2021_09_23_welcome_drinks.jpg
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Welcome Drinks
 DESCRIPTION:Join us at 7pm for welcome drinks at the White ...
