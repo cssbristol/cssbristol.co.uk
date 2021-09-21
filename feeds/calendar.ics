@@ -11,9 +11,9 @@ PRODID:-//CSS Bristol//NONSGML website//EN
 {% for event in site.events %}BEGIN:VEVENT
 UID:{{ event.path | remove: "_" | replace: "/", "-" | remove: ".md" }}
  @cssbristol.co.uk
-DTSTAMP:{{ event.date |  date: "%Y%m%dT%H%M00Z" }}
-DTSTART:{{ event.date | date: "%Y%m%dT%H%M00Z" }}
-DTEND:{{ event.date_end | date: "%Y%m%dT%H%M00Z" }}
+DTSTAMP:{{ event.date |  date: "%Y%m%dT%H%M00" }}
+DTSTART:{{ event.date | date: "%Y%m%dT%H%M00" }}
+DTEND:{{ event.date_end | date: "%Y%m%dT%H%M00" }}
 URL:https://www.cssbristol.co.uk
  {{ event.url }}
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
