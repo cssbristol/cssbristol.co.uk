@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Blind Speed Dating
-date:     2021-03-31 18:00:00
-date_end: 2021-03-31 22:00:00
+date:     2021-03-31 18:00:00 +0000
+date_end: 2021-03-31 22:00:00 +0000
 banner: 2021-03-31_chaos_dating.jpg
 location: Online
 fb_link: https://www.facebook.com/events/175859640865697

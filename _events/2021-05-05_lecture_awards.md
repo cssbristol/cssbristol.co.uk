@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: The Best Lecturer Awards
-date:     2021-05-05 14:30:00
-date_end: 2021-05-05 15:00:00
+date:     2021-05-05 14:30:00 +0100
+date_end: 2021-05-05 15:00:00 +0100
 banner: 2021-05-05_lecture_awards.png
 location: Teams
 fb_link:

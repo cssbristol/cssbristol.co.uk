@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: "Waspmite Worlds: Exploring Collective Construction with Artificial Insects"
-date:     2021-05-05 13:00:00
-date_end: 2021-05-05 14:00:00
+date:     2021-05-05 13:00:00 +0100
+date_end: 2021-05-05 14:00:00 +0100
 banner: 2021-05-05_waspmite_worlds.png
 location: Teams
 fb_link:

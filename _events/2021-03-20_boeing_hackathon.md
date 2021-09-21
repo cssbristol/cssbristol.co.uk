@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: CSSxBoeing Hackathon 2021
-date:     2021-03-20 12:00:00
-date_end: 2021-03-21 16:00:00
+date:     2021-03-20 12:00:00 +0000
+date_end: 2021-03-21 16:00:00 +0000
 banner: 2021-03-20_boeing_hackathon.jpg
 location: Online
 fb_link: https://www.facebook.com/events/418325086122256

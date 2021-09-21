@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: "CSS Boeing Hackathon 2018: Space"
-date:     2018-02-28 11:00:00
-date_end: 2018-03-01 13:00:00
+date:     2018-02-28 11:00:00 +0000
+date_end: 2018-03-01 13:00:00 +0000
 banner: 2018-02-28-boeing-hack/cover.jpg
 location: MVB
 fb_link: $https://www.facebook.com/events/153087555349796/

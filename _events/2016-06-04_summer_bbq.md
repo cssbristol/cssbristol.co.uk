@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: End of Term CSS BBQ
-date:     2016-06-04 12:00:00
-date_end: 2016-06-04 17:00:00
+date:     2016-06-04 12:00:00 +0100
+date_end: 2016-06-04 17:00:00 +0100
 banner: 2016-06-04_summer_bbq.jpg
 location: Brandon Hill
 fb_link: https://www.facebook.com/events/100217857059598/

@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: OpenSAFELY - a talk by TPP
-date:     2021-02-17 14:00:00
-date_end: 2021-02-17 15:00:00
+date:     2021-02-17 14:00:00 +0000
+date_end: 2021-02-17 15:00:00 +0000
 banner: 2021-02-17_opensafely_tpp.jpg
 location: Teams
 fb_link: https://www.facebook.com/events/1521150744753749/
