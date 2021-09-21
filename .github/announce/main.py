@@ -11,6 +11,7 @@ import sys
 import os
 import frontmatter
 import glob
+import pytz
 
 
 DISCORD_URL = os.getenv("DISCORD_URL")
@@ -27,12 +28,22 @@ class Event:
     website_link: str
 
 
+def parse_datetime(date: Union[datetime, str, None]) -> Optional[datetime]:
+    if not date:
+        return None
+    elif isinstance(date, datetime):
+        print(date)
+        return date
+    return datetime.strptime(date, "%Y-%m-%d %H:%M:%S %z")
+
+
+
 def get_event(path: Path) -> Event:
     metadata = frontmatter.load(path).metadata
     event= Event(metadata.get("published", False),
                  metadata.get("cancelled", False),
                  metadata.get("title", None),
-                 metadata.get("date", None),
+                 parse_datetime(metadata.get("date", None)),
                  metadata.get("location", None),
                  metadata.get("ticket_link", None),
                  metadata.get("price", "Free"),
@@ -77,11 +88,13 @@ def handle_response(response: Union[Response, List[Response]]) -> None:
 
 
 def main(daily_post: bool) -> None:
-    today = datetime.today()
+    today = datetime.now(pytz.timezone("Europe/London"))
     warning_mins = 15
     daily_posts: List[Event] = []
 
     for event_path in glob.iglob("_events/*"):
+        if event_path.endswith("template"):
+            continue
         event = get_event(Path(event_path))
         if event.date:
             delta = event.date - today
