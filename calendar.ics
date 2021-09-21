@@ -3351,8 +3351,8 @@ IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/2021_09_23_welcome_drinks.jpg
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Welcome Drinks
-DESCRIPTION:Join us at 7pm for welcome drinks at the White ...
-LOCATION:White Harte
+DESCRIPTION:Join us at 7pm for welcome drinks at the Brass ...
+LOCATION:The Brass Pig
 END:VEVENT
 BEGIN:VEVENT
 UID:events-20211106BAECTF
