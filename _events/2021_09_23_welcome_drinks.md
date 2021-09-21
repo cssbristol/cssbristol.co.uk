@@ -6,7 +6,7 @@ cancel_reason:
 title: Welcome Drinks
 date:     2021-09-23 19:00:00
 date_end: 2021-09-24 00:00:00
-banner: 2021_09_23_welcome_drinks.png
+banner: 2021_09_23_welcome_drinks.jpg
 ticket_link: https://forms.gle/wL9TQCRv9Z7DoTEQA
 location: White Harte
 price: Free
