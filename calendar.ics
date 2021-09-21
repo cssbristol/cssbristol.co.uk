@@ -3332,11 +3332,11 @@ LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021_09_23_meet_comittee_pizza/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
- images/contrib/events/
+ images/contrib/events/2021_09_23_department_fair.png
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Meet the Committee With Pizza
 DESCRIPTION:Freshers Event
-LOCATION:Queen's Building
+LOCATION:Bill Brown Suite, Queens Building
 END:VEVENT
 BEGIN:VEVENT
 UID:events-20210923welcomedrinks
