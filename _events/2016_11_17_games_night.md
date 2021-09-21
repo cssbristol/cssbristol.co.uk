@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: CSS+COGS Games and Pizza night
-date:     2016-11-17 18:30:00
-date_end: 2016-11-17 21:30:00
+date:     2016-11-17 18:30:00 +0000
+date_end: 2016-11-17 21:30:00 +0000
 banner: 2016_11_17_games_night.png
 location: MVB 1.11
 fb_link: https://www.facebook.com/events/210539002717976/

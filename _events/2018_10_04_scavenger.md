@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: Family Scavenger Hung
-date:     2018-10-04 20:30:00
-date_end: 2018-10-04 22:30:00
+date:     2018-10-04 20:30:00 +0100
+date_end: 2018-10-04 22:30:00 +0100
 banner: 2018_10_04_scavenger.jpg
 location: The Berkeley Wetherspoons
 fb_link: https://www.facebook.com/events/2192281860991041/

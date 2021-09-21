@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: What can a wearable camera know about me?
-date:     2017-12-05 12:00:00
-date_end: 2017-12-05 13:00:00
+date:     2017-12-05 12:00:00 +0000
+date_end: 2017-12-05 13:00:00 +0000
 banner: 2017_12_05_camera_talk.jpg
 location: MVB 1.11A
 fb_link: https://www.facebook.com/events/134516193920282

@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Lightning Talks
-date:     2017-11-16 14:00:00
-date_end: 2017-11-16 16:00:00
+date:     2017-11-16 14:00:00 +0000
+date_end: 2017-11-16 16:00:00 +0000
 banner: 2017_11_16_lightning.jpg
 location: MVB Lower Atrium
 fb_link: https://www.facebook.com/events/136873833631865

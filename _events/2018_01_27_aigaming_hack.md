@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: AIGaming Competition
-date:     2018-01-27 17:30:00
-date_end: 2018-01-27 22:00:00
+date:     2018-01-27 17:30:00 +0000
+date_end: 2018-01-27 22:00:00 +0000
 banner: 2018_01_27_aigaming_hack.png
 location: Queens F101
 fb_link: https://www.facebook.com/events/2048883198657222/

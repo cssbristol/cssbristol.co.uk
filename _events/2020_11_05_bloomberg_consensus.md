@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Bloomberg Engineering Talk - 'Consensus in Practice'
-date: 2020-11-05 13:00:00
-date_end: 2020-11-05 14:00:00
+date: 2020-11-05 13:00:00 +0000
+date_end: 2020-11-05 14:00:00 +0000
 banner: 2020_11_05_bloomberg_consensus.png
 location: Online
 fb_link: https://www.facebook.com/events/347148146514251

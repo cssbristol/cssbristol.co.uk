@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: 2020 Christmas Quiz ft. Hakeem
-date:     2020-12-17 19:00:00
-date_end: 2020-12-17 22:00:00
+date:     2020-12-17 19:00:00 +0000
+date_end: 2020-12-17 22:00:00 +0000
 banner: 2020_12_17_christmas_quiz.png
 location: Online
 fb_link: https://www.facebook.com/events/108679691028305/

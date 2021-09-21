@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: CodeLounge
-date: 2017-11-15 12:00:00
-date_end: 2017-11-15 16:00:00
+date: 2017-11-15 12:00:00 +0000
+date_end: 2017-11-15 16:00:00 +0000
 banner: 2017_11_15_codelounge.jpg
 location: MVB Lower Atrium
 fb_link: https://www.facebook.com/events/1868800843433282/

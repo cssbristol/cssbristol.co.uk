@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: BarbeqWU
-date:     2019-06-09 13:00:00
-date_end: 2019-06-09 18:00:00
+date:     2019-06-09 13:00:00 +0100
+date_end: 2019-06-09 18:00:00 +0100
 banner: 2019_06_09_BBQ_banner.jpg
 location: Brandon Hill
 fb_link: https://www.facebook.com/events/340749229917396/

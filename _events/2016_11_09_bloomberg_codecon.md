@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Bloomberg CodeCon
-date:     2016-11-09 17:30:00
-date_end: 2016-11-09 20:00:00
+date:     2016-11-09 17:30:00 +0000
+date_end: 2016-11-09 20:00:00 +0000
 banner: 2016_11_09_bloomberg_codecon.png
 location: Physics Enderby
 fb_link: https://www.facebook.com/events/1665502050406417

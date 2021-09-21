@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Technology Skills Session (by Morgan Stanley)
-date:     2020-10-14 14:00:00
-date_end: 2020-10-14 16:00:00
+date:     2020-10-14 14:00:00 +0100
+date_end: 2020-10-14 16:00:00 +0100
 banner: 2020_10_14_ms_workshop.png
 location: Zoom
 fb_link: https://www.facebook.com/events/645433936145151/

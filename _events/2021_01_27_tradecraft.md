@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Tradercraft - an Optiver insights event
-date:     2021-01-27 17:00:00
-date_end: 2021-01-27 19:30:00
+date:     2021-01-27 17:00:00 +0000
+date_end: 2021-01-27 19:30:00 +0000
 banner: 2021_01_27_tradecraft.jpg
 location: Online
 fb_link: https://www.facebook.com/events/120283913244626

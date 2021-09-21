@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Minicraft - Game Development 101
-date: 2020-11-11 15:00:00
-date_end: 2020-11-11 16:00:00
+date: 2020-11-11 15:00:00 +0000
+date_end: 2020-11-11 16:00:00 +0000
 banner: 2020_11_11_gamejam_minicraft.png
 location: Teams
 fb_link: https://www.facebook.com/events/368699867678986

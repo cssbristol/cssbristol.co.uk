@@ -4,8 +4,8 @@ published: true
 title: "Tech Talk: Read Less, Learn More"
 cancelled: false
 cancel_reason:
-date:     2018-03-16 12:00:00
-date_end: 2018-03-16 13:00:00 
+date:     2018-03-16 12:00:00 +0000
+date_end: 2018-03-16 13:00:00  +0000
 banner: 2018_03_16_bloomberg_ml.jpg
 location: Queens 1.6
 fb_link: https://www.facebook.com/events/765656633631852/

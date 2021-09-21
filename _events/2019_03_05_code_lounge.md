@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: CodeLounge II | Explore Week
-date:     2019-03-05 13:00:00
-date_end: 2019-03-05 15:00:00
+date:     2019-03-05 13:00:00 +0000
+date_end: 2019-03-05 15:00:00 +0000
 banner: 2019_03_05_code_lounge.jpg
 location: MVB 1.11A
 fb_link: https://www.facebook.com/events/2276160976041451/

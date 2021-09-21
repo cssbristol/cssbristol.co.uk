@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Low-Latency C++ Workshop (by Optiver)
-date: 2020-10-09 13:00:00
-date_end: 2020-10-09 14:00:00
+date: 2020-10-09 13:00:00 +0100
+date_end: 2020-10-09 14:00:00 +0100
 banner: 2020_10_09_optivercpp.png
 location: Zoom
 fb_link: https://www.facebook.com/events/705985230129967/

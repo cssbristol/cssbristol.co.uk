@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Meet the Committee With Pizza
-date:     2021-09-23 15:00:00
-date_end: 2021-09-23 19:00:00
+date:     2021-09-23 15:00:00 +0100
+date_end: 2021-09-23 19:00:00 +0100
 location: Queen's Building
 price: Free
 category:

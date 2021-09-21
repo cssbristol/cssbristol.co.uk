@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: "CSS Discusses: Wellbeing and Workload"
-date:     2016-10-26 17:00:00
-date_end: 2016-10-26 19:00:00
+date:     2016-10-26 17:00:00 +0100
+date_end: 2016-10-26 19:00:00 +0100
 banner: 2016_10_26_wellbeing_discussion.png
 location: Pusley Lecture Theatre, Queens
 fb_link: https://www.facebook.com/events/1799726423645110

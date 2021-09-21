@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: An Introduction to Hardware Hacking
-date:     2019-03-06 17:00:00
-date_end: 2019-03-06 18:00:00
+date:     2019-03-06 17:00:00 +0000
+date_end: 2019-03-06 18:00:00 +0000
 banner: 2019_03_06_hardware_hacking.jpg
 location: MVB 1.11
 fb_link: https://www.facebook.com/events/639658169798959/

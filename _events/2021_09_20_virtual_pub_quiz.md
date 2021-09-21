@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Virtual Pub Quiz
-date:     2021-09-20 15:00:00
-date_end: 2021-09-20 16:30:00
+date:     2021-09-20 15:00:00 +0100
+date_end: 2021-09-20 16:30:00 +0100
 banner: 2021_09_20_pub_quiz.png
 location: Discord
 ticket_link: https://discord.gg/nYwbhf8

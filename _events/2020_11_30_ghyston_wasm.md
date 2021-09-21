@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Blazor & Web Assembly | Ghyston
-date:     2020-11-30 16:00:00
-date_end: 2020-11-30 17:00:00
+date:     2020-11-30 16:00:00 +0000
+date_end: 2020-11-30 17:00:00 +0000
 banner: 2020_11_30_ghyston_wasm.png
 location: Online
 fb_link: https://www.facebook.com/events/195304292128043

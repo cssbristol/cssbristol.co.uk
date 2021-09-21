@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: Jump Trading's trading systems
-date:     2019-11-12 13:00:00
-date_end: 2019-11-12 14:00:00
+date:     2019-11-12 13:00:00 +0000
+date_end: 2019-11-12 14:00:00 +0000
 banner: 2019_11_12_Jump_trading_dist_systems.png
 location: 1.18 Queens
 fb_link: https://www.facebook.com/events/532026974021145/

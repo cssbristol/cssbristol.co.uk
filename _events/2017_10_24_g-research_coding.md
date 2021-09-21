@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: G-Research Coding Challenge
-date:     2017-10-24 18:30:00
-date_end: 2017-10-24 21:30:00
+date:     2017-10-24 18:30:00 +0100
+date_end: 2017-10-24 21:30:00 +0100
 banner: 2017_10_24_g-research_coding.png
 location: MVB 1.11A
 fb_link: https://www.facebook.com/events/1619186934779420/

@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: CSSxBoeing Hackathon 2019
-date:     2019-03-08 13:00:00
-date_end: 2019-03-08 15:00:00
+date:     2019-03-08 13:00:00 +0000
+date_end: 2019-03-08 15:00:00 +0000
 banner: 2019_03_08_hackathon.jpg
 location: MVB Atrium
 fb_link: https://www.facebook.com/events/561163404398450/

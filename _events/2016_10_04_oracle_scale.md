@@ -4,8 +4,8 @@ published: truee
 cancelled: false
 cancel_reason:
 title: Oracle - Software Engineering at Global Scale
-date:     2016-10-04 13:00:00
-date_end: 2016-10-04 14:00:00
+date:     2016-10-04 13:00:00 +0100
+date_end: 2016-10-04 14:00:00 +0100
 banner: 2016_10_04_oracle_scale.png
 location: MVB 1.06
 fb_link: https://www.facebook.com/events/1735506040033485/

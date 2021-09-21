@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: Triangle Crawl
-date:     2019-11-27 20:00:00
-date_end: 2019-11-28 04:00:00
+date:     2019-11-27 20:00:00 +0000
+date_end: 2019-11-28 04:00:00 +0000
 banner: 2019_11_28_Triangle_Crawl.png
 location: The White Harte
 fb_link: https://www.facebook.com/events/498914097363899/

@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Social Bingo (Postgraduates)
-date: 2020-10-05 17:30:00
-date_end: 2020-10-05 18:30:00
+date: 2020-10-05 17:30:00 +0100
+date_end: 2020-10-05 18:30:00 +0100
 banner: 2020_10_05_social_bingo_pg.png
 location: Remo
 fb_link: https://www.facebook.com/events/242093710547686/

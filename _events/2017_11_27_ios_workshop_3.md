@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Introduction to ML for IOS
-date:     2017-11-27 13:00:00
-date_end: 2017-11-27 14:00:00
+date:     2017-11-27 13:00:00 +0000
+date_end: 2017-11-27 14:00:00 +0000
 banner: 2017_11_27_ios_workshop_3.jpg
 location: MVB 1.11A
 fb_link: https://www.facebook.com/events/334181540383830/
