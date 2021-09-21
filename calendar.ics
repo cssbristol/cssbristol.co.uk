@@ -3116,21 +3116,6 @@ DESCRIPTION:Freshers event
 LOCATION:Discord
 END:VEVENT
 BEGIN:VEVENT
-UID:events-20210921test
- @cssbristol.co.uk
-DTSTAMP:20210921T170000
-DTSTART:20210921T170000
-DTEND:20210921T140000
-URL:https://www.cssbristol.co.uk
- /events/2021_09_21_test/
-IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
- images/contrib/events/$BANNER
-ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
-SUMMARY:Test
-DESCRIPTION:
-LOCATION:$LOCATION
-END:VEVENT
-BEGIN:VEVENT
 UID:events-20210923meetcomitteepizza
  @cssbristol.co.uk
 DTSTAMP:20210923T150000
