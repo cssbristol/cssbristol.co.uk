@@ -5,7 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.cssbristol.co.uk" # the base hostname & protocol for your site
 twitter_username: cssbristol
 github_username: cssbristol
-timezone: UTC
+timezone: Europe/London
 future: true
 
 # Build settings
