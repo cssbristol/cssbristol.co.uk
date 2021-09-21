@@ -9,6 +9,7 @@ UID:events-2016-06-04summerbbq
 DTSTAMP:20160604T120000
 DTSTART:20160604T120000
 DTEND:20160604T170000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2016-06-04_summer_bbq/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -24,6 +25,7 @@ UID:events-20161004oraclescale
 DTSTAMP:20161004T130000
 DTSTART:20161004T130000
 DTEND:20161004T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2016_10_04_oracle_scale/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -39,6 +41,7 @@ UID:events-20161013bloombergjvm
 DTSTAMP:20161013T130000
 DTSTART:20161013T130000
 DTEND:20161013T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2016_10_13_bloomberg_jvm/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -54,6 +57,7 @@ UID:events-20161025barcrawl
 DTSTAMP:20161025T200000
 DTSTART:20161025T200000
 DTEND:20161026T040000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2016_10_25_bar_crawl/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -69,6 +73,7 @@ UID:events-20161026wellbeingdiscussion
 DTSTAMP:20161026T170000
 DTSTART:20161026T170000
 DTEND:20161026T190000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2016_10_26_wellbeing_discussion/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -84,6 +89,7 @@ UID:events-20161105codelounge
 DTSTAMP:20161105T110000
 DTSTART:20161105T110000
 DTEND:20161105T170000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2016_11_05_codelounge/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -99,6 +105,7 @@ UID:events-20161109bloombergcodecon
 DTSTAMP:20161109T173000
 DTSTART:20161109T173000
 DTEND:20161109T200000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2016_11_09_bloomberg_codecon/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -114,6 +121,7 @@ UID:events-20161116expediaabtesting
 DTSTAMP:20161116T120000
 DTSTART:20161116T120000
 DTEND:20161116T130000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2016_11_16_expedia_ab_testing/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -129,6 +137,7 @@ UID:events-20161117gamesnight
 DTSTAMP:20161117T183000
 DTSTART:20161117T183000
 DTEND:20161117T213000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2016_11_17_games_night/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -144,6 +153,7 @@ UID:events-20161122greshamaws
 DTSTAMP:20161122T130000
 DTSTART:20161122T130000
 DTEND:20161122T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2016_11_22_gresham_aws/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -159,6 +169,7 @@ UID:events-20161123baectftalk
 DTSTAMP:20161123T110000
 DTSTART:20161123T110000
 DTEND:20161123T120000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2016_11_23_bae_ctf_talk/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -174,6 +185,7 @@ UID:events-20161203baectf
 DTSTAMP:20161203T093000
 DTSTART:20161203T093000
 DTEND:20161203T163000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2016_12_03_bae_ctf/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -189,6 +201,7 @@ UID:events-20161208oracleci
 DTSTAMP:20161208T130000
 DTSTART:20161208T130000
 DTEND:20161208T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2016_12_08_oracle_ci/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -205,6 +218,7 @@ UID:events-20161208pubquiz
 DTSTAMP:20161208T193000
 DTSTART:20161208T193000
 DTEND:20161208T220000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2016_12_08_pub_quiz/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -220,6 +234,7 @@ UID:events-20170130postexamsocial
 DTSTAMP:20170130T200000
 DTSTART:20170130T200000
 DTEND:20170131T040000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_01_30_post_exam_social/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -235,6 +250,7 @@ UID:events-20170131oracleci
 DTSTAMP:20170131T120000
 DTSTART:20170131T120000
 DTEND:20170131T130000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_01_31_oracle_ci/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -250,6 +266,7 @@ UID:events-20170208deloittesecurity
 DTSTAMP:20170208T130000
 DTSTART:20170208T130000
 DTEND:20170208T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_02_08_deloitte_security/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -265,6 +282,7 @@ UID:events-20170223hashcode
 DTSTAMP:20170223T170000
 DTSTART:20170223T170000
 DTEND:20170223T220000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_02_23_hashcode/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -280,6 +298,7 @@ UID:events-2017-02-27boeinghackathon2017
 DTSTAMP:20170227T130000
 DTSTART:20170227T130000
 DTEND:20170228T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017-02-27_boeing_hackathon_2017/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -295,6 +314,7 @@ UID:events-20170302lightningtalks
 DTSTAMP:20170302T143000
 DTSTART:20170302T143000
 DTEND:20170302T160000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_03_02_lightning_talks/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -310,6 +330,7 @@ UID:events-20170302games
 DTSTAMP:20170302T170000
 DTSTART:20170302T170000
 DTEND:20170302T200000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_03_02_games/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -325,6 +346,7 @@ UID:events-20170303allstars
 DTSTAMP:20170303T170000
 DTSTART:20170303T170000
 DTEND:20170303T210000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_03_03_all_stars/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -340,6 +362,7 @@ UID:events-20170322fun
 DTSTAMP:20170322T120000
 DTSTART:20170322T120000
 DTEND:20170322T130000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_03_22_fun/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -355,6 +378,7 @@ UID:events-20170323dug
 DTSTAMP:20170323T140000
 DTSTART:20170323T140000
 DTEND:20170323T150000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_03_23_dug/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -370,6 +394,7 @@ UID:events-20170330mysql
 DTSTAMP:20170330T180000
 DTSTART:20170330T180000
 DTEND:20170330T180000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_03_30_mysql/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -385,6 +410,7 @@ UID:events-20170330karaoke
 DTSTAMP:20170330T210000
 DTSTART:20170330T210000
 DTEND:20170330T235900
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_03_30_karaoke/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -400,6 +426,7 @@ UID:events-20170426agm
 DTSTAMP:20170426T170000
 DTSTART:20170426T170000
 DTEND:20170426T200000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_04_26_agm/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -415,6 +442,7 @@ UID:events-20170427armformalverification
 DTSTAMP:20170427T140000
 DTSTART:20170427T140000
 DTEND:20170427T150000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_04_27_arm_formal_verification/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -430,6 +458,7 @@ UID:events-2017-06-02bbq
 DTSTAMP:20170602T120000
 DTSTART:20170602T120000
 DTEND:20170602T160000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017-06-02_bbq/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -445,6 +474,7 @@ UID:events-20170918welcomedrinks
 DTSTAMP:20170918T193000
 DTSTART:20170918T193000
 DTEND:20170919T010000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_09_18_welcome_drinks/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -460,6 +490,7 @@ UID:events-20171013bloombergcodecon
 DTSTAMP:20171013T183000
 DTSTART:20171013T183000
 DTEND:20171013T213000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_10_13_bloomberg_codecon/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -475,6 +506,7 @@ UID:events-2017-10-17barcrawl
 DTSTAMP:20171017T193000
 DTSTART:20171017T193000
 DTEND:20171018T040000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017-10-17_barcrawl/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -490,6 +522,7 @@ UID:events-20171019creditcall
 DTSTAMP:20171019T170000
 DTSTART:20171019T170000
 DTEND:20171019T220000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_10_19_creditcall/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -505,6 +538,7 @@ UID:events-20171024g-researchcoding
 DTSTAMP:20171024T183000
 DTSTART:20171024T183000
 DTEND:20171024T213000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_10_24_g-research_coding/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -520,6 +554,7 @@ UID:events-20171101ux
 DTSTAMP:20171101T120000
 DTSTART:20171101T120000
 DTEND:20171101T130000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_11_01_ux/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -535,6 +570,7 @@ UID:events-20171106alexa
 DTSTAMP:20171106T130000
 DTSTART:20171106T130000
 DTEND:20171106T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_11_06_alexa/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -550,6 +586,7 @@ UID:events-20171109iot
 DTSTAMP:20171109T133000
 DTSTART:20171109T133000
 DTEND:20171109T143000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_11_09_iot/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -565,6 +602,7 @@ UID:events-20171114accessibilityhack
 DTSTAMP:20171114T100000
 DTSTART:20171114T100000
 DTEND:20171114T163000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_11_14_accessibility_hack/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -580,6 +618,7 @@ UID:events-20171115codelounge
 DTSTAMP:20171115T120000
 DTSTART:20171115T120000
 DTEND:20171115T160000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_11_15_codelounge/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -595,6 +634,7 @@ UID:events-20171115omg
 DTSTAMP:20171115T220000
 DTSTART:20171115T220000
 DTEND:20171116T030000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_11_15_omg/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -610,6 +650,7 @@ UID:events-20171116lightning
 DTSTAMP:20171116T140000
 DTSTART:20171116T140000
 DTEND:20171116T160000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_11_16_lightning/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -625,6 +666,7 @@ UID:events-20171116games
 DTSTAMP:20171116T180000
 DTSTART:20171116T180000
 DTEND:20171116T213000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_11_16_games/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -640,6 +682,7 @@ UID:events-20171120ios
 DTSTAMP:20171120T130000
 DTSTART:20171120T130000
 DTEND:20171120T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_11_20_ios/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -655,6 +698,7 @@ UID:events-20171120pubquiz
 DTSTAMP:20171120T180000
 DTSTART:20171120T180000
 DTEND:20171120T213000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_11_20_pub_quiz/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -670,6 +714,7 @@ UID:events-20171124iosar
 DTSTAMP:20171124T130000
 DTSTART:20171124T130000
 DTEND:20171124T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_11_24_ios_ar/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -685,6 +730,7 @@ UID:events-20171127iosworkshop3
 DTSTAMP:20171127T130000
 DTSTART:20171127T130000
 DTEND:20171127T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_11_27_ios_workshop_3/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -700,6 +746,7 @@ UID:events-20171201armprocessor
 DTSTAMP:20171201T120000
 DTSTART:20171201T120000
 DTEND:20171201T130000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_12_01_arm_processor/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -715,6 +762,7 @@ UID:events-20171205cameratalk
 DTSTAMP:20171205T120000
 DTSTART:20171205T120000
 DTEND:20171205T130000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_12_05_camera_talk/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -730,6 +778,7 @@ UID:events-20171206xmasdrinks
 DTSTAMP:20171206T190000
 DTSTART:20171206T190000
 DTEND:20171206T220000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2017_12_06_xmas_drinks/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -745,6 +794,7 @@ UID:events-20180125endexamsbarcrawl
 DTSTAMP:20180125T200000
 DTSTART:20180125T200000
 DTEND:20180126T020000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_01_25_end_exams_bar_crawl/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -760,6 +810,7 @@ UID:events-20180127aigaminghack
 DTSTAMP:20180127T173000
 DTSTART:20180127T173000
 DTEND:20180127T220000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_01_27_aigaming_hack/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -775,6 +826,7 @@ UID:events-20180201pyntsizedpython
 DTSTAMP:20180201T130000
 DTSTART:20180201T130000
 DTEND:20180201T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_02_01_pyntsized_python/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -790,6 +842,7 @@ UID:events-20180214baehacktalk
 DTSTAMP:20180214T130000
 DTSTART:20180214T130000
 DTEND:20180214T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_02_14_bae_hack_talk/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -805,6 +858,7 @@ UID:events-20180217baectf
 DTSTAMP:20180217T094500
 DTSTART:20180217T094500
 DTEND:20180217T160000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_02_17_bae_ctf/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -820,6 +874,7 @@ UID:events-20180222boardgamenight
 DTSTAMP:20180222T180000
 DTSTART:20180222T180000
 DTEND:20180222T200000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_02_22_board_game_night/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -836,6 +891,7 @@ UID:events-20180222pintofprogramming
 DTSTAMP:20180222T180000
 DTSTART:20180222T180000
 DTEND:20180222T220000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_02_22_pint_of_programming/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -851,6 +907,7 @@ UID:events-2018-02-28boeinghackathon
 DTSTAMP:20180228T110000
 DTSTART:20180228T110000
 DTEND:20180301T130000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018-02-28_boeing_hackathon/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -866,6 +923,7 @@ UID:events-20180301hashcode
 DTSTAMP:20180301T183000
 DTSTART:20180301T183000
 DTEND:20180301T223000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_03_01_hashcode/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -881,6 +939,7 @@ UID:events-20180302minecraft
 DTSTAMP:20180302T160000
 DTSTART:20180302T160000
 DTEND:20180302T200000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_03_02_minecraft/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -896,6 +955,7 @@ UID:events-20180307diversity
 DTSTAMP:20180307T133000
 DTSTART:20180307T133000
 DTEND:20180307T170000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_03_07_diversity/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -911,6 +971,7 @@ UID:events-20180308creditcall
 DTSTAMP:20180308T130000
 DTSTART:20180308T130000
 DTEND:20180308T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_03_08_creditcall/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -927,6 +988,7 @@ UID:events-20180308rights
 DTSTAMP:20180308T171500
 DTSTART:20180308T171500
 DTEND:20180308T181500
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_03_08_rights/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -942,6 +1004,7 @@ UID:events-20180314digitaldilemma
 DTSTAMP:20180314T171500
 DTSTART:20180314T171500
 DTEND:20180314T191500
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_03_14_digital_dilemma/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -957,6 +1020,7 @@ UID:events-20180315units
 DTSTAMP:20180315T130000
 DTSTART:20180315T130000
 DTEND:20180315T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_03_15_units/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -972,6 +1036,7 @@ UID:events-20180315mvball
 DTSTAMP:20180315T190000
 DTSTART:20180315T190000
 DTEND:20180316T000000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_03_15_mvball/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -987,6 +1052,7 @@ UID:events-20180316bloombergml
 DTSTAMP:20180316T120000
 DTSTART:20180316T120000
 DTEND:20180316T130000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_03_16_bloomberg_ml/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1002,6 +1068,7 @@ UID:events-20180329datadebate
 DTSTAMP:20180320T171500
 DTSTART:20180320T171500
 DTEND:20180320T183000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_03_29_data_debate/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1017,6 +1084,7 @@ UID:events-20180411agm
 DTSTAMP:20180418T171500
 DTSTART:20180418T171500
 DTEND:20180418T184500
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_04_11_agm/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1032,6 +1100,7 @@ UID:events-20180602bbq
 DTSTAMP:20180602T120000
 DTSTART:20180602T120000
 DTEND:20180602T180000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_06_02_bbq/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1047,6 +1116,7 @@ UID:events-20180924welcome
 DTSTAMP:20180924T180000
 DTSTART:20180924T180000
 DTEND:20180924T230000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_09_24_welcome/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1062,6 +1132,7 @@ UID:events-20180927family
 DTSTAMP:20180927T130000
 DTSTART:20180927T130000
 DTEND:20180927T163000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_09_27_family/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1077,6 +1148,7 @@ UID:events-20181004scavenger
 DTSTAMP:20181004T203000
 DTSTART:20181004T203000
 DTEND:20181004T223000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_10_04_scavenger/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1092,6 +1164,7 @@ UID:events-20181011git
 DTSTAMP:20181011T130000
 DTSTART:20181011T130000
 DTEND:20181011T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_10_11_git/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1107,6 +1180,7 @@ UID:events-20181015siliconvalley
 DTSTAMP:20181015T130000
 DTSTART:20181015T130000
 DTEND:20181015T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_10_15_silicon_valley/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1122,6 +1196,7 @@ UID:events-20181016pythonbloomberg
 DTSTAMP:20181016T130000
 DTSTART:20181016T130000
 DTEND:20181016T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_10_16_python_bloomberg/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1137,6 +1212,7 @@ UID:events-20181016sciencesbarcrawl
 DTSTAMP:20181016T210000
 DTSTART:20181016T210000
 DTEND:20181017T040000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_10_16_sciences_bar_crawl/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1152,6 +1228,7 @@ UID:events-20181018arduino
 DTSTAMP:20181018T130000
 DTSTART:20181018T130000
 DTEND:20181018T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_10_18_arduino/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1167,6 +1244,7 @@ UID:events-20181019arduino
 DTSTAMP:20181019T130000
 DTSTART:20181019T130000
 DTEND:20181019T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_10_19_arduino/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1182,6 +1260,7 @@ UID:events-20181023arduino
 DTSTAMP:20181023T130000
 DTSTART:20181023T130000
 DTEND:20181023T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_10_23_arduino/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1197,6 +1276,7 @@ UID:events-20181023barcrawl
 DTSTAMP:20181023T200000
 DTSTART:20181023T200000
 DTEND:20181024T040000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_10_23_bar_crawl/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1212,6 +1292,7 @@ UID:events-20181027cogslan
 DTSTAMP:20181027T100000
 DTSTART:20181027T100000
 DTEND:20181028T100000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_10_27_cogs_lan/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1227,6 +1308,7 @@ UID:events-20181031netflixandthrill
 DTSTAMP:20181031T150000
 DTSTART:20181031T150000
 DTEND:20181031T180000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_10_31_netflix_and_thrill/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1242,6 +1324,7 @@ UID:events-20181101visa
 DTSTAMP:20181101T130000
 DTSTART:20181101T130000
 DTEND:20181101T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_11_01_visa/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1257,6 +1340,7 @@ UID:events-20181101ghyston
 DTSTAMP:20181101T160000
 DTSTART:20181101T160000
 DTEND:20181101T220000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_11_01_ghyston/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1272,6 +1356,7 @@ UID:events-20181109codecon
 DTSTAMP:20181109T173000
 DTSTART:20181109T173000
 DTEND:20181109T203000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_11_09_codecon/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1287,6 +1372,7 @@ UID:events-20181115unity
 DTSTAMP:20181115T130000
 DTSTART:20181115T130000
 DTEND:20181115T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_11_15_unity/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1302,6 +1388,7 @@ UID:events-20181116egm
 DTSTAMP:20181116T170000
 DTSTART:20181116T170000
 DTEND:20181116T181500
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_11_16_egm/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1317,6 +1404,7 @@ UID:events-20181119gamejam
 DTSTAMP:20181119T100000
 DTSTART:20181119T100000
 DTEND:20181120T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_11_19_gamejam/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1332,6 +1420,7 @@ UID:events-20181119panel
 DTSTAMP:20181119T100000
 DTSTART:20181119T100000
 DTEND:20181119T110000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_11_19_panel/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1347,6 +1436,7 @@ UID:events-20181121omg
 DTSTAMP:20181121T200000
 DTSTART:20181121T200000
 DTEND:20181122T040000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_11_21_omg/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1362,6 +1452,7 @@ UID:events-20181122lounge
 DTSTAMP:20181122T130000
 DTSTART:20181122T130000
 DTEND:20181122T150000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_11_22_lounge/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1377,6 +1468,7 @@ UID:events-20181123lightning
 DTSTAMP:20181123T130000
 DTSTART:20181123T130000
 DTEND:20181123T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_11_23_lightning/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1392,6 +1484,7 @@ UID:events-20181127cookpad
 DTSTAMP:20181127T130000
 DTSTART:20181127T130000
 DTEND:20181127T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_11_27_cookpad/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1407,6 +1500,7 @@ UID:events-20181204btctf
 DTSTAMP:20181204T180000
 DTSTART:20181204T180000
 DTEND:20181204T203000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_12_04_bt_ctf/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1422,6 +1516,7 @@ UID:events-20181214iceskating
 DTSTAMP:20181214T200000
 DTSTART:20181214T200000
 DTEND:20181214T235900
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_12_14_ice_skating/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1437,6 +1532,7 @@ UID:events-20181218mvball
 DTSTAMP:20181218T190000
 DTSTART:20181218T190000
 DTEND:20181218T230000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_12_18_mvball/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1452,6 +1548,7 @@ UID:events-20181218mvballafter
 DTSTAMP:20181218T230000
 DTSTART:20181218T230000
 DTEND:20181219T040000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_12_18_mvball_after/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1467,6 +1564,7 @@ UID:events-20181220pubquiz
 DTSTAMP:20181220T183000
 DTSTART:20181220T183000
 DTEND:20181220T213000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_12_20_pub_quiz/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1482,6 +1580,7 @@ UID:events-20181222minecraft
 DTSTAMP:20181222T130000
 DTSTART:20181222T130000
 DTEND:20190201T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2018_12_22_minecraft/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1497,6 +1596,7 @@ UID:events-20190125endexamdrinks
 DTSTAMP:20190125T180000
 DTSTART:20190125T180000
 DTEND:20190125T230000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_01_25_end_exam_drinks/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1512,6 +1612,7 @@ UID:events-20190207dyson
 DTSTAMP:20190207T130000
 DTSTART:20190207T130000
 DTEND:20190207T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_02_07_dyson/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1527,6 +1628,7 @@ UID:events-20190216baectf
 DTSTAMP:20190216T090000
 DTSTART:20190216T090000
 DTEND:20190216T163000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_02_16_bae_ctf/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1542,6 +1644,7 @@ UID:events-20190221whitetshirt
 DTSTAMP:20190221T200000
 DTSTART:20190221T200000
 DTEND:20190222T040000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_02_21_white_tshirt/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1557,6 +1660,7 @@ UID:events-20190228hashcode
 DTSTAMP:20190228T170000
 DTSTART:20190228T170000
 DTEND:20190228T213000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_02_28_hash_code/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1572,6 +1676,7 @@ UID:events-20190305codelounge
 DTSTAMP:20190305T130000
 DTSTART:20190305T130000
 DTEND:20190305T150000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_03_05_code_lounge/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1587,6 +1692,7 @@ UID:events-20190306curriculuminp
 DTSTAMP:20190306T110000
 DTSTART:20190306T110000
 DTEND:20190306T130000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_03_06_curriculum_inp/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1602,6 +1708,7 @@ UID:events-20190306hardwarehacking
 DTSTAMP:20190306T170000
 DTSTART:20190306T170000
 DTEND:20190306T180000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_03_06_hardware_hacking/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1617,6 +1724,7 @@ UID:events-20190307datascience
 DTSTAMP:20190307T130000
 DTSTART:20190307T130000
 DTEND:20190307T160000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_03_07_data_science/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1632,6 +1740,7 @@ UID:events-20190307pubquiz
 DTSTAMP:20190307T190000
 DTSTART:20190307T190000
 DTEND:20190307T220000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_03_07_pub_quiz/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1647,6 +1756,7 @@ UID:events-20190308hackathon
 DTSTAMP:20190308T130000
 DTSTART:20190308T130000
 DTEND:20190308T150000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_03_08_hackathon/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1662,6 +1772,7 @@ UID:events-20190312iandrinks
 DTSTAMP:20190312T200000
 DTSTART:20190312T200000
 DTEND:20190313T040000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_03_12_ian_drinks/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1677,6 +1788,7 @@ UID:events-20190314flowers
 DTSTAMP:20190314T130000
 DTSTART:20190314T130000
 DTEND:20190314T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_03_14_flowers/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1692,6 +1804,7 @@ UID:events-20190329whatunit
 DTSTAMP:20190329T130000
 DTSTART:20190329T130000
 DTEND:20190329T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_03_29_what_unit/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1707,6 +1820,7 @@ UID:events-20190403cssminihack
 DTSTAMP:20190403T173000
 DTSTART:20190403T173000
 DTEND:20190403T214000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_04_03_css_minihack/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1722,6 +1836,7 @@ UID:events-20190503agm
 DTSTAMP:20190503T170000
 DTSTART:20190503T170000
 DTEND:20190503T200000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_05_03_agm/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1737,6 +1852,7 @@ UID:events-20190609BBQbanner
 DTSTAMP:20190609T130000
 DTSTART:20190609T130000
 DTEND:20190609T180000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_06_09_BBQ_banner/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1752,6 +1868,7 @@ UID:events-20190924welcomedrinks
 DTSTAMP:20190924T190000
 DTSTART:20190924T190000
 DTEND:20190924T230000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_09_24_welcome_drinks/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1767,6 +1884,7 @@ UID:events-20190926familymeetup
 DTSTAMP:20190926T130000
 DTSTART:20190926T130000
 DTEND:20190926T170000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_09_26_family_meet_up/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1782,6 +1900,7 @@ UID:events-20191009gittalk
 DTSTAMP:20191009T130000
 DTSTART:20191009T130000
 DTEND:20191009T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_10_09_git_talk/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1797,6 +1916,7 @@ UID:events-20191009cssdoesboardgames
 DTSTAMP:20191009T140000
 DTSTART:20191009T140000
 DTEND:20191009T170000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_10_09_css_does_board_games/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1812,6 +1932,7 @@ UID:events-20191014safeleavingdrinks
 DTSTAMP:20191014T190000
 DTSTART:20191014T190000
 DTEND:20191014T210000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_10_14_safe_leaving_drinks/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1827,6 +1948,7 @@ UID:events-20191019BAECTF
 DTSTAMP:20191019T091500
 DTSTART:20191019T091500
 DTEND:20191019T163000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_10_19_BAE_CTF/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1842,6 +1964,7 @@ UID:events-20191024teachingCSSdoescareers
 DTSTAMP:20191024T130000
 DTSTART:20191024T130000
 DTEND:20191024T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_10_24_teaching_CSS_does_careers/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1857,6 +1980,7 @@ UID:events-20191029PhDsCSSdoescareers
 DTSTAMP:20191029T120000
 DTSTART:20191029T120000
 DTEND:20191029T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_10_29_PhDs_CSS_does_careers/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1872,6 +1996,7 @@ UID:events-20191030morganstanlyinteview
 DTSTAMP:20191030T120000
 DTSTART:20191030T120000
 DTEND:20191030T160000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_10_30_morgan_stanly_inteview/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1887,6 +2012,7 @@ UID:events-20191031csswatchesamovie
 DTSTAMP:20191031T170000
 DTSTART:20191031T170000
 DTEND:20191031T213000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_10_31_css_watches_a_movie/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1902,6 +2028,7 @@ UID:events-20191101StartupsCSSdoescareers
 DTSTAMP:20191101T130000
 DTSTART:20191101T130000
 DTEND:20191101T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_11_01_Start_ups_CSS_does_careers/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1917,6 +2044,7 @@ UID:events-20191102csscogslan
 DTSTAMP:20191102T120000
 DTSTART:20191102T120000
 DTEND:20191103T120000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_11_02_css_cogs_lan/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1932,6 +2060,7 @@ UID:events-20191106boardgames
 DTSTAMP:20191106T140000
 DTSTART:20191106T140000
 DTEND:20191106T170000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_11_06_board_games/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1947,6 +2076,7 @@ UID:events-20191112Jumptradingdistsystems
 DTSTAMP:20191112T130000
 DTSTART:20191112T130000
 DTEND:20191112T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_11_12_Jump_trading_dist_systems/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1962,6 +2092,7 @@ UID:events-20191115November2019egm
 DTSTAMP:20191115T180000
 DTSTART:20191115T180000
 DTEND:20191115T200000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_11_15_November_2019_egm/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1977,6 +2108,7 @@ UID:events-20191120bloombergcv
 DTSTAMP:20191120T130000
 DTSTART:20191120T130000
 DTEND:20191120T160000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_11_20_bloomberg_cv/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -1992,6 +2124,7 @@ UID:events-20191120gamedev
 DTSTAMP:20191120T140000
 DTSTART:20191120T140000
 DTEND:20191120T150000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_11_20_game_dev/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2007,6 +2140,7 @@ UID:events-20191121howgamejam
 DTSTAMP:20191120T150000
 DTSTART:20191120T150000
 DTEND:20191120T160000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_11_21_how_game_jam/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2022,6 +2156,7 @@ UID:events-20191122Exploreweekgamejam
 DTSTAMP:20191122T110000
 DTSTART:20191122T110000
 DTEND:20191123T150000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_11_22_Explore_week_game_jam/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2037,6 +2172,7 @@ UID:events-20191127Graphcoreai
 DTSTAMP:20191127T130000
 DTSTART:20191127T130000
 DTEND:20191127T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_11_27_Graphcore_ai/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2052,6 +2188,7 @@ UID:events-20191128TriangleCrawl
 DTSTAMP:20191127T200000
 DTSTART:20191127T200000
 DTEND:20191128T040000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_11_28_Triangle_Crawl/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2067,6 +2204,7 @@ UID:events-20191128csslvpowerofdata
 DTSTAMP:20191128T130000
 DTSTART:20191128T130000
 DTEND:20191128T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_11_28_css_lv_power_of_data/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2082,6 +2220,7 @@ UID:events-20191129treedec
 DTSTAMP:20191129T130000
 DTSTART:20191129T130000
 DTEND:20191129T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_11_29_tree_dec/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2097,6 +2236,7 @@ UID:events-20191203bpuzzled
 DTSTAMP:20191203T180000
 DTSTART:20191203T180000
 DTEND:20191203T200000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_12_03_bpuzzled/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2112,6 +2252,7 @@ UID:events-20191211MVBall
 DTSTAMP:20191210T190000
 DTSTART:20191210T190000
 DTEND:20191210T230000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_12_11_MVBall/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2127,6 +2268,7 @@ UID:events-20191211MVBallafterparty
 DTSTAMP:20191210T230000
 DTSTART:20191210T230000
 DTEND:20191211T040000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_12_11_MVBall_after_party/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2142,6 +2284,7 @@ UID:events-20191213rollerdisco
 DTSTAMP:20191213T190000
 DTSTART:20191213T190000
 DTEND:20191213T220000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_12_13_roller_disco/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2157,6 +2300,7 @@ UID:events-20191217xmasmovienight
 DTSTAMP:20191217T173000
 DTSTART:20191217T173000
 DTEND:20191217T213000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2019_12_17_xmas_movie_night/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2172,6 +2316,7 @@ UID:events-20200124drinks
 DTSTAMP:20200124T190000
 DTSTART:20200124T190000
 DTEND:20200124T230000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_01_24_drinks/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2187,6 +2332,7 @@ UID:events-20200128visa
 DTSTAMP:20200128T130000
 DTSTART:20200128T130000
 DTEND:20200128T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_01_28_visa/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2202,6 +2348,7 @@ UID:events-20200205boardgameswithbeees
 DTSTAMP:20200205T130000
 DTSTART:20200205T130000
 DTEND:20200205T170000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_02_05_board_games_with_beees/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2217,6 +2364,7 @@ UID:events-20200210coffee
 DTSTAMP:20200210T130000
 DTSTART:20200210T130000
 DTEND:20200210T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_02_10_coffee/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2232,6 +2380,7 @@ UID:events-20200211hackml
 DTSTAMP:20200211T130000
 DTSTART:20200211T130000
 DTEND:20200211T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_02_11_hack_ml/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2247,6 +2396,7 @@ UID:events-20200220hashcode
 DTSTAMP:20200220T173000
 DTSTART:20200220T173000
 DTEND:20200220T213000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_02_20_hash_code/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2262,6 +2412,7 @@ UID:events-20200224graphics
 DTSTAMP:20200224T130000
 DTSTART:20200224T130000
 DTEND:20200224T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_02_24_graphics/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2277,6 +2428,7 @@ UID:events-20200227barcrawl
 DTSTAMP:20200227T200000
 DTSTART:20200227T200000
 DTEND:20200228T040000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_02_27_bar_crawl/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2292,6 +2444,7 @@ UID:events-20200229brishack20
 DTSTAMP:20200229T110000
 DTSTART:20200229T110000
 DTEND:20200301T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_02_29_bris_hack_20/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2307,6 +2460,7 @@ UID:events-20200304jointopts
 DTSTAMP:20200304T130000
 DTSTART:20200304T130000
 DTEND:20200304T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_03_04_joint_opts/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2322,6 +2476,7 @@ UID:events-20200304coffeechocolatecode
 DTSTAMP:20200304T140000
 DTSTART:20200304T140000
 DTEND:20200304T170000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_03_04_coffee_chocolate_code/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2337,6 +2492,7 @@ UID:events-20200306boardgames
 DTSTAMP:20200306T100000
 DTSTART:20200306T100000
 DTEND:20200306T170000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_03_06_board_games/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2352,6 +2508,7 @@ UID:events-20200309yr2opts
 DTSTAMP:20200309T093000
 DTSTART:20200309T093000
 DTEND:20200309T103000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_03_09_yr2_opts/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2367,6 +2524,7 @@ UID:events-20200309yr3opts
 DTSTAMP:20200309T130000
 DTSTART:20200309T130000
 DTEND:20200309T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_03_09_yr3_opts/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2382,6 +2540,7 @@ UID:events-20200317standup
 DTSTAMP:20200317T180000
 DTSTART:20200317T180000
 DTEND:20200317T200000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_03_17_standup/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2398,6 +2557,7 @@ UID:events-20200325minecraft
 DTSTAMP:20200320T130000
 DTSTART:20200320T130000
 DTEND:20200524T010000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_03_25_minecraft/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2413,6 +2573,7 @@ UID:events-20200326agm
 DTSTAMP:20200326T170000
 DTSTART:20200326T170000
 DTEND:20200326T200000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_03_26_agm/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2429,6 +2590,7 @@ UID:events-20200401fah
 DTSTAMP:20200401T130000
 DTSTART:20200401T130000
 DTEND:20200601T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_04_01_fah/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2444,6 +2606,7 @@ UID:events-20200503agm
 DTSTAMP:20200503T150000
 DTSTART:20200503T150000
 DTEND:20200503T160000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_05_03_agm/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2459,6 +2622,7 @@ UID:events-20200525coffee
 DTSTAMP:20200525T130000
 DTSTART:20200525T130000
 DTEND:20200525T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_05_25_coffee/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2474,6 +2638,7 @@ UID:events-20200611staymotivated
 DTSTAMP:20200611T143000
 DTSTART:20200611T143000
 DTEND:20201005T210000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_06_11_stay_motivated/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2489,6 +2654,7 @@ UID:events-20200625bbvirtualquiz
 DTSTAMP:20200625T170000
 DTSTART:20200625T170000
 DTEND:20200625T210000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_06_25_bb_virtual_quiz/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2504,6 +2670,7 @@ UID:events-20200627eoystream
 DTSTAMP:20200627T120000
 DTSTART:20200627T120000
 DTEND:20200627T210000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_06_27_eoy_stream/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2519,6 +2686,7 @@ UID:events-20200709quiz
 DTSTAMP:20200717T190000
 DTSTART:20200717T190000
 DTEND:20200717T210000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_07_09_quiz/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2534,6 +2702,7 @@ UID:events-20201003discordparty
 DTSTAMP:20201003T140000
 DTSTART:20201003T140000
 DTEND:20201003T170000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_10_03_discord_party/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2549,6 +2718,7 @@ UID:events-20201005socialbingoug
 DTSTAMP:20201005T160000
 DTSTART:20201005T160000
 DTEND:20201005T170000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_10_05_social_bingo_ug/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2564,6 +2734,7 @@ UID:events-20201005socialbingopg
 DTSTAMP:20201005T173000
 DTSTART:20201005T173000
 DTEND:20201005T183000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_10_05_social_bingo_pg/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2579,6 +2750,7 @@ UID:events-20201009optivercpp
 DTSTAMP:20201009T130000
 DTSTART:20201009T130000
 DTEND:20201009T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_10_09_optivercpp/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2594,6 +2766,7 @@ UID:events-20201010familymeetup
 DTSTAMP:20201010T180000
 DTSTART:20201010T180000
 DTEND:20201010T190000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_10_10_family_meetup/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2609,6 +2782,7 @@ UID:events-20201014msworkshop
 DTSTAMP:20201014T140000
 DTSTART:20201014T140000
 DTEND:20201014T160000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_10_14_ms_workshop/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2624,6 +2798,7 @@ UID:events-20201016careers
 DTSTAMP:20201016T130000
 DTSTART:20201016T130000
 DTEND:20201016T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_10_16_careers/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2639,6 +2814,7 @@ UID:events-20201019venice
 DTSTAMP:20201019T120000
 DTSTART:20201019T120000
 DTEND:20201019T130000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_10_19_venice/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2654,6 +2830,7 @@ UID:events-20201028egm
 DTSTAMP:20201028T130000
 DTSTART:20201028T130000
 DTEND:20201028T150000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_10_28_egm/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2669,6 +2846,7 @@ UID:events-20201105bloombergconsensus
 DTSTAMP:20201105T130000
 DTSTART:20201105T130000
 DTEND:20201105T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_11_05_bloomberg_consensus/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2684,6 +2862,7 @@ UID:events-20201105bloombergbpuzzled
 DTSTAMP:20201105T170000
 DTSTART:20201105T170000
 DTEND:20201105T203000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_11_05_bloomberg_bpuzzled/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2699,6 +2878,7 @@ UID:events-20201111gamejamhowto
 DTSTAMP:20201109T180000
 DTSTART:20201109T180000
 DTEND:20201109T190000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_11_11_gamejam_how_to/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2714,6 +2894,7 @@ UID:events-20201111gamejamminicraft
 DTSTAMP:20201111T150000
 DTSTART:20201111T150000
 DTEND:20201111T160000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_11_11_gamejam_minicraft/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2729,6 +2910,7 @@ UID:events-20201114gamejam
 DTSTAMP:20201114T120000
 DTSTART:20201114T120000
 DTEND:20201115T120000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_11_14_gamejam/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2744,6 +2926,7 @@ UID:events-20201125nextjump
 DTSTAMP:20201125T160000
 DTSTART:20201125T160000
 DTEND:20201125T170000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_11_25_next_jump/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2759,6 +2942,7 @@ UID:events-20201128rockpaperscissors
 DTSTAMP:20201128T130000
 DTSTART:20201128T130000
 DTEND:20201128T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_11_28_rock_paper_scissors/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2774,6 +2958,7 @@ UID:events-20201130ghystonwasm
 DTSTAMP:20201130T160000
 DTSTART:20201130T160000
 DTEND:20201130T170000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_11_30_ghyston_wasm/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2789,6 +2974,7 @@ UID:events-20201217christmasquiz
 DTSTAMP:20201217T190000
 DTSTART:20201217T190000
 DTEND:20201217T220000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2020_12_17_christmas_quiz/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2804,6 +2990,7 @@ UID:events-20210127tradecraft
 DTSTAMP:20210127T170000
 DTSTART:20210127T170000
 DTEND:20210127T193000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021_01_27_tradecraft/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2819,6 +3006,7 @@ UID:events-20210211stopandsmelltheflowers
 DTSTAMP:20210211T170000
 DTSTART:20210211T170000
 DTEND:20210211T180000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021_02_11_stop_and_smell_the_flowers/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2834,6 +3022,7 @@ UID:events-20210212connect4
 DTSTAMP:20210212T190000
 DTSTART:20210212T190000
 DTEND:20210212T200000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021_02_12_connect4/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2849,6 +3038,7 @@ UID:events-2021-02-17opensafelytpp
 DTSTAMP:20210217T140000
 DTSTART:20210217T140000
 DTEND:20210217T150000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021-02-17_opensafely_tpp/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2864,6 +3054,7 @@ UID:events-2021-02-19familygamenight
 DTSTAMP:20210219T190000
 DTSTART:20210219T190000
 DTEND:20210219T210000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021-02-19_family_game_night/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2879,6 +3070,7 @@ UID:events-20210225hashcode
 DTSTAMP:20210225T173000
 DTSTART:20210225T173000
 DTEND:20210225T213000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021_02_25_hashcode/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2894,6 +3086,7 @@ UID:events-2021-03-10visainterview
 DTSTAMP:20210310T140000
 DTSTART:20210310T140000
 DTEND:20210310T150000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021-03-10_visa_interview/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2909,6 +3102,7 @@ UID:events-2021-03-18robotics
 DTSTAMP:20210318T170000
 DTSTART:20210318T170000
 DTEND:20210318T180000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021-03-18_robotics/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2924,6 +3118,7 @@ UID:events-2021-03-20boeinghackathon
 DTSTAMP:20210320T120000
 DTSTART:20210320T120000
 DTEND:20210321T160000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021-03-20_boeing_hackathon/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2939,6 +3134,7 @@ UID:events-2021-03-24privacy
 DTSTAMP:20210324T140000
 DTSTART:20210324T140000
 DTEND:20210324T150000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021-03-24_privacy/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2954,6 +3150,7 @@ UID:events-2021-03-26bemsinternational
 DTSTAMP:20210326T130000
 DTSTART:20210326T130000
 DTEND:20210326T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021-03-26_bems_international/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2969,6 +3166,7 @@ UID:events-2021-03-31chaosdating
 DTSTAMP:20210331T190000
 DTSTART:20210331T190000
 DTEND:20210331T220000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021-03-31_chaos_dating/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2984,6 +3182,7 @@ UID:events-2021-04-23csonsociety
 DTSTAMP:20210423T130000
 DTSTART:20210423T130000
 DTEND:20210423T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021-04-23_cs_on_society/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -2999,6 +3198,7 @@ UID:events-2021-04-28alexa
 DTSTAMP:20210428T140000
 DTSTART:20210428T140000
 DTEND:20210428T160000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021-04-28_alexa/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -3015,6 +3215,7 @@ UID:events-2021-04-30bestlecturervote
 DTSTAMP:20210430T130000
 DTSTART:20210430T130000
 DTEND:20210430T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021-04-30_best_lecturer_vote/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -3030,6 +3231,7 @@ UID:events-2021-05-05waspmiteworlds
 DTSTAMP:20210505T130000
 DTSTART:20210505T130000
 DTEND:20210505T140000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021-05-05_waspmite_worlds/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -3045,6 +3247,7 @@ UID:events-2021-05-05lectureawards
 DTSTAMP:20210505T143000
 DTSTART:20210505T143000
 DTEND:20210505T150000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021-05-05_lecture_awards/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -3060,6 +3263,7 @@ UID:events-2021-05-17agm
 DTSTAMP:20210517T183000
 DTSTART:20210517T183000
 DTEND:20210517T200000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021-05-17_agm/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -3075,6 +3279,7 @@ UID:events-2021-06-24postlockdownbarcrawl
 DTSTAMP:20210624T190000
 DTSTART:20210624T190000
 DTEND:20210625T040000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021-06-24_post_lockdown_barcrawl/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -3091,6 +3296,7 @@ UID:events-20210920virtualpubquiz
 DTSTAMP:20210920T150000
 DTSTART:20210920T150000
 DTEND:20210920T163000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021_09_20_virtual_pub_quiz/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -3106,6 +3312,7 @@ UID:events-20210921virtualgamesesh
 DTSTAMP:20210921T120000
 DTSTART:20210921T120000
 DTEND:20210921T130000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021_09_21_virtual_game_sesh/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -3121,6 +3328,7 @@ UID:events-20210923meetcomitteepizza
 DTSTAMP:20210923T150000
 DTSTART:20210923T150000
 DTEND:20210923T190000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021_09_23_meet_comittee_pizza/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -3136,6 +3344,7 @@ UID:events-20210923welcomedrinks
 DTSTAMP:20210923T190000
 DTSTART:20210923T190000
 DTEND:20210924T000000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021_09_23_welcome_drinks/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -3151,6 +3360,7 @@ UID:events-20211106BAECTF
 DTSTAMP:20211106T100000
 DTSTART:20211106T100000
 DTEND:20211106T160000
+LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2021_11_06_BAE_CTF/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
