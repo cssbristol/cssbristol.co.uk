@@ -19,6 +19,8 @@ Join us at 7pm for welcome drinks at the Brass Pig! Make new friends and mingle 
 If you plan on attending, please fill in [this](https://forms.gle/wL9TQCRv9Z7DoTEQA) form here so that we know how many
 people to expect. But feel free to also show up on the day even if you didn't fill in the form!
 
+And of course, in the classic CSS fashion, there will be free booze!
+
 **This event is open to students from all years.**
 
 **RSVP:** https://forms.gle/CWSQR6FHr4kgMyaU9
