@@ -59,6 +59,9 @@ def post_daily_post(events: List[Event]) -> None:
         else:
             events_list += f"- {e.title}\n  {e.website_link}\n"
 
+    if not events_list:
+        return 
+
     webhook = DiscordWebhook(url=DISCORD_URL)
     webhook.set_content(content=f"Today we have the following events: :eyes:\n{events_list}\nLooking forward to seeing you!")
     response = webhook.execute()
