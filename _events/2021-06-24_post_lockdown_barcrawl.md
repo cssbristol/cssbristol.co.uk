@@ -4,8 +4,8 @@ published: true
 cancelled: true
 cancel_reason: COVID Reopening Delay 
 title: Post-Lockdown Barcrawl
-date:     2021-06-24 19:00:00
-date_end: 2021-06-25 04:00:00
+date:     2021-06-24 19:00:00 +0100
+date_end: 2021-06-25 04:00:00 +0100
 banner: 2021-06-24_post_lockdown_barcrawl.png
 location: Triangle Pubs
 fb_link: https://www.facebook.com/events/1218156125288638/

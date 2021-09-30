@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: BAE Systems - Binary Exploitation and Reverse Engineering
-date:     2016-11-23 11:00:00
-date_end: 2016-11-23 12:00:00
+date:     2016-11-23 11:00:00 +0000
+date_end: 2016-11-23 12:00:00 +0000
 banner: 2016_11_23_bae_ctf_talk.png
 location: MVB 1.06
 fb_link: https://www.facebook.com/events/168887416909105

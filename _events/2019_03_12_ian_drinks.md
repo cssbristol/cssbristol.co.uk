@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: Dr Ian's Leaving Drinks | CSS Bar Crawl 2
-date:     2019-03-12 20:00:00
-date_end: 2019-03-13 04:00:00
+date:     2019-03-12 20:00:00 +0000
+date_end: 2019-03-13 04:00:00 +0000
 banner: 2019_03_12_ian_drinks.jpg
 location: Alterego
 fb_link: https://www.facebook.com/events/547974575700291/

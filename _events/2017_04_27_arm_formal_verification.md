@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Formal Verification - ARM
-date:     2017-04-27 14:00:00
-date_end: 2017-04-27 15:00:00
+date:     2017-04-27 14:00:00 +0100
+date_end: 2017-04-27 15:00:00 +0100
 banner: 2017_04_27_arm_formal_verification.jpg
 location: Queens 1.18
 fb_link: https://www.facebook.com/events/144316992767733/

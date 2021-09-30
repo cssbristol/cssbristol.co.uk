@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: The Ultimate CSS Rock Paper Scissors MLG PRO TOURNAMENT
-date:     2020-11-28 13:00:00
-date_end: 2020-11-28 14:00:00
+date:     2020-11-28 13:00:00 +0000
+date_end: 2020-11-28 14:00:00 +0000
 banner: 2020_11_28_rock_paper_scissors.png
 location: Discord
 fb_link: https://www.facebook.com/events/700799004187889

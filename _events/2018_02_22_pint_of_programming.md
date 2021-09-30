@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: A Pint of Programming
-date:     2018-02-22 18:00:00
-date_end: 2018-02-22 22:00:00
+date:     2018-02-22 18:00:00 +0000
+date_end: 2018-02-22 22:00:00 +0000
 banner: 2018_02_22_pint_of_programming.jpg
 location: The White Heart
 fb_link: https://www.facebook.com/events/149573015851724

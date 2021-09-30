@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: "Stop and Smell the Flowers: Augmenting VR with Olfaction"
-date:     2021-02-11 17:00:00
-date_end: 2021-02-11 18:00:00
+date:     2021-02-11 17:00:00 +0000
+date_end: 2021-02-11 18:00:00 +0000
 banner: 2021_02_11_stop_and_smell_the_flowers.jpg
 location: Teams
 fb_link: https://www.facebook.com/events/171914264369421

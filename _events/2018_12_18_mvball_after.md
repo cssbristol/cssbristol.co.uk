@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: MVBall Official After Party
-date:     2018-12-18 23:00:00
-date_end: 2018-12-19 04:00:00
+date:     2018-12-18 23:00:00 +0000
+date_end: 2018-12-19 04:00:00 +0000
 banner: 2018_12_18_mvball_after.jpg
 location: Lola Lo
 fb_link: https://www.facebook.com/events/1176762445816223/

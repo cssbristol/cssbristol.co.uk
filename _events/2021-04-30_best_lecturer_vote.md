@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: "Vote: 2021 Best Lecturer"
-date:     2021-04-30 13:00:00
-date_end: 2021-04-30 14:00:00
+date:     2021-04-30 13:00:00 +0100
+date_end: 2021-04-30 14:00:00 +0100
 banner:
 location: Online
 fb_link: https://www.facebook.com/events/821367438736439

@@ -2,8 +2,8 @@
 layout: event
 published: true
 title: Morgan Stanley Interview Skills
-date:     2019-10-30 13:00:00
-date_end: 2019-10-30 16:00:00
+date:     2019-10-30 13:00:00 +0100
+date_end: 2019-10-30 16:00:00 +0100
 banner: 2019_10_30_morgan_stanly_inteview.png
 location: Queens 1.6
 fb_link: https://www.facebook.com/events/438323823467310/

@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: BEMS' International Social
-date:     2021-03-26 13:00:00
-date_end: 2021-03-26 14:00:00
+date:     2021-03-26 13:00:00 +0000
+date_end: 2021-03-26 14:00:00 +0000
 banner: 2021-03-26_bems_international.jpg
 location: WeChat
 fb_link:

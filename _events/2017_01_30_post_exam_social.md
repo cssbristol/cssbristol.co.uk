@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: End Of Exams Social
-date:     2017-01-30 20:00:00
-date_end: 2017-01-31 04:00:00
+date:     2017-01-30 20:00:00 +0000
+date_end: 2017-01-31 04:00:00 +0000
 banner: 2017_01_30_post_exam_social.jpg
 location: The Berkeley
 fb_link: https://www.facebook.com/events/1657929487834605/

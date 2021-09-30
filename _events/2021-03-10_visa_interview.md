@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Interview Top Tips with VISA
-date:     2021-03-10 14:00:00
-date_end: 2021-03-10 15:00:00
+date:     2021-03-10 14:00:00 +0000
+date_end: 2021-03-10 15:00:00 +0000
 banner: 2021-03-10_visa_interview.png
 location: Online
 fb_link: https://www.facebook.com/events/454214146012716

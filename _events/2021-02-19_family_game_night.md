@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Family Game Night
-date:     2021-02-19 19:00:00
-date_end: 2021-02-19 21:00:00
+date:     2021-02-19 19:00:00 +0000
+date_end: 2021-02-19 21:00:00 +0000
 banner: 2021-02-19_family_game_night.jpg
 location: Online
 fb_link: https://www.facebook.com/events/248774500126991/

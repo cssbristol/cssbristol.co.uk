@@ -4,8 +4,8 @@ published: true
 title: "Debate: AI, Media & our obsession with Data"
 cancelled: false
 cancel_reason:
-date:     2018-03-20 17:15:00
-date_end: 2018-03-20 18:30:00
+date:     2018-03-20 17:15:00 +0000
+date_end: 2018-03-20 18:30:00 +0000
 banner: 2018_03_20_debate.jpg
 location: 1.68 Queens
 fb_link: https://www.facebook.com/events/1667979293295515

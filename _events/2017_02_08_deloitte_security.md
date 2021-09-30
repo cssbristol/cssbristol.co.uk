@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Deloitte - Security in Banking
-date:     2017-02-08 13:00:00
-date_end: 2017-02-08 14:00:00
+date:     2017-02-08 13:00:00 +0000
+date_end: 2017-02-08 14:00:00 +0000
 banner: 2017_02_08_deloitte_security.png
 location: Pugsley Lecture Theatre
 fb_link: https://www.facebook.com/events/1866119526989648

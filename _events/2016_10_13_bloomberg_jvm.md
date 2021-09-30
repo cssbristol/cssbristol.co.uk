@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: Bloomberg - How the JVM Executes Java
-date:     2016-10-13 13:00:00
-date_end: 2016-10-13 14:00:00
+date:     2016-10-13 13:00:00 +0100
+date_end: 2016-10-13 14:00:00 +0100
 banner: 2016_10_13_bloomberg_jvm.png
 location: MVB 1.06
 fb_link: https://www.facebook.com/events/604257646426183/

@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: CSS Boeing Hackathon 2017
-date:     2017-02-27 13:00:00
-date_end: 2017-02-28 14:00:00
+date:     2017-02-27 13:00:00 +0000
+date_end: 2017-02-28 14:00:00 +0000
 banner: 2017-02-27-hackathon/hackathon-cover-image.png
 location: MVB
 fb_link: https://www.facebook.com/events/392877197725107/

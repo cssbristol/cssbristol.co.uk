@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: CSS Does Minecraft!
-date:     2018-03-02 16:00:00
-date_end: 2018-03-02 20:00:00
+date:     2018-03-02 16:00:00 +0000
+date_end: 2018-03-02 20:00:00 +0000
 banner: 2018_03_02_minecraft.jpg
 location: MVB Atrium
 fb_link: https://www.facebook.com/events/354833295032432/
