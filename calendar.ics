@@ -3355,6 +3355,22 @@ DESCRIPTION:Join us at 7pm for welcome drinks at the Brass ...
 LOCATION:The Brass Pig
 END:VEVENT
 BEGIN:VEVENT
+UID:events-20211013morganstanley
+ @cssbristol.co.uk
+DTSTAMP:20211013T133000
+DTSTART:20211013T133000
+DTEND:20211013T153000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2021_10_13_morgan_stanley/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021_10_13_morgan_stanley.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Technical interview workshop with Morgan Stanley
+DESCRIPTION:Morgan Stanley believes capital has the power t...
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
 UID:events-20211106BAECTF
  @cssbristol.co.uk
 DTSTAMP:20211106T100000
