@@ -3387,6 +3387,22 @@ DESCRIPTION:
 LOCATION:MVB Atrium
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2021-10-20alexa
+ @cssbristol.co.uk
+DTSTAMP:20211020T143000
+DTSTART:20211020T143000
+DTEND:20211020T163000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2021-10-20_alexa/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021-04-28_alexa.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Alexa Skills with Amazon
+DESCRIPTION:Alexa is Amazon’s voice AI.
+LOCATION:TBA
+END:VEVENT
+BEGIN:VEVENT
 UID:events-20211106BAECTF
  @cssbristol.co.uk
 DTSTAMP:20211106T100000
