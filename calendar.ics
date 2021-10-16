@@ -3403,6 +3403,22 @@ DESCRIPTION:Alexa is Amazon’s voice AI.
 LOCATION:TBA
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2021barcrawl
+ @cssbristol.co.uk
+DTSTAMP:20211104T180000
+DTSTART:20211104T180000
+DTEND:20211105T040000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2021_bar_crawl/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021-06-24_post_lockdown_barcrawl.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Post-Lockdown Barcrawl
+DESCRIPTION:CSS’s annual barcrawl has finally returned!
+LOCATION:Triangle Pubs
+END:VEVENT
+BEGIN:VEVENT
 UID:events-20211106BAECTF
  @cssbristol.co.uk
 DTSTAMP:20211106T100000
