@@ -3399,8 +3399,8 @@ IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/2021-04-28_alexa.jpg
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Build Voice-Enabled Experiences with Alexa
-DESCRIPTION:Alexa is Amazon’s voice AI.
-LOCATION:TBA
+DESCRIPTION:[Join the Call](https://teams.microsoft.com/l/m...
+LOCATION:Bill Brown Suite, Queens Building
 END:VEVENT
 BEGIN:VEVENT
 UID:events-2021barcrawl
