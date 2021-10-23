@@ -3403,6 +3403,22 @@ DESCRIPTION:[Join the Call](https://teams.microsoft.com/l/m...
 LOCATION:Bill Brown Suite, Queens Building
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2021-10-30gamejam
+ @cssbristol.co.uk
+DTSTAMP:20211030T110000
+DTSTART:20211030T110000
+DTEND:20211031T130000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2021-10-30_game_jam/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021_10_30_game_jam.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS GameJam
+DESCRIPTION:SIGN UP HERE: https://forms.office.com/r/nYMwzR...
+LOCATION:MVB 1.11/1.11 A
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2021barcrawl
  @cssbristol.co.uk
 DTSTAMP:20211104T180000
