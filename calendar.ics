@@ -3403,6 +3403,22 @@ DESCRIPTION:[Join the Call](https://teams.microsoft.com/l/m...
 LOCATION:Bill Brown Suite, Queens Building
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2021-10-27bloombergopenpr
+ @cssbristol.co.uk
+DTSTAMP:20211027T133000
+DTSTART:20211027T133000
+DTEND:20211027T133000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2021-10-27_bloomberg_open_pr/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021-10-27_bloomberg_open_pr.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:A PR has been opened by Bloomberg...
+DESCRIPTION:TypeScript is used extensively at Bloomberg, an...
+LOCATION:Online/MVB
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2021-10-30gamejam
  @cssbristol.co.uk
 DTSTAMP:20211030T110000
