@@ -5,7 +5,7 @@ cancelled: false
 cancel_reason:
 title: A PR has been opened by Bloomberg...
 date:     2021-10-27 13:30:00 +0100
-date_end: 2021-10-27 13:30:00 +0100
+date_end: 2021-10-27 14:30:00 +0100
 banner: 2021-10-27_bloomberg_open_pr.jpg
 location: Online/MVB
 fb_link: 
