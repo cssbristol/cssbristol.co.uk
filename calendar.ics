@@ -3419,6 +3419,22 @@ DESCRIPTION:TypeScript is used extensively at Bloomberg, an...
 LOCATION:Online/MVB
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2021-10-28howtogamejam
+ @cssbristol.co.uk
+DTSTAMP:20211028T190000
+DTSTART:20211028T190000
+DTEND:20211028T190000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2021-10-28_how_to_gamejam/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021-10-28_how_to_gamejam.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:How to GameJam
+DESCRIPTION:Get ready for this weekend’s upcoming GameJam b...
+LOCATION:Teams
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2021-10-30gamejam
  @cssbristol.co.uk
 DTSTAMP:20211030T110000
