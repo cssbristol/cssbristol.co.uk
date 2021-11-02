@@ -16,8 +16,8 @@ cohost:
   - company: Clifford Chance
 ---
 ## Time / Location:
-17:00-17:30 for pizza in the MVB Atrium,
-17:30 - 18:30  for the talk in Pugsley Lecture Theatre - 1.40 Queens Building.
+* 17:00-17:30 for pizza in the MVB Atrium,
+* 17:30 - 18:30  for the talk in Pugsley Lecture Theatre - 1.40 Queens Building.
 
 **The talk will also be streamed through Microsoft Teams. We will email you the meeting link before the start of the event.**
 
