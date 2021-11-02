@@ -3467,6 +3467,22 @@ DESCRIPTION:CSS’s annual barcrawl has finally returned!
 LOCATION:Triangle Pubs
 END:VEVENT
 BEGIN:VEVENT
+UID:events-20211109cliffordchance
+ @cssbristol.co.uk
+DTSTAMP:20211109T170000
+DTSTART:20211109T170000
+DTEND:20211109T190000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2021_11_09_clifford_chance/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021_11_09_clifford_chance.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Building a resilient tech strategy for the next...
+DESCRIPTION:Time / Location:17:00-17:30 for pizza in the M...
+LOCATION:MVB / Queens
+END:VEVENT
+BEGIN:VEVENT
 UID:events-20211106BAECTF
  @cssbristol.co.uk
 DTSTAMP:20211120T100000
