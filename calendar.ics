@@ -3483,6 +3483,22 @@ DESCRIPTION:Time / Location:  17:00-17:30 for pizza in th...
 LOCATION:MVB / Queens
 END:VEVENT
 BEGIN:VEVENT
+UID:events-20211117haskelltalk
+ @cssbristol.co.uk
+DTSTAMP:20211117T130000
+DTSTART:20211117T130000
+DTEND:20211117T150000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2021_11_17_haskell_talk/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021_11_17_haskell_talk.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:SUPERFAST HASKELL or How I Learned to Stop Worr...
+DESCRIPTION:Join us for a talk by James Foster about making...
+LOCATION:MVB 1.11/1.11A
+END:VEVENT
+BEGIN:VEVENT
 UID:events-20211106BAECTF
  @cssbristol.co.uk
 DTSTAMP:20211120T100000
