@@ -3483,6 +3483,22 @@ DESCRIPTION:Time / Location:  17:00-17:30 for pizza in th...
 LOCATION:MVB / Queens
 END:VEVENT
 BEGIN:VEVENT
+UID:events-20211111egm
+ @cssbristol.co.uk
+DTSTAMP:20211111T160000
+DTSTART:20211111T160000
+DTEND:20211111T180000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2021_11_11_egm/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2021_11_11_egm.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:EGM 2021
+DESCRIPTION:Do you love pizza? What about democracy? If the...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
 UID:events-20211117haskelltalk
  @cssbristol.co.uk
 DTSTAMP:20211117T130000
