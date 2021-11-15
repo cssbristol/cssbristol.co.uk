@@ -23,23 +23,29 @@
     justify-content: center;
   }
 
-  &__links li {
-    display: inline;
-    list-style-type: none;
-    padding-bottom: 3px;
-    transition: 0.1s;
-    border: 1px solid rgba(0,0,0,0);
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
 
-    &:hover {
-      border: 1px solid white;
-    }
+    & li {
+      display: inline;
+      list-style-type: none;
+      padding-bottom: 3px;
+      transition: 0.1s;
+      border: 1px solid rgba(0,0,0,0);
 
-    @include media-query($on-palm) {
-      display: block;
-      margin: 10px 0;
-      text-align: center;
-      width: 100%;
-      font-size: x-large;
+      &:hover {
+        border: 1px solid white;
+      }
+
+      @include media-query($on-palm) {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+        width: 100%;
+        font-size: x-large;
+      }
     }
   }
 
