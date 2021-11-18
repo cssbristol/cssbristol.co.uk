@@ -453,6 +453,8 @@ blockquote .citation:before { content: '-'; margin-right: 0.5rem; }
 
 @media screen and (max-width: 900px) { .page-navigation { padding: 0 0; width: 100%; justify-content: center; } }
 
+.page-navigation__links { display: flex; flex-wrap: wrap; justify-content: end; }
+
 .page-navigation__links li { display: inline; list-style-type: none; padding-bottom: 3px; transition: 0.1s; border: 1px solid rgba(0, 0, 0, 0); }
 
 .page-navigation__links li:hover { border: 1px solid white; }
