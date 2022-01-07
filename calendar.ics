@@ -3530,4 +3530,20 @@ SUMMARY:BAE Systems CTF
 DESCRIPTION:(MOVED FROM 6th NOVEMBER TO 20th NOVEMBER)
 LOCATION:Bill Brown Suite
 END:VEVENT
+BEGIN:VEVENT
+UID:events-2022-02-24hashcode
+ @cssbristol.co.uk
+DTSTAMP:20220224T173000
+DTSTART:20220224T173000
+DTEND:20220224T213000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2022-02-24_hashcode/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2022-02-24_hashcode.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Google Hashcode 2022
+DESCRIPTION:Join us to take part in Google’s anual coding c...
+LOCATION:Hash-code Discord
+END:VEVENT
 END:VCALENDAR
