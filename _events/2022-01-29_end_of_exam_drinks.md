@@ -4,8 +4,8 @@ published: true
 cancelled: false
 cancel_reason:
 title: End of exams drinks
-date:     2022-01-29 20:00:00 +0100
-date_end: 2022-01-29 23:00:00 +0100
+date:     2022-01-29 20:00:00 +0000
+date_end: 2022-01-29 23:00:00 +0000
 banner: 2022-01-29_end_of_exams_drinks.jpg
 location: The White Bear
 price: Free
