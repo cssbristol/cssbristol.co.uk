@@ -3578,4 +3578,20 @@ SUMMARY:Google Hashcode 2022
 DESCRIPTION:Join us to take part in Google’s anual coding c...
 LOCATION:Hash-code Discord
 END:VEVENT
+BEGIN:VEVENT
+UID:events-2022-02-26boeinghackathon
+ @cssbristol.co.uk
+DTSTAMP:20220226T110000
+DTSTART:20220226T110000
+DTEND:20220227T134500
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2022-02-26_boeing_hackathon/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2022-02-26-boeing_hackathon.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS x Boeing Hackathon 2022
+DESCRIPTION:Our premier CSS x Boeing hackathon is back! Joi...
+LOCATION:MVB 2.11 + Hackspace
+END:VEVENT
 END:VCALENDAR
