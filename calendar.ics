@@ -3531,6 +3531,22 @@ DESCRIPTION:(MOVED FROM 6th NOVEMBER TO 20th NOVEMBER)
 LOCATION:Bill Brown Suite
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2022-01-29endofexamdrinks
+ @cssbristol.co.uk
+DTSTAMP:20220129T190000
+DTSTART:20220129T190000
+DTEND:20220129T230000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2022-01-29_end_of_exam_drinks/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2022-01-29_end_of_exams_drinks.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:End of exams drinks
+DESCRIPTION:Come and join us at the White Bear and blow off...
+LOCATION:The White Bear
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2022-02-24hashcode
  @cssbristol.co.uk
 DTSTAMP:20220224T173000
