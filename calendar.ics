@@ -3547,6 +3547,22 @@ DESCRIPTION:Come and join us at the White Bear and blow off...
 LOCATION:The White Bear
 END:VEVENT
 BEGIN:VEVENT
+UID:events-20220202bloombergbpuzzled
+ @cssbristol.co.uk
+DTSTAMP:20220202T160000
+DTSTART:20220202T160000
+DTEND:20220202T193000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2022_02_02_bloomberg_bpuzzled/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2022_02_02_bloomberg_bpuzzled.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Bloomberg Bpuzzled
+DESCRIPTION:Bpuzzled is an annual, global, puzzle competiti...
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2022-02-24hashcode
  @cssbristol.co.uk
 DTSTAMP:20220224T173000
