@@ -23,7 +23,7 @@ Our premier CSS x Boeing hackathon is back! Join us for a thrilling 24 hours of 
 
 Freebies are making a comeback - sign up and participate to receive a T-shirt, free pizza and breakfast!
 
-Participate as a team of up to 6, or sign up solo and we'll match you up with other people - take on some of the most relevant issues the world is facing today!
+Participate as a team of up to 6, or sign up solo and we'll match you up with other people - take on some of the most relevant issues the world is facing today! The event is open to all students. Projects MUST have a software engineering aspect to them.
 
 ## THEME Sustainable Cities and Communities 🏢🏠
 
