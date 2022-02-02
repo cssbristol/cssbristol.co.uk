@@ -1,21 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.cssbristol.co.uk/feed/events.xml" rel="self" type="application/atom+xml" /><link href="https://www.cssbristol.co.uk/" rel="alternate" type="text/html" /><updated>2022-02-02T06:17:40+00:00</updated><id>https://www.cssbristol.co.uk/feed/events.xml</id><title type="html">CSS Bristol | Events</title><subtitle>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</subtitle><entry><title type="html">CSS x Boeing Hackathon 2022</title><link href="https://www.cssbristol.co.uk/events/2022-02-26_boeing_hackathon/" rel="alternate" type="text/html" title="CSS x Boeing Hackathon 2022" /><published>2022-02-26T11:00:00+00:00</published><updated>2022-02-26T11:00:00+00:00</updated><id>https://www.cssbristol.co.uk/events/2022-02-26_boeing_hackathon</id><content type="html" xml:base="https://www.cssbristol.co.uk/events/2022-02-26_boeing_hackathon/">&lt;p&gt;Our premier CSS x Boeing hackathon is back! Join us for a thrilling 24 hours of building, hacking, brainstorming, power-napping, and making. This event is open to all courses &amp;amp; years - we can’t wait to see all the different projects you guys come up with! This time we’re going to be fully in-person and we are opening up the hackspace so you can build something if you choose!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.cssbristol.co.uk/feed/events.xml" rel="self" type="application/atom+xml" /><link href="https://www.cssbristol.co.uk/" rel="alternate" type="text/html" /><updated>2022-02-02T12:04:56+00:00</updated><id>https://www.cssbristol.co.uk/feed/events.xml</id><title type="html">CSS Bristol | Events</title><subtitle>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</subtitle><entry><title type="html">CSS x Boeing Hackathon 2022</title><link href="https://www.cssbristol.co.uk/events/2022-02-26_boeing_hackathon/" rel="alternate" type="text/html" title="CSS x Boeing Hackathon 2022" /><published>2022-02-26T11:00:00+00:00</published><updated>2022-02-26T11:00:00+00:00</updated><id>https://www.cssbristol.co.uk/events/2022-02-26_boeing_hackathon</id><content type="html" xml:base="https://www.cssbristol.co.uk/events/2022-02-26_boeing_hackathon/">&lt;h2 id=&quot;theme-sustainable-cities-and-communities-&quot;&gt;THEME: Sustainable Cities and Communities 🏢🏠&lt;/h2&gt;
+
+&lt;p&gt;From lack of affordable housing to the air quality crisis, modern cities have a long way to go before they can be truly sustainable. Come up with innovative solutions to the issues of creating sustainable cities and communities in our premier 24hr hackathon to win large cash prizes!&lt;/p&gt;
 
 &lt;p&gt;Freebies are making a comeback - sign up and participate to receive a T-shirt, free pizza and breakfast!&lt;/p&gt;
 
-&lt;p&gt;Participate as a team of up to 6, or sign up solo and we’ll match you up with other people - take on some of the most relevant issues the world is facing today! The event is open to all students. Projects MUST have a software engineering aspect to them.&lt;/p&gt;
+&lt;h2 id=&quot;sign-up&quot;&gt;SIGN UP&lt;/h2&gt;
 
-&lt;h2 id=&quot;theme-sustainable-cities-and-communities-&quot;&gt;THEME Sustainable Cities and Communities 🏢🏠&lt;/h2&gt;
+&lt;p&gt;Deadline: 23:59 on Friday 18th February 2022&lt;/p&gt;
 
-&lt;p&gt;There will be a £600 winning team prize, a £400 2nd-place prize and a £200 3rd-place prize based on the quality, completeness and innovation of each project, judged by a panel of your favourite academics.&lt;/p&gt;
+&lt;p&gt;Sign up form: &lt;a href=&quot;https://forms.office.com/r/MeseGuigej&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Make sure you:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Sign up before &lt;strong&gt;Midnight Sat 19th&lt;/strong&gt;: &lt;a href=&quot;https://forms.office.com/r/MeseGuigej&quot;&gt;form&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See the FAQ below&lt;/li&gt;
-  &lt;li&gt;See the Judging Criteria below&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Please make sure you read the &lt;a href=&quot;#faq&quot;&gt;FAQ&lt;/a&gt; and &lt;a href=&quot;#judging-criteria&quot;&gt;Judging Criteria&lt;/a&gt;!&lt;/p&gt;
 
-&lt;h2 id=&quot;schedule&quot;&gt;Schedule&lt;/h2&gt;
+&lt;h2 id=&quot;inspiration&quot;&gt;Inspiration&lt;/h2&gt;
+
+&lt;p&gt;Why not look to the &lt;a href=&quot;https://www.globalgoals.org/11-sustainable-cities-and-communities&quot;&gt;UN Sustainable Development Goals&lt;/a&gt; for inspiration for which problem to tackle?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/contrib/events/2022-02-26-boeing_hackathon_un_goals.png&quot; alt=&quot;UN Sustable Development Goals&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The best entries will be technologically impressive, innovative and solve a real problem.&lt;/p&gt;
+
+&lt;h2 id=&quot;prizes&quot;&gt;Prizes&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1st Place Team&lt;/strong&gt;: £600 cash&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2nd Place Team&lt;/strong&gt;: £400 cash&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3rd Place Team&lt;/strong&gt;: £200 cash&lt;/p&gt;
+
+&lt;h2 id=&quot;timetable&quot;&gt;Timetable&lt;/h2&gt;
 
 &lt;table style=&quot;margin: 0.75em auto 0;&quot;&gt;
   &lt;thead&gt;
@@ -40,9 +53,11 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&quot;sign-up&quot;&gt;Sign up!&lt;/h2&gt;
+&lt;p&gt;NB - Dinner (Pizza) and Breakfast will be provided.&lt;/p&gt;
 
-&lt;p&gt;Sign up before &lt;strong&gt;Midnight Sat 19th&lt;/strong&gt;: &lt;a href=&quot;https://forms.office.com/r/MeseGuigej&quot;&gt;form&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;sign-up-1&quot;&gt;Sign up!&lt;/h2&gt;
+
+&lt;p&gt;Sign up before &lt;strong&gt;23:59 Fri 18th&lt;/strong&gt;: &lt;a href=&quot;https://forms.office.com/r/MeseGuigej&quot;&gt;form&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;faq&quot;&gt;FAQ&lt;/h2&gt;
 
@@ -50,7 +65,7 @@
 
 &lt;h2 id=&quot;judging-criteria&quot;&gt;Judging Criteria&lt;/h2&gt;
 
-&lt;p&gt;Judging Criteria: &lt;a href=&quot;https://docs.google.com/document/d/19pTcPTWSq14L6l5S-YBQfIdlRpEGwVW8EGU7sJzTiLQ/edit?usp=sharing&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Networking&quot;, &quot;Careers&quot;, &quot;Competition&quot;]" /><summary type="html">Our premier CSS x Boeing hackathon is back! Join us for a thrilling 24 hours of building, hacking, brainstorming, power-napping, and making. This event is open to all courses &amp;amp; years - we can’t wait to see all the different projects you guys come up with! This time we’re going to be fully in-person and we are opening up the hackspace so you can build something if you choose!</summary></entry><entry><title type="html">Google Hashcode 2022</title><link href="https://www.cssbristol.co.uk/events/2022-02-24_hashcode/" rel="alternate" type="text/html" title="Google Hashcode 2022" /><published>2022-02-24T17:30:00+00:00</published><updated>2022-02-24T17:30:00+00:00</updated><id>https://www.cssbristol.co.uk/events/2022-02-24_hashcode</id><content type="html" xml:base="https://www.cssbristol.co.uk/events/2022-02-24_hashcode/">&lt;p&gt;Join us to take part in Google’s anual coding competition: Hashcode.
+&lt;p&gt;Judging Criteria: &lt;a href=&quot;https://docs.google.com/document/d/19pTcPTWSq14L6l5S-YBQfIdlRpEGwVW8EGU7sJzTiLQ/edit?usp=sharing&quot;&gt;link&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Networking&quot;, &quot;Careers&quot;, &quot;Competition&quot;]" /><summary type="html">THEME: Sustainable Cities and Communities 🏢🏠</summary></entry><entry><title type="html">Google Hashcode 2022</title><link href="https://www.cssbristol.co.uk/events/2022-02-24_hashcode/" rel="alternate" type="text/html" title="Google Hashcode 2022" /><published>2022-02-24T17:30:00+00:00</published><updated>2022-02-24T17:30:00+00:00</updated><id>https://www.cssbristol.co.uk/events/2022-02-24_hashcode</id><content type="html" xml:base="https://www.cssbristol.co.uk/events/2022-02-24_hashcode/">&lt;p&gt;Join us to take part in Google’s anual coding competition: Hashcode.
 Work in a team and chat with us on Discord!&lt;/p&gt;
 
 &lt;p&gt;Hash Code is a team programming competition, organized by Google, for students and professionals around the world. You pick your team and programming language and we pick an engineering problem for you to solve. This year’s contest kicks off with an Online Qualifications, where your team can compete virtually from wherever you’d like, alongside your virtual Hub. Top teams will then be invited to compete from our virtual World Finals.&lt;/p&gt;
