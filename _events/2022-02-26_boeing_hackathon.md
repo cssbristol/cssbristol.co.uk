@@ -19,22 +19,38 @@ cohost:
   - company: Boeing
 ---
 
-Our premier CSS x Boeing hackathon is back! Join us for a thrilling 24 hours of building, hacking, brainstorming, power-napping, and making. This event is open to all courses & years - we can't wait to see all the different projects you guys come up with! This time we're going to be fully in-person and we are opening up the hackspace so you can build something if you choose!
+## THEME: Sustainable Cities and Communities 🏢🏠
+
+From lack of affordable housing to the air quality crisis, modern cities have a long way to go before they can be truly sustainable. Come up with innovative solutions to the issues of creating sustainable cities and communities in our premier 24hr hackathon to win large cash prizes!
 
 Freebies are making a comeback - sign up and participate to receive a T-shirt, free pizza and breakfast!
 
-Participate as a team of up to 6, or sign up solo and we'll match you up with other people - take on some of the most relevant issues the world is facing today! The event is open to all students. Projects MUST have a software engineering aspect to them.
+## SIGN UP
 
-## THEME Sustainable Cities and Communities 🏢🏠
+Deadline: 23:59 on Friday 18th February 2022
 
-There will be a £600 winning team prize, a £400 2nd-place prize and a £200 3rd-place prize based on the quality, completeness and innovation of each project, judged by a panel of your favourite academics.
+Sign up form: [link](https://forms.office.com/r/MeseGuigej)
 
-Make sure you:
-1. Sign up before **Midnight Sat 19th**: [form](https://forms.office.com/r/MeseGuigej)
-2. See the FAQ below
-3. See the Judging Criteria below
+Please make sure you read the [FAQ](#faq) and [Judging Criteria](#judging-criteria)!
 
-## Schedule
+## Inspiration
+
+Why not look to the [UN Sustainable Development Goals](https://www.globalgoals.org/11-sustainable-cities-and-communities) for inspiration for which problem to tackle? 
+
+![UN Sustable Development Goals](/assets/images/contrib/events/2022-02-26-boeing_hackathon_un_goals.png)
+
+The best entries will be technologically impressive, innovative and solve a real problem.
+
+## Prizes
+
+**1st Place Team**: £600 cash 
+
+**2nd Place Team**: £400 cash 
+
+**3rd Place Team**: £200 cash
+
+
+## Timetable
 
 <table style="margin: 0.75em auto 0;">
   <thead>
@@ -59,9 +75,11 @@ Make sure you:
   </tbody>
 </table>
 
+NB - Dinner (Pizza) and Breakfast will be provided.
+
 ## Sign up!
 
-Sign up before **Midnight Sat 19th**: [form](https://forms.office.com/r/MeseGuigej)
+Sign up before **23:59 Fri 18th**: [form](https://forms.office.com/r/MeseGuigej)
 
 ## FAQ
 
