@@ -27,7 +27,7 @@ Freebies are making a comeback - sign up and participate to receive a T-shirt, f
 
 ## SIGN UP
 
-Deadline: 23:59 on Friday 18th February 2022
+Deadline: 23:59 on Thursday 24th February 2022
 
 Sign up form: [link](https://forms.office.com/r/MeseGuigej)
 
@@ -79,7 +79,7 @@ NB - Dinner (Pizza) and Breakfast will be provided.
 
 ## Sign up!
 
-Sign up before **23:59 Fri 18th**: [form](https://forms.office.com/r/MeseGuigej)
+Sign up before **23:59 Thur 24th**: [form](https://forms.office.com/r/MeseGuigej)
 
 ## FAQ
 
