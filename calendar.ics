@@ -3563,6 +3563,22 @@ DESCRIPTION:Bpuzzled is an annual, global, puzzle competiti...
 LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2022-02-22boeinghackathonteammatching
+ @cssbristol.co.uk
+DTSTAMP:20220222T170000
+DTSTART:20220222T170000
+DTEND:20220222T180000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2022-02-22_boeing_hackathon_team_matching/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2022-02-26-boeing_hackathon.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS x Boeing Hackathon 2022 Team Matching
+DESCRIPTION:THEME: Sustainable Cities and Communities 🏢🏠
+LOCATION:Stephenson Room, Richmond Building
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2022-02-24hashcode
  @cssbristol.co.uk
 DTSTAMP:20220224T173000
