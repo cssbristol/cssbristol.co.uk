@@ -41,3 +41,7 @@ In this talk Henk will discuss what it means to program systems with limited res
 
 Henk is the CTO of XMOS ltd. Before he joined XMOS he worked at Bristol University in the Department of Computer
 Science. XMOS designs and sells embedded micro-controllers.
+
+## Internship & Job Opportunities
+- **Internships:** [https://cssbristol.co.uk/jobs/2022_03_01_xmos_internship/](https://cssbristol.co.uk/jobs/2022_03_01_xmos_internship/)
+- **Jobs:** [https://www.xmos.ai/workatxmos/](https://www.xmos.ai/workatxmos/)
