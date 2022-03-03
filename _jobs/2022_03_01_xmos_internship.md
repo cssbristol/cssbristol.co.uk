@@ -19,6 +19,7 @@ apply:
   email:
     items:
       - CV
+      - GitHub Username
       - Cover Letter
     address: andrew@xmos.com
 ---
