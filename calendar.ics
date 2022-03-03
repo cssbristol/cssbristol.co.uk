@@ -3626,4 +3626,20 @@ SUMMARY:Programming in The Small
 DESCRIPTION:Tell Us Your Dietary RequirementsLoading…
 LOCATION:The Loft, Senate House
 END:VEVENT
+BEGIN:VEVENT
+UID:events-20220401MVBall
+ @cssbristol.co.uk
+DTSTAMP:20220401T200000
+DTSTART:20220401T200000
+DTEND:20220401T235900
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2022_04_01_MVBall/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2022_04_01_MVBall.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:MVBall
+DESCRIPTION:After 2 long years, the event we’ve all been wa...
+LOCATION:Sansanvino Room, Harbour Hotel
+END:VEVENT
 END:VCALENDAR
