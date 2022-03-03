@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.cssbristol.co.uk/feed/events.xml" rel="self" type="application/atom+xml" /><link href="https://www.cssbristol.co.uk/" rel="alternate" type="text/html" /><updated>2022-03-03T06:18:47+00:00</updated><id>https://www.cssbristol.co.uk/feed/events.xml</id><title type="html">CSS Bristol | Events</title><subtitle>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</subtitle><entry><title type="html">CSS x Boeing Hackathon 2022</title><link href="https://www.cssbristol.co.uk/events/2022-02-26_boeing_hackathon/" rel="alternate" type="text/html" title="CSS x Boeing Hackathon 2022" /><published>2022-02-26T11:00:00+00:00</published><updated>2022-02-26T11:00:00+00:00</updated><id>https://www.cssbristol.co.uk/events/2022-02-26_boeing_hackathon</id><content type="html" xml:base="https://www.cssbristol.co.uk/events/2022-02-26_boeing_hackathon/">&lt;h2 id=&quot;theme-sustainable-cities-and-communities-&quot;&gt;THEME: Sustainable Cities and Communities 🏢🏠&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.cssbristol.co.uk/feed/events.xml" rel="self" type="application/atom+xml" /><link href="https://www.cssbristol.co.uk/" rel="alternate" type="text/html" /><updated>2022-03-03T10:40:31+00:00</updated><id>https://www.cssbristol.co.uk/feed/events.xml</id><title type="html">CSS Bristol | Events</title><subtitle>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</subtitle><entry><title type="html">Programming in The Small</title><link href="https://www.cssbristol.co.uk/events/2022_03_07_xmos_programming_in_the_small/" rel="alternate" type="text/html" title="Programming in The Small" /><published>2022-03-07T18:00:00+00:00</published><updated>2022-03-07T18:00:00+00:00</updated><id>https://www.cssbristol.co.uk/events/2022_03_07_xmos_programming_in_the_small</id><content type="html" xml:base="https://www.cssbristol.co.uk/events/2022_03_07_xmos_programming_in_the_small/">&lt;details&gt;
+&lt;summary style=&quot;font-weight: bold; text-transform: uppercase; cursor: pointer;&quot;&gt;Tell Us Your Dietary Requirements&lt;/summary&gt;
+&lt;iframe style=&quot;width: 100%&quot; src=&quot;https://docs.google.com/forms/d/e/1FAIpQLScBn31cM-Xr6DQuWHwHBogho9hwXocta8pLhYOjYhWR-IdofA/viewform?embedded=true&quot; width=&quot;640&quot; height=&quot;700&quot; frameborder=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot;&gt;Loading…&lt;/iframe&gt;
+&lt;/details&gt;
+
+&lt;p&gt;Desktop computer systems have become much faster in half a century, with execution speeds that are 1,000x higher. At the
+same time, memory size increased by 100,000x or so. Although desktop computers are, with mobile phones and tablets the
+most visible computer systems, they are outnumbered by the number of embedded computers. Embedded computers are found in
+for example TVs, soundbars, headphones, thermostats, and cars (the latter containing 10-50 embedded computers).&lt;/p&gt;
+
+&lt;p&gt;As there are so many embedded computers, they have to be much lower power and cheaper than desktops. To be cheap
+desktops have to have little memory: 1-512 kByte of memory; every kByte costs a bit. To be low power embedded computers
+should execute few instructions: they may be able to run at 800 MHz, but it is vastly more efficient to run them at 80
+or 8 MHz.&lt;/p&gt;
+
+&lt;p&gt;In this talk Henk will discuss what it means to program systems with limited resources.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.xmos.ai/wp-content/uploads/2018/09/GiJ-Henk-Mullen-1-225x300.jpg&quot; alt=&quot;A picture of Henk Muller&quot; style=&quot;float: left; border-radius: 100%; width: 10em; height: 10em; object-fit: cover; object-position: center; margin-right: 2em&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;about-the-speaker&quot;&gt;About The Speaker&lt;/h2&gt;
+
+&lt;p&gt;Henk is the CTO of XMOS ltd. Before he joined XMOS he worked at Bristol University in the Department of Computer
+Science. XMOS designs and sells embedded micro-controllers.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Talk - Networking&quot;]" /><summary type="html">Tell Us Your Dietary Requirements Loading…</summary></entry><entry><title type="html">CSS x Boeing Hackathon 2022</title><link href="https://www.cssbristol.co.uk/events/2022-02-26_boeing_hackathon/" rel="alternate" type="text/html" title="CSS x Boeing Hackathon 2022" /><published>2022-02-26T11:00:00+00:00</published><updated>2022-02-26T11:00:00+00:00</updated><id>https://www.cssbristol.co.uk/events/2022-02-26_boeing_hackathon</id><content type="html" xml:base="https://www.cssbristol.co.uk/events/2022-02-26_boeing_hackathon/">&lt;h2 id=&quot;theme-sustainable-cities-and-communities-&quot;&gt;THEME: Sustainable Cities and Communities 🏢🏠&lt;/h2&gt;
 
 &lt;p&gt;From lack of affordable housing to the air quality crisis, modern cities have a long way to go before they can be truly sustainable. Come up with innovative solutions to the issues of creating sustainable cities and communities in our premier 24hr hackathon to win large cash prizes!&lt;/p&gt;
 
@@ -171,22 +193,4 @@ BAE Systems Applied Intelligence CTF team&lt;/p&gt;</content><author><name></nam
 &lt;p&gt;The firm has many opportunities available for law and non-law students and graduates, including a tech-focused graduate scheme, IGNITE.&lt;a href=&quot;https://careers.cliffordchance.com/london/apply-now.html&quot;&gt; Applications are now open&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;sign-up-link&quot;&gt;Sign Up Link:&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://forms.office.com/r/UB08h4VqVs&quot;&gt;https://forms.office.com/r/UB08h4VqVs&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Tech Talk&quot;]" /><summary type="html">Time / Location: 17:00-17:30 for pizza in the MVB Atrium, 17:30 - 18:30 for the talk in Pugsley Lecture Theatre - 1.40 Queens Building.</summary></entry><entry><title type="html">Post-Lockdown Barcrawl</title><link href="https://www.cssbristol.co.uk/events/2021_bar_crawl/" rel="alternate" type="text/html" title="Post-Lockdown Barcrawl" /><published>2021-11-04T18:00:00+00:00</published><updated>2021-11-04T18:00:00+00:00</updated><id>https://www.cssbristol.co.uk/events/2021_bar_crawl</id><content type="html" xml:base="https://www.cssbristol.co.uk/events/2021_bar_crawl/">&lt;p&gt;CSS’s annual barcrawl has finally returned!&lt;/p&gt;
-
-&lt;p&gt;After a year online join us in the real world as we take on some of the best pubs and club Bristol has to offer.&lt;/p&gt;
-
-&lt;p&gt;For just £5 you can get:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Exclusive barcrawl t-shirt&lt;/li&gt;
-  &lt;li&gt;Free Entry to Lola Lo&lt;/li&gt;
-  &lt;li&gt;Free prosecco at Lola Lo&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Get your ticket &lt;a href=&quot;https://www.eventbrite.co.uk/e/the-legendary-css-barcrawl-tickets-189790577727&quot;&gt;now&lt;/a&gt;!&lt;/p&gt;
-
-&lt;h2 id=&quot;route&quot;&gt;Route&lt;/h2&gt;
-&lt;p&gt;TBA&lt;/p&gt;
-
-&lt;h2 id=&quot;refund-policy&quot;&gt;Refund policy&lt;/h2&gt;
-&lt;p&gt;Full refunds available in the case that this event &lt;strong&gt;cannot&lt;/strong&gt; go ahead&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Social&quot;]" /><summary type="html">CSS’s annual barcrawl has finally returned!</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://forms.office.com/r/UB08h4VqVs&quot;&gt;https://forms.office.com/r/UB08h4VqVs&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Tech Talk&quot;]" /><summary type="html">Time / Location: 17:00-17:30 for pizza in the MVB Atrium, 17:30 - 18:30 for the talk in Pugsley Lecture Theatre - 1.40 Queens Building.</summary></entry></feed>

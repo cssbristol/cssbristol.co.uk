@@ -3610,4 +3610,20 @@ SUMMARY:CSS x Boeing Hackathon 2022
 DESCRIPTION:THEME: Sustainable Cities and Communities 🏢🏠
 LOCATION:MVB 2.11 + Hackspace
 END:VEVENT
+BEGIN:VEVENT
+UID:events-20220307xmosprogramminginthesmall
+ @cssbristol.co.uk
+DTSTAMP:20220307T180000
+DTSTART:20220307T180000
+DTEND:20220307T190000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2022_03_07_xmos_programming_in_the_small/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2022_03_04_xmos_programming_in_the_small.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Programming in The Small
+DESCRIPTION:Tell Us Your Dietary RequirementsLoading…
+LOCATION:The Loft, Senate House
+END:VEVENT
 END:VCALENDAR
