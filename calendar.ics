@@ -3627,6 +3627,22 @@ DESCRIPTION:Tell Us Your Dietary RequirementsLoading…
 LOCATION:The Loft, Senate House
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2022-03-28bbisfiresidechat
+ @cssbristol.co.uk
+DTSTAMP:20220328T180000
+DTSTART:20220328T180000
+DTEND:20220328T193000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2022-03-28_bbis_fireside_chat/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2022-03-28_bbis_fireside_chat.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSSxBBIS Fireside chat with Lightyear
+DESCRIPTION:Join us for a discussion with Mihkel Aamer, Bri...
+LOCATION:Queen's Building, Room 1.15 SLT
+END:VEVENT
+BEGIN:VEVENT
 UID:events-20220401MVBall
  @cssbristol.co.uk
 DTSTAMP:20220401T200000
