@@ -11,7 +11,7 @@ logo: xmos.svg
 jobLocation: Bristol
 industry: Software Development
 employmentType: Internship
-validThrough: 2022-06-01 12:00:00 +0100
+validThrough: 2022-04-01 12:00:00 +0100
 startDate: Summer 2022
 occupationalCategory:
 salaryCurrency: GBP
