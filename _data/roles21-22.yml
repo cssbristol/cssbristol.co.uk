@@ -1,0 +1,60 @@
+- role: President
+  desc:
+    - Responsible for the society overall
+    - Sets the overall direction of the society
+    - Organises meetings
+    - Manages other committee members
+- role: Vice-President
+  desc:
+    - Assists the President with the above tasks
+    - Talks to companies and organising sponsorships
+- role: Treasurer
+  desc:
+    - Controls and tracks spending
+    - Makes big purchases/deals with invoices
+    - Ensures we're following SU rules and the law
+- role: Secretary
+  desc:
+    - Records minutes in meetings
+    - Deals with the SU
+    - Keeps our Drive organised
+- role: Webmaster
+  desc:
+    - Keeps the CSS website updated
+    - Manages logins and useful tools
+    - Ensures we store personal data securely
+- role: Technical Events Officer
+  desc:
+    - Organises the CSS event calendar
+    - Organises and runs technical events / trips - BrisHack, CTFs, etc.
+- role: Academic Talks Officer
+  desc:
+    - Communicates with the department of Computer Science 
+    - Organises talks by various academics
+- role: Industry Talks Officer
+  desc:
+    - Communicates with industry links
+    - Organises talks by industry professionals
+- role: Sports and Social Officer
+  desc:
+    - Organises CSS sport teams
+    - Organises social events (i.e. pub trips)
+    - Organises MVBall
+- role: Press Officer
+  desc:
+    - Designs graphics and posters
+    - Manages the newsletter
+    - Manages social media
+- role: Outreach Officer
+  desc:
+    - Represents CSS in outreach activities
+    - Organises events with and assists other societies
+- role: Equality, Diversity and Inclusivity Officer
+  desc:
+    - Responsible for wellbeing
+    - Ensures we are inclusive of all groups
+    - Manages the family scheme 
+- role: General Officer
+  desc:
+    - Helps out in general
+    - Jack of all trades

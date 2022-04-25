@@ -54,6 +54,13 @@
       }
     }
 
+
+    &__list {
+      text-align: left;
+      line-height: 2rem;
+      word-break: normal;
+    }
+
     &__footer {
       display: flex;
       flex-direction: row;
