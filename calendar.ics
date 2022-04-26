@@ -3659,14 +3659,14 @@ DESCRIPTION:After 2 long years, the event we’ve all been wa...
 LOCATION:Sansanvino Room, Harbour Hotel
 END:VEVENT
 BEGIN:VEVENT
-UID:events-20220506agm
+UID:events-20220509agm
  @cssbristol.co.uk
 DTSTAMP:20220509T180000
 DTSTART:20220509T180000
 DTEND:20220509T203000
 LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
- /events/2022_05_06_agm/
+ /events/2022_05_09_agm/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/2022-05-09-agm.png
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
