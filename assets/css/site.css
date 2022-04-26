@@ -245,6 +245,8 @@ body { display: flex; min-height: 100vh; flex-direction: column; font-family: "O
 
 .card-grid__card__row p { line-height: 1.5rem; }
 
+.card-grid__card__list { text-align: left; line-height: 2rem; word-break: normal; }
+
 .card-grid__card__footer { display: flex; flex-direction: row; flex-wrap: nowrap; align-items: center; justify-content: space-between; padding-top: 10px; margin-top: auto; }
 
 .card-grid__card__footer__next-btn { all: unset !important; font-size: 1.5rem !important; width: 2.5rem !important; height: 2.5rem !important; border-radius: 2.5rem !important; line-height: 2.5rem !important; text-decoration: none !important; color: #ffffff !important; background-color: #fa8a90 !important; text-align: center !important; transition: all ease-in-out 0.25s !important; }

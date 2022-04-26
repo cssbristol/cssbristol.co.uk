@@ -1,4 +1,277 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.cssbristol.co.uk/feed/events.xml" rel="self" type="application/atom+xml" /><link href="https://www.cssbristol.co.uk/" rel="alternate" type="text/html" /><updated>2022-04-26T16:17:32+01:00</updated><id>https://www.cssbristol.co.uk/feed/events.xml</id><title type="html">CSS Bristol | Events</title><subtitle>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</subtitle><entry><title type="html">MVBall</title><link href="https://www.cssbristol.co.uk/events/2022_04_01_MVBall/" rel="alternate" type="text/html" title="MVBall" /><published>2022-04-01T19:00:00+01:00</published><updated>2022-04-01T19:00:00+01:00</updated><id>https://www.cssbristol.co.uk/events/2022_04_01_MVBall</id><content type="html" xml:base="https://www.cssbristol.co.uk/events/2022_04_01_MVBall/">&lt;p&gt;After 2 long years, the event we’ve all been waiting for has returned…&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.cssbristol.co.uk/feed/events.xml" rel="self" type="application/atom+xml" /><link href="https://www.cssbristol.co.uk/" rel="alternate" type="text/html" /><updated>2022-04-26T16:33:55+01:00</updated><id>https://www.cssbristol.co.uk/feed/events.xml</id><title type="html">CSS Bristol | Events</title><subtitle>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</subtitle><entry><title type="html">CSS AGM 2022</title><link href="https://www.cssbristol.co.uk/events/2022_05_06_agm/" rel="alternate" type="text/html" title="CSS AGM 2022" /><published>2022-05-09T19:00:00+01:00</published><updated>2022-05-09T19:00:00+01:00</updated><id>https://www.cssbristol.co.uk/events/2022_05_06_agm</id><content type="html" xml:base="https://www.cssbristol.co.uk/events/2022_05_06_agm/">&lt;p&gt;Join us for our 2022 CSS AGM where we will vote on motions and elect the new committee! Oh, and free pizza! 🍕&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;motions-&quot;&gt;Motions 📜&lt;/h2&gt;
+
+&lt;p&gt;Want to change something about CSS?&lt;/p&gt;
+
+&lt;p&gt;You can submit a motion &lt;a href=&quot;https://forms.gle/RwjpVVGyT8Z4CQccA&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t worry if you can’t attend the AGM - You can still submit a motion.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;roles-&quot;&gt;Roles 🏷&lt;/h2&gt;
+
+&lt;p&gt;Apply for a role below! You will have to prepare a manifesto and a 2-minute speech.&lt;/p&gt;
+
+&lt;p&gt;Be quick though since the deadline for applications is 8 May at 5pm.&lt;/p&gt;
+
+&lt;p&gt;Notes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you’re running for a role but cannot attend the AGM you can send us a recording of your speech or a copy of the text for us to read out.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You may run for more than one role but you will only be able to give one speech.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You cannot nominate yourself for treasurer if you are a final-year student in the next academic year unless approved by the SU Societies Network.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;card-grid&quot;&gt;
+    
+        &lt;div class=&quot;card-grid__card&quot;&gt;
+            &lt;h3&gt;President&lt;/h3&gt;
+            &lt;ul class=&quot;card-grid__card__list&quot;&gt;
+                
+                    &lt;li&gt;Responsible for the society overall&lt;/li&gt;
+                
+                    &lt;li&gt;Sets the overall direction of the society&lt;/li&gt;
+                
+                    &lt;li&gt;Organises meetings&lt;/li&gt;
+                
+                    &lt;li&gt;Manages other committee members&lt;/li&gt;
+                
+            &lt;/ul&gt;
+            &lt;div class=&quot;card-grid__card__footer&quot;&gt;
+                &lt;h4&gt;Apply now&lt;/h4&gt;
+                &lt;a aria-label=&quot;Apply button&quot; href=&quot;https://forms.gle/y4QGiTn7WfC92yb47&quot; class=&quot;card-grid__card__footer__next-btn&quot;&gt;
+                    &lt;i class=&quot;fas fa-chevron-right&quot;&gt;&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    
+        &lt;div class=&quot;card-grid__card&quot;&gt;
+            &lt;h3&gt;Vice-President&lt;/h3&gt;
+            &lt;ul class=&quot;card-grid__card__list&quot;&gt;
+                
+                    &lt;li&gt;Assists the President with the above tasks&lt;/li&gt;
+                
+                    &lt;li&gt;Talks to companies and organising sponsorships&lt;/li&gt;
+                
+            &lt;/ul&gt;
+            &lt;div class=&quot;card-grid__card__footer&quot;&gt;
+                &lt;h4&gt;Apply now&lt;/h4&gt;
+                &lt;a aria-label=&quot;Apply button&quot; href=&quot;https://forms.gle/y4QGiTn7WfC92yb47&quot; class=&quot;card-grid__card__footer__next-btn&quot;&gt;
+                    &lt;i class=&quot;fas fa-chevron-right&quot;&gt;&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    
+        &lt;div class=&quot;card-grid__card&quot;&gt;
+            &lt;h3&gt;Treasurer&lt;/h3&gt;
+            &lt;ul class=&quot;card-grid__card__list&quot;&gt;
+                
+                    &lt;li&gt;Controls and tracks spending&lt;/li&gt;
+                
+                    &lt;li&gt;Makes big purchases/deals with invoices&lt;/li&gt;
+                
+                    &lt;li&gt;Ensures we&apos;re following SU rules and the law&lt;/li&gt;
+                
+            &lt;/ul&gt;
+            &lt;div class=&quot;card-grid__card__footer&quot;&gt;
+                &lt;h4&gt;Apply now&lt;/h4&gt;
+                &lt;a aria-label=&quot;Apply button&quot; href=&quot;https://forms.gle/y4QGiTn7WfC92yb47&quot; class=&quot;card-grid__card__footer__next-btn&quot;&gt;
+                    &lt;i class=&quot;fas fa-chevron-right&quot;&gt;&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    
+        &lt;div class=&quot;card-grid__card&quot;&gt;
+            &lt;h3&gt;Secretary&lt;/h3&gt;
+            &lt;ul class=&quot;card-grid__card__list&quot;&gt;
+                
+                    &lt;li&gt;Records minutes in meetings&lt;/li&gt;
+                
+                    &lt;li&gt;Deals with the SU&lt;/li&gt;
+                
+                    &lt;li&gt;Keeps our Drive organised&lt;/li&gt;
+                
+            &lt;/ul&gt;
+            &lt;div class=&quot;card-grid__card__footer&quot;&gt;
+                &lt;h4&gt;Apply now&lt;/h4&gt;
+                &lt;a aria-label=&quot;Apply button&quot; href=&quot;https://forms.gle/y4QGiTn7WfC92yb47&quot; class=&quot;card-grid__card__footer__next-btn&quot;&gt;
+                    &lt;i class=&quot;fas fa-chevron-right&quot;&gt;&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    
+        &lt;div class=&quot;card-grid__card&quot;&gt;
+            &lt;h3&gt;Webmaster&lt;/h3&gt;
+            &lt;ul class=&quot;card-grid__card__list&quot;&gt;
+                
+                    &lt;li&gt;Keeps the CSS website updated&lt;/li&gt;
+                
+                    &lt;li&gt;Manages logins and useful tools&lt;/li&gt;
+                
+                    &lt;li&gt;Ensures we store personal data securely&lt;/li&gt;
+                
+            &lt;/ul&gt;
+            &lt;div class=&quot;card-grid__card__footer&quot;&gt;
+                &lt;h4&gt;Apply now&lt;/h4&gt;
+                &lt;a aria-label=&quot;Apply button&quot; href=&quot;https://forms.gle/y4QGiTn7WfC92yb47&quot; class=&quot;card-grid__card__footer__next-btn&quot;&gt;
+                    &lt;i class=&quot;fas fa-chevron-right&quot;&gt;&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    
+        &lt;div class=&quot;card-grid__card&quot;&gt;
+            &lt;h3&gt;Technical Events Officer&lt;/h3&gt;
+            &lt;ul class=&quot;card-grid__card__list&quot;&gt;
+                
+                    &lt;li&gt;Organises the CSS event calendar&lt;/li&gt;
+                
+                    &lt;li&gt;Organises and runs technical events / trips - BrisHack, CTFs, etc.&lt;/li&gt;
+                
+            &lt;/ul&gt;
+            &lt;div class=&quot;card-grid__card__footer&quot;&gt;
+                &lt;h4&gt;Apply now&lt;/h4&gt;
+                &lt;a aria-label=&quot;Apply button&quot; href=&quot;https://forms.gle/y4QGiTn7WfC92yb47&quot; class=&quot;card-grid__card__footer__next-btn&quot;&gt;
+                    &lt;i class=&quot;fas fa-chevron-right&quot;&gt;&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    
+        &lt;div class=&quot;card-grid__card&quot;&gt;
+            &lt;h3&gt;Academic Talks Officer&lt;/h3&gt;
+            &lt;ul class=&quot;card-grid__card__list&quot;&gt;
+                
+                    &lt;li&gt;Communicates with the department of Computer Science&lt;/li&gt;
+                
+                    &lt;li&gt;Organises talks by various academics&lt;/li&gt;
+                
+            &lt;/ul&gt;
+            &lt;div class=&quot;card-grid__card__footer&quot;&gt;
+                &lt;h4&gt;Apply now&lt;/h4&gt;
+                &lt;a aria-label=&quot;Apply button&quot; href=&quot;https://forms.gle/y4QGiTn7WfC92yb47&quot; class=&quot;card-grid__card__footer__next-btn&quot;&gt;
+                    &lt;i class=&quot;fas fa-chevron-right&quot;&gt;&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    
+        &lt;div class=&quot;card-grid__card&quot;&gt;
+            &lt;h3&gt;Industry Talks Officer&lt;/h3&gt;
+            &lt;ul class=&quot;card-grid__card__list&quot;&gt;
+                
+                    &lt;li&gt;Communicates with industry links&lt;/li&gt;
+                
+                    &lt;li&gt;Organises talks by industry professionals&lt;/li&gt;
+                
+            &lt;/ul&gt;
+            &lt;div class=&quot;card-grid__card__footer&quot;&gt;
+                &lt;h4&gt;Apply now&lt;/h4&gt;
+                &lt;a aria-label=&quot;Apply button&quot; href=&quot;https://forms.gle/y4QGiTn7WfC92yb47&quot; class=&quot;card-grid__card__footer__next-btn&quot;&gt;
+                    &lt;i class=&quot;fas fa-chevron-right&quot;&gt;&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    
+        &lt;div class=&quot;card-grid__card&quot;&gt;
+            &lt;h3&gt;Sports and Social Officer&lt;/h3&gt;
+            &lt;ul class=&quot;card-grid__card__list&quot;&gt;
+                
+                    &lt;li&gt;Organises CSS sport teams&lt;/li&gt;
+                
+                    &lt;li&gt;Organises social events (i.e. pub trips)&lt;/li&gt;
+                
+                    &lt;li&gt;Organises MVBall&lt;/li&gt;
+                
+            &lt;/ul&gt;
+            &lt;div class=&quot;card-grid__card__footer&quot;&gt;
+                &lt;h4&gt;Apply now&lt;/h4&gt;
+                &lt;a aria-label=&quot;Apply button&quot; href=&quot;https://forms.gle/y4QGiTn7WfC92yb47&quot; class=&quot;card-grid__card__footer__next-btn&quot;&gt;
+                    &lt;i class=&quot;fas fa-chevron-right&quot;&gt;&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    
+        &lt;div class=&quot;card-grid__card&quot;&gt;
+            &lt;h3&gt;Press Officer&lt;/h3&gt;
+            &lt;ul class=&quot;card-grid__card__list&quot;&gt;
+                
+                    &lt;li&gt;Designs graphics and posters&lt;/li&gt;
+                
+                    &lt;li&gt;Manages the newsletter&lt;/li&gt;
+                
+                    &lt;li&gt;Manages social media&lt;/li&gt;
+                
+            &lt;/ul&gt;
+            &lt;div class=&quot;card-grid__card__footer&quot;&gt;
+                &lt;h4&gt;Apply now&lt;/h4&gt;
+                &lt;a aria-label=&quot;Apply button&quot; href=&quot;https://forms.gle/y4QGiTn7WfC92yb47&quot; class=&quot;card-grid__card__footer__next-btn&quot;&gt;
+                    &lt;i class=&quot;fas fa-chevron-right&quot;&gt;&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    
+        &lt;div class=&quot;card-grid__card&quot;&gt;
+            &lt;h3&gt;Outreach Officer&lt;/h3&gt;
+            &lt;ul class=&quot;card-grid__card__list&quot;&gt;
+                
+                    &lt;li&gt;Represents CSS in outreach activities&lt;/li&gt;
+                
+                    &lt;li&gt;Organises events with and assists other societies&lt;/li&gt;
+                
+            &lt;/ul&gt;
+            &lt;div class=&quot;card-grid__card__footer&quot;&gt;
+                &lt;h4&gt;Apply now&lt;/h4&gt;
+                &lt;a aria-label=&quot;Apply button&quot; href=&quot;https://forms.gle/y4QGiTn7WfC92yb47&quot; class=&quot;card-grid__card__footer__next-btn&quot;&gt;
+                    &lt;i class=&quot;fas fa-chevron-right&quot;&gt;&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    
+        &lt;div class=&quot;card-grid__card&quot;&gt;
+            &lt;h3&gt;Equality, Diversity and Inclusivity Officer&lt;/h3&gt;
+            &lt;ul class=&quot;card-grid__card__list&quot;&gt;
+                
+                    &lt;li&gt;Responsible for wellbeing&lt;/li&gt;
+                
+                    &lt;li&gt;Ensures we are inclusive of all groups&lt;/li&gt;
+                
+                    &lt;li&gt;Manages the family scheme&lt;/li&gt;
+                
+            &lt;/ul&gt;
+            &lt;div class=&quot;card-grid__card__footer&quot;&gt;
+                &lt;h4&gt;Apply now&lt;/h4&gt;
+                &lt;a aria-label=&quot;Apply button&quot; href=&quot;https://forms.gle/y4QGiTn7WfC92yb47&quot; class=&quot;card-grid__card__footer__next-btn&quot;&gt;
+                    &lt;i class=&quot;fas fa-chevron-right&quot;&gt;&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    
+        &lt;div class=&quot;card-grid__card&quot;&gt;
+            &lt;h3&gt;General Officer&lt;/h3&gt;
+            &lt;ul class=&quot;card-grid__card__list&quot;&gt;
+                
+                    &lt;li&gt;Helps out in General&lt;/li&gt;
+                
+                    &lt;li&gt;Jack of all trades&lt;/li&gt;
+                
+            &lt;/ul&gt;
+            &lt;div class=&quot;card-grid__card__footer&quot;&gt;
+                &lt;h4&gt;Apply now&lt;/h4&gt;
+                &lt;a aria-label=&quot;Apply button&quot; href=&quot;https://forms.gle/y4QGiTn7WfC92yb47&quot; class=&quot;card-grid__card__footer__next-btn&quot;&gt;
+                    &lt;i class=&quot;fas fa-chevron-right&quot;&gt;&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    
+&lt;/div&gt;</content><author><name></name></author><category term="[&quot;Social&quot;, &quot;Networking&quot;]" /><summary type="html">Join us for our 2022 CSS AGM where we will vote on motions and elect the new committee! Oh, and free pizza! 🍕</summary></entry><entry><title type="html">MVBall</title><link href="https://www.cssbristol.co.uk/events/2022_04_01_MVBall/" rel="alternate" type="text/html" title="MVBall" /><published>2022-04-01T19:00:00+01:00</published><updated>2022-04-01T19:00:00+01:00</updated><id>https://www.cssbristol.co.uk/events/2022_04_01_MVBall</id><content type="html" xml:base="https://www.cssbristol.co.uk/events/2022_04_01_MVBall/">&lt;p&gt;After 2 long years, the event we’ve all been waiting for has returned…&lt;/p&gt;
 
 &lt;p&gt;MVBall is back!&lt;/p&gt;
 
@@ -157,39 +430,4 @@ taking things apart and seeing how they work. To sign up, please use this &lt;a 
 &lt;p&gt;We will email you to confirm your place, and provide more details about the event and what you need to bring.&lt;/p&gt;
 
 &lt;p&gt;We really hope to see you there.&lt;br /&gt;
-BAE Systems Applied Intelligence CTF team&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Competition&quot;]" /><summary type="html">(MOVED FROM 6th NOVEMBER TO 20th NOVEMBER)</summary></entry><entry><title type="html">EGM 2021</title><link href="https://www.cssbristol.co.uk/events/2021_11_18_egm/" rel="alternate" type="text/html" title="EGM 2021" /><published>2021-11-18T18:00:00+00:00</published><updated>2021-11-18T18:00:00+00:00</updated><id>https://www.cssbristol.co.uk/events/2021_11_18_egm</id><content type="html" xml:base="https://www.cssbristol.co.uk/events/2021_11_18_egm/">&lt;p&gt;Do you love pizza? What about democracy? If the answer is yes then come to our annual EGM!&lt;/p&gt;
-
-&lt;h2 id=&quot;run-for-election&quot;&gt;Run for election&lt;/h2&gt;
-
-&lt;h3 id=&quot;first-year--postgrad-reps&quot;&gt;&lt;strong&gt;First year / Postgrad Reps&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;The reps liase between their cohort and CSS. Help us act on feedback to make CSS events work for everyone!&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Become the &lt;a href=&quot;https://forms.gle/hJu7R86c6e7G9m8k7&quot;&gt;first year rep&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Become the &lt;a href=&quot;https://forms.gle/P9SgcHwJ2s3DDSfr6&quot;&gt;postgrad rep&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;equality-and-diversity-officer&quot;&gt;&lt;strong&gt;Equality and Diversity Officer&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;Help us make CSS accessible to all, regardless of disability, gender, race or sexual orientation.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Become the &lt;a href=&quot;https://forms.gle/6v75MqsfSnccDb4bA&quot;&gt;Equality and Diversity Officer&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;submit-a-motion&quot;&gt;Submit a motion&lt;/h2&gt;
-
-&lt;p&gt;Does the ambition lie in you to change the holy laws of the CSS constitution?&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Submit a &lt;a href=&quot;https://forms.gle/v2TToBf6GX5y7wSi8&quot;&gt;motion&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;join-for-the-free-pizza&quot;&gt;Join for the free pizza&lt;/h2&gt;
-
-&lt;p&gt;No CSS event is complete without pizza. We will have pizza at the EGM — all you have to do is vote :D&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Social&quot;, &quot;Networking&quot;, &quot;Careers&quot;, &quot;Competition&quot;]" /><summary type="html">Do you love pizza? What about democracy? If the answer is yes then come to our annual EGM!</summary></entry></feed>
+BAE Systems Applied Intelligence CTF team&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Competition&quot;]" /><summary type="html">(MOVED FROM 6th NOVEMBER TO 20th NOVEMBER)</summary></entry></feed>
