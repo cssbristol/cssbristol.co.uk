@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.cssbristol.co.uk/feed/events.xml" rel="self" type="application/atom+xml" /><link href="https://www.cssbristol.co.uk/" rel="alternate" type="text/html" /><updated>2022-04-29T23:17:04+01:00</updated><id>https://www.cssbristol.co.uk/feed/events.xml</id><title type="html">CSS Bristol | Events</title><subtitle>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</subtitle><entry><title type="html">CSS AGM 2022</title><link href="https://www.cssbristol.co.uk/events/2022_05_09_agm/" rel="alternate" type="text/html" title="CSS AGM 2022" /><published>2022-05-09T18:00:00+01:00</published><updated>2022-05-09T18:00:00+01:00</updated><id>https://www.cssbristol.co.uk/events/2022_05_09_agm</id><content type="html" xml:base="https://www.cssbristol.co.uk/events/2022_05_09_agm/">&lt;p&gt;Join us for our 2022 CSS AGM where we will vote on motions and elect the new committee! Oh, and free pizza! 🍕&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://www.cssbristol.co.uk/feed/events.xml" rel="self" type="application/atom+xml" /><link href="https://www.cssbristol.co.uk/" rel="alternate" type="text/html" /><updated>2022-04-30T00:18:19+01:00</updated><id>https://www.cssbristol.co.uk/feed/events.xml</id><title type="html">CSS Bristol | Events</title><subtitle>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</subtitle><entry><title type="html">Next generation web apps with Machine Learning using TensorFlow.js</title><link href="https://www.cssbristol.co.uk/events/2022-07-07-tensorflow-js/" rel="alternate" type="text/html" title="Next generation web apps with Machine Learning using TensorFlow.js" /><published>2022-07-07T16:00:00+01:00</published><updated>2022-07-07T16:00:00+01:00</updated><id>https://www.cssbristol.co.uk/events/tensorflow-js</id><content type="html" xml:base="https://www.cssbristol.co.uk/events/2022-07-07-tensorflow-js/">&lt;p&gt;Finish the year with a talk from Google and learn all about Machine Learning on the web with TensorFlow.js! Join Jason Mayes, Senior Developer Relations Engineer at Google, as he walks you through what machine learning is,  along with how you can use it to level up web apps for your next creative idea (or even startup), to get super powers by today’s standards.&lt;/p&gt;
+
+&lt;p&gt;Jason will demonstrate through live demos and just a few lines of code how you can within minutes, recognize objects, predict the pose of your body, sound recognition and much more. This fast paced talk is aimed at everyone - no background in machine learning is assumed, just familiarity with web technologies like JavaScript is preferred to get the most out of the example code which may even give you ideas for your final year thesis or future research. Everyone will be able to appreciate the concepts and demos regardless of your background so do come join this very special one off talk if you have a curiosity about machine learning - which has the potential to influence every industry out there. There will also be Q&amp;amp;A time at the end in case you have any questions about life at Google, (Jason has worked there for 11 years now), or anything you saw in the talk.”&lt;/p&gt;
+
+&lt;h2 id=&quot;about-the-speaker&quot;&gt;About The Speaker&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/profile_images/1049810942882590720/O7WH5RXH_400x400.jpg&quot; alt=&quot;A Headshot of Jason&quot; style=&quot;border-radius: 50%; max-width: 10em; max-height: 10em; height: auto; float: left; display: block; margin: 1em 1em 1em 0;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;jason-mayes-meng-cipt-mbcs&quot;&gt;Jason Mayes (MEng, CIPT, MBCS)&lt;/h3&gt;
+&lt;p&gt;Senior Developer Relations Engineer for TensorFlow.js, Google.&lt;/p&gt;
+
+&lt;p&gt;Jason is the public face of TensorFlow.js, helping web engineers globally take their first steps with machine learning in JavaScript. He also combines his knowledge of the technical and creative worlds to develop innovative prototypes for Google’s largest customers and internal teams with over 15 years experience working within web engineering and investigating emerging technologies.&lt;/p&gt;
+
+&lt;p&gt;He holds an MEng in Computer Science, is a member of the British Computing Society, and is a certified information privacy technologist. Jason loves sharing knowledge online which has attracted a global following.&lt;/p&gt;
+
+&lt;p&gt;Connect with Jason before the talk:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/creativeTech&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/jason_mayes&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://facebook.com/JasonDiscovers&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://discord.com/invite/hkfpPkk&quot;&gt;Discord&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="[&quot;Tech Talk&quot;]" /><summary type="html">Finish the year with a talk from Google and learn all about Machine Learning on the web with TensorFlow.js! Join Jason Mayes, Senior Developer Relations Engineer at Google, as he walks you through what machine learning is, along with how you can use it to level up web apps for your next creative idea (or even startup), to get super powers by today’s standards.</summary></entry><entry><title type="html">CSS AGM 2022</title><link href="https://www.cssbristol.co.uk/events/2022_05_09_agm/" rel="alternate" type="text/html" title="CSS AGM 2022" /><published>2022-05-09T18:00:00+01:00</published><updated>2022-05-09T18:00:00+01:00</updated><id>https://www.cssbristol.co.uk/events/2022_05_09_agm</id><content type="html" xml:base="https://www.cssbristol.co.uk/events/2022_05_09_agm/">&lt;p&gt;Join us for our 2022 CSS AGM where we will vote on motions and elect the new committee! Oh, and free pizza! 🍕&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -405,29 +425,4 @@ Work in a team and chat with us on Discord!&lt;/p&gt;
 &lt;p&gt;To sign-up: https://tinyurl.com/ygs7mrgm&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Competition&quot;, &quot;Networking&quot;]" /><summary type="html">Bpuzzled is an annual, global, puzzle competition created by Bloomberg engineers. Teams use problem solving, creative thinking and teamwork to solve challenging and intricate puzzles. Qualifiers are held at various universities around the world and the winning team from each qualifier is invited to take part in a virtual global final in Spring 2022… With top prizes up for grabs!</summary></entry><entry><title type="html">End of exams drinks</title><link href="https://www.cssbristol.co.uk/events/2022-01-29_end_of_exam_drinks/" rel="alternate" type="text/html" title="End of exams drinks" /><published>2022-01-29T20:00:00+00:00</published><updated>2022-01-29T20:00:00+00:00</updated><id>https://www.cssbristol.co.uk/events/2022-01-29_end_of_exam_drinks</id><content type="html" xml:base="https://www.cssbristol.co.uk/events/2022-01-29_end_of_exam_drinks/">&lt;p&gt;Come and join us at the White Bear and blow off some end of exam steam. We’ve booked a part of the pub
 and have put some money behind the bar so you can help yourself to some free drinks - first come first served!&lt;/p&gt;
 
-&lt;p&gt;Venue is the White Bear, 133 St Michael’s Hill, Cotham.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Social&quot;]" /><summary type="html">Come and join us at the White Bear and blow off some end of exam steam. We’ve booked a part of the pub and have put some money behind the bar so you can help yourself to some free drinks - first come first served!</summary></entry><entry><title type="html">BAE Systems CTF</title><link href="https://www.cssbristol.co.uk/events/2021_11_06_BAE_CTF/" rel="alternate" type="text/html" title="BAE Systems CTF" /><published>2021-11-20T10:00:00+00:00</published><updated>2021-11-20T10:00:00+00:00</updated><id>https://www.cssbristol.co.uk/events/2021_11_06_BAE_CTF</id><content type="html" xml:base="https://www.cssbristol.co.uk/events/2021_11_06_BAE_CTF/">&lt;p&gt;&lt;strong&gt;(MOVED FROM 6th NOVEMBER TO 20th NOVEMBER)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;SIGN UP HERE:&lt;/strong&gt; &lt;a href=&quot;https://forms.office.com/r/BY2hiaaSEi&quot;&gt;https://forms.office.com/r/BY2hiaaSEi&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;BAE Systems Applied Intelligence are running a Capture the Flag event, a day of cyber security challenges and games, on
-Saturday 20th November. Anybody who is currently enrolled at The University of Bristol can sign up and play. There are
-prizes for the winning team and goodies for anyone taking part!&lt;/p&gt;
-
-&lt;p&gt;The competition is hybrid - being held in the Bill Browne Design Suite – but you can compete from home if you prefer!
-We will use discord for online communications so you will not miss out on hints and tips if you decide to compete from
-home. Details on how to join the discord &amp;amp; CTF platform will be sent out to you on the day. The event will start at 10:
-00 and finish at 16:00, with lunch provided by us. We’ll be around all day to provide hints and tips on the challenges
-and are happy to discuss careers in cyber security and software engineering in BAE Systems Applied Intelligence. If
-you’re interested please send us an email and sign up!&lt;/p&gt;
-
-&lt;p&gt;This is a team-based challenge for teams of 2 to 6 players. If you don’t have a team yet then don’t worry – come along
-anyway as teams will be created on the day.&lt;/p&gt;
-
-&lt;p&gt;The challenges will involve breaking into vulnerable websites, cracking ciphers, forensic searches, reverse engineering
-and much more. No previous experience of these kinds of challenge is necessary; they are designed for students who like
-taking things apart and seeing how they work. To sign up, please use this &lt;a href=&quot;https://forms.office.com/r/BY2hiaaSEi&quot;&gt;form&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We will email you to confirm your place, and provide more details about the event and what you need to bring.&lt;/p&gt;
-
-&lt;p&gt;We really hope to see you there.&lt;br /&gt;
-BAE Systems Applied Intelligence CTF team&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Competition&quot;]" /><summary type="html">(MOVED FROM 6th NOVEMBER TO 20th NOVEMBER)</summary></entry></feed>
+&lt;p&gt;Venue is the White Bear, 133 St Michael’s Hill, Cotham.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Social&quot;]" /><summary type="html">Come and join us at the White Bear and blow off some end of exam steam. We’ve booked a part of the pub and have put some money behind the bar so you can help yourself to some free drinks - first come first served!</summary></entry></feed>

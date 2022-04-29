@@ -3674,4 +3674,20 @@ SUMMARY:CSS AGM 2022
 DESCRIPTION:Join us for our 2022 CSS AGM where we will vote...
 LOCATION:Queen's Building 1.6 Lecture Theatre
 END:VEVENT
+BEGIN:VEVENT
+UID:events-2022-07-07-tensorflow-js
+ @cssbristol.co.uk
+DTSTAMP:20220707T160000
+DTSTART:20220707T160000
+DTEND:20220707T180000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2022-07-07-tensorflow-js/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2022-07-07-tensorflow.js.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Next generation web apps with Machine Learning ...
+DESCRIPTION:Finish the year with a talk from Google and lea...
+LOCATION:Pugsley Lecture Theatre, Queens Building
+END:VEVENT
 END:VCALENDAR
