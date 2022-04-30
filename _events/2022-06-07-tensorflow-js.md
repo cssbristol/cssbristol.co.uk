@@ -10,6 +10,7 @@ banner: 2022-06-07-tensorflow.js.jpg
 location: Pugsley Lecture Theatre, Queens Building
 category:
     - Tech Talk
+fb_link: https://fb.me/e/3ahz9Ka3k
 cohost:
     - company: Google
     - company: TensorFlow.js
