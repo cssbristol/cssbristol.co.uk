@@ -1,13 +1,12 @@
 ---
 layout: event
-published: false
+published: true
 cancelled: false
 cancel_reason:
 title: Next generation web apps with Machine Learning using TensorFlow.js
-redirect_to: /events/2022-06-07-tensorflow-js/
 date:     2022-06-07 16:00:00 +0100
 date_end: 2022-06-07 18:00:00 +0100
-banner: 2022-07-07-tensorflow.js.jpg
+banner: 2022-06-07-tensorflow.js.jpg
 location: Pugsley Lecture Theatre, Queens Building
 category:
     - Tech Talk
