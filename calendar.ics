@@ -3672,7 +3672,7 @@ IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:CSS AGM 2022
 DESCRIPTION:Join us for our 2022 CSS AGM where we will vote...
-LOCATION:Queen's Building 1.6 Lecture Theatre
+LOCATION:5.22, Senate House
 END:VEVENT
 BEGIN:VEVENT
 UID:events-2022-06-07-tensorflow-js
