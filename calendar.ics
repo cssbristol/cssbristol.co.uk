@@ -3675,6 +3675,22 @@ DESCRIPTION:Join us for our 2022 CSS AGM where we will vote...
 LOCATION:5.22, Senate House
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2022-05-28-cssbarbecue
+ @cssbristol.co.uk
+DTSTAMP:20220528T130000
+DTSTART:20220528T130000
+DTEND:20220528T160000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2022-05-28-css_barbecue/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2022-05-28-css_barbecue.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:The Return of the CSS Barbecue
+DESCRIPTION:For the first time since Sir Adam Deegan was pr...
+LOCATION:Brandon Hill
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2022-06-07-tensorflow-js
  @cssbristol.co.uk
 DTSTAMP:20220607T160000
