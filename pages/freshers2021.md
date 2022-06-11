@@ -3,7 +3,7 @@ layout: freshers
 title: Freshers
 permalink: /freshers21/
 redirect_from: "/freshers"
-show-in-nav: true
+show-in-nav: false
 freshers_start: 2021-09-28 00:00:00
 freshers_end:   2021-10-11 00:00:00
 ---
