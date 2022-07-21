@@ -9,7 +9,7 @@ logo: tpp.svg
 jobLocation: Leeds, UK
 industry: Software Development
 employmentType: Summer Intern
-validThrough: 2022-7-01 00:00:00 +0100
+validThrough: 2022-12-31 00:00:00 +0100
 startDate: Summer 2022
 apply:
   link: https://tpp-careers.com/roles/software-developer/
