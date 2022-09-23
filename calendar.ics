@@ -3711,15 +3711,15 @@ UID:events-20220923freshersfair
  @cssbristol.co.uk
 DTSTAMP:20220923T090000
 DTSTART:20220923T090000
-DTEND:20210924T170000
+DTEND:20220924T170000
 LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2022_09_23_freshers_fair/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
-SUMMARY:2022_09_23_freshers_fair
+SUMMARY:2022 SU Freshers Fair
 DESCRIPTION:Freshers event
-LOCATION:Stall 151, SU Fresher's Fair, Durdham Down
+LOCATION:Stall 151, SU Freshers Fair, Durdham Down
 END:VEVENT
 END:VCALENDAR
