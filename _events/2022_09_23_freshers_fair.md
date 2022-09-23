@@ -3,11 +3,11 @@ layout: event
 published: true
 cancelled: false
 cancel_reason:
-title:
+title: 2022 SU Freshers Fair
 date:     2022-09-23 09:00:00 +0100
-date_end: 2021-09-24 17:00:00 +0100
+date_end: 2022-09-24 17:00:00 +0100
 banner: 
-location: Stall 151, SU Fresher's Fair, Durdham Down
+location: Stall 151, SU Freshers Fair, Durdham Down
 price: Free
 category:
     - Social
