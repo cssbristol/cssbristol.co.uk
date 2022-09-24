@@ -1,5 +1,5 @@
 ---
 name: Google
 logo: google.png
-link: https://codingcompetitions.withgoogle.com
+link: https://about.google/
 ---
