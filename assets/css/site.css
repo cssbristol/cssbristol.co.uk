@@ -660,6 +660,8 @@ body { margin: 0; }
 
 .social-links .social-links__item--rss { background: #fda333; }
 
+.social-links .social-links__item--tiktok { background: #fe2c55; }
+
 .social-links .social-links__item--calendar { background: #2d32ad; }
 
 .social-links .social-links__item:hover, .social-links .social-links__item:focus { box-shadow: 0px 10px 10px #cccccc; transform: translateY(-1px) scale(1.02); z-index: 9999999999; }
