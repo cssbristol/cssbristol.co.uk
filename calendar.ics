@@ -3738,4 +3738,20 @@ SUMMARY:CSS Movie Night (The Dictator)
 DESCRIPTION:Join us for a chilled movie night watching The ...
 LOCATION:Stephenson room, Richmond Building
 END:VEVENT
+BEGIN:VEVENT
+UID:events-2022-10-29baectf
+ @cssbristol.co.uk
+DTSTAMP:20221029T103000
+DTSTART:20221029T103000
+DTEND:20221029T163000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2022-10-29_bae_ctf/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2022-10-29_bae_ctf.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:BAE Systems CTF
+DESCRIPTION:SIGN UP TBA
+LOCATION:MVB 1.11/1.11A
+END:VEVENT
 END:VCALENDAR
