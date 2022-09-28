@@ -3751,7 +3751,7 @@ IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/2022-10-29_bae_ctf.png
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:BAE Systems CTF
-DESCRIPTION:Sign Up Form:
+DESCRIPTION:Sign Up Form: https://forms.office.com/r/zRDHQx...
 LOCATION:MVB 1.11/1.11A
 END:VEVENT
 END:VCALENDAR
