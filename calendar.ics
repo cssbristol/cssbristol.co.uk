@@ -3786,4 +3786,20 @@ SUMMARY:BAE Systems CTF
 DESCRIPTION:Sign Up Form: https://forms.office.com/r/zRDHQx...
 LOCATION:MVB 1.11/1.11A
 END:VEVENT
+BEGIN:VEVENT
+UID:events-2022-11-02gamejam
+ @cssbristol.co.uk
+DTSTAMP:20221102T090000
+DTSTART:20221102T090000
+DTEND:20221103T130000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2022-11-02_game_jam/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Game Jam
+DESCRIPTION:GAME JAM GAME JAM
+LOCATION:MVB 1.11/1.11A
+END:VEVENT
 END:VCALENDAR
