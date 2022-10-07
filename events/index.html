@@ -54,9 +54,9 @@
   <script src="/assets/scripts/monospace-fonts.js" defer></script>
 
   <link rel="stylesheet" href="/assets/css/site.css" />
-  <link rel="canonical" href="https://www.cssbristol.co.uk/events/" />
+  <link rel="canonical" href="https://cssbristol.co.uk/events/" />
   
-    <link type="application/atom+xml" rel="alternate" href="https://www.cssbristol.co.uk/feed/events.xml" title="Events" />
+    <link type="application/atom+xml" rel="alternate" href="https://cssbristol.co.uk/feed/events.xml" title="Events" />
   
 
   
@@ -76,6 +76,15 @@
   
   <!-- Cloudflare Web Analytics -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
+
+  <!-- remove after a couple of months -->
+  <script>
+    const path = window.location.pathname;
+    if (path.startsWith("/events/")) {
+      const newPath = path.replaceAll("_", "-");
+      window.location.replace(newPath);
+    }
+  </script>
 </head>
 
 
@@ -390,7 +399,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022_10_10_bloomberg_talk/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-10-10-bloomberg-talk/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -460,7 +469,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-10-29_bae_ctf/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-10-29-bae-ctf/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -508,7 +517,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-11-02_game_jam/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-11-02-game-jam/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -579,7 +588,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-10-05_welcome_drinks/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-10-05-welcome-drinks/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -627,7 +636,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-09-30_movie_night/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-09-30-movie-night/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -675,7 +684,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022_09_23_freshers_fair/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-09-23-freshers-fair/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -771,7 +780,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-05-28-css_barbecue/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-05-28-css-barbecue/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -819,7 +828,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022_05_09_agm/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-05-09-agm/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -878,7 +887,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022_04_01_MVBall/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-04-01-mvball/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -926,7 +935,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-03-28_bbis_fireside_chat/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-03-28-bbis-fireside-chat/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -985,7 +994,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022_03_07_xmos_programming_in_the_small/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-03-07-xmos-programming-in-the-small/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -1031,7 +1040,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-02-26_boeing_hackathon/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-02-26-boeing-hackathon/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -1101,7 +1110,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-02-24_hashcode/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-02-24-hashcode/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -1160,7 +1169,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-02-22_boeing_hackathon_team_matching/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-02-22-boeing-hackathon-team-matching/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -1219,7 +1228,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022_02_02_bloomberg_bpuzzled/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-02-02-bloomberg-bpuzzled/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -1278,7 +1287,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-01-29_end_of_exam_drinks/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-01-29-end-of-exam-drinks/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -1326,7 +1335,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2021_11_06_BAE_CTF/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2021-11-06-bae-ctf/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>

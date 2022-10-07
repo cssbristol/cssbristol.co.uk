@@ -54,7 +54,7 @@
   <script src="/assets/scripts/monospace-fonts.js" defer></script>
 
   <link rel="stylesheet" href="/assets/css/site.css" />
-  <link rel="canonical" href="https://www.cssbristol.co.uk/" />
+  <link rel="canonical" href="https://cssbristol.co.uk/" />
   
 
   
@@ -74,6 +74,15 @@
   
   <!-- Cloudflare Web Analytics -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
+
+  <!-- remove after a couple of months -->
+  <script>
+    const path = window.location.pathname;
+    if (path.startsWith("/events/")) {
+      const newPath = path.replaceAll("_", "-");
+      window.location.replace(newPath);
+    }
+  </script>
 </head>
 
 
@@ -399,7 +408,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022_10_10_bloomberg_talk/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-10-10-bloomberg-talk/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -469,7 +478,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-10-29_bae_ctf/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-10-29-bae-ctf/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -517,7 +526,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-11-02_game_jam/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2022-11-02-game-jam/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>

@@ -54,9 +54,9 @@
   <script src="/assets/scripts/monospace-fonts.js" defer></script>
 
   <link rel="stylesheet" href="/assets/css/site.css" />
-  <link rel="canonical" href="https://www.cssbristol.co.uk/events/page14/" />
+  <link rel="canonical" href="https://cssbristol.co.uk/events/page14/" />
   
-    <link type="application/atom+xml" rel="alternate" href="https://www.cssbristol.co.uk/feed/events.xml" title="Events - page 14 of 14" />
+    <link type="application/atom+xml" rel="alternate" href="https://cssbristol.co.uk/feed/events.xml" title="Events - page 14 of 14" />
   
 
   
@@ -76,6 +76,15 @@
   
   <!-- Cloudflare Web Analytics -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
+
+  <!-- remove after a couple of months -->
+  <script>
+    const path = window.location.pathname;
+    if (path.startsWith("/events/")) {
+      const newPath = path.replaceAll("_", "-");
+      window.location.replace(newPath);
+    }
+  </script>
 </head>
 
 
@@ -392,7 +401,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2016_10_13_bloomberg_jvm/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2016-10-13-bloomberg-jvm/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -451,7 +460,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2016_10_04_oracle_scale/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2016-10-04-oracle-scale/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>
@@ -510,7 +519,7 @@
 
       <div class="card-grid__card__footer">
         <p>More info</p>
-        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2016-06-04_summer_bbq/">
+        <a aria-label="More details button" class="card-grid__card__footer__next-btn" href="/events/2016-06-04-summer-bbq/">
           <i class="fas fa-chevron-right"></i>
         </a>
       </div>

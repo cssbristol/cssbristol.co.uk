@@ -54,7 +54,7 @@
   <script src="/assets/scripts/monospace-fonts.js" defer></script>
 
   <link rel="stylesheet" href="/assets/css/site.css" />
-  <link rel="canonical" href="https://www.cssbristol.co.uk/tutorials/ssh/" />
+  <link rel="canonical" href="https://cssbristol.co.uk/tutorials/ssh/" />
   
 
   
@@ -74,6 +74,15 @@
   
   <!-- Cloudflare Web Analytics -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
+
+  <!-- remove after a couple of months -->
+  <script>
+    const path = window.location.pathname;
+    if (path.startsWith("/events/")) {
+      const newPath = path.replaceAll("_", "-");
+      window.location.replace(newPath);
+    }
+  </script>
 </head>
 
 
