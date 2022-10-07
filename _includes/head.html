@@ -50,7 +50,9 @@
     const path = window.location.pathname;
     if (path.startsWith("/events/")) {
       const newPath = path.replaceAll("_", "-");
-      window.location.replace(newPath);
+      if (newPath !== path) {
+        window.location.replace(newPath);
+      }
     }
   </script>
 </head>
