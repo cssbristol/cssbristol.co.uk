@@ -3755,6 +3755,22 @@ DESCRIPTION:Have a relaxing evening with your course mates ...
 LOCATION:Hope & Anchor
 END:VEVENT
 BEGIN:VEVENT
+UID:events-20221010bloombergtalk
+ @cssbristol.co.uk
+DTSTAMP:20221010T190000
+DTSTART:20221010T190000
+DTEND:20221010T190000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2022_10_10_bloomberg_talk/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2022_10_10_bloomberg_talk.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:C++ 20 Co-Routines
+DESCRIPTION:Join us for a talk by Bloomberg on C++ 20 Co-Ro...
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2022-10-29baectf
  @cssbristol.co.uk
 DTSTAMP:20221029T093000
