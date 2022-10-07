@@ -2,7 +2,7 @@ title: CSS Bristol
 email: webmaster@cssbristol.co.uk
 description: CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.cssbristol.co.uk" # the base hostname & protocol for your site
+url: "https://cssbristol.co.uk" # the base hostname & protocol for your site
 twitter_username: cssbristol
 github_username: cssbristol
 timezone: Europe/London
