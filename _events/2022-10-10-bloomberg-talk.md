@@ -6,7 +6,7 @@ title: C++ 20 Co-Routines
 date: 2022-10-10 18:00:00 +0100
 date_end: 2022-10-10 19:00:00 +0100
 banner: 2022_10_10_bloomberg_talk.png
-location: Online
+location: MVB 1.11
 ticket_link: https://www.bristolsu.org.uk/groups/computer-science-society-22c3/events/c-20-co-routines
 price: Free
 category:
