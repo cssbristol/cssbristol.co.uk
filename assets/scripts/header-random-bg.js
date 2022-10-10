@@ -5,5 +5,5 @@ window.addEventListener("DOMContentLoaded", () => {
 
     const bg = document.getElementById("header-random-background");
     const imageIndex = Math.floor(Math.random() * 4) + 1;
-    bg.style.backgroundImage = `url(/assets/images/core/header-bg-${imageIndex}_70000.jpg)`;
+    bg.style.backgroundImage = `url(/assets/images/core/header-bg-0${imageIndex}_70000.jpg)`;
 });
