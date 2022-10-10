@@ -3768,7 +3768,7 @@ IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:C++ 20 Co-Routines
 DESCRIPTION:Join us for a talk by Bloomberg on C++ 20 Co-Ro...
-LOCATION:Online
+LOCATION:MVB 1.11
 END:VEVENT
 BEGIN:VEVENT
 UID:events-2022-10-29-bae-ctf
