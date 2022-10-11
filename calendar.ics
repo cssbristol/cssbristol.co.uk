@@ -3802,4 +3802,20 @@ SUMMARY:Game Jam
 DESCRIPTION:GAME JAM GAME JAM
 LOCATION:MVB 1.11/1.11A
 END:VEVENT
+BEGIN:VEVENT
+UID:events-2022-11-19-egm
+ @cssbristol.co.uk
+DTSTAMP:20221119T160000
+DTSTART:20221119T160000
+DTEND:20221119T200000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2022-11-19-egm/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS EGM 2022
+DESCRIPTION:Do you love pizza? What about democracy? If the...
+LOCATION:MVB 1.11A
+END:VEVENT
 END:VCALENDAR
