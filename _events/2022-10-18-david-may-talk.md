@@ -6,9 +6,9 @@ cancel_reason:
 title: Inmos, the Transputer and Bristol's Tech Cluster
 date:     2022-10-18 18:00:00 +0100
 date_end: 2022-10-18 19:00:00 +0100
-# banner: $BANNER
+banner: 2022-10-18-david-may-talk.jpg
 location: MVB 1.11/1.11A
-ticket_link: $TICKET_LINK
+ticket_link: https://www.bristolsu.org.uk/groups/computer-science-society-22c3/events/inmos-the-transputer-and-bristol-s-tech-cluster
 price: Free
 category:
   - Tech Talk
