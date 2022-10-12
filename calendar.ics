@@ -3771,6 +3771,22 @@ DESCRIPTION:Join us for a talk by Bloomberg on C++ 20 Co-Ro...
 LOCATION:MVB 1.11
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2022-10-18-david-may-talk
+ @cssbristol.co.uk
+DTSTAMP:20221018T180000
+DTSTART:20221018T180000
+DTEND:20221018T190000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2022-10-18-david-may-talk/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2022-10-18-david-may-talk.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Inmos, the Transputer and Bristol's Tech Cluster
+DESCRIPTION:The Inmos office opened in Bristol in December ...
+LOCATION:MVB 1.11/1.11A
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2022-10-19-egm
  @cssbristol.co.uk
 DTSTAMP:20221019T170000
