@@ -1,3 +1,4 @@
+---
 layout: job
 hide: false
 sponsored: true
@@ -24,7 +25,7 @@ Developers at TPP are involved in the full software cycle, and work closely with
 
 ## Educational Requirements
 Predicted 2:1 or above at degree level
-A*AA at A Level with an A* in Maths
+A\*AA at A Level with an A\* in Maths
 
 ## Experience Requirements
 No Experience Required
