@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://cssbristol.co.uk/feed/events.xml" rel="self" type="application/atom+xml" /><link href="https://cssbristol.co.uk/" rel="alternate" type="text/html" /><updated>2022-10-17T09:49:10+01:00</updated><id>https://cssbristol.co.uk/feed/events.xml</id><title type="html">CSS Bristol | Events</title><subtitle>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</subtitle><entry><title type="html">CSS GameJam 2022</title><link href="https://cssbristol.co.uk/events/2022-11-02-game-jam/" rel="alternate" type="text/html" title="CSS GameJam 2022" /><published>2022-11-02T07:00:00+00:00</published><updated>2022-11-02T07:00:00+00:00</updated><id>https://cssbristol.co.uk/events/game-jam</id><content type="html" xml:base="https://cssbristol.co.uk/events/2022-11-02-game-jam/">&lt;p&gt;&lt;strong&gt;SIGN UP HERE:&lt;/strong&gt; &lt;a href=&quot;https://forms.office.com/r/fXMmLHjqFY&quot;&gt;https://forms.office.com/r/fXMmLHjqFY&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://cssbristol.co.uk/feed/events.xml" rel="self" type="application/atom+xml" /><link href="https://cssbristol.co.uk/" rel="alternate" type="text/html" /><updated>2022-10-17T09:59:27+01:00</updated><id>https://cssbristol.co.uk/feed/events.xml</id><title type="html">CSS Bristol | Events</title><subtitle>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</subtitle><entry><title type="html">CSS GameJam 2022</title><link href="https://cssbristol.co.uk/events/2022-11-02-game-jam/" rel="alternate" type="text/html" title="CSS GameJam 2022" /><published>2022-11-02T07:00:00+00:00</published><updated>2022-11-02T07:00:00+00:00</updated><id>https://cssbristol.co.uk/events/game-jam</id><content type="html" xml:base="https://cssbristol.co.uk/events/2022-11-02-game-jam/">&lt;p&gt;&lt;strong&gt;SIGN UP HERE:&lt;/strong&gt; &lt;a href=&quot;https://forms.office.com/r/fXMmLHjqFY&quot;&gt;https://forms.office.com/r/fXMmLHjqFY&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;THEME: It’s not a Bug, It’s a Feature&lt;/strong&gt;&lt;/p&gt;
 
@@ -13,13 +13,8 @@
   &lt;li&gt;VR/ AR devices (&lt;strong&gt;Induction Needed, Find more details below&lt;/strong&gt;)&lt;/li&gt;
   &lt;li&gt;Meta Quest 2 x 4&lt;/li&gt;
   &lt;li&gt;Oculus Go&lt;/li&gt;
-  &lt;li&gt;VIVE Pro 2* with Valve Index Controllers
-    -  Possibile add-on:
-    &lt;ul&gt;
-      &lt;li&gt;VIVE tracker (3.0)&lt;/li&gt;
-      &lt;li&gt;VIVE facial tracker&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;VIVE Pro 2* with Valve Index Controllers&lt;/li&gt;
+  &lt;li&gt;Possibile add-ons: VIVE tracker (3.0), VIVE facial tracker&lt;/li&gt;
   &lt;li&gt;Valve Index*&lt;/li&gt;
   &lt;li&gt;HoloLens 2 x2&lt;/li&gt;
   &lt;li&gt;Mobile devices
@@ -89,18 +84,55 @@
 
 &lt;h3 id=&quot;2nd-november-2022&quot;&gt;2nd November 2022&lt;/h3&gt;
 
-&lt;p&gt;08:00 - 08:30: Registration
-08:30 - 09:00: Intro + Health &amp;amp; Safety talk
-09:00 - 23:59: Day 1&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Time&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;08:00 - 08:30&lt;/td&gt;
+      &lt;td&gt;Registration&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;08:30 - 09:00&lt;/td&gt;
+      &lt;td&gt;Intro + Health &amp;amp; Safety talk&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;09:00 - 23:59&lt;/td&gt;
+      &lt;td&gt;Day 1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;h3 id=&quot;3rd-november-2022&quot;&gt;3rd November 2022&lt;/h3&gt;
 
-&lt;p&gt;09:00 - 15:00: Day 2
-15:00 - 17:30: Judging&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Time&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;09:00 - 15:00&lt;/td&gt;
+      &lt;td&gt;Day 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;15:00 - 17:30&lt;/td&gt;
+      &lt;td&gt;Judging&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;p&gt;Food is provided for participants on both days, as well as refreshments (tea, coffee, water, etc.)&lt;/p&gt;
 
-&lt;p&gt;We will be setting up a channel in our &lt;a href=&quot;https://discord.gg/nYwbhf8&quot;&gt;Discord&lt;/a&gt; server in the coming days for further communication and to help people find a group. We will also be communicating information over email.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Competition&quot;, &quot;Social&quot;]" /><summary type="html">SIGN UP HERE: https://forms.office.com/r/fXMmLHjqFY</summary></entry><entry><title type="html">BAE Systems CTF</title><link href="https://cssbristol.co.uk/events/2022-10-29-bae-ctf/" rel="alternate" type="text/html" title="BAE Systems CTF" /><published>2022-10-29T09:30:00+01:00</published><updated>2022-10-29T09:30:00+01:00</updated><id>https://cssbristol.co.uk/events/bae-ctf</id><content type="html" xml:base="https://cssbristol.co.uk/events/2022-10-29-bae-ctf/">&lt;p&gt;&lt;strong&gt;Sign Up Form: &lt;a href=&quot;https://forms.office.com/r/zRDHQxeGHt&quot;&gt;https://forms.office.com/r/zRDHQxeGHt&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We will be setting up a channel in our &lt;a href=&quot;https://discord.gg/nYwbhf8&quot;&gt;Discord&lt;/a&gt; server in the coming days for further communication and to help people find a group. We will also be communicating information over email.&lt;/p&gt;
+
+&lt;!-- Gromit was here --&gt;</content><author><name></name></author><category term="[&quot;Competition&quot;, &quot;Social&quot;]" /><summary type="html">SIGN UP HERE: https://forms.office.com/r/fXMmLHjqFY</summary></entry><entry><title type="html">BAE Systems CTF</title><link href="https://cssbristol.co.uk/events/2022-10-29-bae-ctf/" rel="alternate" type="text/html" title="BAE Systems CTF" /><published>2022-10-29T09:30:00+01:00</published><updated>2022-10-29T09:30:00+01:00</updated><id>https://cssbristol.co.uk/events/bae-ctf</id><content type="html" xml:base="https://cssbristol.co.uk/events/2022-10-29-bae-ctf/">&lt;p&gt;&lt;strong&gt;Sign Up Form: &lt;a href=&quot;https://forms.office.com/r/zRDHQxeGHt&quot;&gt;https://forms.office.com/r/zRDHQxeGHt&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;BAE Systems are running a Capture the Flag event, a day of cyber security challenges and games, on Saturday 29th October. Anybody who is currently enrolled at The University of Bristol can sign up and play.&lt;/p&gt;
 
