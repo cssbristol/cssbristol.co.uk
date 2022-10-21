@@ -3819,6 +3819,22 @@ DESCRIPTION:Sign Up Form: https://forms.office.com/r/zRDHQx...
 LOCATION:MVB 1.11/1.11A
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2022-10-31-game-night
+ @cssbristol.co.uk
+DTSTAMP:20221031T140000
+DTSTART:20221031T140000
+DTEND:20221031T190000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2022-10-31-game-night/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CS Boardgame Night
+DESCRIPTION:Want to take some time off in Explore week? Joi...
+LOCATION:MVB Lower Atrium
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2022-11-02-game-jam
  @cssbristol.co.uk
 DTSTAMP:20221102T070000
