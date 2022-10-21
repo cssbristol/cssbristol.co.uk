@@ -4,7 +4,7 @@ published: true
 cancelled: false
 cancel_reason:
 title: CS Boardgame Night
-date:     2022-10-31 15:00:00 +0100
+date:     2022-10-31 15:00:00 +0000
 date_end: 2022-10-31 19:00:00 +0100
 # banner: 2022-10-29_bae_ctf.png
 location: MVB Lower Atrium
