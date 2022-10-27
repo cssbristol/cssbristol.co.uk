@@ -90,4 +90,20 @@ $ITEM_META_H: $ITEM_H - $ITEM_IMG_H;
   .btn {
     display: block;
   }
+
+  &__body {
+    table {
+      border-collapse: collapse;
+      border-width: 1px;
+      border-color: #000000;
+      border-style: solid;
+
+      td, th {
+        border-width: 1px;
+        border-color: #000000;
+        border-style: solid;
+        padding: 5px;
+      }
+    }
+  }
 }
