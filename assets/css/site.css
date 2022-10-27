@@ -231,6 +231,10 @@ body { display: flex; min-height: 100vh; flex-direction: column; font-family: "O
 
 .blog-post .btn { display: block; }
 
+.blog-post__body table { border-collapse: collapse; border-width: 1px; border-color: #000000; border-style: solid; }
+
+.blog-post__body table td, .blog-post__body table th { border-width: 1px; border-color: #000000; border-style: solid; padding: 5px; }
+
 .card-grid { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: stretch; padding-top: 15px; }
 
 .card-grid__card { margin: 0px 12.5px 25px 12.5px; padding: 2rem 1rem; width: 250px; box-shadow: 0px 0px 10px #cccccc; border-radius: 10px; display: flex; flex-direction: column; transition: transform ease-in-out 0.275s; }
