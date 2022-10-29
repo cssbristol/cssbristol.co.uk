@@ -31,7 +31,7 @@ In the past, interns have worked on projects including:
 * Integration with Apple’s HealthKit
 * Artificial Intelligence in healthcare
 
-# Benefits
+## Benefits
 We will give you a salary of £2,000 per month, you will also receive a range of benefits, including:
 * Regular social events
 * Pub Fridays
