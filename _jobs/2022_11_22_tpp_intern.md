@@ -25,15 +25,16 @@ The summer internship is for university students who are in their penultimate ye
 Our Software Developers work on a wide variety of projects as part of an agile development environment. Interns are involved in the full software cycle and work closely with all teams across the company as they scope out new projects and design, develop and deploy our solutions.
 
 In the past, interns have worked on projects including:
-• Development of iOS and Android apps for patients and clinicians
-• Technologies to aid in public health and clinical trials
-• Writing a new platform for sharing clinical tools
-• Integration with Apple’s HealthKit
-• Artificial Intelligence in healthcare
+* Development of iOS and Android apps for patients and clinicians
+* Technologies to aid in public health and clinical trials
+* Writing a new platform for sharing clinical tools
+* Integration with Apple’s HealthKit
+* Artificial Intelligence in healthcare
 
+# Benefits
 We will give you a salary of £2,000 per month, you will also receive a range of benefits, including:
-• Regular social events
-• Pub Fridays
+* Regular social events
+* Pub Fridays
 
 ## Educational Requirements
 Predicted 2:1 or above at degree level
