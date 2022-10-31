@@ -1,83 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://cssbristol.co.uk/feed/events.xml" rel="self" type="application/atom+xml" /><link href="https://cssbristol.co.uk/" rel="alternate" type="text/html" /><updated>2022-10-31T06:21:51+00:00</updated><id>https://cssbristol.co.uk/feed/events.xml</id><title type="html">CSS Bristol | Events</title><subtitle>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</subtitle><entry><title type="html">CSS GameJam 2022</title><link href="https://cssbristol.co.uk/events/2022-11-02-game-jam/" rel="alternate" type="text/html" title="CSS GameJam 2022" /><published>2022-11-02T07:00:00+00:00</published><updated>2022-11-02T07:00:00+00:00</updated><id>https://cssbristol.co.uk/events/game-jam</id><content type="html" xml:base="https://cssbristol.co.uk/events/2022-11-02-game-jam/">&lt;p&gt;&lt;strong&gt;SIGN UP HERE:&lt;/strong&gt; &lt;a href=&quot;https://forms.office.com/r/fXMmLHjqFY&quot;&gt;https://forms.office.com/r/fXMmLHjqFY&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://cssbristol.co.uk/feed/events.xml" rel="self" type="application/atom+xml" /><link href="https://cssbristol.co.uk/" rel="alternate" type="text/html" /><updated>2022-10-31T08:36:48+00:00</updated><id>https://cssbristol.co.uk/feed/events.xml</id><title type="html">CSS Bristol | Events</title><subtitle>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</subtitle><entry><title type="html">CSS GameJam 2022</title><link href="https://cssbristol.co.uk/events/2022-11-02-game-jam/" rel="alternate" type="text/html" title="CSS GameJam 2022" /><published>2022-11-02T07:00:00+00:00</published><updated>2022-11-02T07:00:00+00:00</updated><id>https://cssbristol.co.uk/events/game-jam</id><content type="html" xml:base="https://cssbristol.co.uk/events/2022-11-02-game-jam/">&lt;p&gt;&lt;strong&gt;SIGN UP HERE:&lt;/strong&gt; &lt;a href=&quot;https://forms.office.com/r/fXMmLHjqFY&quot;&gt;https://forms.office.com/r/fXMmLHjqFY&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;THEME: It’s not a Bug, It’s a Feature&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;GameJam is back! Team up with your friends (or go it alone, that’s fine too!) and join us on 2nd and 3rd November for a 2-day GameJam, where you will compete to make the best game possible with the theme &lt;strong&gt;“It’s not a Bug, It’s a Feature”&lt;/strong&gt;! It’s a fantastic opportunity to develop your skills and maybe win a prize! Did we mention that there will be free pizza?&lt;/p&gt;
 
 &lt;h2 id=&quot;hardware&quot;&gt;Hardware!&lt;/h2&gt;
+&lt;details&gt;
+&lt;summary&gt;This year we&apos;re very happy to announce that we have hardware available to participants to use! This includes:&lt;/summary&gt;
+  
+-  VR/ AR devices (**Induction Needed, Find more details below**)
+  -  Meta Quest 2 x 4
+  -  Oculus Go
+  -  VIVE Pro 2\* with Valve Index Controllers
+  -  Possibile add-ons: VIVE tracker (3.0), VIVE facial tracker
+  -  Valve Index\*
+  -  HoloLens 2 x2
+- Mobile devices
+  - Google Pixel 6 x 5 
+    - running Android OS 13
+    - ARCore
+      - 60 fps camera capture frame rate on the rear-facing camera
+      - Multiple GPU texture resolutions - 1080p, 720p, 480p
+      - Depth API
+  - Lenovo Tab P11
+    - Android OS 11
+  - iPad Pro 11&quot; (3rd gen) x 2
+    - iPadOS 15.7
+    - LiDAR Scanner
+    - ARKit and RealityKit
+- Controllers
+  - Xbox Controllers x6
+  - Wii Controllers x5
 
-&lt;p&gt;This year we’re very happy to announce that we have hardware available to participants to use!&lt;/p&gt;
+\*: These headsets can only be used in 2.56 VR area.
 
-&lt;p&gt;This includes:&lt;/p&gt;
+Participants using the hardware will be required to attend an induction session before they can use the hardware. Details about the induction can be found in the sign-up form.
+&lt;/details&gt;
+
+&lt;h2 id=&quot;prizes-over-1000-to-win&quot;&gt;Prizes (Over £1000 to win!)&lt;/h2&gt;
+&lt;p&gt;There are multiple categories, and a &lt;strong&gt;single game can win multiple of them!&lt;/strong&gt; Don’t be afraid to try to enter all of these!&lt;/p&gt;
+
+&lt;h3 id=&quot;most-innovative-game&quot;&gt;Most Innovative Game&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;£400 cash&lt;/strong&gt;, sponsored by MyWorld.&lt;/p&gt;
+
+&lt;p&gt;All games will be entered into this category.&lt;/p&gt;
+
+&lt;h3 id=&quot;most-creative-interpretation-of-the-theme&quot;&gt;Most Creative Interpretation of The Theme&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;£425 cash&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;All games will be entered into this category.&lt;/p&gt;
+
+&lt;h3 id=&quot;best-graphics&quot;&gt;Best Graphics&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;£250 cash&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;All games will be entered into this category.&lt;/p&gt;
+
+&lt;h3 id=&quot;best-story&quot;&gt;Best Story&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;£150 cash&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is an opt-in category.&lt;/p&gt;
+
+&lt;h3 id=&quot;most-unexpected-twist&quot;&gt;Most Unexpected Twist&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;£150 cash&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is an opt-in category.&lt;/p&gt;
+
+&lt;h3 id=&quot;most-innovative-engagement-with-history-and-culture&quot;&gt;Most innovative engagement with history and culture&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;£100 Love2Shop Voucher&lt;/strong&gt;, Sponsored by the Bristol Digital Gaming Lab&lt;/p&gt;
+
+&lt;p&gt;This is an opt-in category&lt;/p&gt;
+
+&lt;h3 id=&quot;most-thought-put-into-accessibility&quot;&gt;Most thought put into accessibility&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;£100 Love2Shop Voucher&lt;/strong&gt;, Sponsored by the Bristol Digital Gaming Lab&lt;/p&gt;
+
+&lt;p&gt;All games will be entered into this category.&lt;/p&gt;
+
+&lt;h3 id=&quot;best-bugs-that-becomes-a-feature&quot;&gt;Best bug(s) that become(s) a feature&lt;/h3&gt;
+&lt;p&gt;£100 cash, sponsored by MyWorld&lt;/p&gt;
+
+&lt;h3 id=&quot;the-funniest-game&quot;&gt;The Funniest Game&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;VR/ AR devices (&lt;strong&gt;Induction Needed, Find more details below&lt;/strong&gt;)&lt;/li&gt;
-  &lt;li&gt;Meta Quest 2 x 4&lt;/li&gt;
-  &lt;li&gt;Oculus Go&lt;/li&gt;
-  &lt;li&gt;VIVE Pro 2* with Valve Index Controllers&lt;/li&gt;
-  &lt;li&gt;Possibile add-ons: VIVE tracker (3.0), VIVE facial tracker&lt;/li&gt;
-  &lt;li&gt;Valve Index*&lt;/li&gt;
-  &lt;li&gt;HoloLens 2 x2&lt;/li&gt;
-  &lt;li&gt;Mobile devices
-    &lt;ul&gt;
-      &lt;li&gt;Google Pixel 6 x 5
-        &lt;ul&gt;
-          &lt;li&gt;running Android OS 13&lt;/li&gt;
-          &lt;li&gt;ARCore
-            &lt;ul&gt;
-              &lt;li&gt;60 fps camera capture frame rate on the rear-facing camera&lt;/li&gt;
-              &lt;li&gt;Multiple GPU texture resolutions - 1080p, 720p, 480p&lt;/li&gt;
-              &lt;li&gt;Depth API&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Lenovo Tab P11
-        &lt;ul&gt;
-          &lt;li&gt;Android OS 11&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;iPad Pro 11” (3rd gen) x 2
-        &lt;ul&gt;
-          &lt;li&gt;iPadOS 15.7&lt;/li&gt;
-          &lt;li&gt;LiDAR Scanner&lt;/li&gt;
-          &lt;li&gt;ARKit and RealityKit&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Controllers
-    &lt;ul&gt;
-      &lt;li&gt;Xbox Controllers x6&lt;/li&gt;
-      &lt;li&gt;Wii Controllers x5&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Six £25 amazon vouchers (£125) for the Funniest Game, sponsored by Aardman&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;*: These headsets can only be used in 2.56 VR area.&lt;/p&gt;
+&lt;p&gt;This is an opt-in category.&lt;/p&gt;
 
-&lt;p&gt;Participants using the hardware will be required to attend an induction session before they can use the hardware. Details about the induction can be found in the sign-up form.&lt;/p&gt;
-
-&lt;h2 id=&quot;prizes&quot;&gt;Prizes&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Bristol Digital Game Lab:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;£100 voucher for the game which has most thought put into it for accessibility&lt;/li&gt;
-  &lt;li&gt;£100 voucher for the game with the most innovative engagement with history &amp;amp; culture&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;MyWorld:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;£400 for most innovative game (have asked for clarification on what this means)&lt;/li&gt;
-  &lt;li&gt;£100 for “best bug that becomes a feature”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Aardman:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;£150, category TBD&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;CSS:&lt;/strong&gt;
-TBD&lt;/p&gt;
+&lt;p&gt;NB: Cash prizes will be awarded via bank transfer to team members.&lt;/p&gt;
 
 &lt;h2 id=&quot;rules&quot;&gt;Rules&lt;/h2&gt;
 
