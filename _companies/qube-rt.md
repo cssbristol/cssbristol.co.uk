@@ -1,6 +1,6 @@
 ---
 name: Qube Research & Technologies
-logo: qube-rt.png
+logo: qube-rt.svg
 link: https://www.qube-rt.com/careers/
 sponsor:
   - start: 2022-11-07 00:00:00
