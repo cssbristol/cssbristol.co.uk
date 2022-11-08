@@ -2,12 +2,12 @@
 layout: event
 published: true
 cancelled: false
-title: Window Into Electronic Trading
+title: A Window Into Electronic Trading
 date:     2022-11-21 18:00:00 +0000
 date_end: 2022-11-21 19:00:00 +0000
 banner: 2022-11-21-qrt-electronic-trading.jpg
 location: MVB 1.11/1.11A
-fb_link: $FB
+fb_link: https://fb.me/e/37qNuYw4C
 ticket_link: https://forms.office.com/r/xmzExE3BME
 price: Free
 category:
