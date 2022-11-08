@@ -32,4 +32,4 @@ We strongly believe that long-term investment into our people is critical to our
 
 We are one of the best performing and fastest growing multi-strat quant hedge funds over the last couple years and we are just getting started…
 
-Our roles will be live by mid-November but in the meantime, contact our team to find out more at campus@qube-rt.com
+Our roles will be live by mid-November but in the meantime, contact our team to find out more at [campus@qube-rt.com](mailto:campus@qube-rt.com)
