@@ -3866,4 +3866,20 @@ SUMMARY:A Window Into Electronic Trading
 DESCRIPTION:Book here: https://forms.office.com/r/xmzExE3BME
 LOCATION:MVB 1.11/1.11A
 END:VEVENT
+BEGIN:VEVENT
+UID:events-2022-12-13-festive-gathering
+ @cssbristol.co.uk
+DTSTAMP:20221213T150000
+DTSTART:20221213T150000
+DTEND:20221213T180000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2022-12-13-festive-gathering/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CS Festive Gathering
+DESCRIPTION:The Computer Science deparment will be holding ...
+LOCATION:MVB Lower Atrium
+END:VEVENT
 END:VCALENDAR
