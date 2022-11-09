@@ -3869,8 +3869,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:events-2022-12-13-festive-gathering
  @cssbristol.co.uk
-DTSTAMP:20221213T150000
-DTSTART:20221213T150000
+DTSTAMP:20221213T160000
+DTSTART:20221213T160000
 DTEND:20221213T180000
 LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
@@ -3878,7 +3878,7 @@ URL:https://www.cssbristol.co.uk
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
-SUMMARY:CS Festive Gathering
+SUMMARY:Festive Gathering
 DESCRIPTION:The Computer Science deparment will be holding ...
 LOCATION:MVB Lower Atrium
 END:VEVENT
