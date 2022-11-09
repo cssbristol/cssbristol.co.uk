@@ -3,9 +3,9 @@ layout: event
 published: true
 cancelled: false
 cancel_reason:
-title: CS Festive Gathering
-date:     2022-12-13 16:00:00 +0100
-date_end: 2022-12-13 18:00:00 +0100
+title: Festive Gathering
+date:     2022-12-13 16:00:00 +0000
+date_end: 2022-12-13 18:00:00 +0000
 location: MVB Lower Atrium
 price: Free
 category:
