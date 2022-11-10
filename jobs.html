@@ -21,7 +21,8 @@ show-in-nav: true
 
   <div class="job-posts">
     {% capture nowunix %}{{'now' | date: '%s' | plus: 7200}}{% endcapture %}
-    {% for job in site.jobs reversed %}
+    {% asign jobs = site.jobs | sort: "validThrough" %}
+    {% for job in jobs reversed %}
     {% unless job.hide %}
     {% capture jobtime %}{{job.validThrough | date: '%s'}}{% endcapture %}
     {% unless jobtime < nowunix %} <div itemscope itemtype="http://schema.org/JobPosting"
