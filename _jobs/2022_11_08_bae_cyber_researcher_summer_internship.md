@@ -7,7 +7,7 @@ hiringOrganization:
   name: BAE Systems
 title: Summer Internship - Operational Cyber Researcher
 logo: BAE_Logo.svg
-jobLocation: London / Gloucester, United Kingdom
+jobLocation: London or Gloucester
 industry: Operational Cyber Researcher
 employmentType: Summer Internship 
 validThrough: 2022-12-31 00:00:00 +0100
