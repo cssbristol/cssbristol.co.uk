@@ -1,13 +1,13 @@
 ---
 layout: job
 hide: false
-sponsored: true
+sponsored: false
 datePosted: 2022-11-08 12:00:00 +0100
 hiringOrganization:
-  name: BAE
+  name: BAE Systems
 title: Graduate Software Engineer
 logo: BAE_Logo.svg
-jobLocation: Guildford, UK
+jobLocation: Gloucester, Guildford, Leeds or London
 industry: Software Engineering
 employmentType: Graduate
 validThrough: 2022-12-31 00:00:00 +0100
