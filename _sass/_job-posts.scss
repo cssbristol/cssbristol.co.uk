@@ -37,6 +37,8 @@
     min-height: 250px;
     text-decoration: none;
 
+    order: 1;
+
     &__title {
       font-size: 24px;
       margin: 10px 0 10px;
@@ -64,6 +66,14 @@
     }
 
     &--sponsored {
+      border: 3px solid black;
+      order: 0;
+
+      @media screen and (min-width: $container-breakpoint-md) {
+        grid-column: span 2;
+        order: 1;
+      }
+
       &:before {
         display: block;
         text-align: center;
@@ -74,13 +84,6 @@
         font-weight: 800;
         text-transform: uppercase;
       }
-
-      border: 2px solid black;
-
-      @media screen and (min-width: $container-breakpoint-md) {
-        grid-column: span 2;
-      }
-
     }
 
     p {
