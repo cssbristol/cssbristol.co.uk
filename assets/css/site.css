@@ -271,17 +271,15 @@ blockquote .citation:before { content: '-'; margin-right: 0.5rem; }
 
 .tutorials-grid p { text-align: center; }
 
-.job-posts { max-width: 900px; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; flex-shrink: 1; width: 100%; }
+.job-posts { display: grid; width: 90%; margin: 0 auto; column-gap: 2em; grid-template-columns: repeat(1, 1fr); }
+
+@media screen and (min-width: 900px) { .job-posts { grid-template-columns: repeat(2, 1fr); } }
+
+@media screen and (min-width: 100em) { .job-posts { grid-template-columns: repeat(4, 1fr); } }
 
 .job-posts a { color: inherit; text-decoration: inherit; }
 
-.job-posts__item { margin: 10px 1%; width: 42%; }
-
-@media screen and (max-width: 900px) { .job-posts__item { margin: 20px; width: 100%; } }
-
-.job-posts__item--sponsored { width: 90%; }
-
-.job-posts .job-post-item { /*border: 1px solid $medium-text;*/ box-shadow: 0px 0px 10px #cccccc; border-radius: 3px; color: #333333; min-height: 250px; padding: 10px 2%; position: relative; text-decoration: none; }
+.job-posts .job-post-item { position: relative; box-sizing: border-box; width: 100%; padding: 1em; margin: 1em 0; box-shadow: 0px 0px 10px #cccccc; border-radius: 3px; border-left: 0 solid #4b0071; color: #333333; min-height: 250px; text-decoration: none; order: 1; }
 
 .job-posts .job-post-item__title { font-size: 24px; margin: 10px 0 10px; }
 
@@ -291,13 +289,13 @@ blockquote .citation:before { content: '-'; margin-right: 0.5rem; }
 
 .job-posts .job-post-item__company { font-weight: 400; }
 
-.job-posts .job-post-item .company-logo { position: absolute; bottom: 2rem; right: 1rem; }
+.job-posts .job-post-item .company-logo img { height: 3rem; object-fit: contain; object-position: bottom left; margin: 0; }
 
-.job-posts .job-post-item .company-logo img { height: 3rem; object-fit: contain; object-position: bottom right; }
+.job-posts .job-post-item--sponsored { order: 0; border-left-width: 1em; }
 
-.job-posts .job-post-item--sponsored { background: #fa8a90; }
+@media screen and (min-width: 900px) { .job-posts .job-post-item--sponsored { grid-column: span 2; order: 1; } }
 
-.job-posts .job-post-item--sponsored:before { border-radius: 3px; color: #ffffff; content: 'Sponsored'; font-size: 16px; font-weight: 700; margin: 5px 0 10px; padding: 5px; text-transform: uppercase; float: right; }
+.job-posts .job-post-item--sponsored:before { display: block; text-align: center; content: 'Sponsored'; color: #767676; border-radius: 2em; font-size: 0.9em; font-weight: 800; text-transform: uppercase; }
 
 .job-posts .job-post-item p { margin: 5px 0; }
 
