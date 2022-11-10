@@ -21,7 +21,7 @@ show-in-nav: true
 
   <div class="job-posts">
     {% capture nowunix %}{{'now' | date: '%s' | plus: 7200}}{% endcapture %}
-    {% asign jobs = site.jobs | sort: "validThrough" %}
+    {% assign jobs = site.jobs | sort: "validThrough" %}
     {% for job in jobs reversed %}
     {% unless job.hide %}
     {% capture jobtime %}{{job.validThrough | date: '%s'}}{% endcapture %}
