@@ -10,7 +10,11 @@ show-in-nav: true
   <article class="article">
     <p>CSS helps computer science students discover high-quality job opportunities.</p>
     <p>
-      To post a job with us, simply <a href="https://docs.google.com/forms/d/1TY1gmN8f02Np_B--DGcSC5YxhywfpPPxNl4jU8ok4S0/viewform">fill out this form</a>. Also consider <a href="http://www.bristol.ac.uk/careers/employers/recruit/">advertising with the University Careers Service</a>, and <a href="https://www.bristol.ac.uk/engineering/ilo/students/mentoring/">signing up to be an industrial mentor</a>!
+      To post a job with us, simply <a
+        href="https://docs.google.com/forms/d/1TY1gmN8f02Np_B--DGcSC5YxhywfpPPxNl4jU8ok4S0/viewform">fill out this
+        form</a>. Also consider <a href="http://www.bristol.ac.uk/careers/employers/recruit/">advertising with the
+        University Careers Service</a>, and <a
+        href="https://www.bristol.ac.uk/engineering/ilo/students/mentoring/">signing up to be an industrial mentor</a>!
     </p>
   </article>
 
@@ -18,57 +22,64 @@ show-in-nav: true
   <div class="job-posts">
     {% capture nowunix %}{{'now' | date: '%s' | plus: 7200}}{% endcapture %}
     {% for job in site.jobs reversed %}
-      {% if job.sponsored %}
-      {% unless job.hide %}
-      {% capture jobtime %}{{job.validThrough | date: '%s'}}{% endcapture %}
-      {% unless jobtime < nowunix %}
-      <div itemscope itemtype="http://schema.org/JobPosting" class="job-posts__item {% if job.sponsored %}job-posts__item--sponsored{% endif %} job-post-item {% if job.sponsored %}job-post-item--sponsored{% endif %}">
-        <a href="{{ job.url }}">
-          <h2 class="job-post-item__title">{{ job.title }}</h2>
-          <span itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization">
-            <p class="job-post-item__company"><span itemprop="name">{{ job.hiringOrganization.name }}</span></p>
-          </span>
-          <p class="job-post-item__location">{{ job.jobLocation }}</p>
-          <p class="job-post-item__date">Posted <time datetime="{{ job.datePosted | date_to_xmlschema }}" itemprop="datePosted">{{ job.datePosted | date: "%b %-d, %Y"  }}</time></p>
-          <p class="job-post-item__date">Apply by <time datetime="{{ job.validThrough | date_to_xmlschema }}" itemprop="validThrough">{{ job.validThrough | date: "%b %-d, %Y"  }}</time></p>
-          {% if job.logo %}
-            {% include company_logo.html company=job.hiringOrganization.name %}
-          {% endif %}
-        </a>
-      </div>
-      {% endunless %}
-      {% endunless %}
-      {% endif %}
-    {% endfor %}
-    {% for job in site.jobs reversed %}
-      {% unless job.sponsored %}
-      {% unless job.hide %}
-      {% capture jobtime %}{{job.validThrough | date: '%s'}}{% endcapture %}
-      {% unless jobtime < nowunix %}
-      <div itemscope itemtype="http://schema.org/JobPosting" class="job-posts__item job-post-item {% if job.sponsored %}job-post-item--sponsored{% endif %}">
-        <a href="{{ job.url }}">
-          <h2 class="job-post-item__title">{{ job.title }}</h2>
-          <span itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization">
-            <p class="job-post-item__company"><span itemprop="name">{{ job.hiringOrganization.name }}</span></p>
-          </span>
-          <p class="job-post-item__location">{{ job.jobLocation }}</p>
-          <p class="job-post-item__date">Posted <time datetime="{{ job.datePosted | date_to_xmlschema }}" itemprop="datePosted">{{ job.datePosted | date: "%b %-d, %Y"  }}</time></p>
-          <p class="job-post-item__date">Apply by <time datetime="{{ job.validThrough | date_to_xmlschema }}" itemprop="validThrough">{{ job.validThrough | date: "%b %-d, %Y"  }}</time></p>
-          {% if job.logo %}
-            {% include company_logo.html company=job.hiringOrganization.name %}
-          {% endif %}
-        </a>
-      </div>
-      {% endunless %}
-      {% endunless %}
-      {% endunless %}
-    {% endfor %}
+    {% if job.sponsored %}
+    {% unless job.hide %}
+    {% capture jobtime %}{{job.validThrough | date: '%s'}}{% endcapture %}
+    {% unless jobtime < nowunix %} <div itemscope itemtype="http://schema.org/JobPosting"
+      class="job-posts__item {% if job.sponsored %}job-posts__item--sponsored{% endif %} job-post-item {% if job.sponsored %}job-post-item--sponsored{% endif %}">
+      <a href="{{ job.url }}">
+        <h2 class="job-post-item__title">{{ job.title }}</h2>
+        <span itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization">
+          <p class="job-post-item__company"><span itemprop="name">{{ job.hiringOrganization.name }}</span></p>
+        </span>
+        <p class="job-post-item__location">{{ job.jobLocation }}</p>
+        <p class="job-post-item__date">Posted <time datetime="{{ job.datePosted | date_to_xmlschema }}"
+            itemprop="datePosted">{{ job.datePosted | date: "%b %-d, %Y" }}</time></p>
+        <p class="job-post-item__date">Apply by <time datetime="{{ job.validThrough | date_to_xmlschema }}"
+            itemprop="validThrough">{{ job.validThrough | date: "%b %-d, %Y" }}</time></p>
+        {% if job.logo %}
+        {% include company_logo.html company=job.hiringOrganization.name %}
+        {% endif %}
+      </a>
   </div>
+  {% endunless %}
+  {% endunless %}
+  {% endif %}
+  {% endfor %}
+
+  {% for job in site.jobs reversed %}
+  {% unless job.sponsored %}
+  {% unless job.hide %}
+  {% capture jobtime %}{{job.validThrough | date: '%s'}}{% endcapture %}
+  {% unless jobtime < nowunix %} <div itemscope itemtype="http://schema.org/JobPosting"
+    class="job-posts__item job-post-item {% if job.sponsored %}job-post-item--sponsored{% endif %}">
+    <a href="{{ job.url }}">
+      <h2 class="job-post-item__title">{{ job.title }}</h2>
+      <span itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization">
+        <p class="job-post-item__company"><span itemprop="name">{{ job.hiringOrganization.name }}</span></p>
+      </span>
+      <p class="job-post-item__location">{{ job.jobLocation }}</p>
+      <p class="job-post-item__date">Posted <time datetime="{{ job.datePosted | date_to_xmlschema }}"
+          itemprop="datePosted">{{ job.datePosted | date: "%b %-d, %Y" }}</time></p>
+      <p class="job-post-item__date">Apply by <time datetime="{{ job.validThrough | date_to_xmlschema }}"
+          itemprop="validThrough">{{ job.validThrough | date: "%b %-d, %Y" }}</time></p>
+      {% if job.logo %}
+      {% include company_logo.html company=job.hiringOrganization.name %}
+      {% endif %}
+    </a>
+</div>
+{% endunless %}
+{% endunless %}
+{% endunless %}
+{% endfor %}
+</div>
 </div>
 
 <div class="page-section">
   <h1>Careers Service</h1>
   <article class="article">
-       <!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="36266/"></script> <!-- end feedwind code -->
+    <!-- start feedwind code -->
+    <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="36266/"></script>
+    <!-- end feedwind code -->
   </article>
 </div>
