@@ -19,8 +19,11 @@ apply:
 BAE Systems Digital Intelligence is home to 4,800 digital, cyber and intelligence experts. We work collaboratively across 16 countries to collect, connect and understand complex data, so that governments, nation states, armed forces and commercial businesses can unlock digital advantage in the most demanding environments.
 
 **BAE Systems Digital Intelligence**
+
 **Cyber & Vulnerability Research Summer Internship**
+
 **Start date:** June 2023
+
 **Base location:** London or Gloucester
 
 Here at BAE Systems Digital Intelligence, we are committed to helping governments, organisations and society navigate digital threats and opportunities. Whether it’s leveraging data to digitally transform operations or securing organisations and nations from cyber threats, we combine our unrivalled security and engineering heritage to help our clients navigate the data-reliant digital landscape. 

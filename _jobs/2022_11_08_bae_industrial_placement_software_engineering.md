@@ -1,13 +1,13 @@
 ---
 layout: job
 hide: false
-sponsored: true
+sponsored: false
 datePosted: 2022-11-08 12:00:00 +0100
 hiringOrganization:
-  name: BAE
+  name: BAE Systems
 title: Industrial Placement - Software Engineering
 logo: BAE_Logo.svg
-jobLocation: London, UK
+jobLocation: Gloucester, Leeds, or London
 industry: Software Engineering
 employmentType: Placement 
 validThrough: 2022-12-31 00:00:00 +0100
@@ -19,8 +19,11 @@ apply:
 BAE Systems Digital Intelligence is home to 4,800 digital, cyber and intelligence experts. We work collaboratively across 16 countries to collect, connect and understand complex data, so that governments, nation states, armed forces and commercial businesses can unlock digital advantage in the most demanding environments.
 
 **BAE Systems Digital Intelligence**
+
 **Software Engineering Industrial Placement (12 months)**
+
 **Start date:** September 2023
+
 **Base location:** Gloucester, Leeds, or London
 
 Here at BAE Systems Digital Intelligence, we exist to protect and enhance the connected world. We are committed to helping governments, organisations and society navigate digital threats and opportunities.
