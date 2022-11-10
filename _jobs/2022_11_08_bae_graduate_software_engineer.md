@@ -22,12 +22,9 @@ As the cyber and intelligence arm of BAE Systems, we employ over 4,800 people ac
 
 The graduate programme is designed to give you ownership of your career aspirations, supported by training and practical experience to help you succeed. You will be part of our Future Talent Community and be assigned a Career Manager, who will support and guide you throughout your career with us. All of this is designed to complement your career development, fuel your ambition, and give depth to your training and career.
 
-**__BAE Systems Digital Intelligence__**
-
-**__Graduate Software Engineering__**
-
-**Start date:** June or September 2023
-
+**__BAE Systems Digital Intelligence__**<br>
+**__Graduate Software Engineering__**<br>
+**Start date:** June or September 2023<br>
 **Base location:** Gloucester, Guildford, Leeds or London
 
 

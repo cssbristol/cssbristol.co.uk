@@ -18,12 +18,9 @@ apply:
 
 BAE Systems Digital Intelligence is home to 4,800 digital, cyber and intelligence experts. We work collaboratively across 16 countries to collect, connect and understand complex data, so that governments, nation states, armed forces and commercial businesses can unlock digital advantage in the most demanding environments.
 
-**BAE Systems Digital Intelligence**
-
-**Software Engineering - Summer Internship**
-
-**Start date:** June 2023
-
+**BAE Systems Digital Intelligence**<br>
+**Software Engineering - Summer Internship**<br>
+**Start date:** June 2023<br>
 **Base location:** London, Guildford or Gloucester
 
 Here at BAE Systems Digital Intelligence, we exist to protect and enhance the connected world. We are committed to helping governments, organisations and society navigate digital threats and opportunities.

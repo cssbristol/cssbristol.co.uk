@@ -18,12 +18,9 @@ apply:
 
 BAE Systems Digital Intelligence is home to 4,800 digital, cyber and intelligence experts. We work collaboratively across 16 countries to collect, connect and understand complex data, so that governments, nation states, armed forces and commercial businesses can unlock digital advantage in the most demanding environments.
 
-**BAE Systems Digital Intelligence**
-
-**Software Engineering Industrial Placement (12 months)**
-
-**Start date:** September 2023
-
+**BAE Systems Digital Intelligence**<br>
+**Software Engineering Industrial Placement (12 months)**<br>
+**Start date:** September 2023<br>
 **Base location:** Gloucester, Leeds, or London
 
 Here at BAE Systems Digital Intelligence, we exist to protect and enhance the connected world. We are committed to helping governments, organisations and society navigate digital threats and opportunities.
