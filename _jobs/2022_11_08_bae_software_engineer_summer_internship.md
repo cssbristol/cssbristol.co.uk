@@ -16,6 +16,8 @@ apply:
   link: https://cybercareers.baesystems.com/job/London-Summer-Internship-Software-Engineering-June-2023/858470401/
 ---
 
+***Did you take part in the [BAE Systems CTF](https://cssbristol.co.uk/events/2022-10-29-bae-ctf/)? Make sure to mention it on your application!***
+
 BAE Systems Digital Intelligence is home to 4,800 digital, cyber and intelligence experts. We work collaboratively across 16 countries to collect, connect and understand complex data, so that governments, nation states, armed forces and commercial businesses can unlock digital advantage in the most demanding environments.
 
 **BAE Systems Digital Intelligence**<br>

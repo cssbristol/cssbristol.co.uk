@@ -16,6 +16,8 @@ apply:
   link: https://cybercareers.baesystems.com/job/Guildford-Graduate-Software-Engineer-JuneSeptember-2023/858477401/
 ---
 
+***Did you take part in the [BAE Systems CTF](https://cssbristol.co.uk/events/2022-10-29-bae-ctf/)? Make sure to mention it on your application!***
+
 Here at BAE Systems Digital Intelligence, we are committed to helping governments, organisations and society navigate digital threats and opportunities. Whether it’s leveraging data to digitally transform operations or securing organisations and nations from cyber threats, we combine our unrivalled security and engineering heritage to help our clients navigate the data-reliant digital landscape. 
 
 As the cyber and intelligence arm of BAE Systems, we employ over 4,800 people across 15 countries in North America, APAC, Europe and the Middle East. With our distinguished heritage, we relish the opportunity to transform digital and data practices, defence, intelligence, security and society for government agencies, law enforcement, financial services, and critical infrastructure.
