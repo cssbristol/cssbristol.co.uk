@@ -1,13 +1,13 @@
 ---
 layout: job
 hide: false
-sponsored: true
+sponsored: false
 datePosted: 2022-11-08 12:00:00 +0100
 hiringOrganization:
-  name: BAE
+  name: BAE Systems
 title: Summer Internship - Operational Cyber Researcher
 logo: BAE_Logo.svg
-jobLocation: London, UK
+jobLocation: London or Gloucester
 industry: Operational Cyber Researcher
 employmentType: Summer Internship 
 validThrough: 2022-12-31 00:00:00 +0100
@@ -16,11 +16,13 @@ apply:
   link: https://cybercareers.baesystems.com/job/London-Summer-Internship-Operational-Cyber-Researcher-June-2023/858467201/
 ---
 
+***Did you take part in the [BAE Systems CTF](https://cssbristol.co.uk/events/2022-10-29-bae-ctf/)? Make sure to mention it on your application!***
+
 BAE Systems Digital Intelligence is home to 4,800 digital, cyber and intelligence experts. We work collaboratively across 16 countries to collect, connect and understand complex data, so that governments, nation states, armed forces and commercial businesses can unlock digital advantage in the most demanding environments.
 
-**BAE Systems Digital Intelligence**
-**Cyber & Vulnerability Research Summer Internship**
-**Start date:** June 2023
+**BAE Systems Digital Intelligence**<br>
+**Cyber & Vulnerability Research Summer Internship**<br>
+**Start date:** June 2023<br>
 **Base location:** London or Gloucester
 
 Here at BAE Systems Digital Intelligence, we are committed to helping governments, organisations and society navigate digital threats and opportunities. Whether it’s leveraging data to digitally transform operations or securing organisations and nations from cyber threats, we combine our unrivalled security and engineering heritage to help our clients navigate the data-reliant digital landscape. 

@@ -1,13 +1,13 @@
 ---
 layout: job
 hide: false
-sponsored: true
+sponsored: false
 datePosted: 2022-11-08 12:00:00 +0100
 hiringOrganization:
-  name: BAE
+  name: BAE Systems
 title: Graduate Software Engineer
 logo: BAE_Logo.svg
-jobLocation: Guildford, UK
+jobLocation: Gloucester, Guildford, Leeds or London
 industry: Software Engineering
 employmentType: Graduate
 validThrough: 2022-12-31 00:00:00 +0100
@@ -16,16 +16,19 @@ apply:
   link: https://cybercareers.baesystems.com/job/Guildford-Graduate-Software-Engineer-JuneSeptember-2023/858477401/
 ---
 
+***Did you take part in the [BAE Systems CTF](https://cssbristol.co.uk/events/2022-10-29-bae-ctf/)? Make sure to mention it on your application!***
+
 Here at BAE Systems Digital Intelligence, we are committed to helping governments, organisations and society navigate digital threats and opportunities. Whether it’s leveraging data to digitally transform operations or securing organisations and nations from cyber threats, we combine our unrivalled security and engineering heritage to help our clients navigate the data-reliant digital landscape. 
 
 As the cyber and intelligence arm of BAE Systems, we employ over 4,800 people across 15 countries in North America, APAC, Europe and the Middle East. With our distinguished heritage, we relish the opportunity to transform digital and data practices, defence, intelligence, security and society for government agencies, law enforcement, financial services, and critical infrastructure.
 
 The graduate programme is designed to give you ownership of your career aspirations, supported by training and practical experience to help you succeed. You will be part of our Future Talent Community and be assigned a Career Manager, who will support and guide you throughout your career with us. All of this is designed to complement your career development, fuel your ambition, and give depth to your training and career.
 
-**__BAE Systems Digital Intelligence__**
-**__Graduate Software Engineering__**
-**Start date:** June or September 2023
+**__BAE Systems Digital Intelligence__**<br>
+**__Graduate Software Engineering__**<br>
+**Start date:** June or September 2023<br>
 **Base location:** Gloucester, Guildford, Leeds or London
+
 
 ## Role Profile
 As a Graduate Engineer, you will work as a part of a project team, alongside skilled and experienced individuals who are motivated to train and coach you on the day-to-day skills required to work closely with our customers, both internal and external. You will learn the tools, techniques and approaches used by engineering professionals and apply them in a controlled environment to ensure projects are delivered on time, to quality and to budget. Graduate Engineers will support their team to ensure that engineering practices are followed on all aspects of project definition and delivery.
