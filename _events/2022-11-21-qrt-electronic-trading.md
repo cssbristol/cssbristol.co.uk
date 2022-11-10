@@ -24,6 +24,8 @@ QRT’s culture of innovation continuously drives our ambition to deliver high q
 
 Plus you will get your hands on a bunch of **free epic QRT merch** too. Our journey has just begun so don’t miss this!
 
+**We are offering Bristol students a fast-track through our hiring process if you attend this event so please don’t apply to any roles on our website until after the event.**
+
 ## About Qube Research & Technologies
 
 Qube Research & Technologies (QRT) is a global quantitative and systematic investment manager operating in all liquid asset classes across the world. We are a technology and data driven group implementing a scientific approach to investing. Combining data, research, technology and trading expertise has shaped QRT’s collaborative and innovative mindset which enables us to solve the most complex challenges.
