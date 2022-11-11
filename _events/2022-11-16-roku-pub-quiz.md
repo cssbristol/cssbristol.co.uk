@@ -26,7 +26,7 @@ Take a break from coursework (or coursework prep) and join us for a pub quiz, sp
 
 Limited spaces are available, so make sure to book a ticket to claim your place! 
 
-## Roku’s internship opportunities here: 
+## Roku’s internship opportunities: 
 
 - [Data Engineering Internship](https://cssbristol.co.uk/jobs/2022_11_10_roku_data_engineer_intern/) 
 - [Software Engineering Internship](https://cssbristol.co.uk/jobs/2022_10_28_roku_software_engineering/) 
