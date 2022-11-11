@@ -10,7 +10,7 @@ logo: roku.svg
 jobLocation: Cardiff, Wales
 industry: Data Engineering
 employmentType: Full Time Internship
-validThrough: 2023-03-01 12:00:00 +0100
+validThrough: 2023-01-31 23:59:59 +0000
 startDate: Summer 2023
 # baseSalary: 20-50
 # salaryCurrency: GBP
@@ -18,6 +18,9 @@ startDate: Summer 2023
 apply:
   link: https://www.weareroku.com/jobs/data-engineer-intern-cardiff-wales-united-kingdom
 ---
+
+## Application deadline
+**Roku recruits interns on a rolling basis. Apply early to maximise your chances of success!**
 
 ## About the role 
 
