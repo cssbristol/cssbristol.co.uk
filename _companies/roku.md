@@ -1,5 +1,5 @@
 ---
 name: Roku
 logo: roku.svg
-link: https://www.roku.com
+link: https://www.weareroku.com/
 ---
