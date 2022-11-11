@@ -3851,6 +3851,22 @@ DESCRIPTION:SIGN UP HERE: https://forms.office.com/r/fXMmLH...
 LOCATION:MVB 2.11 + 2.56
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2022-11-16-roku-pub-quiz
+ @cssbristol.co.uk
+DTSTAMP:20221116T190000
+DTSTART:20221116T190000
+DTEND:20221116T220000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2022-11-16-roku-pub-quiz/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2022-11-16-roku-pub-quiz.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Roku Pub Quiz
+DESCRIPTION:Take a break from coursework (or coursework pre...
+LOCATION:Zerodegrees Bristol
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2022-11-21-qrt-electronic-trading
  @cssbristol.co.uk
 DTSTAMP:20221121T180000
