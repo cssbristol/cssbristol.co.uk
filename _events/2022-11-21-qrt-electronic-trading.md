@@ -24,7 +24,26 @@ QRT’s culture of innovation continuously drives our ambition to deliver high q
 
 Plus you will get your hands on a bunch of **free epic QRT merch** too. Our journey has just begun so don’t miss this!
 
-**We are offering Bristol students a fast-track through our hiring process if you attend this event so please don’t apply to any roles on our website until after the event.**
+**We are offering Bristol students a fast-track through our hiring process if you attend this event.**
+
+## Careers
+
+### Graduate:
+-   [Data Engineering & Analytics](https://www.qube-rt.com/careers/graduate-opportunities/job?gh_jid=6495191002)
+-   [Software Development](https://www.qube-rt.com/careers/graduate-opportunities/job?gh_jid=6495241002)
+-   [Infrastructure & Cloud Engineering](https://www.qube-rt.com/careers/graduate-opportunities/job?gh_jid=6495213002)
+
+### Summer Internships (Penultimate Years / Graduates Only):
+
+-   [Data Engineering & Analytics](https://www.qube-rt.com/careers/intern-opportunities/job?gh_jid=6495351002)
+-   [Software Development](https://www.qube-rt.com/careers/intern-opportunities/job?gh_jid=6495382002)
+-   [Infrastructure & Cloud Engineering](https://www.qube-rt.com/careers/intern-opportunities/job?gh_jid=6495363002)
+
+### Industrial Placements (Penultimate Years Only):
+
+-   [Data Engineering & Analytics](https://www.qube-rt.com/careers/intern-opportunities/job?gh_jid=6495286002)
+-   [Software Development](https://www.qube-rt.com/careers/intern-opportunities/job?gh_jid=6495335002)
+-   [Infrastructure & Cloud Engineering](https://www.qube-rt.com/careers/intern-opportunities/job?gh_jid=6495316002)
 
 ## About Qube Research & Technologies
 
@@ -33,5 +52,3 @@ Qube Research & Technologies (QRT) is a global quantitative and systematic inves
 We strongly believe that long-term investment into our people is critical to our future success and distinctive culture, as demonstrated by our low turnover in staff and continuous growth. We are proud of our exceptionally talented, collaborative and diverse teams, and now are looking to add motivated, intellectually curious STEM students and graduates with entrepreneurial spirit to our team. We have a number of internship, industrial placement and graduate roles across Software Engineering, Data Engineering & Analytics and Infrastructure & Cloud Engineering, all within our amazing new office that looks out over London.  
 
 We are one of the best performing and fastest growing multi-strat quant hedge funds over the last couple years and we are just getting started…
-
-Our roles will be live by mid-November but in the meantime, contact our team to find out more at [campus@qube-rt.com](mailto:campus@qube-rt.com)
