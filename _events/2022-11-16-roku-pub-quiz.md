@@ -26,10 +26,29 @@ Take a break from coursework (or coursework prep) and join us for a pub quiz, sp
 
 Limited spaces are available, so make sure to book a ticket to claim your place! 
 
-## Roku’s internship opportunities: 
-
-- [Data Engineering Internship](https://cssbristol.co.uk/jobs/2022_11_10_roku_data_engineer_intern/) 
-- [Software Engineering Internship](https://cssbristol.co.uk/jobs/2022_10_28_roku_software_engineering/) 
-- [Specialised Technology Internship](https://cssbristol.co.uk/jobs/2022_10_28_roku_specialised_tech/)
+## Roku’s internship opportunities:
+Don't see a role here which interests you? Check out [https//weareroku.com/](The Roku Careers Page), where more roles are frequently added.
 
 **Roku recruits interns on a rolling basis; apply soon to maximise your chances of being successful!**
+
+### Data Engineer Intern  
+- [Cardiff](https://www.weareroku.com/jobs/data-engineer-intern-cardiff-wales-united-kingdom)
+
+### Project Manager Intern
+- [Cambridge](https://www.weareroku.com/jobs/project-manager-intern-cambridge-england-united-kingdom)
+
+### Software Engineer Intern, Embedded
+- [Cambridge](https://www.weareroku.com/jobs/Software-engineer-intern-embedded-cambridge-england-united-kingdom)
+- [Manchester](https://www.weareroku.com/jobs/software-engineer-intern-embedded-manchester-england-united-kingdom)
+- [Cardiff](https://www.weareroku.com/jobs/software-engineer-intern-embedded-cardiff-wales-united-kingdom)
+
+### QA Engineer Intern
+- [Cambridge](https://www.weareroku.com/jobs/qa-engineer-intern-cambridge-england-united-kingdom)
+- [Manchester](https://www.weareroku.com/jobs/qa-engineer-intern-manchester-england-united-kingdom)
+- [Cardiff](https://www.weareroku.com/jobs/qa-engineer-intern-cardiff-wales-united-kingdom)
+
+### Software Engineer Intern, Test (Automation Testing)
+- [Cambridge](https://www.weareroku.com/jobs/software-engineer-intern-test-automation-testing-cambridge-england-united-kingdom)
+- [Manchester](https://www.weareroku.com/jobs/software-engineer-intern-test-automation-testing-manchester-england-united-kingdom)
+- [Cardiff](https://www.weareroku.com/jobs/software-engineer-intern-test-automation-testing-cardiff-wales-united-kingdom) 
+
