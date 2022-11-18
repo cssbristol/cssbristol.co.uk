@@ -293,7 +293,7 @@ blockquote .citation:before { content: '-'; margin-right: 0.5rem; }
 
 .job-posts .job-post-item--sponsored { order: 0; border-left-width: 1em; }
 
-@media screen and (min-width: 900px) { .job-posts .job-post-item--sponsored { grid-column: span 2; order: 1; } }
+@media screen and (min-width: 900px) { .job-posts .job-post-item--sponsored { grid-column: span 2; } }
 
 .job-posts .job-post-item--sponsored:before { display: block; text-align: center; content: 'Sponsored'; color: #767676; border-radius: 2em; font-size: 0.9em; font-weight: 800; text-transform: uppercase; }
 
