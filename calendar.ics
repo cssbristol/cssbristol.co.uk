@@ -3930,4 +3930,20 @@ SUMMARY:Festive Gathering
 DESCRIPTION:The Computer Science deparment will be holding ...
 LOCATION:MVB Lower Atrium
 END:VEVENT
+BEGIN:VEVENT
+UID:events-2023-01-25-bpuzzled
+ @cssbristol.co.uk
+DTSTAMP:20230125T130000
+DTSTART:20230125T130000
+DTEND:20230125T160000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2023-01-25-bpuzzled/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2023-01-25-bpuzzled.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Bloomberg's BPuzzled
+DESCRIPTION:You’re invited to join Bloomberg for a competit...
+LOCATION:TBD
+END:VEVENT
 END:VCALENDAR
