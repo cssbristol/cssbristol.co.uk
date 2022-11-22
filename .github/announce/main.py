@@ -47,7 +47,7 @@ def get_event(path: Path) -> Event:
                  metadata.get("location", None),
                  metadata.get("ticket_link", None),
                  metadata.get("price", "Free"),
-                 f"https://cssbristol.co.uk/events/{path.name.replace('.md', '')}/")
+                 f"https://cssbristol.co.uk/events/{path.name.replace('.md', '').replace(' ', '%20')}/")
     return event
 
 
