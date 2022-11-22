@@ -5,7 +5,7 @@ sponsored: false
 datePosted: 2022-11-10 23:07:00 +0000
 hiringOrganization:
   name: Roku
-title: Automation Testing Software Engineer Intern (Cambridge, Manchester, Cardiff)
+title: Automation Testing Software Engineer Intern
 logo: roku.svg
 jobLocation: Cambridge, Manchester, or Cardiff
 industry: Software Engineering
