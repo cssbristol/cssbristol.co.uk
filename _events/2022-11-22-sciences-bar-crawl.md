@@ -15,6 +15,9 @@ The biggest bar crawl of the year is back and better than before!
 
 ## Route
 20:00 V-Shed
+
 21:00 Revolution
+
 22:15 Commercial Rooms
+
 23:15 SWX Bristol
