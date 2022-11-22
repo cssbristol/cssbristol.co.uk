@@ -1,15 +1,15 @@
 ---
 layout: job
 hide: false
-sponsored: false
+sponsored: true
 datePosted: 2022-11-21 12:00:00 +0000
 hiringOrganization:
-  name: QRT
+  name: Qube Research & Technologies
 title: Graduate Infrastructure and Cloud Engineer
 logo: qube-rt.svg
 jobLocation: London, England
 industry: Software Developer
-employmentType: Graduate
+employmentType: Permanent
 validThrough: 2022-12-31 23:59:59 +0000
 startDate: 2023
 baseSalary: 65,000
@@ -20,11 +20,12 @@ apply:
 ---
 
 ## Application deadline
-**Roku recruits interns on a rolling basis. Apply early to maximise your chances of success!**
+**QRT recruits on a rolling basis. Apply early to maximise your chances of success!**
 
-
+## About QRT
 Qube Research & Technologies (QRT) is a global quantitative and systematic investment manager, operating in all liquid asset classes across the world. We are a technology and data driven group implementing a scientific approach to investing. Combining data, research, technology and trading expertise has shaped QRT’s collaborative mindset which enables us to solve the most complex challenges. QRT’s culture of innovation continuously drives our ambition to deliver high quality returns for our investors.
 
+We are looking to add motivated, intellectually curious penultimate year STEM students or upcoming graduates with entrepreneurial spirit to join our Data Development group for a 12-week summer internship.
 
 ## The Opportunity
 We are proud of our exceptionally talented, collaborative and diverse teams who are driving QRT’s innovation and growth, and are looking to add motivated, intellectually curious STEM graduates with entrepreneurial spirit to join our Infrastructure and Cloud Engineering groups. We strongly believe that long-term investment into our people is critical to our future success and distinctive culture, as demonstrated by our low staff turnover and continuous growth.
@@ -54,11 +55,11 @@ We value motivated, curious engineers who can influence and change our developme
 ## What are we looking for:
 - A degree (Bachelor’s, Master’s or PhD) in any STEM subject (computer science, physics, mathematics or any related engineering discipline) graduating and available to start on/before September 2023.
 - Demonstrable passion for technology! Regardless of whether you have formal CompSci training or not we are more interested in your achievements related to software/hardware engineering. For example hobbies, past-time, open source or academic projects, etc. covering the following:
-- Scripting languages e.g. Python or Bash or another programming language.
-- Tools like GIT, SQL, gcc.
-- Linux command-line (Redhat/CentOS).
-- Automation technologies (e.g. Ansible, Terraform).
-- AWS services (e.g. EC2, VPC, S3 etc).
-- Contributions to, or building open source projects.
-Pro-active and unafraid to ask questions. You can really have a huge impact here, improving our performance with suggestions and optimisations.
+  - Scripting languages e.g. Python or Bash or another programming language.
+  - Tools like GIT, SQL, gcc.
+  - Linux command-line (Redhat/CentOS).
+  - Automation technologies (e.g. Ansible, Terraform).
+  - AWS services (e.g. EC2, VPC, S3 etc).
+  - Contributions to, or building open source projects.
+- Pro-active and unafraid to ask questions. You can really have a huge impact here, improving our performance with suggestions and optimisations.
 - Entrepreneurial approach and self-motivated.
