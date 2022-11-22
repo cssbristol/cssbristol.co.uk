@@ -176,21 +176,23 @@ body { display: flex; min-height: 100vh; flex-direction: column; font-family: "O
 
 .article a:hover { border-bottom: 2px solid #196090; }
 
-.article ol { margin: 10px 0; }
+.article ol { margin: 1em 0; }
 
 .article ol li { list-style-type: decimal; list-style-position: inside; text-indent: 0px; }
 
-@media screen and (max-width: 900px) { .article ol li { text-indent: 10px; } }
+@media screen and (max-width: 900px) { .article ol li { text-indent: 1em; } }
 
-.article ol ul, .article ol ol { margin-left: 10px; }
+.article ol ul, .article ol ol { margin-left: 1em; }
 
-.article ul { margin: 10px 0; }
+.article ul { margin: 1em 0; }
 
-.article ul li { list-style-type: circle; list-style-position: inside; text-indent: 0px; }
+.article ul li { list-style-type: disc; list-style-position: inside; text-indent: 0px; }
 
 @media screen and (max-width: 900px) { .article ul li { text-indent: 10px; } }
 
-.article ul ul, .article ul ol { margin-left: 10px; }
+.article ul ul li { list-style-type: "- "; }
+
+.article ul ul, .article ul ol { margin-left: 1em; }
 
 .article pre { font-family: "JetBrains Mono", monospace; padding: 5px; min-width: 0; white-space: pre-wrap; word-wrap: break-word; }
 
@@ -676,7 +678,7 @@ body { margin: 0; }
 
 [data-tooltip] { position: relative; }
 
-[data-tooltip]::after { content: attr(data-tooltip); position: absolute; background-color: #333333; color: #ffffff; border-radius: 5px; padding: 0.5rem; transform: translate(-50%, -50%) scale(0); transition: opacity ease 0.2s, visibility ease 0.2s, transform ease 0.2s; opacity: 0; font-family: "Open Sans", sans-serif; font-weight: 700; font-size: 0.75rem; z-index: 9999999; line-height: 1rem; pointer-events: none; text-align: center; transform-origin: center top; top: 100%; left: 50%; }
+[data-tooltip]::after { content: attr(data-tooltip); min-width: 10em; position: absolute; background-color: #333333; color: #ffffff; border-radius: 5px; padding: 0.5rem; transform: translate(-50%, -50%) scale(0); transition: opacity ease 0.2s, visibility ease 0.2s, transform ease 0.2s; opacity: 0; font-family: "Open Sans", sans-serif; font-weight: 700; font-size: 0.75rem; z-index: 9999999; line-height: 1rem; pointer-events: none; text-align: center; transform-origin: center top; top: 100%; left: 50%; }
 
 [data-tooltip]:hover::after { opacity: 1; visibility: visible; transform: translate(-50%, 20%) scale(1); }
 
