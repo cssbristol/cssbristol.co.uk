@@ -5,7 +5,7 @@ sponsored: false
 datePosted: 2022-11-10 23:07:00 +0000
 hiringOrganization:
   name: Roku
-title: Data Engineering Internship (Cardiff)
+title: Data Engineering Internship
 logo: roku.svg
 jobLocation: Cardiff, Wales
 industry: Data Engineering

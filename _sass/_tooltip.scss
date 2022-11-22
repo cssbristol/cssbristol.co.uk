@@ -4,6 +4,7 @@
 
 [data-tooltip]::after {
   content: attr(data-tooltip);
+  min-width: 10em;
   position: absolute;
   background-color: $darkgray;
   color: $white;
