@@ -5,7 +5,7 @@ sponsored: false
 datePosted: 2022-11-10 23:07:00 +0000
 hiringOrganization:
   name: Roku
-title: Project Manager Internship (Cambridge)
+title: Project Manager Internship
 logo: roku.svg
 jobLocation: Cambridge, England
 industry: Project Management

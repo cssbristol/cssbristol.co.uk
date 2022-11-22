@@ -5,7 +5,7 @@ sponsored: false
 datePosted: 2022-11-10 23:07:00 +0000
 hiringOrganization:
   name: Roku
-title: Embedded Software Engineer Internship (Cambridge, Manchester, Cardiff)
+title: Embedded Software Engineer Internship
 logo: roku.svg
 jobLocation: Cambridge, Manchester, or Cardiff
 industry: Software Engineering
