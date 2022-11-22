@@ -3883,14 +3883,14 @@ DESCRIPTION:Book here: https://forms.office.com/r/xmzExE3BME
 LOCATION:MVB 1.11/1.11A
 END:VEVENT
 BEGIN:VEVENT
-UID:events-2022-11-22-sciences-bar-crawl copy
+UID:events-2022-11-22-sciences-bar-crawl
  @cssbristol.co.uk
 DTSTAMP:20221122T200000
 DTSTART:20221122T200000
 DTEND:20221123T030000
 LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
- /events/2022-11-22-sciences-bar-crawl%20copy/
+ /events/2022-11-22-sciences-bar-crawl/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
