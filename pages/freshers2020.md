@@ -47,7 +47,9 @@ We've got a number of exciting events lined up for Freshers' Week (also known as
                 {{ event.location }}
             </div>
         </div>
-        <p>{{ event.content }}</p>
+        <div>
+        {{ event.content }}
+        </div>
     </div>
 {% endfor %}
 </div>
