@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 📂 setup
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
         # include the lines below if you are using jekyll-last-modified-at
         # or if you would otherwise need to fetch the full commit history
@@ -23,15 +23,15 @@ jobs:
       - name: 💎 setup ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0.2 # can change this to 2.7 or whatever version you prefer
+          ruby-version: 3.1 # can change this to 2.7 or whatever version you prefer
 
       - name: 🔨 install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
         with:
-          enable_cache: true
+          enable_cache: false # was true turning to false to test
           ### Enables caching. Similar to https://github.com/actions/cache.
           #
-          # format_output: true
+          format_output: false
           ### Uses prettier https://prettier.io to format jekyll output HTML.
           #
           # prettier_opts: '{ "useTabs": true }'
