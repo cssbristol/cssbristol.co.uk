@@ -1,1040 +1,579 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-  <meta charset=utf-8>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="/assets/favicons/manifest.json">
-<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#3498db">
-<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
-<meta name="theme-color" content="#3498db">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/assets/favicons/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/assets/favicons/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/assets/favicons/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/assets/favicons/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/assets/favicons/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/assets/favicons/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/assets/favicons/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/assets/favicons/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicons/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-194x194.png"
+      sizes="194x194"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/android-chrome-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link rel="manifest" href="/assets/favicons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/assets/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#3498db" />
+    <meta
+      name="msapplication-TileImage"
+      content="/assets/favicons/mstile-144x144.png"
+    />
+    <meta name="theme-color" content="#3498db" />
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta name="description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
+    <meta
+      name="description"
+      content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department."
+    />
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Freshers - CSS Bristol">
-<meta property="og:description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
-<meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
-<meta property="og:url" content="https://cssbristol.co.uk/freshers18/">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Freshers - CSS Bristol" />
+    <meta
+      property="og:description"
+      content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department."
+    />
+    <meta
+      property="og:image"
+      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
+    />
+    <meta property="og:url" content="https://cssbristol.co.uk/freshers18/" />
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Freshers - CSS Bristol">
-<meta name="twitter:description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
-<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
-<meta name="twitter:site" content="@cssbristol">
- 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Freshers - CSS Bristol" />
+    <meta
+      name="twitter:description"
+      content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department."
+    />
+    <meta
+      name="twitter:image"
+      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
+    />
+    <meta name="twitter:site" content="@cssbristol" />
 
+    <title>Freshers - CSS Bristol</title>
 
-  <title>Freshers - CSS Bristol</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    />
 
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
+    <link rel="stylesheet" href="/assets/css/site.css" />
+    <link rel="canonical" href="https://cssbristol.co.uk/freshers18/" />
 
-  <link rel="stylesheet" href="/assets/css/site.css" />
-  <link rel="canonical" href="https://cssbristol.co.uk/freshers18/" />
-  
+    <!-- Prefetch background images so they load faster next time page loads -->
+    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
 
-  
+    <!-- Script for FontAwesome icons -->
+    <script
+      src="https://kit.fontawesome.com/5918af34b4.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
 
-  <!-- Prefetch background images so they load faster next time page loads -->
-  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
+    <!-- Script for randomly choosing header background -->
+    <script
+      type="text/javascript"
+      src="/assets/scripts/header-random-bg.js"
+      defer
+    ></script>
 
-  <!-- Script for FontAwesome icons -->
-  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
-  
-  <!-- Script for randomly choosing header background -->
-  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
-  
-  <!-- Cloudflare Web Analytics -->
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
+    <!-- Cloudflare Web Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
+    ></script>
 
-  <!-- remove after a couple of months -->
-  <script>
-    const path = window.location.pathname;
-    if (path.startsWith("/events/")) {
-      const newPath = path.replaceAll("_", "-");
-      if (newPath !== path) {
-        window.location.replace(newPath);
+    <!-- remove after a couple of months -->
+    <script>
+      const path = window.location.pathname;
+      if (path.startsWith("/events/")) {
+        const newPath = path.replaceAll("_", "-");
+        if (newPath !== path) {
+          window.location.replace(newPath);
+        }
       }
-    }
-  </script>
-</head>
-
+    </script>
+  </head>
 
   <body>
-
     <header class="page-header noscript" id="page-header--random-bg">
-  <div class="bg">
-    <div id="header-random-background"></div>
-  </div>
-  <div class="navigation-items">
-    <div itemscope itemtype="http://schema.org/Organization">
-      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
-      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
-        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-      </a>
-    </div>
-    <nav class="page-navigation">
-      <ul class="page-navigation__links">
-        
-        
-          
-          <li><a href="/about/">About</a></li>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-          <li><a href="/contact/">Contact</a></li>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-          <li><a href="/events/index.html">Events</a></li>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-          <li><a href="/jobs/">Jobs</a></li>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-          <li><a href="/shop/">Shop</a></li>
-          
-        
-          
-        
-          
-        
-          
-          <li><a href="/sponsors">Sponsor us</a></li>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-          <li><a href="/tutorials/">Tutorials</a></li>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-          <li><a href="/wellbeing/">Wellbeing</a></li>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      </ul>
-    </nav>
-  </div>
-  
-</header>
+      <div class="bg">
+        <div id="header-random-background"></div>
+      </div>
+      <div class="navigation-items">
+        <div itemscope itemtype="http://schema.org/Organization">
+          <span style="display: none" itemprop="name"
+            >University of Bristol Computer Science Society</span
+          >
+          <a
+            aria-label="Home"
+            href="/"
+            class="page-header__logo"
+            itemprop="url"
+          >
+            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+          </a>
+        </div>
+        <nav class="page-navigation">
+          <ul class="page-navigation__links">
+            <li><a href="/about/">About</a></li>
 
+            <li><a href="/contact/">Contact</a></li>
+
+            <li><a href="/events/index.html">Events</a></li>
+
+            <li><a href="/jobs/">Jobs</a></li>
+
+            <li><a href="/shop/">Shop</a></li>
+
+            <li><a href="/sponsors">Sponsor us</a></li>
+
+            <li><a href="/tutorials/">Tutorials</a></li>
+
+            <li><a href="/wellbeing/">Wellbeing</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
     <section class="page-section">
-  <article class="article">
-    <h1 id="welcome">Welcome!</h1>
+      <article class="article">
+        <h1 id="welcome">Welcome!</h1>
 
-<p>Hello! We are the University of Bristol Computer Science Society.</p>
+        <p>Hello! We are the University of Bristol Computer Science Society.</p>
 
-<p>Congratulations on getting into a great university and department (which just happens to be full of great people!)</p>
+        <p>
+          Congratulations on getting into a great university and department
+          (which just happens to be full of great people!)
+        </p>
 
-<p>You’ll be pretty busy over the next few weeks, so we’ve collected together some information which you might find useful.</p>
+        <p>
+          You’ll be pretty busy over the next few weeks, so we’ve collected
+          together some information which you might find useful.
+        </p>
 
-<h2 id="freshers-week-2018">Freshers’ Week 2018</h2>
+        <h2 id="freshers-week-2018">Freshers’ Week 2018</h2>
 
-<p>We’ve got a number of exciting events lined up for Freshers’ Week (also known as Welcome Week). You can find details about them here, as well as on the <a href="#staying-in-the-loop">Facebook groups</a>:</p>
+        <p>
+          We’ve got a number of exciting events lined up for Freshers’ Week
+          (also known as Welcome Week). You can find details about them here, as
+          well as on the <a href="#staying-in-the-loop">Facebook groups</a>:
+        </p>
 
-<div style="text-align: center; border: 2px solid black; margin: 5px; padding: 20px">
-  <a href="https://www.facebook.com/events/1136630049846877/"><img src="/assets/images/contrib/events/2018-9-freshers/welcome-drinks.jpg" style="width:500px" /></a>
-  <p>Join us at at the White Harte for drinks, board games, and a good opportunity to meet people on your course. 🍻</p>
-  <a href="https://www.facebook.com/events/1008064936065177/">Details</a>
-</div>
+        <div
+          style="
+            text-align: center;
+            border: 2px solid black;
+            margin: 5px;
+            padding: 20px;
+          "
+        >
+          <a href="https://www.facebook.com/events/1136630049846877/"
+            ><img
+              src="/assets/images/contrib/events/2018-9-freshers/welcome-drinks.jpg"
+              style="width: 500px"
+          /></a>
+          <p>
+            Join us at at the White Harte for drinks, board games, and a good
+            opportunity to meet people on your course. 🍻
+          </p>
+          <a href="https://www.facebook.com/events/1008064936065177/"
+            >Details</a
+          >
+        </div>
 
-<div style="text-align: center; border: 2px solid black; margin: 5px; padding: 20px">
-  <a href="https://www.facebook.com/events/1136630049846877/"><img src="/assets/images/contrib/events/2018-9-freshers/family-meetup.jpg" style="width:500px" /></a>
-  <p>All new first-year CS students are invited to come along and meet their Computer Science parents. It'll be informal with free food 🥪 and board games 🎲 so please come! New post-grads are also welcome to come along and socialise in MVB 1.11</p>
-  <a href="https://www.facebook.com/events/1136630049846877/">Details</a>
-</div>
+        <div
+          style="
+            text-align: center;
+            border: 2px solid black;
+            margin: 5px;
+            padding: 20px;
+          "
+        >
+          <a href="https://www.facebook.com/events/1136630049846877/"
+            ><img
+              src="/assets/images/contrib/events/2018-9-freshers/family-meetup.jpg"
+              style="width: 500px"
+          /></a>
+          <p>
+            All new first-year CS students are invited to come along and meet
+            their Computer Science parents. It'll be informal with free food 🥪
+            and board games 🎲 so please come! New post-grads are also welcome
+            to come along and socialise in MVB 1.11
+          </p>
+          <a href="https://www.facebook.com/events/1136630049846877/"
+            >Details</a
+          >
+        </div>
 
-<h2 id="staying-in-the-loop">Staying in the loop</h2>
+        <h2 id="staying-in-the-loop">Staying in the loop</h2>
 
-<p>For fresher specific updates, and for an environment where you can ask questions amongst other first years, check out the <a href="https://www.facebook.com/groups/BristolCS2018/?hc_location=group">Facebook group for freshers</a></p>
+        <p>
+          For fresher specific updates, and for an environment where you can ask
+          questions amongst other first years, check out the
+          <a
+            href="https://www.facebook.com/groups/BristolCS2018/?hc_location=group"
+            >Facebook group for freshers</a
+          >
+        </p>
 
-<p>Bristol is an exciting place to be and you’re going to want to hear about the cool stuff going on. Join the main group and follow us on twitter via the links below and you’ll never miss free pizza again!</p>
+        <p>
+          Bristol is an exciting place to be and you’re going to want to hear
+          about the cool stuff going on. Join the main group and follow us on
+          twitter via the links below and you’ll never miss free pizza again!
+        </p>
 
-<section class="page-section page-section--shaded page-section--nopad-bottom links-holder">
-  <h1>Stay in the loop</h1>
-  <div class="social-links">
-    <a class="social-links__item social-links__item--facebook" href="https://www.facebook.com/groups/CSSBristol/" title="Facebook">
-      <i class="fab fa-facebook-f" aria-hidden="true"></i>
-    </a>
-    <a class="social-links__item social-links__item--instagram" href="https://instagram.com/cssbristol" title="Instagram">
-      <i class="fab fa-instagram" aria-hidden="true"></i>
-    </a>
-    <a class="social-links__item social-links__item--twitter" href="https://twitter.com/cssbristol" title="Twitter">
-      <i class="fab fa-twitter" aria-hidden="true"></i>
-    </a>
-    <a class="social-links__item social-links__item--discord" href="https://discord.gg/nYwbhf8" title="Discord">
-      <i class="fab fa-discord" aria-hidden="true"></i>
-    </a>
-    <a class="social-links__item social-links__item--github" href="https://github.com/cssbristol" title="GitHub">
-      <i class="fab fa-github" aria-hidden="true"></i>
-    </a>
-    <a class="social-links__item social-links__item--linkedin" href="https://www.linkedin.com/groups/6512283" title="LinkedIn">
-      <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-    </a>
-    <a class="social-links__item social-links__item--youtube" href="http://www.youtube.com/c/cssbristoluk" title="YouTube">
-      <i class="fab fa-youtube" aria-hidden="true"></i>
-    </a>
-    <a class="social-links__item social-links__item--newsletter" href="/newsletter" title="Newletter">
-      <i class="far fa-envelope" aria-hidden="true"></i>
-    </a>
-    <!-- <a
+        <section
+          class="page-section page-section--shaded page-section--nopad-bottom links-holder"
+        >
+          <h1>Stay in the loop</h1>
+          <div class="social-links">
+            <a
+              class="social-links__item social-links__item--facebook"
+              href="https://www.facebook.com/groups/CSSBristol/"
+              title="Facebook"
+            >
+              <i class="fab fa-facebook-f" aria-hidden="true"></i>
+            </a>
+            <a
+              class="social-links__item social-links__item--instagram"
+              href="https://instagram.com/cssbristol"
+              title="Instagram"
+            >
+              <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a
+              class="social-links__item social-links__item--twitter"
+              href="https://twitter.com/cssbristol"
+              title="Twitter"
+            >
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a
+              class="social-links__item social-links__item--discord"
+              href="https://discord.gg/nYwbhf8"
+              title="Discord"
+            >
+              <i class="fab fa-discord" aria-hidden="true"></i>
+            </a>
+            <a
+              class="social-links__item social-links__item--github"
+              href="https://github.com/cssbristol"
+              title="GitHub"
+            >
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+            <a
+              class="social-links__item social-links__item--linkedin"
+              href="https://www.linkedin.com/groups/6512283"
+              title="LinkedIn"
+            >
+              <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+            </a>
+            <a
+              class="social-links__item social-links__item--youtube"
+              href="http://www.youtube.com/c/cssbristoluk"
+              title="YouTube"
+            >
+              <i class="fab fa-youtube" aria-hidden="true"></i>
+            </a>
+            <a
+              class="social-links__item social-links__item--newsletter"
+              href="/newsletter"
+              title="Newletter"
+            >
+              <i class="far fa-envelope" aria-hidden="true"></i>
+            </a>
+            <!-- <a
       class="social-links__item social-links__item--strava"
       href="https://www.strava.com/clubs/css-bristol-university-of-bristol-computer-science-society-308010"
       title="Strava"
     >
       <i class="fab fa-strava" aria-hidden="true"></i>
     </a> -->
-    <!-- <a
+            <!-- <a
       class="social-links__item social-links__item--rss"
       href="/feeds"
       title="RSS"
     >
       <i class="fas fa-rss" aria-hidden="true"></i>
     </a> -->
-    <a class="social-links__item social-links__item--tiktok" href="https://www.tiktok.com/@cssbristol" title="TikTok">
-      <i class="fab fa-tiktok" aria-hidden="true"></i>
-    </a>
-    <a class="social-links__item social-links__item--calendar" href="/feeds" title="Calendar">
-      <i class="far fa-calendar-alt" aria-hidden="true"></i>
-    </a>
-  </div>
-</section>
+            <a
+              class="social-links__item social-links__item--tiktok"
+              href="https://www.tiktok.com/@cssbristol"
+              title="TikTok"
+            >
+              <i class="fab fa-tiktok" aria-hidden="true"></i>
+            </a>
+            <a
+              class="social-links__item social-links__item--calendar"
+              href="/feeds"
+              title="Calendar"
+            >
+              <i class="far fa-calendar-alt" aria-hidden="true"></i>
+            </a>
+          </div>
+        </section>
 
-<h2 id="useful-information">Useful Information</h2>
+        <h2 id="useful-information">Useful Information</h2>
 
-<p>There’s lots of useful information available in our Freshers’ Booklet. You should be receiving a hard copy soon, but <a href="https://drive.google.com/file/d/13TDrIpra9e8VHeubmNHxgXFOp8tKOL0K/view">here it is</a> if you haven’t already.</p>
+        <p>
+          There’s lots of useful information available in our Freshers’ Booklet.
+          You should be receiving a hard copy soon, but
+          <a
+            href="https://drive.google.com/file/d/13TDrIpra9e8VHeubmNHxgXFOp8tKOL0K/view"
+            >here it is</a
+          >
+          if you haven’t already.
+        </p>
 
-<p>The society is run each year by an <a href="/contact/">selected committee</a>. Come say hi! We don’t bite.</p>
+        <p>
+          The society is run each year by an
+          <a href="/contact/">selected committee</a>. Come say hi! We don’t
+          bite.
+        </p>
 
-<p>Looking for course materials? Almost everything lives <a href="http://www.cs.bris.ac.uk/Teaching/">here, on the University of Bristol CS website</a>. You’ll have to wait until you arrive to be able to log in.</p>
+        <p>
+          Looking for course materials? Almost everything lives
+          <a href="http://www.cs.bris.ac.uk/Teaching/"
+            >here, on the University of Bristol CS website</a
+          >. You’ll have to wait until you arrive to be able to log in.
+        </p>
 
-<p>We’ll also be adding more <a href="/tutorials/">tutorials</a> in the coming months. Meanwhile, if you’re back here trying to work out how on earth to connect to Snowy: <a href="/tutorials/ssh-into-snowy/">here you go</a>.</p>
-
-  </article>
-</section>
-
+        <p>
+          We’ll also be adding more <a href="/tutorials/">tutorials</a> in the
+          coming months. Meanwhile, if you’re back here trying to work out how
+          on earth to connect to Snowy:
+          <a href="/tutorials/ssh-into-snowy/">here you go</a>.
+        </p>
+      </article>
+    </section>
 
     <section class="page-section sponsorsec">
-    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
-    <div class="sponsors">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-            
-<a
-  href="https://www.bloomberg.com"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Bloomberg"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/bloomberg.svg"
-    alt="Bloomberg"
-    width="130"
-    height="170"
-  />
-</a>
+      <h1 class="sponsors-title">
+        <a href="/pages/sponsors">Proudly sponsored by</a>
+      </h1>
+      <div class="sponsors">
+        <a
+          href="https://www.bloomberg.com"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Bloomberg"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/bloomberg.svg"
+            alt="Bloomberg"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-      
-        
-          
-            
-<a
-  href="https://www.caci.co.uk"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="CACI"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/caci.png"
-    alt="CACI"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.caci.co.uk"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="CACI"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/caci.png"
+            alt="CACI"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-            
-<a
-  href="https://tpp-careers.com"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="TPP"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/tpp.png"
-    alt="TPP"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://tpp-careers.com"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="TPP"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/tpp.png"
+            alt="TPP"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-            
-<a
-  href="https://www.qualcomm.com/home"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Qualcomm"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/qualcomm.png"
-    alt="Qualcomm"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.qualcomm.com/home"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Qualcomm"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/qualcomm.png"
+            alt="Qualcomm"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-          
-            
-<a
-  href="https://www.qube-rt.com/careers/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Qube Research & Technologies"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/qube-rt.svg"
-    alt="Qube Research & Technologies"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.qube-rt.com/careers/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Qube Research & Technologies"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/qube-rt.svg"
+            alt="Qube Research & Technologies"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-            
-<a
-  href="https://www.xmos.ai/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="XMOS"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/xmos.svg"
-    alt="XMOS"
-    width="130"
-    height="170"
-  />
-</a>
-
-          
-        
-      
-    </div>
-    <div class="sponsors__action_item">
-      <a href="/pages/sponsors">Learn more about working with us.</a>
-    </div>
-</section>
-
+        <a
+          href="https://www.xmos.ai/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="XMOS"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/xmos.svg"
+            alt="XMOS"
+            width="130"
+            height="170"
+          />
+        </a>
+      </div>
+      <div class="sponsors__action_item">
+        <a href="/pages/sponsors">Learn more about working with us.</a>
+      </div>
+    </section>
 
     <footer class="page-footer">
-  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
-  <nav class="page-footer__menu">
-    <ul>
-    
-    
-      
-      <li>
-        <a class="page-link" href="/about/">About</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/contact/">Contact</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/events/index.html">Events</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/jobs/">Jobs</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/shop/">Shop</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/sponsors">Sponsor us</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/tutorials/">Tutorials</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/wellbeing/">Wellbeing</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    </ul>
-  </nav>
-</footer>
+      <span class="page-footer__text"
+        >&copy; University of Bristol Computer Science Society</span
+      >
+      <nav class="page-footer__menu">
+        <ul>
+          <li>
+            <a class="page-link" href="/about/">About</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/contact/">Contact</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/events/index.html">Events</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/jobs/">Jobs</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/shop/">Shop</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/sponsors">Sponsor us</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/tutorials/">Tutorials</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/wellbeing/">Wellbeing</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
-
 </html>
