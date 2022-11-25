@@ -10,75 +10,70 @@ layout: default
     <section class="event-page__details">
       <h2>The Details</h2>
       {% if page.hiringOrganization.name %}
-        <div class="event-page__details__row job-details">
-          <i class="fas fa-building" data-tooltip="Hiring Company" aria-label="Hiring Company"></i>
-          {% if page.logo %}
-            {% include company_logo.html company=page.hiringOrganization.name %}
-          {% else %}
-          <p>{{ page.hiringOrganization.name }}</p>
-          {% endif %}
-        </div>
+      <div class="event-page__details__row job-details">
+        <i class="fas fa-building" data-tooltip="Hiring Company" aria-label="Hiring Company"></i>
+        {% if page.logo %}
+        {% include company_logo.html company=page.hiringOrganization.name %}
+        {% else %}
+        <p>{{ page.hiringOrganization.name }}</p>
+        {% endif %}
+      </div>
       {% endif %}
       {% if page.startDate %}
-        <div class="event-page__details__row">
-          <i class="fas fa-calendar-day" data-tooltip="Start Date" aria-label="Start Date"></i>
-          <p>{{ page.startDate }}</p>
-        </div>
+      <div class="event-page__details__row">
+        <i class="fas fa-calendar-day" data-tooltip="Start Date" aria-label="Start Date"></i>
+        <p>{{ page.startDate }}</p>
+      </div>
       {% endif %}
       {% if page.jobLocation %}
-        <div class="event-page__details__row">
-          <i class="fas fa-map-marker" data-tooltip="Job Location" aria-label="Job Location"></i>
-          <p>{{ page.jobLocation }}</p>
-        </div>
+      <div class="event-page__details__row">
+        <i class="fas fa-map-marker" data-tooltip="Job Location" aria-label="Job Location"></i>
+        <p>{{ page.jobLocation }}</p>
+      </div>
       {% endif %}
       {% if page.baseSalary %}
-        <div class="event-page__details__row">
-          <i class="fas fa-pound-sign" data-tooltip="Base Salary" aria-label="Base Salary"></i>
-          <p>{{ page.baseSalary }}  {{ page.salaryCurrency }} /{{ page.salaryPeriod }}</p>
-        </div>
+      <div class="event-page__details__row">
+        <i class="fas fa-pound-sign" data-tooltip="Base Salary" aria-label="Base Salary"></i>
+        <p>{{ page.baseSalary }} {{ page.salaryCurrency }} /{{ page.salaryPeriod }}</p>
+      </div>
       {% endif %}
       {% if page.employmentType %}
-        <div class="event-page__details__row">
-          <i class="fas fa-user-clock" data-tooltip="Employment type" aria-label="Employment Type"></i>
-          <p>{{ page.employmentType }}</p>
-        </div>
+      <div class="event-page__details__row">
+        <i class="fas fa-user-clock" data-tooltip="Employment type" aria-label="Employment Type"></i>
+        <p>{{ page.employmentType }}</p>
+      </div>
       {% endif %}
       {% if page.validThrough %}
-        <div class="event-page__details__row">
-          <i class="fas fa-hourglass-end" data-tooltip="Apply by" aria-label="Apply by"></i>
-          <p>
-            {{ page.validThrough | date: "%d/%m/%y %H:%M" }}
-          </p>
-        </div>
+      <div class="event-page__details__row">
+        <i class="fas fa-hourglass-end" data-tooltip="Apply by" aria-label="Apply by"></i>
+        <p>
+          {{ page.validThrough | date: "%d/%m/%y %H:%M" }}
+        </p>
+      </div>
       {% endif %}
       {% if page.apply %}
-        <div class="event-page__details__hosted-with">
-          <hr />
-          {% if page.apply.link %}
-            <a
-              class="btn btn--dark"
-              style="margin: 20px"
-              target="_blank"
-              href="{{ page.apply.link }}"
-            >
-              Apply Here
-            </a>
-          {% endif %}
-          {% if page.apply.email.address %}
-            <div>
-              <p>Send:</p>
-              <ul>
-                {% for i in page.apply.email.items %}
-                  <li>{{ i }}</li>
-                {% endfor %}
-              </ul>
-              <span>to:<span>
-              <a href="mailto:{{ page.apply.email.address }}">
-                {{ page.apply.email.address }}
-              </a>
-            </div>
-          {% endif %}
+      <div class="event-page__details__hosted-with">
+        <hr />
+        {% if page.apply.link %}
+        <a class="btn btn--dark" style="margin: 20px" target="_blank" href="{{ page.apply.link }}">
+          Apply Here
+        </a>
+        {% endif %}
+        {% if page.apply.email.address %}
+        <div>
+          <p>Send:</p>
+          <ul>
+            {% for i in page.apply.email.items %}
+            <li>{{ i }}</li>
+            {% endfor %}
+          </ul>
+          <span>to:</span>
+          <a href="mailto:{{ page.apply.email.address }}">
+            {{ page.apply.email.address }}
+          </a>
         </div>
+        {% endif %}
+      </div>
       {% endif %}
     </section>
   </article>
