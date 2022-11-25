@@ -10,7 +10,7 @@ on:
 
 jobs:
   jekyll:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: 📂 setup
         uses: actions/checkout@v3
