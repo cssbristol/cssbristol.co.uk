@@ -273,6 +273,12 @@ blockquote .citation:before { content: '-'; margin-right: 0.5rem; }
 
 .tutorials-grid p { text-align: center; }
 
+.blog-post__meta .icon { display: block; margin-bottom: 1em; }
+
+.blog-post__meta .icon img { width: 7em; height: 7em; border-radius: 50%; }
+
+.blog-post__meta span[itemprop="url"] { display: none; }
+
 .job-posts { display: grid; width: 90%; margin: 0 auto; column-gap: 2em; grid-template-columns: repeat(1, 1fr); }
 
 @media screen and (min-width: 900px) { .job-posts { grid-template-columns: repeat(2, 1fr); } }
