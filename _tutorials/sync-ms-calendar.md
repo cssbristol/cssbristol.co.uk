@@ -5,6 +5,8 @@ title: "Sync your Microsoft Calendar with CSS"
 date: 2022-11-26 15:47:00 +0000
 author:
     name: "Salman Khan"
+    email: "salman@msalmankhan.co.uk"
+    url: "linkedin.com/m5almankhan/"
 abstract: "Sync your Microsoft calendar with the CSS calendar to make sure you never miss an event!"
 ---
 
