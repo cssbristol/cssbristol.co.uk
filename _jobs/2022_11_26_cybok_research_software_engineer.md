@@ -2,7 +2,7 @@
 layout: job
 hide: false
 sponsored: false
-datePosted: 2022-11-26 71:50:00 +0000
+datePosted: 2022-11-26 17:50:00 +0000
 hiringOrganization:
   name: CyBOK - the Cyber Security Body of Knowledge
 title: Research Software Engineer (CyBOK)
