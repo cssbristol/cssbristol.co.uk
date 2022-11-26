@@ -24,7 +24,7 @@ On the sidebar, above "My calendars" is a button titled "Add calendar". Click th
 
 ## Step 3: Add the CSS calendar
 
-The URL for the CSS calendar is: https://cssbristol.co.uk/calendar.ics
+The URL for the CSS calendar is: `https://cssbristol.co.uk/calendar.ics`
 
 Paste this in the input box, and fill in the other details which appear once you input this.
 
