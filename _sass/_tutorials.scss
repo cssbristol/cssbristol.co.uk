@@ -1,3 +1,19 @@
 .tutorials-grid  p {
   text-align: center;
 }
+
+.blog-post__meta {
+  .icon {
+    display: block;
+    margin-bottom: 1em;
+
+    img {
+      width: 7em;
+      height: 7em;
+      border-radius: 50%;
+    }
+  }
+  span[itemprop="url"] {
+    display: none;
+  }
+}

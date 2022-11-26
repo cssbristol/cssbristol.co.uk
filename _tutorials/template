@@ -3,7 +3,10 @@ layout: tutorial
 published: false
 title:
 date: 2020-01-01 12:00:00 +0000
-author: 
+author:
+    name: 
+    url: 
+    email:
 abstract: 
 ---
 
