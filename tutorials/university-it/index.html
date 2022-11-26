@@ -1,568 +1,1027 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="/assets/favicons/apple-touch-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="/assets/favicons/apple-touch-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="/assets/favicons/apple-touch-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="/assets/favicons/apple-touch-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="/assets/favicons/apple-touch-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="/assets/favicons/apple-touch-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="/assets/favicons/apple-touch-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="/assets/favicons/apple-touch-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/assets/favicons/apple-touch-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-32x32.png"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-194x194.png"
-      sizes="194x194"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-96x96.png"
-      sizes="96x96"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/android-chrome-192x192.png"
-      sizes="192x192"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-16x16.png"
-      sizes="16x16"
-    />
-    <link rel="manifest" href="/assets/favicons/manifest.json" />
-    <link
-      rel="mask-icon"
-      href="/assets/favicons/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#3498db" />
-    <meta
-      name="msapplication-TileImage"
-      content="/assets/favicons/mstile-144x144.png"
-    />
-    <meta name="theme-color" content="#3498db" />
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/assets/favicons/manifest.json">
+<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#3498db">
+<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+<meta name="theme-color" content="#3498db">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta
-      name="description"
-      content="IT Services hosts a huge range of systems, many of which are well kept secrets! We’ll have a look at some of them in this article.SnowyEvery CS student has an account on the departmental server, snowy. Read the snowy tutorial.IT Services maintain a page with other remote access information, inclu..."
-    />
+  <meta name="description" content="IT Services hosts a huge range of systems, many of which are well kept secrets! We’ll have a look at some of them in this article.SnowyEvery CS student has an account on the departmental server, snowy. Read the snowy tutorial.IT Services maintain a page with other remote access information, inclu...">
 
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="University IT - CSS Bristol" />
-    <meta
-      property="og:description"
-      content="IT Services hosts a huge range of systems, many of which are well kept secrets! We’ll have a look at some of them in this article. Snowy Every CS student has an account on the departmental server, snowy. Read the snowy tutorial. IT Services maintain a page with other remote..."
-    />
-    <meta
-      property="og:image"
-      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
-    />
-    <meta
-      property="og:url"
-      content="https://cssbristol.co.uk/tutorials/university-it/"
-    />
+  <meta property="og:type" content="website">
+<meta property="og:title" content="University IT - CSS Bristol">
+<meta property="og:description" content="IT Services hosts a huge range of systems, many of which are well kept secrets! We’ll have a look at some of them in this article. Snowy Every CS student has an account on the departmental server, snowy. Read the snowy tutorial. IT Services maintain a page with other remote...">
+<meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
+<meta property="og:url" content="https://cssbristol.co.uk/tutorials/university-it/">
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="University IT - CSS Bristol" />
-    <meta
-      name="twitter:description"
-      content="IT Services hosts a huge range of systems, many of which are well kept secrets! We’ll have a look at some of them in this article. Snowy Every CS student has an account on the departmental server, snowy. Read the snowy tutorial. IT Services maintain a page with other remote..."
-    />
-    <meta
-      name="twitter:image"
-      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
-    />
-    <meta name="twitter:site" content="@cssbristol" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="University IT - CSS Bristol">
+<meta name="twitter:description" content="IT Services hosts a huge range of systems, many of which are well kept secrets! We’ll have a look at some of them in this article. Snowy Every CS student has an account on the departmental server, snowy. Read the snowy tutorial. IT Services maintain a page with other remote...">
+<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
+<meta name="twitter:site" content="@cssbristol">
+ 
 
-    <title>University IT - CSS Bristol</title>
 
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    />
+  <title>University IT - CSS Bristol</title>
 
-    <link rel="stylesheet" href="/assets/css/site.css" />
-    <link
-      rel="canonical"
-      href="https://cssbristol.co.uk/tutorials/university-it/"
-    />
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
 
-    <!-- Prefetch background images so they load faster next time page loads -->
-    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+  <link rel="canonical" href="https://cssbristol.co.uk/tutorials/university-it/" />
+  
 
-    <!-- Script for FontAwesome icons -->
-    <script
-      src="https://kit.fontawesome.com/5918af34b4.js"
-      crossorigin="anonymous"
-      defer
-    ></script>
+  
 
-    <!-- Script for randomly choosing header background -->
-    <script
-      type="text/javascript"
-      src="/assets/scripts/header-random-bg.js"
-      defer
-    ></script>
+  <!-- Prefetch background images so they load faster next time page loads -->
+  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
 
-    <!-- Cloudflare Web Analytics -->
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
-    ></script>
+  <!-- Script for FontAwesome icons -->
+  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
+  
+  <!-- Script for randomly choosing header background -->
+  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
+  
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
 
-    <!-- remove after a couple of months -->
-    <script>
-      const path = window.location.pathname;
-      if (path.startsWith("/events/")) {
-        const newPath = path.replaceAll("_", "-");
-        if (newPath !== path) {
-          window.location.replace(newPath);
-        }
+  <!-- remove after a couple of months -->
+  <script>
+    const path = window.location.pathname;
+    if (path.startsWith("/events/")) {
+      const newPath = path.replaceAll("_", "-");
+      if (newPath !== path) {
+        window.location.replace(newPath);
       }
-    </script>
-  </head>
+    }
+  </script>
+</head>
+
 
   <body>
+
     <header class="page-header noscript" id="page-header--random-bg">
-      <div class="bg">
-        <div id="header-random-background"></div>
-      </div>
-      <div class="navigation-items">
-        <div itemscope itemtype="http://schema.org/Organization">
-          <span style="display: none" itemprop="name"
-            >University of Bristol Computer Science Society</span
-          >
-          <a
-            aria-label="Home"
-            href="/"
-            class="page-header__logo"
-            itemprop="url"
-          >
-            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-          </a>
-        </div>
-        <nav class="page-navigation">
-          <ul class="page-navigation__links">
-            <li><a href="/about/">About</a></li>
+  <div class="bg">
+    <div id="header-random-background"></div>
+  </div>
+  <div class="navigation-items">
+    <div itemscope itemtype="http://schema.org/Organization">
+      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
+      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
+        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+      </a>
+    </div>
+    <nav class="page-navigation">
+      <ul class="page-navigation__links">
+        
+        
+          
+          <li><a href="/about/">About</a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li><a href="/contact/">Contact</a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li><a href="/events/index.html">Events</a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li><a href="/jobs/">Jobs</a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li><a href="/shop/">Shop</a></li>
+          
+        
+          
+        
+          
+        
+          
+          <li><a href="/sponsors">Sponsor us</a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li><a href="/tutorials/">Tutorials</a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li><a href="/wellbeing/">Wellbeing</a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </nav>
+  </div>
+  
+</header>
 
-            <li><a href="/contact/">Contact</a></li>
-
-            <li><a href="/events/index.html">Events</a></li>
-
-            <li><a href="/jobs/">Jobs</a></li>
-
-            <li><a href="/shop/">Shop</a></li>
-
-            <li><a href="/sponsors">Sponsor us</a></li>
-
-            <li><a href="/tutorials/">Tutorials</a></li>
-
-            <li><a href="/wellbeing/">Wellbeing</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
 
     <section class="page-section">
-      <article class="article">
-        <header class="blog-post__header">
-          <h1 class="blog-post__title">University IT</h1>
-          <p class="blog-post__meta">
-            <span
-              itemprop="author"
-              itemscope
-              itemtype="http://schema.org/Person"
-              ><span itemprop="name">Ross Gardiner</span></span
-            >
-            on
-            <time datetime="2016-05-21T23:41:00+01:00">May 21, 2016</time>
-          </p>
-        </header>
-        <div class="blog-post__body">
-          <p>
-            IT Services hosts a huge range of systems, many of which are well
-            kept secrets! We’ll have a look at some of them in this article.
-          </p>
+  <article class="article">
+    <header class="blog-post__header">
+      <h1 class="blog-post__title">University IT</h1>
+      <p class="blog-post__meta">
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Ross Gardiner</span></span> on 
+        <time datetime="2016-05-21T23:41:00+01:00">May 21, 2016</time>
+      </p>
+    </header>
+    <div class="blog-post__body">
+      <p>IT Services hosts a huge range of systems, many of which are well kept secrets! We’ll have a look at some of them in this article.</p>
 
-          <h2 id="snowy">Snowy</h2>
+<h2 id="snowy">Snowy</h2>
 
-          <p>
-            Every CS student has an account on the departmental server, snowy.
-            <a href="/tutorials/ssh-into-snowy/">Read the snowy tutorial</a>.
-          </p>
+<p>Every CS student has an account on the departmental server, snowy. <a href="/tutorials/ssh-into-snowy/">Read the snowy tutorial</a>.</p>
 
-          <p>
-            IT Services maintain
-            <a
-              href="http://www.bristol.ac.uk/it-services/locations/zones/zonee/cosc/remote-access"
-              >a page with other remote access information</a
-            >, including the addresses of lab machines that you can remote into.
-          </p>
+<p>IT Services maintain <a href="http://www.bristol.ac.uk/it-services/locations/zones/zonee/cosc/remote-access">a page with other remote access information</a>, including the addresses of lab machines that you can remote into.</p>
 
-          <h2 id="frosty">Frosty</h2>
+<h2 id="frosty">Frosty</h2>
 
-          <p>
-            If you’re doing Design Verification (COMS31700), you’ll probably
-            need to use Frosty for remote access to Cadence tools. This machine
-            supports <a href="https://www.nomachine.com/">NoMachine</a>, which
-            makes remoting a lot more pleasant.
-          </p>
+<p>If you’re doing Design Verification (COMS31700), you’ll probably need to use Frosty for remote access to Cadence tools. This machine supports <a href="https://www.nomachine.com/">NoMachine</a>, which makes remoting a lot more pleasant.</p>
 
-          <h2 id="vpn">VPN</h2>
+<h2 id="vpn">VPN</h2>
 
-          <p>
-            The university VPN allows you to access university resources (e.g.
-            journals, firewalled internal systems) from anywhere.
-          </p>
+<p>The university VPN allows you to access university resources (e.g. journals, firewalled internal systems) from anywhere.</p>
 
-          <p>
-            <a
-              href="https://www.bris.ac.uk/it-services/advice/homeusers/uobonly/uobvpn/"
-              >Setup instructions</a
-            >
-          </p>
+<p><a href="https://www.bris.ac.uk/it-services/advice/homeusers/uobonly/uobvpn/">Setup instructions</a></p>
 
-          <h2 id="remote-desktop">Remote Desktop</h2>
+<h2 id="remote-desktop">Remote Desktop</h2>
 
-          <p>
-            You can also remote into a standard university desktop from
-            anywhere. Some commercial software that you cannot install on
-            personal machines is available on remote desktop. IT Services record
-            the status of each piece of software in
-            <a
-              href="https://servicedesk.bristol.ac.uk/tas/public/xfg/softwarecataloguesearch"
-              >Topdesk</a
-            >.
-          </p>
+<p>You can also remote into a standard university desktop from anywhere. Some commercial software that you cannot install on personal machines is available on remote desktop. IT Services record the status of each piece of software in <a href="https://servicedesk.bristol.ac.uk/tas/public/xfg/softwarecataloguesearch">Topdesk</a>.</p>
 
-          <p>
-            <a
-              href="https://www.bris.ac.uk/it-services/advice/homeusers/remote/studentdesktop"
-              >Connection instructions</a
-            >
-          </p>
+<p><a href="https://www.bris.ac.uk/it-services/advice/homeusers/remote/studentdesktop">Connection instructions</a></p>
 
-          <h2 id="network-filestore---myfiles">Network Filestore - MyFiles</h2>
+<h2 id="network-filestore---myfiles">Network Filestore - MyFiles</h2>
 
-          <p>
-            Every student has a ‘MyFiles’ filestore, which you can mount on your
-            own device while connected through the university network (i.e.
-            eduroam, VPN, Remote Desktop).
-          </p>
+<p>Every student has a ‘MyFiles’ filestore, which you can mount on your own device while connected through the university network (i.e. eduroam, VPN, Remote Desktop).</p>
 
-          <p>
-            <a
-              href="http://www.bris.ac.uk/it-services/applications/filestore/myfiles/byod/"
-              >Setup instructions</a
-            >
-          </p>
+<p><a href="http://www.bris.ac.uk/it-services/applications/filestore/myfiles/byod/">Setup instructions</a></p>
 
-          <h2 id="mediasite">Mediasite</h2>
+<h2 id="mediasite">Mediasite</h2>
 
-          <p>
-            Rewatching (ahem) lectures for revision? Wouldn’t it be nice if you
-            could speed them up? Well, you can - just not with Flash enabled.
-            Append
-            <code class="language-plaintext highlighter-rouge"
-              >&amp;usehtml5=true</code
-            >
-            to the URL of a Mediasite video and voila: you can speed up
-            playback.
-          </p>
+<p>Rewatching (ahem) lectures for revision? Wouldn’t it be nice if you could speed them up? Well, you can - just not with Flash enabled. Append <code class="language-plaintext highlighter-rouge">&amp;usehtml5=true</code> to the URL of a Mediasite video and voila: you can speed up playback.</p>
 
-          <p>
-            If you’re tired of having to do this manually, then use the
-            <a href="https://openuserjs.org/scripts/willprice/HTML5_Mediasite"
-              >HTML5 mediasite userscript</a
-            >
-            to automatically append it (using an extension like
-            <a href="https://tampermonkey.net/">TamperMonkey</a>)
-          </p>
+<p>If you’re tired of having to do this manually, then use the <a href="https://openuserjs.org/scripts/willprice/HTML5_Mediasite">HTML5 mediasite userscript</a> to automatically append it (using an extension like <a href="https://tampermonkey.net/">TamperMonkey</a>)</p>
 
-          <h2 id="free-software">Free Software</h2>
+<h2 id="free-software">Free Software</h2>
 
-          <p>
-            While studying, you have access to various university-licensed
-            software. This includes:
-          </p>
+<p>While studying, you have access to various university-licensed software. This includes:</p>
 
-          <ul>
-            <li>Microsoft Office</li>
-            <li>SPSS</li>
-            <li>Maple</li>
-            <li>Matlab</li>
-          </ul>
+<ul>
+  <li>Microsoft Office</li>
+  <li>SPSS</li>
+  <li>Maple</li>
+  <li>Matlab</li>
+</ul>
 
-          <p>
-            <a
-              href="https://www.bris.ac.uk/software/software-list/free-software.html"
-              >Complete list</a
-            >
-          </p>
+<p><a href="https://www.bris.ac.uk/software/software-list/free-software.html">Complete list</a></p>
 
-          <h2 id="laptop-clinic">Laptop Clinic</h2>
+<h2 id="laptop-clinic">Laptop Clinic</h2>
 
-          <p>
-            If you need help with a computer, phone or software, you can get
-            help from the
-            <a
-              href="http://www.bristol.ac.uk/it-services/advice/homeusers/help/laptopclinic/"
-              >Student Laptop and Mobile Clinic</a
-            >, which runs in
-            <a
-              href="http://www.bris.ac.uk/maps/google/?latlng=51.45902083,-2.603437900000017&amp;t=0&amp;h=1"
-              >Senate House</a
-            >
-            at 2pm to 5pm, Monday to Friday.
-          </p>
+<p>If you need help with a computer, phone or software, you can get help from the <a href="http://www.bristol.ac.uk/it-services/advice/homeusers/help/laptopclinic/">Student Laptop and Mobile Clinic</a>, which runs in <a href="http://www.bris.ac.uk/maps/google/?latlng=51.45902083,-2.603437900000017&amp;t=0&amp;h=1">Senate House</a> at 2pm to 5pm, Monday to Friday.</p>
 
-          <p>
-            The clinic is staffed largely by current computer science students.
-            Towards the end of the academic year, IT Services advertises for new
-            students to staff the clinic - so keep an eye out!
-          </p>
+<p>The clinic is staffed largely by current computer science students. Towards the end of the academic year, IT Services advertises for new students to staff the clinic - so keep an eye out!</p>
 
-          <h2 id="wikis">Wikis</h2>
+<h2 id="wikis">Wikis</h2>
 
-          <p>
-            The university hosts an Atlassian Confluence install, which you can
-            use to
-            <a href="https://wikis.bris.ac.uk/dashboard.action"
-              >create your own wikis</a
-            >.
-          </p>
+<p>The university hosts an Atlassian Confluence install, which you can use to <a href="https://wikis.bris.ac.uk/dashboard.action">create your own wikis</a>.</p>
 
-          <h2 id="online-tools">Online Tools</h2>
+<h2 id="online-tools">Online Tools</h2>
 
-          <p>
-            <a
-              href="http://www.bristol.ac.uk/it-services/advice/iam/usernamesandpasswords.html"
-              >Password tools</a
-            >
-            - check that your password is working correctly. Sometimes UoB and
-            Google passwords become desynced - you can fix it here.
-          </p>
+<p><a href="http://www.bristol.ac.uk/it-services/advice/iam/usernamesandpasswords.html">Password tools</a> - check that your password is working correctly. Sometimes UoB and Google passwords become desynced - you can fix it here.</p>
 
-          <h2>Feedback</h2>
-          <p>
-            Any issues with this tutorial? Submit
-            <a href="https://github.com/cssbristol/cssbristol.github.io/issues"
-              >an issue</a
-            >
-            or a
-            <a href="https://github.com/cssbristol/cssbristol.github.io/pulls"
-              >pull request</a
-            >
-            and we'll get it sorted out right away.
-          </p>
-        </div>
-      </article>
-    </section>
+
+      <h2>Feedback</h2>
+      <p>Any issues with this tutorial? Submit <a href="https://github.com/cssbristol/cssbristol.github.io/issues">an issue</a> or a <a href="https://github.com/cssbristol/cssbristol.github.io/pulls">pull request</a> and we'll get it sorted out right away.
+    </div>
+  </article>
+</section>
+
 
     <section class="page-section sponsorsec">
-      <h1 class="sponsors-title">
-        <a href="/pages/sponsors">Proudly sponsored by</a>
-      </h1>
-      <div class="sponsors">
-        <a
-          href="https://www.bloomberg.com"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Bloomberg"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/bloomberg.svg"
-            alt="Bloomberg"
-            width="130"
-            height="170"
-          />
-        </a>
+    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
+    <div class="sponsors">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            
+<a
+  href="https://www.bloomberg.com"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Bloomberg"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/bloomberg.svg"
+    alt="Bloomberg"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.caci.co.uk"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="CACI"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/caci.png"
-            alt="CACI"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+      
+        
+      
+        
+          
+            
+<a
+  href="https://www.caci.co.uk"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="CACI"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/caci.png"
+    alt="CACI"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://tpp-careers.com"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="TPP"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/tpp.png"
-            alt="TPP"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+            
+<a
+  href="https://tpp-careers.com"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="TPP"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/tpp.png"
+    alt="TPP"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.qualcomm.com/home"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Qualcomm"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/qualcomm.png"
-            alt="Qualcomm"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+            
+<a
+  href="https://www.qualcomm.com/home"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qualcomm"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qualcomm.png"
+    alt="Qualcomm"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.qube-rt.com/careers/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Qube Research & Technologies"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/qube-rt.svg"
-            alt="Qube Research & Technologies"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+          
+            
+<a
+  href="https://www.qube-rt.com/careers/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qube Research & Technologies"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qube-rt.svg"
+    alt="Qube Research & Technologies"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.xmos.ai/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="XMOS"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/xmos.svg"
-            alt="XMOS"
-            width="130"
-            height="170"
-          />
-        </a>
-      </div>
-      <div class="sponsors__action_item">
-        <a href="/pages/sponsors">Learn more about working with us.</a>
-      </div>
-    </section>
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+            
+<a
+  href="https://www.xmos.ai/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="XMOS"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/xmos.svg"
+    alt="XMOS"
+    width="130"
+    height="170"
+  />
+</a>
+
+          
+        
+      
+    </div>
+    <div class="sponsors__action_item">
+      <a href="/pages/sponsors">Learn more about working with us.</a>
+    </div>
+</section>
+
 
     <footer class="page-footer">
-      <span class="page-footer__text"
-        >&copy; University of Bristol Computer Science Society</span
-      >
-      <nav class="page-footer__menu">
-        <ul>
-          <li>
-            <a class="page-link" href="/about/">About</a>
-          </li>
+  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
+  <nav class="page-footer__menu">
+    <ul>
+    
+    
+      
+      <li>
+        <a class="page-link" href="/about/">About</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/contact/">Contact</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/events/index.html">Events</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/jobs/">Jobs</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/shop/">Shop</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/sponsors">Sponsor us</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/tutorials/">Tutorials</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/wellbeing/">Wellbeing</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    </ul>
+  </nav>
+</footer>
 
-          <li>
-            <a class="page-link" href="/contact/">Contact</a>
-          </li>
 
-          <li>
-            <a class="page-link" href="/events/index.html">Events</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/jobs/">Jobs</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/shop/">Shop</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/sponsors">Sponsor us</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/tutorials/">Tutorials</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/wellbeing/">Wellbeing</a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
   </body>
+
 </html>
