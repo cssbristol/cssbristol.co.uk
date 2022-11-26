@@ -3,7 +3,8 @@ layout: tutorial
 published: true
 title: Working remotely with SSH
 date: 2020-03-17 12:00:00 +0000
-author: Daniel Jones
+author:
+    name: Daniel Jones
 abstract: At some point you will need to access the university PCs remotely - probably because you're sipping a cold one in the Bahamas. In this tutorial we'll look at connecting to the lab machines securely and how to do work remotely.
 ---
 ## Preface

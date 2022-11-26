@@ -6,10 +6,25 @@ layout: default
   <article class="article">
     <header class="blog-post__header">
       <h1 class="blog-post__title">{{ page.title }}</h1>
-      <p class="blog-post__meta">
-        {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> on {% endif %}
+      <div class="blog-post__meta" itemscope itemtype="http://schema.org/Person">
+        {% if page.author.email %}
+        <div class="icon">
+          <img itemprop="image" src="{{ page.author.email | gravatar_url }}" alt="" />
+        </div>
+        {% endif %}
+
+        {% if page.author.name %}
+        <span itemprop="author">
+          <span itemprop="url">{{ page.author.url }}</span>
+          {% if page.author.url %}
+          <a href="{{ page.author.url }}" itemprop="name">{{ page.author.name }}</a>
+          {% else %}
+          <span itemprop="name">{{ page.author.name }}</span>
+          {% endif %}
+        </span> on
+        {% endif %}
         <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
-      </p>
+      </div>
     </header>
     <div class="blog-post__body">
       {{ content }}

@@ -3,7 +3,9 @@ layout: tutorial
 published: true
 title:  "Install Nvidia CUDA Drivers on Ubuntu"
 date:   2017-02-20 01:52:00 +0100
-author: "John Griffith"
+author: 
+  name: "John Griffith"
+
 abstract: "Here we'll take a look at how to install drivers onto your freshly installed Ubuntu box."
 ---
 
