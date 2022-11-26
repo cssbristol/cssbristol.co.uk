@@ -3,7 +3,8 @@ layout: tutorial
 published: true
 title:  "SSH and Snowy"
 date:   2016-05-19 20:42:09 +0100
-author: "Ross Gardiner"
+author:
+    name: "Ross Gardiner"
 abstract: "You are likely to find at some point that you need to work on a department system remotely. In this tutorial, we'll explore connecting to Snowy, the departmental server."
 ---
 You are likely to find at some point that you need to work on a department system remotely. In this tutorial, we'll explore connecting to Snowy, the departmental server.

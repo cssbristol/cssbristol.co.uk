@@ -3,7 +3,8 @@ layout: tutorial
 published: true
 title:  "Writing a post for cssbristol.co.uk"
 date:   2016-05-21 01:52:00 +0100
-author: "Ross Gardiner"
+author:
+    name: "Ross Gardiner"
 abstract: "So you want to write a post for the CSS website? Great! This tutorial will walk you through the process. Basic familiarity with git is assumed."
 ---
 So you want to write a post for the CSS website? Great! This tutorial will walk you through the process. Basic familiarity with git is assumed.

@@ -3,7 +3,8 @@ layout: tutorial
 published: true
 title: "Find a study space"
 date: 2017-01-12 15:54:00 +0100
-author: "Ross Gardiner"
+author:
+    name: "Ross Gardiner"
 abstract: "The university has plenty of places to study. Here we'll discuss how to find places to work and some of our favourite spots."
 ---
 The university has a couple of pages for finding study spaces. [Here's the main one](http://www.bristol.ac.uk/students/study-spaces/).

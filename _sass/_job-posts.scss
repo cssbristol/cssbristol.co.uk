@@ -9,7 +9,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media screen and (min-width: $container-breakpoint-xl) {
+  @media screen and (min-width: $container-breakpoint-lg) {
     grid-template-columns: repeat(4, 1fr);
   }
 
