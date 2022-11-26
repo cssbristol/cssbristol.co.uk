@@ -277,7 +277,7 @@ blockquote .citation:before { content: '-'; margin-right: 0.5rem; }
 
 @media screen and (min-width: 900px) { .job-posts { grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (min-width: 100em) { .job-posts { grid-template-columns: repeat(4, 1fr); } }
+@media screen and (min-width: 1000px) { .job-posts { grid-template-columns: repeat(4, 1fr); } }
 
 .job-posts a { color: inherit; text-decoration: inherit; }
 
