@@ -4,7 +4,7 @@ hide: false
 sponsored: false
 datePosted: 2022-11-26 17:50:00 +0000
 hiringOrganization:
-  name: CyBOK - the Cyber Security Body of Knowledge
+  name: CyBOK
 title: Research Software Engineer (CyBOK)
 logo: https://www.cybok.org/static/cybok/media/CYBOK-Final-Logo.png
 jobLocation: Bristol, or Remote
