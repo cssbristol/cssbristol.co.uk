@@ -8,20 +8,25 @@
     justify-content: space-between;
     transition: margin-top .5s ease 0s;
   }
+
   .header-notice h1 {
     display: inline;
   }
+
   .header-notice a {
     color: #fff;
     text-decoration: underline;
     font-weight: bold;
   }
+
   .header-notice strong {
     font-weight: bold;
   }
+
   .header-notice.hidden {
     display: none;
   }
+
   .header-notice button {
     background-color: transparent;
     border: none;
@@ -30,11 +35,13 @@
     cursor: pointer;
     transition: transform 0.5s ease 0s;
   }
+
   .header-notice button:hover,
   .header-notice button:focus {
     transform: scale(1.5);
     text-shadow: 0 0 5px white;
   }
+
   .header-notice button:focus {
     outline: 2px solid #fff;
   }
@@ -42,10 +49,8 @@
 <aside class="header-notice">
   <div class="content">
     <h1>Have your say!</h1> Respond to the university's
-    <a
-            href="https://consult.bristol.ac.uk/external-relations/research-review-renew-university-building-names/"
-            target="_blank"
-    >consultation on the renaming of the Merchant Venturer's Building</a> before the <strong>19th of December</strong>.
+    <a href="https://forms.office.com/e/1dWSvzSiFx" target="_blank">consultation on the renaming of the Merchant
+      Venturer's Building</a> before the <strong>19th of December</strong>.
   </div>
   <button id="hide-header-notice">
     <i class="fa fa-times" aria-hidden="true"></i>
@@ -58,12 +63,12 @@
     const notice = document.querySelector(".header-notice");
     notice.style.marginTop = `-${notice.clientHeight}px`;
 
-    window.setTimeout(function() {
+    window.setTimeout(function () {
       notice.classList.add("hidden");
     }, 600);
   });
 
-  if(window.sessionStorage.getItem("hide-header-notice"))
+  if (window.sessionStorage.getItem("hide-header-notice"))
     document.querySelector(".header-notice").classList.add("hidden");
 </script>
 
@@ -82,14 +87,14 @@
       <ul class="page-navigation__links">
         {% assign ps = site.pages | sort_natural: "title" %}
         {% for page in ps %}
-          {% if page.title and page.show-in-nav == true and page.autogen == nil %}
-          <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-          {% endif %}
+        {% if page.title and page.show-in-nav == true and page.autogen == nil %}
+        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+        {% endif %}
         {% endfor %}
       </ul>
     </nav>
   </div>
   {% if include.hero-contents %}
-    {% include hero.html hero-contents=include.hero-contents %}
+  {% include hero.html hero-contents=include.hero-contents %}
   {% endif %}
 </header>
