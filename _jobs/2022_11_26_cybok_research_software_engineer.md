@@ -10,7 +10,7 @@ logo: https://www.cybok.org/static/cybok/media/CYBOK-Final-Logo.png
 jobLocation: Bristol, or Remote
 industry: Software Engineering
 employmentType: Part Time
-validThrough: 2023-01-01 12:00:00 +0000
+validThrough: 2022-12-08 00:00:00 +0000
 occupationalCategory: Software Engineering
 baseSalary: 19
 salaryCurrency: GBP
