@@ -1,0 +1,49 @@
+---
+layout: job
+hide: false
+sponsored: false
+datePosted: 2022-12-14 12:00:00 +0100
+hiringOrganization:
+  name: Mifu
+  address:  <++>
+title: Freelance Frontend Web Developer
+logo: <++>
+jobLocation: Remote
+industry: Software Development
+employmentType: Freelance
+validThrough: 2023-01-10 12:00:00 +0100
+startDate: <++>
+occupationalCategory:
+baseSalary: 15
+salaryCurrency: GBP
+salaryPeriod: <++>
+apply:
+  link: www.mifu.co.uk
+  email: alex@mifu.co.uk
+    items: CV & Portfolio / Project Details
+    address:
+---
+
+## Job Description
+Mifu is a startup founded by two recent graduates from the University of Bristol that focuses on micro-influencer marketing at scale.
+Mifu is looking for a freelance frontend developer to update and develop new features, working with the CTO and and Cloud Engineer.
+
+www.mifu.co.uk
+## Job Responsibilities
+You will be working in NextJS (React) to display and manipluate data from the API to be shown on the frontend. 
+You will be expected to take features/bugs/updates from a Trello style board and implement them. 
+Git will be extensively used.
+
+## Educational Requirements
+<++>
+
+## Experience Requirements
+Experience in frontend frameworks, such as ReactJS (Required)
+Experience in managing projects with Git (Required)
+Experience using NextJS. 
+
+## Desired skills
+<++>
+
+## Other Benefits
+There is long term potential for this to develop into a graduate role.
