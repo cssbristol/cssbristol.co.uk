@@ -16,7 +16,7 @@ startDate: <++>
 occupationalCategory:
 baseSalary: 15
 salaryCurrency: GBP
-salaryPeriod: <++>
+salaryPeriod: Hourly
 apply:
   link: www.mifu.co.uk
   email: alex@mifu.co.uk
