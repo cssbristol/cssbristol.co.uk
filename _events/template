@@ -12,14 +12,20 @@ fb_link: $FB
 ticket_link: $TICKET_LINK
 price: $PRICE
 category:
-    - Social
-    - Tech Talk
-    - Trip
-    - Networking
-    - Careers
-    - Competition
-    - Debate
-    - Workshop
+- Social
+- Tech Talk
+- Trip
+- Networking
+- Careers
+- Competition
+- Debate
+- Workshop
+kiosk:
+  title: Display title of the event
+  background: /assets/link/to/image_or_video.png
+  description: "a short description of the event" # use speach marks for multi line text if needed
+  show_sponsors: true or false
+  show_date: true or false
 cohost:
 ---
 {% comment %}
