@@ -1,1401 +1,845 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-  <meta charset=utf-8>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="/assets/favicons/manifest.json">
-<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#3498db">
-<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
-<meta name="theme-color" content="#3498db">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/assets/favicons/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/assets/favicons/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/assets/favicons/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/assets/favicons/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/assets/favicons/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/assets/favicons/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/assets/favicons/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/assets/favicons/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicons/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-194x194.png"
+      sizes="194x194"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/android-chrome-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link rel="manifest" href="/assets/favicons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/assets/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#3498db" />
+    <meta
+      name="msapplication-TileImage"
+      content="/assets/favicons/mstile-144x144.png"
+    />
+    <meta name="theme-color" content="#3498db" />
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta name="description" content="Join us for our first ever Online AGM 😲It’ll be on our Discord server!">
+    <meta
+      name="description"
+      content="Join us for our first ever Online AGM 😲It’ll be on our Discord server!"
+    />
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="CSS Online AGM 2020 - CSS Bristol">
-<meta property="og:description" content="Join us for our first ever Online AGM 😲It’ll be on our Discord server!">
-<meta property="og:image" content="https://cssbristol.co.uk/assets/images/contrib/events/2020_05_03_agm.png" />
-<meta property="og:url" content="https://cssbristol.co.uk/events/2020-05-03-agm/">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="CSS Online AGM 2020 - CSS Bristol" />
+    <meta
+      property="og:description"
+      content="Join us for our first ever Online AGM 😲It’ll be on our Discord server!"
+    />
+    <meta
+      property="og:image"
+      content="https://cssbristol.co.uk/assets/images/contrib/events/2020_05_03_agm.png"
+    />
+    <meta
+      property="og:url"
+      content="https://cssbristol.co.uk/events/2020-05-03-agm/"
+    />
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="CSS Online AGM 2020 - CSS Bristol">
-<meta name="twitter:description" content="Join us for our first ever Online AGM 😲It’ll be on our Discord server!">
-<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/contrib/events/2020_05_03_agm.png">
-<meta name="twitter:site" content="@cssbristol">
- 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CSS Online AGM 2020 - CSS Bristol" />
+    <meta
+      name="twitter:description"
+      content="Join us for our first ever Online AGM 😲It’ll be on our Discord server!"
+    />
+    <meta
+      name="twitter:image"
+      content="https://cssbristol.co.uk/assets/images/contrib/events/2020_05_03_agm.png"
+    />
+    <meta name="twitter:site" content="@cssbristol" />
 
+    <title>CSS Online AGM 2020 - CSS Bristol</title>
 
-  <title>CSS Online AGM 2020 - CSS Bristol</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    />
 
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
+    <link rel="stylesheet" href="/assets/css/site.css" />
+    <link
+      rel="canonical"
+      href="https://cssbristol.co.uk/events/2020-05-03-agm/"
+    />
 
-  <link rel="stylesheet" href="/assets/css/site.css" />
-  <link rel="canonical" href="https://cssbristol.co.uk/events/2020-05-03-agm/" />
-  
+    <link
+      type="application/atom+xml"
+      rel="alternate"
+      href="https://cssbristol.co.uk/feed/events.xml"
+      title="CSS Online AGM 2020"
+    />
 
-  
-    <link type="application/atom+xml" rel="alternate" href="https://cssbristol.co.uk/feed/events.xml" title="CSS Online AGM 2020" />
-  
+    <!-- Prefetch background images so they load faster next time page loads -->
+    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
 
-  <!-- Prefetch background images so they load faster next time page loads -->
-  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
+    <!-- Script for FontAwesome icons -->
+    <script
+      src="https://kit.fontawesome.com/5918af34b4.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
 
-  <!-- Script for FontAwesome icons -->
-  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
-  
-  <!-- Script for randomly choosing header background -->
-  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
-  
-  <!-- Cloudflare Web Analytics -->
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
+    <!-- Script for randomly choosing header background -->
+    <script
+      type="text/javascript"
+      src="/assets/scripts/header-random-bg.js"
+      defer
+    ></script>
 
-  <!-- remove after a couple of months -->
-  <script>
-    const path = window.location.pathname;
-    if (path.startsWith("/events/")) {
-      const newPath = path.replaceAll("_", "-");
-      if (newPath !== path) {
-        window.location.replace(newPath);
+    <!-- Cloudflare Web Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
+    ></script>
+
+    <!-- remove after a couple of months -->
+    <script>
+      const path = window.location.pathname;
+      if (path.startsWith("/events/")) {
+        const newPath = path.replaceAll("_", "-");
+        if (newPath !== path) {
+          window.location.replace(newPath);
+        }
       }
-    }
-  </script>
-</head>
-
+    </script>
+  </head>
 
   <body>
+    <header class="page-header noscript" id="page-header--random-bg">
+      <div class="bg">
+        <div id="header-random-background"></div>
+      </div>
+      <div class="navigation-items">
+        <div itemscope itemtype="http://schema.org/Organization">
+          <span style="display: none" itemprop="name"
+            >University of Bristol Computer Science Society</span
+          >
+          <a
+            aria-label="Home"
+            href="/"
+            class="page-header__logo"
+            itemprop="url"
+          >
+            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+          </a>
+        </div>
+        <nav class="page-navigation">
+          <ul class="page-navigation__links">
+            <li><a href="/about/">About</a></li>
 
-    <style xmlns="http://www.w3.org/1999/html">
-  .header-notice {
-    background-color: #220021;
-    color: #fff;
-    line-height: 1.3;
-    padding: 2em;
-    display: flex;
-    justify-content: space-between;
-    transition: margin-top .5s ease 0s;
-  }
+            <li><a href="/contact/">Contact</a></li>
 
-  .header-notice h1 {
-    display: inline;
-  }
+            <li><a href="/events/index.html">Events</a></li>
 
-  .header-notice a {
-    color: #fff;
-    text-decoration: underline;
-    font-weight: bold;
-  }
+            <li><a href="/jobs/">Jobs</a></li>
 
-  .header-notice strong {
-    font-weight: bold;
-  }
+            <li><a href="/shop/">Shop</a></li>
 
-  .header-notice.hidden {
-    display: none;
-  }
+            <li><a href="/sponsors">Sponsor us</a></li>
 
-  .header-notice button {
-    background-color: transparent;
-    border: none;
-    outline: none;
-    color: #fff;
-    cursor: pointer;
-    transition: transform 0.5s ease 0s;
-  }
+            <li><a href="/tutorials/">Tutorials</a></li>
 
-  .header-notice button:hover,
-  .header-notice button:focus {
-    transform: scale(1.5);
-    text-shadow: 0 0 5px white;
-  }
-
-  .header-notice button:focus {
-    outline: 2px solid #fff;
-  }
-</style>
-<aside class="header-notice">
-  <div class="content">
-    <h1>Have your say!</h1> Respond to the university's
-    <a href="https://forms.office.com/e/1dWSvzSiFx" target="_blank">consultation on the renaming of the Merchant
-      Venturer's Building</a> before the <strong>19th of December</strong>.
-  </div>
-  <button id="hide-header-notice">
-    <i class="fa fa-times" aria-hidden="true"></i>
-    <span class="screen-reader-text">Hide this notice</span>
-  </button>
-</aside>
-<script>
-  document.getElementById("hide-header-notice").addEventListener("click", function (e) {
-    window.sessionStorage.setItem("hide-header-notice", "true");
-    const notice = document.querySelector(".header-notice");
-    notice.style.marginTop = `-${notice.clientHeight}px`;
-
-    window.setTimeout(function () {
-      notice.classList.add("hidden");
-    }, 600);
-  });
-
-  if (window.sessionStorage.getItem("hide-header-notice"))
-    document.querySelector(".header-notice").classList.add("hidden");
-</script>
-
-<header class="page-header noscript" id="page-header--random-bg">
-  <div class="bg">
-    <div id="header-random-background"></div>
-  </div>
-  <div class="navigation-items">
-    <div itemscope itemtype="http://schema.org/Organization">
-      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
-      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
-        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-      </a>
-    </div>
-    <nav class="page-navigation">
-      <ul class="page-navigation__links">
-        
-        
-        
-        <li><a href="/about/">About</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/contact/">Contact</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/events/index.html">Events</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/jobs/">Jobs</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/shop/">Shop</a></li>
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/sponsors">Sponsor us</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/tutorials/">Tutorials</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/wellbeing/">Wellbeing</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      </ul>
-    </nav>
-  </div>
-  
-</header>
+            <li><a href="/wellbeing/">Wellbeing</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
     <section class="page-section">
-  
-  <article class="article extrawide event-page">
-    <section>
-      
-      <div
-        class="event-page__banner"
-        style="background-image: url(/assets/images/contrib/events/2020_05_03_agm.png);"
-      ></div>
-      
-      <h1 class="event-page__title">CSS Online AGM 2020</h1>
-      <div class="blog-post__body"><p>Join us for our first ever Online AGM 😲
-It’ll be on our <a href="https://discord.gg/nYwbhf8">Discord server</a>!</p>
+      <article class="article extrawide event-page">
+        <section>
+          <div
+            class="event-page__banner"
+            style="
+              background-image: url(/assets/images/contrib/events/2020_05_03_agm.png);
+            "
+          ></div>
 
-<p>Do you have what it takes to rise up and take on a role? 🤔
-Yes? 😍 I thought so… go on checkout down below for all the roles with their descriptions!</p>
+          <h1 class="event-page__title">CSS Online AGM 2020</h1>
+          <div class="blog-post__body">
+            <p>
+              Join us for our first ever Online AGM 😲 It’ll be on our
+              <a href="https://discord.gg/nYwbhf8">Discord server</a>!
+            </p>
 
-<p>If you’re abroad this year or can’t attend the AGM - don’t worry! You can still nominate yourself/submit a motion. 🎉</p>
+            <p>
+              Do you have what it takes to rise up and take on a role? 🤔 Yes?
+              😍 I thought so… go on checkout down below for all the roles with
+              their descriptions!
+            </p>
 
-<p>Be quick though as the deadline for applications is <del>02/05/20 at 7pm</del> <strong>03/05/20 at 1pm</strong>. If your application is late it will burn in the deepest depths of hell 😈</p>
+            <p>
+              If you’re abroad this year or can’t attend the AGM - don’t worry!
+              You can still nominate yourself/submit a motion. 🎉
+            </p>
 
-<p>Want to change something about CSS?</p>
+            <p>
+              Be quick though as the deadline for applications is
+              <del>02/05/20 at 7pm</del> <strong>03/05/20 at 1pm</strong>. If
+              your application is late it will burn in the deepest depths of
+              hell 😈
+            </p>
 
-<p>You can submit a motion <a href="https://forms.gle/S716hKQN7tJprfhv6">here</a></p>
+            <p>Want to change something about CSS?</p>
 
-<p>Make sure you join us on our <a href="https://cssbristol.co.uk/events/2020_03_25_minecraft/">Minecraft server</a></p>
+            <p>
+              You can submit a motion
+              <a href="https://forms.gle/S716hKQN7tJprfhv6">here</a>
+            </p>
 
-<p>And chat with us on our <a href="https://discord.gg/nYwbhf8">Discord server</a></p>
+            <p>
+              Make sure you join us on our
+              <a href="https://cssbristol.co.uk/events/2020_03_25_minecraft/"
+                >Minecraft server</a
+              >
+            </p>
 
-<hr />
-<h2 id="roles">Roles</h2>
-<div class="card-grid">
-    
-        <div class="card-grid__card">
-            <h3>President</h3>
-            
+            <p>
+              And chat with us on our
+              <a href="https://discord.gg/nYwbhf8">Discord server</a>
+            </p>
+
+            <hr />
+            <h2 id="roles">Roles</h2>
+            <div class="card-grid">
+              <div class="card-grid__card">
+                <h3>President</h3>
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>responsible for the society overall</p>
+                  <i class="fas fa-check"></i>
+                  <p>responsible for the society overall</p>
                 </div>
-            
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>sets the overall direction of the society</p>
+                  <i class="fas fa-check"></i>
+                  <p>sets the overall direction of the society</p>
                 </div>
-            
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>organises meetings</p>
+                  <i class="fas fa-check"></i>
+                  <p>organises meetings</p>
                 </div>
-            
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>manages other committee members</p>
+                  <i class="fas fa-check"></i>
+                  <p>manages other committee members</p>
                 </div>
-            
-            <div class="card-grid__card__footer">
-                <h4>Apply now</h4>
-                <a aria-label="Apply button" href="https://forms.gle/C2yz3zTEQQTiULEx6" class="card-grid__card__footer__next-btn">
+
+                <div class="card-grid__card__footer">
+                  <h4>Apply now</h4>
+                  <a
+                    aria-label="Apply button"
+                    href="https://forms.gle/C2yz3zTEQQTiULEx6"
+                    class="card-grid__card__footer__next-btn"
+                  >
                     <i class="fas fa-chevron-right"></i>
-                </a>
-            </div>
-        </div>
-    
-        <div class="card-grid__card">
-            <h3>Vice-President</h3>
-            
-                <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>helps out the President with the above tasks</p>
+                  </a>
                 </div>
-            
+              </div>
+
+              <div class="card-grid__card">
+                <h3>Vice-President</h3>
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>talks to companies and organising sponsorship</p>
+                  <i class="fas fa-check"></i>
+                  <p>helps out the President with the above tasks</p>
                 </div>
-            
-            <div class="card-grid__card__footer">
-                <h4>Apply now</h4>
-                <a aria-label="Apply button" href="https://forms.gle/C2yz3zTEQQTiULEx6" class="card-grid__card__footer__next-btn">
+
+                <div class="card-grid__card__row">
+                  <i class="fas fa-check"></i>
+                  <p>talks to companies and organising sponsorship</p>
+                </div>
+
+                <div class="card-grid__card__footer">
+                  <h4>Apply now</h4>
+                  <a
+                    aria-label="Apply button"
+                    href="https://forms.gle/C2yz3zTEQQTiULEx6"
+                    class="card-grid__card__footer__next-btn"
+                  >
                     <i class="fas fa-chevron-right"></i>
-                </a>
-            </div>
-        </div>
-    
-        <div class="card-grid__card">
-            <h3>Treasurer</h3>
-            
-                <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>controls and tracks spending</p>
+                  </a>
                 </div>
-            
+              </div>
+
+              <div class="card-grid__card">
+                <h3>Treasurer</h3>
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>makes big purchases/deals with invoices</p>
+                  <i class="fas fa-check"></i>
+                  <p>controls and tracks spending</p>
                 </div>
-            
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>ensures we're following SU rules and the law</p>
+                  <i class="fas fa-check"></i>
+                  <p>makes big purchases/deals with invoices</p>
                 </div>
-            
-            <div class="card-grid__card__footer">
-                <h4>Apply now</h4>
-                <a aria-label="Apply button" href="https://forms.gle/C2yz3zTEQQTiULEx6" class="card-grid__card__footer__next-btn">
+
+                <div class="card-grid__card__row">
+                  <i class="fas fa-check"></i>
+                  <p>ensures we're following SU rules and the law</p>
+                </div>
+
+                <div class="card-grid__card__footer">
+                  <h4>Apply now</h4>
+                  <a
+                    aria-label="Apply button"
+                    href="https://forms.gle/C2yz3zTEQQTiULEx6"
+                    class="card-grid__card__footer__next-btn"
+                  >
                     <i class="fas fa-chevron-right"></i>
-                </a>
-            </div>
-        </div>
-    
-        <div class="card-grid__card">
-            <h3>Secretary</h3>
-            
-                <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>records minutes in meetings</p>
+                  </a>
                 </div>
-            
+              </div>
+
+              <div class="card-grid__card">
+                <h3>Secretary</h3>
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>deals with the SU</p>
+                  <i class="fas fa-check"></i>
+                  <p>records minutes in meetings</p>
                 </div>
-            
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>keeps our Drive organised</p>
+                  <i class="fas fa-check"></i>
+                  <p>deals with the SU</p>
                 </div>
-            
-            <div class="card-grid__card__footer">
-                <h4>Apply now</h4>
-                <a aria-label="Apply button" href="https://forms.gle/C2yz3zTEQQTiULEx6" class="card-grid__card__footer__next-btn">
+
+                <div class="card-grid__card__row">
+                  <i class="fas fa-check"></i>
+                  <p>keeps our Drive organised</p>
+                </div>
+
+                <div class="card-grid__card__footer">
+                  <h4>Apply now</h4>
+                  <a
+                    aria-label="Apply button"
+                    href="https://forms.gle/C2yz3zTEQQTiULEx6"
+                    class="card-grid__card__footer__next-btn"
+                  >
                     <i class="fas fa-chevron-right"></i>
-                </a>
-            </div>
-        </div>
-    
-        <div class="card-grid__card">
-            <h3>Webmaster</h3>
-            
-                <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>keeps the CSS website updated</p>
+                  </a>
                 </div>
-            
+              </div>
+
+              <div class="card-grid__card">
+                <h3>Webmaster</h3>
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>manages logins and useful tools</p>
+                  <i class="fas fa-check"></i>
+                  <p>keeps the CSS website updated</p>
                 </div>
-            
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>ensures we store personal data securely</p>
+                  <i class="fas fa-check"></i>
+                  <p>manages logins and useful tools</p>
                 </div>
-            
-            <div class="card-grid__card__footer">
-                <h4>Apply now</h4>
-                <a aria-label="Apply button" href="https://forms.gle/C2yz3zTEQQTiULEx6" class="card-grid__card__footer__next-btn">
+
+                <div class="card-grid__card__row">
+                  <i class="fas fa-check"></i>
+                  <p>ensures we store personal data securely</p>
+                </div>
+
+                <div class="card-grid__card__footer">
+                  <h4>Apply now</h4>
+                  <a
+                    aria-label="Apply button"
+                    href="https://forms.gle/C2yz3zTEQQTiULEx6"
+                    class="card-grid__card__footer__next-btn"
+                  >
                     <i class="fas fa-chevron-right"></i>
-                </a>
-            </div>
-        </div>
-    
-        <div class="card-grid__card">
-            <h3>Technical Events</h3>
-            
-                <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>organises the CSS event calendar</p>
+                  </a>
                 </div>
-            
+              </div>
+
+              <div class="card-grid__card">
+                <h3>Technical Events</h3>
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>organises and runs technical events - Bris hack, CTFs, etc.</p>
+                  <i class="fas fa-check"></i>
+                  <p>organises the CSS event calendar</p>
                 </div>
-            
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>organises trips</p>
+                  <i class="fas fa-check"></i>
+                  <p>
+                    organises and runs technical events - Bris hack, CTFs, etc.
+                  </p>
                 </div>
-            
-            <div class="card-grid__card__footer">
-                <h4>Apply now</h4>
-                <a aria-label="Apply button" href="https://forms.gle/C2yz3zTEQQTiULEx6" class="card-grid__card__footer__next-btn">
+
+                <div class="card-grid__card__row">
+                  <i class="fas fa-check"></i>
+                  <p>organises trips</p>
+                </div>
+
+                <div class="card-grid__card__footer">
+                  <h4>Apply now</h4>
+                  <a
+                    aria-label="Apply button"
+                    href="https://forms.gle/C2yz3zTEQQTiULEx6"
+                    class="card-grid__card__footer__next-btn"
+                  >
                     <i class="fas fa-chevron-right"></i>
-                </a>
-            </div>
-        </div>
-    
-        <div class="card-grid__card">
-            <h3>Company Liaison</h3>
-            
-                <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>communicates with companies</p>
+                  </a>
                 </div>
-            
+              </div>
+
+              <div class="card-grid__card">
+                <h3>Company Liaison</h3>
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>helps VP with sponsorship</p>
+                  <i class="fas fa-check"></i>
+                  <p>communicates with companies</p>
                 </div>
-            
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>helps organise company lead tech talks</p>
+                  <i class="fas fa-check"></i>
+                  <p>helps VP with sponsorship</p>
                 </div>
-            
-            <div class="card-grid__card__footer">
-                <h4>Apply now</h4>
-                <a aria-label="Apply button" href="https://forms.gle/C2yz3zTEQQTiULEx6" class="card-grid__card__footer__next-btn">
+
+                <div class="card-grid__card__row">
+                  <i class="fas fa-check"></i>
+                  <p>helps organise company lead tech talks</p>
+                </div>
+
+                <div class="card-grid__card__footer">
+                  <h4>Apply now</h4>
+                  <a
+                    aria-label="Apply button"
+                    href="https://forms.gle/C2yz3zTEQQTiULEx6"
+                    class="card-grid__card__footer__next-btn"
+                  >
                     <i class="fas fa-chevron-right"></i>
-                </a>
-            </div>
-        </div>
-    
-        <div class="card-grid__card">
-            <h3>Sports and Social</h3>
-            
-                <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>organises CSS sport teams</p>
+                  </a>
                 </div>
-            
+              </div>
+
+              <div class="card-grid__card">
+                <h3>Sports and Social</h3>
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>organises social events (i.e. pub trips)</p>
+                  <i class="fas fa-check"></i>
+                  <p>organises CSS sport teams</p>
                 </div>
-            
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>organises MVBall</p>
+                  <i class="fas fa-check"></i>
+                  <p>organises social events (i.e. pub trips)</p>
                 </div>
-            
-            <div class="card-grid__card__footer">
-                <h4>Apply now</h4>
-                <a aria-label="Apply button" href="https://forms.gle/C2yz3zTEQQTiULEx6" class="card-grid__card__footer__next-btn">
+
+                <div class="card-grid__card__row">
+                  <i class="fas fa-check"></i>
+                  <p>organises MVBall</p>
+                </div>
+
+                <div class="card-grid__card__footer">
+                  <h4>Apply now</h4>
+                  <a
+                    aria-label="Apply button"
+                    href="https://forms.gle/C2yz3zTEQQTiULEx6"
+                    class="card-grid__card__footer__next-btn"
+                  >
                     <i class="fas fa-chevron-right"></i>
-                </a>
-            </div>
-        </div>
-    
-        <div class="card-grid__card">
-            <h3>Press</h3>
-            
-                <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>designs graphics and posters</p>
+                  </a>
                 </div>
-            
+              </div>
+
+              <div class="card-grid__card">
+                <h3>Press</h3>
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>manages the newsletter</p>
+                  <i class="fas fa-check"></i>
+                  <p>designs graphics and posters</p>
                 </div>
-            
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>manages social media</p>
+                  <i class="fas fa-check"></i>
+                  <p>manages the newsletter</p>
                 </div>
-            
-            <div class="card-grid__card__footer">
-                <h4>Apply now</h4>
-                <a aria-label="Apply button" href="https://forms.gle/C2yz3zTEQQTiULEx6" class="card-grid__card__footer__next-btn">
+
+                <div class="card-grid__card__row">
+                  <i class="fas fa-check"></i>
+                  <p>manages social media</p>
+                </div>
+
+                <div class="card-grid__card__footer">
+                  <h4>Apply now</h4>
+                  <a
+                    aria-label="Apply button"
+                    href="https://forms.gle/C2yz3zTEQQTiULEx6"
+                    class="card-grid__card__footer__next-btn"
+                  >
                     <i class="fas fa-chevron-right"></i>
-                </a>
-            </div>
-        </div>
-    
-        <div class="card-grid__card">
-            <h3>Outreach</h3>
-            
-                <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>represents CSS in outreach activities</p>
+                  </a>
                 </div>
-            
+              </div>
+
+              <div class="card-grid__card">
+                <h3>Outreach</h3>
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>organises events with and assists other societies</p>
+                  <i class="fas fa-check"></i>
+                  <p>represents CSS in outreach activities</p>
                 </div>
-            
-            <div class="card-grid__card__footer">
-                <h4>Apply now</h4>
-                <a aria-label="Apply button" href="https://forms.gle/C2yz3zTEQQTiULEx6" class="card-grid__card__footer__next-btn">
+
+                <div class="card-grid__card__row">
+                  <i class="fas fa-check"></i>
+                  <p>organises events with and assists other societies</p>
+                </div>
+
+                <div class="card-grid__card__footer">
+                  <h4>Apply now</h4>
+                  <a
+                    aria-label="Apply button"
+                    href="https://forms.gle/C2yz3zTEQQTiULEx6"
+                    class="card-grid__card__footer__next-btn"
+                  >
                     <i class="fas fa-chevron-right"></i>
-                </a>
-            </div>
-        </div>
-    
-        <div class="card-grid__card">
-            <h3>Equality and Wellbeing</h3>
-            
-                <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>responsible for wellbeing</p>
+                  </a>
                 </div>
-            
+              </div>
+
+              <div class="card-grid__card">
+                <h3>Equality and Wellbeing</h3>
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>ensures we are inclusive of all groups</p>
+                  <i class="fas fa-check"></i>
+                  <p>responsible for wellbeing</p>
                 </div>
-            
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>manages the family scheme</p>
+                  <i class="fas fa-check"></i>
+                  <p>ensures we are inclusive of all groups</p>
                 </div>
-            
-            <div class="card-grid__card__footer">
-                <h4>Apply now</h4>
-                <a aria-label="Apply button" href="https://forms.gle/C2yz3zTEQQTiULEx6" class="card-grid__card__footer__next-btn">
+
+                <div class="card-grid__card__row">
+                  <i class="fas fa-check"></i>
+                  <p>manages the family scheme</p>
+                </div>
+
+                <div class="card-grid__card__footer">
+                  <h4>Apply now</h4>
+                  <a
+                    aria-label="Apply button"
+                    href="https://forms.gle/C2yz3zTEQQTiULEx6"
+                    class="card-grid__card__footer__next-btn"
+                  >
                     <i class="fas fa-chevron-right"></i>
-                </a>
-            </div>
-        </div>
-    
-        <div class="card-grid__card">
-            <h3>General</h3>
-            
-                <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>helps out wherever needed</p>
+                  </a>
                 </div>
-            
+              </div>
+
+              <div class="card-grid__card">
+                <h3>General</h3>
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>pizza/falafel runner</p>
+                  <i class="fas fa-check"></i>
+                  <p>helps out wherever needed</p>
                 </div>
-            
+
                 <div class="card-grid__card__row">
-                    <i class="fas fa-check"></i>
-                    <p>jack of all trades</p>
+                  <i class="fas fa-check"></i>
+                  <p>pizza/falafel runner</p>
                 </div>
-            
-            <div class="card-grid__card__footer">
-                <h4>Apply now</h4>
-                <a aria-label="Apply button" href="https://forms.gle/C2yz3zTEQQTiULEx6" class="card-grid__card__footer__next-btn">
+
+                <div class="card-grid__card__row">
+                  <i class="fas fa-check"></i>
+                  <p>jack of all trades</p>
+                </div>
+
+                <div class="card-grid__card__footer">
+                  <h4>Apply now</h4>
+                  <a
+                    aria-label="Apply button"
+                    href="https://forms.gle/C2yz3zTEQQTiULEx6"
+                    class="card-grid__card__footer__next-btn"
+                  >
                     <i class="fas fa-chevron-right"></i>
-                </a>
+                  </a>
+                </div>
+              </div>
             </div>
-        </div>
-    
-</div>
-</div>
+          </div>
+        </section>
+        <section class="event-page__details">
+          <h2>The Details</h2>
+
+          <div class="event-page__details__row">
+            <i
+              class="fas fa-calendar-day"
+              data-tooltip="Event date"
+              aria-label="Event date"
+            ></i>
+            <p>03/05/20</p>
+          </div>
+
+          <div class="event-page__details__row">
+            <i
+              class="fas fa-clock"
+              data-tooltip="Event time"
+              aria-label="Event time"
+            ></i>
+            <p>15:00 - 16:00</p>
+          </div>
+
+          <div class="event-page__details__row">
+            <i
+              class="fas fa-map-marker"
+              data-tooltip="Event location"
+              aria-label="Event location"
+            ></i>
+            <p>Online</p>
+          </div>
+
+          <div class="event-page__details__row">
+            <i
+              class="fas fa-pound-sign"
+              data-tooltip="Ticket price"
+              aria-label="Ticket price"
+            ></i>
+            <p>Free</p>
+          </div>
+
+          <a
+            class="event-page__details__row"
+            href="https://www.facebook.com/events/535162827432630"
+          >
+            <i class="fab fa-facebook"></i>
+            <p>Join the Facebook event!</p>
+          </a>
+        </section>
+      </article>
     </section>
-    <section class="event-page__details">
-      <h2>The Details</h2>
-         
-      <div class="event-page__details__row">
-        <i class="fas fa-calendar-day" data-tooltip="Event date" aria-label="Event date"></i>
-        <p>03/05/20</p>
-      </div>
-      
-      <div class="event-page__details__row">
-        <i class="fas fa-clock" data-tooltip="Event time" aria-label="Event time"></i>
-        <p>
-          15:00 - 16:00
-        </p>
-      </div>
-       
-      <div class="event-page__details__row">
-        <i class="fas fa-map-marker" data-tooltip="Event location" aria-label="Event location"></i>
-        <p>Online</p>
-      </div>
-       
-      <div class="event-page__details__row">
-        <i class="fas fa-pound-sign" data-tooltip="Ticket price" aria-label="Ticket price"></i>
-        <p>Free</p>
-      </div>
-        
-      <a class="event-page__details__row" href="https://www.facebook.com/events/535162827432630">
-        <i class="fab fa-facebook"></i>
-        <p>Join the Facebook event!</p>
-      </a>
-       
-    </section>
-  </article>
-</section>
-
 
     <section class="page-section sponsorsec">
-    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
-    <div class="sponsors">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-            
-<a
-  href="https://www.bloomberg.com"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Bloomberg"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/bloomberg.svg"
-    alt="Bloomberg"
-    width="130"
-    height="170"
-  />
-</a>
+      <h1 class="sponsors-title">
+        <a href="/pages/sponsors">Proudly sponsored by</a>
+      </h1>
+      <div class="sponsors">
+        <a
+          href="https://www.bloomberg.com"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Bloomberg"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/bloomberg.svg"
+            alt="Bloomberg"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-      
-        
-          
-            
-<a
-  href="https://www.caci.co.uk"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="CACI"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/caci.png"
-    alt="CACI"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.caci.co.uk"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="CACI"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/caci.png"
+            alt="CACI"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-            
-<a
-  href="https://tpp-careers.com"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="TPP"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/tpp.png"
-    alt="TPP"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://tpp-careers.com"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="TPP"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/tpp.png"
+            alt="TPP"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-            
-<a
-  href="https://www.qualcomm.com/home"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Qualcomm"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/qualcomm.png"
-    alt="Qualcomm"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.qualcomm.com/home"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Qualcomm"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/qualcomm.png"
+            alt="Qualcomm"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-          
-            
-<a
-  href="https://www.qube-rt.com/careers/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Qube Research & Technologies"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/qube-rt.svg"
-    alt="Qube Research & Technologies"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.qube-rt.com/careers/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Qube Research & Technologies"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/qube-rt.svg"
+            alt="Qube Research & Technologies"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-            
-<a
-  href="https://www.xmos.ai/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="XMOS"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/xmos.svg"
-    alt="XMOS"
-    width="130"
-    height="170"
-  />
-</a>
-
-          
-        
-      
-    </div>
-    <div class="sponsors__action_item">
-      <a href="/pages/sponsors">Learn more about working with us.</a>
-    </div>
-</section>
-
+        <a
+          href="https://www.xmos.ai/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="XMOS"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/xmos.svg"
+            alt="XMOS"
+            width="130"
+            height="170"
+          />
+        </a>
+      </div>
+      <div class="sponsors__action_item">
+        <a href="/pages/sponsors">Learn more about working with us.</a>
+      </div>
+    </section>
 
     <footer class="page-footer">
-  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
-  <nav class="page-footer__menu">
-    <ul>
-    
-    
-      
-      <li>
-        <a class="page-link" href="/about/">About</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/contact/">Contact</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/events/index.html">Events</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/jobs/">Jobs</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/shop/">Shop</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/sponsors">Sponsor us</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/tutorials/">Tutorials</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/wellbeing/">Wellbeing</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    </ul>
-  </nav>
-</footer>
+      <span class="page-footer__text"
+        >&copy; University of Bristol Computer Science Society</span
+      >
+      <nav class="page-footer__menu">
+        <ul>
+          <li>
+            <a class="page-link" href="/about/">About</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/contact/">Contact</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/events/index.html">Events</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/jobs/">Jobs</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/shop/">Shop</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/sponsors">Sponsor us</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/tutorials/">Tutorials</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/wellbeing/">Wellbeing</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
-
 </html>
