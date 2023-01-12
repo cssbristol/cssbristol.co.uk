@@ -10,7 +10,7 @@ logo: qube-rt.svg
 jobLocation: London, England
 industry: Software Development
 employmentType: Placement
-validThrough: 2022-12-31 23:59:59 +0000
+validThrough: 2023-01-31 23:59:59 +0000
 startDate: 2023
 baseSalary: 65,000
 salaryCurrency: GBP
