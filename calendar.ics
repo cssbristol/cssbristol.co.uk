@@ -3949,17 +3949,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:events-2023-02-02-caci
  @cssbristol.co.uk
-DTSTAMP:20230202T180000
-DTSTART:20230202T180000
-DTEND:20230202T190000
+DTSTAMP:20230123T213500
+DTSTART:20230123T213500
+DTEND:
 LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2023-02-02-caci/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
-SUMMARY:Space Weather & Border Control - Securing The U...
-DESCRIPTION:About the speakers
-LOCATION:MBV 1.11/1.11A
+SUMMARY:
+DESCRIPTION:
+LOCATION:
 END:VEVENT
 END:VCALENDAR
