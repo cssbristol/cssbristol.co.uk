@@ -3962,4 +3962,20 @@ SUMMARY:Space Weather & Border Control - Securing The U...
 DESCRIPTION:Join us for a talk by CACI IIG, where they will...
 LOCATION:MBV 1.11/1.11A
 END:VEVENT
+BEGIN:VEVENT
+UID:events-2023-02-18-art-hack
+ @cssbristol.co.uk
+DTSTAMP:20230218T090000
+DTSTART:20230218T090000
+DTEND:20230219T170000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2023-02-18-art-hack/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Art Hack 2023
+DESCRIPTION:SIGN UP HERE
+LOCATION:MBV
+END:VEVENT
 END:VCALENDAR
