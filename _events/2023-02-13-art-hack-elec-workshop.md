@@ -12,7 +12,7 @@ location: MVB 1.11
 # ticket_link: $TICKET_LINK
 price: Free
 category:
-- Competition
+- Workshop
 kiosk:
   title: Art Hack Electronics Workshop
   background: 2023-02-13-art-hack-elec-workshop.png
