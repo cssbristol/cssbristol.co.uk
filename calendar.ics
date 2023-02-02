@@ -3963,6 +3963,22 @@ DESCRIPTION:Join us for a talk by CACI IIG, where they will...
 LOCATION:MBV 1.11/1.11A
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2023-03-03-tf-js
+ @cssbristol.co.uk
+DTSTAMP:20230203T180000
+DTSTART:20230203T180000
+DTEND:20230203T190000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2023-03-03-tf-js/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2022-06-07-tensorflow.js.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Web ML With TensorFlow.js
+DESCRIPTION:Jason will demonstrate through live demos and j...
+LOCATION:MVB 1.11/1.11A
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2023-02-18-art-hack
  @cssbristol.co.uk
 DTSTAMP:20230218T090000
