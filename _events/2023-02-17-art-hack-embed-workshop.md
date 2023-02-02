@@ -7,7 +7,7 @@ title: Art Hack Intro to Programming Embedded Systems
 date:     2023-02-17 18:00:00 +0000
 date_end: 2023-02-17 19:00:00 +0000
 banner: 2023-02-13-art-hack-embed-workshop.png
-location: MBV 1.11
+location: MVB 1.11
 # fb_link: $FB
 # ticket_link: $TICKET_LINK
 price: Free
