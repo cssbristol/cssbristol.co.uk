@@ -3992,7 +3992,7 @@ IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Art Hack Electronics Workshop
 DESCRIPTION:If you are doing electronics as part of your Ar...
-LOCATION:MBV 1.11
+LOCATION:MVB 1.11
 END:VEVENT
 BEGIN:VEVENT
 UID:events-2023-02-17-art-hack-embed-workshop
@@ -4008,7 +4008,7 @@ IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Art Hack Intro to Programming Embedded Systems
 DESCRIPTION:If you are doing electronics as part of your Ar...
-LOCATION:MBV 1.11
+LOCATION:MVB 1.11
 END:VEVENT
 BEGIN:VEVENT
 UID:events-2023-02-18-art-hack
