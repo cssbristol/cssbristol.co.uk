@@ -2487,22 +2487,6 @@ DESCRIPTION:Join us in Explore week to bash out some code a...
 LOCATION:Mrs Potts Chocolate House
 END:VEVENT
 BEGIN:VEVENT
-UID:events-2023-02-29-brishack
- @cssbristol.co.uk
-DTSTAMP:20200305T110000
-DTSTART:20200305T110000
-DTEND:20200306T140000
-LAST-MODIFIED:
-URL:https://www.cssbristol.co.uk
- /events/2023-02-29-brishack/
-IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
- images/contrib/events/
-ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
-SUMMARY:Bris Hack 20
-DESCRIPTION:BRIS HACK AARRRGHHHH!!!
-LOCATION:MVB
-END:VEVENT
-BEGIN:VEVENT
 UID:events-2020-03-06-board-games
  @cssbristol.co.uk
 DTSTAMP:20200306T100000
@@ -4056,6 +4040,22 @@ IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Art Hack 2023
 DESCRIPTION:SIGN UP HERE
+LOCATION:MVB
+END:VEVENT
+BEGIN:VEVENT
+UID:events-2023-02-29-brishack
+ @cssbristol.co.uk
+DTSTAMP:20230305T110000
+DTSTART:20230305T110000
+DTEND:20230306T140000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2023-02-29-brishack/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Bris Hack 2023
+DESCRIPTION:BRIS HACK RAAAGHHHH!!!
 LOCATION:MVB
 END:VEVENT
 END:VCALENDAR
