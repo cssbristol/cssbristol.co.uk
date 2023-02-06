@@ -2487,6 +2487,22 @@ DESCRIPTION:Join us in Explore week to bash out some code a...
 LOCATION:Mrs Potts Chocolate House
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2023-02-29-brishack
+ @cssbristol.co.uk
+DTSTAMP:20200305T110000
+DTSTART:20200305T110000
+DTEND:20200306T140000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2023-02-29-brishack/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Bris Hack 20
+DESCRIPTION:BRIS HACK AARRRGHHHH!!!
+LOCATION:MVB
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2020-03-06-board-games
  @cssbristol.co.uk
 DTSTAMP:20200306T100000
@@ -3979,6 +3995,22 @@ DESCRIPTION:Jason will demonstrate through live demos and j...
 LOCATION:MVB 1.11/1.11A
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2023-02-08-post-exam-drinks
+ @cssbristol.co.uk
+DTSTAMP:20230208T190000
+DTSTART:20230208T190000
+DTEND:20230208T220000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2023-02-08-post-exam-drinks/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2023-02-08-post-exams-drinks.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Post Exam Drinks
+DESCRIPTION:Now that exams are over why don’t you treat you...
+LOCATION:Steam Bristol
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2023-02-13-art-hack-elec-workshop
  @cssbristol.co.uk
 DTSTAMP:20230213T180000
@@ -3988,10 +4020,10 @@ LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2023-02-13-art-hack-elec-workshop/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
- images/contrib/events/2023-02-13-art-hack-elec-workshop.png
+ images/contrib/events/2023-02-13-elec-workshop.png
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
-SUMMARY:Art Hack Electronics Workshop
-DESCRIPTION:If you are doing electronics as part of your Ar...
+SUMMARY:Electronics Workshop
+DESCRIPTION:If you are doing electronics for a project, Art...
 LOCATION:MVB 1.11
 END:VEVENT
 BEGIN:VEVENT
@@ -4004,10 +4036,10 @@ LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
  /events/2023-02-17-art-hack-embed-workshop/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
- images/contrib/events/2023-02-13-art-hack-embed-workshop.png
+ images/contrib/events/2023-02-17-embed-workshop.png
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
-SUMMARY:Art Hack Intro to Programming Embedded Systems
-DESCRIPTION:If you are doing electronics as part of your Ar...
+SUMMARY:Intro to Programming Embedded Systems
+DESCRIPTION:If you are interesting in working with embedded...
 LOCATION:MVB 1.11
 END:VEVENT
 BEGIN:VEVENT
