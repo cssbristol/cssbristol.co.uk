@@ -1,731 +1,1258 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="/assets/favicons/apple-touch-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="/assets/favicons/apple-touch-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="/assets/favicons/apple-touch-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="/assets/favicons/apple-touch-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="/assets/favicons/apple-touch-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="/assets/favicons/apple-touch-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="/assets/favicons/apple-touch-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="/assets/favicons/apple-touch-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/assets/favicons/apple-touch-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-32x32.png"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-194x194.png"
-      sizes="194x194"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-96x96.png"
-      sizes="96x96"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/android-chrome-192x192.png"
-      sizes="192x192"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-16x16.png"
-      sizes="16x16"
-    />
-    <link rel="manifest" href="/assets/favicons/manifest.json" />
-    <link
-      rel="mask-icon"
-      href="/assets/favicons/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#3498db" />
-    <meta
-      name="msapplication-TileImage"
-      content="/assets/favicons/mstile-144x144.png"
-    />
-    <meta name="theme-color" content="#3498db" />
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/assets/favicons/manifest.json">
+<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#3498db">
+<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+<meta name="theme-color" content="#3498db">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta
-      name="description"
-      content="SIGN UP HERE: https://forms.office.com/r/fXMmLHjqFY"
-    />
+  <meta name="description" content="SIGN UP HERE: https://forms.office.com/r/fXMmLHjqFY">
 
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="CSS GameJam 2022 - CSS Bristol" />
-    <meta
-      property="og:description"
-      content="SIGN UP HERE: https://forms.office.com/r/fXMmLHjqFY"
-    />
-    <meta
-      property="og:image"
-      content="https://cssbristol.co.uk/assets/images/contrib/events/2022-11-02_gamejam.jpg"
-    />
-    <meta
-      property="og:url"
-      content="https://cssbristol.co.uk/events/2022-11-02-game-jam/"
-    />
+  <meta property="og:type" content="website">
+<meta property="og:title" content="CSS GameJam 2022 - CSS Bristol">
+<meta property="og:description" content="SIGN UP HERE: https://forms.office.com/r/fXMmLHjqFY">
+<meta property="og:image" content="https://cssbristol.co.uk/assets/images/contrib/events/2022-11-02_gamejam.jpg" />
+<meta property="og:url" content="https://cssbristol.co.uk/events/2022-11-02-game-jam/">
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="CSS GameJam 2022 - CSS Bristol" />
-    <meta
-      name="twitter:description"
-      content="SIGN UP HERE: https://forms.office.com/r/fXMmLHjqFY"
-    />
-    <meta
-      name="twitter:image"
-      content="https://cssbristol.co.uk/assets/images/contrib/events/2022-11-02_gamejam.jpg"
-    />
-    <meta name="twitter:site" content="@cssbristol" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CSS GameJam 2022 - CSS Bristol">
+<meta name="twitter:description" content="SIGN UP HERE: https://forms.office.com/r/fXMmLHjqFY">
+<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/contrib/events/2022-11-02_gamejam.jpg">
+<meta name="twitter:site" content="@cssbristol">
+ 
 
-    <title>CSS GameJam 2022 - CSS Bristol</title>
 
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    />
+  <title>CSS GameJam 2022 - CSS Bristol</title>
 
-    <link rel="stylesheet" href="/assets/css/site.css" />
-    <link
-      rel="canonical"
-      href="https://cssbristol.co.uk/events/2022-11-02-game-jam/"
-    />
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
 
-    <link
-      type="application/atom+xml"
-      rel="alternate"
-      href="https://cssbristol.co.uk/feed/events.xml"
-      title="CSS GameJam 2022"
-    />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+  <link rel="canonical" href="https://cssbristol.co.uk/events/2022-11-02-game-jam/" />
+  
 
-    <!-- Prefetch background images so they load faster next time page loads -->
-    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
+  
+    <link type="application/atom+xml" rel="alternate" href="https://cssbristol.co.uk/feed/events.xml" title="CSS GameJam 2022" />
+  
 
-    <!-- Script for FontAwesome icons -->
-    <script
-      src="https://kit.fontawesome.com/5918af34b4.js"
-      crossorigin="anonymous"
-      defer
-    ></script>
+  <!-- Prefetch background images so they load faster next time page loads -->
+  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
 
-    <!-- Script for randomly choosing header background -->
-    <script
-      type="text/javascript"
-      src="/assets/scripts/header-random-bg.js"
-      defer
-    ></script>
+  <!-- Script for FontAwesome icons -->
+  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
+  
+  <!-- Script for randomly choosing header background -->
+  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
+  
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
 
-    <!-- Cloudflare Web Analytics -->
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
-    ></script>
-
-    <!-- remove after a couple of months -->
-    <script>
-      const path = window.location.pathname;
-      if (path.startsWith("/events/")) {
-        const newPath = path.replaceAll("_", "-");
-        if (newPath !== path) {
-          window.location.replace(newPath);
-        }
+  <!-- remove after a couple of months -->
+  <script>
+    const path = window.location.pathname;
+    if (path.startsWith("/events/")) {
+      const newPath = path.replaceAll("_", "-");
+      if (newPath !== path) {
+        window.location.replace(newPath);
       }
-    </script>
-  </head>
+    }
+  </script>
+</head>
+
 
   <body>
+
     <header class="page-header noscript" id="page-header--random-bg">
-      <div class="bg">
-        <div id="header-random-background"></div>
-      </div>
-      <div class="navigation-items">
-        <div itemscope itemtype="http://schema.org/Organization">
-          <span style="display: none" itemprop="name"
-            >University of Bristol Computer Science Society</span
-          >
-          <a
-            aria-label="Home"
-            href="/"
-            class="page-header__logo"
-            itemprop="url"
-          >
-            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-          </a>
-        </div>
-        <nav class="page-navigation">
-          <ul class="page-navigation__links">
-            <li><a href="/about/">About</a></li>
+  <div class="bg">
+    <div id="header-random-background"></div>
+  </div>
+  <div class="navigation-items">
+    <div itemscope itemtype="http://schema.org/Organization">
+      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
+      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
+        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+      </a>
+    </div>
+    <nav class="page-navigation">
+      <ul class="page-navigation__links">
+        
+        
+        
+        <li><a href="/about/">About</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/contact/">Contact</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/events/index.html">Events</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/jobs/">Jobs</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/shop/">Shop</a></li>
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/sponsors">Sponsor us</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/tutorials/">Tutorials</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/wellbeing/">Wellbeing</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </nav>
+  </div>
+  
+</header>
 
-            <li><a href="/contact/">Contact</a></li>
-
-            <li><a href="/events/index.html">Events</a></li>
-
-            <li><a href="/jobs/">Jobs</a></li>
-
-            <li><a href="/shop/">Shop</a></li>
-
-            <li><a href="/sponsors">Sponsor us</a></li>
-
-            <li><a href="/tutorials/">Tutorials</a></li>
-
-            <li><a href="/wellbeing/">Wellbeing</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
 
     <section class="page-section">
-      <article class="article extrawide event-page">
-        <section>
-          <div
-            class="event-page__banner"
-            style="
-              background-image: url(/assets/images/contrib/events/2022-11-02_gamejam.jpg);
-            "
-          ></div>
+  
+  <article class="article extrawide event-page">
+    <section>
+      
+      <div
+        class="event-page__banner"
+        style="background-image: url(/assets/images/contrib/events/2022-11-02_gamejam.jpg);"
+      ></div>
+      
+      <h1 class="event-page__title">CSS GameJam 2022</h1>
+      <div class="blog-post__body"><p><strong>SIGN UP HERE:</strong> <a href="https://forms.office.com/r/fXMmLHjqFY">https://forms.office.com/r/fXMmLHjqFY</a></p>
 
-          <h1 class="event-page__title">CSS GameJam 2022</h1>
-          <div class="blog-post__body">
-            <p>
-              <strong>SIGN UP HERE:</strong>
-              <a href="https://forms.office.com/r/fXMmLHjqFY"
-                >https://forms.office.com/r/fXMmLHjqFY</a
-              >
-            </p>
+<p><strong>THEME: It’s not a Bug, It’s a Feature</strong></p>
 
-            <p><strong>THEME: It’s not a Bug, It’s a Feature</strong></p>
+<p>GameJam is back! Team up with your friends (or go it alone, that’s fine too!) and join us on 2nd and 3rd November for a 2-day GameJam, where you will compete to make the best game possible with the theme <strong>“It’s not a Bug, It’s a Feature”</strong>! It’s a fantastic opportunity to develop your skills and maybe win a prize! Did we mention that there will be free pizza?</p>
 
-            <p>
-              GameJam is back! Team up with your friends (or go it alone, that’s
-              fine too!) and join us on 2nd and 3rd November for a 2-day
-              GameJam, where you will compete to make the best game possible
-              with the theme <strong>“It’s not a Bug, It’s a Feature”</strong>!
-              It’s a fantastic opportunity to develop your skills and maybe win
-              a prize! Did we mention that there will be free pizza?
-            </p>
+<h2 id="hardware">Hardware!</h2>
+<details>
+<summary>This year we're very happy to announce that we have hardware available to participants to use! This includes:</summary>
+  
+-  VR/ AR devices (**Induction Needed, Find more details below**)
+  -  Meta Quest 2 x 4
+  -  Oculus Go
+  -  VIVE Pro 2\* with Valve Index Controllers
+  -  Possibile add-ons: VIVE tracker (3.0), VIVE facial tracker
+  -  Valve Index\*
+  -  HoloLens 2 x2
+- Mobile devices
+  - Google Pixel 6 x 5 
+    - running Android OS 13
+    - ARCore
+      - 60 fps camera capture frame rate on the rear-facing camera
+      - Multiple GPU texture resolutions - 1080p, 720p, 480p
+      - Depth API
+  - Lenovo Tab P11
+    - Android OS 11
+  - iPad Pro 11" (3rd gen) x 2
+    - iPadOS 15.7
+    - LiDAR Scanner
+    - ARKit and RealityKit
+- Controllers
+  - Xbox Controllers x6
+  - Wii Controllers x5
 
-            <h2 id="hardware">Hardware!</h2>
-            <details>
-              <summary>
-                This year we're very happy to announce that we have hardware
-                available to participants to use! This includes:
-              </summary>
+\*: These headsets can only be used in 2.56 VR area.
 
-              - VR/ AR devices (**Induction Needed, Find more details below**) -
-              Meta Quest 2 x 4 - Oculus Go - VIVE Pro 2\* with Valve Index
-              Controllers - Possibile add-ons: VIVE tracker (3.0), VIVE facial
-              tracker - Valve Index\* - HoloLens 2 x2 - Mobile devices - Google
-              Pixel 6 x 5 - running Android OS 13 - ARCore - 60 fps camera
-              capture frame rate on the rear-facing camera - Multiple GPU
-              texture resolutions - 1080p, 720p, 480p - Depth API - Lenovo Tab
-              P11 - Android OS 11 - iPad Pro 11" (3rd gen) x 2 - iPadOS 15.7 -
-              LiDAR Scanner - ARKit and RealityKit - Controllers - Xbox
-              Controllers x6 - Wii Controllers x5 \*: These headsets can only be
-              used in 2.56 VR area. Participants using the hardware will be
-              required to attend an induction session before they can use the
-              hardware. Details about the induction can be found in the sign-up
-              form.
-            </details>
+Participants using the hardware will be required to attend an induction session before they can use the hardware. Details about the induction can be found in the sign-up form.
+</details>
 
-            <h2 id="prizes-over-1000-to-win">Prizes (Over £1000 to win!)</h2>
-            <p>
-              There are multiple categories, and a
-              <strong>single game can win multiple of them!</strong> Don’t be
-              afraid to try to enter all of these!
-            </p>
+<h2 id="prizes-over-1000-to-win">Prizes (Over £1000 to win!)</h2>
+<p>There are multiple categories, and a <strong>single game can win multiple of them!</strong> Don’t be afraid to try to enter all of these!</p>
 
-            <h3 id="most-innovative-game">Most Innovative Game</h3>
-            <p><strong>£400 cash</strong>, sponsored by MyWorld.</p>
+<h3 id="most-innovative-game">Most Innovative Game</h3>
+<p><strong>£400 cash</strong>, sponsored by MyWorld.</p>
 
-            <p>All games will be entered into this category.</p>
+<p>All games will be entered into this category.</p>
 
-            <h3 id="most-creative-interpretation-of-the-theme">
-              Most Creative Interpretation of The Theme
-            </h3>
-            <p><strong>£425 cash</strong></p>
+<h3 id="most-creative-interpretation-of-the-theme">Most Creative Interpretation of The Theme</h3>
+<p><strong>£425 cash</strong></p>
 
-            <p>All games will be entered into this category.</p>
+<p>All games will be entered into this category.</p>
 
-            <h3 id="best-graphics">Best Graphics</h3>
-            <p><strong>£250 cash</strong></p>
+<h3 id="best-graphics">Best Graphics</h3>
+<p><strong>£250 cash</strong></p>
 
-            <p>All games will be entered into this category.</p>
+<p>All games will be entered into this category.</p>
 
-            <h3 id="best-story">Best Story</h3>
-            <p><strong>£150 cash</strong></p>
+<h3 id="best-story">Best Story</h3>
+<p><strong>£150 cash</strong></p>
 
-            <p>This is an opt-in category.</p>
+<p>This is an opt-in category.</p>
 
-            <h3 id="most-unexpected-twist">Most Unexpected Twist</h3>
-            <p><strong>£150 cash</strong></p>
+<h3 id="most-unexpected-twist">Most Unexpected Twist</h3>
+<p><strong>£150 cash</strong></p>
 
-            <p>This is an opt-in category.</p>
+<p>This is an opt-in category.</p>
 
-            <h3 id="most-innovative-engagement-with-history-and-culture">
-              Most innovative engagement with history and culture
-            </h3>
-            <p>
-              <strong>£100 Love2Shop Voucher</strong>, Sponsored by the Bristol
-              Digital Gaming Lab
-            </p>
+<h3 id="most-innovative-engagement-with-history-and-culture">Most innovative engagement with history and culture</h3>
+<p><strong>£100 Love2Shop Voucher</strong>, Sponsored by the Bristol Digital Gaming Lab</p>
 
-            <p>This is an opt-in category</p>
+<p>This is an opt-in category</p>
 
-            <h3 id="most-thought-put-into-accessibility">
-              Most thought put into accessibility
-            </h3>
-            <p>
-              <strong>£100 Love2Shop Voucher</strong>, Sponsored by the Bristol
-              Digital Gaming Lab
-            </p>
+<h3 id="most-thought-put-into-accessibility">Most thought put into accessibility</h3>
+<p><strong>£100 Love2Shop Voucher</strong>, Sponsored by the Bristol Digital Gaming Lab</p>
 
-            <p>All games will be entered into this category.</p>
+<p>All games will be entered into this category.</p>
 
-            <h3 id="best-bugs-that-becomes-a-feature">
-              Best bug(s) that become(s) a feature
-            </h3>
-            <p>£100 cash, sponsored by MyWorld</p>
+<h3 id="best-bugs-that-becomes-a-feature">Best bug(s) that become(s) a feature</h3>
+<p>£100 cash, sponsored by MyWorld</p>
 
-            <h3 id="the-funniest-game">The Funniest Game</h3>
-            <ul>
-              <li>
-                Six £25 amazon vouchers (£125) for the Funniest Game, sponsored
-                by Aardman
-              </li>
-            </ul>
+<h3 id="the-funniest-game">The Funniest Game</h3>
+<ul>
+  <li>Six £25 amazon vouchers (£125) for the Funniest Game, sponsored by Aardman</li>
+</ul>
 
-            <p>This is an opt-in category.</p>
+<p>This is an opt-in category.</p>
 
-            <p>
-              NB: Cash prizes will be awarded via bank transfer to team members.
-            </p>
+<p>NB: Cash prizes will be awarded via bank transfer to team members.</p>
 
-            <h2 id="rules">Rules</h2>
+<h2 id="rules">Rules</h2>
 
-            <p>Maximum team size: 6</p>
-            <ul>
-              <li>Be respectful to other teams</li>
-              <li>Follow the theme</li>
-              <li>No offensive imagery / text in games</li>
-              <li>
-                Use of third-party assets is allowed but must be declared and
-                will not be taken into account in judging
-              </li>
-              <li>
-                Virtual Reality equipment can only be used in designated areas
-              </li>
-              <li>
-                If using VR equipment, you must attend the induction session
-                before you can use the equipment
-              </li>
-              <li>Games must be completed within the 2-day period</li>
-              <li>
-                Team can’t be more than 33.3% recurring committee to be eligible
-                for prizes
-              </li>
-            </ul>
+<p>Maximum team size: 6</p>
+<ul>
+  <li>Be respectful to other teams</li>
+  <li>Follow the theme</li>
+  <li>No offensive imagery / text in games</li>
+  <li>Use of third-party assets is allowed but must be declared and will not be taken into account in judging</li>
+  <li>Virtual Reality equipment can only be used in designated areas</li>
+  <li>If using VR equipment, you must attend the induction session before you can use the equipment</li>
+  <li>Games must be completed within the 2-day period</li>
+  <li>Team can’t be more than 33.3% recurring committee to be eligible for prizes</li>
+</ul>
 
-            <h2 id="tenative-schedule">Tenative Schedule</h2>
+<h2 id="tenative-schedule">Tenative Schedule</h2>
 
-            <h3 id="2nd-november-2022">2nd November 2022</h3>
+<h3 id="2nd-november-2022">2nd November 2022</h3>
 
-            <table>
-              <thead>
-                <tr>
-                  <th>Time</th>
-                  <th>Description</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>08:00 - 08:30</td>
-                  <td>Registration</td>
-                </tr>
-                <tr>
-                  <td>08:30 - 09:00</td>
-                  <td>Intro + Health &amp; Safety talk</td>
-                </tr>
-                <tr>
-                  <td>09:00</td>
-                  <td>Start of Day 1</td>
-                </tr>
-                <tr>
-                  <td>19:00</td>
-                  <td>Dinner</td>
-                </tr>
-                <tr>
-                  <td>24:00</td>
-                  <td>End of Day 1</td>
-                </tr>
-              </tbody>
-            </table>
+<table>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>08:00 - 08:30</td>
+      <td>Registration</td>
+    </tr>
+    <tr>
+      <td>08:30 - 09:00</td>
+      <td>Intro + Health &amp; Safety talk</td>
+    </tr>
+    <tr>
+      <td>09:00</td>
+      <td>Start of Day 1</td>
+    </tr>
+    <tr>
+      <td>19:00</td>
+      <td>Dinner</td>
+    </tr>
+    <tr>
+      <td>24:00</td>
+      <td>End of Day 1</td>
+    </tr>
+  </tbody>
+</table>
 
-            <h3 id="3rd-november-2022">3rd November 2022</h3>
+<h3 id="3rd-november-2022">3rd November 2022</h3>
 
-            <table>
-              <thead>
-                <tr>
-                  <th>Time</th>
-                  <th>Description</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>08:00</td>
-                  <td>Start of Day 2</td>
-                </tr>
-                <tr>
-                  <td>12:00</td>
-                  <td>Lunch</td>
-                </tr>
-                <tr>
-                  <td>15:00 - 17:00</td>
-                  <td>Judging</td>
-                </tr>
-              </tbody>
-            </table>
+<table>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>08:00</td>
+      <td>Start of Day 2</td>
+    </tr>
+    <tr>
+      <td>12:00</td>
+      <td>Lunch</td>
+    </tr>
+    <tr>
+      <td>15:00 - 17:00</td>
+      <td>Judging</td>
+    </tr>
+  </tbody>
+</table>
 
-            <p>
-              Food is provided for participants on both days, as well as
-              refreshments (tea, coffee, water, etc.)
-            </p>
+<p>Food is provided for participants on both days, as well as refreshments (tea, coffee, water, etc.)</p>
 
-            <p>
-              We will be setting up a channel in our
-              <a href="https://discord.gg/nYwbhf8">Discord</a> server in the
-              coming days for further communication and to help people find a
-              group. We will also be communicating information over email.
-            </p>
+<p>We will be setting up a channel in our <a href="https://discord.gg/nYwbhf8">Discord</a> server in the coming days for further communication and to help people find a group. We will also be communicating information over email.</p>
 
-            <!-- Gromit was here -->
-          </div>
-        </section>
-        <section class="event-page__details">
-          <h2>The Details</h2>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-calendar-day"
-              data-tooltip="Event date"
-              aria-label="Event date"
-            ></i>
-            <p>02/11/22 - 03/11/22</p>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-clock"
-              data-tooltip="Event time"
-              aria-label="Event time"
-            ></i>
-            <p>07:00 - 18:00</p>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-map-marker"
-              data-tooltip="Event location"
-              aria-label="Event location"
-            ></i>
-            <p>MVB 2.11 + 2.56</p>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-pound-sign"
-              data-tooltip="Ticket price"
-              aria-label="Ticket price"
-            ></i>
-            <p>Free</p>
-          </div>
-
-          <a
-            class="event-page__details__row"
-            href="https://forms.office.com/r/fXMmLHjqFY"
-          >
-            <i
-              class="fas fa-shopping-cart"
-              data-tooltip="Ticket link"
-              aria-label="Ticket link"
-            ></i>
-            <p>Get a ticket here</p>
-          </a>
-
-          <div class="event-page__details__hosted-with">
-            <hr />
-            <h4>Hosted with:</h4>
-            <ul>
-              <li>
-                <a
-                  href="https://www.myworld-creates.com"
-                  target="_blank"
-                  rel="noopener sponsored"
-                  data-tooltip="MyWorld"
-                  class="company-logo"
-                >
-                  <img
-                    src="/assets/images/contrib/companies/myworld.png"
-                    alt="MyWorld"
-                    width="130"
-                    height="170"
-                  />
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="https://research-information.bris.ac.uk/en/projects/the-bristol-digital-game-lab"
-                  target="_blank"
-                  rel="noopener sponsored"
-                  data-tooltip="Bristol Digital Game Lab"
-                  class="company-logo"
-                >
-                  <img
-                    src="/assets/images/contrib/companies/bristol_digital_game_lab.png"
-                    alt="Bristol Digital Game Lab"
-                    width="130"
-                    height="170"
-                  />
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="https://www.aardman.com"
-                  target="_blank"
-                  rel="noopener sponsored"
-                  data-tooltip="Aardman"
-                  class="company-logo"
-                >
-                  <img
-                    src="/assets/images/contrib/companies/aardman.svg"
-                    alt="Aardman"
-                    width="130"
-                    height="170"
-                  />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </article>
+<!-- Gromit was here -->
+</div>
     </section>
+    <section class="event-page__details">
+      <h2>The Details</h2>
+         
+      <div class="event-page__details__row">
+        <i class="fas fa-calendar-day" data-tooltip="Event date" aria-label="Event date"></i>
+        <p>
+          02/11/22 - 03/11/22
+        </p>
+      </div>
+      
+      <div class="event-page__details__row">
+        <i class="fas fa-clock" data-tooltip="Event time" aria-label="Event time"></i>
+        <p>
+          07:00 - 18:00
+        </p>
+      </div>
+       
+      <div class="event-page__details__row">
+        <i class="fas fa-map-marker" data-tooltip="Event location" aria-label="Event location"></i>
+        <p>MVB 2.11 + 2.56</p>
+      </div>
+       
+      <div class="event-page__details__row">
+        <i class="fas fa-pound-sign" data-tooltip="Ticket price" aria-label="Ticket price"></i>
+        <p>Free</p>
+      </div>
+       
+      <a class="event-page__details__row" href="https://forms.office.com/r/fXMmLHjqFY">
+        <i class="fas fa-shopping-cart" data-tooltip="Ticket link" aria-label="Ticket link"></i>
+        <p>Get a ticket here</p>
+      </a>
+        
+      <div class="event-page__details__hosted-with">
+        <hr />
+        <h4>Hosted with:</h4>
+        <ul>
+           
+          <li>
+            
+<a
+  href="https://www.myworld-creates.com"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="MyWorld"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/myworld.png"
+    alt="MyWorld"
+    width="130"
+    height="170"
+  />
+</a>
+
+          </li>
+            
+          <li>
+            
+<a
+  href="https://research-information.bris.ac.uk/en/projects/the-bristol-digital-game-lab"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Bristol Digital Game Lab"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/bristol_digital_game_lab.png"
+    alt="Bristol Digital Game Lab"
+    width="130"
+    height="170"
+  />
+</a>
+
+          </li>
+            
+          <li>
+            
+<a
+  href="https://www.aardman.com"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Aardman"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/aardman.svg"
+    alt="Aardman"
+    width="130"
+    height="170"
+  />
+</a>
+
+          </li>
+           
+        </ul>
+      </div>
+      
+    </section>
+  </article>
+</section>
+
 
     <section class="page-section sponsorsec">
-      <h1 class="sponsors-title">
-        <a href="/pages/sponsors">Proudly sponsored by</a>
-      </h1>
-      <div class="sponsors">
-        <a
-          href="https://www.bloomberg.com"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Bloomberg"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/bloomberg.svg"
-            alt="Bloomberg"
-            width="130"
-            height="170"
-          />
-        </a>
+    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
+    <div class="sponsors">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            
+<a
+  href="https://www.bloomberg.com"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Bloomberg"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/bloomberg.svg"
+    alt="Bloomberg"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.caci.co.uk"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="CACI"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/caci.png"
-            alt="CACI"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+      
+        
+      
+        
+          
+            
+<a
+  href="https://www.caci.co.uk"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="CACI"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/caci.png"
+    alt="CACI"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://tpp-careers.com"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="TPP"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/tpp.png"
-            alt="TPP"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+            
+<a
+  href="https://tpp-careers.com"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="TPP"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/tpp.png"
+    alt="TPP"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.publicissapient.com/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Publicis Sapient"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/publicis_sapient.svg"
-            alt="Publicis Sapient"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+            
+<a
+  href="https://www.publicissapient.com/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Publicis Sapient"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/publicis_sapient.svg"
+    alt="Publicis Sapient"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.qualcomm.com/home"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Qualcomm"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/qualcomm.png"
-            alt="Qualcomm"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+          
+            
+<a
+  href="https://www.qualcomm.com/home"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qualcomm"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qualcomm.png"
+    alt="Qualcomm"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.qube-rt.com/careers/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Qube Research & Technologies"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/qube-rt.svg"
-            alt="Qube Research & Technologies"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+          
+            
+<a
+  href="https://www.qube-rt.com/careers/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qube Research & Technologies"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qube-rt.svg"
+    alt="Qube Research & Technologies"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.xmos.ai/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="XMOS"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/xmos.svg"
-            alt="XMOS"
-            width="130"
-            height="170"
-          />
-        </a>
-      </div>
-      <div class="sponsors__action_item">
-        <a href="/pages/sponsors">Learn more about working with us.</a>
-      </div>
-    </section>
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+            
+<a
+  href="https://www.xmos.ai/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="XMOS"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/xmos.svg"
+    alt="XMOS"
+    width="130"
+    height="170"
+  />
+</a>
+
+          
+        
+      
+    </div>
+    <div class="sponsors__action_item">
+      <a href="/pages/sponsors">Learn more about working with us.</a>
+    </div>
+</section>
+
 
     <footer class="page-footer">
-      <span class="page-footer__text"
-        >&copy; University of Bristol Computer Science Society</span
-      >
-      <nav class="page-footer__menu">
-        <ul>
-          <li>
-            <a class="page-link" href="/about/">About</a>
-          </li>
+  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
+  <nav class="page-footer__menu">
+    <ul>
+    
+    
+      
+      <li>
+        <a class="page-link" href="/about/">About</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/contact/">Contact</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/events/index.html">Events</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/jobs/">Jobs</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/shop/">Shop</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/sponsors">Sponsor us</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/tutorials/">Tutorials</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/wellbeing/">Wellbeing</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    </ul>
+  </nav>
+</footer>
 
-          <li>
-            <a class="page-link" href="/contact/">Contact</a>
-          </li>
 
-          <li>
-            <a class="page-link" href="/events/index.html">Events</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/jobs/">Jobs</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/shop/">Shop</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/sponsors">Sponsor us</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/tutorials/">Tutorials</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/wellbeing/">Wellbeing</a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
   </body>
+
 </html>
