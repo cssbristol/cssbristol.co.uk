@@ -1,1065 +1,621 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-  <meta charset=utf-8>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="/assets/favicons/manifest.json">
-<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#3498db">
-<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
-<meta name="theme-color" content="#3498db">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/assets/favicons/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/assets/favicons/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/assets/favicons/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/assets/favicons/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/assets/favicons/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/assets/favicons/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/assets/favicons/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/assets/favicons/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicons/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-194x194.png"
+      sizes="194x194"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/android-chrome-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link rel="manifest" href="/assets/favicons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/assets/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#3498db" />
+    <meta
+      name="msapplication-TileImage"
+      content="/assets/favicons/mstile-144x144.png"
+    />
+    <meta name="theme-color" content="#3498db" />
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta name="description" content="So you want to write a post for the CSS website? Great! This tutorial will walk you through the process. Basic familiarity with git is assumed.Getting the codeFirst, you will need to create a GitHub account. If you have one already, log in.Now, navigate to the website repository. In the top-right...">
+    <meta
+      name="description"
+      content="So you want to write a post for the CSS website? Great! This tutorial will walk you through the process. Basic familiarity with git is assumed.Getting the codeFirst, you will need to create a GitHub account. If you have one already, log in.Now, navigate to the website repository. In the top-right..."
+    />
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Writing a post for cssbristol.co.uk - CSS Bristol">
-<meta property="og:description" content="So you want to write a post for the CSS website? Great! This tutorial will walk you through the process. Basic familiarity with git is assumed. Getting the code First, you will need to create a GitHub account. If you have one already, log in. Now, navigate to the website...">
-<meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
-<meta property="og:url" content="https://cssbristol.co.uk/tutorials/post-on-the-site/">
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Writing a post for cssbristol.co.uk - CSS Bristol"
+    />
+    <meta
+      property="og:description"
+      content="So you want to write a post for the CSS website? Great! This tutorial will walk you through the process. Basic familiarity with git is assumed. Getting the code First, you will need to create a GitHub account. If you have one already, log in. Now, navigate to the website..."
+    />
+    <meta
+      property="og:image"
+      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
+    />
+    <meta
+      property="og:url"
+      content="https://cssbristol.co.uk/tutorials/post-on-the-site/"
+    />
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Writing a post for cssbristol.co.uk - CSS Bristol">
-<meta name="twitter:description" content="So you want to write a post for the CSS website? Great! This tutorial will walk you through the process. Basic familiarity with git is assumed. Getting the code First, you will need to create a GitHub account. If you have one already, log in. Now, navigate to the website...">
-<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
-<meta name="twitter:site" content="@cssbristol">
- 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Writing a post for cssbristol.co.uk - CSS Bristol"
+    />
+    <meta
+      name="twitter:description"
+      content="So you want to write a post for the CSS website? Great! This tutorial will walk you through the process. Basic familiarity with git is assumed. Getting the code First, you will need to create a GitHub account. If you have one already, log in. Now, navigate to the website..."
+    />
+    <meta
+      name="twitter:image"
+      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
+    />
+    <meta name="twitter:site" content="@cssbristol" />
 
+    <title>Writing a post for cssbristol.co.uk - CSS Bristol</title>
 
-  <title>Writing a post for cssbristol.co.uk - CSS Bristol</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    />
 
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
+    <link rel="stylesheet" href="/assets/css/site.css" />
+    <link
+      rel="canonical"
+      href="https://cssbristol.co.uk/tutorials/post-on-the-site/"
+    />
 
-  <link rel="stylesheet" href="/assets/css/site.css" />
-  <link rel="canonical" href="https://cssbristol.co.uk/tutorials/post-on-the-site/" />
-  
+    <!-- Prefetch background images so they load faster next time page loads -->
+    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
 
-  
+    <!-- Script for FontAwesome icons -->
+    <script
+      src="https://kit.fontawesome.com/5918af34b4.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
 
-  <!-- Prefetch background images so they load faster next time page loads -->
-  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
+    <!-- Script for randomly choosing header background -->
+    <script
+      type="text/javascript"
+      src="/assets/scripts/header-random-bg.js"
+      defer
+    ></script>
 
-  <!-- Script for FontAwesome icons -->
-  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
-  
-  <!-- Script for randomly choosing header background -->
-  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
-  
-  <!-- Cloudflare Web Analytics -->
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
+    <!-- Cloudflare Web Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
+    ></script>
 
-  <!-- remove after a couple of months -->
-  <script>
-    const path = window.location.pathname;
-    if (path.startsWith("/events/")) {
-      const newPath = path.replaceAll("_", "-");
-      if (newPath !== path) {
-        window.location.replace(newPath);
+    <!-- remove after a couple of months -->
+    <script>
+      const path = window.location.pathname;
+      if (path.startsWith("/events/")) {
+        const newPath = path.replaceAll("_", "-");
+        if (newPath !== path) {
+          window.location.replace(newPath);
+        }
       }
-    }
-  </script>
-</head>
-
+    </script>
+  </head>
 
   <body>
-
     <header class="page-header noscript" id="page-header--random-bg">
-  <div class="bg">
-    <div id="header-random-background"></div>
-  </div>
-  <div class="navigation-items">
-    <div itemscope itemtype="http://schema.org/Organization">
-      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
-      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
-        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-      </a>
-    </div>
-    <nav class="page-navigation">
-      <ul class="page-navigation__links">
-        
-        
-        
-        <li><a href="/about/">About</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/contact/">Contact</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/events/index.html">Events</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/jobs/">Jobs</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/shop/">Shop</a></li>
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/sponsors">Sponsor us</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/tutorials/">Tutorials</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/wellbeing/">Wellbeing</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      </ul>
-    </nav>
-  </div>
-  
-</header>
+      <div class="bg">
+        <div id="header-random-background"></div>
+      </div>
+      <div class="navigation-items">
+        <div itemscope itemtype="http://schema.org/Organization">
+          <span style="display: none" itemprop="name"
+            >University of Bristol Computer Science Society</span
+          >
+          <a
+            aria-label="Home"
+            href="/"
+            class="page-header__logo"
+            itemprop="url"
+          >
+            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+          </a>
+        </div>
+        <nav class="page-navigation">
+          <ul class="page-navigation__links">
+            <li><a href="/about/">About</a></li>
 
+            <li><a href="/contact/">Contact</a></li>
 
-    <section class="page-section">
-  <article class="article">
-    <header class="blog-post__header">
-      <h1 class="blog-post__title">Writing a post for cssbristol.co.uk</h1>
-      <div class="blog-post__meta" itemscope itemtype="http://schema.org/Person">
-        
+            <li><a href="/events/index.html">Events</a></li>
 
-        
-        <span itemprop="author">
-          <span itemprop="url"></span>
-          
-          <span itemprop="name">Ross Gardiner</span>
-          
-        </span> on
-        
-        <time datetime="2016-05-21T01:52:00+01:00">May 21, 2016</time>
+            <li><a href="/jobs/">Jobs</a></li>
+
+            <li><a href="/shop/">Shop</a></li>
+
+            <li><a href="/sponsors">Sponsor us</a></li>
+
+            <li><a href="/tutorials/">Tutorials</a></li>
+
+            <li><a href="/wellbeing/">Wellbeing</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
-    <div class="blog-post__body">
-      <p>So you want to write a post for the CSS website? Great! This tutorial will walk you through the process. Basic familiarity with git is assumed.</p>
 
-<h2 id="getting-the-code">Getting the code</h2>
+    <section class="page-section">
+      <article class="article">
+        <header class="blog-post__header">
+          <h1 class="blog-post__title">Writing a post for cssbristol.co.uk</h1>
+          <div
+            class="blog-post__meta"
+            itemscope
+            itemtype="http://schema.org/Person"
+          >
+            <span itemprop="author">
+              <span itemprop="url"></span>
 
-<p>First, you will need to create a GitHub account. If you have one already, log in.</p>
+              <span itemprop="name">Ross Gardiner</span>
+            </span>
+            on
 
-<p><img src="/assets/images/contrib/tutorials/post-on-the-site/log-into-github.png" alt="Log into GitHub" /></p>
+            <time datetime="2016-05-21T01:52:00+01:00">May 21, 2016</time>
+          </div>
+        </header>
+        <div class="blog-post__body">
+          <p>
+            So you want to write a post for the CSS website? Great! This
+            tutorial will walk you through the process. Basic familiarity with
+            git is assumed.
+          </p>
 
-<p>Now, navigate to the <a href="https://github.com/cssbristol/cssbristol.github.io">website repository</a>. In the top-right hand corner of the page, you will see a ‘Fork’ button. Click this to create a copy of the repository in your own account.</p>
+          <h2 id="getting-the-code">Getting the code</h2>
 
-<p><img src="/assets/images/contrib/tutorials/post-on-the-site/fork.png" alt="Fork the repository" /></p>
+          <p>
+            First, you will need to create a GitHub account. If you have one
+            already, log in.
+          </p>
 
-<p>After a few seconds, you will have your own fork of the repository.</p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/post-on-the-site/log-into-github.png"
+              alt="Log into GitHub"
+            />
+          </p>
 
-<p><img src="/assets/images/contrib/tutorials/post-on-the-site/forked-repo.png" alt="Forked repository" /></p>
+          <p>
+            Now, navigate to the
+            <a href="https://github.com/cssbristol/cssbristol.github.io"
+              >website repository</a
+            >. In the top-right hand corner of the page, you will see a ‘Fork’
+            button. Click this to create a copy of the repository in your own
+            account.
+          </p>
 
-<p>Now, if you’re familiar with git, clone the repository and make your changes. I’ll show you how to make a post without leaving the GitHub website - but the principles are the same whether you clone the repository or use the web interface.</p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/post-on-the-site/fork.png"
+              alt="Fork the repository"
+            />
+          </p>
 
-<h2 id="writing-a-post">Writing a post</h2>
+          <p>
+            After a few seconds, you will have your own fork of the repository.
+          </p>
 
-<p>Let’s try writing a new blog post. First, click on the <code class="language-plaintext highlighter-rouge">_posts</code> folder to see the existing blog posts on the site. If you click on one, you can read and modify it.</p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/post-on-the-site/forked-repo.png"
+              alt="Forked repository"
+            />
+          </p>
 
-<p><img src="/assets/images/contrib/tutorials/post-on-the-site/edit-post.png" alt="Editing a post" /></p>
+          <p>
+            Now, if you’re familiar with git, clone the repository and make your
+            changes. I’ll show you how to make a post without leaving the GitHub
+            website - but the principles are the same whether you clone the
+            repository or use the web interface.
+          </p>
 
-<p>Now let’s add a new post - click the ‘Create new file’ button:</p>
+          <h2 id="writing-a-post">Writing a post</h2>
 
-<p><img src="/assets/images/contrib/tutorials/post-on-the-site/create-file.png" alt="Creating a file" /></p>
+          <p>
+            Let’s try writing a new blog post. First, click on the
+            <code class="language-plaintext highlighter-rouge">_posts</code>
+            folder to see the existing blog posts on the site. If you click on
+            one, you can read and modify it.
+          </p>
 
-<p>First, name the file. The format of the name should be <code class="language-plaintext highlighter-rouge">yyyy-mm-dd-title-of-the-post.markdown</code>, for example <code class="language-plaintext highlighter-rouge">2016-05-21-pining-for-the-fjords.markdown</code>. With the file named, we first need to provide some metadata about the post. The very first thing in the file should be something like this:</p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/post-on-the-site/edit-post.png"
+              alt="Editing a post"
+            />
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+          <p>Now let’s add a new post - click the ‘Create new file’ button:</p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/post-on-the-site/create-file.png"
+              alt="Creating a file"
+            />
+          </p>
+
+          <p>
+            First, name the file. The format of the name should be
+            <code class="language-plaintext highlighter-rouge"
+              >yyyy-mm-dd-title-of-the-post.markdown</code
+            >, for example
+            <code class="language-plaintext highlighter-rouge"
+              >2016-05-21-pining-for-the-fjords.markdown</code
+            >. With the file named, we first need to provide some metadata about
+            the post. The very first thing in the file should be something like
+            this:
+          </p>
+
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre class="highlight"><code>---
 layout: post
 title:  "Pining for the fjords"
 date:   2016-05-21 21:51:00 +0100
 categories:
 author: "John Cleese"
 ---
-</code></pre></div></div>
+</code></pre>
+            </div>
+          </div>
 
-<p>On the next line, you can start writing your post. If you hadn’t already guessed, posts are written in a very simple formatting language called Markdown. If you haven’t used it before, <a href="http://www.markdowntutorial.com/">here’s a tutorial</a>.</p>
+          <p>
+            On the next line, you can start writing your post. If you hadn’t
+            already guessed, posts are written in a very simple formatting
+            language called Markdown. If you haven’t used it before,
+            <a href="http://www.markdowntutorial.com/">here’s a tutorial</a>.
+          </p>
 
-<p><img src="/assets/images/contrib/tutorials/post-on-the-site/write-post.png" alt="Writing a new post" /></p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/post-on-the-site/write-post.png"
+              alt="Writing a new post"
+            />
+          </p>
 
-<p>If you want to preview your post, you can click the ‘Preview’ tab at the top of the editor. Once you’re happy with the content, it’s time to commit it to your local version of the site (don’t worry, it won’t be published to the live site yet!).</p>
+          <p>
+            If you want to preview your post, you can click the ‘Preview’ tab at
+            the top of the editor. Once you’re happy with the content, it’s time
+            to commit it to your local version of the site (don’t worry, it
+            won’t be published to the live site yet!).
+          </p>
 
-<p>Scroll down, and write a short description for your commit. Choose to commit directly to <code class="language-plaintext highlighter-rouge">master</code>. Now click ‘Commit new file’.</p>
+          <p>
+            Scroll down, and write a short description for your commit. Choose
+            to commit directly to
+            <code class="language-plaintext highlighter-rouge">master</code>.
+            Now click ‘Commit new file’.
+          </p>
 
-<p><img src="/assets/images/contrib/tutorials/post-on-the-site/commit-master.png" alt="Starting a pull request" /></p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/post-on-the-site/commit-master.png"
+              alt="Starting a pull request"
+            />
+          </p>
 
-<p>You will be taken back to the <code class="language-plaintext highlighter-rouge">_posts</code> folder. Notice that there is now a message: ‘This branch is 1 commit ahead of cssbristol:master’. That means we can make a pull request to have our changes merged back into the main site. Click the ‘Pull request’ button to begin the process.</p>
+          <p>
+            You will be taken back to the
+            <code class="language-plaintext highlighter-rouge">_posts</code>
+            folder. Notice that there is now a message: ‘This branch is 1 commit
+            ahead of cssbristol:master’. That means we can make a pull request
+            to have our changes merged back into the main site. Click the ‘Pull
+            request’ button to begin the process.
+          </p>
 
-<p><img src="/assets/images/contrib/tutorials/post-on-the-site/pull-request-button.png" alt="Starting a pull request" /></p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/post-on-the-site/pull-request-button.png"
+              alt="Starting a pull request"
+            />
+          </p>
 
-<p>GitHub should choose to do the right thing automatically. At the top, you can see a ‘base’ and ‘head’. The ‘base’ is the repository that you want to merge into (the main CSS website repository), and the ‘head’ is your local copy. Below, in green, you can see you additions.</p>
+          <p>
+            GitHub should choose to do the right thing automatically. At the
+            top, you can see a ‘base’ and ‘head’. The ‘base’ is the repository
+            that you want to merge into (the main CSS website repository), and
+            the ‘head’ is your local copy. Below, in green, you can see you
+            additions.
+          </p>
 
-<p><img src="/assets/images/contrib/tutorials/post-on-the-site/pull-request.png" alt="Submitting a pull request" /></p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/post-on-the-site/pull-request.png"
+              alt="Submitting a pull request"
+            />
+          </p>
 
-<p>Click ‘Create pull request’, and write a short description of your changes in the box provided. The clearer the information you provide, the easier it will be for us to merge your changes.</p>
+          <p>
+            Click ‘Create pull request’, and write a short description of your
+            changes in the box provided. The clearer the information you
+            provide, the easier it will be for us to merge your changes.
+          </p>
 
-<p><img src="/assets/images/contrib/tutorials/post-on-the-site/pull-request-description.png" alt="Describing a pull request" /></p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/post-on-the-site/pull-request-description.png"
+              alt="Describing a pull request"
+            />
+          </p>
 
-<p>And now you’re done! We’ll see to it as soon as possible.</p>
+          <p>And now you’re done! We’ll see to it as soon as possible.</p>
 
-<p><img src="/assets/images/contrib/tutorials/post-on-the-site/pull-request-submitted.png" alt="A submitted pull request" /></p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/post-on-the-site/pull-request-submitted.png"
+              alt="A submitted pull request"
+            />
+          </p>
 
-
-      <h2>Feedback</h2>
-      <p>Any issues with this tutorial? Submit <a href="https://github.com/cssbristol/cssbristol.github.io/issues">an issue</a> or a <a href="https://github.com/cssbristol/cssbristol.github.io/pulls">pull request</a> and we'll get it sorted out right away.
-    </div>
-  </article>
-</section>
-
+          <h2>Feedback</h2>
+          <p>
+            Any issues with this tutorial? Submit
+            <a href="https://github.com/cssbristol/cssbristol.github.io/issues"
+              >an issue</a
+            >
+            or a
+            <a href="https://github.com/cssbristol/cssbristol.github.io/pulls"
+              >pull request</a
+            >
+            and we'll get it sorted out right away.
+          </p>
+        </div>
+      </article>
+    </section>
 
     <section class="page-section sponsorsec">
-    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
-    <div class="sponsors">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-            
-<a
-  href="https://www.bloomberg.com"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Bloomberg"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/bloomberg.svg"
-    alt="Bloomberg"
-    width="130"
-    height="170"
-  />
-</a>
+      <h1 class="sponsors-title">
+        <a href="/pages/sponsors">Proudly sponsored by</a>
+      </h1>
+      <div class="sponsors">
+        <a
+          href="https://www.bloomberg.com"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Bloomberg"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/bloomberg.svg"
+            alt="Bloomberg"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-      
-        
-          
-            
-<a
-  href="https://www.caci.co.uk"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="CACI"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/caci.png"
-    alt="CACI"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.caci.co.uk"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="CACI"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/caci.png"
+            alt="CACI"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-            
-<a
-  href="https://tpp-careers.com"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="TPP"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/tpp.png"
-    alt="TPP"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://tpp-careers.com"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="TPP"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/tpp.png"
+            alt="TPP"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-            
-<a
-  href="https://www.publicissapient.com/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Publicis Sapient"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/publicis_sapient.svg"
-    alt="Publicis Sapient"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.publicissapient.com/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Publicis Sapient"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/publicis_sapient.svg"
+            alt="Publicis Sapient"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-          
-            
-<a
-  href="https://www.qualcomm.com/home"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Qualcomm"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/qualcomm.png"
-    alt="Qualcomm"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.qualcomm.com/home"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Qualcomm"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/qualcomm.png"
+            alt="Qualcomm"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-          
-            
-<a
-  href="https://www.qube-rt.com/careers/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Qube Research & Technologies"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/qube-rt.svg"
-    alt="Qube Research & Technologies"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.qube-rt.com/careers/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Qube Research & Technologies"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/qube-rt.svg"
+            alt="Qube Research & Technologies"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-            
-<a
-  href="https://www.xmos.ai/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="XMOS"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/xmos.svg"
-    alt="XMOS"
-    width="130"
-    height="170"
-  />
-</a>
-
-          
-        
-      
-    </div>
-    <div class="sponsors__action_item">
-      <a href="/pages/sponsors">Learn more about working with us.</a>
-    </div>
-</section>
-
+        <a
+          href="https://www.xmos.ai/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="XMOS"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/xmos.svg"
+            alt="XMOS"
+            width="130"
+            height="170"
+          />
+        </a>
+      </div>
+      <div class="sponsors__action_item">
+        <a href="/pages/sponsors">Learn more about working with us.</a>
+      </div>
+    </section>
 
     <footer class="page-footer">
-  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
-  <nav class="page-footer__menu">
-    <ul>
-    
-    
-      
-      <li>
-        <a class="page-link" href="/about/">About</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/contact/">Contact</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/events/index.html">Events</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/jobs/">Jobs</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/shop/">Shop</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/sponsors">Sponsor us</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/tutorials/">Tutorials</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/wellbeing/">Wellbeing</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    </ul>
-  </nav>
-</footer>
+      <span class="page-footer__text"
+        >&copy; University of Bristol Computer Science Society</span
+      >
+      <nav class="page-footer__menu">
+        <ul>
+          <li>
+            <a class="page-link" href="/about/">About</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/contact/">Contact</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/events/index.html">Events</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/jobs/">Jobs</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/shop/">Shop</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/sponsors">Sponsor us</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/tutorials/">Tutorials</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/wellbeing/">Wellbeing</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
-
 </html>
