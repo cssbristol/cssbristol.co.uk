@@ -10,14 +10,16 @@ logo: qube-rt.svg
 jobLocation: London, England
 industry: Software Developer
 employmentType: Permanent
-validThrough: 2023-01-31 23:59:59 +0000
+validThrough: 2023-03-31 23:59:59 +0000
 startDate: 2023
-baseSalary: 65,000
+baseSalary: 68,000
 salaryCurrency: GBP
 salaryPeriod: Year
 apply:
   link: https://www.qube-rt.com/careers/graduate-opportunities/job?gh_jid=6495213002
 ---
+
+Note on salary: The annual basic salary ranges from £68,000 - £80,000 (dependent on your experience). The package includes a sign on bonus and an annual discretionary bonus plus a very compelling benefits package.
 
 ## Application deadline
 **QRT recruits on a rolling basis. Apply early to maximise your chances of success!**

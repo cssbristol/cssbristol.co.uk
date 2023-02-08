@@ -10,14 +10,16 @@ logo: qube-rt.svg
 jobLocation: London, England
 industry: Software Development
 employmentType: Placement
-validThrough: 2023-01-31 23:59:59 +0000
+validThrough: 2023-03-31 23:59:59 +0000
 startDate: 2023
-baseSalary: 65,000
+baseSalary: 68,000
 salaryCurrency: GBP
 salaryPeriod: Year
 apply:
   link: https://www.qube-rt.com/careers/intern-opportunities/job?gh_jid=6495335002
 ---
+
+The salary for our Industrial Placement is equivalent to an annual salary which ranges from £68,000 - £80,000 (dependent on experience), but pro-rated for the duration of the placement (typically 4, 6 or 12 months).
 
 **Open to penultimate year STEM students or upcoming graduates.**
 

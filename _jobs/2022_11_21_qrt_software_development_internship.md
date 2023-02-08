@@ -10,15 +10,17 @@ logo: qube-rt.svg
 jobLocation: London, England
 industry: Software Development
 employmentType: Summer Internship
-validThrough: 2023-01-31 23:59:59 +0000
+validThrough: 2023-03-31 23:59:59 +0000
 startDate: Summer 2023
-baseSalary: 65,000
+baseSalary: 68,000
 salaryCurrency: GBP
 salaryPeriod: Year
 apply:
   link: https://www.qube-rt.com/careers/intern-opportunities/job?gh_jid=6495382002
 ---
 **Open to penultimate year STEM students or upcoming graduates.**
+
+The salary for our internship is equivalent to an annual salary which ranges from £68,000 - £80,000 (dependent on experience), but pro-rated for the duration of the internship (typically 12 weeks).
 
 ## Application deadline
 **QRT recruits interns on a rolling basis. Apply early to maximise your chances of success!**
