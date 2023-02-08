@@ -8,7 +8,6 @@ hiringOrganization:
 logo: qualcomm.png
 title: Software Test Internship
 jobLocation: Cambridge, UK
-industry: Software Testing
 employmentType: Summer Internship
 validThrough: 2023-02-28 23:59:59 +0000
 apply:

@@ -8,7 +8,6 @@ hiringOrganization:
 logo: qualcomm.png
 title: Electronics Engineering
 jobLocation: Bristol, UK
-industry: Software Engineering
 employmentType: 6 Month Internship
 validThrough: 2023-02-28 23:59:59 +0000
 apply:
