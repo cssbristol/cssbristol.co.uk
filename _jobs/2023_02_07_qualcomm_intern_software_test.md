@@ -5,6 +5,7 @@ sponsored: true
 datePosted: 2023-02-07 21:00:00 +0000
 hiringOrganization:
   name: Qualcomm
+logo: qualcomm.png
 title: Software Test Internship
 jobLocation: Cambridge, UK
 industry: Software Testing
