@@ -1,1516 +1,2232 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-  <meta charset=utf-8>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="/assets/favicons/manifest.json">
-<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#3498db">
-<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
-<meta name="theme-color" content="#3498db">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/assets/favicons/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/assets/favicons/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/assets/favicons/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/assets/favicons/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/assets/favicons/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/assets/favicons/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/assets/favicons/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/assets/favicons/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicons/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-194x194.png"
+      sizes="194x194"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/android-chrome-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link rel="manifest" href="/assets/favicons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/assets/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#3498db" />
+    <meta
+      name="msapplication-TileImage"
+      content="/assets/favicons/mstile-144x144.png"
+    />
+    <meta name="theme-color" content="#3498db" />
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta name="description" content="Git is a way to store, back up and organise your code. It is one of those things that you wish you’d been taught in your first term if you discover it later on.">
+    <meta
+      name="description"
+      content="Git is a way to store, back up and organise your code. It is one of those things that you wish you’d been taught in your first term if you discover it later on."
+    />
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Introduction to Git - CSS Bristol">
-<meta property="og:description" content="Git is a way to store, back up and organise your code. It is one of those things that you wish you’d been taught in your first term if you discover it later on.">
-<meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
-<meta property="og:url" content="https://cssbristol.co.uk/tutorials/git/">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Introduction to Git - CSS Bristol" />
+    <meta
+      property="og:description"
+      content="Git is a way to store, back up and organise your code. It is one of those things that you wish you’d been taught in your first term if you discover it later on."
+    />
+    <meta
+      property="og:image"
+      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
+    />
+    <meta property="og:url" content="https://cssbristol.co.uk/tutorials/git/" />
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Introduction to Git - CSS Bristol">
-<meta name="twitter:description" content="Git is a way to store, back up and organise your code. It is one of those things that you wish you’d been taught in your first term if you discover it later on.">
-<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
-<meta name="twitter:site" content="@cssbristol">
- 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Introduction to Git - CSS Bristol" />
+    <meta
+      name="twitter:description"
+      content="Git is a way to store, back up and organise your code. It is one of those things that you wish you’d been taught in your first term if you discover it later on."
+    />
+    <meta
+      name="twitter:image"
+      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
+    />
+    <meta name="twitter:site" content="@cssbristol" />
 
+    <title>Introduction to Git - CSS Bristol</title>
 
-  <title>Introduction to Git - CSS Bristol</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    />
 
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
+    <link rel="stylesheet" href="/assets/css/site.css" />
+    <link rel="canonical" href="https://cssbristol.co.uk/tutorials/git/" />
 
-  <link rel="stylesheet" href="/assets/css/site.css" />
-  <link rel="canonical" href="https://cssbristol.co.uk/tutorials/git/" />
-  
+    <!-- Prefetch background images so they load faster next time page loads -->
+    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
 
-  
+    <!-- Script for FontAwesome icons -->
+    <script
+      src="https://kit.fontawesome.com/5918af34b4.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
 
-  <!-- Prefetch background images so they load faster next time page loads -->
-  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
+    <!-- Script for randomly choosing header background -->
+    <script
+      type="text/javascript"
+      src="/assets/scripts/header-random-bg.js"
+      defer
+    ></script>
 
-  <!-- Script for FontAwesome icons -->
-  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
-  
-  <!-- Script for randomly choosing header background -->
-  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
-  
-  <!-- Cloudflare Web Analytics -->
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
+    <!-- Cloudflare Web Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
+    ></script>
 
-  <!-- remove after a couple of months -->
-  <script>
-    const path = window.location.pathname;
-    if (path.startsWith("/events/")) {
-      const newPath = path.replaceAll("_", "-");
-      if (newPath !== path) {
-        window.location.replace(newPath);
+    <!-- remove after a couple of months -->
+    <script>
+      const path = window.location.pathname;
+      if (path.startsWith("/events/")) {
+        const newPath = path.replaceAll("_", "-");
+        if (newPath !== path) {
+          window.location.replace(newPath);
+        }
       }
-    }
-  </script>
-</head>
-
+    </script>
+  </head>
 
   <body>
-
     <header class="page-header noscript" id="page-header--random-bg">
-  <div class="bg">
-    <div id="header-random-background"></div>
-  </div>
-  <div class="navigation-items">
-    <div itemscope itemtype="http://schema.org/Organization">
-      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
-      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
-        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-      </a>
-    </div>
-    <nav class="page-navigation">
-      <ul class="page-navigation__links">
-        
-        
-        
-        <li><a href="/about/">About</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/contact/">Contact</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/events/index.html">Events</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/jobs/">Jobs</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/shop/">Shop</a></li>
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/sponsors">Sponsor us</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/tutorials/">Tutorials</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/wellbeing/">Wellbeing</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      </ul>
-    </nav>
-  </div>
-  
-</header>
+      <div class="bg">
+        <div id="header-random-background"></div>
+      </div>
+      <div class="navigation-items">
+        <div itemscope itemtype="http://schema.org/Organization">
+          <span style="display: none" itemprop="name"
+            >University of Bristol Computer Science Society</span
+          >
+          <a
+            aria-label="Home"
+            href="/"
+            class="page-header__logo"
+            itemprop="url"
+          >
+            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+          </a>
+        </div>
+        <nav class="page-navigation">
+          <ul class="page-navigation__links">
+            <li><a href="/about/">About</a></li>
 
+            <li><a href="/contact/">Contact</a></li>
 
-    <section class="page-section">
-  <article class="article">
-    <header class="blog-post__header">
-      <h1 class="blog-post__title">Introduction to Git</h1>
-      <div class="blog-post__meta" itemscope itemtype="http://schema.org/Person">
-        
+            <li><a href="/events/index.html">Events</a></li>
 
-        
-        <span itemprop="author">
-          <span itemprop="url"></span>
-          
-          <span itemprop="name">David Bernhard</span>
-          
-        </span> on
-        
-        <time datetime="2019-08-29T10:00:00+01:00">Aug 29, 2019</time>
+            <li><a href="/jobs/">Jobs</a></li>
+
+            <li><a href="/shop/">Shop</a></li>
+
+            <li><a href="/sponsors">Sponsor us</a></li>
+
+            <li><a href="/tutorials/">Tutorials</a></li>
+
+            <li><a href="/wellbeing/">Wellbeing</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
-    <div class="blog-post__body">
-      <p>Git is a way to store, back up and organise your code. It is one of those things that you wish you’d been taught in your first term if you discover it later on.</p>
 
-<h2 id="why-git">Why Git?</h2>
-
-<p>You are working on a software project. As your project grows, and you work on it together with other people, you will need some way of:</p>
-
-<ul>
-  <li>Making backups of your code.</li>
-  <li>Trying out changes, and undoing them if they don’t work.</li>
-  <li>Sharing your code with other team members.</li>
-  <li>Finding where you implemented a particular feature, so you can re-use it somewhere else.</li>
-  <li>Making different versions of your code, e.g. “development version” and “demo version for presentation”.</li>
-</ul>
-
-<p>Git can do all these things. It takes a bit of getting used to, but it pays off to learn the basics of Git once and then use it again and again. Some students even keep a git repository for every unit they take so they can keep track of all their work.</p>
-
-<p>Git is not the only system that can do this, but it is the most popular one by far and knowing Git is pretty much a requirement for lots of technical job interviews as a developer. So you might as well learn Git.</p>
-
-<p>On the other hand, Git’s manual is full of technical terms, some of which the authors made up themselves, and there are different ways of using git (called “workflows”) that have manuals of their own. The aim of this tutorial is to get you to the point where you can use Git productively, and understand some of these manuals if you need to.</p>
-
-<p>There are three ways to use Git:</p>
-
-<ul>
-  <li>Git itself is a set of command-line tools. You can use these directly.</li>
-  <li>There are a number of graphical user interfaces on top of Git; in this tutorial I’ll use one called Fork.</li>
-  <li>If you are using an integrated development environment such as Netbeans, Eclipse, IntelliJ, Visual Studio (Code) etc. then these have a Git feature built in.</li>
-</ul>
-
-<p>All three ways are different interfaces on the same set of Git “verbs” (or commands) so this tutorial will focus on these, but I will mention the free graphical client <a href="https://git-fork.com">fork</a> in this tutorial as that’s what I use myself.</p>
-
-<p>Please do not let anyone tell you that “real programmers” only use the command line. It’s perfectly acceptable to use a graphical client if, like me, you’re more productive that way.</p>
-
-<h2 id="installing-git-and-fork">Installing Git and Fork</h2>
-
-<p>On the lab machines, Git is installed already; unfortunately Fork doesn’t work on linux. On your own machine, type <code class="language-plaintext highlighter-rouge">git</code> in a terminal and if you’re lucky you’ll get the help text, showing it’s installed already. If you need to install it yourself:</p>
-
-<p>On Windows, if you want to use the fork client then download and install it from <a href="https://git-fork.com">git-fork.com</a>. Fork comes with the command-line tool and there’s a button in the window to open a command line if you need it. If you want the command-line version of Git on its own then download and install <a href="https://git-scm.com/downloads">Git for Windows</a>.</p>
-
-<p>On Mac, you first want to install <a href="https://brew.sh/">Homebrew</a> by opening a terminal and following the instructions on the page. Homebrew is a package manager, that is a piece of software that allows you to install other software. This is particularly useful for developers. Once you have installed Homebrew, open a new terminal and type <code class="language-plaintext highlighter-rouge">brew install git</code> and press ENTER. Then you can install fork from <a href="https://git-fork.com">git-fork.com</a>.</p>
-
-<p>On Linux, you will not be able to install Fork, but you can install Git with the package manager provided with your operating system: <code class="language-plaintext highlighter-rouge">sudo apt install git</code> on Debian-based systems (including Mint and Ubintu) and <code class="language-plaintext highlighter-rouge">sudo yum install git</code> on Red Hat-based systems.</p>
-
-<p><em>When you install Fork, it asks for a username and e-mail address. This is a feature of Git, not of Fork itself. It is not to spam you - each “commit” in Git is linked to an author so you can tell who last changed a file, and the developers decided to use name+email for this. You can just put “-“ as your e-mail address if you want and Fork will not complain. It doesn’t want to e-mail you, after all.</em></p>
-
-<h2 id="online-services">Online services</h2>
-
-<p>Git itself is a command-line tool that lets you manage <strong>repositories</strong>, which are like folders that track the complete history of everything that has ever happened in them.
-You always have a repository on your own machine, and you can have further repositories stored on a server.</p>
-
-<p>For a typical project you will want a repository on a server, both as a backup of your code and as a way to share your code with others if it’s a team project.</p>
-
-<p>There are three big online services that offer you free hosting of your own repositories, within reasonable limits:</p>
-
-<ul>
-  <li><a href="https://github.com/">Github</a> is the biggest online Git service. Owned by Microsoft, it also offers a lot of extra features like hosting your own static website (the CSS website iteslf is hosted on Github).</li>
-  <li><a href="https://gitlab.com/">Gitlab</a> is an alternative to Github with boradly similar functionality - it also allows you to host websites. Gitlab also lets you download a copy of its own software if you want to run your own Git service.</li>
-  <li><a href="https://bitbucket.org/">BitBucket</a> is a third service owned by Atlassian.</li>
-</ul>
-
-<p>All three services currently offer you an unlimited number (within reason) of private repositories, where only you or people that you allow can see the code. You can also make public repositories, for example for open-source projects or as part of your portfolio when you’re looking for jobs.</p>
-
-<p><strong>All coursework that you have submitted for credit, or are going to submit for credit, must be in a private repository! If you make it public and someone else submits a copy of your code, you are both in trouble for plagiarism.</strong></p>
-
-<p>For the steps in this tutorial, and for hosting your first few projects, all three services are practically equivalent, and it’s easy enough to move a repository from one service to another later on so it does not matter which one you sign up with. I will be using gitlab as an example in this tutorial as it’s my personal favourite (back when I signed up, github used to nag you to add a credit card, gitlab didn’t).</p>
-
-<p>To sign up with gitlab, go to <a href="https://gitlab.com/users/sign_in#register-pane">the signup page</a> and create an account. In my experience, it’s safe to give your university e-mail: they don’t spam you if you don’t tick the newsletter box.</p>
-
-<p><strong>Do not re-use your university password for gitlab or anything else.</strong></p>
-
-<h2 id="security-use-keys-instead-of-passwords">Security: use keys instead of passwords</h2>
-
-<p>Before you can get started with gitlab or one of the other services, a quick word about security. You will only need to follow these steps once per computer before you set up your first repository.</p>
-
-<p>Once you have made an account on Gitlab (or another service), you have a username and password. When you want to do a lot of work with Git, you do not want to enter your password every time (this is annoying) and you also do not want to save your password in clear with your files (this is insecure). Instead, you should set up a key pair to use with the service. You need to do this once per computer you use.</p>
-
-<p>Let’s go through the process.</p>
-
-<ul>
-  <li>If you are using fork, open it and then choose <code class="language-plaintext highlighter-rouge">File / Init new repository</code> and make a folder somewhere. Once you have made a folder, the <code class="language-plaintext highlighter-rouge">Console</code> button on the toolbar will become active (you may have to make the window wider to see this) - click the <code class="language-plaintext highlighter-rouge">Console</code> button to open the command line. (You can delete the folder again when you are done.)</li>
-  <li>If you are not using fork, open the Git command line. On Mac or Linux this just means open a terminal; on Windows but not using fork, open your start menu and look for an entry called <code class="language-plaintext highlighter-rouge">Git Bash</code>.</li>
-  <li>Type the following command on the command line: <code class="language-plaintext highlighter-rouge">ssh-keygen -t ed25519</code>.</li>
-  <li>When it asks where to save the key, just press Enter. Do the same when it asks for a passphrase (you don’t need one), and again when it asks for a repeat.</li>
-  <li>The output will contain a line starting <code class="language-plaintext highlighter-rouge">Your public key has been saved to:</code>. After this comes the path to the public key. Type <code class="language-plaintext highlighter-rouge">cat</code> on your terminal, followed by a space, followed by this path. Then press <code class="language-plaintext highlighter-rouge">Enter</code>. (You can usually select the path with the mouse in the terminal, then right-click and choose “copy” in the menu and right-click again to “paste”. The key combination Control-C won’t work in a terminal because that cancels the current command.)</li>
-  <li>The cat command prints the contents of a file. Your public key should look like this: <code class="language-plaintext highlighter-rouge">ssh-ed25519 (lots of random stuff) (username@machine)</code>. It might go over more than one line of your terminal. Copy the key by selecting it in your terminal with the mouse, right-clicking and choosing “copy”. (On a Mac, the copy command will be in the menu at the top of the screen somewhere.)</li>
-  <li>Open gitlab, click on your avatar (that button in the top right corner) and choose <code class="language-plaintext highlighter-rouge">Settings</code>, then choose <code class="language-plaintext highlighter-rouge">SSH Keys</code> in the menu on the left.</li>
-  <li>Paste your key in the box on the page (that says “typically starts with ssh-ed25519 …”). Give it a title like “My Laptop” and press <code class="language-plaintext highlighter-rouge">Add key</code>.</li>
-</ul>
-
-<p>From now on, this particular machine can log in to your gitlab account automatically. You need to repeat these steps once per computer that you use and you can remove keys in gitlab if you lose your laptop, for example.</p>
-
-<p>You don’t need to configure Fork separately for this - Fork calls Git behind the scenes, and Git looks in the place where ssh-keygen normally saves the keys.</p>
-
-<h2 id="theory-commits">Theory: commits</h2>
-
-<p>You are writing some code, and you have some files:</p>
-
-<p><img src="/assets/images/contrib/tutorials/git-assets/files.png" alt="some files" /></p>
-
-<p>The code you’re currently working on is called your <strong>working copy</strong> in git-speak.</p>
-
-<p>I will indicate the working copy with a folder symbol like this from now on:</p>
-
-<p><img src="/assets/images/contrib/tutorials/git-assets/folder.png" alt="folder" /></p>
-
-<p><em>This image and others in this tutorial are taken from the gnome-colors-common icon set which is released under the GNU LGPL version 2.</em></p>
-
-<p>A repository is a database with the complete history of your code. I represent it with this symbol:</p>
-
-<p><img src="/assets/images/contrib/tutorials/git-assets/repository.png" alt="repository" /></p>
-
-<p>You work on your working copy with whatever tools you like, but you only talk to the repository through Git (and Fork, if you’re using it).</p>
-
-<p>Copying code from the working copy to the repository is called a <strong>commit</strong>. You will do this a lot.
-Instead of creating a ZIP file of what you’ve been working on and e-mailing it to the rest of your team, you make a commit.
-Instead of copying the files to a USB stick to take them home, you make a commit.</p>
-
-<p>The basic workflow is this: write or edit some code, commit to the repository, repeat. Your repository, or at least mine for the CNuT notes and exercises, then looks like this:</p>
-
-<p><img src="/assets/images/contrib/tutorials/git-assets/commits.png" alt="some commits" /></p>
-
-<p>Each dot is a single commit, with the newest one on top. Git does not of course store a copy of your whole project for each commit; instead it only records the changes since the last commit so it doesn’t waste space.</p>
-
-<p>Sometimes you want to copy code from the repository back to your working copy, for example to undo a change that broke something. This is called a <strong>checkout</strong>.</p>
-
-<p>Summary so far:</p>
-
-<p><img src="/assets/images/contrib/tutorials/git-assets/commit-checkout.png" alt="commit and checkout" /></p>
-
-<h2 id="practice-make-a-repository-and-a-commit">Practice: make a repository and a commit</h2>
-
-<p>Normally it’s quickest to create an empty repository on an online service and then <strong>clone</strong> it to your own computer.</p>
-
-<ul>
-  <li>On gitlab, sign in and then choose <code class="language-plaintext highlighter-rouge">New Project</code> in the top right corner (green button).</li>
-  <li>Give the project a name and tick the <code class="language-plaintext highlighter-rouge">Initialise repository with a README</code> box. Press <code class="language-plaintext highlighter-rouge">Create project</code>.</li>
-  <li>This gets you to your project page, which shows the URL of your project (in a box just after the <code class="language-plaintext highlighter-rouge">SSH</code> button). The project URL is of the form <code class="language-plaintext highlighter-rouge">git@gitlab.com:USERNAME/PROJECTNAME.git</code> where <code class="language-plaintext highlighter-rouge">USERNAME</code> is your Gitlab username and <code class="language-plaintext highlighter-rouge">PROJECTNAME</code> is the project’s name with possibly small changes made to give a legal URL, like replacing spaces by dashes.</li>
-  <li>Open Fork and choose <code class="language-plaintext highlighter-rouge">File / Clone ...</code>. Put the project URL in the first box, choose a folder for the working copy and give it a name (this will become the name of the new folder containing your working copy).</li>
-</ul>
-
-<p>You have now got a working copy and a local copy of the repository in a folder on your disk (press the “curly arrow” <code class="language-plaintext highlighter-rouge">Open in</code> buttin in Fork’s toolbar to open the folder).
-Your repository, which actually lives in a folder called <code class="language-plaintext highlighter-rouge">.git</code> inside the working copy folder, currently has one commit called <code class="language-plaintext highlighter-rouge">initial commit</code> with the readme file.</p>
-
-<p><img src="/assets/images/contrib/tutorials/git-assets/fork-clone.png" alt="a new repository" /></p>
-
-<p>At the top you have the menu and toolbar. <code class="language-plaintext highlighter-rouge">Repository / Open in Explorer</code>, the shortcut <code class="language-plaintext highlighter-rouge">Ctrl+Alt+O</code> or, if you make the window wider, the “curly arrow” that appears in the toolbar opens a folder window for your working copy. Below the toolbar is the tab bar, with one tab per working copy - I currently have five tabs open.</p>
-
-<p>On the left you have a list of various things - the top item “Changes” shows you if there are any changes in your working copy that are not in the repository yet. To the right is the main window which varies depending in what you select in the list to the left. Currently it is showing the details of the initial commit.</p>
-
-<p>Here are some alternative ways to create repositories:</p>
-
-<ul>
-  <li>If you want to create a repository on your own computer without using an online service, you need to <strong>init</strong> the repository in git-speak. In fork, you do this with <code class="language-plaintext highlighter-rouge">File / init new repository ...</code>.</li>
-  <li>On the command line, to init a repository you create an empty folder, <code class="language-plaintext highlighter-rouge">cd</code> into it and type <code class="language-plaintext highlighter-rouge">git init</code>.</li>
-  <li>To clone a repository on the command line, you type <code class="language-plaintext highlighter-rouge">git clone URL</code> where the URL is something like <code class="language-plaintext highlighter-rouge">git@gitlab.com:USERNAME/PROJECTNAME.git</code>. This creates a folder named after the project name, which you can safely rename or move around if you want to.</li>
-  <li>Each repository on github/gitlab/bitbucket actually has two URLs. The first starts with <code class="language-plaintext highlighter-rouge">git@</code> and uses a protocol called “secure shell” (SSH) internally, which works with public keys, so cloning your repository this way will only work after you have set up a key as described above. The second URL starts with <code class="language-plaintext highlighter-rouge">https://</code> and this is a regular web connection, which you can use without keys. If you click the <code class="language-plaintext highlighter-rouge">clone</code> button in gitlab, it will show you both URLs. If you’re cloning a public project, you can use the https one without any authentication at all; if you use https for a private repository that you have access too then git or fork will pop up a window asking for a username and password. <em>Using SSH with public keys is the recommended way to use Git securely.</em></li>
-</ul>
-
-<p>Let’s make a commit:</p>
-
-<ul>
-  <li>Open the working copy (<code class="language-plaintext highlighter-rouge">Ctrl+Alt+O</code>) and make a change, for example add a new file or edit the README.</li>
-  <li>Switch back to fork.</li>
-</ul>
-
-<p>Fork now shows <code class="language-plaintext highlighter-rouge">Changes (1)</code> in the left bar to show that something has changed in the working copy. Click on that to see the change:</p>
-
-<p><img src="/assets/images/contrib/tutorials/git-assets/fork-stage.png" alt="a changed file" /></p>
-
-<p>Under <code class="language-plaintext highlighter-rouge">Unstaged Changes</code> you see all the files that have changed since your last commit. Selecting one of these files shows you the file on the right, with lines that you added in green and lines that you deleted in red.</p>
-
-<ul>
-  <li>Select the file you added and press <code class="language-plaintext highlighter-rouge">Stage</code>. It moves to the <code class="language-plaintext highlighter-rouge">Staged Changes</code> section (if you had multiple files, you could click the first one and shift-click that last one to select them all, then stage them all at once).</li>
-  <li>In the bottom right corner is a button that now reads <code class="language-plaintext highlighter-rouge">Commit 1 File</code>, but it is currently turned off because a commit must have a message describing it. Enter a message in the box labelled <code class="language-plaintext highlighter-rouge">Enter commit subject</code> immediately above, then press the button.</li>
-  <li>Click on the <code class="language-plaintext highlighter-rouge">All Commits</code> item in the list on the left to see your first successful commit:</li>
-</ul>
-
-<p><img src="/assets/images/contrib/tutorials/git-assets/fork-commit.png" alt="a committed file" /></p>
-
-<p>When you select a commit in the list, the bottom part of the window tells you the commit details. Each commit has a unique hash - a long random number that you need in some cases to identify a particular commit (if you’re using the command line). Below that you see the commit message (“Added text to readme” in my case) and the file(s) affected in this commit.
-If you click on the triangle next to a file in the commit screen, it expands to show you the changes in this commit. This feature is useful for browsing the history of your code to see what line(s) relate to what commits.</p>
-
-<p>In the top window, notice that the latest commit (on top) has something called a <strong>tag</strong> attached that says <code class="language-plaintext highlighter-rouge">master</code>, whereas the one below has a tag <code class="language-plaintext highlighter-rouge">origin/master</code>.</p>
-
-<p>On the command line, the process for committing goes like this:</p>
-
-<ul>
-  <li>Use <code class="language-plaintext highlighter-rouge">git status</code> to show what files have changed.</li>
-  <li>Use <code class="language-plaintext highlighter-rouge">git add FILENAME</code> to add a file to the next commit. You can do <code class="language-plaintext highlighter-rouge">git add .</code> to select all files in the current folder that have changed since the last commit.</li>
-  <li><code class="language-plaintext highlighter-rouge">git commit -m MESSAGE</code> does the commit. If you leave off the <code class="language-plaintext highlighter-rouge">-m</code> flag, git opens your default text editor and you can type the message in there.</li>
-</ul>
-
-<h2 id="general-commit-notes">General commit notes</h2>
-
-<p>Try and make commits</p>
-
-<ul>
-  <li>small</li>
-  <li>frequent</li>
-  <li>with a descriptive message</li>
-</ul>
-
-<p>Here’s the example from my CNuT lecture notes again (which you’ll be able to look at in more detail in a moment):</p>
-
-<p><img src="/assets/images/contrib/tutorials/git-assets/commits.png" alt="some commits" /></p>
-
-<p>This can be really useful later on to search for “how did I do that again?”. Imagine you at some point add a “reset” button to a form on a web application you’re making, then later on you have another form where you also need a reset button. If you can search for commits with the word “reset” in the description (with the magnifying glass icon to the very right of the toolbar) and find the last time you did this, then you can quickly apply the same technique to the new form you’re making.</p>
-
-<h2 id="theory-working-with-remote-repositories">Theory: working with remote repositories</h2>
-
-<p>So far, you have a folder with your <strong>working copy</strong> (currently with one file README.md), a repository (in the subfolder <code class="language-plaintext highlighter-rouge">.git</code>) called the <strong>local repository</strong> and another repository hosted on gitlab called the <strong>remote repository</strong>.</p>
-
-<p>When you make a commit, you copy files from the working copy to the local repository. This neither counts as a back-up, nor does it help you share code with others.</p>
-
-<p>To work with the remote repository, we need to introduce to new terms:</p>
-
-<p><img src="/assets/images/contrib/tutorials/git-assets/remotes-with-pull.png" alt="push and fetch" /></p>
-
-<ul>
-  <li>Copying from the local repository to a remote repository is called a <strong>push</strong>.</li>
-  <li>Copying from the remote repository to the local one is called a <strong>fetch</strong>.</li>
-  <li>A <strong>pull</strong> first does a fetch, then a checkout which copies from the local repository into the working copy if there are no conflicts.</li>
-</ul>
-
-<p>The idea is that the local and remote repositories are always kept in sync. Fetching is a safe operation in that it cannot cause conflicts, even if someone else has changed code in the meantime. Pulling is not safe in this sense, so the recommended workflow for starting out with Git in “single-player mode” is:</p>
-
-<ol>
-  <li>Before you start work each day, do a <strong>fetch</strong>. If you’ve done work somewhere else (e.g. you work from both your home PC and the lab machines) then this will get your last changes.</li>
-  <li>If there were no changes, it’s safe to <strong>pull</strong> which makes sure everything is up to date. If there were any changes, deal with that now (details on this later on).</li>
-  <li>Do your work. Remember to make small, frequent commits.</li>
-  <li>Before logging off, <strong>commit</strong> your work, then <strong>push</strong> to the server.</li>
-</ol>
-
-<p>As long as you always fetch before you start working and commit+push before you finish, you will never have a Git conflict as long as not more than one person is working on the same project at a time. For teamwork, see later in this tutorial.</p>
-
-<h2 id="practice-fetch-and-push-to-the-server">Practice: fetch and push to the server</h2>
-
-<p>If you’ve followed the tutorial so far your window will have a part like this:</p>
-
-<p><img src="/assets/images/contrib/tutorials/git-assets/fetched.png" alt="one commit to push" /></p>
-
-<p>Under <code class="language-plaintext highlighter-rouge">Branches</code>, you currently have one default branch called <code class="language-plaintext highlighter-rouge">master</code> which you can interpret as “the latest commit”. You can see on the right that the <code class="language-plaintext highlighter-rouge">master</code> tag is on the latest commit.
-Under <code class="language-plaintext highlighter-rouge">Remotes</code>, you can see one entry with the default name <code class="language-plaintext highlighter-rouge">origin</code> - this is the repository on gitlab. On the right, you can see that the <code class="language-plaintext highlighter-rouge">origin/master</code> tag is still on the initial commit: the remote is one commit behind the local repository. This is also shown after the master branch entry with the one followed by an arrow pointing up (pronounced: “1 up”). If you saw for example “3 down” it would mean that the remote is 3 commits ahead, and if you see both for example “1 up 2 down” then it means that you have made commits to the local repository and someone else has meanwhile made commits to the remote one, a situation that we’ll deal with later on.</p>
-
-<ul>
-  <li>Right-click <code class="language-plaintext highlighter-rouge">origin</code> and choose <code class="language-plaintext highlighter-rouge">Fetch 'origin'</code>, press <code class="language-plaintext highlighter-rouge">fetch</code> in the dialog box. If anything has happened on the origin in the meantime, you will know this now.</li>
-  <li>As long as you only have an up arrow and no down arrow, it’s safe to push: right-click <code class="language-plaintext highlighter-rouge">master</code> and choose <code class="language-plaintext highlighter-rouge">Push 'master' to 'origin'</code>. Accept in the dialog box.</li>
-  <li>If you wanted to pull, click the triangle next to <code class="language-plaintext highlighter-rouge">origin</code> to show its <code class="language-plaintext highlighter-rouge">master</code> branch, right-click that and choose <code class="language-plaintext highlighter-rouge">Pull 'origin/master' into 'master'</code>.</li>
-</ul>
-
-<p>You can also use the fetch, pull and push options in the <code class="language-plaintext highlighter-rouge">Repository</code> menu, then select the branches you want in the dialog box that appears.</p>
-
-<p>On the command line, the commands are <code class="language-plaintext highlighter-rouge">git fetch</code>, <code class="language-plaintext highlighter-rouge">git push</code> and <code class="language-plaintext highlighter-rouge">git pull</code>.
-If Git isn’t sure which branch or remote you mean, it will give you a message telling you how to select a default one. If you want to manually select a different one, you can do <code class="language-plaintext highlighter-rouge">git fetch origin/master</code> or <code class="language-plaintext highlighter-rouge">git pull origin/master master</code> to tell Git exactly which branches you mean.</p>
-
-<h2 id="practice-have-a-look-at-the-cnut-repository">Practice: have a look at the CNuT repository</h2>
-
-<p>You can clone other people’s repositories if they have made them public. Select <code class="language-plaintext highlighter-rouge">File / Clone</code> in the Fork menu and put the following in the URL box: <code class="language-plaintext highlighter-rouge">https://gitlab.com/david-bristol/coconut.git</code>. Choose a name and folder anywhere you like. This will get you the sources and PDFs of all the material for the CNuT unit, as well as the complete history of how and when I developed it. Have a look at some of my commits.</p>
-
-<p>You will be able to make changes to your working copy and your local repository, but you will not of course be able to push changes back to my Gitlab repository.</p>
-
-<p><em>Note that the URL starts <code class="language-plaintext highlighter-rouge">https</code> instead of <code class="language-plaintext highlighter-rouge">git</code>. When you clone someone else’s repository, this is fine as it means that you do not have to authenticate yourself or even have an account with the service. For your own repositories, although you could use https and type your username/password each time, it is more secure (and less annoying) to use the git URL scheme, which uses keys instead of passwords. See “Security” earlier on for details.</em></p>
-
-<h2 id="teamwork-conflicts-and-merging">Teamwork, conflicts and merging</h2>
-
-<p>It can happen to the best of us: you’re working together on a project and two people edit their own copies of <code class="language-plaintext highlighter-rouge">main.c</code> at the same time. When it’s time to combine everyone’s work for the day, you risk one person’s changes overwriting the other person’s changes. Git calls this situation a <strong>conflict</strong>, and one of the reasons to use tools like Git in the first place is to help you solve code conflicts. (Git cannot unfortunately solve personal conflicts for you.)</p>
-
-<p>Git solves conflicts by manipulating time. Instead of a time-line where one event happens after another, Git has a time-graph where different timelines can split and join again.</p>
-
-<h3 id="conflicts-that-are-not-real">Conflicts that are not real</h3>
-
-<p>First, let’s imagine the following situation: two people are working on their own working copies of the same repository. Person one adds a file <code class="language-plaintext highlighter-rouge">A.txt</code> and commits it, person two adds a file <code class="language-plaintext highlighter-rouge">B.txt</code> and commits it. So far, everyone has just committed to their local repository and no-one is aware of the others’ changes yet.</p>
-
-<p>Person one pushes her changes to Gitlab (a.k.a. “origin”). So far so good - Gitlab doesn’t know about the other change yet.</p>
-
-<p>But when person two tries to push, they’ll get an error message:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>error: failed to push some refs to 'git@gitlab.com:david-bristol/my-project.git'
+    <section class="page-section">
+      <article class="article">
+        <header class="blog-post__header">
+          <h1 class="blog-post__title">Introduction to Git</h1>
+          <div
+            class="blog-post__meta"
+            itemscope
+            itemtype="http://schema.org/Person"
+          >
+            <span itemprop="author">
+              <span itemprop="url"></span>
+
+              <span itemprop="name">David Bernhard</span>
+            </span>
+            on
+
+            <time datetime="2019-08-29T10:00:00+01:00">Aug 29, 2019</time>
+          </div>
+        </header>
+        <div class="blog-post__body">
+          <p>
+            Git is a way to store, back up and organise your code. It is one of
+            those things that you wish you’d been taught in your first term if
+            you discover it later on.
+          </p>
+
+          <h2 id="why-git">Why Git?</h2>
+
+          <p>
+            You are working on a software project. As your project grows, and
+            you work on it together with other people, you will need some way
+            of:
+          </p>
+
+          <ul>
+            <li>Making backups of your code.</li>
+            <li>Trying out changes, and undoing them if they don’t work.</li>
+            <li>Sharing your code with other team members.</li>
+            <li>
+              Finding where you implemented a particular feature, so you can
+              re-use it somewhere else.
+            </li>
+            <li>
+              Making different versions of your code, e.g. “development version”
+              and “demo version for presentation”.
+            </li>
+          </ul>
+
+          <p>
+            Git can do all these things. It takes a bit of getting used to, but
+            it pays off to learn the basics of Git once and then use it again
+            and again. Some students even keep a git repository for every unit
+            they take so they can keep track of all their work.
+          </p>
+
+          <p>
+            Git is not the only system that can do this, but it is the most
+            popular one by far and knowing Git is pretty much a requirement for
+            lots of technical job interviews as a developer. So you might as
+            well learn Git.
+          </p>
+
+          <p>
+            On the other hand, Git’s manual is full of technical terms, some of
+            which the authors made up themselves, and there are different ways
+            of using git (called “workflows”) that have manuals of their own.
+            The aim of this tutorial is to get you to the point where you can
+            use Git productively, and understand some of these manuals if you
+            need to.
+          </p>
+
+          <p>There are three ways to use Git:</p>
+
+          <ul>
+            <li>
+              Git itself is a set of command-line tools. You can use these
+              directly.
+            </li>
+            <li>
+              There are a number of graphical user interfaces on top of Git; in
+              this tutorial I’ll use one called Fork.
+            </li>
+            <li>
+              If you are using an integrated development environment such as
+              Netbeans, Eclipse, IntelliJ, Visual Studio (Code) etc. then these
+              have a Git feature built in.
+            </li>
+          </ul>
+
+          <p>
+            All three ways are different interfaces on the same set of Git
+            “verbs” (or commands) so this tutorial will focus on these, but I
+            will mention the free graphical client
+            <a href="https://git-fork.com">fork</a> in this tutorial as that’s
+            what I use myself.
+          </p>
+
+          <p>
+            Please do not let anyone tell you that “real programmers” only use
+            the command line. It’s perfectly acceptable to use a graphical
+            client if, like me, you’re more productive that way.
+          </p>
+
+          <h2 id="installing-git-and-fork">Installing Git and Fork</h2>
+
+          <p>
+            On the lab machines, Git is installed already; unfortunately Fork
+            doesn’t work on linux. On your own machine, type
+            <code class="language-plaintext highlighter-rouge">git</code> in a
+            terminal and if you’re lucky you’ll get the help text, showing it’s
+            installed already. If you need to install it yourself:
+          </p>
+
+          <p>
+            On Windows, if you want to use the fork client then download and
+            install it from <a href="https://git-fork.com">git-fork.com</a>.
+            Fork comes with the command-line tool and there’s a button in the
+            window to open a command line if you need it. If you want the
+            command-line version of Git on its own then download and install
+            <a href="https://git-scm.com/downloads">Git for Windows</a>.
+          </p>
+
+          <p>
+            On Mac, you first want to install
+            <a href="https://brew.sh/">Homebrew</a> by opening a terminal and
+            following the instructions on the page. Homebrew is a package
+            manager, that is a piece of software that allows you to install
+            other software. This is particularly useful for developers. Once you
+            have installed Homebrew, open a new terminal and type
+            <code class="language-plaintext highlighter-rouge"
+              >brew install git</code
+            >
+            and press ENTER. Then you can install fork from
+            <a href="https://git-fork.com">git-fork.com</a>.
+          </p>
+
+          <p>
+            On Linux, you will not be able to install Fork, but you can install
+            Git with the package manager provided with your operating system:
+            <code class="language-plaintext highlighter-rouge"
+              >sudo apt install git</code
+            >
+            on Debian-based systems (including Mint and Ubintu) and
+            <code class="language-plaintext highlighter-rouge"
+              >sudo yum install git</code
+            >
+            on Red Hat-based systems.
+          </p>
+
+          <p>
+            <em
+              >When you install Fork, it asks for a username and e-mail address.
+              This is a feature of Git, not of Fork itself. It is not to spam
+              you - each “commit” in Git is linked to an author so you can tell
+              who last changed a file, and the developers decided to use
+              name+email for this. You can just put “-“ as your e-mail address
+              if you want and Fork will not complain. It doesn’t want to e-mail
+              you, after all.</em
+            >
+          </p>
+
+          <h2 id="online-services">Online services</h2>
+
+          <p>
+            Git itself is a command-line tool that lets you manage
+            <strong>repositories</strong>, which are like folders that track the
+            complete history of everything that has ever happened in them. You
+            always have a repository on your own machine, and you can have
+            further repositories stored on a server.
+          </p>
+
+          <p>
+            For a typical project you will want a repository on a server, both
+            as a backup of your code and as a way to share your code with others
+            if it’s a team project.
+          </p>
+
+          <p>
+            There are three big online services that offer you free hosting of
+            your own repositories, within reasonable limits:
+          </p>
+
+          <ul>
+            <li>
+              <a href="https://github.com/">Github</a> is the biggest online Git
+              service. Owned by Microsoft, it also offers a lot of extra
+              features like hosting your own static website (the CSS website
+              iteslf is hosted on Github).
+            </li>
+            <li>
+              <a href="https://gitlab.com/">Gitlab</a> is an alternative to
+              Github with boradly similar functionality - it also allows you to
+              host websites. Gitlab also lets you download a copy of its own
+              software if you want to run your own Git service.
+            </li>
+            <li>
+              <a href="https://bitbucket.org/">BitBucket</a> is a third service
+              owned by Atlassian.
+            </li>
+          </ul>
+
+          <p>
+            All three services currently offer you an unlimited number (within
+            reason) of private repositories, where only you or people that you
+            allow can see the code. You can also make public repositories, for
+            example for open-source projects or as part of your portfolio when
+            you’re looking for jobs.
+          </p>
+
+          <p>
+            <strong
+              >All coursework that you have submitted for credit, or are going
+              to submit for credit, must be in a private repository! If you make
+              it public and someone else submits a copy of your code, you are
+              both in trouble for plagiarism.</strong
+            >
+          </p>
+
+          <p>
+            For the steps in this tutorial, and for hosting your first few
+            projects, all three services are practically equivalent, and it’s
+            easy enough to move a repository from one service to another later
+            on so it does not matter which one you sign up with. I will be using
+            gitlab as an example in this tutorial as it’s my personal favourite
+            (back when I signed up, github used to nag you to add a credit card,
+            gitlab didn’t).
+          </p>
+
+          <p>
+            To sign up with gitlab, go to
+            <a href="https://gitlab.com/users/sign_in#register-pane"
+              >the signup page</a
+            >
+            and create an account. In my experience, it’s safe to give your
+            university e-mail: they don’t spam you if you don’t tick the
+            newsletter box.
+          </p>
+
+          <p>
+            <strong
+              >Do not re-use your university password for gitlab or anything
+              else.</strong
+            >
+          </p>
+
+          <h2 id="security-use-keys-instead-of-passwords">
+            Security: use keys instead of passwords
+          </h2>
+
+          <p>
+            Before you can get started with gitlab or one of the other services,
+            a quick word about security. You will only need to follow these
+            steps once per computer before you set up your first repository.
+          </p>
+
+          <p>
+            Once you have made an account on Gitlab (or another service), you
+            have a username and password. When you want to do a lot of work with
+            Git, you do not want to enter your password every time (this is
+            annoying) and you also do not want to save your password in clear
+            with your files (this is insecure). Instead, you should set up a key
+            pair to use with the service. You need to do this once per computer
+            you use.
+          </p>
+
+          <p>Let’s go through the process.</p>
+
+          <ul>
+            <li>
+              If you are using fork, open it and then choose
+              <code class="language-plaintext highlighter-rouge"
+                >File / Init new repository</code
+              >
+              and make a folder somewhere. Once you have made a folder, the
+              <code class="language-plaintext highlighter-rouge">Console</code>
+              button on the toolbar will become active (you may have to make the
+              window wider to see this) - click the
+              <code class="language-plaintext highlighter-rouge">Console</code>
+              button to open the command line. (You can delete the folder again
+              when you are done.)
+            </li>
+            <li>
+              If you are not using fork, open the Git command line. On Mac or
+              Linux this just means open a terminal; on Windows but not using
+              fork, open your start menu and look for an entry called
+              <code class="language-plaintext highlighter-rouge">Git Bash</code
+              >.
+            </li>
+            <li>
+              Type the following command on the command line:
+              <code class="language-plaintext highlighter-rouge"
+                >ssh-keygen -t ed25519</code
+              >.
+            </li>
+            <li>
+              When it asks where to save the key, just press Enter. Do the same
+              when it asks for a passphrase (you don’t need one), and again when
+              it asks for a repeat.
+            </li>
+            <li>
+              The output will contain a line starting
+              <code class="language-plaintext highlighter-rouge"
+                >Your public key has been saved to:</code
+              >. After this comes the path to the public key. Type
+              <code class="language-plaintext highlighter-rouge">cat</code> on
+              your terminal, followed by a space, followed by this path. Then
+              press
+              <code class="language-plaintext highlighter-rouge">Enter</code>.
+              (You can usually select the path with the mouse in the terminal,
+              then right-click and choose “copy” in the menu and right-click
+              again to “paste”. The key combination Control-C won’t work in a
+              terminal because that cancels the current command.)
+            </li>
+            <li>
+              The cat command prints the contents of a file. Your public key
+              should look like this:
+              <code class="language-plaintext highlighter-rouge"
+                >ssh-ed25519 (lots of random stuff) (username@machine)</code
+              >. It might go over more than one line of your terminal. Copy the
+              key by selecting it in your terminal with the mouse,
+              right-clicking and choosing “copy”. (On a Mac, the copy command
+              will be in the menu at the top of the screen somewhere.)
+            </li>
+            <li>
+              Open gitlab, click on your avatar (that button in the top right
+              corner) and choose
+              <code class="language-plaintext highlighter-rouge">Settings</code
+              >, then choose
+              <code class="language-plaintext highlighter-rouge">SSH Keys</code>
+              in the menu on the left.
+            </li>
+            <li>
+              Paste your key in the box on the page (that says “typically starts
+              with ssh-ed25519 …”). Give it a title like “My Laptop” and press
+              <code class="language-plaintext highlighter-rouge">Add key</code>.
+            </li>
+          </ul>
+
+          <p>
+            From now on, this particular machine can log in to your gitlab
+            account automatically. You need to repeat these steps once per
+            computer that you use and you can remove keys in gitlab if you lose
+            your laptop, for example.
+          </p>
+
+          <p>
+            You don’t need to configure Fork separately for this - Fork calls
+            Git behind the scenes, and Git looks in the place where ssh-keygen
+            normally saves the keys.
+          </p>
+
+          <h2 id="theory-commits">Theory: commits</h2>
+
+          <p>You are writing some code, and you have some files:</p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/files.png"
+              alt="some files"
+            />
+          </p>
+
+          <p>
+            The code you’re currently working on is called your
+            <strong>working copy</strong> in git-speak.
+          </p>
+
+          <p>
+            I will indicate the working copy with a folder symbol like this from
+            now on:
+          </p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/folder.png"
+              alt="folder"
+            />
+          </p>
+
+          <p>
+            <em
+              >This image and others in this tutorial are taken from the
+              gnome-colors-common icon set which is released under the GNU LGPL
+              version 2.</em
+            >
+          </p>
+
+          <p>
+            A repository is a database with the complete history of your code. I
+            represent it with this symbol:
+          </p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/repository.png"
+              alt="repository"
+            />
+          </p>
+
+          <p>
+            You work on your working copy with whatever tools you like, but you
+            only talk to the repository through Git (and Fork, if you’re using
+            it).
+          </p>
+
+          <p>
+            Copying code from the working copy to the repository is called a
+            <strong>commit</strong>. You will do this a lot. Instead of creating
+            a ZIP file of what you’ve been working on and e-mailing it to the
+            rest of your team, you make a commit. Instead of copying the files
+            to a USB stick to take them home, you make a commit.
+          </p>
+
+          <p>
+            The basic workflow is this: write or edit some code, commit to the
+            repository, repeat. Your repository, or at least mine for the CNuT
+            notes and exercises, then looks like this:
+          </p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/commits.png"
+              alt="some commits"
+            />
+          </p>
+
+          <p>
+            Each dot is a single commit, with the newest one on top. Git does
+            not of course store a copy of your whole project for each commit;
+            instead it only records the changes since the last commit so it
+            doesn’t waste space.
+          </p>
+
+          <p>
+            Sometimes you want to copy code from the repository back to your
+            working copy, for example to undo a change that broke something.
+            This is called a <strong>checkout</strong>.
+          </p>
+
+          <p>Summary so far:</p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/commit-checkout.png"
+              alt="commit and checkout"
+            />
+          </p>
+
+          <h2 id="practice-make-a-repository-and-a-commit">
+            Practice: make a repository and a commit
+          </h2>
+
+          <p>
+            Normally it’s quickest to create an empty repository on an online
+            service and then <strong>clone</strong> it to your own computer.
+          </p>
+
+          <ul>
+            <li>
+              On gitlab, sign in and then choose
+              <code class="language-plaintext highlighter-rouge"
+                >New Project</code
+              >
+              in the top right corner (green button).
+            </li>
+            <li>
+              Give the project a name and tick the
+              <code class="language-plaintext highlighter-rouge"
+                >Initialise repository with a README</code
+              >
+              box. Press
+              <code class="language-plaintext highlighter-rouge"
+                >Create project</code
+              >.
+            </li>
+            <li>
+              This gets you to your project page, which shows the URL of your
+              project (in a box just after the
+              <code class="language-plaintext highlighter-rouge">SSH</code>
+              button). The project URL is of the form
+              <code class="language-plaintext highlighter-rouge"
+                >git@gitlab.com:USERNAME/PROJECTNAME.git</code
+              >
+              where
+              <code class="language-plaintext highlighter-rouge">USERNAME</code>
+              is your Gitlab username and
+              <code class="language-plaintext highlighter-rouge"
+                >PROJECTNAME</code
+              >
+              is the project’s name with possibly small changes made to give a
+              legal URL, like replacing spaces by dashes.
+            </li>
+            <li>
+              Open Fork and choose
+              <code class="language-plaintext highlighter-rouge"
+                >File / Clone ...</code
+              >. Put the project URL in the first box, choose a folder for the
+              working copy and give it a name (this will become the name of the
+              new folder containing your working copy).
+            </li>
+          </ul>
+
+          <p>
+            You have now got a working copy and a local copy of the repository
+            in a folder on your disk (press the “curly arrow”
+            <code class="language-plaintext highlighter-rouge">Open in</code>
+            buttin in Fork’s toolbar to open the folder). Your repository, which
+            actually lives in a folder called
+            <code class="language-plaintext highlighter-rouge">.git</code>
+            inside the working copy folder, currently has one commit called
+            <code class="language-plaintext highlighter-rouge"
+              >initial commit</code
+            >
+            with the readme file.
+          </p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/fork-clone.png"
+              alt="a new repository"
+            />
+          </p>
+
+          <p>
+            At the top you have the menu and toolbar.
+            <code class="language-plaintext highlighter-rouge"
+              >Repository / Open in Explorer</code
+            >, the shortcut
+            <code class="language-plaintext highlighter-rouge">Ctrl+Alt+O</code>
+            or, if you make the window wider, the “curly arrow” that appears in
+            the toolbar opens a folder window for your working copy. Below the
+            toolbar is the tab bar, with one tab per working copy - I currently
+            have five tabs open.
+          </p>
+
+          <p>
+            On the left you have a list of various things - the top item
+            “Changes” shows you if there are any changes in your working copy
+            that are not in the repository yet. To the right is the main window
+            which varies depending in what you select in the list to the left.
+            Currently it is showing the details of the initial commit.
+          </p>
+
+          <p>Here are some alternative ways to create repositories:</p>
+
+          <ul>
+            <li>
+              If you want to create a repository on your own computer without
+              using an online service, you need to <strong>init</strong> the
+              repository in git-speak. In fork, you do this with
+              <code class="language-plaintext highlighter-rouge"
+                >File / init new repository ...</code
+              >.
+            </li>
+            <li>
+              On the command line, to init a repository you create an empty
+              folder,
+              <code class="language-plaintext highlighter-rouge">cd</code> into
+              it and type
+              <code class="language-plaintext highlighter-rouge">git init</code
+              >.
+            </li>
+            <li>
+              To clone a repository on the command line, you type
+              <code class="language-plaintext highlighter-rouge"
+                >git clone URL</code
+              >
+              where the URL is something like
+              <code class="language-plaintext highlighter-rouge"
+                >git@gitlab.com:USERNAME/PROJECTNAME.git</code
+              >. This creates a folder named after the project name, which you
+              can safely rename or move around if you want to.
+            </li>
+            <li>
+              Each repository on github/gitlab/bitbucket actually has two URLs.
+              The first starts with
+              <code class="language-plaintext highlighter-rouge">git@</code> and
+              uses a protocol called “secure shell” (SSH) internally, which
+              works with public keys, so cloning your repository this way will
+              only work after you have set up a key as described above. The
+              second URL starts with
+              <code class="language-plaintext highlighter-rouge">https://</code>
+              and this is a regular web connection, which you can use without
+              keys. If you click the
+              <code class="language-plaintext highlighter-rouge">clone</code>
+              button in gitlab, it will show you both URLs. If you’re cloning a
+              public project, you can use the https one without any
+              authentication at all; if you use https for a private repository
+              that you have access too then git or fork will pop up a window
+              asking for a username and password.
+              <em
+                >Using SSH with public keys is the recommended way to use Git
+                securely.</em
+              >
+            </li>
+          </ul>
+
+          <p>Let’s make a commit:</p>
+
+          <ul>
+            <li>
+              Open the working copy (<code
+                class="language-plaintext highlighter-rouge"
+                >Ctrl+Alt+O</code
+              >) and make a change, for example add a new file or edit the
+              README.
+            </li>
+            <li>Switch back to fork.</li>
+          </ul>
+
+          <p>
+            Fork now shows
+            <code class="language-plaintext highlighter-rouge"
+              >Changes (1)</code
+            >
+            in the left bar to show that something has changed in the working
+            copy. Click on that to see the change:
+          </p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/fork-stage.png"
+              alt="a changed file"
+            />
+          </p>
+
+          <p>
+            Under
+            <code class="language-plaintext highlighter-rouge"
+              >Unstaged Changes</code
+            >
+            you see all the files that have changed since your last commit.
+            Selecting one of these files shows you the file on the right, with
+            lines that you added in green and lines that you deleted in red.
+          </p>
+
+          <ul>
+            <li>
+              Select the file you added and press
+              <code class="language-plaintext highlighter-rouge">Stage</code>.
+              It moves to the
+              <code class="language-plaintext highlighter-rouge"
+                >Staged Changes</code
+              >
+              section (if you had multiple files, you could click the first one
+              and shift-click that last one to select them all, then stage them
+              all at once).
+            </li>
+            <li>
+              In the bottom right corner is a button that now reads
+              <code class="language-plaintext highlighter-rouge"
+                >Commit 1 File</code
+              >, but it is currently turned off because a commit must have a
+              message describing it. Enter a message in the box labelled
+              <code class="language-plaintext highlighter-rouge"
+                >Enter commit subject</code
+              >
+              immediately above, then press the button.
+            </li>
+            <li>
+              Click on the
+              <code class="language-plaintext highlighter-rouge"
+                >All Commits</code
+              >
+              item in the list on the left to see your first successful commit:
+            </li>
+          </ul>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/fork-commit.png"
+              alt="a committed file"
+            />
+          </p>
+
+          <p>
+            When you select a commit in the list, the bottom part of the window
+            tells you the commit details. Each commit has a unique hash - a long
+            random number that you need in some cases to identify a particular
+            commit (if you’re using the command line). Below that you see the
+            commit message (“Added text to readme” in my case) and the file(s)
+            affected in this commit. If you click on the triangle next to a file
+            in the commit screen, it expands to show you the changes in this
+            commit. This feature is useful for browsing the history of your code
+            to see what line(s) relate to what commits.
+          </p>
+
+          <p>
+            In the top window, notice that the latest commit (on top) has
+            something called a <strong>tag</strong> attached that says
+            <code class="language-plaintext highlighter-rouge">master</code>,
+            whereas the one below has a tag
+            <code class="language-plaintext highlighter-rouge"
+              >origin/master</code
+            >.
+          </p>
+
+          <p>On the command line, the process for committing goes like this:</p>
+
+          <ul>
+            <li>
+              Use
+              <code class="language-plaintext highlighter-rouge"
+                >git status</code
+              >
+              to show what files have changed.
+            </li>
+            <li>
+              Use
+              <code class="language-plaintext highlighter-rouge"
+                >git add FILENAME</code
+              >
+              to add a file to the next commit. You can do
+              <code class="language-plaintext highlighter-rouge"
+                >git add .</code
+              >
+              to select all files in the current folder that have changed since
+              the last commit.
+            </li>
+            <li>
+              <code class="language-plaintext highlighter-rouge"
+                >git commit -m MESSAGE</code
+              >
+              does the commit. If you leave off the
+              <code class="language-plaintext highlighter-rouge">-m</code> flag,
+              git opens your default text editor and you can type the message in
+              there.
+            </li>
+          </ul>
+
+          <h2 id="general-commit-notes">General commit notes</h2>
+
+          <p>Try and make commits</p>
+
+          <ul>
+            <li>small</li>
+            <li>frequent</li>
+            <li>with a descriptive message</li>
+          </ul>
+
+          <p>
+            Here’s the example from my CNuT lecture notes again (which you’ll be
+            able to look at in more detail in a moment):
+          </p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/commits.png"
+              alt="some commits"
+            />
+          </p>
+
+          <p>
+            This can be really useful later on to search for “how did I do that
+            again?”. Imagine you at some point add a “reset” button to a form on
+            a web application you’re making, then later on you have another form
+            where you also need a reset button. If you can search for commits
+            with the word “reset” in the description (with the magnifying glass
+            icon to the very right of the toolbar) and find the last time you
+            did this, then you can quickly apply the same technique to the new
+            form you’re making.
+          </p>
+
+          <h2 id="theory-working-with-remote-repositories">
+            Theory: working with remote repositories
+          </h2>
+
+          <p>
+            So far, you have a folder with your
+            <strong>working copy</strong> (currently with one file README.md), a
+            repository (in the subfolder
+            <code class="language-plaintext highlighter-rouge">.git</code>)
+            called the <strong>local repository</strong> and another repository
+            hosted on gitlab called the <strong>remote repository</strong>.
+          </p>
+
+          <p>
+            When you make a commit, you copy files from the working copy to the
+            local repository. This neither counts as a back-up, nor does it help
+            you share code with others.
+          </p>
+
+          <p>
+            To work with the remote repository, we need to introduce to new
+            terms:
+          </p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/remotes-with-pull.png"
+              alt="push and fetch"
+            />
+          </p>
+
+          <ul>
+            <li>
+              Copying from the local repository to a remote repository is called
+              a <strong>push</strong>.
+            </li>
+            <li>
+              Copying from the remote repository to the local one is called a
+              <strong>fetch</strong>.
+            </li>
+            <li>
+              A <strong>pull</strong> first does a fetch, then a checkout which
+              copies from the local repository into the working copy if there
+              are no conflicts.
+            </li>
+          </ul>
+
+          <p>
+            The idea is that the local and remote repositories are always kept
+            in sync. Fetching is a safe operation in that it cannot cause
+            conflicts, even if someone else has changed code in the meantime.
+            Pulling is not safe in this sense, so the recommended workflow for
+            starting out with Git in “single-player mode” is:
+          </p>
+
+          <ol>
+            <li>
+              Before you start work each day, do a <strong>fetch</strong>. If
+              you’ve done work somewhere else (e.g. you work from both your home
+              PC and the lab machines) then this will get your last changes.
+            </li>
+            <li>
+              If there were no changes, it’s safe to <strong>pull</strong> which
+              makes sure everything is up to date. If there were any changes,
+              deal with that now (details on this later on).
+            </li>
+            <li>Do your work. Remember to make small, frequent commits.</li>
+            <li>
+              Before logging off, <strong>commit</strong> your work, then
+              <strong>push</strong> to the server.
+            </li>
+          </ol>
+
+          <p>
+            As long as you always fetch before you start working and commit+push
+            before you finish, you will never have a Git conflict as long as not
+            more than one person is working on the same project at a time. For
+            teamwork, see later in this tutorial.
+          </p>
+
+          <h2 id="practice-fetch-and-push-to-the-server">
+            Practice: fetch and push to the server
+          </h2>
+
+          <p>
+            If you’ve followed the tutorial so far your window will have a part
+            like this:
+          </p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/fetched.png"
+              alt="one commit to push"
+            />
+          </p>
+
+          <p>
+            Under
+            <code class="language-plaintext highlighter-rouge">Branches</code>,
+            you currently have one default branch called
+            <code class="language-plaintext highlighter-rouge">master</code>
+            which you can interpret as “the latest commit”. You can see on the
+            right that the
+            <code class="language-plaintext highlighter-rouge">master</code> tag
+            is on the latest commit. Under
+            <code class="language-plaintext highlighter-rouge">Remotes</code>,
+            you can see one entry with the default name
+            <code class="language-plaintext highlighter-rouge">origin</code> -
+            this is the repository on gitlab. On the right, you can see that the
+            <code class="language-plaintext highlighter-rouge"
+              >origin/master</code
+            >
+            tag is still on the initial commit: the remote is one commit behind
+            the local repository. This is also shown after the master branch
+            entry with the one followed by an arrow pointing up (pronounced: “1
+            up”). If you saw for example “3 down” it would mean that the remote
+            is 3 commits ahead, and if you see both for example “1 up 2 down”
+            then it means that you have made commits to the local repository and
+            someone else has meanwhile made commits to the remote one, a
+            situation that we’ll deal with later on.
+          </p>
+
+          <ul>
+            <li>
+              Right-click
+              <code class="language-plaintext highlighter-rouge">origin</code>
+              and choose
+              <code class="language-plaintext highlighter-rouge"
+                >Fetch 'origin'</code
+              >, press
+              <code class="language-plaintext highlighter-rouge">fetch</code> in
+              the dialog box. If anything has happened on the origin in the
+              meantime, you will know this now.
+            </li>
+            <li>
+              As long as you only have an up arrow and no down arrow, it’s safe
+              to push: right-click
+              <code class="language-plaintext highlighter-rouge">master</code>
+              and choose
+              <code class="language-plaintext highlighter-rouge"
+                >Push 'master' to 'origin'</code
+              >. Accept in the dialog box.
+            </li>
+            <li>
+              If you wanted to pull, click the triangle next to
+              <code class="language-plaintext highlighter-rouge">origin</code>
+              to show its
+              <code class="language-plaintext highlighter-rouge">master</code>
+              branch, right-click that and choose
+              <code class="language-plaintext highlighter-rouge"
+                >Pull 'origin/master' into 'master'</code
+              >.
+            </li>
+          </ul>
+
+          <p>
+            You can also use the fetch, pull and push options in the
+            <code class="language-plaintext highlighter-rouge">Repository</code>
+            menu, then select the branches you want in the dialog box that
+            appears.
+          </p>
+
+          <p>
+            On the command line, the commands are
+            <code class="language-plaintext highlighter-rouge">git fetch</code>,
+            <code class="language-plaintext highlighter-rouge">git push</code>
+            and
+            <code class="language-plaintext highlighter-rouge">git pull</code>.
+            If Git isn’t sure which branch or remote you mean, it will give you
+            a message telling you how to select a default one. If you want to
+            manually select a different one, you can do
+            <code class="language-plaintext highlighter-rouge"
+              >git fetch origin/master</code
+            >
+            or
+            <code class="language-plaintext highlighter-rouge"
+              >git pull origin/master master</code
+            >
+            to tell Git exactly which branches you mean.
+          </p>
+
+          <h2 id="practice-have-a-look-at-the-cnut-repository">
+            Practice: have a look at the CNuT repository
+          </h2>
+
+          <p>
+            You can clone other people’s repositories if they have made them
+            public. Select
+            <code class="language-plaintext highlighter-rouge"
+              >File / Clone</code
+            >
+            in the Fork menu and put the following in the URL box:
+            <code class="language-plaintext highlighter-rouge"
+              >https://gitlab.com/david-bristol/coconut.git</code
+            >. Choose a name and folder anywhere you like. This will get you the
+            sources and PDFs of all the material for the CNuT unit, as well as
+            the complete history of how and when I developed it. Have a look at
+            some of my commits.
+          </p>
+
+          <p>
+            You will be able to make changes to your working copy and your local
+            repository, but you will not of course be able to push changes back
+            to my Gitlab repository.
+          </p>
+
+          <p>
+            <em
+              >Note that the URL starts
+              <code class="language-plaintext highlighter-rouge">https</code>
+              instead of
+              <code class="language-plaintext highlighter-rouge">git</code>.
+              When you clone someone else’s repository, this is fine as it means
+              that you do not have to authenticate yourself or even have an
+              account with the service. For your own repositories, although you
+              could use https and type your username/password each time, it is
+              more secure (and less annoying) to use the git URL scheme, which
+              uses keys instead of passwords. See “Security” earlier on for
+              details.</em
+            >
+          </p>
+
+          <h2 id="teamwork-conflicts-and-merging">
+            Teamwork, conflicts and merging
+          </h2>
+
+          <p>
+            It can happen to the best of us: you’re working together on a
+            project and two people edit their own copies of
+            <code class="language-plaintext highlighter-rouge">main.c</code> at
+            the same time. When it’s time to combine everyone’s work for the
+            day, you risk one person’s changes overwriting the other person’s
+            changes. Git calls this situation a <strong>conflict</strong>, and
+            one of the reasons to use tools like Git in the first place is to
+            help you solve code conflicts. (Git cannot unfortunately solve
+            personal conflicts for you.)
+          </p>
+
+          <p>
+            Git solves conflicts by manipulating time. Instead of a time-line
+            where one event happens after another, Git has a time-graph where
+            different timelines can split and join again.
+          </p>
+
+          <h3 id="conflicts-that-are-not-real">Conflicts that are not real</h3>
+
+          <p>
+            First, let’s imagine the following situation: two people are working
+            on their own working copies of the same repository. Person one adds
+            a file
+            <code class="language-plaintext highlighter-rouge">A.txt</code> and
+            commits it, person two adds a file
+            <code class="language-plaintext highlighter-rouge">B.txt</code> and
+            commits it. So far, everyone has just committed to their local
+            repository and no-one is aware of the others’ changes yet.
+          </p>
+
+          <p>
+            Person one pushes her changes to Gitlab (a.k.a. “origin”). So far so
+            good - Gitlab doesn’t know about the other change yet.
+          </p>
+
+          <p>
+            But when person two tries to push, they’ll get an error message:
+          </p>
+
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre
+                class="highlight"
+              ><code>error: failed to push some refs to 'git@gitlab.com:david-bristol/my-project.git'
 hint: Updates were rejected because the remote contains work that you do
 hint: not have locally...
-</code></pre></div></div>
+</code></pre>
+            </div>
+          </div>
 
-<p>The first rule of “multiplayer Git” is that you can only push if no-one else has changed the repository since your last fetch. If you get this error, do a fetch instead:</p>
+          <p>
+            The first rule of “multiplayer Git” is that you can only push if
+            no-one else has changed the repository since your last fetch. If you
+            get this error, do a fetch instead:
+          </p>
 
-<p><img src="/assets/images/contrib/tutorials/git-assets/conflict1.png" alt="conflict on different files" /></p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/conflict1.png"
+              alt="conflict on different files"
+            />
+          </p>
 
-<p>The timeline has split into two: after “updated README”, someone else made a commit “File A” and you made a commit “File B”. (The list on the left will show <code class="language-plaintext highlighter-rouge">1 up, 1 down</code> to indicate this situation too.)</p>
+          <p>
+            The timeline has split into two: after “updated README”, someone
+            else made a commit “File A” and you made a commit “File B”. (The
+            list on the left will show
+            <code class="language-plaintext highlighter-rouge"
+              >1 up, 1 down</code
+            >
+            to indicate this situation too.)
+          </p>
 
-<p>If you hit this situation, and the two commits do not directly conflict with each other (that is, you didn’t both edit the same file - you can see which files were changed by clicking on a commit and then looking at the bottom of the window), then what I recommend you do is</p>
+          <p>
+            If you hit this situation, and the two commits do not directly
+            conflict with each other (that is, you didn’t both edit the same
+            file - you can see which files were changed by clicking on a commit
+            and then looking at the bottom of the window), then what I recommend
+            you do is
+          </p>
 
-<ol>
-  <li>pull, but tick the <code class="language-plaintext highlighter-rouge">rebase instead of merge</code> box in the window that pops up.</li>
-  <li>push</li>
-</ol>
+          <ol>
+            <li>
+              pull, but tick the
+              <code class="language-plaintext highlighter-rouge"
+                >rebase instead of merge</code
+              >
+              box in the window that pops up.
+            </li>
+            <li>push</li>
+          </ol>
 
-<p>I should warn you that some people on the internet have strong opinions about this, and that I will continue to ignore these people.</p>
+          <p>
+            I should warn you that some people on the internet have strong
+            opinions about this, and that I will continue to ignore these
+            people.
+          </p>
 
-<p>What <strong>rebase</strong> does is pretend that you’d done a fetch before making your changes, so the repository after the push looks like this:</p>
+          <p>
+            What <strong>rebase</strong> does is pretend that you’d done a fetch
+            before making your changes, so the repository after the push looks
+            like this:
+          </p>
 
-<p><img src="/assets/images/contrib/tutorials/git-assets/after-rebase.png" alt="after rebase and push" /></p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/after-rebase.png"
+              alt="after rebase and push"
+            />
+          </p>
 
-<p>Everything’s fine again.</p>
+          <p>Everything’s fine again.</p>
 
-<h3 id="conflicts-that-are-real">Conflicts that are real</h3>
+          <h3 id="conflicts-that-are-real">Conflicts that are real</h3>
 
-<p>It is always safe to try a push. If it doesn’t work, do a fetch instead and see what happened. Clicking on a commit shows you which files were changed at the bottom of the window. If two people changed the same file, you have a real conflict.</p>
+          <p>
+            It is always safe to try a push. If it doesn’t work, do a fetch
+            instead and see what happened. Clicking on a commit shows you which
+            files were changed at the bottom of the window. If two people
+            changed the same file, you have a real conflict.
+          </p>
 
-<p>In this case, try and <strong>pull but do not tick the rebase box</strong>.</p>
+          <p>
+            In this case, try and
+            <strong>pull but do not tick the rebase box</strong>.
+          </p>
 
-<p>If you try and pull (whether or not you tick the rebase box) and you have a real conflict - two people edited the same file - one of two things can happen. If Git thinks it can tell what’s going on, it will try and combine both your changes to the file. If Git doesn’t know what to do, you get an error with a line like</p>
+          <p>
+            If you try and pull (whether or not you tick the rebase box) and you
+            have a real conflict - two people edited the same file - one of two
+            things can happen. If Git thinks it can tell what’s going on, it
+            will try and combine both your changes to the file. If Git doesn’t
+            know what to do, you get an error with a line like
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CONFLICT (content): Merge conflict in README.md
-</code></pre></div></div>
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre
+                class="highlight"
+              ><code>CONFLICT (content): Merge conflict in README.md
+</code></pre>
+            </div>
+          </div>
 
-<p>Close the error message and open the file in question. Git has indicated your edits with markers like this (you can search for <code class="language-plaintext highlighter-rouge">&lt;&lt;&lt;&lt;&lt;</code> to find them):</p>
+          <p>
+            Close the error message and open the file in question. Git has
+            indicated your edits with markers like this (you can search for
+            <code class="language-plaintext highlighter-rouge"
+              >&lt;&lt;&lt;&lt;&lt;</code
+            >
+            to find them):
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre class="highlight"><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 edited by person two
 =======
 edited by person one
 &gt;&gt;&gt;&gt;&gt;&gt;&gt; b550ec8bac847dc5ef2b731e30ff18a359b2d582
-</code></pre></div></div>
-
-<p>This means that you, person two in this case (HEAD), added the line <code class="language-plaintext highlighter-rouge">edited by person two</code> but someone else added the line <code class="language-plaintext highlighter-rouge">edited by person one</code> (the id of their commit is provided in case you want to look it up on the console, but in Fork it’s obvious which commit is meant).</p>
-
-<p>Fix the file, remove Git’s markers and go back to Fork. You get this warning:</p>
-
-<p><img src="/assets/images/contrib/tutorials/git-assets/merge-warning.png" alt="merge warning" /></p>
-
-<p>If you’re happy that you’ve fixed the conflict, <code class="language-plaintext highlighter-rouge">Resolve</code> takes you to the commit window, where you can stage your changes and commit (Git has created a default commit message for you, which you can edit if you like). <code class="language-plaintext highlighter-rouge">Abort</code> gets you back to before you tried to push.</p>
-
-<p>Your timeline now looks like this:</p>
-
-<p><img src="/assets/images/contrib/tutorials/git-assets/merge.png" alt="timeline after merge" /></p>
-
-<p>You can now try and push again, and if no-one else has changed anything in the meantime, the push will go through and the green tags will move to the top commit.</p>
-
-<p>When two timelines that have diverged join up in a single point again, this is called a <strong>merge</strong>.</p>
-
-<h2 id="some-technical-details">Some technical details</h2>
-
-<p>A bit of explanation on what’s going on here.
-A commit is a data structure with the following information:</p>
-
-<ul>
-  <li>The change(s) to the files in this commit.</li>
-  <li>The author (name+email), date and time of the commit.</li>
-  <li>A commit id (that long random number thing) which is actually the SHA-1 hash of the   - changes.</li>
-  <li>A list of pointers (commit ids) to parents.</li>
-  <li>Some other things which I won’t bother with.</li>
-</ul>
-
-<p>Normally, most commits have exactly one parent, except the initial commit which hase none. As long as you do not have any conflicts, your git repository is basically a linked list of commits (in the Fork graph view, a dot is a commit and a line leaving a dot downwards is a parent pointer). New commits get added at the start (top) of the list. In general, the repository is a DAG (directed acyclic graph) of commits.</p>
-
-<p>However, when two people work on the same repository independently of each other and then commit, you get two commits with the same parent.</p>
-
-<p>Some people maintain that you should never change a node once it has been added to the commit graph. In this case, every time you get two nodes with the same parent, you need to make a new commit with two parents called a <strong>merge commit</strong> to get the same latest version of the code for everyone again.</p>
-
-<p>I disagree - if you do this all the time, then in the worst case 1 in every 3 of your commits will be a merge commit. As long as you have two commits that didn’t edit the same file, there’s no reason not to use the rebase feature: what this does is undo your last commit, fetch from the remote repository and then apply your last commit again. This makes the repository easier to browse when you’re looking for something. Rebasing is completely safe and won’t lose your changes.</p>
-
-<p>If you have a genuine conflict in a file, it’s worth using the more complicated “merge commit” strategy, as in the merge commit you might want to make changes to a file that weren’t in either of the previous commits. For example if person one adds <code class="language-plaintext highlighter-rouge">edited by person one</code> and person two adds <code class="language-plaintext highlighter-rouge">edited by person two</code>, then you might want the final line to read <code class="language-plaintext highlighter-rouge">edited by person one and person two</code>.</p>
-
-<p>So I suggest using a merge commit (pull with rebase off) only when you really have a conflict because then the merge commit itself contains useful information.</p>
-
-<p>It’s not illegal to do a rebase after resolving a conflict, but if your fix for the conflict was to delete something you wrote in the last commit then a rebase would lose this information, and you would be better off keeping it recorded in the repository in case you want to refer to it later.</p>
-
-<h2 id="multiplayer-git-workflow">Multiplayer Git workflow</h2>
-
-<p>For team projects, I recommend the following workflow:</p>
-
-<ol>
-  <li>When you start a coding session: <strong>fetch</strong> all previous commits by yourself and other people. This is always safe, it cannot create conflicts.</li>
-  <li>Write code, <strong>commit</strong>, repeat. A commit is always safe, as it only affects your local repository.</li>
-  <li>Before ending your coding session, first do a <strong>fetch</strong>. A fetch is always safe to do, it won’t fail (unless the server is down).</li>
-  <li>If no-one else has made any commits - it’s safe to <strong>push</strong> and you’re done.</li>
-  <li>If there are other new commits, but no conflict - <strong>pull with rebase on</strong>. If this succeeds, you’re done.</li>
-  <li>If you get a conflict during a pull-with-rebase, abort and go to the next step.</li>
-  <li>If you spot a conflict after the fetch (or have just aborted a push due to a conflict), do a <strong>pull-without-rebase</strong>. This will still get you a conflict warning, but now you can open the files affected and fix the conflict by hand.</li>
-  <li>After fixing a conflict, use the <code class="language-plaintext highlighter-rouge">Resolve</code> button to create a <strong>merge commit</strong>, then try and <strong>push</strong> again (with rebase off). If this succeeds, you’re done, otherwise go back to step 5.</li>
-</ol>
-
-<p>A reminder of the Git commands we’ve learnt so far:</p>
-
-<p><img src="/assets/images/contrib/tutorials/git-assets/remotes-with-pull.png" alt="git commands" /></p>
-
-<h2 id="tags">Tags</h2>
-
-<p>It’s time for a closer look at those labels like <code class="language-plaintext highlighter-rouge">master</code>, which are called <strong>tags</strong> in Git-speak.</p>
-
-<p>You can imagine that every repository has a table of tags, where each entry contains a tag name and a commit id. When you create your first commit, Git automatically creates a tag called <code class="language-plaintext highlighter-rouge">master</code> and points it at that commit; when you create a new commit then Git changes the master tag to point at that commit. We’ll see later on that this is not always true, but it’s close enough for now.</p>
-
-<p>The only tag that Git requires in every repository is called <code class="language-plaintext highlighter-rouge">HEAD</code> and it points at whichever commit your working copy is based on - which so far just means the latest commit too. Fork doesn’t show the <code class="language-plaintext highlighter-rouge">HEAD</code> tag directly, instead it displays the <code class="language-plaintext highlighter-rouge">HEAD</code> commit of your local repository in bold. <code class="language-plaintext highlighter-rouge">master</code> is just a convention, but one employed by pretty much every repository out there.</p>
-
-<p>Tags are part of a repository, so if you have a local and a remote repository then their tags can differ, as we saw on the last pages. Making commits, pushing and pulling (but not fetching) can move tags around too.</p>
-
-<p>You can create your own tags, and Git won’t mess with them. For example, if you want to release version 0.1 of your project, you can right-click a commit and choose <code class="language-plaintext highlighter-rouge">Create New Tag</code>, and give it a name such as “v0.1” and an optional message. Your custom tags are basically human-readable names to refer to particular commits.</p>
-
-<p>When you create a tag, it lives in your local repository. Tick the <code class="language-plaintext highlighter-rouge">Push all tags</code> box next time you push changes to copy it to the remote; a fetch will automatically fetch tags. (The reason for this convention is that on a group project, an individual member might want a “private” tag on their local repository that others can’t see, but tags that end up in the remote are assumed to apply to everyone.)</p>
-
-<p><img src="/assets/images/contrib/tutorials/git-assets/tag.png" alt="tags" /></p>
-
-<p>In this image, the <code class="language-plaintext highlighter-rouge">HEAD</code> commit of the local repository is the one in bold (at the top), <code class="language-plaintext highlighter-rouge">master</code> is a local tag, <code class="language-plaintext highlighter-rouge">0.1</code> is a user-defined tag and the tags <code class="language-plaintext highlighter-rouge">origin/HEAD</code> and <code class="language-plaintext highlighter-rouge">origin/master</code> are from the remote repository called <code class="language-plaintext highlighter-rouge">origin</code>.</p>
-
-<p>Tags can do much more than this, as we’ll see next.</p>
-
-<h2 id="branches">Branches</h2>
-
-<p>Branches are what Git is really about. Git lets you do pretty much whatever you like with branches and there are lots of different workflows that use them in different ways. You don’t have to follow any of these until you’re experienced enough and have a project big enough that it makes sense for you.</p>
-
-<p>There are two points to understand: what a branch is, and what a branch does.</p>
-
-<h3 id="what-a-branch-is">What a branch is</h3>
-
-<p>A branch is simply a tag that Git moves for you when you create a new commit. <code class="language-plaintext highlighter-rouge">master</code> is, and always was, a branch tag.</p>
-
-<p>At any point in time, your working copy is on exactly one branch. When you make a commit, Git moves the current branch tag to point at your new commit.</p>
-
-<p><em><code class="language-plaintext highlighter-rouge">HEAD</code> is a special tag in that it doesn’t point at a commit directly, it points at the current branch tag. So in a repository you have the linked list <code class="language-plaintext highlighter-rouge">HEAD -&gt; (current branch) -&gt; (latest commit on this branch)</code>.</em></p>
-
-<h3 id="what-a-branch-does">What a branch does</h3>
-
-<p>Branches let you work on different versions of your code at once without conflicts. Imagine a web project with some HTML files, some stylesheets and a server written in Java. Danny the designer is working on the HTML and CSS while at the same time Charlie the coder is adding new features to the server. With a single branch, every time someone wants to push to the repository they have to rebase or resolve conflicts manually, and worse still the commit history is a complete mix of Danny’s and Charlie’s work.</p>
-
-<p>Instead, Danny can create a new branch called “design” and work on that, meanwhile Charlie creates a branch called “server” and works on that. After a few commits, the repositories look like this:</p>
-
-<p><img src="/assets/images/contrib/tutorials/git-assets/branches.png" alt="branches" /></p>
-
-<p>In Danny’s view, <code class="language-plaintext highlighter-rouge">design</code> is the current branch (pink dot, latest commit (HEAD) in bold). Danny has made three commits on this branch, meanwhile Charlie has been wokring on the server branch and made a few commits there. The order of commits in the list is by date (latest on top) and commits on other branches than the current are shown in gray text. Charlie’s view of the repository is the same, but she’s currently on the <code class="language-plaintext highlighter-rouge">server</code> branch so the HEAD pointer on her local copy of the repository is on the “server now works” commit.</p>
-
-<p>As long as Danny and Charlie work on different branches, they’ll never have a conflict, but at some point they will want to combine their code so they meet up at the end of the day to do this.</p>
-
-<h3 id="merging-branches">Merging branches</h3>
-
-<p>How and when to merge depends on how you’re using branches. You can have one branch per feature and merge them into master when they’re complete, or one branch per person (and occasionally further branches for trying things out), or many other things.</p>
-
-<p>Danny and Charlie have decided to do their own work on branches called <code class="language-plaintext highlighter-rouge">design</code> and <code class="language-plaintext highlighter-rouge">server</code> and to merge the results into master every now and then.</p>
-
-<ul>
-  <li>Danny makes sure she’s committed all her changes to <code class="language-plaintext highlighter-rouge">design</code>.</li>
-  <li>She right-clicks the <code class="language-plaintext highlighter-rouge">master</code> branch and chooses <code class="language-plaintext highlighter-rouge">Checkout 'master'</code>. This switches her current branch to master, and her files in the working copy change to those of the master branch. (Her recent design work has temporarily disappeared in the working copy, but it’s not been lost - it’s still in the repository.)</li>
-  <li>She right-clicks the <code class="language-plaintext highlighter-rouge">design</code> branch and chooses <code class="language-plaintext highlighter-rouge">merge into 'master'</code>. You always merge into the currently selected branch. Git is happy and says <code class="language-plaintext highlighter-rouge">The branch can be merged without conflicts</code>. (If there was a conflict, Danny would resolve it as described on a previous page.)</li>
-  <li>She then pushes her changes to the server, and switches back to to the design branch to continue her work.</li>
-</ul>
-
-<p>Charlie does the same, and so the commit graph looks like this:</p>
-
-<p><img src="/assets/images/contrib/tutorials/git-assets/merged-branches.png" alt="merged branches" /></p>
-
-<p>This is Danny’s view on the design branch. The three branch tags are all on the same commit as the respective “origin” tags, showing that all local changes have been copied to the server. (To see if there are new changes on the server, Danny would do a fetch.)</p>
-
-<p>Once the commit graph gets complicated, you can hover the mouse over an entry in the <code class="language-plaintext highlighter-rouge">Branches</code> section of the list on the left and two symbols will appear: the star marks a branch as “favourite” and the axe-thingy hides all other branches from view in the main window, so you can look at the commits on your current branch only (click the axe-thingy again to show all branches).</p>
-
-<h3 id="merging-into-branches">Merging into branches</h3>
-
-<p>One strategy to work with branches is called “feature branches”: for each new feature, you create a branch, implement the feature and then merge it into master when it’s done. This way you only ever have to merge from feature branches to master and not back again.</p>
-
-<p>In our example, when Charlie continues working on her code, she might want to have it display Danny’s latest HTML page, so Charlie needs a way to get Danny’s work into her own “server” branch. She can do this by:</p>
-
-<ul>
-  <li>Committing all changes, if necessary.</li>
-  <li>Checking out the server branch (right-click it in the list, choose <code class="language-plaintext highlighter-rouge">checkout 'server'</code>).</li>
-  <li>Right-clicking the <code class="language-plaintext highlighter-rouge">master</code> branch and choosing <code class="language-plaintext highlighter-rouge">merge into 'server'</code>.</li>
-</ul>
-
-<p>Charlie can now carry on coding the server. However, next time she merges into master, she might get a conflict if Danny’s updated the HTML files again - in this case she has to resolve the conflict by taking Danny’s latest version.</p>
-
-<p>While merging from “work” branches into master is normal, merging from master into other branches is worth avoiding if you don’t have a good reason for it, but you can do it if you need to.</p>
-
-<p>On the command line, <code class="language-plaintext highlighter-rouge">git checkout OBJECT</code> does a checkout, where <code class="language-plaintext highlighter-rouge">OBJECT</code> can either be a branch or the hash of a commit. To create a new branch on the command line, you use <code class="language-plaintext highlighter-rouge">git checkout -b BRANCHNAME</code>. The merge command is <code class="language-plaintext highlighter-rouge">git merge OTHERBRANCH</code>.</p>
-
-<h3 id="general-guidelines-on-merging">General guidelines on merging</h3>
-
-<ul>
-  <li>To check if anyone else has updated something on the remote repository, do a <strong>fetch</strong>. This is always safe - it only affects your local repository, not your working copy.</li>
-  <li>Before doing anything more involved, <strong>commit</strong> your local changes.</li>
-  <li>Your working copy is always based on the current branch. To switch to a different branch (or indeed to any previous commit), do a <strong>checkout</strong>. (If you have uncommitted changes, checkout will fail as Git doesn’t want to overwrite any unsaved files.)</li>
-  <li>If your local repository is ahead of the remote on a branch (you’ve made some commits and no-one else has modified the same branch) then do a <strong>push</strong>.</li>
-  <li>If your local repository is behind the remote on a branch (someone else has made new commits and you haven’t made any new commits on that branch), do a <strong>pull</strong> (rebase doesn’t matter here as there’s no commits of yours to rebase).</li>
-  <li>If you and someone else have both modified a branch, as long as you haven’t both modified the same file do a <strong>pull with rebase</strong> to get back to the same place. - Otherwise, do a <strong>pull without rebase</strong> which creates a <strong>merge commit</strong> - this treats your work and your colleague’s as separate branches and merges them agian. Resolve the conflict manually if necessary.</li>
-</ul>
-
-<h2 id="ignoring-files">Ignoring files</h2>
-
-<p>Sometimes, you don’t want all your files to be included in the repository. For example, if you’re compling a C program the traditional way, you definitely want your source files (e.g. <code class="language-plaintext highlighter-rouge">main.c</code>, <code class="language-plaintext highlighter-rouge">main.h</code>) in the repository, you might or might not want the executables such as <code class="language-plaintext highlighter-rouge">main.exe</code> in the repository, but you definitely don’t want temporary files such as <code class="language-plaintext highlighter-rouge">main.o</code> stored in the repository - these are created and updated by the compiler.</p>
-
-<p>To ignore some files, make a file called <code class="language-plaintext highlighter-rouge">.gitignore</code> in your working copy - the first character in that filename really is a dot - and open it in any text editor; place one filename or pattern (with <code class="language-plaintext highlighter-rouge">*</code> to mean “anything”) per line in that file. For example, for a C program, place <code class="language-plaintext highlighter-rouge">*.o</code> in the ignore file.</p>
-
-<p>If you’re working with TeX then there’s <a href="https://github.com/github/gitignore/blob/master/TeX.gitignore">so many kinds of temporary file that someone has helpfully written an ignore file for you</a>.</p>
-
-<p>You can ignore whole folders too - if you put a line <code class="language-plaintext highlighter-rouge">private</code> in your ignore file, and you have a folder of that name, then Git/Fork will consider the whole folder off limits and not show changes to files in that folder in the (un)staged files view. (This is why you won’t find the solutions to the CNuT exercises in that repository.)</p>
-
-<p>The <code class="language-plaintext highlighter-rouge">.gitignore</code> file itself you want to stage and add to the repository along with your other project files.</p>
-
-<h2 id="and-finally">And finally</h2>
-
-<p>If you want to know more about Git, you can</p>
-
-<ul>
-  <li>Call <code class="language-plaintext highlighter-rouge">git COMMAND --help</code> or just <code class="language-plaintext highlighter-rouge">git --help</code> on the command line to read the instructions.</li>
-  <li>View the <a href="https://git-scm.com/docs">Git reference manual</a> online.</li>
-  <li>Download a PDF of <a href="https://github.com/progit/progit2/releases/download/2.1.87/progit.pdf">Pro Git, the sort-of-official Git book</a> or <a href="https://git-scm.com/book/en/v2">read it online</a>.</li>
-</ul>
-
-<p>The Git reference manual is written in a style that’s not everyone’s cup of tea, and lots of people find it a bit intimidating (the book, in my opinion, is more beginner-friendly). So someone has created a <a href="https://git-man-page-generator.lokaltog.net/">fake random Git manual page generator</a> which perfectly emulates the tone of the real thing, while making no sense at all.</p>
-
-<p><a href="https://github.com/k88hudson/git-flight-rules">Kate Hudson’s “Git flight rules”</a> is a good resource for Git FAQ.</p>
-
-<p>And finally, a bit of programmer humour:</p>
-
-<p><img src="/assets/images/contrib/tutorials/git-assets/fire.jpg" alt="in case of fire" /></p>
-
-<p>(Copied from http://abload.de/img/in_case_of_fireirrtb.jpg. This should be obvious, but as a fire warden I feel the need to point out that in case of a real fire alarm you must leave the building immediately by the nearest emergency exit.)</p>
-
-
-      <h2>Feedback</h2>
-      <p>Any issues with this tutorial? Submit <a href="https://github.com/cssbristol/cssbristol.github.io/issues">an issue</a> or a <a href="https://github.com/cssbristol/cssbristol.github.io/pulls">pull request</a> and we'll get it sorted out right away.
-    </div>
-  </article>
-</section>
-
+</code></pre>
+            </div>
+          </div>
+
+          <p>
+            This means that you, person two in this case (HEAD), added the line
+            <code class="language-plaintext highlighter-rouge"
+              >edited by person two</code
+            >
+            but someone else added the line
+            <code class="language-plaintext highlighter-rouge"
+              >edited by person one</code
+            >
+            (the id of their commit is provided in case you want to look it up
+            on the console, but in Fork it’s obvious which commit is meant).
+          </p>
+
+          <p>
+            Fix the file, remove Git’s markers and go back to Fork. You get this
+            warning:
+          </p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/merge-warning.png"
+              alt="merge warning"
+            />
+          </p>
+
+          <p>
+            If you’re happy that you’ve fixed the conflict,
+            <code class="language-plaintext highlighter-rouge">Resolve</code>
+            takes you to the commit window, where you can stage your changes and
+            commit (Git has created a default commit message for you, which you
+            can edit if you like).
+            <code class="language-plaintext highlighter-rouge">Abort</code> gets
+            you back to before you tried to push.
+          </p>
+
+          <p>Your timeline now looks like this:</p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/merge.png"
+              alt="timeline after merge"
+            />
+          </p>
+
+          <p>
+            You can now try and push again, and if no-one else has changed
+            anything in the meantime, the push will go through and the green
+            tags will move to the top commit.
+          </p>
+
+          <p>
+            When two timelines that have diverged join up in a single point
+            again, this is called a <strong>merge</strong>.
+          </p>
+
+          <h2 id="some-technical-details">Some technical details</h2>
+
+          <p>
+            A bit of explanation on what’s going on here. A commit is a data
+            structure with the following information:
+          </p>
+
+          <ul>
+            <li>The change(s) to the files in this commit.</li>
+            <li>The author (name+email), date and time of the commit.</li>
+            <li>
+              A commit id (that long random number thing) which is actually the
+              SHA-1 hash of the - changes.
+            </li>
+            <li>A list of pointers (commit ids) to parents.</li>
+            <li>Some other things which I won’t bother with.</li>
+          </ul>
+
+          <p>
+            Normally, most commits have exactly one parent, except the initial
+            commit which hase none. As long as you do not have any conflicts,
+            your git repository is basically a linked list of commits (in the
+            Fork graph view, a dot is a commit and a line leaving a dot
+            downwards is a parent pointer). New commits get added at the start
+            (top) of the list. In general, the repository is a DAG (directed
+            acyclic graph) of commits.
+          </p>
+
+          <p>
+            However, when two people work on the same repository independently
+            of each other and then commit, you get two commits with the same
+            parent.
+          </p>
+
+          <p>
+            Some people maintain that you should never change a node once it has
+            been added to the commit graph. In this case, every time you get two
+            nodes with the same parent, you need to make a new commit with two
+            parents called a <strong>merge commit</strong> to get the same
+            latest version of the code for everyone again.
+          </p>
+
+          <p>
+            I disagree - if you do this all the time, then in the worst case 1
+            in every 3 of your commits will be a merge commit. As long as you
+            have two commits that didn’t edit the same file, there’s no reason
+            not to use the rebase feature: what this does is undo your last
+            commit, fetch from the remote repository and then apply your last
+            commit again. This makes the repository easier to browse when you’re
+            looking for something. Rebasing is completely safe and won’t lose
+            your changes.
+          </p>
+
+          <p>
+            If you have a genuine conflict in a file, it’s worth using the more
+            complicated “merge commit” strategy, as in the merge commit you
+            might want to make changes to a file that weren’t in either of the
+            previous commits. For example if person one adds
+            <code class="language-plaintext highlighter-rouge"
+              >edited by person one</code
+            >
+            and person two adds
+            <code class="language-plaintext highlighter-rouge"
+              >edited by person two</code
+            >, then you might want the final line to read
+            <code class="language-plaintext highlighter-rouge"
+              >edited by person one and person two</code
+            >.
+          </p>
+
+          <p>
+            So I suggest using a merge commit (pull with rebase off) only when
+            you really have a conflict because then the merge commit itself
+            contains useful information.
+          </p>
+
+          <p>
+            It’s not illegal to do a rebase after resolving a conflict, but if
+            your fix for the conflict was to delete something you wrote in the
+            last commit then a rebase would lose this information, and you would
+            be better off keeping it recorded in the repository in case you want
+            to refer to it later.
+          </p>
+
+          <h2 id="multiplayer-git-workflow">Multiplayer Git workflow</h2>
+
+          <p>For team projects, I recommend the following workflow:</p>
+
+          <ol>
+            <li>
+              When you start a coding session: <strong>fetch</strong> all
+              previous commits by yourself and other people. This is always
+              safe, it cannot create conflicts.
+            </li>
+            <li>
+              Write code, <strong>commit</strong>, repeat. A commit is always
+              safe, as it only affects your local repository.
+            </li>
+            <li>
+              Before ending your coding session, first do a
+              <strong>fetch</strong>. A fetch is always safe to do, it won’t
+              fail (unless the server is down).
+            </li>
+            <li>
+              If no-one else has made any commits - it’s safe to
+              <strong>push</strong> and you’re done.
+            </li>
+            <li>
+              If there are other new commits, but no conflict -
+              <strong>pull with rebase on</strong>. If this succeeds, you’re
+              done.
+            </li>
+            <li>
+              If you get a conflict during a pull-with-rebase, abort and go to
+              the next step.
+            </li>
+            <li>
+              If you spot a conflict after the fetch (or have just aborted a
+              push due to a conflict), do a
+              <strong>pull-without-rebase</strong>. This will still get you a
+              conflict warning, but now you can open the files affected and fix
+              the conflict by hand.
+            </li>
+            <li>
+              After fixing a conflict, use the
+              <code class="language-plaintext highlighter-rouge">Resolve</code>
+              button to create a <strong>merge commit</strong>, then try and
+              <strong>push</strong> again (with rebase off). If this succeeds,
+              you’re done, otherwise go back to step 5.
+            </li>
+          </ol>
+
+          <p>A reminder of the Git commands we’ve learnt so far:</p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/remotes-with-pull.png"
+              alt="git commands"
+            />
+          </p>
+
+          <h2 id="tags">Tags</h2>
+
+          <p>
+            It’s time for a closer look at those labels like
+            <code class="language-plaintext highlighter-rouge">master</code>,
+            which are called <strong>tags</strong> in Git-speak.
+          </p>
+
+          <p>
+            You can imagine that every repository has a table of tags, where
+            each entry contains a tag name and a commit id. When you create your
+            first commit, Git automatically creates a tag called
+            <code class="language-plaintext highlighter-rouge">master</code> and
+            points it at that commit; when you create a new commit then Git
+            changes the master tag to point at that commit. We’ll see later on
+            that this is not always true, but it’s close enough for now.
+          </p>
+
+          <p>
+            The only tag that Git requires in every repository is called
+            <code class="language-plaintext highlighter-rouge">HEAD</code> and
+            it points at whichever commit your working copy is based on - which
+            so far just means the latest commit too. Fork doesn’t show the
+            <code class="language-plaintext highlighter-rouge">HEAD</code> tag
+            directly, instead it displays the
+            <code class="language-plaintext highlighter-rouge">HEAD</code>
+            commit of your local repository in bold.
+            <code class="language-plaintext highlighter-rouge">master</code> is
+            just a convention, but one employed by pretty much every repository
+            out there.
+          </p>
+
+          <p>
+            Tags are part of a repository, so if you have a local and a remote
+            repository then their tags can differ, as we saw on the last pages.
+            Making commits, pushing and pulling (but not fetching) can move tags
+            around too.
+          </p>
+
+          <p>
+            You can create your own tags, and Git won’t mess with them. For
+            example, if you want to release version 0.1 of your project, you can
+            right-click a commit and choose
+            <code class="language-plaintext highlighter-rouge"
+              >Create New Tag</code
+            >, and give it a name such as “v0.1” and an optional message. Your
+            custom tags are basically human-readable names to refer to
+            particular commits.
+          </p>
+
+          <p>
+            When you create a tag, it lives in your local repository. Tick the
+            <code class="language-plaintext highlighter-rouge"
+              >Push all tags</code
+            >
+            box next time you push changes to copy it to the remote; a fetch
+            will automatically fetch tags. (The reason for this convention is
+            that on a group project, an individual member might want a “private”
+            tag on their local repository that others can’t see, but tags that
+            end up in the remote are assumed to apply to everyone.)
+          </p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/tag.png"
+              alt="tags"
+            />
+          </p>
+
+          <p>
+            In this image, the
+            <code class="language-plaintext highlighter-rouge">HEAD</code>
+            commit of the local repository is the one in bold (at the top),
+            <code class="language-plaintext highlighter-rouge">master</code> is
+            a local tag,
+            <code class="language-plaintext highlighter-rouge">0.1</code> is a
+            user-defined tag and the tags
+            <code class="language-plaintext highlighter-rouge"
+              >origin/HEAD</code
+            >
+            and
+            <code class="language-plaintext highlighter-rouge"
+              >origin/master</code
+            >
+            are from the remote repository called
+            <code class="language-plaintext highlighter-rouge">origin</code>.
+          </p>
+
+          <p>Tags can do much more than this, as we’ll see next.</p>
+
+          <h2 id="branches">Branches</h2>
+
+          <p>
+            Branches are what Git is really about. Git lets you do pretty much
+            whatever you like with branches and there are lots of different
+            workflows that use them in different ways. You don’t have to follow
+            any of these until you’re experienced enough and have a project big
+            enough that it makes sense for you.
+          </p>
+
+          <p>
+            There are two points to understand: what a branch is, and what a
+            branch does.
+          </p>
+
+          <h3 id="what-a-branch-is">What a branch is</h3>
+
+          <p>
+            A branch is simply a tag that Git moves for you when you create a
+            new commit.
+            <code class="language-plaintext highlighter-rouge">master</code> is,
+            and always was, a branch tag.
+          </p>
+
+          <p>
+            At any point in time, your working copy is on exactly one branch.
+            When you make a commit, Git moves the current branch tag to point at
+            your new commit.
+          </p>
+
+          <p>
+            <em
+              ><code class="language-plaintext highlighter-rouge">HEAD</code> is
+              a special tag in that it doesn’t point at a commit directly, it
+              points at the current branch tag. So in a repository you have the
+              linked list
+              <code class="language-plaintext highlighter-rouge"
+                >HEAD -&gt; (current branch) -&gt; (latest commit on this
+                branch)</code
+              >.</em
+            >
+          </p>
+
+          <h3 id="what-a-branch-does">What a branch does</h3>
+
+          <p>
+            Branches let you work on different versions of your code at once
+            without conflicts. Imagine a web project with some HTML files, some
+            stylesheets and a server written in Java. Danny the designer is
+            working on the HTML and CSS while at the same time Charlie the coder
+            is adding new features to the server. With a single branch, every
+            time someone wants to push to the repository they have to rebase or
+            resolve conflicts manually, and worse still the commit history is a
+            complete mix of Danny’s and Charlie’s work.
+          </p>
+
+          <p>
+            Instead, Danny can create a new branch called “design” and work on
+            that, meanwhile Charlie creates a branch called “server” and works
+            on that. After a few commits, the repositories look like this:
+          </p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/branches.png"
+              alt="branches"
+            />
+          </p>
+
+          <p>
+            In Danny’s view,
+            <code class="language-plaintext highlighter-rouge">design</code> is
+            the current branch (pink dot, latest commit (HEAD) in bold). Danny
+            has made three commits on this branch, meanwhile Charlie has been
+            wokring on the server branch and made a few commits there. The order
+            of commits in the list is by date (latest on top) and commits on
+            other branches than the current are shown in gray text. Charlie’s
+            view of the repository is the same, but she’s currently on the
+            <code class="language-plaintext highlighter-rouge">server</code>
+            branch so the HEAD pointer on her local copy of the repository is on
+            the “server now works” commit.
+          </p>
+
+          <p>
+            As long as Danny and Charlie work on different branches, they’ll
+            never have a conflict, but at some point they will want to combine
+            their code so they meet up at the end of the day to do this.
+          </p>
+
+          <h3 id="merging-branches">Merging branches</h3>
+
+          <p>
+            How and when to merge depends on how you’re using branches. You can
+            have one branch per feature and merge them into master when they’re
+            complete, or one branch per person (and occasionally further
+            branches for trying things out), or many other things.
+          </p>
+
+          <p>
+            Danny and Charlie have decided to do their own work on branches
+            called
+            <code class="language-plaintext highlighter-rouge">design</code> and
+            <code class="language-plaintext highlighter-rouge">server</code> and
+            to merge the results into master every now and then.
+          </p>
+
+          <ul>
+            <li>
+              Danny makes sure she’s committed all her changes to
+              <code class="language-plaintext highlighter-rouge">design</code>.
+            </li>
+            <li>
+              She right-clicks the
+              <code class="language-plaintext highlighter-rouge">master</code>
+              branch and chooses
+              <code class="language-plaintext highlighter-rouge"
+                >Checkout 'master'</code
+              >. This switches her current branch to master, and her files in
+              the working copy change to those of the master branch. (Her recent
+              design work has temporarily disappeared in the working copy, but
+              it’s not been lost - it’s still in the repository.)
+            </li>
+            <li>
+              She right-clicks the
+              <code class="language-plaintext highlighter-rouge">design</code>
+              branch and chooses
+              <code class="language-plaintext highlighter-rouge"
+                >merge into 'master'</code
+              >. You always merge into the currently selected branch. Git is
+              happy and says
+              <code class="language-plaintext highlighter-rouge"
+                >The branch can be merged without conflicts</code
+              >. (If there was a conflict, Danny would resolve it as described
+              on a previous page.)
+            </li>
+            <li>
+              She then pushes her changes to the server, and switches back to to
+              the design branch to continue her work.
+            </li>
+          </ul>
+
+          <p>Charlie does the same, and so the commit graph looks like this:</p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/merged-branches.png"
+              alt="merged branches"
+            />
+          </p>
+
+          <p>
+            This is Danny’s view on the design branch. The three branch tags are
+            all on the same commit as the respective “origin” tags, showing that
+            all local changes have been copied to the server. (To see if there
+            are new changes on the server, Danny would do a fetch.)
+          </p>
+
+          <p>
+            Once the commit graph gets complicated, you can hover the mouse over
+            an entry in the
+            <code class="language-plaintext highlighter-rouge">Branches</code>
+            section of the list on the left and two symbols will appear: the
+            star marks a branch as “favourite” and the axe-thingy hides all
+            other branches from view in the main window, so you can look at the
+            commits on your current branch only (click the axe-thingy again to
+            show all branches).
+          </p>
+
+          <h3 id="merging-into-branches">Merging into branches</h3>
+
+          <p>
+            One strategy to work with branches is called “feature branches”: for
+            each new feature, you create a branch, implement the feature and
+            then merge it into master when it’s done. This way you only ever
+            have to merge from feature branches to master and not back again.
+          </p>
+
+          <p>
+            In our example, when Charlie continues working on her code, she
+            might want to have it display Danny’s latest HTML page, so Charlie
+            needs a way to get Danny’s work into her own “server” branch. She
+            can do this by:
+          </p>
+
+          <ul>
+            <li>Committing all changes, if necessary.</li>
+            <li>
+              Checking out the server branch (right-click it in the list, choose
+              <code class="language-plaintext highlighter-rouge"
+                >checkout 'server'</code
+              >).
+            </li>
+            <li>
+              Right-clicking the
+              <code class="language-plaintext highlighter-rouge">master</code>
+              branch and choosing
+              <code class="language-plaintext highlighter-rouge"
+                >merge into 'server'</code
+              >.
+            </li>
+          </ul>
+
+          <p>
+            Charlie can now carry on coding the server. However, next time she
+            merges into master, she might get a conflict if Danny’s updated the
+            HTML files again - in this case she has to resolve the conflict by
+            taking Danny’s latest version.
+          </p>
+
+          <p>
+            While merging from “work” branches into master is normal, merging
+            from master into other branches is worth avoiding if you don’t have
+            a good reason for it, but you can do it if you need to.
+          </p>
+
+          <p>
+            On the command line,
+            <code class="language-plaintext highlighter-rouge"
+              >git checkout OBJECT</code
+            >
+            does a checkout, where
+            <code class="language-plaintext highlighter-rouge">OBJECT</code> can
+            either be a branch or the hash of a commit. To create a new branch
+            on the command line, you use
+            <code class="language-plaintext highlighter-rouge"
+              >git checkout -b BRANCHNAME</code
+            >. The merge command is
+            <code class="language-plaintext highlighter-rouge"
+              >git merge OTHERBRANCH</code
+            >.
+          </p>
+
+          <h3 id="general-guidelines-on-merging">
+            General guidelines on merging
+          </h3>
+
+          <ul>
+            <li>
+              To check if anyone else has updated something on the remote
+              repository, do a <strong>fetch</strong>. This is always safe - it
+              only affects your local repository, not your working copy.
+            </li>
+            <li>
+              Before doing anything more involved, <strong>commit</strong> your
+              local changes.
+            </li>
+            <li>
+              Your working copy is always based on the current branch. To switch
+              to a different branch (or indeed to any previous commit), do a
+              <strong>checkout</strong>. (If you have uncommitted changes,
+              checkout will fail as Git doesn’t want to overwrite any unsaved
+              files.)
+            </li>
+            <li>
+              If your local repository is ahead of the remote on a branch
+              (you’ve made some commits and no-one else has modified the same
+              branch) then do a <strong>push</strong>.
+            </li>
+            <li>
+              If your local repository is behind the remote on a branch (someone
+              else has made new commits and you haven’t made any new commits on
+              that branch), do a <strong>pull</strong> (rebase doesn’t matter
+              here as there’s no commits of yours to rebase).
+            </li>
+            <li>
+              If you and someone else have both modified a branch, as long as
+              you haven’t both modified the same file do a
+              <strong>pull with rebase</strong> to get back to the same place. -
+              Otherwise, do a <strong>pull without rebase</strong> which creates
+              a <strong>merge commit</strong> - this treats your work and your
+              colleague’s as separate branches and merges them agian. Resolve
+              the conflict manually if necessary.
+            </li>
+          </ul>
+
+          <h2 id="ignoring-files">Ignoring files</h2>
+
+          <p>
+            Sometimes, you don’t want all your files to be included in the
+            repository. For example, if you’re compling a C program the
+            traditional way, you definitely want your source files (e.g.
+            <code class="language-plaintext highlighter-rouge">main.c</code>,
+            <code class="language-plaintext highlighter-rouge">main.h</code>) in
+            the repository, you might or might not want the executables such as
+            <code class="language-plaintext highlighter-rouge">main.exe</code>
+            in the repository, but you definitely don’t want temporary files
+            such as
+            <code class="language-plaintext highlighter-rouge">main.o</code>
+            stored in the repository - these are created and updated by the
+            compiler.
+          </p>
+
+          <p>
+            To ignore some files, make a file called
+            <code class="language-plaintext highlighter-rouge">.gitignore</code>
+            in your working copy - the first character in that filename really
+            is a dot - and open it in any text editor; place one filename or
+            pattern (with
+            <code class="language-plaintext highlighter-rouge">*</code> to mean
+            “anything”) per line in that file. For example, for a C program,
+            place
+            <code class="language-plaintext highlighter-rouge">*.o</code> in the
+            ignore file.
+          </p>
+
+          <p>
+            If you’re working with TeX then there’s
+            <a
+              href="https://github.com/github/gitignore/blob/master/TeX.gitignore"
+              >so many kinds of temporary file that someone has helpfully
+              written an ignore file for you</a
+            >.
+          </p>
+
+          <p>
+            You can ignore whole folders too - if you put a line
+            <code class="language-plaintext highlighter-rouge">private</code> in
+            your ignore file, and you have a folder of that name, then Git/Fork
+            will consider the whole folder off limits and not show changes to
+            files in that folder in the (un)staged files view. (This is why you
+            won’t find the solutions to the CNuT exercises in that repository.)
+          </p>
+
+          <p>
+            The
+            <code class="language-plaintext highlighter-rouge">.gitignore</code>
+            file itself you want to stage and add to the repository along with
+            your other project files.
+          </p>
+
+          <h2 id="and-finally">And finally</h2>
+
+          <p>If you want to know more about Git, you can</p>
+
+          <ul>
+            <li>
+              Call
+              <code class="language-plaintext highlighter-rouge"
+                >git COMMAND --help</code
+              >
+              or just
+              <code class="language-plaintext highlighter-rouge"
+                >git --help</code
+              >
+              on the command line to read the instructions.
+            </li>
+            <li>
+              View the
+              <a href="https://git-scm.com/docs">Git reference manual</a>
+              online.
+            </li>
+            <li>
+              Download a PDF of
+              <a
+                href="https://github.com/progit/progit2/releases/download/2.1.87/progit.pdf"
+                >Pro Git, the sort-of-official Git book</a
+              >
+              or <a href="https://git-scm.com/book/en/v2">read it online</a>.
+            </li>
+          </ul>
+
+          <p>
+            The Git reference manual is written in a style that’s not everyone’s
+            cup of tea, and lots of people find it a bit intimidating (the book,
+            in my opinion, is more beginner-friendly). So someone has created a
+            <a href="https://git-man-page-generator.lokaltog.net/"
+              >fake random Git manual page generator</a
+            >
+            which perfectly emulates the tone of the real thing, while making no
+            sense at all.
+          </p>
+
+          <p>
+            <a href="https://github.com/k88hudson/git-flight-rules"
+              >Kate Hudson’s “Git flight rules”</a
+            >
+            is a good resource for Git FAQ.
+          </p>
+
+          <p>And finally, a bit of programmer humour:</p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/git-assets/fire.jpg"
+              alt="in case of fire"
+            />
+          </p>
+
+          <p>
+            (Copied from http://abload.de/img/in_case_of_fireirrtb.jpg. This
+            should be obvious, but as a fire warden I feel the need to point out
+            that in case of a real fire alarm you must leave the building
+            immediately by the nearest emergency exit.)
+          </p>
+
+          <h2>Feedback</h2>
+          <p>
+            Any issues with this tutorial? Submit
+            <a href="https://github.com/cssbristol/cssbristol.github.io/issues"
+              >an issue</a
+            >
+            or a
+            <a href="https://github.com/cssbristol/cssbristol.github.io/pulls"
+              >pull request</a
+            >
+            and we'll get it sorted out right away.
+          </p>
+        </div>
+      </article>
+    </section>
 
     <section class="page-section sponsorsec">
-    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
-    <div class="sponsors">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-            
-<a
-  href="https://www.bloomberg.com"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Bloomberg"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/bloomberg.svg"
-    alt="Bloomberg"
-    width="130"
-    height="170"
-  />
-</a>
+      <h1 class="sponsors-title">
+        <a href="/pages/sponsors">Proudly sponsored by</a>
+      </h1>
+      <div class="sponsors">
+        <a
+          href="https://www.bloomberg.com"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Bloomberg"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/bloomberg.svg"
+            alt="Bloomberg"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-      
-        
-          
-            
-<a
-  href="https://www.caci.co.uk"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="CACI"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/caci.png"
-    alt="CACI"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.caci.co.uk"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="CACI"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/caci.png"
+            alt="CACI"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-            
-<a
-  href="/companies/tpp/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="TPP"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/tpp.png"
-    alt="TPP"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="/companies/tpp/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="TPP"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/tpp.png"
+            alt="TPP"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-            
-<a
-  href="https://www.publicissapient.com/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Publicis Sapient"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/publicis_sapient.svg"
-    alt="Publicis Sapient"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.publicissapient.com/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Publicis Sapient"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/publicis_sapient.svg"
+            alt="Publicis Sapient"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-          
-            
-<a
-  href="https://www.qualcomm.com/home"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Qualcomm"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/qualcomm.png"
-    alt="Qualcomm"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.qualcomm.com/home"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Qualcomm"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/qualcomm.png"
+            alt="Qualcomm"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-          
-            
-<a
-  href="https://www.qube-rt.com/careers/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Qube Research & Technologies"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/qube-rt.svg"
-    alt="Qube Research & Technologies"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.qube-rt.com/careers/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Qube Research & Technologies"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/qube-rt.svg"
+            alt="Qube Research & Technologies"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-            
-<a
-  href="https://www.xmos.ai/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="XMOS"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/xmos.svg"
-    alt="XMOS"
-    width="130"
-    height="170"
-  />
-</a>
-
-          
-        
-      
-    </div>
-    <div class="sponsors__action_item">
-      <a href="/pages/sponsors">Learn more about working with us.</a>
-    </div>
-</section>
-
+        <a
+          href="https://www.xmos.ai/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="XMOS"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/xmos.svg"
+            alt="XMOS"
+            width="130"
+            height="170"
+          />
+        </a>
+      </div>
+      <div class="sponsors__action_item">
+        <a href="/pages/sponsors">Learn more about working with us.</a>
+      </div>
+    </section>
 
     <footer class="page-footer">
-  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
-  <nav class="page-footer__menu">
-    <ul>
-    
-    
-      
-      <li>
-        <a class="page-link" href="/about/">About</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/contact/">Contact</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/events/index.html">Events</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/jobs/">Jobs</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/shop/">Shop</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/sponsors">Sponsor us</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/tutorials/">Tutorials</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/wellbeing/">Wellbeing</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    </ul>
-  </nav>
-</footer>
+      <span class="page-footer__text"
+        >&copy; University of Bristol Computer Science Society</span
+      >
+      <nav class="page-footer__menu">
+        <ul>
+          <li>
+            <a class="page-link" href="/about/">About</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/contact/">Contact</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/events/index.html">Events</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/jobs/">Jobs</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/shop/">Shop</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/sponsors">Sponsor us</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/tutorials/">Tutorials</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/wellbeing/">Wellbeing</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
-
 </html>
