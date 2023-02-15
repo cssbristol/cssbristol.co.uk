@@ -1,6 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://cssbristol.co.uk/feed/events.xml" rel="self" type="application/atom+xml" /><link href="https://cssbristol.co.uk/" rel="alternate" type="text/html" /><updated>2023-02-15T12:15:39+00:00</updated><id>https://cssbristol.co.uk/feed/events.xml</id><title type="html">CSS Bristol | Events</title><subtitle>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</subtitle><entry><title type="html">Bris Hack 2023</title><link href="https://cssbristol.co.uk/events/2023-02-29-brishack/" rel="alternate" type="text/html" title="Bris Hack 2023" /><published>2023-02-26T11:00:00+00:00</published><updated>2023-02-26T11:00:00+00:00</updated><id>https://cssbristol.co.uk/events/brishack</id><content type="html" xml:base="https://cssbristol.co.uk/events/2023-02-29-brishack/">&lt;p&gt;BRIS HACK RAAAGHHHH!!!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://cssbristol.co.uk/feed/events.xml" rel="self" type="application/atom+xml" /><link href="https://cssbristol.co.uk/" rel="alternate" type="text/html" /><updated>2023-02-15T12:47:52+00:00</updated><id>https://cssbristol.co.uk/feed/events.xml</id><title type="html">CSS Bristol | Events</title><subtitle>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</subtitle><entry><title type="html">BrisHack 2023</title><link href="https://cssbristol.co.uk/events/2023-02-29-brishack/" rel="alternate" type="text/html" title="BrisHack 2023" /><published>2023-02-26T11:00:00+00:00</published><updated>2023-02-26T11:00:00+00:00</updated><id>https://cssbristol.co.uk/events/brishack</id><content type="html" xml:base="https://cssbristol.co.uk/events/2023-02-29-brishack/">&lt;h2 id=&quot;theme-my-utopia&quot;&gt;THEME: My Utopia&lt;/h2&gt;
 
-&lt;p&gt;(this is just a mock event so you guys can mark your calendars, more details tba later!!!)&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Competition&quot;]" /><summary type="html">BRIS HACK RAAAGHHHH!!!</summary></entry><entry><title type="html">Art Hack 2023</title><link href="https://cssbristol.co.uk/events/2023-02-18-art-hack/" rel="alternate" type="text/html" title="Art Hack 2023" /><published>2023-02-18T09:00:00+00:00</published><updated>2023-02-18T09:00:00+00:00</updated><id>https://cssbristol.co.uk/events/art-hack</id><content type="html" xml:base="https://cssbristol.co.uk/events/2023-02-18-art-hack/">&lt;p&gt;&lt;a href=&quot;https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG7x6nXA7q2RHvMfAV-TSakZUODMyWktaQzBXRVVUVEVOUEpGN09SMlRDNC4u&quot;&gt;SIGN UP HERE&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Everyone has their own unique image of what a perfect utopia looks like, so dream up a project that will help us get to what your (or your team’s) image of what a Utopian Society looks like!&lt;/p&gt;
+
+&lt;p&gt;The sky is the limit with what you can do—we want to see the full breadth of your imagination, from projects tackling economic equality, sustainability issues, social welfare or even creativity and artistic expression; show us how you would want to change the world.&lt;/p&gt;
+
+&lt;h2 id=&quot;sign-up&quot;&gt;SIGN UP&lt;/h2&gt;
+
+&lt;p&gt;Sign up form: &lt;a href=&quot;https://forms.office.com/e/567ej4U4Y5&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Please make sure you read the &lt;a href=&quot;#rules&quot;&gt;rules&lt;/a&gt; &lt;a href=&quot;#faq&quot;&gt;FAQ&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;rules&quot;&gt;Rules&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The maximum team size is six people.&lt;/li&gt;
+  &lt;li&gt;Be responsible and look after your and your teammates’ wellbeing. Make sure to get some rest through the night, drink water, and have a break from your screen every once in a while.&lt;/li&gt;
+  &lt;li&gt;Prizes will be awarded to a team; it is up to the team to decide how to distribute these fairly.&lt;/li&gt;
+  &lt;li&gt;All work must be done within the 24-hours of the hackathon. However, you are welcome to think of project ideas before the Hackathon begins.&lt;/li&gt;
+  &lt;li&gt;All third-party tools, libraries, assets or other materials used must be declared during judging.&lt;/li&gt;
+  &lt;li&gt;Projects must not be obscene or offensive.&lt;/li&gt;
+  &lt;li&gt;Participants retain the rights to all IP produced during the hackathon, but give CSS, BEEES, the University and event sponsors permission to showcase projects (with appropriate credit) on website, blogs, etc. if they wish to do so.&lt;/li&gt;
+  &lt;li&gt;Team names must not be obscene or offensive. If a team name is deemed innappropriate, you will be required to change it on the day of the Hackathon.&lt;/li&gt;
+  &lt;li&gt;Participants must be at least 18 years of age.&lt;/li&gt;
+  &lt;li&gt;Use of the Hackspace is prohibited when under the influence of drugs alcohol.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;faq&quot;&gt;FAQ&lt;/h2&gt;
+
+&lt;h3 id=&quot;im-inexperienced-as-a-programmer-can-i-still-participate&quot;&gt;I’m inexperienced as a programmer, can I still participate?&lt;/h3&gt;
+&lt;p&gt;Of course! Participating in a Hackathon is a great way to get more experience; you can either join a team of more experienced participants and learn from them, or participate yourself and grow from the challenge, and hopefully even gain an awesome portfolio piece by the end of the Hackathon.&lt;/p&gt;
+
+&lt;p&gt;Remember, it isn’t all about winning; BrisHack is a fun event for you to learn and explore new technologies and areas!&lt;/p&gt;
+
+&lt;h3 id=&quot;how-do-i-find-a-team&quot;&gt;How do I find a team?&lt;/h3&gt;
+&lt;p&gt;We will be hosting a team-finding event (a social mingle) the week before the Hackathon; watch this space for more details.&lt;/p&gt;
+
+&lt;p&gt;Alternatively, post on our discord servers!&lt;/p&gt;
+
+&lt;h3 id=&quot;i-dont-attend-the-university-of-bristol-can-i-participate&quot;&gt;I don’t attend the University of Bristol, can I participate?&lt;/h3&gt;
+&lt;p&gt;As long as you are a student aged over eighteen at a university or college in the UK, you are welcome to join!&lt;/p&gt;
+
+&lt;h3 id=&quot;will-food-be-provided&quot;&gt;Will food be provided?&lt;/h3&gt;
+&lt;p&gt;We’re offended you even asked; we always have food! Just make sure to let us know if you have any dietary requirements!&lt;/p&gt;
+
+&lt;h3 id=&quot;i-dont-study-a-stem-discipline-can-i-participate&quot;&gt;I don’t study a STEM discipline, can I participate?&lt;/h3&gt;
+&lt;p&gt;BrisHack is open to all! If you have even basic technological knowledge, we’d love to see what you make. Alternatively, if you lack technological powress but have an awesome idea, perhaps you can join a team and be their ideas-person&lt;/p&gt;
+
+&lt;h3 id=&quot;do-i-need-to-dream-up-a-solution-to-a-hugevery-serious-problem&quot;&gt;Do I need to dream up a solution to a huge/very serious problem?&lt;/h3&gt;
+&lt;p&gt;You don’t need to solve a huge problem; progress comes in small nudges! If you think you’ve got the cure to world hunger, that’s awesome! But don’t be put off entering because you are tackling a small issue; oftentimes it’s the focussed solutions that are the most effective.&lt;/p&gt;
+
+&lt;h2 id=&quot;about-brishack&quot;&gt;About BrisHack&lt;/h2&gt;
+
+&lt;p&gt;BrisHack is the annual 24-hour Hackathon run by the University of Bristol’s &lt;a href=&quot;https://cssbristol.co.uk/&quot;&gt;Computer Science Society (CSS)&lt;/a&gt; and the &lt;a href=&quot;https://www.beees.co.uk&quot;&gt;Electrical and Electronic Engineering Society (BEEES)&lt;/a&gt;. It is a fun and unique opportunity to explore new areas and gain more practical experience. Not to mention the great networking opportunities with our sponsors!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Competition&quot;]" /><summary type="html">THEME: My Utopia</summary></entry><entry><title type="html">Art Hack 2023</title><link href="https://cssbristol.co.uk/events/2023-02-18-art-hack/" rel="alternate" type="text/html" title="Art Hack 2023" /><published>2023-02-18T09:00:00+00:00</published><updated>2023-02-18T09:00:00+00:00</updated><id>https://cssbristol.co.uk/events/art-hack</id><content type="html" xml:base="https://cssbristol.co.uk/events/2023-02-18-art-hack/">&lt;p&gt;&lt;a href=&quot;https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVG7x6nXA7q2RHvMfAV-TSakZUODMyWktaQzBXRVVUVEVOUEpGN09SMlRDNC4u&quot;&gt;SIGN UP HERE&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Are you a STEM student looking for an opportunity to express your creative and artistic side?&lt;/p&gt;
 
