@@ -4043,14 +4043,14 @@ DESCRIPTION:SIGN UP HERE
 LOCATION:MVB
 END:VEVENT
 BEGIN:VEVENT
-UID:events-2023-02-29-brishack
+UID:events-2023-02-26-brishack
  @cssbristol.co.uk
 DTSTAMP:20230226T110000
 DTSTART:20230226T110000
 DTEND:20230227T140000
 LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
- /events/2023-02-29-brishack/
+ /events/2023-02-26-brishack/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
