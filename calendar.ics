@@ -3947,22 +3947,6 @@ DESCRIPTION:You’re invited to join Bloomberg for a competit...
 LOCATION:MVB 1.11/1.11A
 END:VEVENT
 BEGIN:VEVENT
-UID:events-2023-02-21-qualcomm
- @cssbristol.co.uk
-DTSTAMP:20230201T130000
-DTSTART:20230201T130000
-DTEND:20230201T140000
-LAST-MODIFIED:
-URL:https://www.cssbristol.co.uk
- /events/2023-02-21-qualcomm/
-IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
- images/contrib/events/2022-02-01-qualcomm.png
-ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
-SUMMARY:$TITLE
-DESCRIPTION:Qualcomm is one of the world’s most renowned se...
-LOCATION:MVB 1.11/1.11A
-END:VEVENT
-BEGIN:VEVENT
 UID:events-2023-02-02-caci
  @cssbristol.co.uk
 DTSTAMP:20230202T180000
@@ -4057,6 +4041,22 @@ ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Art Hack 2023
 DESCRIPTION:SIGN UP HERE
 LOCATION:MVB
+END:VEVENT
+BEGIN:VEVENT
+UID:events-2023-02-21-qualcomm
+ @cssbristol.co.uk
+DTSTAMP:20230221T180000
+DTSTART:20230221T180000
+DTEND:20230221T190000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2023-02-21-qualcomm/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2022-02-01-qualcomm.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Qualcomm Tech-Talk
+DESCRIPTION:Qualcomm is one of the world’s most renowned se...
+LOCATION:MVB 1.11/1.11A
 END:VEVENT
 BEGIN:VEVENT
 UID:events-2023-02-26-brishack
