@@ -1,1245 +1,913 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-  <meta charset=utf-8>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="/assets/favicons/manifest.json">
-<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#3498db">
-<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
-<meta name="theme-color" content="#3498db">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/assets/favicons/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/assets/favicons/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/assets/favicons/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/assets/favicons/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/assets/favicons/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/assets/favicons/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/assets/favicons/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/assets/favicons/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicons/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-194x194.png"
+      sizes="194x194"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/android-chrome-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link rel="manifest" href="/assets/favicons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/assets/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#3498db" />
+    <meta
+      name="msapplication-TileImage"
+      content="/assets/favicons/mstile-144x144.png"
+    />
+    <meta name="theme-color" content="#3498db" />
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta name="description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
+    <meta
+      name="description"
+      content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department."
+    />
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Wellbeing - CSS Bristol">
-<meta property="og:description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
-<meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
-<meta property="og:url" content="https://cssbristol.co.uk/wellbeing/">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Wellbeing - CSS Bristol" />
+    <meta
+      property="og:description"
+      content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department."
+    />
+    <meta
+      property="og:image"
+      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
+    />
+    <meta property="og:url" content="https://cssbristol.co.uk/wellbeing/" />
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Wellbeing - CSS Bristol">
-<meta name="twitter:description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
-<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
-<meta name="twitter:site" content="@cssbristol">
- 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Wellbeing - CSS Bristol" />
+    <meta
+      name="twitter:description"
+      content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department."
+    />
+    <meta
+      name="twitter:image"
+      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
+    />
+    <meta name="twitter:site" content="@cssbristol" />
 
+    <title>Wellbeing - CSS Bristol</title>
 
-  <title>Wellbeing - CSS Bristol</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    />
 
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
+    <link rel="stylesheet" href="/assets/css/site.css" />
+    <link rel="canonical" href="https://cssbristol.co.uk/wellbeing/" />
 
-  <link rel="stylesheet" href="/assets/css/site.css" />
-  <link rel="canonical" href="https://cssbristol.co.uk/wellbeing/" />
-  
+    <!-- Prefetch background images so they load faster next time page loads -->
+    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
 
-  
+    <!-- Script for FontAwesome icons -->
+    <script
+      src="https://kit.fontawesome.com/5918af34b4.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
 
-  <!-- Prefetch background images so they load faster next time page loads -->
-  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
+    <!-- Script for randomly choosing header background -->
+    <script
+      type="text/javascript"
+      src="/assets/scripts/header-random-bg.js"
+      defer
+    ></script>
 
-  <!-- Script for FontAwesome icons -->
-  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
-  
-  <!-- Script for randomly choosing header background -->
-  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
-  
-  <!-- Cloudflare Web Analytics -->
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
+    <!-- Cloudflare Web Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
+    ></script>
 
-  <!-- remove after a couple of months -->
-  <script>
-    const path = window.location.pathname;
-    if (path.startsWith("/events/")) {
-      const newPath = path.replaceAll("_", "-");
-      if (newPath !== path) {
-        window.location.replace(newPath);
+    <!-- remove after a couple of months -->
+    <script>
+      const path = window.location.pathname;
+      if (path.startsWith("/events/")) {
+        const newPath = path.replaceAll("_", "-");
+        if (newPath !== path) {
+          window.location.replace(newPath);
+        }
       }
-    }
-  </script>
-</head>
-
+    </script>
+  </head>
 
   <body>
-
     <header class="page-header noscript" id="page-header--random-bg">
-  <div class="bg">
-    <div id="header-random-background"></div>
-  </div>
-  <div class="navigation-items">
-    <div itemscope itemtype="http://schema.org/Organization">
-      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
-      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
-        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-      </a>
-    </div>
-    <nav class="page-navigation">
-      <ul class="page-navigation__links">
-        
-        
-        
-        <li><a href="/about/">About</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/contact/">Contact</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/events/index.html">Events</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/jobs/">Jobs</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/shop/">Shop</a></li>
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/sponsors">Sponsor us</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/tutorials/">Tutorials</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/wellbeing/">Wellbeing</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      </ul>
-    </nav>
-  </div>
-  
-</header>
+      <div class="bg">
+        <div id="header-random-background"></div>
+      </div>
+      <div class="navigation-items">
+        <div itemscope itemtype="http://schema.org/Organization">
+          <span style="display: none" itemprop="name"
+            >University of Bristol Computer Science Society</span
+          >
+          <a
+            aria-label="Home"
+            href="/"
+            class="page-header__logo"
+            itemprop="url"
+          >
+            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+          </a>
+        </div>
+        <nav class="page-navigation">
+          <ul class="page-navigation__links">
+            <li><a href="/about/">About</a></li>
 
+            <li><a href="/contact/">Contact</a></li>
+
+            <li><a href="/events/index.html">Events</a></li>
+
+            <li><a href="/jobs/">Jobs</a></li>
+
+            <li><a href="/shop/">Shop</a></li>
+
+            <li><a href="/sponsors">Sponsor us</a></li>
+
+            <li><a href="/tutorials/">Tutorials</a></li>
+
+            <li><a href="/wellbeing/">Wellbeing</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
     <section class="page-section">
-  <article class="article">
-    <!-- /* md-file-format-disable */ -->
+      <article class="article">
+        <!-- /* md-file-format-disable */ -->
 
-<h1 id="table-of-contents">Table of Contents</h1>
+        <h1 id="table-of-contents">Table of Contents</h1>
 
-<ul>
-  <li><a href="#table-of-contents">Table of Contents</a></li>
-  <li><a href="#who-is-this-page-for">Who is this page for?</a>
-    <ul>
-      <li><a href="#what-sort-of-problems-does-this-include">What sort of problems does this include?</a></li>
-      <li><a href="#stress-and-mental-health">Stress and Mental Health</a></li>
-      <li><a href="#online-discussion-spaces">Online Discussion Spaces</a></li>
-    </ul>
-  </li>
-  <li><a href="#what-help-is-on-offer">What help is on offer?</a>
-    <ul>
-      <li><a href="#personal-tutors">Personal Tutors</a></li>
-      <li><a href="#senior-tutors">Senior Tutors</a></li>
-      <li><a href="#wellbeing-advisers">Wellbeing advisers</a></li>
-      <li><a href="#residential-life-advisors">Residential life advisors</a></li>
-      <li><a href="#university-student-health-service">University Student Health Service</a></li>
-      <li><a href="#university-student-counselling-service">University Student Counselling Service</a></li>
-      <li><a href="#university-disability-services">University Disability Services</a></li>
-      <li><a href="#bristol-su-justask">Bristol SU JustAsk</a></li>
-      <li><a href="#bristol-nightline">Bristol Nightline</a></li>
-      <li><a href="#university-multi-faith-chaplaincy">University Multi-faith Chaplaincy</a></li>
-      <li><a href="#sex-and-consent">Sex and Consent</a></li>
-      <li><a href="#drugs">Drugs</a></li>
-    </ul>
-  </li>
-</ul>
+        <ul>
+          <li><a href="#table-of-contents">Table of Contents</a></li>
+          <li>
+            <a href="#who-is-this-page-for">Who is this page for?</a>
+            <ul>
+              <li>
+                <a href="#what-sort-of-problems-does-this-include"
+                  >What sort of problems does this include?</a
+                >
+              </li>
+              <li>
+                <a href="#stress-and-mental-health">Stress and Mental Health</a>
+              </li>
+              <li>
+                <a href="#online-discussion-spaces">Online Discussion Spaces</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#what-help-is-on-offer">What help is on offer?</a>
+            <ul>
+              <li><a href="#personal-tutors">Personal Tutors</a></li>
+              <li><a href="#senior-tutors">Senior Tutors</a></li>
+              <li><a href="#wellbeing-advisers">Wellbeing advisers</a></li>
+              <li>
+                <a href="#residential-life-advisors"
+                  >Residential life advisors</a
+                >
+              </li>
+              <li>
+                <a href="#university-student-health-service"
+                  >University Student Health Service</a
+                >
+              </li>
+              <li>
+                <a href="#university-student-counselling-service"
+                  >University Student Counselling Service</a
+                >
+              </li>
+              <li>
+                <a href="#university-disability-services"
+                  >University Disability Services</a
+                >
+              </li>
+              <li><a href="#bristol-su-justask">Bristol SU JustAsk</a></li>
+              <li><a href="#bristol-nightline">Bristol Nightline</a></li>
+              <li>
+                <a href="#university-multi-faith-chaplaincy"
+                  >University Multi-faith Chaplaincy</a
+                >
+              </li>
+              <li><a href="#sex-and-consent">Sex and Consent</a></li>
+              <li><a href="#drugs">Drugs</a></li>
+            </ul>
+          </li>
+        </ul>
 
-<h1 id="who-is-this-page-for">Who is this page for?</h1>
-<p>This page is for all University of Bristol Computer Science students, undergraduate and postgraduate alike. It also serves for students on joint honours courses like Computer Science and Electronics, Computer Science and Maths, and Computer Science with Innovation.</p>
+        <h1 id="who-is-this-page-for">Who is this page for?</h1>
+        <p>
+          This page is for all University of Bristol Computer Science students,
+          undergraduate and postgraduate alike. It also serves for students on
+          joint honours courses like Computer Science and Electronics, Computer
+          Science and Maths, and Computer Science with Innovation.
+        </p>
 
-<p>We aim for this page to hold all of the information you might need to seek support during your time as a student in Bristol. Although we hope your studies will be a smooth ride, a majority of students will face with personal or academic problems at some point during their studies so we encourage everyone to seek support when needed.</p>
+        <p>
+          We aim for this page to hold all of the information you might need to
+          seek support during your time as a student in Bristol. Although we
+          hope your studies will be a smooth ride, a majority of students will
+          face with personal or academic problems at some point during their
+          studies so we encourage everyone to seek support when needed.
+        </p>
 
-<h2 id="what-sort-of-problems-does-this-include">What sort of problems does this include?</h2>
+        <h2 id="what-sort-of-problems-does-this-include">
+          What sort of problems does this include?
+        </h2>
 
-<p>In short, anything that is having a negative impact on your ability to study, or otherwise do the things you want to do. This might include, but is definitely not limited to:</p>
+        <p>
+          In short, anything that is having a negative impact on your ability to
+          study, or otherwise do the things you want to do. This might include,
+          but is definitely not limited to:
+        </p>
 
-<ul>
-  <li>Family problems</li>
-  <li>Bereavement</li>
-  <li>Unrest in your home country</li>
-  <li>Problems with flatmates or friends</li>
-  <li>Financial issues</li>
-  <li>Struggling to cope with deadlines</li>
-  <li>Mental or physical health issues</li>
-  <li>Flare-up of a pre existing problem</li>
-  <li>Sexism, homophobia, racism, transphobia, ableism, or discrimination of any kind</li>
-</ul>
+        <ul>
+          <li>Family problems</li>
+          <li>Bereavement</li>
+          <li>Unrest in your home country</li>
+          <li>Problems with flatmates or friends</li>
+          <li>Financial issues</li>
+          <li>Struggling to cope with deadlines</li>
+          <li>Mental or physical health issues</li>
+          <li>Flare-up of a pre existing problem</li>
+          <li>
+            Sexism, homophobia, racism, transphobia, ableism, or discrimination
+            of any kind
+          </li>
+        </ul>
 
-<p>We are committed to ensuring inclusivity and creating a safe environment for all groups. If you are experiencing any form of discrimination, rest assured that there are people here to help you. You can speak to your personal tutor, wellbeing or residential life advisor or one of our committee members. We are all here to help.</p>
+        <p>
+          We are committed to ensuring inclusivity and creating a safe
+          environment for all groups. If you are experiencing any form of
+          discrimination, rest assured that there are people here to help you.
+          You can speak to your personal tutor, wellbeing or residential life
+          advisor or one of our committee members. We are all here to help.
+        </p>
 
-<p>We would like to highlight two in particular. They are no more or no less important or severe than the others but they are by far the most common in Bristol and the Computer Science community.</p>
+        <p>
+          We would like to highlight two in particular. They are no more or no
+          less important or severe than the others but they are by far the most
+          common in Bristol and the Computer Science community.
+        </p>
 
-<h2 id="stress-and-mental-health">Stress and Mental Health</h2>
-<p>Studying Computer Science can be stressful. Multiple deadlines, exams and group projects can all add up and seem insurmountable. For some people the resulting pressure can affect their health outside of University and their ability to function properly.</p>
+        <h2 id="stress-and-mental-health">Stress and Mental Health</h2>
+        <p>
+          Studying Computer Science can be stressful. Multiple deadlines, exams
+          and group projects can all add up and seem insurmountable. For some
+          people the resulting pressure can affect their health outside of
+          University and their ability to function properly.
+        </p>
 
-<p>This has had issues with being a taboo topic in the past, resulting in unnecessary misunderstanding and grief. We seek to create an environment within the computer science community at Bristol where people feel able to ask for help without worrying about being judged or not gritting their teeth enough and carrying on.</p>
+        <p>
+          This has had issues with being a taboo topic in the past, resulting in
+          unnecessary misunderstanding and grief. We seek to create an
+          environment within the computer science community at Bristol where
+          people feel able to ask for help without worrying about being judged
+          or not gritting their teeth enough and carrying on.
+        </p>
 
-<p>Similarly, if someone does open up to you, it is important that you are comfortable in knowing how to respond! There is a lot of advice online on talking about mental health, and how to seek help. This page is not meant to be a singular guide for that but the services and resources listed will guide you on the right path.</p>
+        <p>
+          Similarly, if someone does open up to you, it is important that you
+          are comfortable in knowing how to respond! There is a lot of advice
+          online on talking about mental health, and how to seek help. This page
+          is not meant to be a singular guide for that but the services and
+          resources listed will guide you on the right path.
+        </p>
 
-<h2 id="online-discussion-spaces">Online Discussion Spaces</h2>
+        <h2 id="online-discussion-spaces">Online Discussion Spaces</h2>
 
-<p>The internet has both wonderful corners and dark ones. We value respect online as much as in person and knowing that there is a human on the other end of the comment thread. Sometimes this gets forgotten.</p>
+        <p>
+          The internet has both wonderful corners and dark ones. We value
+          respect online as much as in person and knowing that there is a human
+          on the other end of the comment thread. Sometimes this gets forgotten.
+        </p>
 
-<p>If you feel uncomfortable in an online space or in person, the department, students union, and university have guidelines on how to resolve the situation. As a union affiliated society, CSS is bound by their safe space policy. Such policies are often drastically misunderstood and end up being ridiculed online. Bristol SU’s safe space policy, recently renamed “code of conduct”, can be read <a href="https://www.bristolsu.org.uk/resources/code-of-conduct-ec57">here</a> so you know exactly what it does and does not say. There are also some guidelines available for how to interpret the safe space policy in a sensible way. Any problems you have yourself or witness as a 3rd party, can be raised with your personal tutor or the students union.</p>
+        <p>
+          If you feel uncomfortable in an online space or in person, the
+          department, students union, and university have guidelines on how to
+          resolve the situation. As a union affiliated society, CSS is bound by
+          their safe space policy. Such policies are often drastically
+          misunderstood and end up being ridiculed online. Bristol SU’s safe
+          space policy, recently renamed “code of conduct”, can be read
+          <a href="https://www.bristolsu.org.uk/resources/code-of-conduct-ec57"
+            >here</a
+          >
+          so you know exactly what it does and does not say. There are also some
+          guidelines available for how to interpret the safe space policy in a
+          sensible way. Any problems you have yourself or witness as a 3rd
+          party, can be raised with your personal tutor or the students union.
+        </p>
 
-<p>Again, none of this is a definitive list. At the end of the day, if you feel that your ability to study is negatively affected by something, the best thing you can do is seek help as soon as possible, and not bottle it up and hope it passes!</p>
+        <p>
+          Again, none of this is a definitive list. At the end of the day, if
+          you feel that your ability to study is negatively affected by
+          something, the best thing you can do is seek help as soon as possible,
+          and not bottle it up and hope it passes!
+        </p>
 
-<h1 id="what-help-is-on-offer">What help is on offer?</h1>
-<h2 id="personal-tutors">Personal Tutors</h2>
+        <h1 id="what-help-is-on-offer">What help is on offer?</h1>
+        <h2 id="personal-tutors">Personal Tutors</h2>
 
-<p>Your personal tutor is your first point of contact for academic issues. It is their job to represent your interests in all matters between yourself and the department.</p>
+        <p>
+          Your personal tutor is your first point of contact for academic
+          issues. It is their job to represent your interests in all matters
+          between yourself and the department.
+        </p>
 
-<p>You should have been told who your personal tutor is, and have met them! If for any reason you don’t know who they are, then you can find out by looking at your profile on SAFE. If you have a serious issue with your personal tutor you have the option to request a different tutor.</p>
+        <p>
+          You should have been told who your personal tutor is, and have met
+          them! If for any reason you don’t know who they are, then you can find
+          out by looking at your profile on SAFE. If you have a serious issue
+          with your personal tutor you have the option to request a different
+          tutor.
+        </p>
 
-<p>Please refer to them for issues relating to any of the following:</p>
-<ul>
-  <li>Academic Support</li>
-  <li>Group Work</li>
-  <li>Exam support/adjustments</li>
-  <li>Peer Problems</li>
-  <li>Staff Problems</li>
-  <li>Extenuating Circumstances</li>
-  <li>Concern about the wellbeing of yourself or a friend</li>
-</ul>
+        <p>Please refer to them for issues relating to any of the following:</p>
+        <ul>
+          <li>Academic Support</li>
+          <li>Group Work</li>
+          <li>Exam support/adjustments</li>
+          <li>Peer Problems</li>
+          <li>Staff Problems</li>
+          <li>Extenuating Circumstances</li>
+          <li>Concern about the wellbeing of yourself or a friend</li>
+        </ul>
 
-<h2 id="senior-tutors">Senior Tutors</h2>
-<p>These tutors are “one up” from your personal tutor, and can be turned to for problems that for whatever reason, you cannot solve with your personal tutor. These might be academic or personal in nature.</p>
+        <h2 id="senior-tutors">Senior Tutors</h2>
+        <p>
+          These tutors are “one up” from your personal tutor, and can be turned
+          to for problems that for whatever reason, you cannot solve with your
+          personal tutor. These might be academic or personal in nature.
+        </p>
 
-<p>The undergraduate Senior Tutor is <strong>David Bernhard</strong> and the Deputy Senior Tutor is <strong>Chris Priest</strong>. The postgraduate Senior Tutor is <strong>Paul O’Dowd</strong>.
-Please refer to them for issues relating to any of the following:</p>
-<ul>
-  <li>Academic Support</li>
-  <li>Group Work</li>
-  <li>Exam support/adjustments</li>
-  <li>Peer Problems</li>
-  <li>Staff Problems</li>
-  <li>Extenuating Circumstances</li>
-  <li>Concern about the wellbeing of yourself or a friend</li>
-</ul>
+        <p>
+          The undergraduate Senior Tutor is <strong>David Bernhard</strong> and
+          the Deputy Senior Tutor is <strong>Chris Priest</strong>. The
+          postgraduate Senior Tutor is <strong>Paul O’Dowd</strong>. Please
+          refer to them for issues relating to any of the following:
+        </p>
+        <ul>
+          <li>Academic Support</li>
+          <li>Group Work</li>
+          <li>Exam support/adjustments</li>
+          <li>Peer Problems</li>
+          <li>Staff Problems</li>
+          <li>Extenuating Circumstances</li>
+          <li>Concern about the wellbeing of yourself or a friend</li>
+        </ul>
 
-<h2 id="wellbeing-advisers">Wellbeing advisers</h2>
-<p>Wellbeing advisers work alongside personal tutors and other staff in the department to provide support. They are not trained to give medical services or counselling.</p>
+        <h2 id="wellbeing-advisers">Wellbeing advisers</h2>
+        <p>
+          Wellbeing advisers work alongside personal tutors and other staff in
+          the department to provide support. They are not trained to give
+          medical services or counselling.
+        </p>
 
-<p>Please refer to them for:</p>
-<ul>
-  <li>Any personal or emotional difficulties you have</li>
-</ul>
+        <p>Please refer to them for:</p>
+        <ul>
+          <li>Any personal or emotional difficulties you have</li>
+        </ul>
 
-<h2 id="residential-life-advisors">Residential life advisors</h2>
+        <h2 id="residential-life-advisors">Residential life advisors</h2>
 
-<p>Residential life advisors are available 24/7/365 to students in halls for just about anything, even things not related to accommodation. If they cannot help directly then they are able to show you the way to people who can.
-<a href="https://www.bristol.ac.uk/students/wellbeing/services/residential-life-service/">More info</a></p>
+        <p>
+          Residential life advisors are available 24/7/365 to students in halls
+          for just about anything, even things not related to accommodation. If
+          they cannot help directly then they are able to show you the way to
+          people who can.
+          <a
+            href="https://www.bristol.ac.uk/students/wellbeing/services/residential-life-service/"
+            >More info</a
+          >
+        </p>
 
-<h2 id="university-student-health-service">University Student Health Service</h2>
-<p>The Student Health Service offers a full NHS General Practice service for all University of Bristol students. They are the best place to go for any medical problems, mental or physical.</p>
+        <h2 id="university-student-health-service">
+          University Student Health Service
+        </h2>
+        <p>
+          The Student Health Service offers a full NHS General Practice service
+          for all University of Bristol students. They are the best place to go
+          for any medical problems, mental or physical.
+        </p>
 
-<p>Please refer to them for issues relating to any of the following:</p>
-<ul>
-  <li>Mental Health Counselling</li>
-  <li>Prescription Medication</li>
-  <li>Depression</li>
-  <li>Eating Disorders</li>
-  <li>Injuries</li>
-  <li>Sexual Health</li>
-  <li>Physical Illness</li>
-  <li>Addiction</li>
-  <li>Violence</li>
-  <li>Extenuating Circumstances</li>
-  <li>Crisis Support</li>
-</ul>
+        <p>Please refer to them for issues relating to any of the following:</p>
+        <ul>
+          <li>Mental Health Counselling</li>
+          <li>Prescription Medication</li>
+          <li>Depression</li>
+          <li>Eating Disorders</li>
+          <li>Injuries</li>
+          <li>Sexual Health</li>
+          <li>Physical Illness</li>
+          <li>Addiction</li>
+          <li>Violence</li>
+          <li>Extenuating Circumstances</li>
+          <li>Crisis Support</li>
+        </ul>
 
-<p><a href="https://www.bristol.ac.uk/students-health/">Student Health Services website</a></p>
+        <p>
+          <a href="https://www.bristol.ac.uk/students-health/"
+            >Student Health Services website</a
+          >
+        </p>
 
-<h2 id="university-student-counselling-service">University Student Counselling Service</h2>
-<p>This is a dedicated service for students who need support or counselling on a wide range of issues including mental health, family, relationships and general wellbeing. They offer individual sessions, group sessions and workshops for specific problems. Group sessions &amp; workshops cover things like specific illnesses, or methods of coping with stress and other problems. The service is confidential and free to use.</p>
-<ul>
-  <li><a href="https://www.bristol.ac.uk/student-counselling/">Student Counselling Homepage</a></li>
-  <li><a href="https://www.bristol.ac.uk/student-counselling/services-offered/groups/">Support Groups Offered</a></li>
-  <li><a href="https://www.bristol.ac.uk/student-counselling/services-offered/workshops/">Workshops</a></li>
-  <li><a href="https://www.bristol.ac.uk/student-counselling/services-offered/one-to-one/">One To One Counselling</a></li>
-</ul>
+        <h2 id="university-student-counselling-service">
+          University Student Counselling Service
+        </h2>
+        <p>
+          This is a dedicated service for students who need support or
+          counselling on a wide range of issues including mental health, family,
+          relationships and general wellbeing. They offer individual sessions,
+          group sessions and workshops for specific problems. Group sessions
+          &amp; workshops cover things like specific illnesses, or methods of
+          coping with stress and other problems. The service is confidential and
+          free to use.
+        </p>
+        <ul>
+          <li>
+            <a href="https://www.bristol.ac.uk/student-counselling/"
+              >Student Counselling Homepage</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.bristol.ac.uk/student-counselling/services-offered/groups/"
+              >Support Groups Offered</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.bristol.ac.uk/student-counselling/services-offered/workshops/"
+              >Workshops</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.bristol.ac.uk/student-counselling/services-offered/one-to-one/"
+              >One To One Counselling</a
+            >
+          </li>
+        </ul>
 
-<p>Please refer to them for issues relating to any of the following:</p>
-<ul>
-  <li>Mental Health Counselling</li>
-  <li>Wellbeing</li>
-  <li>Stress</li>
-  <li>Depression</li>
-  <li>Anxiety</li>
-  <li>Eating Disorders</li>
-  <li>Relationships</li>
-  <li>Grief</li>
-  <li>Addiction</li>
-  <li>Violence</li>
-  <li>Extenuating Circumstances</li>
-</ul>
+        <p>Please refer to them for issues relating to any of the following:</p>
+        <ul>
+          <li>Mental Health Counselling</li>
+          <li>Wellbeing</li>
+          <li>Stress</li>
+          <li>Depression</li>
+          <li>Anxiety</li>
+          <li>Eating Disorders</li>
+          <li>Relationships</li>
+          <li>Grief</li>
+          <li>Addiction</li>
+          <li>Violence</li>
+          <li>Extenuating Circumstances</li>
+        </ul>
 
-<h2 id="university-disability-services">University Disability Services</h2>
-<p>A confidential service providing information, advice and guidance to prospective and current disabled students as well as to staff working with disabled students.</p>
+        <h2 id="university-disability-services">
+          University Disability Services
+        </h2>
+        <p>
+          A confidential service providing information, advice and guidance to
+          prospective and current disabled students as well as to staff working
+          with disabled students.
+        </p>
 
-<p>Please refer to them for issues relating to any of the following:</p>
-<ul>
-  <li>Autism Spectrum Disorders/Aspergers Syndrome</li>
-  <li>Dyslexia, Dyspraxia and other specific learning difficulties</li>
-  <li>Mental health difficulties</li>
-  <li>Mobility impairments</li>
-  <li>Sensory impairments</li>
-  <li>Unseen disabilities like Epilepsy/HIV/AIDS/Chronic Fatigue</li>
-</ul>
+        <p>Please refer to them for issues relating to any of the following:</p>
+        <ul>
+          <li>Autism Spectrum Disorders/Aspergers Syndrome</li>
+          <li>Dyslexia, Dyspraxia and other specific learning difficulties</li>
+          <li>Mental health difficulties</li>
+          <li>Mobility impairments</li>
+          <li>Sensory impairments</li>
+          <li>Unseen disabilities like Epilepsy/HIV/AIDS/Chronic Fatigue</li>
+        </ul>
 
-<p><a href="https://www.bristol.ac.uk/disability-services/">Disability Services Homepage</a></p>
+        <p>
+          <a href="https://www.bristol.ac.uk/disability-services/"
+            >Disability Services Homepage</a
+          >
+        </p>
 
-<h2 id="bristol-su-justask">Bristol SU JustAsk</h2>
-<p>JustAsk aims to be a one-stop shop for student support, signposting students in the right direction where necessary but ensuring support throughout. The service is free, confidential, impartial and accessible to all students. With this in mind we have a range of ways to get advice and support.
-The Just Ask Office is located on the 3rd Floor of the Students’ Union main building on Queens Road in Clifton. You can generally drop by to ask a question or have a chat Monday-Friday from 10am-4pm, but if it is a particularly busy period they may not accept drop-ins in which case it is best to email them.</p>
+        <h2 id="bristol-su-justask">Bristol SU JustAsk</h2>
+        <p>
+          JustAsk aims to be a one-stop shop for student support, signposting
+          students in the right direction where necessary but ensuring support
+          throughout. The service is free, confidential, impartial and
+          accessible to all students. With this in mind we have a range of ways
+          to get advice and support. The Just Ask Office is located on the 3rd
+          Floor of the Students’ Union main building on Queens Road in Clifton.
+          You can generally drop by to ask a question or have a chat
+          Monday-Friday from 10am-4pm, but if it is a particularly busy period
+          they may not accept drop-ins in which case it is best to email them.
+        </p>
 
-<p>Please refer to them for issues relating to any of the following:</p>
-<ul>
-  <li>Mental Health Counselling</li>
-  <li>Wellbeing</li>
-  <li>Support Groups</li>
-  <li>Law &amp; Money</li>
-  <li>Academic Problems</li>
-  <li>Sex</li>
-  <li>Consent</li>
-  <li>Crisis Support</li>
-  <li>Addiction</li>
-  <li>Violence</li>
-</ul>
+        <p>Please refer to them for issues relating to any of the following:</p>
+        <ul>
+          <li>Mental Health Counselling</li>
+          <li>Wellbeing</li>
+          <li>Support Groups</li>
+          <li>Law &amp; Money</li>
+          <li>Academic Problems</li>
+          <li>Sex</li>
+          <li>Consent</li>
+          <li>Crisis Support</li>
+          <li>Addiction</li>
+          <li>Violence</li>
+        </ul>
 
-<p><a href="https://www.bristolsu.org.uk/justask/">JustAsk Homepage</a> · Email: <a href="mailto:bristolsu-justask@bristol.ac.uk">bristolsu-justask@bristol.ac.uk</a></p>
+        <p>
+          <a href="https://www.bristolsu.org.uk/justask/">JustAsk Homepage</a> ·
+          Email:
+          <a href="mailto:bristolsu-justask@bristol.ac.uk"
+            >bristolsu-justask@bristol.ac.uk</a
+          >
+        </p>
 
-<h2 id="bristol-nightline">Bristol Nightline</h2>
-<p>Nightline is a confidential and anonymous chat service for students at the University of Bristol.  It is similar to the Samaritans, with trained (student) volunteers who are there only to listen and not to judge. It is open 8pm to 8am each night. If you find yourself up at two in the morning still writing code and struggling to cope, they are a wonderful friendly ear to your problems. Nightline is also an information service so if you are locked out of your halls and have no data to find the security team’s number so they can let you in, keep in mind the Nightline number is on the back of your Ucard and they can give you the number you are looking for. This also applies to any other situation where you might need the contact details of organisations or parts of the university relevant to your situation.</p>
+        <h2 id="bristol-nightline">Bristol Nightline</h2>
+        <p>
+          Nightline is a confidential and anonymous chat service for students at
+          the University of Bristol. It is similar to the Samaritans, with
+          trained (student) volunteers who are there only to listen and not to
+          judge. It is open 8pm to 8am each night. If you find yourself up at
+          two in the morning still writing code and struggling to cope, they are
+          a wonderful friendly ear to your problems. Nightline is also an
+          information service so if you are locked out of your halls and have no
+          data to find the security team’s number so they can let you in, keep
+          in mind the Nightline number is on the back of your Ucard and they can
+          give you the number you are looking for. This also applies to any
+          other situation where you might need the contact details of
+          organisations or parts of the university relevant to your situation.
+        </p>
 
-<p>Please refer to them for issues relating to any of the following:</p>
-<ul>
-  <li>Everything</li>
-  <li>Mental Health Counselling</li>
-  <li>Wellbeing</li>
-  <li>Friendship</li>
-  <li>Family</li>
-  <li>Stress</li>
-  <li>Anxiety</li>
-</ul>
+        <p>Please refer to them for issues relating to any of the following:</p>
+        <ul>
+          <li>Everything</li>
+          <li>Mental Health Counselling</li>
+          <li>Wellbeing</li>
+          <li>Friendship</li>
+          <li>Family</li>
+          <li>Stress</li>
+          <li>Anxiety</li>
+        </ul>
 
-<p><a href="https://bristol.nightline.ac.uk/">Nightline Homepage</a> · Telephone: 01179 266 266</p>
+        <p>
+          <a href="https://bristol.nightline.ac.uk/">Nightline Homepage</a> ·
+          Telephone: 01179 266 266
+        </p>
 
-<h2 id="university-multi-faith-chaplaincy">University Multi-faith Chaplaincy</h2>
-<p>The University of Bristol Multi-faith Chaplaincy seeks to serve students and staff of all faiths and none by:</p>
-<ul>
-  <li>Providing opportunities to explore spirituality, faith and belief</li>
-  <li>Offering confidential personal support</li>
-  <li>Giving religious advice and information</li>
-  <li>Supporting the University as an institution</li>
-  <li>Supporting local faith communities in their work with, and for, students and staff of the University</li>
-</ul>
+        <h2 id="university-multi-faith-chaplaincy">
+          University Multi-faith Chaplaincy
+        </h2>
+        <p>
+          The University of Bristol Multi-faith Chaplaincy seeks to serve
+          students and staff of all faiths and none by:
+        </p>
+        <ul>
+          <li>
+            Providing opportunities to explore spirituality, faith and belief
+          </li>
+          <li>Offering confidential personal support</li>
+          <li>Giving religious advice and information</li>
+          <li>Supporting the University as an institution</li>
+          <li>
+            Supporting local faith communities in their work with, and for,
+            students and staff of the University
+          </li>
+        </ul>
 
-<p>Please refer to them for issues relating to any of the following:</p>
-<ul>
-  <li>Faith &amp; Spirituality</li>
-  <li>Wellbeing</li>
-  <li>Religious Advice</li>
-  <li>Friendship</li>
-  <li>Family</li>
-</ul>
+        <p>Please refer to them for issues relating to any of the following:</p>
+        <ul>
+          <li>Faith &amp; Spirituality</li>
+          <li>Wellbeing</li>
+          <li>Religious Advice</li>
+          <li>Friendship</li>
+          <li>Family</li>
+        </ul>
 
-<p><a href="http://www.bristol.ac.uk/chaplaincy/">Chaplaincy Homepage</a></p>
+        <p>
+          <a href="http://www.bristol.ac.uk/chaplaincy/">Chaplaincy Homepage</a>
+        </p>
 
-<h2 id="sex-and-consent">Sex and Consent</h2>
-<p>The University offers a lot of support and information around sex, consent, and clearing up myths and misunderstandings. If you don’t know what the fuss is about, want to understand more about consent, or need support for yourself or a friend, then the University can help. It is nothing to be embarrassed about.
-Please refer to them for issues relating to any of the following:</p>
-<ul>
-  <li>Sex</li>
-  <li>Consent</li>
-  <li>Crisis Support</li>
-</ul>
+        <h2 id="sex-and-consent">Sex and Consent</h2>
+        <p>
+          The University offers a lot of support and information around sex,
+          consent, and clearing up myths and misunderstandings. If you don’t
+          know what the fuss is about, want to understand more about consent, or
+          need support for yourself or a friend, then the University can help.
+          It is nothing to be embarrassed about. Please refer to them for issues
+          relating to any of the following:
+        </p>
+        <ul>
+          <li>Sex</li>
+          <li>Consent</li>
+          <li>Crisis Support</li>
+        </ul>
 
-<p><a href="http://www.bristol.ac.uk/students/services/consent/">University Consent Homepage</a></p>
+        <p>
+          <a href="http://www.bristol.ac.uk/students/services/consent/"
+            >University Consent Homepage</a
+          >
+        </p>
 
-<h2 id="drugs">Drugs</h2>
+        <h2 id="drugs">Drugs</h2>
 
-<p>University is the place where many of us try new things and explore more of the world. Sometimes, that includes drugs. If you are worried about your or a friend’s drug use, the University has a list of resources that can be found <a href="https://www.bristol.ac.uk/students/wellbeing/self-help/drugs/">here</a>. <strong>Keep yourself safe.</strong></p>
+        <p>
+          University is the place where many of us try new things and explore
+          more of the world. Sometimes, that includes drugs. If you are worried
+          about your or a friend’s drug use, the University has a list of
+          resources that can be found
+          <a
+            href="https://www.bristol.ac.uk/students/wellbeing/self-help/drugs/"
+            >here</a
+          >. <strong>Keep yourself safe.</strong>
+        </p>
 
-<p>You should avoid drugs, but if you are going to take them do it <strong>responsibly</strong>. In addition to the university’s resources it’s worth visiting the following websites.</p>
+        <p>
+          You should avoid drugs, but if you are going to take them do it
+          <strong>responsibly</strong>. In addition to the university’s
+          resources it’s worth visiting the following websites.
+        </p>
 
-<ul>
-  <li><a href="https://psychonautwiki.org">psychonautwiki.org</a>: A website documenting the effects of drugs, safe dosing, usage, and user experiences. The dangerous combinations section should be looked at if you plan on using 2 substances together even if you have done it before. Take a look at volumetric dosing too as eyeballing a dose can have serious and permanent side-effects.</li>
-  <li><a href="https://wedinos.org">wedinos.org</a>: A free drug identification project. Any substance you buy will usually be cut or sometimes not even be the intended product. This is especially true for products like pills where it’s extremely difficult to see the contents. Wedinos offers a free identification program where you can mail in a sample to be tested.</li>
-  <li><a href="https://energycontrol-international.org">energycontrol-international.org</a>: A much more comprehensive paid testing service where the substances will not only be identified but provided with their exact dose as well. Very useful for less common substances like LSD and pills as well as knowing the exact contents of drugs like cannabis.</li>
-  <li><a href="https://dnstars.vip">dnstars.vip</a>: A community funded project for testing darknet products using services like wedinos and energy control. Primarily helps to avoid cuts and replacements before buying.</li>
-</ul>
-
-
-  </article>
-</section>
-
+        <ul>
+          <li>
+            <a href="https://psychonautwiki.org">psychonautwiki.org</a>: A
+            website documenting the effects of drugs, safe dosing, usage, and
+            user experiences. The dangerous combinations section should be
+            looked at if you plan on using 2 substances together even if you
+            have done it before. Take a look at volumetric dosing too as
+            eyeballing a dose can have serious and permanent side-effects.
+          </li>
+          <li>
+            <a href="https://wedinos.org">wedinos.org</a>: A free drug
+            identification project. Any substance you buy will usually be cut or
+            sometimes not even be the intended product. This is especially true
+            for products like pills where it’s extremely difficult to see the
+            contents. Wedinos offers a free identification program where you can
+            mail in a sample to be tested.
+          </li>
+          <li>
+            <a href="https://energycontrol-international.org"
+              >energycontrol-international.org</a
+            >: A much more comprehensive paid testing service where the
+            substances will not only be identified but provided with their exact
+            dose as well. Very useful for less common substances like LSD and
+            pills as well as knowing the exact contents of drugs like cannabis.
+          </li>
+          <li>
+            <a href="https://dnstars.vip">dnstars.vip</a>: A community funded
+            project for testing darknet products using services like wedinos and
+            energy control. Primarily helps to avoid cuts and replacements
+            before buying.
+          </li>
+        </ul>
+      </article>
+    </section>
 
     <section class="page-section sponsorsec">
-    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
-    <div class="sponsors">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-            
-<a
-  href="https://www.bloomberg.com"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Bloomberg"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/bloomberg.svg"
-    alt="Bloomberg"
-    width="130"
-    height="170"
-  />
-</a>
+      <h1 class="sponsors-title">
+        <a href="/pages/sponsors">Proudly sponsored by</a>
+      </h1>
+      <div class="sponsors">
+        <a
+          href="https://www.bloomberg.com"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Bloomberg"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/bloomberg.svg"
+            alt="Bloomberg"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-      
-        
-          
-            
-<a
-  href="https://www.caci.co.uk"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="CACI"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/caci.png"
-    alt="CACI"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.caci.co.uk"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="CACI"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/caci.png"
+            alt="CACI"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-            
-<a
-  href="/companies/tpp/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="TPP"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/tpp.png"
-    alt="TPP"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="/companies/tpp/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="TPP"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/tpp.png"
+            alt="TPP"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-            
-<a
-  href="https://www.publicissapient.com/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Publicis Sapient"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/publicis_sapient.svg"
-    alt="Publicis Sapient"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.publicissapient.com/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Publicis Sapient"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/publicis_sapient.svg"
+            alt="Publicis Sapient"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-          
-            
-<a
-  href="https://www.qualcomm.com/home"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Qualcomm"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/qualcomm.png"
-    alt="Qualcomm"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.qualcomm.com/home"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Qualcomm"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/qualcomm.png"
+            alt="Qualcomm"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-          
-            
-<a
-  href="https://www.qube-rt.com/careers/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Qube Research & Technologies"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/qube-rt.svg"
-    alt="Qube Research & Technologies"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.qube-rt.com/careers/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Qube Research & Technologies"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/qube-rt.svg"
+            alt="Qube Research & Technologies"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-            
-<a
-  href="https://www.xmos.ai/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="XMOS"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/xmos.svg"
-    alt="XMOS"
-    width="130"
-    height="170"
-  />
-</a>
-
-          
-        
-      
-    </div>
-    <div class="sponsors__action_item">
-      <a href="/pages/sponsors">Learn more about working with us.</a>
-    </div>
-</section>
-
+        <a
+          href="https://www.xmos.ai/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="XMOS"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/xmos.svg"
+            alt="XMOS"
+            width="130"
+            height="170"
+          />
+        </a>
+      </div>
+      <div class="sponsors__action_item">
+        <a href="/pages/sponsors">Learn more about working with us.</a>
+      </div>
+    </section>
 
     <footer class="page-footer">
-  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
-  <nav class="page-footer__menu">
-    <ul>
-    
-    
-      
-      <li>
-        <a class="page-link" href="/about/">About</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/contact/">Contact</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/events/index.html">Events</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/jobs/">Jobs</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/shop/">Shop</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/sponsors">Sponsor us</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/tutorials/">Tutorials</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/wellbeing/">Wellbeing</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    </ul>
-  </nav>
-</footer>
+      <span class="page-footer__text"
+        >&copy; University of Bristol Computer Science Society</span
+      >
+      <nav class="page-footer__menu">
+        <ul>
+          <li>
+            <a class="page-link" href="/about/">About</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/contact/">Contact</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/events/index.html">Events</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/jobs/">Jobs</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/shop/">Shop</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/sponsors">Sponsor us</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/tutorials/">Tutorials</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/wellbeing/">Wellbeing</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
-
 </html>
