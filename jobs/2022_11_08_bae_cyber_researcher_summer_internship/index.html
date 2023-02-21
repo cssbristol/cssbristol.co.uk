@@ -1,678 +1,1126 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="/assets/favicons/apple-touch-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="/assets/favicons/apple-touch-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="/assets/favicons/apple-touch-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="/assets/favicons/apple-touch-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="/assets/favicons/apple-touch-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="/assets/favicons/apple-touch-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="/assets/favicons/apple-touch-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="/assets/favicons/apple-touch-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/assets/favicons/apple-touch-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-32x32.png"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-194x194.png"
-      sizes="194x194"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-96x96.png"
-      sizes="96x96"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/android-chrome-192x192.png"
-      sizes="192x192"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-16x16.png"
-      sizes="16x16"
-    />
-    <link rel="manifest" href="/assets/favicons/manifest.json" />
-    <link
-      rel="mask-icon"
-      href="/assets/favicons/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#3498db" />
-    <meta
-      name="msapplication-TileImage"
-      content="/assets/favicons/mstile-144x144.png"
-    />
-    <meta name="theme-color" content="#3498db" />
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/assets/favicons/manifest.json">
+<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#3498db">
+<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+<meta name="theme-color" content="#3498db">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta
-      name="description"
-      content="Did you take part in the BAE Systems CTF? Make sure to mention it on your application!"
-    />
+  <meta name="description" content="Did you take part in the BAE Systems CTF? Make sure to mention it on your application!">
 
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:title"
-      content="Summer Internship - Operational Cyber Researcher - CSS Bristol"
-    />
-    <meta
-      property="og:description"
-      content="Did you take part in the BAE Systems CTF? Make sure to mention it on your application!"
-    />
-    <meta
-      property="og:image"
-      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
-    />
-    <meta
-      property="og:url"
-      content="https://cssbristol.co.uk/jobs/2022_11_08_bae_cyber_researcher_summer_internship/"
-    />
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Summer Internship - Operational Cyber Researcher - CSS Bristol">
+<meta property="og:description" content="Did you take part in the BAE Systems CTF? Make sure to mention it on your application!">
+<meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
+<meta property="og:url" content="https://cssbristol.co.uk/jobs/2022_11_08_bae_cyber_researcher_summer_internship/">
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Summer Internship - Operational Cyber Researcher - CSS Bristol"
-    />
-    <meta
-      name="twitter:description"
-      content="Did you take part in the BAE Systems CTF? Make sure to mention it on your application!"
-    />
-    <meta
-      name="twitter:image"
-      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
-    />
-    <meta name="twitter:site" content="@cssbristol" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Summer Internship - Operational Cyber Researcher - CSS Bristol">
+<meta name="twitter:description" content="Did you take part in the BAE Systems CTF? Make sure to mention it on your application!">
+<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
+<meta name="twitter:site" content="@cssbristol">
+ 
 
-    <title>
-      Summer Internship - Operational Cyber Researcher - CSS Bristol
-    </title>
 
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    />
+  <title>Summer Internship - Operational Cyber Researcher - CSS Bristol</title>
 
-    <link rel="stylesheet" href="/assets/css/site.css" />
-    <link
-      rel="canonical"
-      href="https://cssbristol.co.uk/jobs/2022_11_08_bae_cyber_researcher_summer_internship/"
-    />
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
 
-    <!-- Prefetch background images so they load faster next time page loads -->
-    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+  <link rel="canonical" href="https://cssbristol.co.uk/jobs/2022_11_08_bae_cyber_researcher_summer_internship/" />
+  
 
-    <!-- Script for FontAwesome icons -->
-    <script
-      src="https://kit.fontawesome.com/5918af34b4.js"
-      crossorigin="anonymous"
-      defer
-    ></script>
+  
 
-    <!-- Script for randomly choosing header background -->
-    <script
-      type="text/javascript"
-      src="/assets/scripts/header-random-bg.js"
-      defer
-    ></script>
+  <!-- Prefetch background images so they load faster next time page loads -->
+  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
 
-    <!-- Cloudflare Web Analytics -->
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
-    ></script>
+  <!-- Script for FontAwesome icons -->
+  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
+  
+  <!-- Script for randomly choosing header background -->
+  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
+  
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
 
-    <!-- remove after a couple of months -->
-    <script>
-      const path = window.location.pathname;
-      if (path.startsWith("/events/")) {
-        const newPath = path.replaceAll("_", "-");
-        if (newPath !== path) {
-          window.location.replace(newPath);
-        }
+  <!-- remove after a couple of months -->
+  <script>
+    const path = window.location.pathname;
+    if (path.startsWith("/events/")) {
+      const newPath = path.replaceAll("_", "-");
+      if (newPath !== path) {
+        window.location.replace(newPath);
       }
-    </script>
-  </head>
+    }
+  </script>
+</head>
+
 
   <body>
+
     <header class="page-header noscript" id="page-header--random-bg">
-      <div class="bg">
-        <div id="header-random-background"></div>
-      </div>
-      <div class="navigation-items">
-        <div itemscope itemtype="http://schema.org/Organization">
-          <span style="display: none" itemprop="name"
-            >University of Bristol Computer Science Society</span
-          >
-          <a
-            aria-label="Home"
-            href="/"
-            class="page-header__logo"
-            itemprop="url"
-          >
-            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-          </a>
-        </div>
-        <nav class="page-navigation">
-          <ul class="page-navigation__links">
-            <li><a href="/about/">About</a></li>
+  <div class="bg">
+    <div id="header-random-background"></div>
+  </div>
+  <div class="navigation-items">
+    <div itemscope itemtype="http://schema.org/Organization">
+      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
+      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
+        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+      </a>
+    </div>
+    <nav class="page-navigation">
+      <ul class="page-navigation__links">
+        
+        
+        
+        <li><a href="/about/">About</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/contact/">Contact</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/events/index.html">Events</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/jobs/">Jobs</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/shop/">Shop</a></li>
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/sponsors">Sponsor us</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/tutorials/">Tutorials</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/wellbeing/">Wellbeing</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </nav>
+  </div>
+  
+</header>
 
-            <li><a href="/contact/">Contact</a></li>
-
-            <li><a href="/events/index.html">Events</a></li>
-
-            <li><a href="/jobs/">Jobs</a></li>
-
-            <li><a href="/shop/">Shop</a></li>
-
-            <li><a href="/sponsors">Sponsor us</a></li>
-
-            <li><a href="/tutorials/">Tutorials</a></li>
-
-            <li><a href="/wellbeing/">Wellbeing</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
 
     <section class="page-section">
-      <article class="article extrawide event-page">
-        <section>
-          <h1 class="event-page__title">
-            Summer Internship - Operational Cyber Researcher at BAE Systems
-          </h1>
-          <div class="blog-post__body">
-            <p>
-              <strong
-                ><em
-                  >Did you take part in the
-                  <a href="https://cssbristol.co.uk/events/2022-10-29-bae-ctf/"
-                    >BAE Systems CTF</a
-                  >? Make sure to mention it on your application!</em
-                ></strong
-              >
-            </p>
+  <article class="article extrawide event-page">
+    <section>
+      <h1 class="event-page__title">Summer Internship - Operational Cyber Researcher at BAE Systems</h1>
+      <div class="blog-post__body"><p><strong><em>Did you take part in the <a href="https://cssbristol.co.uk/events/2022-10-29-bae-ctf/">BAE Systems CTF</a>? Make sure to mention it on your application!</em></strong></p>
 
-            <p>
-              BAE Systems Digital Intelligence is home to 4,800 digital, cyber
-              and intelligence experts. We work collaboratively across 16
-              countries to collect, connect and understand complex data, so that
-              governments, nation states, armed forces and commercial businesses
-              can unlock digital advantage in the most demanding environments.
-            </p>
+<p>BAE Systems Digital Intelligence is home to 4,800 digital, cyber and intelligence experts. We work collaboratively across 16 countries to collect, connect and understand complex data, so that governments, nation states, armed forces and commercial businesses can unlock digital advantage in the most demanding environments.</p>
 
-            <p>
-              <strong>BAE Systems Digital Intelligence</strong><br />
-              <strong
-                >Cyber &amp; Vulnerability Research Summer Internship</strong
-              ><br />
-              <strong>Start date:</strong> June 2023<br />
-              <strong>Base location:</strong> London or Gloucester
-            </p>
+<p><strong>BAE Systems Digital Intelligence</strong><br />
+<strong>Cyber &amp; Vulnerability Research Summer Internship</strong><br />
+<strong>Start date:</strong> June 2023<br />
+<strong>Base location:</strong> London or Gloucester</p>
 
-            <p>
-              Here at BAE Systems Digital Intelligence, we are committed to
-              helping governments, organisations and society navigate digital
-              threats and opportunities. Whether it’s leveraging data to
-              digitally transform operations or securing organisations and
-              nations from cyber threats, we combine our unrivalled security and
-              engineering heritage to help our clients navigate the data-reliant
-              digital landscape.
-            </p>
+<p>Here at BAE Systems Digital Intelligence, we are committed to helping governments, organisations and society navigate digital threats and opportunities. Whether it’s leveraging data to digitally transform operations or securing organisations and nations from cyber threats, we combine our unrivalled security and engineering heritage to help our clients navigate the data-reliant digital landscape.</p>
 
-            <p>
-              As the cyber and intelligence arm of BAE Systems, we employ over
-              4,800 people across 15 countries in North America, APAC, Europe
-              and the Middle East. With our distinguished heritage, we relish
-              the opportunity to transform digital and data practices, defence,
-              intelligence, security and society for government agencies, law
-              enforcement, financial services, and critical infrastructure.
-            </p>
+<p>As the cyber and intelligence arm of BAE Systems, we employ over 4,800 people across 15 countries in North America, APAC, Europe and the Middle East. With our distinguished heritage, we relish the opportunity to transform digital and data practices, defence, intelligence, security and society for government agencies, law enforcement, financial services, and critical infrastructure.</p>
 
-            <p>
-              The Summer Internship programme aims to provide an environment
-              that supports the acquisition of knowledge and experience from
-              industry best practices and importantly, provide roles allowing
-              the application of that understanding through practical experience
-              in day-to-day roles.
-            </p>
+<p>The Summer Internship programme aims to provide an environment that supports the acquisition of knowledge and experience from industry best practices and importantly, provide roles allowing the application of that understanding through practical experience in day-to-day roles.</p>
 
-            <p>
-              You will be part of our Future Talent Community and be assigned a
-              Career Manager, who will support and guide you throughout your
-              career with us. All of this is designed to complement your career
-              development, fuel your ambition, and give depth to your training
-              and career.
-            </p>
+<p>You will be part of our Future Talent Community and be assigned a Career Manager, who will support and guide you throughout your career with us. All of this is designed to complement your career development, fuel your ambition, and give depth to your training and career.</p>
 
-            <h2 id="role-profile">Role Profile</h2>
-            <p>
-              You will work as a part of a project team, alongside skilled and
-              experienced individuals who are motivated to train and coach you
-              on the day-to-day skills required to work closely with our
-              customers, both internal and external. You will learn the tools,
-              techniques and approaches used by engineering professionals and
-              apply them in a controlled environment to ensure projects are
-              delivered on time, to quality and to budget. Engineering Interns
-              will support their team to ensure that engineering practices are
-              followed on all aspects of project definition and delivery.
-            </p>
+<h2 id="role-profile">Role Profile</h2>
+<p>You will work as a part of a project team, alongside skilled and experienced individuals who are motivated to train and coach you on the day-to-day skills required to work closely with our customers, both internal and external. You will learn the tools, techniques and approaches used by engineering professionals and apply them in a controlled environment to ensure projects are delivered on time, to quality and to budget. Engineering Interns will support their team to ensure that engineering practices are followed on all aspects of project definition and delivery.</p>
 
-            <p>
-              We are looking for talented developers and researchers who can
-              solve our customers’ hardest problems. Trust us; these are not the
-              kind of problems you’ll get at a hedge fund, a Shoreditch start-up
-              or even a Silicon Valley tech company. Our customers and the
-              things they want to do are pretty unique. We work across a range
-              of platforms including desktop, mobile and embedded systems and a
-              range of languages including Python, C#, Java and C++.
-            </p>
+<p>We are looking for talented developers and researchers who can solve our customers’ hardest problems. Trust us; these are not the kind of problems you’ll get at a hedge fund, a Shoreditch start-up or even a Silicon Valley tech company. Our customers and the things they want to do are pretty unique. We work across a range of platforms including desktop, mobile and embedded systems and a range of languages including Python, C#, Java and C++.</p>
 
-            <p>
-              This is an exciting role for people who love computers and
-              technology, working in the most deeply technical part of the Cyber
-              Security domain. Whether it’s researching new technologies or
-              creating software that makes a difference in the real world,
-              you’ll always be working at the cutting edge of what’s possible.
-              Working in the Cyber and Vulnerability Research area is a hands-on
-              job, so we want people who genuinely enjoy a challenge and getting
-              stuck in to making software or taking systems apart to see how
-              they work.
-            </p>
+<p>This is an exciting role for people who love computers and technology, working in the most deeply technical part of the Cyber Security domain. Whether it’s researching new technologies or creating software that makes a difference in the real world, you’ll always be working at the cutting edge of what’s possible. Working in the Cyber and Vulnerability Research area is a hands-on job, so we want people who genuinely enjoy a challenge and getting stuck in to making software or taking systems apart to see how they work.</p>
 
-            <p>Day to day tasks could include:</p>
-            <ul>
-              <li>
-                Working with varied technologies, using the latest and current
-                versions
-              </li>
-              <li>Working within teams to develop high assurance products</li>
-              <li>Performing cutting edge research</li>
-              <li>
-                Developing novel and innovate solution to challenging problems
-              </li>
-              <li>
-                Interacting with customers and reacting rapidly to changing
-                requirements
-              </li>
-            </ul>
+<p>Day to day tasks could include:</p>
+<ul>
+  <li>Working with varied technologies, using the latest and current versions</li>
+  <li>Working within teams to develop high assurance products</li>
+  <li>Performing cutting edge research</li>
+  <li>Developing novel and innovate solution to challenging problems</li>
+  <li>Interacting with customers and reacting rapidly to changing requirements</li>
+</ul>
 
-            <h2 id="desired-technical-ability">Desired Technical Ability</h2>
-            <p>Aptitude in one or more of the following:</p>
-            <ul>
-              <li>Microsoft – C, C#, C++, .NET</li>
-              <li>
-                Mobile – iOS (Swift, Objective-C), Android (Java, Kotlin, C++)
-              </li>
-              <li>
-                Vulnerability Research &amp; Reverse Engineering
-                (IDA/Ghidra/Binary Ninja, Frida)
-              </li>
-              <li>Web - HTML, JavaScript, Web Sockets, Web Assembly, REST</li>
-              <li>O/S - Linux, Windows, MacOS</li>
-              <li>Wearables – Android, Apple, Other.</li>
-            </ul>
+<h2 id="desired-technical-ability">Desired Technical Ability</h2>
+<p>Aptitude in one or more of the following:</p>
+<ul>
+  <li>Microsoft – C, C#, C++, .NET</li>
+  <li>Mobile – iOS (Swift, Objective-C), Android (Java, Kotlin, C++)</li>
+  <li>Vulnerability Research &amp; Reverse Engineering (IDA/Ghidra/Binary Ninja, Frida)</li>
+  <li>Web - HTML, JavaScript, Web Sockets, Web Assembly, REST</li>
+  <li>O/S - Linux, Windows, MacOS</li>
+  <li>Wearables – Android, Apple, Other.</li>
+</ul>
 
-            <h2 id="entry-requirements">Entry Requirements</h2>
-            <ul>
-              <li>
-                You will need to be on track to achieve a 2:2 or above in a STEM
-                related subject
-              </li>
-              <li>
-                Only those with the permanent and unrestricted right to live and
-                work in the UK can be considered for a position within BAE
-                Systems Applied Intelligence. Due to the nature of our work,
-                successful candidates for this role will be required to go
-                through Government Security Clearance, prior to starting with
-                us.
-              </li>
-            </ul>
+<h2 id="entry-requirements">Entry Requirements</h2>
+<ul>
+  <li>You will need to be on track to achieve a 2:2 or above in a STEM related subject</li>
+  <li>Only those with the permanent and unrestricted right to live and work in the UK can be considered for a position within BAE Systems Applied Intelligence. Due to the nature of our work, successful candidates for this role will be required to go through Government Security Clearance, prior to starting with us.</li>
+</ul>
 
-            <h2 id="desired-competencies">Desired Competencies</h2>
-            <ul>
-              <li>Excellent analytical and numerical skills</li>
-              <li>Clear and effective communication skills</li>
-              <li>Articulate, both verbally and in writing</li>
-              <li>Strong interpersonal skills</li>
-              <li>Objective and logical with an enquiring and creative mind</li>
-              <li>Ability to work as part of a team</li>
-              <li>Resilience under pressure</li>
-              <li>Desire to learn</li>
-              <li>Competence in Microsoft Office packages/ IT literate</li>
-            </ul>
+<h2 id="desired-competencies">Desired Competencies</h2>
+<ul>
+  <li>Excellent analytical and numerical skills</li>
+  <li>Clear and effective communication skills</li>
+  <li>Articulate, both verbally and in writing</li>
+  <li>Strong interpersonal skills</li>
+  <li>Objective and logical with an enquiring and creative mind</li>
+  <li>Ability to work as part of a team</li>
+  <li>Resilience under pressure</li>
+  <li>Desire to learn</li>
+  <li>Competence in Microsoft Office packages/ IT literate</li>
+</ul>
 
-            <p>
-              We expect great things of our Summer Interns. In return, you can
-              expect a £19,500 annual salary (pro-rota) and 5.5 days of holiday
-              and product &amp; service discounts.
-            </p>
+<p>We expect great things of our Summer Interns. In return, you can expect a £19,500 annual salary (pro-rota) and 5.5 days of holiday and product &amp; service discounts.</p>
 
-            <h2 id="whats-next">What’s next?</h2>
-            <ul>
-              <li>CV submission &amp; review</li>
-              <li>Digital assessment</li>
-              <li>Live Interview</li>
-            </ul>
+<h2 id="whats-next">What’s next?</h2>
+<ul>
+  <li>CV submission &amp; review</li>
+  <li>Digital assessment</li>
+  <li>Live Interview</li>
+</ul>
 
-            <h2 id="life-at-bae-systems-digital-intelligence">
-              Life at BAE Systems Digital Intelligence
-            </h2>
-            <p>
-              We are embracing Hybrid Working. This means you and your
-              colleagues may be working in different locations, such as from
-              home, another BAE Systems office or client site, some or all of
-              the time, and work might be going on at different times of the
-              day. By embracing technology, we can interact, collaborate and
-              create together, even when we’re working remotely from one
-              another. Hybrid Working allows for increased flexibility in when
-              and where we work, helping us to balance our work and personal
-              life more effectively, and enhance well-being.
-            </p>
+<h2 id="life-at-bae-systems-digital-intelligence">Life at BAE Systems Digital Intelligence</h2>
+<p>We are embracing Hybrid Working. This means you and your colleagues may be working in different locations, such as from home, another BAE Systems office or client site, some or all of the time, and work might be going on at different times of the day. By embracing technology, we can interact, collaborate and create together, even when we’re working remotely from one another. Hybrid Working allows for increased flexibility in when and where we work, helping us to balance our work and personal life more effectively, and enhance well-being.</p>
 
-            <p>
-              Diversity and inclusion are integral to the success of BAE Systems
-              Digital Intelligence. We are proud to have an organisational
-              culture where employees with varying perspectives, skills, life
-              experiences and backgrounds – the best and brightest minds – can
-              work together to achieve excellence and realise individual and
-              organisational potential.
-            </p>
-          </div>
-        </section>
-        <section class="event-page__details">
-          <h2>The Details</h2>
-
-          <div class="event-page__details__row job-details">
-            <i
-              class="fas fa-building"
-              data-tooltip="Hiring Company"
-              aria-label="Hiring Company"
-            ></i>
-
-            <a
-              href="https://www.baesystems.com/en/cybersecurity/home"
-              target="_blank"
-              rel="noopener sponsored"
-              data-tooltip="BAE Systems"
-              class="company-logo"
-            >
-              <img
-                src="/assets/images/contrib/companies/BAE_Logo.svg"
-                alt="BAE Systems"
-                width="130"
-                height="170"
-              />
-            </a>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-calendar-day"
-              data-tooltip="Start Date"
-              aria-label="Start Date"
-            ></i>
-            <p>June 2023</p>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-map-marker"
-              data-tooltip="Job Location"
-              aria-label="Job Location"
-            ></i>
-            <p>London or Gloucester</p>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-user-clock"
-              data-tooltip="Employment type"
-              aria-label="Employment Type"
-            ></i>
-            <p>Summer Internship</p>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-hourglass-end"
-              data-tooltip="Apply by"
-              aria-label="Apply by"
-            ></i>
-            <p>31/12/22 00:00</p>
-          </div>
-
-          <div class="event-page__details__hosted-with">
-            <hr />
-
-            <a
-              class="btn btn--dark"
-              style="margin: 20px"
-              target="_blank"
-              href="https://cybercareers.baesystems.com/job/London-Summer-Internship-Operational-Cyber-Researcher-June-2023/858467201/"
-            >
-              Apply Here
-            </a>
-          </div>
-        </section>
-      </article>
+<p>Diversity and inclusion are integral to the success of BAE Systems Digital Intelligence. We are proud to have an organisational culture where employees with varying perspectives, skills, life experiences and backgrounds – the best and brightest minds – can work together to achieve excellence and realise individual and organisational potential.</p>
+</div>
     </section>
+    <section class="event-page__details">
+      <h2>The Details</h2>
+      
+      <div class="event-page__details__row job-details">
+        <i class="fas fa-building" data-tooltip="Hiring Company" aria-label="Hiring Company"></i>
+        
+        
+<a
+  href="https://www.baesystems.com/en/cybersecurity/home"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="BAE Systems"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/BAE_Logo.svg"
+    alt="BAE Systems"
+    width="130"
+    height="170"
+  />
+</a>
+
+        
+      </div>
+      
+      
+      <div class="event-page__details__row">
+        <i class="fas fa-calendar-day" data-tooltip="Start Date" aria-label="Start Date"></i>
+        <p>June 2023</p>
+      </div>
+      
+      
+      <div class="event-page__details__row">
+        <i class="fas fa-map-marker" data-tooltip="Job Location" aria-label="Job Location"></i>
+        <p>London or Gloucester</p>
+      </div>
+      
+      
+      
+      <div class="event-page__details__row">
+        <i class="fas fa-user-clock" data-tooltip="Employment type" aria-label="Employment Type"></i>
+        <p>Summer Internship</p>
+      </div>
+      
+      
+      <div class="event-page__details__row">
+        <i class="fas fa-hourglass-end" data-tooltip="Apply by" aria-label="Apply by"></i>
+        <p>
+          31/12/22 00:00
+        </p>
+      </div>
+      
+      
+      <div class="event-page__details__hosted-with">
+        <hr />
+        
+        <a class="btn btn--dark" style="margin: 20px" target="_blank" href="https://cybercareers.baesystems.com/job/London-Summer-Internship-Operational-Cyber-Researcher-June-2023/858467201/">
+          Apply Here
+        </a>
+        
+        
+      </div>
+      
+    </section>
+  </article>
+</section>
 
     <section class="page-section sponsorsec">
-      <h1 class="sponsors-title">
-        <a href="/pages/sponsors">Proudly sponsored by</a>
-      </h1>
-      <div class="sponsors">
-        <a
-          href="https://www.bloomberg.com"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Bloomberg"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/bloomberg.svg"
-            alt="Bloomberg"
-            width="130"
-            height="170"
-          />
-        </a>
+    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
+    <div class="sponsors">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            
+<a
+  href="https://www.bloomberg.com"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Bloomberg"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/bloomberg.svg"
+    alt="Bloomberg"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.caci.co.uk"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="CACI"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/caci.png"
-            alt="CACI"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+      
+        
+      
+        
+          
+            
+<a
+  href="https://www.caci.co.uk"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="CACI"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/caci.png"
+    alt="CACI"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="/companies/tpp/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="TPP"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/tpp.png"
-            alt="TPP"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+            
+<a
+  href="/companies/tpp/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="TPP"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/tpp.png"
+    alt="TPP"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.publicissapient.com/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Publicis Sapient"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/publicis_sapient.svg"
-            alt="Publicis Sapient"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+            
+<a
+  href="https://www.publicissapient.com/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Publicis Sapient"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/publicis_sapient.svg"
+    alt="Publicis Sapient"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.qualcomm.com/home"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Qualcomm"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/qualcomm.png"
-            alt="Qualcomm"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+          
+            
+<a
+  href="https://www.qualcomm.com/home"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qualcomm"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qualcomm.png"
+    alt="Qualcomm"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.qube-rt.com/careers/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Qube Research & Technologies"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/qube-rt.svg"
-            alt="Qube Research & Technologies"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+          
+            
+<a
+  href="https://www.qube-rt.com/careers/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qube Research & Technologies"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qube-rt.svg"
+    alt="Qube Research & Technologies"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.xmos.ai/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="XMOS"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/xmos.svg"
-            alt="XMOS"
-            width="130"
-            height="170"
-          />
-        </a>
-      </div>
-      <div class="sponsors__action_item">
-        <a href="/pages/sponsors">Learn more about working with us.</a>
-      </div>
-    </section>
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+            
+<a
+  href="https://www.xmos.ai/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="XMOS"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/xmos.svg"
+    alt="XMOS"
+    width="130"
+    height="170"
+  />
+</a>
+
+          
+        
+      
+    </div>
+    <div class="sponsors__action_item">
+      <a href="/pages/sponsors">Learn more about working with us.</a>
+    </div>
+</section>
+
 
     <footer class="page-footer">
-      <span class="page-footer__text"
-        >&copy; University of Bristol Computer Science Society</span
-      >
-      <nav class="page-footer__menu">
-        <ul>
-          <li>
-            <a class="page-link" href="/about/">About</a>
-          </li>
+  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
+  <nav class="page-footer__menu">
+    <ul>
+    
+    
+      
+      <li>
+        <a class="page-link" href="/about/">About</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/contact/">Contact</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/events/index.html">Events</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/jobs/">Jobs</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/shop/">Shop</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/sponsors">Sponsor us</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/tutorials/">Tutorials</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/wellbeing/">Wellbeing</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    </ul>
+  </nav>
+</footer>
 
-          <li>
-            <a class="page-link" href="/contact/">Contact</a>
-          </li>
 
-          <li>
-            <a class="page-link" href="/events/index.html">Events</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/jobs/">Jobs</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/shop/">Shop</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/sponsors">Sponsor us</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/tutorials/">Tutorials</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/wellbeing/">Wellbeing</a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
   </body>
+
 </html>
