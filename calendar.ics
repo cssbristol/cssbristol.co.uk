@@ -4059,6 +4059,22 @@ DESCRIPTION:Qualcomm is one of the world’s most renowned se...
 LOCATION:MVB 1.11/1.11A
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2023-02-23-brishack-team-finding
+ @cssbristol.co.uk
+DTSTAMP:20230223T180000
+DTSTART:20230223T180000
+DTEND:20230223T190000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2023-02-23-brishack-team-finding/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2023-02-23-brishack-team-finding.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:BrisHack Team Finding
+DESCRIPTION:Need to find a team to take part in BrisHack? C...
+LOCATION:MVB 1.11
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2023-02-26-brishack
  @cssbristol.co.uk
 DTSTAMP:20230226T110000
