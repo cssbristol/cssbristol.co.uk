@@ -3963,14 +3963,14 @@ DESCRIPTION:Join us for a talk by CACI IIG, where they will...
 LOCATION:MBV 1.11/1.11A
 END:VEVENT
 BEGIN:VEVENT
-UID:events-2023-03-03-tf-js
+UID:events-2023-02-03-tf-js
  @cssbristol.co.uk
 DTSTAMP:20230203T180000
 DTSTART:20230203T180000
 DTEND:20230203T190000
 LAST-MODIFIED:
 URL:https://www.cssbristol.co.uk
- /events/2023-03-03-tf-js/
+ /events/2023-02-03-tf-js/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/2022-06-07-tensorflow.js.jpg
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
@@ -4089,5 +4089,37 @@ ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:BrisHack 2023
 DESCRIPTION:THEME: My Utopia
 LOCATION:MVB 2.11
+END:VEVENT
+BEGIN:VEVENT
+UID:events-2023-03-02-cs-staff-board-games
+ @cssbristol.co.uk
+DTSTAMP:20230302T150000
+DTSTART:20230302T150000
+DTEND:20230302T190000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2023-03-02-cs-staff-board-games/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Computer Science Staff-Student Board Games
+DESCRIPTION:Come and play board games with Computer Science...
+LOCATION:MVB 1.11/1.11A
+END:VEVENT
+BEGIN:VEVENT
+UID:events-2023-03-09-eng-night-out
+ @cssbristol.co.uk
+DTSTAMP:20230309T200000
+DTSTART:20230309T200000
+DTEND:20230309T235900
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2023-03-09-eng-night-out/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Engineers Night Out
+DESCRIPTION:       EngDes      CivSoc    ...
+LOCATION:MVB 1.11/1.11A
 END:VEVENT
 END:VCALENDAR
