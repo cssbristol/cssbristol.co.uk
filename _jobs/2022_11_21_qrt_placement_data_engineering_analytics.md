@@ -10,7 +10,7 @@ logo: qube-rt.svg
 jobLocation: London, England
 industry: Data Engineering
 employmentType: Placement
-validThrough: 2023-03-31 23:59:59 +0000
+validThrough: 2023-02-31 23:59:59 +0000
 startDate: 2023
 baseSalary: 68,000
 salaryCurrency: GBP
