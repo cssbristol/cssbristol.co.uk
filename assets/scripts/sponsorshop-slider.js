@@ -1,6 +1,3 @@
----
----
-
 class Slider {
     constructor(elem) {
         this.active = 0;
