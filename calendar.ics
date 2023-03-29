@@ -4122,4 +4122,36 @@ SUMMARY:Engineers Night Out
 DESCRIPTION:       EngDes      CivSoc    ...
 LOCATION:MVB 1.11/1.11A
 END:VEVENT
+BEGIN:VEVENT
+UID:events-2023-04-17-agm
+ @cssbristol.co.uk
+DTSTAMP:20230417T180000
+DTSTART:20230417T180000
+DTEND:20230417T180000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2023-04-17-agm/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:2023 AGM
+DESCRIPTION:It’s that time of year again! We’ll be electing...
+LOCATION:TBA
+END:VEVENT
+BEGIN:VEVENT
+UID:events-2023-04-21-mvball
+ @cssbristol.co.uk
+DTSTAMP:20230421T193000
+DTSTART:20230421T193000
+DTEND:20230421T235900
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2023-04-21-mvball/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:MVBall - BEEESxCSS
+DESCRIPTION:More details are going to be added later!
+LOCATION:Mercure hotel
+END:VEVENT
 END:VCALENDAR
