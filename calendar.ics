@@ -4154,4 +4154,20 @@ SUMMARY:MVBall - BEEESxCSS
 DESCRIPTION:We are thrilled to extend an invitation to our ...
 LOCATION:Mercure Bristol Grand Hotel
 END:VEVENT
+BEGIN:VEVENT
+UID:events-2023-04-26-publicis-sapient
+ @cssbristol.co.uk
+DTSTAMP:20230426T133000
+DTSTART:20230426T133000
+DTEND:20230426T153000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2023-04-26-publicis-sapient/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2023-04-26-publicis-sapient.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:REACTivate your skills with Publicis Sapient!
+DESCRIPTION:Discover the dynamic capabilities of React, one...
+LOCATION:TBC
+END:VEVENT
 END:VCALENDAR
