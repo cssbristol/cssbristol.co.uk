@@ -4139,22 +4139,6 @@ DESCRIPTION:We are thrilled to extend an invitation to our ...
 LOCATION:Mercure Bristol Grand Hotel
 END:VEVENT
 BEGIN:VEVENT
-UID:events-2023-04-17-agm
- @cssbristol.co.uk
-DTSTAMP:20230421T170000
-DTSTART:20230421T170000
-DTEND:20230421T180000
-LAST-MODIFIED:
-URL:https://www.cssbristol.co.uk
- /events/2023-04-17-agm/
-IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
- images/contrib/events/2023-04-20-agm.png
-ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
-SUMMARY:2023 AGM
-DESCRIPTION:DATE TBA !!!! THIS IS JUST TEMPORARY DUE TO WEB...
-LOCATION:TBA
-END:VEVENT
-BEGIN:VEVENT
 UID:events-2023-04-26-publicis-sapient
  @cssbristol.co.uk
 DTSTAMP:20230426T133000
@@ -4169,5 +4153,21 @@ ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:REACTivate your skills with Publicis Sapient!
 DESCRIPTION:Discover the dynamic capabilities of React, one...
 LOCATION:TBC
+END:VEVENT
+BEGIN:VEVENT
+UID:events-2023-04-17-agm
+ @cssbristol.co.uk
+DTSTAMP:20990421T170000
+DTSTART:20990421T170000
+DTEND:20990421T180000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2023-04-17-agm/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2023-04-20-agm.png
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:2023 AGM
+DESCRIPTION:DATE TBA !!!! THIS IS JUST TEMPORARY DUE TO WEB...
+LOCATION:TBA
 END:VEVENT
 END:VCALENDAR
