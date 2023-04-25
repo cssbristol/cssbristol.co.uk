@@ -7,7 +7,7 @@ title: REACTivate your skills with Publicis Sapient!
 date:     2023-04-26 13:30:00 +0100
 date_end: 2023-04-26 15:30:00 +0100
 banner: 2023-04-26-publicis-sapient.png
-location: TBC
+location: MVB 1.15
 ticket_link: https://forms.office.com/e/VadPwSkUf1
 price: Free
 category:
