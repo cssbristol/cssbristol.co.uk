@@ -4170,4 +4170,20 @@ SUMMARY:2023 AGM
 DESCRIPTION:It’s that time of year again! We’ll be electing...
 LOCATION:Senate House 2.22
 END:VEVENT
+BEGIN:VEVENT
+UID:events-2023-05-18-bbq
+ @cssbristol.co.uk
+DTSTAMP:20230603T120000
+DTSTART:20230603T120000
+DTEND:20230603T120000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2023-05-18-bbq/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2018_06_02_bbq.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:2023 Summer BBQ
+DESCRIPTION:Yet another CSS BBQ 🙄, can’t believe we have to...
+LOCATION:TBD
+END:VEVENT
 END:VCALENDAR
