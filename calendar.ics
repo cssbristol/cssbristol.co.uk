@@ -4187,6 +4187,22 @@ DESCRIPTION:Yet another CSS BBQ 🙄, can’t believe we have to...
 LOCATION:Brandon Hill
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2023-07-30-scavenger-hunt
+ @cssbristol.co.uk
+DTSTAMP:20231002T150000
+DTSTART:20231002T150000
+DTEND:20231002T193000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2023-07-30-scavenger-hunt/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Scavenger Hunt
+DESCRIPTION:“Hi yes I’m looking for details on the 2023 sca...
+LOCATION:MVB Atrium
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2023-07-30-gamejam
  @cssbristol.co.uk
 DTSTAMP:20231029T070000
