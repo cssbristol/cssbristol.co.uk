@@ -4186,4 +4186,20 @@ SUMMARY:2023 Summer BBQ
 DESCRIPTION:Yet another CSS BBQ 🙄, can’t believe we have to...
 LOCATION:Brandon Hill
 END:VEVENT
+BEGIN:VEVENT
+UID:events-2023-07-30-gamejam
+ @cssbristol.co.uk
+DTSTAMP:20231029T070000
+DTSTART:20231029T070000
+DTEND:20231030T180000
+LAST-MODIFIED:
+URL:https://www.cssbristol.co.uk
+ /events/2023-07-30-gamejam/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:CSS GameJam 2023
+DESCRIPTION:The early bird gets the worm…but you were so e...
+LOCATION:MVB
+END:VEVENT
 END:VCALENDAR
