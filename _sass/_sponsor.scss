@@ -259,19 +259,11 @@
         margin-top: 6rem;
 
         .grid-container {
-            .text {
+            .left-col {
                 @include cols(12);
                 @include cols(6, $container-breakpoint-md);
                 @include pr-0($container-breakpoint-md);
                 @include pl-0();
-            }
-
-            .right-col {
-                @include cols(12);
-                @include cols(5, $container-breakpoint-md);
-                @include offset-cols(1, $container-breakpoint-md);
-                @include pl-0($container-breakpoint-md);
-                @include pr-0();
 
                 blockquote {
                     position: relative;
@@ -294,6 +286,22 @@
                 cite {
                     display: block;
                     margin-top: 0.5em;
+                }
+            }
+            .right-col {
+                @include cols(12);
+                @include cols(6, $container-breakpoint-md);
+                @include pl-0();
+                @include pl-auto($container-breakpoint-md);
+                @include pr-0();
+
+                h4 {
+                    margin-top: 0;
+                }
+
+                iframe {
+                    width: 100%;
+                    aspect-ratio: 16 / 9;
                 }
             }
         }
