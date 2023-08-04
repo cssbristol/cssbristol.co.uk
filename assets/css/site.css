@@ -878,29 +878,33 @@ body.agm-event .agm-btn:hover:after { transform: scaleX(1); }
 
 .page-section.sponsor #why-css { margin-top: 6rem; }
 
-@media screen and (min-width: 0) and (min-width: 0) { .page-section.sponsor #why-css .grid-container .text { width: calc(12 * 100% / 12); padding-left: 1rem; padding-right: 1rem; } }
+@media screen and (min-width: 0) and (min-width: 0) { .page-section.sponsor #why-css .grid-container .left-col { width: calc(12 * 100% / 12); padding-left: 1rem; padding-right: 1rem; } }
 
-@media screen and (min-width: 900px) and (min-width: 900px) { .page-section.sponsor #why-css .grid-container .text { width: calc(6 * 100% / 12); padding-left: 1rem; padding-right: 1rem; } }
+@media screen and (min-width: 900px) and (min-width: 900px) { .page-section.sponsor #why-css .grid-container .left-col { width: calc(6 * 100% / 12); padding-left: 1rem; padding-right: 1rem; } }
 
-@media screen and (min-width: 900px) { .page-section.sponsor #why-css .grid-container .text { padding-right: 0; } }
+@media screen and (min-width: 900px) { .page-section.sponsor #why-css .grid-container .left-col { padding-right: 0; } }
 
-@media screen and (min-width: 0) { .page-section.sponsor #why-css .grid-container .text { padding-left: 0; } }
+@media screen and (min-width: 0) { .page-section.sponsor #why-css .grid-container .left-col { padding-left: 0; } }
+
+.page-section.sponsor #why-css .grid-container .left-col blockquote { position: relative; color: inherit; font-weight: bold; margin: 0; border: 0; padding: 0; }
+
+.page-section.sponsor #why-css .grid-container .left-col blockquote::before { content: '“'; font-size: 2em; font-weight: 400; position: absolute; top: -0.5em; left: -0.5em; }
+
+.page-section.sponsor #why-css .grid-container .left-col cite { display: block; margin-top: 0.5em; }
 
 @media screen and (min-width: 0) and (min-width: 0) { .page-section.sponsor #why-css .grid-container .right-col { width: calc(12 * 100% / 12); padding-left: 1rem; padding-right: 1rem; } }
 
-@media screen and (min-width: 900px) and (min-width: 900px) { .page-section.sponsor #why-css .grid-container .right-col { width: calc(5 * 100% / 12); padding-left: 1rem; padding-right: 1rem; } }
+@media screen and (min-width: 900px) and (min-width: 900px) { .page-section.sponsor #why-css .grid-container .right-col { width: calc(6 * 100% / 12); padding-left: 1rem; padding-right: 1rem; } }
 
-@media screen and (min-width: 900px) { .page-section.sponsor #why-css .grid-container .right-col { margin-left: calc(1 * 100% / 12); } }
+@media screen and (min-width: 0) { .page-section.sponsor #why-css .grid-container .right-col { padding-left: 0; } }
 
-@media screen and (min-width: 900px) { .page-section.sponsor #why-css .grid-container .right-col { padding-left: 0; } }
+@media screen and (min-width: 900px) { .page-section.sponsor #why-css .grid-container .right-col { padding-left: 1rem; } }
 
 @media screen and (min-width: 0) { .page-section.sponsor #why-css .grid-container .right-col { padding-right: 0; } }
 
-.page-section.sponsor #why-css .grid-container .right-col blockquote { position: relative; color: inherit; font-weight: bold; margin: 0; border: 0; padding: 0; }
+.page-section.sponsor #why-css .grid-container .right-col h4 { margin-top: 0; }
 
-.page-section.sponsor #why-css .grid-container .right-col blockquote::before { content: '“'; font-size: 2em; font-weight: 400; position: absolute; top: -0.5em; left: -0.5em; }
-
-.page-section.sponsor #why-css .grid-container .right-col cite { display: block; margin-top: 0.5em; }
+.page-section.sponsor #why-css .grid-container .right-col iframe { width: 100%; aspect-ratio: 16 / 9; }
 
 @media screen and (min-width: 0) and (min-width: 0) { .page-section.sponsor #get-involved .grid-container .left-col { width: calc(12 * 100% / 12); padding-left: 1rem; padding-right: 1rem; } }
 
