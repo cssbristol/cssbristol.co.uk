@@ -1,7 +1,7 @@
 ---
 layout: none
 permalink: /calendar.ics
-# Validate this vile using https://icalendar.org/validator.html?url=https://cssbristol.co.uk/calendar.ics
+# Validate this file using https://icalendar.org/validator.html?url=https://cssbristol.co.uk/calendar.ics
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
@@ -11,10 +11,10 @@ PRODID:-//CSS Bristol//NONSGML website//EN
 {% for event in site.events %}BEGIN:VEVENT
 UID:{{ event.path | remove: "_" | replace: "/", "-" | remove: ".md" }}
  @cssbristol.co.uk
-DTSTAMP:{{ event.date |  date: "%Y%m%dT%H%M00" }}
+DTSTAMP:{{ event.date | date: "%Y%m%dT%H%M00" }}
 DTSTART:{{ event.date | date: "%Y%m%dT%H%M00" }}
 DTEND:{{ event.date_end | date: "%Y%m%dT%H%M00" }}
-LAST-MODIFIED:{{ site.tiem | date: "%Y%m%dT%H%M00" }}
+LAST-MODIFIED:{{ site.time | date: "%Y%m%dT%H%M00" }}
 URL:https://www.cssbristol.co.uk
  {{ event.url }}
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
