@@ -18,8 +18,8 @@ jobs:
         # include the lines below if you are using jekyll-last-modified-at
         # or if you would otherwise need to fetch the full commit history
         # however this may be very slow for large repositories!
-        # with:
-        # fetch-depth: '0'
+        with:
+        fetch-depth: '0'
       - name: 💎 setup ruby
         uses: ruby/setup-ruby@v1
         with:
