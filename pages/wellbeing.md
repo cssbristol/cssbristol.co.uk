@@ -85,8 +85,13 @@ Please refer to them for issues relating to any of the following:
 
 ## Senior Tutors
 These tutors are “one up” from your personal tutor, and can be turned to for problems that for whatever reason, you cannot solve with your personal tutor. These might be academic or personal in nature.
+- Year 1: Sana Belguith
+- Year 2: Majid Mirmehdi
+- Year 3/4: James Cussens
+- Postgrad CS: Oliver Ray
+- Postgrad Immersive technologies: Andrew MacQuarrie
+- Postgrad Cybersec: Inah Omoronyia
 
-The undergraduate Senior Tutor is **David Bernhard** and the Deputy Senior Tutor is **Chris Priest**. The postgraduate Senior Tutor is **Paul O'Dowd**.
 Please refer to them for issues relating to any of the following:
 - Academic Support
 - Group Work
@@ -101,6 +106,8 @@ Wellbeing advisers work alongside personal tutors and other staff in the departm
 
 Please refer to them for:
 - Any personal or emotional difficulties you have
+
+[Request wellbeing support](https://www.bristol.ac.uk/students/support/wellbeing/request-support/)
 
 ## Residential life advisors
 
@@ -222,7 +229,10 @@ University is the place where many of us try new things and explore more of the 
 
 You should avoid drugs, but if you are going to take them do it **responsibly**. In addition to the university's resources it’s worth visiting the following websites.
 
-- [psychonautwiki.org](https://psychonautwiki.org): A website documenting the effects of drugs, safe dosing, usage, and user experiences. The dangerous combinations section should be looked at if you plan on using 2 substances together even if you have done it before. Take a look at volumetric dosing too as eyeballing a dose can have serious and permanent side-effects.
+- [bdp.org.uk/thedrop](https://www.bdp.org.uk/thedrop/): The Drop is BDP’s one-stop-shop for information and support for people who use recreational and party drugs.
+- [talktofrank.com](https://www.talktofrank.com/): Comprehensive, honest information about drugs and their safety.
+- [combo.tripsit.me](https://combo.tripsit.me/): Interactive website for checking if you're safe to take 2 substances together. Worth checking even if you've combined substances before.
+- [psychonautwiki.org](https://psychonautwiki.org): A wiki documenting the effects of drugs, safe dosing, usage, and user experiences. Has a "dangerous combinations" section, and a "volumetric liquid dosing" section, as eyeballing a dose can have serious and permanent side-effects.
 - [wedinos.org](https://wedinos.org): A free drug identification project. Any substance you buy will usually be cut or sometimes not even be the intended product. This is especially true for products like pills where it’s extremely difficult to see the contents. Wedinos offers a free identification program where you can mail in a sample to be tested.
 - [energycontrol-international.org](https://energycontrol-international.org): A much more comprehensive paid testing service where the substances will not only be identified but provided with their exact dose as well. Very useful for less common substances like LSD and pills as well as knowing the exact contents of drugs like cannabis.
 - [dnstars.vip](https://dnstars.vip): A community funded project for testing darknet products using services like wedinos and energy control. Primarily helps to avoid cuts and replacements before buying.
