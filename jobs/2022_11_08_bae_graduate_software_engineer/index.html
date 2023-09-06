@@ -1,1118 +1,656 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-  <meta charset=utf-8>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="/assets/favicons/manifest.json">
-<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#3498db">
-<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
-<meta name="theme-color" content="#3498db">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/assets/favicons/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/assets/favicons/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/assets/favicons/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/assets/favicons/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/assets/favicons/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/assets/favicons/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/assets/favicons/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/assets/favicons/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicons/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-194x194.png"
+      sizes="194x194"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/android-chrome-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link rel="manifest" href="/assets/favicons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/assets/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#3498db" />
+    <meta
+      name="msapplication-TileImage"
+      content="/assets/favicons/mstile-144x144.png"
+    />
+    <meta name="theme-color" content="#3498db" />
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta name="description" content="Did you take part in the BAE Systems CTF? Make sure to mention it on your application!">
+    <meta
+      name="description"
+      content="Did you take part in the BAE Systems CTF? Make sure to mention it on your application!"
+    />
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Graduate Software Engineer - CSS Bristol">
-<meta property="og:description" content="Did you take part in the BAE Systems CTF? Make sure to mention it on your application!">
-<meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
-<meta property="og:url" content="https://cssbristol.co.uk/jobs/2022_11_08_bae_graduate_software_engineer/">
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Graduate Software Engineer - CSS Bristol"
+    />
+    <meta
+      property="og:description"
+      content="Did you take part in the BAE Systems CTF? Make sure to mention it on your application!"
+    />
+    <meta
+      property="og:image"
+      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
+    />
+    <meta
+      property="og:url"
+      content="https://cssbristol.co.uk/jobs/2022_11_08_bae_graduate_software_engineer/"
+    />
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Graduate Software Engineer - CSS Bristol">
-<meta name="twitter:description" content="Did you take part in the BAE Systems CTF? Make sure to mention it on your application!">
-<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
-<meta name="twitter:site" content="@cssbristol">
- 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Graduate Software Engineer - CSS Bristol"
+    />
+    <meta
+      name="twitter:description"
+      content="Did you take part in the BAE Systems CTF? Make sure to mention it on your application!"
+    />
+    <meta
+      name="twitter:image"
+      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
+    />
+    <meta name="twitter:site" content="@cssbristol" />
 
+    <title>Graduate Software Engineer - CSS Bristol</title>
 
-  <title>Graduate Software Engineer - CSS Bristol</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    />
 
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
+    <link rel="stylesheet" href="/assets/css/site.css" />
+    <link
+      rel="canonical"
+      href="https://cssbristol.co.uk/jobs/2022_11_08_bae_graduate_software_engineer/"
+    />
 
-  <link rel="stylesheet" href="/assets/css/site.css" />
-  <link rel="canonical" href="https://cssbristol.co.uk/jobs/2022_11_08_bae_graduate_software_engineer/" />
-  
+    <!-- Prefetch background images so they load faster next time page loads -->
+    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
 
-  
+    <!-- Script for FontAwesome icons -->
+    <script
+      src="https://kit.fontawesome.com/5918af34b4.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
 
-  <!-- Prefetch background images so they load faster next time page loads -->
-  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
+    <!-- Script for randomly choosing header background -->
+    <script
+      type="text/javascript"
+      src="/assets/scripts/header-random-bg.js"
+      defer
+    ></script>
 
-  <!-- Script for FontAwesome icons -->
-  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
-  
-  <!-- Script for randomly choosing header background -->
-  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
-  
-  <!-- Cloudflare Web Analytics -->
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
+    <!-- Cloudflare Web Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
+    ></script>
 
-  <!-- remove after a couple of months -->
-  <script>
-    const path = window.location.pathname;
-    if (path.startsWith("/events/")) {
-      const newPath = path.replaceAll("_", "-");
-      if (newPath !== path) {
-        window.location.replace(newPath);
+    <!-- remove after a couple of months -->
+    <script>
+      const path = window.location.pathname;
+      if (path.startsWith("/events/")) {
+        const newPath = path.replaceAll("_", "-");
+        if (newPath !== path) {
+          window.location.replace(newPath);
+        }
       }
-    }
-  </script>
-</head>
-
+    </script>
+  </head>
 
   <body>
-
     <header class="page-header noscript" id="page-header--random-bg">
-  <div class="bg">
-    <div id="header-random-background"></div>
-  </div>
-  <div class="navigation-items">
-    <div itemscope itemtype="http://schema.org/Organization">
-      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
-      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
-        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-      </a>
-    </div>
-    <nav class="page-navigation">
-      <ul class="page-navigation__links">
-        
-        
-        
-        <li><a href="/about/">About</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/contact/">Contact</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/events/index.html">Events</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/jobs/">Jobs</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/shop/">Shop</a></li>
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/sponsors">Sponsor us</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/tutorials/">Tutorials</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/wellbeing/">Wellbeing</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      </ul>
-    </nav>
-  </div>
-  
-</header>
+      <div class="bg">
+        <div id="header-random-background"></div>
+      </div>
+      <div class="navigation-items">
+        <div itemscope itemtype="http://schema.org/Organization">
+          <span style="display: none" itemprop="name"
+            >University of Bristol Computer Science Society</span
+          >
+          <a
+            aria-label="Home"
+            href="/"
+            class="page-header__logo"
+            itemprop="url"
+          >
+            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+          </a>
+        </div>
+        <nav class="page-navigation">
+          <ul class="page-navigation__links">
+            <li><a href="/about/">About</a></li>
 
+            <li><a href="/contact/">Contact</a></li>
+
+            <li><a href="/events/index.html">Events</a></li>
+
+            <li><a href="/jobs/">Jobs</a></li>
+
+            <li><a href="/shop/">Shop</a></li>
+
+            <li><a href="/sponsors">Sponsor us</a></li>
+
+            <li><a href="/tutorials/">Tutorials</a></li>
+
+            <li><a href="/wellbeing/">Wellbeing</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
     <section class="page-section">
-  <article class="article extrawide event-page">
-    <section>
-      <h1 class="event-page__title">Graduate Software Engineer at BAE Systems</h1>
-      <div class="blog-post__body"><p><strong><em>Did you take part in the <a href="https://cssbristol.co.uk/events/2022-10-29-bae-ctf/">BAE Systems CTF</a>? Make sure to mention it on your application!</em></strong></p>
+      <article class="article extrawide event-page">
+        <section>
+          <h1 class="event-page__title">
+            Graduate Software Engineer at BAE Systems
+          </h1>
+          <div class="blog-post__body">
+            <p>
+              <strong
+                ><em
+                  >Did you take part in the
+                  <a href="https://cssbristol.co.uk/events/2022-10-29-bae-ctf/"
+                    >BAE Systems CTF</a
+                  >? Make sure to mention it on your application!</em
+                ></strong
+              >
+            </p>
 
-<p>Here at BAE Systems Digital Intelligence, we are committed to helping governments, organisations and society navigate digital threats and opportunities. Whether it’s leveraging data to digitally transform operations or securing organisations and nations from cyber threats, we combine our unrivalled security and engineering heritage to help our clients navigate the data-reliant digital landscape.</p>
+            <p>
+              Here at BAE Systems Digital Intelligence, we are committed to
+              helping governments, organisations and society navigate digital
+              threats and opportunities. Whether it’s leveraging data to
+              digitally transform operations or securing organisations and
+              nations from cyber threats, we combine our unrivalled security and
+              engineering heritage to help our clients navigate the data-reliant
+              digital landscape.
+            </p>
 
-<p>As the cyber and intelligence arm of BAE Systems, we employ over 4,800 people across 15 countries in North America, APAC, Europe and the Middle East. With our distinguished heritage, we relish the opportunity to transform digital and data practices, defence, intelligence, security and society for government agencies, law enforcement, financial services, and critical infrastructure.</p>
+            <p>
+              As the cyber and intelligence arm of BAE Systems, we employ over
+              4,800 people across 15 countries in North America, APAC, Europe
+              and the Middle East. With our distinguished heritage, we relish
+              the opportunity to transform digital and data practices, defence,
+              intelligence, security and society for government agencies, law
+              enforcement, financial services, and critical infrastructure.
+            </p>
 
-<p>The graduate programme is designed to give you ownership of your career aspirations, supported by training and practical experience to help you succeed. You will be part of our Future Talent Community and be assigned a Career Manager, who will support and guide you throughout your career with us. All of this is designed to complement your career development, fuel your ambition, and give depth to your training and career.</p>
+            <p>
+              The graduate programme is designed to give you ownership of your
+              career aspirations, supported by training and practical experience
+              to help you succeed. You will be part of our Future Talent
+              Community and be assigned a Career Manager, who will support and
+              guide you throughout your career with us. All of this is designed
+              to complement your career development, fuel your ambition, and
+              give depth to your training and career.
+            </p>
 
-<p><strong>__BAE Systems Digital Intelligence__</strong><br />
-<strong>__Graduate Software Engineering__</strong><br />
-<strong>Start date:</strong> June or September 2023<br />
-<strong>Base location:</strong> Gloucester, Guildford, Leeds or London</p>
+            <p>
+              <strong>__BAE Systems Digital Intelligence__</strong><br />
+              <strong>__Graduate Software Engineering__</strong><br />
+              <strong>Start date:</strong> June or September 2023<br />
+              <strong>Base location:</strong> Gloucester, Guildford, Leeds or
+              London
+            </p>
 
-<h2 id="role-profile">Role Profile</h2>
-<p>As a Graduate Engineer, you will work as a part of a project team, alongside skilled and experienced individuals who are motivated to train and coach you on the day-to-day skills required to work closely with our customers, both internal and external. You will learn the tools, techniques and approaches used by engineering professionals and apply them in a controlled environment to ensure projects are delivered on time, to quality and to budget. Graduate Engineers will support their team to ensure that engineering practices are followed on all aspects of project definition and delivery.</p>
+            <h2 id="role-profile">Role Profile</h2>
+            <p>
+              As a Graduate Engineer, you will work as a part of a project team,
+              alongside skilled and experienced individuals who are motivated to
+              train and coach you on the day-to-day skills required to work
+              closely with our customers, both internal and external. You will
+              learn the tools, techniques and approaches used by engineering
+              professionals and apply them in a controlled environment to ensure
+              projects are delivered on time, to quality and to budget. Graduate
+              Engineers will support their team to ensure that engineering
+              practices are followed on all aspects of project definition and
+              delivery.
+            </p>
 
-<p>As a Software Engineer, we expect you to be ready to tackle (and enjoy!) programming tasks from the outset, but we will take the time to mentor you through smaller packages of work and enhancements to our product range. You will work primarily in java, however we always look for the best framework for the job; some of our developments use C# .NET, C++ and HTML5 technologies.</p>
+            <p>
+              As a Software Engineer, we expect you to be ready to tackle (and
+              enjoy!) programming tasks from the outset, but we will take the
+              time to mentor you through smaller packages of work and
+              enhancements to our product range. You will work primarily in
+              java, however we always look for the best framework for the job;
+              some of our developments use C# .NET, C++ and HTML5 technologies.
+            </p>
 
-<h2 id="day-to-day-tasks-could-include">Day to day tasks could include</h2>
-<ul>
-  <li>Assisting in the design, test and implementation of software which forms part of a properly engineered system</li>
-  <li>Overcoming development obstacles to deliver quality code on time</li>
-  <li>Helping to specify user/system interfaces</li>
-  <li>Assisting in producing detailed designs and documents using required standards, methods and tools</li>
-  <li>Understanding and translating business design into a logical design, for a simple software application</li>
-  <li>Producing physical designs that describe the required structure and behaviour of a simple software application characterised by low-risk non-functional requirements</li>
-</ul>
+            <h2 id="day-to-day-tasks-could-include">
+              Day to day tasks could include
+            </h2>
+            <ul>
+              <li>
+                Assisting in the design, test and implementation of software
+                which forms part of a properly engineered system
+              </li>
+              <li>
+                Overcoming development obstacles to deliver quality code on time
+              </li>
+              <li>Helping to specify user/system interfaces</li>
+              <li>
+                Assisting in producing detailed designs and documents using
+                required standards, methods and tools
+              </li>
+              <li>
+                Understanding and translating business design into a logical
+                design, for a simple software application
+              </li>
+              <li>
+                Producing physical designs that describe the required structure
+                and behaviour of a simple software application characterised by
+                low-risk non-functional requirements
+              </li>
+            </ul>
 
-<h2 id="desired-technical-ability">Desired Technical Ability</h2>
-<p>Aptitude in one or more of the following:</p>
-<ul>
-  <li>Java - Java JEE, JSP, JSF, EJB, Spring, JDBC</li>
-  <li>Microsoft - C#, C++, .NET, SharePoint, ODBC</li>
-  <li>Web - HTML, XML, SOAP</li>
-  <li>O/S - Linux, Windows</li>
-  <li>Mobile – iOS, Android</li>
-</ul>
+            <h2 id="desired-technical-ability">Desired Technical Ability</h2>
+            <p>Aptitude in one or more of the following:</p>
+            <ul>
+              <li>Java - Java JEE, JSP, JSF, EJB, Spring, JDBC</li>
+              <li>Microsoft - C#, C++, .NET, SharePoint, ODBC</li>
+              <li>Web - HTML, XML, SOAP</li>
+              <li>O/S - Linux, Windows</li>
+              <li>Mobile – iOS, Android</li>
+            </ul>
 
-<h2 id="entry-requirements">Entry Requirements</h2>
-<ul>
-  <li>You will need to have obtained (in the last 3 years) or be studying towards a 2:2 or above, in a STEM degree</li>
-  <li>Only those with the permanent and unrestricted right to live and work in the UK will be considered for a position within BAE Systems Digital Intelligence. Due to the nature of our, work successful candidates for this role will be required to go through Government Developed Vetting (DV) clearance prior to starting with us. https://www.gov.uk/guidance/united-kingdom-security-vetting-applicant</li>
-</ul>
+            <h2 id="entry-requirements">Entry Requirements</h2>
+            <ul>
+              <li>
+                You will need to have obtained (in the last 3 years) or be
+                studying towards a 2:2 or above, in a STEM degree
+              </li>
+              <li>
+                Only those with the permanent and unrestricted right to live and
+                work in the UK will be considered for a position within BAE
+                Systems Digital Intelligence. Due to the nature of our, work
+                successful candidates for this role will be required to go
+                through Government Developed Vetting (DV) clearance prior to
+                starting with us.
+                https://www.gov.uk/guidance/united-kingdom-security-vetting-applicant
+              </li>
+            </ul>
 
-<h2 id="desired-competencies">Desired Competencies</h2>
-<ul>
-  <li>Excellent analytical and numerical skills</li>
-  <li>Clear and effective communication skills</li>
-  <li>Articulate, both verbally and in writing</li>
-  <li>Strong interpersonal skills</li>
-  <li>Objective and logical with an enquiring and creative mind</li>
-  <li>Ability to work as part of a team</li>
-  <li>Resilience under pressure</li>
-  <li>Desire to learn</li>
-  <li>Competence in Microsoft Office packages/ IT literate</li>
-</ul>
+            <h2 id="desired-competencies">Desired Competencies</h2>
+            <ul>
+              <li>Excellent analytical and numerical skills</li>
+              <li>Clear and effective communication skills</li>
+              <li>Articulate, both verbally and in writing</li>
+              <li>Strong interpersonal skills</li>
+              <li>Objective and logical with an enquiring and creative mind</li>
+              <li>Ability to work as part of a team</li>
+              <li>Resilience under pressure</li>
+              <li>Desire to learn</li>
+              <li>Competence in Microsoft Office packages/ IT literate</li>
+            </ul>
 
-<h2 id="whats-in-it-for-you">What’s in it for you?</h2>
-<ul>
-  <li>Work-life balance is important; you’ll get 25 days holiday a year and, via our flexible benefits package the option to buy/sell and carry over from the year before</li>
-  <li>Our flexible benefits package includes; private medical and dental insurance, a competitive pension scheme, cycle to work scheme, taste cards and more</li>
-  <li>You’ll have a dedicated Career Manager to help you develop your career and guide you on your journey through BAE</li>
-  <li>You are welcome to join any/all of our Diversity and Support groups.  These groups cover everything from gender diversity to mental health and wellbeing.</li>
-  <li>£30,000 starting salary, rising to £35,000 over the course of the programme</li>
-  <li>£2,000 welcome payment</li>
-</ul>
+            <h2 id="whats-in-it-for-you">What’s in it for you?</h2>
+            <ul>
+              <li>
+                Work-life balance is important; you’ll get 25 days holiday a
+                year and, via our flexible benefits package the option to
+                buy/sell and carry over from the year before
+              </li>
+              <li>
+                Our flexible benefits package includes; private medical and
+                dental insurance, a competitive pension scheme, cycle to work
+                scheme, taste cards and more
+              </li>
+              <li>
+                You’ll have a dedicated Career Manager to help you develop your
+                career and guide you on your journey through BAE
+              </li>
+              <li>
+                You are welcome to join any/all of our Diversity and Support
+                groups. These groups cover everything from gender diversity to
+                mental health and wellbeing.
+              </li>
+              <li>
+                £30,000 starting salary, rising to £35,000 over the course of
+                the programme
+              </li>
+              <li>£2,000 welcome payment</li>
+            </ul>
 
-<h2 id="security-clearance">Security Clearance</h2>
-<p>Only those with the permanent and unrestricted right to live and work in the UK will be considered for a position within BAE Systems Digital Intelligence. Due to the nature of our work, successful candidates for this role will be required to go through Government SC clearance prior to starting with us. https://www.gov.uk/guidance/security-vetting-and-clearance</p>
+            <h2 id="security-clearance">Security Clearance</h2>
+            <p>
+              Only those with the permanent and unrestricted right to live and
+              work in the UK will be considered for a position within BAE
+              Systems Digital Intelligence. Due to the nature of our work,
+              successful candidates for this role will be required to go through
+              Government SC clearance prior to starting with us.
+              https://www.gov.uk/guidance/security-vetting-and-clearance
+            </p>
 
-<h2 id="whats-next">What’s next?</h2>
-<ul>
-  <li>CV submission &amp; review</li>
-  <li>Digital assessment</li>
-  <li>Live Interview</li>
-</ul>
+            <h2 id="whats-next">What’s next?</h2>
+            <ul>
+              <li>CV submission &amp; review</li>
+              <li>Digital assessment</li>
+              <li>Live Interview</li>
+            </ul>
 
-<h2 id="life-at-bae-systems-digital-intelligence">Life at BAE Systems Digital Intelligence</h2>
-<p>We are embracing Hybrid Working. This means you and your colleagues may be working in different locations, such as from home, another BAE Systems office or client site, some or all of the time, and work might be going on at different times of the day. By embracing technology, we can interact, collaborate and create together, even when we’re working remotely from one another. Hybrid Working allows for increased flexibility in when and where we work, helping us to balance our work and personal life more effectively, and enhance well-being.</p>
+            <h2 id="life-at-bae-systems-digital-intelligence">
+              Life at BAE Systems Digital Intelligence
+            </h2>
+            <p>
+              We are embracing Hybrid Working. This means you and your
+              colleagues may be working in different locations, such as from
+              home, another BAE Systems office or client site, some or all of
+              the time, and work might be going on at different times of the
+              day. By embracing technology, we can interact, collaborate and
+              create together, even when we’re working remotely from one
+              another. Hybrid Working allows for increased flexibility in when
+              and where we work, helping us to balance our work and personal
+              life more effectively, and enhance well-being.
+            </p>
 
-<p>Diversity and inclusion are integral to the success of BAE Systems Digital Intelligence. We are proud to have an organisational culture where employees with varying perspectives, skills, life experiences and backgrounds – the best and brightest minds – can work together to achieve excellence and realise individual and organisational potential.</p>
+            <p>
+              Diversity and inclusion are integral to the success of BAE Systems
+              Digital Intelligence. We are proud to have an organisational
+              culture where employees with varying perspectives, skills, life
+              experiences and backgrounds – the best and brightest minds – can
+              work together to achieve excellence and realise individual and
+              organisational potential.
+            </p>
+          </div>
+        </section>
+        <section class="event-page__details">
+          <h2>The Details</h2>
 
-</div>
+          <div class="event-page__details__row job-details">
+            <i
+              class="fas fa-building"
+              data-tooltip="Hiring Company"
+              aria-label="Hiring Company"
+            ></i>
+
+            <a
+              href="https://www.baesystems.com/en/cybersecurity/home"
+              target="_blank"
+              rel="noopener sponsored"
+              data-tooltip="BAE Systems"
+              class="company-logo"
+            >
+              <img
+                src="/assets/images/contrib/companies/BAE_Logo.svg"
+                alt="BAE Systems"
+                width="130"
+                height="170"
+              />
+            </a>
+          </div>
+
+          <div class="event-page__details__row">
+            <i
+              class="fas fa-calendar-day"
+              data-tooltip="Start Date"
+              aria-label="Start Date"
+            ></i>
+            <p>June or September 2023</p>
+          </div>
+
+          <div class="event-page__details__row">
+            <i
+              class="fas fa-map-marker"
+              data-tooltip="Job Location"
+              aria-label="Job Location"
+            ></i>
+            <p>Gloucester, Guildford, Leeds or London</p>
+          </div>
+
+          <div class="event-page__details__row">
+            <i
+              class="fas fa-user-clock"
+              data-tooltip="Employment type"
+              aria-label="Employment Type"
+            ></i>
+            <p>Graduate</p>
+          </div>
+
+          <div class="event-page__details__row">
+            <i
+              class="fas fa-hourglass-end"
+              data-tooltip="Apply by"
+              aria-label="Apply by"
+            ></i>
+            <p>31/12/22 00:00</p>
+          </div>
+
+          <div class="event-page__details__hosted-with">
+            <hr />
+
+            <a
+              class="btn btn--dark"
+              style="margin: 20px"
+              target="_blank"
+              href="https://cybercareers.baesystems.com/job/Guildford-Graduate-Software-Engineer-JuneSeptember-2023/858477401/"
+            >
+              Apply Here
+            </a>
+          </div>
+        </section>
+      </article>
     </section>
-    <section class="event-page__details">
-      <h2>The Details</h2>
-      
-      <div class="event-page__details__row job-details">
-        <i class="fas fa-building" data-tooltip="Hiring Company" aria-label="Hiring Company"></i>
-        
-        
-<a
-  href="https://www.baesystems.com/en/cybersecurity/home"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="BAE Systems"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/BAE_Logo.svg"
-    alt="BAE Systems"
-    width="130"
-    height="170"
-  />
-</a>
-
-        
-      </div>
-      
-      
-      <div class="event-page__details__row">
-        <i class="fas fa-calendar-day" data-tooltip="Start Date" aria-label="Start Date"></i>
-        <p>June or September 2023</p>
-      </div>
-      
-      
-      <div class="event-page__details__row">
-        <i class="fas fa-map-marker" data-tooltip="Job Location" aria-label="Job Location"></i>
-        <p>Gloucester, Guildford, Leeds or London</p>
-      </div>
-      
-      
-      
-      <div class="event-page__details__row">
-        <i class="fas fa-user-clock" data-tooltip="Employment type" aria-label="Employment Type"></i>
-        <p>Graduate</p>
-      </div>
-      
-      
-      <div class="event-page__details__row">
-        <i class="fas fa-hourglass-end" data-tooltip="Apply by" aria-label="Apply by"></i>
-        <p>
-          31/12/22 00:00
-        </p>
-      </div>
-      
-      
-      <div class="event-page__details__hosted-with">
-        <hr />
-        
-        <a class="btn btn--dark" style="margin: 20px" target="_blank" href="https://cybercareers.baesystems.com/job/Guildford-Graduate-Software-Engineer-JuneSeptember-2023/858477401/">
-          Apply Here
-        </a>
-        
-        
-      </div>
-      
-    </section>
-  </article>
-</section>
 
     <section class="page-section sponsorsec">
-    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
-    <div class="sponsors">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-            
-<a
-  href="https://www.caci.co.uk"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="CACI"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/caci.png"
-    alt="CACI"
-    width="130"
-    height="170"
-  />
-</a>
+      <h1 class="sponsors-title">
+        <a href="/pages/sponsors">Proudly sponsored by</a>
+      </h1>
+      <div class="sponsors">
+        <a
+          href="https://www.caci.co.uk"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="CACI"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/caci.png"
+            alt="CACI"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-            
-<a
-  href="https://www.publicissapient.com/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Publicis Sapient"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/publicis_sapient.svg"
-    alt="Publicis Sapient"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.publicissapient.com/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Publicis Sapient"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/publicis_sapient.svg"
+            alt="Publicis Sapient"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-          
-            
-<a
-  href="https://www.qualcomm.com/home"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Qualcomm"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/qualcomm.png"
-    alt="Qualcomm"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.qualcomm.com/home"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Qualcomm"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/qualcomm.png"
+            alt="Qualcomm"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-          
-            
-<a
-  href="https://www.qube-rt.com/careers/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Qube Research & Technologies"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/qube-rt.svg"
-    alt="Qube Research & Technologies"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.qube-rt.com/careers/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Qube Research & Technologies"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/qube-rt.svg"
+            alt="Qube Research & Technologies"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-            
-<a
-  href="https://www.xmos.ai/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="XMOS"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/xmos.svg"
-    alt="XMOS"
-    width="130"
-    height="170"
-  />
-</a>
-
-          
-        
-      
-    </div>
-    <div class="sponsors__action_item">
-      <a href="/pages/sponsors">Learn more about working with us.</a>
-    </div>
-</section>
-
+        <a
+          href="https://www.xmos.ai/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="XMOS"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/xmos.svg"
+            alt="XMOS"
+            width="130"
+            height="170"
+          />
+        </a>
+      </div>
+      <div class="sponsors__action_item">
+        <a href="/pages/sponsors">Learn more about working with us.</a>
+      </div>
+    </section>
 
     <footer class="page-footer">
-  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
-  <nav class="page-footer__menu">
-    <ul>
-    
-    
-      
-      <li>
-        <a class="page-link" href="/about/">About</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/contact/">Contact</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/events/index.html">Events</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/jobs/">Jobs</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/shop/">Shop</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/sponsors">Sponsor us</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/tutorials/">Tutorials</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/wellbeing/">Wellbeing</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    </ul>
-  </nav>
-</footer>
+      <span class="page-footer__text"
+        >&copy; University of Bristol Computer Science Society</span
+      >
+      <nav class="page-footer__menu">
+        <ul>
+          <li>
+            <a class="page-link" href="/about/">About</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/contact/">Contact</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/events/index.html">Events</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/jobs/">Jobs</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/shop/">Shop</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/sponsors">Sponsor us</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/tutorials/">Tutorials</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/wellbeing/">Wellbeing</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
-
 </html>
