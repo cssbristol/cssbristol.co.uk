@@ -1,533 +1,1067 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="/assets/favicons/apple-touch-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="/assets/favicons/apple-touch-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="/assets/favicons/apple-touch-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="/assets/favicons/apple-touch-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="/assets/favicons/apple-touch-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="/assets/favicons/apple-touch-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="/assets/favicons/apple-touch-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="/assets/favicons/apple-touch-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/assets/favicons/apple-touch-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-32x32.png"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-194x194.png"
-      sizes="194x194"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-96x96.png"
-      sizes="96x96"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/android-chrome-192x192.png"
-      sizes="192x192"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-16x16.png"
-      sizes="16x16"
-    />
-    <link rel="manifest" href="/assets/favicons/manifest.json" />
-    <link
-      rel="mask-icon"
-      href="/assets/favicons/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#3498db" />
-    <meta
-      name="msapplication-TileImage"
-      content="/assets/favicons/mstile-144x144.png"
-    />
-    <meta name="theme-color" content="#3498db" />
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/assets/favicons/manifest.json">
+<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#3498db">
+<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+<meta name="theme-color" content="#3498db">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta
-      name="description"
-      content="Bloomberg’s diverse community of engineers take on some of the world’s most interesting and important technical challenges. We develop impactful solutions to complex, real-world problems. With new systems being rolled out daily, we make an immediate impact on global markets and we look for the be..."
-    />
+  <meta name="description" content="Bloomberg’s diverse community of engineers take on some of the world’s most interesting and important technical challenges. We develop impactful solutions to complex, real-world problems. With new systems being rolled out daily, we make an immediate impact on global markets and we look for the be...">
 
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:title"
-      content="Graduate Software Engineer - CSS Bristol"
-    />
-    <meta
-      property="og:description"
-      content="Bloomberg’s diverse community of engineers take on some of the world’s most interesting and important technical challenges. We develop impactful solutions to complex, real-world problems. With new systems being rolled out daily, we make an immediate impact on global markets and we look for the best software engineers to build..."
-    />
-    <meta
-      property="og:image"
-      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
-    />
-    <meta
-      property="og:url"
-      content="https://cssbristol.co.uk/jobs/2021_10_19_bloomberg_grad/"
-    />
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Graduate Software Engineer - CSS Bristol">
+<meta property="og:description" content="Bloomberg’s diverse community of engineers take on some of the world’s most interesting and important technical challenges. We develop impactful solutions to complex, real-world problems. With new systems being rolled out daily, we make an immediate impact on global markets and we look for the best software engineers to build...">
+<meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
+<meta property="og:url" content="https://cssbristol.co.uk/jobs/2021_10_19_bloomberg_grad/">
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Graduate Software Engineer - CSS Bristol"
-    />
-    <meta
-      name="twitter:description"
-      content="Bloomberg’s diverse community of engineers take on some of the world’s most interesting and important technical challenges. We develop impactful solutions to complex, real-world problems. With new systems being rolled out daily, we make an immediate impact on global markets and we look for the best software engineers to build..."
-    />
-    <meta
-      name="twitter:image"
-      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
-    />
-    <meta name="twitter:site" content="@cssbristol" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Graduate Software Engineer - CSS Bristol">
+<meta name="twitter:description" content="Bloomberg’s diverse community of engineers take on some of the world’s most interesting and important technical challenges. We develop impactful solutions to complex, real-world problems. With new systems being rolled out daily, we make an immediate impact on global markets and we look for the best software engineers to build...">
+<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
+<meta name="twitter:site" content="@cssbristol">
+ 
 
-    <title>Graduate Software Engineer - CSS Bristol</title>
 
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    />
+  <title>Graduate Software Engineer - CSS Bristol</title>
 
-    <link rel="stylesheet" href="/assets/css/site.css" />
-    <link
-      rel="canonical"
-      href="https://cssbristol.co.uk/jobs/2021_10_19_bloomberg_grad/"
-    />
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
 
-    <!-- Prefetch background images so they load faster next time page loads -->
-    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+  <link rel="canonical" href="https://cssbristol.co.uk/jobs/2021_10_19_bloomberg_grad/" />
+  
 
-    <!-- Script for FontAwesome icons -->
-    <script
-      src="https://kit.fontawesome.com/5918af34b4.js"
-      crossorigin="anonymous"
-      defer
-    ></script>
+  
 
-    <!-- Script for randomly choosing header background -->
-    <script
-      type="text/javascript"
-      src="/assets/scripts/header-random-bg.js"
-      defer
-    ></script>
+  <!-- Prefetch background images so they load faster next time page loads -->
+  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
 
-    <!-- Cloudflare Web Analytics -->
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
-    ></script>
+  <!-- Script for FontAwesome icons -->
+  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
+  
+  <!-- Script for randomly choosing header background -->
+  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
+  
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
 
-    <!-- remove after a couple of months -->
-    <script>
-      const path = window.location.pathname;
-      if (path.startsWith("/events/")) {
-        const newPath = path.replaceAll("_", "-");
-        if (newPath !== path) {
-          window.location.replace(newPath);
-        }
+  <!-- remove after a couple of months -->
+  <script>
+    const path = window.location.pathname;
+    if (path.startsWith("/events/")) {
+      const newPath = path.replaceAll("_", "-");
+      if (newPath !== path) {
+        window.location.replace(newPath);
       }
-    </script>
-  </head>
+    }
+  </script>
+</head>
+
 
   <body>
+
     <header class="page-header noscript" id="page-header--random-bg">
-      <div class="bg">
-        <div id="header-random-background"></div>
-      </div>
-      <div class="navigation-items">
-        <div itemscope itemtype="http://schema.org/Organization">
-          <span style="display: none" itemprop="name"
-            >University of Bristol Computer Science Society</span
-          >
-          <a
-            aria-label="Home"
-            href="/"
-            class="page-header__logo"
-            itemprop="url"
-          >
-            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-          </a>
-        </div>
-        <nav class="page-navigation">
-          <ul class="page-navigation__links">
-            <li><a href="/about/">About</a></li>
+  <div class="bg">
+    <div id="header-random-background"></div>
+  </div>
+  <div class="navigation-items">
+    <div itemscope itemtype="http://schema.org/Organization">
+      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
+      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
+        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+      </a>
+    </div>
+    <nav class="page-navigation">
+      <ul class="page-navigation__links">
+        
+        
+        
+        <li><a href="/about/">About</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/contact/">Contact</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/events/index.html">Events</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/jobs/">Jobs</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/shop/">Shop</a></li>
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/sponsors">Sponsor us</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/tutorials/">Tutorials</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/wellbeing/">Wellbeing</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </nav>
+  </div>
+  
+</header>
 
-            <li><a href="/contact/">Contact</a></li>
-
-            <li><a href="/events/index.html">Events</a></li>
-
-            <li><a href="/jobs/">Jobs</a></li>
-
-            <li><a href="/shop/">Shop</a></li>
-
-            <li><a href="/sponsors">Sponsor us</a></li>
-
-            <li><a href="/tutorials/">Tutorials</a></li>
-
-            <li><a href="/wellbeing/">Wellbeing</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
 
     <section class="page-section">
-      <article class="article extrawide event-page">
-        <section>
-          <h1 class="event-page__title">
-            Graduate Software Engineer at Bloomberg
-          </h1>
-          <div class="blog-post__body">
-            <p>
-              Bloomberg’s diverse community of engineers take on some of the
-              world’s most interesting and important technical challenges. We
-              develop impactful solutions to complex, real-world problems. With
-              new systems being rolled out daily, we make an immediate impact on
-              global markets and we look for the best software engineers to
-              build them.
-            </p>
+  <article class="article extrawide event-page">
+    <section>
+      <h1 class="event-page__title">Graduate Software Engineer at Bloomberg</h1>
+      <div class="blog-post__body"><p>Bloomberg’s diverse community of engineers take on some of the world’s most interesting and important technical challenges. We develop impactful solutions to complex, real-world problems. With new systems being rolled out daily, we make an immediate impact on global markets and we look for the best software engineers to build them.</p>
 
-            <h2 id="whats-in-it-for-you">What’s in it for you?</h2>
+<h2 id="whats-in-it-for-you">What’s in it for you?</h2>
 
-            <p>
-              Our training program will teach you the ins and outs of our
-              technology stack and how to be a successful software engineer in
-              our high-energy and fast-paced environment. Training consists of
-              lectures, labs and group projects. You’ll become a pro on the
-              Bloomberg Terminal and learn how we do database systems, network
-              communication, real-time data processing, and build UIs. After
-              training, you will be ready to hit the ground running, leaving the
-              class with a strong network of new friends and colleagues from a
-              range of backgrounds. You’ll join a global team of engineers with
-              a real passion for both innovating and solving problems.
-            </p>
+<p>Our training program will teach you the ins and outs of our technology stack and how to be a successful software engineer in our high-energy and fast-paced environment. Training consists of lectures, labs and group projects. You’ll become a pro on the Bloomberg Terminal and learn how we do database systems, network communication, real-time data processing, and build UIs. After training, you will be ready to hit the ground running, leaving the class with a strong network of new friends and colleagues from a range of backgrounds. You’ll join a global team of engineers with a real passion for both innovating and solving problems.</p>
 
-            <h2 id="well-trust-you-to">We’ll trust you to:</h2>
-            <ul>
-              <li>Take ownership of the full development cycle</li>
-              <li>
-                Partner with business stakeholders and other developers to
-                design, build and roll out solutions that will optimize complex
-                workflows
-              </li>
-              <li>Understand and efficiently manipulate large datasets</li>
-              <li>Make quick, thoughtful decisions</li>
-              <li>Be a collaborative member of your team</li>
-              <li>
-                Have a deep understanding of data structures and algorithms
-              </li>
-              <li>Be an excellent problem solver</li>
-            </ul>
+<h2 id="well-trust-you-to">We’ll trust you to:</h2>
+<ul>
+  <li>Take ownership of the full development cycle</li>
+  <li>Partner with business stakeholders and other developers to design, build and roll out solutions that will optimize complex workflows</li>
+  <li>Understand and efficiently manipulate large datasets</li>
+  <li>Make quick, thoughtful decisions</li>
+  <li>Be a collaborative member of your team</li>
+  <li>Have a deep understanding of data structures and algorithms</li>
+  <li>Be an excellent problem solver</li>
+</ul>
 
-            <h2 id="youll-need-to-have">You’ll need to have:</h2>
-            <ul>
-              <li>
-                A degree in Computer Science, Engineering, or related technology
-                subject
-              </li>
-              <li>Programming experience in C, C++, C#, Java or Python</li>
-            </ul>
+<h2 id="youll-need-to-have">You’ll need to have:</h2>
+<ul>
+  <li>A degree in Computer Science, Engineering, or related technology subject</li>
+  <li>Programming experience in C, C++, C#, Java or Python</li>
+</ul>
 
-            <p>
-              We are deeply proud of our diverse and open culture, and value
-              diversity of thought and perspective in every form. If you have a
-              degree outside of the above, but still have strong software
-              development skills, then we can teach you the rest.
-            </p>
+<p>We are deeply proud of our diverse and open culture, and value diversity of thought and perspective in every form. If you have a degree outside of the above, but still have strong software development skills, then we can teach you the rest.</p>
 
-            <p>
-              We’re looking for engineers who have a real passion for writing
-              reusable, performant solutions to complex problems, who can keep
-              an open mind and adapt to an ever-changing market landscape, who
-              can collaborate and work effectively on small teams, and who want
-              to develop software that impacts thousands of power users around
-              the world. We want people who see things differently, find
-              solutions and collaborate instinctively. If this sounds like you,
-              please apply below! We’ll review your application and be in touch
-              as soon as possible to discuss next steps.
-            </p>
+<p>We’re looking for engineers who have a real passion for writing reusable, performant solutions to complex problems, who can keep an open mind and adapt to an ever-changing market landscape, who can collaborate and work effectively on small teams, and who want to develop software that impacts thousands of power users around the world. We want people who see things differently, find solutions and collaborate instinctively.
+If this sounds like you, please apply below! We’ll review your application and be in touch as soon as possible to discuss next steps.</p>
 
-            <p>
-              We do not discriminate on the basis of race, religion, colour,
-              national origin, sex, gender identity, sexual orientation, age,
-              marital status, veteran status, disability status, or any other
-              classification protected by applicable law. Disruptive innovation
-              and breakthrough performance only happen when we are able to
-              channel the diverse ideas and experiences of our employees to
-              solve the needs of our clients. Bloomberg is a disability
-              inclusive employer. Please let us know if you require any
-              adjustments to be made for the recruitment process by emailing
-              access2@bloomberg.net. Alternatively, you can get support from our
-              disability partner EmployAbility, please contact +44 7852 764 684
-              or info@employ-ability.org.uk.
-            </p>
-          </div>
-        </section>
-        <section class="event-page__details">
-          <h2>The Details</h2>
-
-          <div class="event-page__details__row job-details">
-            <i
-              class="fas fa-building"
-              data-tooltip="Hiring Company"
-              aria-label="Hiring Company"
-            ></i>
-
-            <a
-              href="https://www.bloomberg.com"
-              target="_blank"
-              rel="noopener sponsored"
-              data-tooltip="Bloomberg"
-              class="company-logo"
-            >
-              <img
-                src="/assets/images/contrib/companies/bloomberg.svg"
-                alt="Bloomberg"
-                width="130"
-                height="170"
-              />
-            </a>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-calendar-day"
-              data-tooltip="Start Date"
-              aria-label="Start Date"
-            ></i>
-            <p>2022</p>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-map-marker"
-              data-tooltip="Job Location"
-              aria-label="Job Location"
-            ></i>
-            <p>London</p>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-user-clock"
-              data-tooltip="Employment type"
-              aria-label="Employment Type"
-            ></i>
-            <p>Graduate</p>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-hourglass-end"
-              data-tooltip="Apply by"
-              aria-label="Apply by"
-            ></i>
-            <p>01/01/22 12:00</p>
-          </div>
-
-          <div class="event-page__details__hosted-with">
-            <hr />
-
-            <a
-              class="btn btn--dark"
-              style="margin: 20px"
-              target="_blank"
-              href="https://careers.bloomberg.com/job/detail/93145"
-            >
-              Apply Here
-            </a>
-          </div>
-        </section>
-      </article>
+<p>We do not discriminate on the basis of race, religion, colour, national origin, sex, gender identity, sexual orientation, age, marital status, veteran status, disability status, or any other classification protected by applicable law. Disruptive innovation and breakthrough performance only happen when we are able to channel the diverse ideas and experiences of our employees to solve the needs of our clients.
+Bloomberg is a disability inclusive employer. Please let us know if you require any adjustments to be made for the recruitment process by emailing access2@bloomberg.net.
+Alternatively, you can get support from our disability partner EmployAbility, please contact +44 7852 764 684 or info@employ-ability.org.uk.</p>
+</div>
     </section>
+    <section class="event-page__details">
+      <h2>The Details</h2>
+      
+      <div class="event-page__details__row job-details">
+        <i class="fas fa-building" data-tooltip="Hiring Company" aria-label="Hiring Company"></i>
+        
+        
+<a
+  href="https://www.bloomberg.com"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Bloomberg"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/bloomberg.svg"
+    alt="Bloomberg"
+    width="130"
+    height="170"
+  />
+</a>
+
+        
+      </div>
+      
+      
+      <div class="event-page__details__row">
+        <i class="fas fa-calendar-day" data-tooltip="Start Date" aria-label="Start Date"></i>
+        <p>2022</p>
+      </div>
+      
+      
+      <div class="event-page__details__row">
+        <i class="fas fa-map-marker" data-tooltip="Job Location" aria-label="Job Location"></i>
+        <p>London</p>
+      </div>
+      
+      
+      
+      <div class="event-page__details__row">
+        <i class="fas fa-user-clock" data-tooltip="Employment type" aria-label="Employment Type"></i>
+        <p>Graduate</p>
+      </div>
+      
+      
+      <div class="event-page__details__row">
+        <i class="fas fa-hourglass-end" data-tooltip="Apply by" aria-label="Apply by"></i>
+        <p>
+          01/01/22 12:00
+        </p>
+      </div>
+      
+      
+      <div class="event-page__details__hosted-with">
+        <hr />
+        
+        <a class="btn btn--dark" style="margin: 20px" target="_blank" href="https://careers.bloomberg.com/job/detail/93145">
+          Apply Here
+        </a>
+        
+        
+      </div>
+      
+    </section>
+  </article>
+</section>
 
     <section class="page-section sponsorsec">
-      <h1 class="sponsors-title">
-        <a href="/pages/sponsors">Proudly sponsored by</a>
-      </h1>
-      <div class="sponsors">
-        <a
-          href="https://www.caci.co.uk"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="CACI"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/caci.png"
-            alt="CACI"
-            width="130"
-            height="170"
-          />
-        </a>
+    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
+    <div class="sponsors">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+            
+<a
+  href="https://www.caci.co.uk"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="CACI"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/caci.png"
+    alt="CACI"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.publicissapient.com/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Publicis Sapient"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/publicis_sapient.svg"
-            alt="Publicis Sapient"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+            
+<a
+  href="https://www.publicissapient.com/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Publicis Sapient"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/publicis_sapient.svg"
+    alt="Publicis Sapient"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.qualcomm.com/home"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Qualcomm"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/qualcomm.png"
-            alt="Qualcomm"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+          
+            
+<a
+  href="https://www.qualcomm.com/home"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qualcomm"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qualcomm.png"
+    alt="Qualcomm"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.qube-rt.com/careers/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Qube Research & Technologies"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/qube-rt.svg"
-            alt="Qube Research & Technologies"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+          
+            
+<a
+  href="https://www.qube-rt.com/careers/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qube Research & Technologies"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qube-rt.svg"
+    alt="Qube Research & Technologies"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.xmos.ai/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="XMOS"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/xmos.svg"
-            alt="XMOS"
-            width="130"
-            height="170"
-          />
-        </a>
-      </div>
-      <div class="sponsors__action_item">
-        <a href="/pages/sponsors">Learn more about working with us.</a>
-      </div>
-    </section>
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+            
+<a
+  href="https://www.xmos.ai/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="XMOS"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/xmos.svg"
+    alt="XMOS"
+    width="130"
+    height="170"
+  />
+</a>
+
+          
+        
+      
+    </div>
+    <div class="sponsors__action_item">
+      <a href="/pages/sponsors">Learn more about working with us.</a>
+    </div>
+</section>
+
 
     <footer class="page-footer">
-      <span class="page-footer__text"
-        >&copy; University of Bristol Computer Science Society</span
-      >
-      <nav class="page-footer__menu">
-        <ul>
-          <li>
-            <a class="page-link" href="/about/">About</a>
-          </li>
+  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
+  <nav class="page-footer__menu">
+    <ul>
+    
+    
+      
+      <li>
+        <a class="page-link" href="/about/">About</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/contact/">Contact</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/events/index.html">Events</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/jobs/">Jobs</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/shop/">Shop</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/sponsors">Sponsor us</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/tutorials/">Tutorials</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/wellbeing/">Wellbeing</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    </ul>
+  </nav>
+</footer>
 
-          <li>
-            <a class="page-link" href="/contact/">Contact</a>
-          </li>
 
-          <li>
-            <a class="page-link" href="/events/index.html">Events</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/jobs/">Jobs</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/shop/">Shop</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/sponsors">Sponsor us</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/tutorials/">Tutorials</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/wellbeing/">Wellbeing</a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
   </body>
+
 </html>
