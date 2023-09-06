@@ -1,1095 +1,599 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-  <meta charset=utf-8>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="/assets/favicons/manifest.json">
-<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#3498db">
-<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
-<meta name="theme-color" content="#3498db">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/assets/favicons/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/assets/favicons/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/assets/favicons/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/assets/favicons/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/assets/favicons/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/assets/favicons/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/assets/favicons/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/assets/favicons/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicons/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-194x194.png"
+      sizes="194x194"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/android-chrome-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link rel="manifest" href="/assets/favicons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/assets/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#3498db" />
+    <meta
+      name="msapplication-TileImage"
+      content="/assets/favicons/mstile-144x144.png"
+    />
+    <meta name="theme-color" content="#3498db" />
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta name="description" content="The second year of Computer Science at Bristol is a tough one - here’s a thread of valuable tips from students who’ve seen it through.Note to my younger self: advice for thriving in second yearOk so if I was to give advice to my younger self what would it be……..hmmm good question.Here goes…….Don’...">
+    <meta
+      name="description"
+      content="The second year of Computer Science at Bristol is a tough one - here’s a thread of valuable tips from students who’ve seen it through.Note to my younger self: advice for thriving in second yearOk so if I was to give advice to my younger self what would it be……..hmmm good question.Here goes…….Don’..."
+    />
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Advice for Second Years - CSS Bristol">
-<meta property="og:description" content="The second year of Computer Science at Bristol is a tough one - here’s a thread of valuable tips from students who’ve seen it through. Note to my younger self: advice for thriving in second year Ok so if I was to give advice to my younger self what would...">
-<meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
-<meta property="og:url" content="https://cssbristol.co.uk/2017/09/24/second-year-advice.html">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Advice for Second Years - CSS Bristol" />
+    <meta
+      property="og:description"
+      content="The second year of Computer Science at Bristol is a tough one - here’s a thread of valuable tips from students who’ve seen it through. Note to my younger self: advice for thriving in second year Ok so if I was to give advice to my younger self what would..."
+    />
+    <meta
+      property="og:image"
+      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
+    />
+    <meta
+      property="og:url"
+      content="https://cssbristol.co.uk/2017/09/24/second-year-advice.html"
+    />
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Advice for Second Years - CSS Bristol">
-<meta name="twitter:description" content="The second year of Computer Science at Bristol is a tough one - here’s a thread of valuable tips from students who’ve seen it through. Note to my younger self: advice for thriving in second year Ok so if I was to give advice to my younger self what would...">
-<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
-<meta name="twitter:site" content="@cssbristol">
- 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Advice for Second Years - CSS Bristol"
+    />
+    <meta
+      name="twitter:description"
+      content="The second year of Computer Science at Bristol is a tough one - here’s a thread of valuable tips from students who’ve seen it through. Note to my younger self: advice for thriving in second year Ok so if I was to give advice to my younger self what would..."
+    />
+    <meta
+      name="twitter:image"
+      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
+    />
+    <meta name="twitter:site" content="@cssbristol" />
 
+    <title>Advice for Second Years - CSS Bristol</title>
 
-  <title>Advice for Second Years - CSS Bristol</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    />
 
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
+    <link rel="stylesheet" href="/assets/css/site.css" />
+    <link
+      rel="canonical"
+      href="https://cssbristol.co.uk/2017/09/24/second-year-advice.html"
+    />
 
-  <link rel="stylesheet" href="/assets/css/site.css" />
-  <link rel="canonical" href="https://cssbristol.co.uk/2017/09/24/second-year-advice.html" />
-  
+    <!-- Prefetch background images so they load faster next time page loads -->
+    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
 
-  
+    <!-- Script for FontAwesome icons -->
+    <script
+      src="https://kit.fontawesome.com/5918af34b4.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
 
-  <!-- Prefetch background images so they load faster next time page loads -->
-  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
+    <!-- Script for randomly choosing header background -->
+    <script
+      type="text/javascript"
+      src="/assets/scripts/header-random-bg.js"
+      defer
+    ></script>
 
-  <!-- Script for FontAwesome icons -->
-  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
-  
-  <!-- Script for randomly choosing header background -->
-  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
-  
-  <!-- Cloudflare Web Analytics -->
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
+    <!-- Cloudflare Web Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
+    ></script>
 
-  <!-- remove after a couple of months -->
-  <script>
-    const path = window.location.pathname;
-    if (path.startsWith("/events/")) {
-      const newPath = path.replaceAll("_", "-");
-      if (newPath !== path) {
-        window.location.replace(newPath);
+    <!-- remove after a couple of months -->
+    <script>
+      const path = window.location.pathname;
+      if (path.startsWith("/events/")) {
+        const newPath = path.replaceAll("_", "-");
+        if (newPath !== path) {
+          window.location.replace(newPath);
+        }
       }
-    }
-  </script>
-</head>
-
+    </script>
+  </head>
 
   <body>
-
     <header class="page-header noscript" id="page-header--random-bg">
-  <div class="bg">
-    <div id="header-random-background"></div>
-  </div>
-  <div class="navigation-items">
-    <div itemscope itemtype="http://schema.org/Organization">
-      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
-      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
-        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-      </a>
-    </div>
-    <nav class="page-navigation">
-      <ul class="page-navigation__links">
-        
-        
-        
-        <li><a href="/about/">About</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/contact/">Contact</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/events/index.html">Events</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/jobs/">Jobs</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/shop/">Shop</a></li>
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/sponsors">Sponsor us</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/tutorials/">Tutorials</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/wellbeing/">Wellbeing</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      </ul>
-    </nav>
-  </div>
-  
-</header>
+      <div class="bg">
+        <div id="header-random-background"></div>
+      </div>
+      <div class="navigation-items">
+        <div itemscope itemtype="http://schema.org/Organization">
+          <span style="display: none" itemprop="name"
+            >University of Bristol Computer Science Society</span
+          >
+          <a
+            aria-label="Home"
+            href="/"
+            class="page-header__logo"
+            itemprop="url"
+          >
+            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+          </a>
+        </div>
+        <nav class="page-navigation">
+          <ul class="page-navigation__links">
+            <li><a href="/about/">About</a></li>
 
+            <li><a href="/contact/">Contact</a></li>
+
+            <li><a href="/events/index.html">Events</a></li>
+
+            <li><a href="/jobs/">Jobs</a></li>
+
+            <li><a href="/shop/">Shop</a></li>
+
+            <li><a href="/sponsors">Sponsor us</a></li>
+
+            <li><a href="/tutorials/">Tutorials</a></li>
+
+            <li><a href="/wellbeing/">Wellbeing</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
     <section class="page-section">
-  <article class="article blog-post" itemscope itemtype="http://schema.org/BlogPosting">
-    <header class="blog-post__header">
-      <h1 class="blog-post__title" itemprop="name headline">Advice for Second Years</h1>
-      <p class="blog-post__meta">
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Louis Heath, Chris Priscott, Tess Conway, Ian Lawson, Harshna Patel</span></span> on 
-        <time datetime="2017-09-24T14:00:00+01:00" itemprop="datePublished">Sep 24, 2017</time>
-      </p>
-      
-    </header>
-    <div itemprop="articleBody" class="blog-post__body">
-      
+      <article
+        class="article blog-post"
+        itemscope
+        itemtype="http://schema.org/BlogPosting"
+      >
+        <header class="blog-post__header">
+          <h1 class="blog-post__title" itemprop="name headline">
+            Advice for Second Years
+          </h1>
+          <p class="blog-post__meta">
+            <span
+              itemprop="author"
+              itemscope
+              itemtype="http://schema.org/Person"
+              ><span itemprop="name"
+                >Louis Heath, Chris Priscott, Tess Conway, Ian Lawson, Harshna
+                Patel</span
+              ></span
+            >
+            on
+            <time datetime="2017-09-24T14:00:00+01:00" itemprop="datePublished"
+              >Sep 24, 2017</time
+            >
+          </p>
+        </header>
+        <div itemprop="articleBody" class="blog-post__body">
+          <p>
+            The second year of Computer Science at Bristol is a tough one -
+            here’s a thread of valuable tips from students who’ve seen it
+            through.
+          </p>
 
-      <p>The second year of Computer Science at Bristol is a tough one - here’s a thread of valuable tips from students who’ve seen it through.</p>
+          <h2 id="note-to-my-younger-self-advice-for-thriving-in-second-year">
+            Note to my younger self: advice for thriving in second year
+          </h2>
 
-<h2 id="note-to-my-younger-self-advice-for-thriving-in-second-year">Note to my younger self: advice for thriving in second year</h2>
+          <p>
+            Ok so if I was to give advice to my younger self what would it
+            be……..hmmm good question.
+          </p>
 
-<p>Ok so if I was to give advice to my younger self what would it be……..hmmm good question.</p>
+          <p>
+            Here goes…….Don’t feel overwhelmed. Focus on a small problem, solve
+            that and find your next small problem. Repeat. Understand that not
+            everybody gets it even though it may seem that way. The lectures
+            don’t always relate to the coursework, google is your friend, stay
+            calm and take one step at a time.
+          </p>
 
-<p>Here goes…….Don’t feel overwhelmed. Focus on a small problem, solve that and find your next small
-problem. Repeat. Understand that not everybody gets it even though it may seem that way. The
-lectures don’t always relate to the coursework, google is your friend, stay calm and take one step at a
-time.</p>
+          <p>
+            Figure out what you enjoy and be the best you can at it. You won’t
+            always find every subject easy but when you find the one that gives
+            you a buzz, take it by the horns and immerse yourself in it. Find a
+            good friend to talk to about a problem that you are struggling with
+            even if they aren’t on the same course as you. As you are discussing
+            the problem you’ll find that things will become clearer, you’ll spot
+            how to break it into down into bitesize chunks and usually figure
+            out a simple answer and wonder why you were so worried about it in
+            the first place.
+          </p>
 
-<p>Figure out what you enjoy and be the best you can at it. You won’t always find every subject easy but
-when you find the one that gives you a buzz, take it by the horns and immerse yourself in it.
-Find a good friend to talk to about a problem that you are struggling with even if they aren’t on the
-same course as you. As you are discussing the problem you’ll find that things will become clearer,
-you’ll spot how to break it into down into bitesize chunks and usually figure out a simple answer and
-wonder why you were so worried about it in the first place.</p>
+          <p>
+            Use your mentor if you have one or someone in the year above. If you
+            don’t have one already (or want another one), just ask. They will
+            have already gone through what you are currently facing and have
+            come out the other side. Ask them for guidance, support or a gentle
+            nudge in the right direction, maybe over a Dominos pizza in MVB
+            atrium (I fondly miss their student discount!).
+          </p>
 
-<p>Use your mentor if you have one or someone in the year above. If you don’t have one already (or
-want another one), just ask. They will have already gone through what you are currently facing and
-have come out the other side. Ask them for guidance, support or a gentle nudge in the right direction,
-maybe over a Dominos pizza in MVB atrium (I fondly miss their student discount!).</p>
+          <p>
+            And finally, if you don’t already, set yourself a goal for something
+            you want to achieve after graduating and finding work. I told myself
+            that I wanted my name to be in the credits of a Hollywood movie
+            before I was 25. I still remember the amazing feeling staying till
+            the end of ‘John Carter’ and seeing my name up on the big screen.
+            All the hard work and struggles you will have faced to get this far
+            will feel so so worth it.
+          </p>
 
-<p>And finally, if you don’t already, set yourself a goal for something you want to achieve after graduating
-and finding work. I told myself that I wanted my name to be in the credits of a Hollywood movie before
-I was 25. I still remember the amazing feeling staying till the end of ‘John Carter’ and seeing my name
-up on the big screen. All the hard work and struggles you will have faced to get this far will feel so so
-worth it.</p>
+          <p>
+            Sophie would also like to add that for the girls especially (but not
+            exclusively) that it might be worth having a quick read up on
+            stereotype threats
+            <a href="http://en.wikipedia.org/wiki/Stereotype_threat"
+              >http://en.wikipedia.org/wiki/Stereotype_threat</a
+            >. She also went through some struggles in second year and wish she
+            had known about this at the time.
+          </p>
 
-<p>Sophie would also like to add that for the girls especially (but not exclusively) that it might be worth
-having a quick read up on stereotype threats <a href="http://en.wikipedia.org/wiki/Stereotype_threat">http://en.wikipedia.org/wiki/Stereotype_threat</a>. She also
-went through some struggles in second year and wish she had known about this at the time.</p>
+          <p>
+            (I hope it helps) and if anyone has any more questions feel free to
+            get in touch through Caroline.
+          </p>
 
-<p>(I hope it helps) and if anyone has any more questions feel free to get in touch through Caroline.</p>
+          <p><em>- Chris Priscott - Double Negative</em></p>
 
-<p><em>- Chris Priscott - Double Negative</em></p>
+          <p> </p>
 
-<p> </p>
+          <p>
+            Awesome advice Chris! A couple of other things that also sprang to
+            mind: There’s absolute no shame in asking for help! Sometimes it can
+            be really daunting putting your hand up in lectures when the
+            lecturer asks if there are any questions and the whole room is
+            silent, but Bristol has a really great open door policy with their
+            lecturers. If you’re confused over the content of a lecture or a
+            coursework then from experience I found they were all usually very
+            happy to sit down and discuss it with me after the lecture - if
+            nothing else I found that most lecturers just really like talking
+            about their chosen topics of interest! If it’s too intimidating
+            going on your own grab a friend who’s also confused (because there
+            is no way you’re the only one, even if it seems that way) and go
+            together.
+          </p>
 
-<p>Awesome advice Chris! A couple of other things that also sprang to mind:
-There’s absolute no shame in asking for help! Sometimes it can be really daunting putting your hand
-up in lectures when the lecturer asks if there are any questions and the whole room is silent, but
-Bristol has a really great open door policy with their lecturers. If you’re confused over the content of a
-lecture or a coursework then from experience I found they were all usually very happy to sit down and
-discuss it with me after the lecture - if nothing else I found that most lecturers just really like talking
-about their chosen topics of interest! If it’s too intimidating going on your own grab a friend who’s also
-confused (because there is no way you’re the only one, even if it seems that way) and go together.</p>
+          <p>
+            Software development is a collaborative effort, even if it doesn’t
+            feel like it at uni. When you hit the “real world” pretty much
+            everyone accepts that open discussion leads to better developers.
+            I’ll preface this bit with ‘Don’t copy each others code because
+            that’s plagiarism and I don’t want to get you into trouble’ but
+            there’s absolutely nothing wrong with closing the laptops, sitting
+            down with some other people from the course and going “Right… What
+            the hell is this coursework asking of us?”
+          </p>
 
-<p>Software development is a collaborative effort, even if it doesn’t feel like it at uni. When you hit the
-“real world” pretty much everyone accepts that open discussion leads to better developers. I’ll preface
-this bit with ‘Don’t copy each others code because that’s plagiarism and I don’t want to get you into
-trouble’ but there’s absolutely nothing wrong with closing the laptops, sitting down with some other
-people from the course and going “Right… What the hell is this coursework asking of us?”</p>
+          <p>
+            Finally, find something you enjoy outside of your course. Join a
+            society or two and give yourself evenings off - there’s more to
+            university life than just your degree subject and besides, that
+            error message you’ve been staring at for the last 6 hours? Not going
+            to happen now. Sometimes the best thing you can do is to step away
+            from your computer and come back to it later.
+          </p>
 
-<p>Finally, find something you enjoy outside of your course. Join a society or two and give yourself
-evenings off - there’s more to university life than just your degree subject and besides, that error
-message you’ve been staring at for the last 6 hours? Not going to happen now. Sometimes the best
-thing you can do is to step away from your computer and come back to it later.</p>
+          <p>
+            Second year was the worst year for me too. I never particularly
+            enjoyed the hardcore theoretical units that we got taught in first
+            and second year, and only really started to enjoy the course when we
+            got to third year and could pick modules that actually interested us
+            - there’s more than one way to be a Software Developer, and if one
+            specific area doesn’t interest you then that’s completely fine,
+            there are literally hundreds of other areas that might suit you
+            better!
+          </p>
 
-<p>Second year was the worst year for me too. I never particularly enjoyed the hardcore theoretical units
-that we got taught in first and second year, and only really started to enjoy the course when we got to
-third year and could pick modules that actually interested us - there’s more than one way to be a
-Software Developer, and if one specific area doesn’t interest you then that’s completely fine, there are
-literally hundreds of other areas that might suit you better!</p>
+          <p>
+            I also found this article a really interesting read:
+            <a
+              href="https://medium.com/@aliciatweet/overcoming-impostor-syndrome-bdae04e46ec5"
+              >https://medium.com/@aliciatweet/overcoming-impostor-syndrome-bdae04e46ec5</a
+            >
+          </p>
 
-<p>I also found this article a really interesting read: <a href="https://medium.com/@aliciatweet/overcoming-impostor-syndrome-bdae04e46ec5">https://medium.com/@aliciatweet/overcoming-impostor-syndrome-bdae04e46ec5</a></p>
+          <p><em>- Tess Conway</em></p>
 
-<p><em>- Tess Conway</em></p>
+          <p> </p>
 
-<p> </p>
+          <p>
+            Just to quickly reiterate some of the really good points made above!
+            Ask plenty of questions, speak openly to your lecturers and try and
+            get excited about the topics you’re studying. In my second year I
+            had no idea what I wanted to do, I was on a joint honors degree
+            (Maths &amp; CS) that I wasn’t enjoying (and borderline failing)
+            with no job ambitions. Second year was tough, I had no say in what I
+            wanted to study. However, I knew making a move to Computer Science
+            would allow me to study new and exciting things in my third year. A
+            year later, it was a totally different story. I was in the middle of
+            the Games project with a great group of friends and enrolled in
+            modules that really interested me (mainly Computer graphics). From
+            this point I started to have some idea about what sort of career I
+            wanted once I finished at Bristol, and this sort of motivation
+            really helped! So, what got me through my second year? Cider, hard
+            work and a good group of friends. There was a core group of us all
+            in the same boat, struggling along, but pushing through the year
+            together. Of course, plagiarism is bad, but like Tess said,
+            discussions are healthy and extremely productive. At the end of day,
+            it’s all about understanding the problem, not necessarily writing
+            perfect code. Getting a second (or third) opinion on something is
+            common practice in my day-to- day at Double Negative! Second year is
+            tough, but it gets better. Looking back at my time at Bristol the
+            best times were in years three and four. So keep your chin up and
+            power through!
+          </p>
 
-<p>Just to quickly reiterate some of the really good points made above! Ask plenty of questions, speak
-openly to your lecturers and try and get excited about the topics you’re studying. In my second year I
-had no idea what I wanted to do, I was on a joint honors degree (Maths &amp; CS) that I wasn’t enjoying
-(and borderline failing) with no job ambitions. Second year was tough, I had no say in what I wanted
-to study. However, I knew making a move to Computer Science would allow me to study new and
-exciting things in my third year. A year later, it was a totally different story. I was in the middle of the Games project with a great group of friends and enrolled in modules that really interested me (mainly
-Computer graphics). From this point I started to have some idea about what sort of career I wanted
-once I finished at Bristol, and this sort of motivation really helped! So, what got me through my second
-year? Cider, hard work and a good group of friends. There was a core group of us all in the same
-boat, struggling along, but pushing through the year together. Of course, plagiarism is bad, but like
-Tess said, discussions are healthy and extremely productive. At the end of day, it’s all about
-understanding the problem, not necessarily writing perfect code. Getting a second (or third) opinion
-on something is common practice in my day-to- day at Double Negative! Second year is tough, but it
-gets better. Looking back at my time at Bristol the best times were in years three and four. So keep
-your chin up and power through!</p>
+          <p><em>- Ian Lawson</em></p>
 
-<p><em>- Ian Lawson</em></p>
+          <p> </p>
 
-<p> </p>
+          <p>
+            Everyone’s points are so true! Ok, mine would be: Definitely find
+            yourself something to do outside of your course ( preferably
+            something that takes you out of your working environment, so going
+            to see movies or going on walks, join a sports team, go sketching
+            etc.). I know what you’re thinking, there is literally no time to do
+            anything but coursework, and if I ‘take a break’ I’ll fall behind.
+            This is not true! It’s so refreshing to have something other than
+            your course to spend time and effort on, and it’ll help you avoid
+            burnout too. I wish I had done this, I know now it would have
+            reduced my stress levels massively and also meant I would have spent
+            time following other interests at university too.
+          </p>
 
-<p>Everyone’s points are so true! Ok, mine would be: Definitely find yourself something to do outside of
-your course ( preferably something that takes you out of your working environment, so going to see
-movies or going on walks, join a sports team, go sketching etc.). I know what you’re thinking, there is
-literally no time to do anything but coursework, and if I ‘take a break’ I’ll fall behind. This is not true! It’s so refreshing to have something other than your course to spend time and effort on, and it’ll help you avoid burnout too. I wish I had done this, I know now it would have reduced my stress levels
-massively and also meant I would have spent time following other interests at university too.</p>
+          <p>
+            Secondly, find someone within the department that you can talk to,
+            your tutor, or Caroline, or anyone you feel comfortable with. You
+            are not alone in what you are going through, and if you talk to
+            someone in the department, they could help you if you are feeling
+            overwhelmed. It’s also a good idea because then you’re offloading a
+            lot of what is going through your head and this takes some of the
+            pressure off. Even if you don’t like talking to people, or
+            discussing any of the problems you may be experiencing, I would
+            really encourage you to find the time to send an email or talk to a
+            friend about your stress, it does help!
+          </p>
 
-<p>Secondly, find someone within the department that you can talk to, your tutor, or Caroline, or anyone
-you feel comfortable with. You are not alone in what you are going through, and if you talk to
-someone in the department, they could help you if you are feeling overwhelmed. It’s also a good idea
-because then you’re offloading a lot of what is going through your head and this takes some of the
-pressure off. Even if you don’t like talking to people, or discussing any of the problems you may be
-experiencing, I would really encourage you to find the time to send an email or talk to a friend about
-your stress, it does help!</p>
+          <p>
+            Thirdly, divide and conquer! Everything seems overwhelming, the
+            never ending coursework, the exams, the looming deadlines. But break
+            this down into your priorities for the current period and build
+            yourself up a schedule. Look at a coursework as a series of goal,
+            e.g. ‘Rig the model’, ‘Draft 7 slides for HCI presentation’, just
+            small steps that will lead you to where you need to be. We all know
+            what you’re currently experiencing, I have been there before too, so
+            I would really encourage you to set aside time for yourself and
+            break down your workload into achievable chunks. Don’t compare
+            yourself to your peers, they are on a different journey, what
+            matters is making sure you are doing what’s best for you. Make sure
+            you make time for you and that you’re taking care of your health and
+            your mind, I can’t emphasise that enough! Good luck! If you want to
+            pass on my email, that’s fine too!
+          </p>
 
-<p>Thirdly, divide and conquer! Everything seems overwhelming, the never ending coursework, the
-exams, the looming deadlines. But break this down into your priorities for the current period and build
-yourself up a schedule. Look at a coursework as a series of goal, e.g. ‘Rig the model’, ‘Draft 7 slides
-for HCI presentation’, just small steps that will lead you to where you need to be.
-We all know what you’re currently experiencing, I have been there before too, so I would really
-encourage you to set aside time for yourself and break down your workload into achievable chunks.
-Don’t compare yourself to your peers, they are on a different journey, what matters is making sure you
-are doing what’s best for you. Make sure you make time for you and that you’re taking care of your
-health and your mind, I can’t emphasise that enough! Good luck! If you want to pass on my email,
-that’s fine too!</p>
-
-<p><em>- Harshna Patel</em></p>
-
-    </div>
-  </article>
-</section>
-
+          <p><em>- Harshna Patel</em></p>
+        </div>
+      </article>
+    </section>
 
     <section class="page-section sponsorsec">
-    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
-    <div class="sponsors">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-            
-<a
-  href="https://www.caci.co.uk"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="CACI"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/caci.png"
-    alt="CACI"
-    width="130"
-    height="170"
-  />
-</a>
+      <h1 class="sponsors-title">
+        <a href="/pages/sponsors">Proudly sponsored by</a>
+      </h1>
+      <div class="sponsors">
+        <a
+          href="https://www.caci.co.uk"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="CACI"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/caci.png"
+            alt="CACI"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-            
-<a
-  href="https://www.publicissapient.com/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Publicis Sapient"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/publicis_sapient.svg"
-    alt="Publicis Sapient"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.publicissapient.com/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Publicis Sapient"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/publicis_sapient.svg"
+            alt="Publicis Sapient"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-          
-            
-<a
-  href="https://www.qualcomm.com/home"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Qualcomm"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/qualcomm.png"
-    alt="Qualcomm"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.qualcomm.com/home"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Qualcomm"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/qualcomm.png"
+            alt="Qualcomm"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-          
-            
-<a
-  href="https://www.qube-rt.com/careers/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Qube Research & Technologies"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/qube-rt.svg"
-    alt="Qube Research & Technologies"
-    width="130"
-    height="170"
-  />
-</a>
+        <a
+          href="https://www.qube-rt.com/careers/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Qube Research & Technologies"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/qube-rt.svg"
+            alt="Qube Research & Technologies"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-            
-<a
-  href="https://www.xmos.ai/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="XMOS"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/xmos.svg"
-    alt="XMOS"
-    width="130"
-    height="170"
-  />
-</a>
-
-          
-        
-      
-    </div>
-    <div class="sponsors__action_item">
-      <a href="/pages/sponsors">Learn more about working with us.</a>
-    </div>
-</section>
-
+        <a
+          href="https://www.xmos.ai/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="XMOS"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/xmos.svg"
+            alt="XMOS"
+            width="130"
+            height="170"
+          />
+        </a>
+      </div>
+      <div class="sponsors__action_item">
+        <a href="/pages/sponsors">Learn more about working with us.</a>
+      </div>
+    </section>
 
     <footer class="page-footer">
-  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
-  <nav class="page-footer__menu">
-    <ul>
-    
-    
-      
-      <li>
-        <a class="page-link" href="/about/">About</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/contact/">Contact</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/events/index.html">Events</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/jobs/">Jobs</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/shop/">Shop</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/sponsors">Sponsor us</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/tutorials/">Tutorials</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/wellbeing/">Wellbeing</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    </ul>
-  </nav>
-</footer>
+      <span class="page-footer__text"
+        >&copy; University of Bristol Computer Science Society</span
+      >
+      <nav class="page-footer__menu">
+        <ul>
+          <li>
+            <a class="page-link" href="/about/">About</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/contact/">Contact</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/events/index.html">Events</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/jobs/">Jobs</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/shop/">Shop</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/sponsors">Sponsor us</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/tutorials/">Tutorials</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/wellbeing/">Wellbeing</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
-
 </html>
