@@ -1,931 +1,1266 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="/assets/favicons/apple-touch-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="/assets/favicons/apple-touch-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="/assets/favicons/apple-touch-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="/assets/favicons/apple-touch-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="/assets/favicons/apple-touch-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="/assets/favicons/apple-touch-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="/assets/favicons/apple-touch-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="/assets/favicons/apple-touch-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/assets/favicons/apple-touch-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-32x32.png"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-194x194.png"
-      sizes="194x194"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-96x96.png"
-      sizes="96x96"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/android-chrome-192x192.png"
-      sizes="192x192"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-16x16.png"
-      sizes="16x16"
-    />
-    <link rel="manifest" href="/assets/favicons/manifest.json" />
-    <link
-      rel="mask-icon"
-      href="/assets/favicons/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#3498db" />
-    <meta
-      name="msapplication-TileImage"
-      content="/assets/favicons/mstile-144x144.png"
-    />
-    <meta name="theme-color" content="#3498db" />
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/assets/favicons/manifest.json">
+<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#3498db">
+<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+<meta name="theme-color" content="#3498db">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta
-      name="description"
-      content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department."
-    />
+  <meta name="description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
 
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Freshers - CSS Bristol" />
-    <meta
-      property="og:description"
-      content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department."
-    />
-    <meta
-      property="og:image"
-      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
-    />
-    <meta property="og:url" content="https://cssbristol.co.uk/freshers20/" />
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Freshers - CSS Bristol">
+<meta property="og:description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
+<meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
+<meta property="og:url" content="https://cssbristol.co.uk/freshers20/">
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Freshers - CSS Bristol" />
-    <meta
-      name="twitter:description"
-      content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department."
-    />
-    <meta
-      name="twitter:image"
-      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
-    />
-    <meta name="twitter:site" content="@cssbristol" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Freshers - CSS Bristol">
+<meta name="twitter:description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
+<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
+<meta name="twitter:site" content="@cssbristol">
+ 
 
-    <title>Freshers - CSS Bristol</title>
 
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    />
+  <title>Freshers - CSS Bristol</title>
 
-    <link rel="stylesheet" href="/assets/css/site.css" />
-    <link rel="canonical" href="https://cssbristol.co.uk/freshers20/" />
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
 
-    <!-- Prefetch background images so they load faster next time page loads -->
-    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+  <link rel="canonical" href="https://cssbristol.co.uk/freshers20/" />
+  
 
-    <!-- Script for FontAwesome icons -->
-    <script
-      src="https://kit.fontawesome.com/5918af34b4.js"
-      crossorigin="anonymous"
-      defer
-    ></script>
+  
 
-    <!-- Script for randomly choosing header background -->
-    <script
-      type="text/javascript"
-      src="/assets/scripts/header-random-bg.js"
-      defer
-    ></script>
+  <!-- Prefetch background images so they load faster next time page loads -->
+  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
 
-    <!-- Cloudflare Web Analytics -->
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
-    ></script>
+  <!-- Script for FontAwesome icons -->
+  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
+  
+  <!-- Script for randomly choosing header background -->
+  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
+  
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
 
-    <!-- remove after a couple of months -->
-    <script>
-      const path = window.location.pathname;
-      if (path.startsWith("/events/")) {
-        const newPath = path.replaceAll("_", "-");
-        if (newPath !== path) {
-          window.location.replace(newPath);
-        }
+  <!-- remove after a couple of months -->
+  <script>
+    const path = window.location.pathname;
+    if (path.startsWith("/events/")) {
+      const newPath = path.replaceAll("_", "-");
+      if (newPath !== path) {
+        window.location.replace(newPath);
       }
-    </script>
-  </head>
+    }
+  </script>
+</head>
+
 
   <body>
+
     <header class="page-header noscript" id="page-header--random-bg">
-      <div class="bg">
-        <div id="header-random-background"></div>
-      </div>
-      <div class="navigation-items">
-        <div itemscope itemtype="http://schema.org/Organization">
-          <span style="display: none" itemprop="name"
-            >University of Bristol Computer Science Society</span
-          >
-          <a
-            aria-label="Home"
-            href="/"
-            class="page-header__logo"
-            itemprop="url"
-          >
-            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-          </a>
-        </div>
-        <nav class="page-navigation">
-          <ul class="page-navigation__links">
-            <li><a href="/about/">About</a></li>
+  <div class="bg">
+    <div id="header-random-background"></div>
+  </div>
+  <div class="navigation-items">
+    <div itemscope itemtype="http://schema.org/Organization">
+      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
+      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
+        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+      </a>
+    </div>
+    <nav class="page-navigation">
+      <ul class="page-navigation__links">
+        
+        
+        
+        <li><a href="/about/">About</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/contact/">Contact</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/events/index.html">Events</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/jobs/">Jobs</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/sponsors">Sponsor us</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/tutorials/">Tutorials</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/wellbeing/">Wellbeing</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </nav>
+  </div>
+  
+</header>
 
-            <li><a href="/contact/">Contact</a></li>
-
-            <li><a href="/events/index.html">Events</a></li>
-
-            <li><a href="/jobs/">Jobs</a></li>
-
-            <li><a href="/sponsors">Sponsor us</a></li>
-
-            <li><a href="/tutorials/">Tutorials</a></li>
-
-            <li><a href="/wellbeing/">Wellbeing</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
 
     <section class="page-section">
-      <article class="article">
-        <h1 id="welcome">Welcome!</h1>
+  <article class="article">
+    <h1 id="welcome">Welcome!</h1>
 
-        <p>Hello! We are the University of Bristol Computer Science Society.</p>
+<p>Hello! We are the University of Bristol Computer Science Society.</p>
 
-        <p>
-          Congratulations on getting into a great university and department
-          (which just happens to be full of great people!)
-        </p>
+<p>Congratulations on getting into a great university and department (which just happens to be full of great people!)</p>
 
-        <p>
-          You’ll be pretty busy over the next few weeks, so we’ve collected
-          together some information which you might find useful.
-        </p>
+<p>You’ll be pretty busy over the next few weeks, so we’ve collected together some information which you might find useful.</p>
 
-        <h2 id="freshers-events-2020">Fresher’s Events 2020</h2>
+<h2 id="freshers-events-2020">Fresher’s Events 2020</h2>
 
-        <p>
-          We’ve got a number of exciting events lined up for Freshers’ Week
-          (also known as Welcome Week). You can find details about them
-          <a href="/events">on the site</a>, as well as on the
-          <a href="https://www.facebook.com/groups/CSSBristol/"
-            >Facebook group</a
-          >:
-        </p>
+<p>We’ve got a number of exciting events lined up for Freshers’ Week (also known as Welcome Week). You can find details about them <a href="/events">on the site</a>, as well as on the <a href="https://www.facebook.com/groups/CSSBristol/">Facebook group</a>:</p>
 
-        <div
-          style="
-            display: inline-flex;
-            flex-flow: row wrap;
-            justify-content: space-between;
-          "
-        >
-          <!-- yeah i probs should have used a stylesheet but whatev sue me -->
+<div style="display: inline-flex; flex-flow: row wrap; justify-content: space-between;">
+<!-- yeah i probs should have used a stylesheet but whatev sue me -->
 
-          <div
-            style="
-              border: 1px solid lightgray;
-              margin: 5px;
-              padding: 20px;
-              flex: 0 0 30%;
-              flex-grow: 1;
-            "
-          >
-            <a href="https://www.facebook.com/events/731386067590220/">
-              <div
-                style="
-                  background-image: url(/assets/images/contrib/events/2020_10_03_discord_party.png);
-                  width: auto;
-                  padding-top: 56.25%;
-                  margin: -20px;
-                  background-size: cover;
-                "
-              ></div>
-            </a>
-            <br />
-            <h3>CSS Discord Party</h3>
-            <!-- event details -->
-            <div
-              style="
-                display: flex;
-                border-bottom: 1px lightgray solid;
-                padding: 7px;
-              "
-            >
-              <div style="flex: 0 0 30%; flex-grow: 1">
+    <div style="border: 1px solid lightgray; margin: 5px; padding: 20px; flex: 0 0 30%; flex-grow: 1;">
+        <a href="https://www.facebook.com/events/731386067590220/">
+            <div style="background-image: url(/assets/images/contrib/events/2020_10_03_discord_party.png); width: auto; padding-top: 56.25%; margin: -20px; background-size: cover"></div>
+        </a>
+        <br />
+        <h3>CSS Discord Party</h3>
+        <!-- event details -->
+        <div style="display: flex; border-bottom: 1px lightgray solid; padding: 7px;">
+            <div style="flex: 0 0 30%; flex-grow: 1;">
                 <i class="fas fa-calendar-day"></i>
                 03/10/20
-              </div>
-              <div style="flex: 0 0 30%; flex-grow: 1">
+            </div>
+            <div style="flex: 0 0 30%; flex-grow: 1;">
                 <i class="fas fa-clock"></i>
                 14:00
-              </div>
-              <div style="flex: 0 0 30%; flex-grow: 1">
+            </div>
+            <div style="flex: 0 0 30%; flex-grow: 1;">
                 <i class="fas fa-map-marker"></i>
                 TBA
-              </div>
             </div>
-            <div>
-              <p>
-                Join us on Discord, in the ‘Gaming’ and ‘Stay Motivated’
-                channels, for some games 🎲 and good vibes 🤙. Get your artistic
-                skills ready for intense games of skribbl.io; showcase your
-                Geographical Knowledge™️ in Geoguessr; out-type your friends on
-                TypeRacer; or play something even meatier on Steam.
-              </p>
+        </div>
+        <div>
+        <p>Join us on Discord, in the ‘Gaming’ and ‘Stay Motivated’ channels, for some games 🎲 and good vibes 🤙. Get your artistic skills ready for intense games of skribbl.io; showcase your Geographical Knowledge™️ in Geoguessr; out-type your friends on TypeRacer; or play something even meatier on Steam.</p>
 
-              <p>It’s the perfect opportunity to meet other members of CSS!</p>
+<p>It’s the perfect opportunity to meet other members of CSS!</p>
 
-              <p>Link coming soon…</p>
-            </div>
-          </div>
+<p>Link coming soon…</p>
 
-          <div
-            style="
-              border: 1px solid lightgray;
-              margin: 5px;
-              padding: 20px;
-              flex: 0 0 30%;
-              flex-grow: 1;
-            "
-          >
-            <a href="https://www.facebook.com/events/248321096498946/">
-              <div
-                style="
-                  background-image: url(/assets/images/contrib/events/2020_10_05_social_bingo_ug.png);
-                  width: auto;
-                  padding-top: 56.25%;
-                  margin: -20px;
-                  background-size: cover;
-                "
-              ></div>
-            </a>
-            <br />
-            <h3>Social Bingo (Undergraduates)</h3>
-            <!-- event details -->
-            <div
-              style="
-                display: flex;
-                border-bottom: 1px lightgray solid;
-                padding: 7px;
-              "
-            >
-              <div style="flex: 0 0 30%; flex-grow: 1">
+        </div>
+    </div>
+
+    <div style="border: 1px solid lightgray; margin: 5px; padding: 20px; flex: 0 0 30%; flex-grow: 1;">
+        <a href="https://www.facebook.com/events/248321096498946/">
+            <div style="background-image: url(/assets/images/contrib/events/2020_10_05_social_bingo_ug.png); width: auto; padding-top: 56.25%; margin: -20px; background-size: cover"></div>
+        </a>
+        <br />
+        <h3>Social Bingo (Undergraduates)</h3>
+        <!-- event details -->
+        <div style="display: flex; border-bottom: 1px lightgray solid; padding: 7px;">
+            <div style="flex: 0 0 30%; flex-grow: 1;">
                 <i class="fas fa-calendar-day"></i>
                 05/10/20
-              </div>
-              <div style="flex: 0 0 30%; flex-grow: 1">
+            </div>
+            <div style="flex: 0 0 30%; flex-grow: 1;">
                 <i class="fas fa-clock"></i>
                 16:00
-              </div>
-              <div style="flex: 0 0 30%; flex-grow: 1">
+            </div>
+            <div style="flex: 0 0 30%; flex-grow: 1;">
                 <i class="fas fa-map-marker"></i>
                 Remo
-              </div>
             </div>
-            <div>
-              <p>(Note: this event is for first years only!)</p>
+        </div>
+        <div>
+        <p>(Note: this event is for first years only!)</p>
 
-              <p>
-                Join your fellow freshers in a game of ✨ social bingo ✨! Get
-                to know your cohort by finding similarities (and differences)
-                between each other as you move &amp; chat between small groups.
-              </p>
+<p>Join your fellow freshers in a game of ✨ social bingo ✨! Get to know your cohort by finding similarities (and differences) between each other as you move &amp; chat between small groups.</p>
 
-              <p>
-                <a
-                  href="https://drive.google.com/file/d/1g0w9BlRUtmPwM8XyOgWqAcDghGcx81wn/view"
-                  >Download your bingo card here</a
-                >
-              </p>
+<p><a href="https://drive.google.com/file/d/1g0w9BlRUtmPwM8XyOgWqAcDghGcx81wn/view">Download your bingo card here</a></p>
 
-              <p>(Link sent out to all first year Comp Sci students)</p>
-            </div>
-          </div>
+<p>(Link sent out to all first year Comp Sci students)</p>
 
-          <div
-            style="
-              border: 1px solid lightgray;
-              margin: 5px;
-              padding: 20px;
-              flex: 0 0 30%;
-              flex-grow: 1;
-            "
-          >
-            <a href="https://www.facebook.com/events/242093710547686/">
-              <div
-                style="
-                  background-image: url(/assets/images/contrib/events/2020_10_05_social_bingo_pg.png);
-                  width: auto;
-                  padding-top: 56.25%;
-                  margin: -20px;
-                  background-size: cover;
-                "
-              ></div>
-            </a>
-            <br />
-            <h3>Social Bingo (Postgraduates)</h3>
-            <!-- event details -->
-            <div
-              style="
-                display: flex;
-                border-bottom: 1px lightgray solid;
-                padding: 7px;
-              "
-            >
-              <div style="flex: 0 0 30%; flex-grow: 1">
+        </div>
+    </div>
+
+    <div style="border: 1px solid lightgray; margin: 5px; padding: 20px; flex: 0 0 30%; flex-grow: 1;">
+        <a href="https://www.facebook.com/events/242093710547686/">
+            <div style="background-image: url(/assets/images/contrib/events/2020_10_05_social_bingo_pg.png); width: auto; padding-top: 56.25%; margin: -20px; background-size: cover"></div>
+        </a>
+        <br />
+        <h3>Social Bingo (Postgraduates)</h3>
+        <!-- event details -->
+        <div style="display: flex; border-bottom: 1px lightgray solid; padding: 7px;">
+            <div style="flex: 0 0 30%; flex-grow: 1;">
                 <i class="fas fa-calendar-day"></i>
                 05/10/20
-              </div>
-              <div style="flex: 0 0 30%; flex-grow: 1">
+            </div>
+            <div style="flex: 0 0 30%; flex-grow: 1;">
                 <i class="fas fa-clock"></i>
                 17:30
-              </div>
-              <div style="flex: 0 0 30%; flex-grow: 1">
+            </div>
+            <div style="flex: 0 0 30%; flex-grow: 1;">
                 <i class="fas fa-map-marker"></i>
                 Remo
-              </div>
             </div>
-            <div>
-              <p>(Note: this event is for postgraduate students only!)</p>
+        </div>
+        <div>
+        <p>(Note: this event is for postgraduate students only!)</p>
 
-              <p>
-                Join your fellow freshers in a game of ✨ social bingo ✨! Get
-                to know your cohort by finding similarities (and differences)
-                between each other as you move &amp; chat between small groups.
-              </p>
+<p>Join your fellow freshers in a game of ✨ social bingo ✨! Get to know your cohort by finding similarities (and differences) between each other as you move &amp; chat between small groups.</p>
 
-              <p>
-                <a
-                  href="https://drive.google.com/file/d/17kxllvJBVCb8-0rGrFk_hbTqXFN-SrHr/view"
-                  >Download your bingo card here</a
-                >
-              </p>
+<p><a href="https://drive.google.com/file/d/17kxllvJBVCb8-0rGrFk_hbTqXFN-SrHr/view">Download your bingo card here</a></p>
 
-              <p>(Link sent out to all first year Comp Sci students)</p>
-            </div>
-          </div>
+<p>(Link sent out to all first year Comp Sci students)</p>
 
-          <div
-            style="
-              border: 1px solid lightgray;
-              margin: 5px;
-              padding: 20px;
-              flex: 0 0 30%;
-              flex-grow: 1;
-            "
-          >
-            <a href="https://www.facebook.com/events/705985230129967/">
-              <div
-                style="
-                  background-image: url(/assets/images/contrib/events/2020_10_09_optivercpp.png);
-                  width: auto;
-                  padding-top: 56.25%;
-                  margin: -20px;
-                  background-size: cover;
-                "
-              ></div>
-            </a>
-            <br />
-            <h3>Low-Latency C++ Workshop (by Optiver)</h3>
-            <!-- event details -->
-            <div
-              style="
-                display: flex;
-                border-bottom: 1px lightgray solid;
-                padding: 7px;
-              "
-            >
-              <div style="flex: 0 0 30%; flex-grow: 1">
+        </div>
+    </div>
+
+    <div style="border: 1px solid lightgray; margin: 5px; padding: 20px; flex: 0 0 30%; flex-grow: 1;">
+        <a href="https://www.facebook.com/events/705985230129967/">
+            <div style="background-image: url(/assets/images/contrib/events/2020_10_09_optivercpp.png); width: auto; padding-top: 56.25%; margin: -20px; background-size: cover"></div>
+        </a>
+        <br />
+        <h3>Low-Latency C++ Workshop (by Optiver)</h3>
+        <!-- event details -->
+        <div style="display: flex; border-bottom: 1px lightgray solid; padding: 7px;">
+            <div style="flex: 0 0 30%; flex-grow: 1;">
                 <i class="fas fa-calendar-day"></i>
                 09/10/20
-              </div>
-              <div style="flex: 0 0 30%; flex-grow: 1">
+            </div>
+            <div style="flex: 0 0 30%; flex-grow: 1;">
                 <i class="fas fa-clock"></i>
                 13:00
-              </div>
-              <div style="flex: 0 0 30%; flex-grow: 1">
+            </div>
+            <div style="flex: 0 0 30%; flex-grow: 1;">
                 <i class="fas fa-map-marker"></i>
                 Zoom
-              </div>
             </div>
-            <div>
-              <p>
-                Do you want to learn how to write the fastest and
-                best-performing code possible? Are you ready to dive into
-                assembly, cache internals and squeeze the last nanosecond out of
-                your code? If so, then join our low-latency workshop on code
-                optimisation!
-              </p>
+        </div>
+        <div>
+        <p>Do you want to learn how to write the fastest and best-performing code possible? Are you ready to dive into assembly, cache internals and squeeze the last nanosecond out of your code? If so, then join our low-latency workshop on code optimisation!</p>
 
-              <p>
-                During this workshop, one of our engineers will demonstrate some
-                of the profiling and micro-benchmarking techniques used when
-                developing low-latency code. Through concrete code examples, we
-                will share some of the performance tips and tricks attained from
-                our vast experience in writing fast, maintainable and modern C++
-                code. We will look into assembly generated by the compiler to
-                understand how seemingly small code changes affect the work a
-                processor needs to do.
-              </p>
+<p>During this workshop, one of our engineers will demonstrate some of the profiling and micro-benchmarking techniques used when developing low-latency code. Through concrete code examples, we will share some of the performance tips and tricks attained from our vast experience in writing fast, maintainable and modern C++ code. We will look into assembly generated by the compiler to understand how seemingly small code changes affect the work a processor needs to do.</p>
 
-              <p>
-                Whether you write games, mobile applications or trading
-                software, these techniques will help you to write faster and
-                more efficient code!
-              </p>
+<p>Whether you write games, mobile applications or trading software, these techniques will help you to write faster and more efficient code!</p>
 
-              <p>
-                Please note this webinar is suited for students with at least
-                some pre-existing C++ knowledge.
-              </p>
+<p>Please note this webinar is suited for students with at least some pre-existing C++ knowledge.</p>
 
-              <h2 id="zoom-details">Zoom details</h2>
+<h2 id="zoom-details">Zoom details</h2>
 
-              <p>
-                Link:
-                <a
-                  href="https://optiver-ams.zoom.us/j/92046088313?pwd=eFVtVzlFOHk1ZW04b3ZmNVhDMWdxUT09"
-                >
-                  https://optiver-ams.zoom.us/j/92046088313?pwd=eFVtVzlFOHk1ZW04b3ZmNVhDMWdxUT09
-                </a>
-              </p>
+<p>Link: <a href="https://optiver-ams.zoom.us/j/92046088313?pwd=eFVtVzlFOHk1ZW04b3ZmNVhDMWdxUT09"> https://optiver-ams.zoom.us/j/92046088313?pwd=eFVtVzlFOHk1ZW04b3ZmNVhDMWdxUT09 </a></p>
 
-              <p>Meeting Id: 920 4608 8313</p>
+<p>Meeting Id: 920 4608 8313</p>
 
-              <p>Password: !xm!Sw0a</p>
+<p>Password: !xm!Sw0a</p>
 
-              <h2 id="post-talk">Post talk</h2>
+<h2 id="post-talk">Post talk</h2>
 
-              <p>
-                The slides are availible
-                <a href="/assets/files/2020_10_09_low_latency_slides.pdf"
-                  >here</a
-                >
-              </p>
-            </div>
-          </div>
+<p>The slides are availible <a href="/assets/files/2020_10_09_low_latency_slides.pdf">here</a></p>
 
-          <div
-            style="
-              border: 1px solid lightgray;
-              margin: 5px;
-              padding: 20px;
-              flex: 0 0 30%;
-              flex-grow: 1;
-            "
-          >
-            <a href="https://en-gb.facebook.com/events/1279223775743944/">
-              <div
-                style="
-                  background-image: url(/assets/images/contrib/events/2020_10_10_family_meetup.png);
-                  width: auto;
-                  padding-top: 56.25%;
-                  margin: -20px;
-                  background-size: cover;
-                "
-              ></div>
-            </a>
-            <br />
-            <h3>Family Meetup</h3>
-            <!-- event details -->
-            <div
-              style="
-                display: flex;
-                border-bottom: 1px lightgray solid;
-                padding: 7px;
-              "
-            >
-              <div style="flex: 0 0 30%; flex-grow: 1">
+        </div>
+    </div>
+
+    <div style="border: 1px solid lightgray; margin: 5px; padding: 20px; flex: 0 0 30%; flex-grow: 1;">
+        <a href="https://en-gb.facebook.com/events/1279223775743944/">
+            <div style="background-image: url(/assets/images/contrib/events/2020_10_10_family_meetup.png); width: auto; padding-top: 56.25%; margin: -20px; background-size: cover"></div>
+        </a>
+        <br />
+        <h3>Family Meetup</h3>
+        <!-- event details -->
+        <div style="display: flex; border-bottom: 1px lightgray solid; padding: 7px;">
+            <div style="flex: 0 0 30%; flex-grow: 1;">
                 <i class="fas fa-calendar-day"></i>
                 10/10/20
-              </div>
-              <div style="flex: 0 0 30%; flex-grow: 1">
+            </div>
+            <div style="flex: 0 0 30%; flex-grow: 1;">
                 <i class="fas fa-clock"></i>
                 18:00
-              </div>
-              <div style="flex: 0 0 30%; flex-grow: 1">
+            </div>
+            <div style="flex: 0 0 30%; flex-grow: 1;">
                 <i class="fas fa-map-marker"></i>
                 Discord
-              </div>
             </div>
-            <div>
-              <p>
-                (Note: this event is for first years &amp; CS parents only!)
-              </p>
-
-              <p>
-                We’ll be matching you up with some older students on your course
-                so you can have someone to talk to for advice &amp; insight into
-                university life, the course, and anything else you’d like to
-                know.
-              </p>
-
-              <p>
-                Event better, our 👪 world-leading 👪 algorithm will match you
-                up with parents best suited to you!
-              </p>
-
-              <p>
-                (You will be sent who your parents are and how to connect with
-                them Soon™)
-              </p>
-            </div>
-          </div>
         </div>
+        <div>
+        <p>(Note: this event is for first years &amp; CS parents only!)</p>
 
-        <h2 id="useful-information">Useful Information</h2>
+<p>We’ll be matching you up with some older students on your course so you can have someone to talk to for advice &amp; insight into university life, the course, and anything else you’d like to know.</p>
 
-        <p>
-          There’s lots of useful information available in our Freshers’ Booklet.
-          You should be receiving a hard copy soon, but
-          <a
-            href="https://drive.google.com/file/d/1zFGkKHD5yHFsKNd8VkLosrjXmNkjh7yO/view?usp=sharing"
-            >here it is</a
-          >
-          if you haven’t already.
-        </p>
+<p>Event better, our 👪 world-leading 👪 algorithm will match you up with parents best suited to you!</p>
 
-        <p>
-          The society is run each year by an
-          <a href="/contact/">selected committee</a>. Come say hi! We don’t
-          bite.
-        </p>
+<p>(You will be sent who your parents are and how to connect with them Soon™)</p>
 
-        <h2 id="faqs">FAQs</h2>
+        </div>
+    </div>
 
-        <ul>
-          <li>‘Do I need to bring a laptop/desktop?’</li>
-        </ul>
+</div>
 
-        <p>
-          You don’t (if required you can borrow a laptop), but I’d definitely
-          recommend bringing a laptop.
-        </p>
+<h2 id="useful-information">Useful Information</h2>
 
-        <ul>
-          <li>‘Where is [insert] lecture?’</li>
-        </ul>
+<p>There’s lots of useful information available in our Freshers’ Booklet. You should be receiving a hard copy soon, but <a href="https://drive.google.com/file/d/1zFGkKHD5yHFsKNd8VkLosrjXmNkjh7yO/view?usp=sharing">here it is</a> if you haven’t already.</p>
 
-        <p>
-          Ask someone around campus or follow everyone else! Don’t worry about
-          it.
-        </p>
+<p>The society is run each year by an <a href="/contact/">selected committee</a>. Come say hi! We don’t bite.</p>
 
-        <ul>
-          <li>‘I don’t know how to code!’</li>
-        </ul>
+<h2 id="faqs">FAQs</h2>
 
-        <p>
-          That’s fine! The assumption in lectures is that you haven’t done any
-          coding before, so you’ll learn from scratch.
-        </p>
+<ul>
+  <li>‘Do I need to bring a laptop/desktop?’</li>
+</ul>
 
-        <ul>
-          <li>‘What languages do we learn?’</li>
-        </ul>
+<p>You don’t (if required you can borrow a laptop), but I’d definitely recommend bringing a laptop.</p>
 
-        <p>
-          C, Haskell (first term), and Java (second term). You can generally use
-          whatever you want in projects in later years though.
-        </p>
+<ul>
+  <li>‘Where is [insert] lecture?’</li>
+</ul>
 
-        <ul>
-          <li>‘How hard is the maths unit?’</li>
-        </ul>
+<p>Ask someone around campus or follow everyone else! Don’t worry about it.</p>
 
-        <p>
-          As long as you go to the lectures/seminars &amp; ask friends it’ll be
-          fine. A lot is covered in A Level/Further Maths (plus you only need
-          40%!)
-        </p>
+<ul>
+  <li>‘I don’t know how to code!’</li>
+</ul>
 
-        <ul>
-          <li>‘Is the course hard?’</li>
-        </ul>
+<p>That’s fine! The assumption in lectures is that you haven’t done any coding before, so you’ll learn from scratch.</p>
 
-        <p>
-          It can be challenging, but you getting onto the course means you’re
-          good enough to get through it 🙂.
-        </p>
+<ul>
+  <li>‘What languages do we learn?’</li>
+</ul>
 
-        <ul>
-          <li>‘What textbooks do I need?’</li>
-        </ul>
+<p>C, Haskell (first term), and Java (second term). You can generally use whatever you want in projects in later years though.</p>
 
-        <p>
-          You’ll get told when you start lectures, but no books are required
-          (didn’t find myself using many in first year really). If you’re very
-          keen, your unit pages online might tell you - a lot are quite pricey,
-          so I suggest getting them from the uni library or finding a pdf
-          online.
-        </p>
+<ul>
+  <li>‘How hard is the maths unit?’</li>
+</ul>
 
-        <ul>
-          <li>‘How many notebooks will I need?’</li>
-        </ul>
+<p>As long as you go to the lectures/seminars &amp; ask friends it’ll be fine. A lot is covered in A Level/Further Maths (plus you only need 40%!)</p>
 
-        <p>
-          Hard to answer, but I’d suggest around 1 per unit. It varies massively
-          though, so I’d see how you’re doing first. You can bring laptops to
-          lectures too if you prefer that.
-        </p>
+<ul>
+  <li>‘Is the course hard?’</li>
+</ul>
 
-        <h2 id="staying-in-the-loop">Staying in the loop</h2>
+<p>It can be challenging, but you getting onto the course means you’re good enough to get through it 🙂.</p>
 
-        <p>
-          Keep an eye on this site and our social media for more events
-          throughout the year!
-        </p>
+<ul>
+  <li>‘What textbooks do I need?’</li>
+</ul>
 
-        <section
-          class="page-section page-section--shaded page-section--nopad-bottom links-holder"
-        >
-          <h1>Stay in the loop</h1>
-          <div class="social-links">
-            <a
-              class="social-links__item social-links__item--facebook"
-              href="https://www.facebook.com/groups/CSSBristol/"
-              title="Facebook"
-            >
-              <i class="fab fa-facebook-f" aria-hidden="true"></i>
-            </a>
-            <a
-              class="social-links__item social-links__item--instagram"
-              href="https://instagram.com/cssbristol"
-              title="Instagram"
-            >
-              <i class="fab fa-instagram" aria-hidden="true"></i>
-            </a>
-            <a
-              class="social-links__item social-links__item--twitter"
-              href="https://twitter.com/cssbristol"
-              title="Twitter"
-            >
-              <i class="fab fa-twitter" aria-hidden="true"></i>
-            </a>
-            <a
-              class="social-links__item social-links__item--discord"
-              href="https://discord.gg/nYwbhf8"
-              title="Discord"
-            >
-              <i class="fab fa-discord" aria-hidden="true"></i>
-            </a>
-            <a
-              class="social-links__item social-links__item--github"
-              href="https://github.com/cssbristol"
-              title="GitHub"
-            >
-              <i class="fab fa-github" aria-hidden="true"></i>
-            </a>
-            <a
-              class="social-links__item social-links__item--linkedin"
-              href="https://www.linkedin.com/groups/6512283"
-              title="LinkedIn"
-            >
-              <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-            </a>
-            <a
-              class="social-links__item social-links__item--youtube"
-              href="http://www.youtube.com/c/cssbristoluk"
-              title="YouTube"
-            >
-              <i class="fab fa-youtube" aria-hidden="true"></i>
-            </a>
-            <a
-              class="social-links__item social-links__item--newsletter"
-              href="/newsletter"
-              title="Newletter"
-            >
-              <i class="far fa-envelope" aria-hidden="true"></i>
-            </a>
-            <!-- <a
+<p>You’ll get told when you start lectures, but no books are required (didn’t find myself using many in first year really). If you’re very keen, your unit pages online might tell you - a lot are quite pricey, so I suggest getting them from the uni library or finding a pdf online.</p>
+
+<ul>
+  <li>‘How many notebooks will I need?’</li>
+</ul>
+
+<p>Hard to answer, but I’d suggest around 1 per unit. It varies massively though, so I’d see how you’re doing first. You can bring laptops to lectures too if you prefer that.</p>
+
+<h2 id="staying-in-the-loop">Staying in the loop</h2>
+
+<p>Keep an eye on this site and our social media for more events throughout the year!</p>
+
+<section class="page-section page-section--shaded page-section--nopad-bottom links-holder">
+  <h1>Stay in the loop</h1>
+  <div class="social-links">
+    <a class="social-links__item social-links__item--facebook" href="https://www.facebook.com/groups/CSSBristol/" title="Facebook">
+      <i class="fab fa-facebook-f" aria-hidden="true"></i>
+    </a>
+    <a class="social-links__item social-links__item--instagram" href="https://instagram.com/cssbristol" title="Instagram">
+      <i class="fab fa-instagram" aria-hidden="true"></i>
+    </a>
+    <a class="social-links__item social-links__item--twitter" href="https://twitter.com/cssbristol" title="Twitter">
+      <i class="fab fa-twitter" aria-hidden="true"></i>
+    </a>
+    <a class="social-links__item social-links__item--discord" href="https://discord.gg/nYwbhf8" title="Discord">
+      <i class="fab fa-discord" aria-hidden="true"></i>
+    </a>
+    <a class="social-links__item social-links__item--github" href="https://github.com/cssbristol" title="GitHub">
+      <i class="fab fa-github" aria-hidden="true"></i>
+    </a>
+    <a class="social-links__item social-links__item--linkedin" href="https://www.linkedin.com/groups/6512283" title="LinkedIn">
+      <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+    </a>
+    <a class="social-links__item social-links__item--youtube" href="http://www.youtube.com/c/cssbristoluk" title="YouTube">
+      <i class="fab fa-youtube" aria-hidden="true"></i>
+    </a>
+    <a class="social-links__item social-links__item--newsletter" href="/newsletter" title="Newletter">
+      <i class="far fa-envelope" aria-hidden="true"></i>
+    </a>
+    <!-- <a
       class="social-links__item social-links__item--strava"
       href="https://www.strava.com/clubs/css-bristol-university-of-bristol-computer-science-society-308010"
       title="Strava"
     >
       <i class="fab fa-strava" aria-hidden="true"></i>
     </a> -->
-            <!-- <a
+    <!-- <a
       class="social-links__item social-links__item--rss"
       href="/feeds"
       title="RSS"
     >
       <i class="fas fa-rss" aria-hidden="true"></i>
     </a> -->
-            <a
-              class="social-links__item social-links__item--tiktok"
-              href="https://www.tiktok.com/@cssbristol"
-              title="TikTok"
-            >
-              <i class="fab fa-tiktok" aria-hidden="true"></i>
-            </a>
-            <a
-              class="social-links__item social-links__item--calendar"
-              href="/feeds"
-              title="Calendar"
-            >
-              <i class="far fa-calendar-alt" aria-hidden="true"></i>
-            </a>
-          </div>
-        </section>
-      </article>
-    </section>
+    <a class="social-links__item social-links__item--tiktok" href="https://www.tiktok.com/@cssbristol" title="TikTok">
+      <i class="fab fa-tiktok" aria-hidden="true"></i>
+    </a>
+    <a class="social-links__item social-links__item--calendar" href="/feeds" title="Calendar">
+      <i class="far fa-calendar-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+</section>
+
+
+  </article>
+</section>
+
 
     <section class="page-section sponsorsec">
-      <h1 class="sponsors-title">
-        <a href="/pages/sponsors">Proudly sponsored by</a>
-      </h1>
-      <div class="sponsors">
-        <a
-          href="https://www.caci.co.uk"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="CACI"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/caci.png"
-            alt="CACI"
-            width="130"
-            height="170"
-          />
-        </a>
+    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
+    <div class="sponsors">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+            
+<a
+  href="https://www.caci.co.uk"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="CACI"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/caci.png"
+    alt="CACI"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.publicissapient.com/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Publicis Sapient"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/publicis_sapient.svg"
-            alt="Publicis Sapient"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+            
+<a
+  href="https://www.publicissapient.com/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Publicis Sapient"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/publicis_sapient.svg"
+    alt="Publicis Sapient"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.qualcomm.com/home"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Qualcomm"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/qualcomm.png"
-            alt="Qualcomm"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+          
+            
+<a
+  href="https://www.qualcomm.com/home"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qualcomm"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qualcomm.png"
+    alt="Qualcomm"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.qube-rt.com/careers/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Qube Research & Technologies"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/qube-rt.svg"
-            alt="Qube Research & Technologies"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+          
+            
+<a
+  href="https://www.qube-rt.com/careers/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qube Research & Technologies"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qube-rt.svg"
+    alt="Qube Research & Technologies"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.xmos.ai/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="XMOS"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/xmos.svg"
-            alt="XMOS"
-            width="130"
-            height="170"
-          />
-        </a>
-      </div>
-      <div class="sponsors__action_item">
-        <a href="/pages/sponsors">Learn more about working with us.</a>
-      </div>
-    </section>
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+            
+<a
+  href="https://www.xmos.ai/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="XMOS"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/xmos.svg"
+    alt="XMOS"
+    width="130"
+    height="170"
+  />
+</a>
+
+          
+        
+      
+    </div>
+    <div class="sponsors__action_item">
+      <a href="/pages/sponsors">Learn more about working with us.</a>
+    </div>
+</section>
+
 
     <footer class="page-footer">
-      <span class="page-footer__text"
-        >&copy; University of Bristol Computer Science Society</span
-      >
-      <nav class="page-footer__menu">
-        <ul>
-          <li>
-            <a class="page-link" href="/about/">About</a>
-          </li>
+  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
+  <nav class="page-footer__menu">
+    <ul>
+    
+    
+      
+      <li>
+        <a class="page-link" href="/about/">About</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/contact/">Contact</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/events/index.html">Events</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/jobs/">Jobs</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/sponsors">Sponsor us</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/tutorials/">Tutorials</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/wellbeing/">Wellbeing</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    </ul>
+  </nav>
+</footer>
 
-          <li>
-            <a class="page-link" href="/contact/">Contact</a>
-          </li>
 
-          <li>
-            <a class="page-link" href="/events/index.html">Events</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/jobs/">Jobs</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/sponsors">Sponsor us</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/tutorials/">Tutorials</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/wellbeing/">Wellbeing</a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
   </body>
+
 </html>
