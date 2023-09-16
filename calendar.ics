@@ -4187,6 +4187,22 @@ DESCRIPTION:Yet another CSS BBQ 🙄, can’t believe we have to...
 LOCATION:Brandon Hill
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2023-09-16-freshers-quiz
+ @cssbristol.co.uk
+DTSTAMP:20230919T170000
+DTSTART:20230919T170000
+DTEND:20230919T190000
+LAST-MODIFIED:20230916T155900
+URL:https://www.cssbristol.co.uk
+ /events/2023-09-16-freshers-quiz/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Freshers quiz
+DESCRIPTION:Come along and join the Computer Science Societ...
+LOCATION:1.11 Merchant Ventures Building
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2023-07-30-scavenger-hunt
  @cssbristol.co.uk
 DTSTAMP:20231004T140000
