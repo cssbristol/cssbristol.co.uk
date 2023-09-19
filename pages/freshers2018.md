@@ -2,7 +2,6 @@
 layout: page
 title: Freshers
 permalink: /freshers18/
-redirect_from: "/freshers18"
 show-in-nav: false
 ---
 

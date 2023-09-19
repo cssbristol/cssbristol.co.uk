@@ -1,24 +1,12 @@
 ---
 layout: freshers
 title: Freshers
-permalink: /freshers21/
+permalink: "/freshers23"
+redirect_from: "/freshers"
 show-in-nav: false
-freshers_start: 2021-09-28 00:00:00
-freshers_end:   2021-10-11 00:00:00
+freshers_start: 2023-09-16 00:00:01
+freshers_end:   2023-09-22 00:00:01
 ---
-
-## Family Scheme
-You may have already been contacted about the university’s peer mentoring scheme, but CSS runs its own Family scheme which you should definitely also sign up for. You’ll be assigned a family of other first years, and two parents from one of the upper years assigned to you.
-
-Whereas the University-run peer mentoring scheme focuses on academic help, we will also host family socials to give you a chance to mingle with other CS students and make the transition to University easier.
-
-To sign up to join a family, please fill in the form below:
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScXV4sdNqXIt0oHytmKDNN79Y1MbnoSSYmKsNkC8hwDZ9GNIg/viewform?embedded=true"
-    onLoad="resizeIframe(this)"
-    width="750" height="1000"
-    style="width: 80%;height: 1000px;display: block;margin: auto;">
-    Loading...
-</iframe>
 
 {% if upcoming %}
 ## Freshers Events

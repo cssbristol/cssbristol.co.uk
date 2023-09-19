@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Freshers
-permalink: /freshers/
-redirect_from: "/freshers"
+permalink: /freshers17/
 show-in-nav: false
 ---
 
