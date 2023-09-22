@@ -1,621 +1,644 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="/assets/favicons/apple-touch-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="/assets/favicons/apple-touch-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="/assets/favicons/apple-touch-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="/assets/favicons/apple-touch-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="/assets/favicons/apple-touch-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="/assets/favicons/apple-touch-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="/assets/favicons/apple-touch-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="/assets/favicons/apple-touch-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/assets/favicons/apple-touch-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-32x32.png"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-194x194.png"
-      sizes="194x194"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-96x96.png"
-      sizes="96x96"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/android-chrome-192x192.png"
-      sizes="192x192"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-16x16.png"
-      sizes="16x16"
-    />
-    <link rel="manifest" href="/assets/favicons/manifest.json" />
-    <link
-      rel="mask-icon"
-      href="/assets/favicons/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#3498db" />
-    <meta
-      name="msapplication-TileImage"
-      content="/assets/favicons/mstile-144x144.png"
-    />
-    <meta name="theme-color" content="#3498db" />
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/assets/favicons/manifest.json">
+<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#3498db">
+<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+<meta name="theme-color" content="#3498db">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta
-      name="description"
-      content="You are likely to find at some point that you need to work on a department system remotely. In this tutorial, we’ll explore connecting to Snowy, the departmental server.If you’re familiar with SSH, here are the details you need:Snowy SSH details  Server: snowy.cs.bris.ac.uk  Username: your univer..."
-    />
+  <meta name="description" content="You are likely to find at some point that you need to work on a department system remotely. In this tutorial, we’ll explore connecting to Snowy, the departmental server.If you’re familiar with SSH, here are the details you need:Snowy SSH details  Server: snowy.cs.bris.ac.uk  Username: your univer...">
 
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="SSH and Snowy - CSS Bristol" />
-    <meta
-      property="og:description"
-      content="You are likely to find at some point that you need to work on a department system remotely. In this tutorial, we’ll explore connecting to Snowy, the departmental server. If you’re familiar with SSH, here are the details you need: Snowy SSH details Server: snowy.cs.bris.ac.uk Username: your university username, e.g...."
-    />
-    <meta
-      property="og:image"
-      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
-    />
-    <meta
-      property="og:url"
-      content="https://cssbristol.co.uk/tutorials/ssh-into-snowy/"
-    />
+  <meta property="og:type" content="website">
+<meta property="og:title" content="SSH and Snowy - CSS Bristol">
+<meta property="og:description" content="You are likely to find at some point that you need to work on a department system remotely. In this tutorial, we’ll explore connecting to Snowy, the departmental server. If you’re familiar with SSH, here are the details you need: Snowy SSH details Server: snowy.cs.bris.ac.uk Username: your university username, e.g....">
+<meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
+<meta property="og:url" content="https://cssbristol.co.uk/tutorials/ssh-into-snowy/">
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="SSH and Snowy - CSS Bristol" />
-    <meta
-      name="twitter:description"
-      content="You are likely to find at some point that you need to work on a department system remotely. In this tutorial, we’ll explore connecting to Snowy, the departmental server. If you’re familiar with SSH, here are the details you need: Snowy SSH details Server: snowy.cs.bris.ac.uk Username: your university username, e.g...."
-    />
-    <meta
-      name="twitter:image"
-      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
-    />
-    <meta name="twitter:site" content="@cssbristol" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SSH and Snowy - CSS Bristol">
+<meta name="twitter:description" content="You are likely to find at some point that you need to work on a department system remotely. In this tutorial, we’ll explore connecting to Snowy, the departmental server. If you’re familiar with SSH, here are the details you need: Snowy SSH details Server: snowy.cs.bris.ac.uk Username: your university username, e.g....">
+<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
+<meta name="twitter:site" content="@cssbristol">
+ 
 
-    <title>SSH and Snowy - CSS Bristol</title>
 
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    />
+  <title>SSH and Snowy - CSS Bristol</title>
 
-    <link rel="stylesheet" href="/assets/css/site.css" />
-    <link
-      rel="canonical"
-      href="https://cssbristol.co.uk/tutorials/ssh-into-snowy/"
-    />
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
 
-    <!-- Prefetch background images so they load faster next time page loads -->
-    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+  <link rel="canonical" href="https://cssbristol.co.uk/tutorials/ssh-into-snowy/" />
+  
 
-    <!-- Script for FontAwesome icons -->
-    <script
-      src="https://kit.fontawesome.com/5918af34b4.js"
-      crossorigin="anonymous"
-      defer
-    ></script>
+  
 
-    <!-- Script for randomly choosing header background -->
-    <script
-      type="text/javascript"
-      src="/assets/scripts/header-random-bg.js"
-      defer
-    ></script>
+  <!-- Prefetch background images so they load faster next time page loads -->
+  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
 
-    <!-- Cloudflare Web Analytics -->
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
-    ></script>
+  <!-- Script for FontAwesome icons -->
+  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
+  
+  <!-- Script for randomly choosing header background -->
+  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
+  
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
 
-    <!-- remove after a couple of months -->
-    <script>
-      const path = window.location.pathname;
-      if (path.startsWith("/events/")) {
-        const newPath = path.replaceAll("_", "-");
-        if (newPath !== path) {
-          window.location.replace(newPath);
-        }
+  <!-- remove after a couple of months -->
+  <script>
+    const path = window.location.pathname;
+    if (path.startsWith("/events/")) {
+      const newPath = path.replaceAll("_", "-");
+      if (newPath !== path) {
+        window.location.replace(newPath);
       }
-    </script>
-  </head>
+    }
+  </script>
+</head>
+
 
   <body>
+
     <header class="page-header noscript" id="page-header--random-bg">
-      <div class="bg">
-        <div id="header-random-background"></div>
-      </div>
-      <div class="navigation-items">
-        <div itemscope itemtype="http://schema.org/Organization">
-          <span style="display: none" itemprop="name"
-            >University of Bristol Computer Science Society</span
-          >
-          <a
-            aria-label="Home"
-            href="/"
-            class="page-header__logo"
-            itemprop="url"
-          >
-            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-          </a>
-        </div>
-        <nav class="page-navigation">
-          <ul class="page-navigation__links">
-            <li><a href="/about/">About</a></li>
+  <div class="bg">
+    <div id="header-random-background"></div>
+  </div>
+  <div class="navigation-items">
+    <div itemscope itemtype="http://schema.org/Organization">
+      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
+      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
+        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+      </a>
+    </div>
+    <nav class="page-navigation">
+      <ul class="page-navigation__links">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/about/">About</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/contact/">Contact</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/events/index.html">Events</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/jobs/">Jobs</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/sponsors">Sponsor us</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/tutorials/">Tutorials</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/wellbeing/">Wellbeing</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </nav>
+  </div>
+  
+</header>
 
-            <li><a href="/contact/">Contact</a></li>
-
-            <li><a href="/events/index.html">Events</a></li>
-
-            <li><a href="/jobs/">Jobs</a></li>
-
-            <li><a href="/sponsors">Sponsor us</a></li>
-
-            <li><a href="/tutorials/">Tutorials</a></li>
-
-            <li><a href="/wellbeing/">Wellbeing</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
 
     <section class="page-section">
-      <article class="article">
-        <header class="blog-post__header">
-          <h1 class="blog-post__title">SSH and Snowy</h1>
-          <div
-            class="blog-post__meta"
-            itemscope
-            itemtype="http://schema.org/Person"
-          >
-            <span itemprop="author">
-              <span itemprop="url"></span>
-
-              <span itemprop="name">Ross Gardiner</span>
-            </span>
-            on
-
-            <time datetime="2016-05-19T20:42:09+01:00">May 19, 2016</time>
-          </div>
-        </header>
-        <div class="blog-post__body">
-          <p>
-            You are likely to find at some point that you need to work on a
-            department system remotely. In this tutorial, we’ll explore
-            connecting to Snowy, the departmental server.
-          </p>
-
-          <p>If you’re familiar with SSH, here are the details you need:</p>
-
-          <p><strong>Snowy SSH details</strong></p>
-
-          <ul>
-            <li>
-              Server:
-              <code class="language-plaintext highlighter-rouge"
-                >snowy.cs.bris.ac.uk</code
-              >
-            </li>
-            <li>
-              Username: your university username, e.g.
-              <code class="language-plaintext highlighter-rouge">ab12345</code>
-            </li>
-            <li>Password: your university password</li>
-          </ul>
-
-          <p><strong>SSH into lab machines</strong></p>
-
-          <p>
-            All the lab machines in MVB 2.11 are available when using snowy as a
-            jump box, this involves first connecting to snowy then to the lab
-            machine in a chain like fashion making use of SSH’s
-            <code class="language-plaintext highlighter-rouge"
-              >ProxyCommand</code
-            >. This step can be skipped if you are using the university VPN.
-          </p>
-
-          <p>
-            Lab machine addresses:
-            <code class="language-plaintext highlighter-rouge"
-              >it&lt;ID&gt;.wks.bris.ac.uk</code
-            >
-            where ID is in the following range:
-          </p>
-
-          <ul>
-            <li>
-              <code class="language-plaintext highlighter-rouge"
-                >it075638.wks.bris.ac.uk</code
-              >
-              –
-              <code class="language-plaintext highlighter-rouge"
-                >it075906.wks.bris.ac.uk</code
-              >
-            </li>
-          </ul>
-
-          <h1 id="ssh">SSH</h1>
-
-          <h2 id="maclinux">Mac/Linux</h2>
-
-          <p>Open a Terminal/Console window, and type the following command:</p>
-
-          <div class="language-plaintext highlighter-rouge">
-            <div class="highlight">
-              <pre class="highlight"><code>ssh ab12345@snowy.cs.bris.ac.uk
-</code></pre>
-            </div>
-          </div>
-
-          <p>
-            (where
-            <code class="language-plaintext highlighter-rouge">ab12345</code> is
-            replaced by your username)
-          </p>
-
-          <p>
-            Hit return, and wait for the password prompt. Type in your password
-            and press return again. You are now logged in.
-          </p>
-
-          <h2 id="windows">Windows</h2>
-
-          <p>
-            <a
-              href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html"
-              >PuTTY</a
-            >
-            is the easiest solution for SSH on Windows. You can either download
-            the installer (<code class="language-plaintext highlighter-rouge"
-              >putty-*.**-installer.msi</code
-            >) or
-            <code class="language-plaintext highlighter-rouge">putty.exe</code>,
-            which will run standalone.
-          </p>
-
-          <p>
-            Open PuTTY, and enter
-            <code class="language-plaintext highlighter-rouge"
-              >snowy.cs.bris.ac.uk</code
-            >
-            in the ‘Host Name (or IP address)’ field. Make sure the ‘Port’ is
-            set to 22. Click ‘Open’. If you are asked to trust a signature,
-            click yes. You will be greeted by a prompt that says:
-          </p>
-
-          <div class="language-plaintext highlighter-rouge">
-            <div class="highlight">
-              <pre class="highlight"><code>login as:
-</code></pre>
-            </div>
-          </div>
-
-          <p>
-            Type your university username and press return. Then type your
-            password and press return.
-          </p>
-
-          <h3 id="from-a-terminal">From a terminal</h3>
-
-          <p>
-            You will probably end up working in a terminal a lot of the time,
-            even on Windows. Unfortunately, the set of text-based utilities that
-            comes with Windows is rather lacking. Several efforts exist to make
-            these available on Windows:
-          </p>
-
-          <ul>
-            <li>
-              <a
-                href="https://msdn.microsoft.com/en-us/commandline/wsl/about?f=255&amp;MSPPError=-2147217396"
-                >Bash on Windows on Ubuntu</a
-              >
-              - an official Microsoft project that lets you run Linux binaries
-              natively on Windows.
-            </li>
-            <li><a href="https://msys2.github.io/">MSYS2</a></li>
-            <li><a href="http://babun.github.io/">Babun</a></li>
-            <li><a href="https://www.cygwin.com/">Cygwin</a></li>
-          </ul>
-
-          <p>
-            Figuring out how to get one of these to work is a good exercise for
-            any first year CS student.
-          </p>
-
-          <h1 id="getting-a-graphical-environment">
-            Getting a graphical environment
-          </h1>
-
-          <p>
-            Snowy (like most current Linux systems) supports a feature called X
-            Forwarding. This lets you run graphical applications remotely but
-            use them as if they were running natively(-ish) on your desktop.
-          </p>
-
-          <h2 id="maclinux-1">Mac/Linux</h2>
-
-          <p>
-            To enable X Forwarding, add the
-            <code class="language-plaintext highlighter-rouge">-X</code> flag
-            when running OpenSSH:
-          </p>
-
-          <div class="language-plaintext highlighter-rouge">
-            <div class="highlight">
-              <pre class="highlight"><code>ssh ab12345@snowy.cs.bris.ac.uk -X
-</code></pre>
-            </div>
-          </div>
-
-          <p>
-            Once logged in, you will be able to launch utilities like
-            <code class="language-plaintext highlighter-rouge">nautilus</code>
-            (the GNOME file manager) and
-            <code class="language-plaintext highlighter-rouge">gedit</code> (the
-            GNOME text editor).
-          </p>
-
-          <h2 id="windows-1">Windows</h2>
-
-          <p>
-            Windows requires additional steps for X Forwading. Firstly, you need
-            to install
-            <a href="https://sourceforge.net/projects/xming/">Ximg</a>, this
-            allows graphical interface on server to be displayed. If you are
-            using putty, all you should have to do tick the Enable X11
-            forewarding box under Connections\SSH\X11 in your putty connection.
-            As for Bash on Windows on Ubuntu, Cygwin… etc, you need to add
-            <code class="language-plaintext highlighter-rouge">-X</code> flag
-            when running OpenSSH like in Mac/Linux:
-          </p>
-
-          <div class="language-plaintext highlighter-rouge">
-            <div class="highlight">
-              <pre class="highlight"><code>ssh ab12345@snowy.cs.bris.ac.uk -X
-</code></pre>
-            </div>
-          </div>
-
-          <h1 id="remote-desktop-nomachine">Remote Desktop (NoMachine)</h1>
-
-          <p>
-            If you would like to access lab machines or university softwares at
-            home, then SSH with X11 forwarding might not be a good option. This
-            is because X11 forwarding does not compress data, so the graphical
-            interface will be very slow.
-            <a href="https://www.nomachine.com/download">NoMachine client</a>
-            allows graphical remote desktop with less lag. The server snowy can
-            be accessed with NoMachine, if you desire to use a lab machine, you
-            can still SSH into them using snowy with or without X11 forwarding.
-          </p>
-
-          <h1 id="copying-files-with-scp">Copying files with scp</h1>
-
-          <h2 id="maclinux-2">Mac/Linux</h2>
-
-          <p>To copy from your computer to Snowy:</p>
-
-          <div class="language-plaintext highlighter-rouge">
-            <div class="highlight">
-              <pre
-                class="highlight"
-              ><code>scp sourcefile ab12345@snowy.cs.bris.ac.uk:targetfile
-</code></pre>
-            </div>
-          </div>
-
-          <p>
-            For example,
-            <code class="language-plaintext highlighter-rouge"
-              >scp ~/main.c ab12345@snowy.cs.bris.ac.uk:~/main.c</code
-            >.
-          </p>
-
-          <p>To copy from Snowy to your computer:</p>
-
-          <div class="language-plaintext highlighter-rouge">
-            <div class="highlight">
-              <pre
-                class="highlight"
-              ><code>scp ab12345@snowy.cs.bris.ac.uk:sourcefile targetfile
-</code></pre>
-            </div>
-          </div>
-
-          <p>
-            For example,
-            <code class="language-plaintext highlighter-rouge"
-              >scp ab12345@snowy.cs.bris.ac.uk:~/main.c ~/main.c</code
-            >
-          </p>
-
-          <h2 id="windows-2">Windows</h2>
-
-          <p>
-            On Windows, the easiest graphical method to transfer files is to use
-            SFTP. There are many SFTP clients available.
-            <a href="https://filezilla-project.org/">FileZilla</a> is free and
-            works nicely. Use the following settings:
-          </p>
-
-          <ul>
-            <li>
-              Host:
-              <code class="language-plaintext highlighter-rouge"
-                >snowy.cs.bris.ac.uk</code
-              >
-            </li>
-            <li>Username: university username</li>
-            <li>Password: university password</li>
-            <li>
-              Port: <code class="language-plaintext highlighter-rouge">22</code>
-            </li>
-          </ul>
-
-          <h3 id="in-a-terminal">In a terminal</h3>
-
-          <p>
-            If you want to do this from the terminal, PuTTY comes with a utility
-            called
-            <code class="language-plaintext highlighter-rouge">psftp</code>.
-            Alternatively, if you have something like cygwin installed, you
-            probably have access to
-            <code class="language-plaintext highlighter-rouge">scp</code>
-            already.
-          </p>
-
-          <h1 id="passwordless-login">Passwordless login</h1>
-
-          <p>
-            If you get tired of having to enter your password every time you
-            connect to Snowy, don’t worry! You can create an SSH keypair to
-            verify your identity automatically: Snowy has a copy of your public
-            key, and anyone with access to your private key (i.e. only you) can
-            use it to automatically authenticate.
-          </p>
-
-          <h2 id="maclinux-3">Mac/Linux</h2>
-
-          <p>Open a terminal and enter the following:</p>
-
-          <div class="language-plaintext highlighter-rouge">
-            <div class="highlight">
-              <pre class="highlight"><code>ssh-keygen -t rsa
-</code></pre>
-            </div>
-          </div>
-
-          <p>
-            The tool will walk you through the process of creating a key. By
-            default, the keypair is saved to the
-            <code class="language-plaintext highlighter-rouge">.ssh</code>
-            directory in your home directory - for example
-            <code class="language-plaintext highlighter-rouge"
-              >/home/myname/.ssh/</code
-            >. The private key is normally called
-            <code class="language-plaintext highlighter-rouge">id_rsa</code>,
-            the public key
-            <code class="language-plaintext highlighter-rouge">id_rsa.pub</code>
-            - though you can change these if you want. You will be asked to
-            provide a passphrase. This protects your key from viruses, theft
-            etc., so choose something strong.
-          </p>
-
-          <p>
-            Once your key is generated, create the
-            <code class="language-plaintext highlighter-rouge">.ssh</code>
-            folder on Snowy:
-          </p>
-
-          <div class="language-plaintext highlighter-rouge">
-            <div class="highlight">
-              <pre
-                class="highlight"
-              ><code>ssh ab12345@snowy.cs.bris.ac.uk 'mkdir -p .ssh'
-</code></pre>
-            </div>
-          </div>
-
-          <p>Then append your public key to the list of authorised keys:</p>
-
-          <div class="language-plaintext highlighter-rouge">
-            <div class="highlight">
-              <pre
-                class="highlight"
-              ><code>cat ~/.ssh/id_rsa.pub | ssh ab12345@snowy.cs.bris.ac.uk 'cat &gt;&gt; .ssh/authorized_keys'
-</code></pre>
-            </div>
-          </div>
-
-          <h2 id="windows-3">Windows</h2>
-
-          <p>
-            PuTTY comes with a tool called PuTTYgen for creating new SSH keys.
-            If you have something like cygwin installed,
-            <code class="language-plaintext highlighter-rouge">ssh-keygen</code>
-            is probably available in your shell.
-          </p>
-
-          <p>
-            You can copy the public key across using FileZilla, as described
-            above.
-          </p>
-
-          <h2 id="example-ssh-config">Example SSH config</h2>
-
-          <p>An example SSH config is given below:</p>
-
-          <div class="language-plaintext highlighter-rouge">
-            <div class="highlight">
-              <pre class="highlight"><code># ~/.ssh/config
+  <article class="article">
+    <header class="blog-post__header">
+      <h1 class="blog-post__title">SSH and Snowy</h1>
+      <div class="blog-post__meta" itemscope itemtype="http://schema.org/Person">
+        
+
+        
+        <span itemprop="author">
+          <span itemprop="url"></span>
+          
+          <span itemprop="name">Ross Gardiner</span>
+          
+        </span> on
+        
+        <time datetime="2016-05-19T20:42:09+01:00">May 19, 2016</time>
+      </div>
+    </header>
+    <div class="blog-post__body">
+      <p>You are likely to find at some point that you need to work on a department system remotely. In this tutorial, we’ll explore connecting to Snowy, the departmental server.</p>
+
+<p>If you’re familiar with SSH, here are the details you need:</p>
+
+<p><strong>Snowy SSH details</strong></p>
+
+<ul>
+  <li>Server: <code class="language-plaintext highlighter-rouge">snowy.cs.bris.ac.uk</code></li>
+  <li>Username: your university username, e.g. <code class="language-plaintext highlighter-rouge">ab12345</code></li>
+  <li>Password: your university password</li>
+</ul>
+
+<p><strong>SSH into lab machines</strong></p>
+
+<p>All the lab machines in MVB 2.11 are available when using snowy as
+a jump box, this involves first connecting to snowy then to the lab machine in
+a chain like fashion making use of SSH’s <code class="language-plaintext highlighter-rouge">ProxyCommand</code>. This step can be
+skipped if you are using the university VPN.</p>
+
+<p>Lab machine addresses: <code class="language-plaintext highlighter-rouge">it&lt;ID&gt;.wks.bris.ac.uk</code> where ID is in the following range:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">it075638.wks.bris.ac.uk</code> – <code class="language-plaintext highlighter-rouge">it075906.wks.bris.ac.uk</code></li>
+</ul>
+
+<h1 id="ssh">SSH</h1>
+
+<h2 id="maclinux">Mac/Linux</h2>
+
+<p>Open a Terminal/Console window, and type the following command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh ab12345@snowy.cs.bris.ac.uk
+</code></pre></div></div>
+
+<p>(where <code class="language-plaintext highlighter-rouge">ab12345</code> is replaced by your username)</p>
+
+<p>Hit return, and wait for the password prompt. Type in your password and press return again. You are now logged in.</p>
+
+<h2 id="windows">Windows</h2>
+
+<p><a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">PuTTY</a> is the easiest solution for SSH on Windows. You can either download the installer (<code class="language-plaintext highlighter-rouge">putty-*.**-installer.msi</code>) or <code class="language-plaintext highlighter-rouge">putty.exe</code>, which will run standalone.</p>
+
+<p>Open PuTTY, and enter <code class="language-plaintext highlighter-rouge">snowy.cs.bris.ac.uk</code> in the ‘Host Name (or IP address)’ field. Make sure the ‘Port’ is set to 22. Click ‘Open’. If you are asked to trust a signature, click yes. You will be greeted by a prompt that says:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>login as:
+</code></pre></div></div>
+
+<p>Type your university username and press return. Then type your password and press return.</p>
+
+<h3 id="from-a-terminal">From a terminal</h3>
+
+<p>You will probably end up working in a terminal a lot of the time, even on Windows. Unfortunately, the set of text-based utilities that comes with Windows is rather lacking. Several efforts exist to make these available on Windows:</p>
+
+<ul>
+  <li><a href="https://msdn.microsoft.com/en-us/commandline/wsl/about?f=255&amp;MSPPError=-2147217396">Bash on Windows on Ubuntu</a> - an official Microsoft project that lets you run Linux binaries natively on Windows.</li>
+  <li><a href="https://msys2.github.io/">MSYS2</a></li>
+  <li><a href="http://babun.github.io/">Babun</a></li>
+  <li><a href="https://www.cygwin.com/">Cygwin</a></li>
+</ul>
+
+<p>Figuring out how to get one of these to work is a good exercise for any first year CS student.</p>
+
+<h1 id="getting-a-graphical-environment">Getting a graphical environment</h1>
+
+<p>Snowy (like most current Linux systems) supports a feature called X Forwarding. This lets you run graphical applications remotely but use them as if they were running natively(-ish) on your desktop.</p>
+
+<h2 id="maclinux-1">Mac/Linux</h2>
+
+<p>To enable X Forwarding, add the <code class="language-plaintext highlighter-rouge">-X</code> flag when running OpenSSH:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh ab12345@snowy.cs.bris.ac.uk -X
+</code></pre></div></div>
+
+<p>Once logged in, you will be able to launch utilities like <code class="language-plaintext highlighter-rouge">nautilus</code> (the GNOME file manager) and <code class="language-plaintext highlighter-rouge">gedit</code> (the GNOME text editor).</p>
+
+<h2 id="windows-1">Windows</h2>
+
+<p>Windows requires additional steps for X Forwading. Firstly, you need to install <a href="https://sourceforge.net/projects/xming/">Ximg</a>, this allows graphical interface on server to be displayed. If you are using putty, all you should have to do tick the Enable X11 forewarding box under Connections\SSH\X11 in your putty connection.
+As for Bash on Windows on Ubuntu, Cygwin… etc, you need to add <code class="language-plaintext highlighter-rouge">-X</code>  flag when running OpenSSH like in Mac/Linux:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh ab12345@snowy.cs.bris.ac.uk -X
+</code></pre></div></div>
+
+<h1 id="remote-desktop-nomachine">Remote Desktop (NoMachine)</h1>
+
+<p>If you would like to access lab machines or university softwares at home, then SSH with X11 forwarding might not be a good option. This is because X11
+forwarding does not compress data, so the graphical interface will be very slow.  <a href="https://www.nomachine.com/download">NoMachine client</a> allows graphical remote desktop with less lag. The server snowy can be accessed with NoMachine, if you desire to use a lab machine, you can still SSH into them using snowy with or without X11 forwarding.</p>
+
+<h1 id="copying-files-with-scp">Copying files with scp</h1>
+
+<h2 id="maclinux-2">Mac/Linux</h2>
+
+<p>To copy from your computer to Snowy:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scp sourcefile ab12345@snowy.cs.bris.ac.uk:targetfile
+</code></pre></div></div>
+
+<p>For example, <code class="language-plaintext highlighter-rouge">scp ~/main.c ab12345@snowy.cs.bris.ac.uk:~/main.c</code>.</p>
+
+<p>To copy from Snowy to your computer:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scp ab12345@snowy.cs.bris.ac.uk:sourcefile targetfile
+</code></pre></div></div>
+
+<p>For example, <code class="language-plaintext highlighter-rouge">scp ab12345@snowy.cs.bris.ac.uk:~/main.c ~/main.c</code></p>
+
+<h2 id="windows-2">Windows</h2>
+
+<p>On Windows, the easiest graphical method to transfer files is to use SFTP. There are many SFTP clients available. <a href="https://filezilla-project.org/">FileZilla</a> is free and works nicely. Use the following settings:</p>
+
+<ul>
+  <li>Host: <code class="language-plaintext highlighter-rouge">snowy.cs.bris.ac.uk</code></li>
+  <li>Username: university username</li>
+  <li>Password: university password</li>
+  <li>Port: <code class="language-plaintext highlighter-rouge">22</code></li>
+</ul>
+
+<h3 id="in-a-terminal">In a terminal</h3>
+
+<p>If you want to do this from the terminal, PuTTY comes with a utility called <code class="language-plaintext highlighter-rouge">psftp</code>. Alternatively, if you have something like cygwin installed, you probably have access to <code class="language-plaintext highlighter-rouge">scp</code> already.</p>
+
+<h1 id="passwordless-login">Passwordless login</h1>
+
+<p>If you get tired of having to enter your password every time you connect to Snowy, don’t worry! You can create an SSH keypair to verify your identity automatically: Snowy has a copy of your public key, and anyone with access to your private key (i.e. only you) can use it to automatically authenticate.</p>
+
+<h2 id="maclinux-3">Mac/Linux</h2>
+
+<p>Open a terminal and enter the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh-keygen -t rsa
+</code></pre></div></div>
+
+<p>The tool will walk you through the process of creating a key. By default, the keypair is saved to the <code class="language-plaintext highlighter-rouge">.ssh</code> directory in your home directory - for example <code class="language-plaintext highlighter-rouge">/home/myname/.ssh/</code>. The private key is normally called <code class="language-plaintext highlighter-rouge">id_rsa</code>, the public key <code class="language-plaintext highlighter-rouge">id_rsa.pub</code> - though you can change these if you want. You will be asked to provide a passphrase. This protects your key from viruses, theft etc., so choose something strong.</p>
+
+<p>Once your key is generated, create the <code class="language-plaintext highlighter-rouge">.ssh</code> folder on Snowy:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh ab12345@snowy.cs.bris.ac.uk 'mkdir -p .ssh'
+</code></pre></div></div>
+
+<p>Then append your public key to the list of authorised keys:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cat ~/.ssh/id_rsa.pub | ssh ab12345@snowy.cs.bris.ac.uk 'cat &gt;&gt; .ssh/authorized_keys'
+</code></pre></div></div>
+
+<h2 id="windows-3">Windows</h2>
+
+<p>PuTTY comes with a tool called PuTTYgen for creating new SSH keys. If you have something like cygwin installed, <code class="language-plaintext highlighter-rouge">ssh-keygen</code> is probably available in your shell.</p>
+
+<p>You can copy the public key across using FileZilla, as described above.</p>
+
+<h2 id="example-ssh-config">Example SSH config</h2>
+
+<p>An example SSH config is given below:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># ~/.ssh/config
 
 Host *
     ForwardAgent yes
@@ -663,142 +686,680 @@ Host cs-desktop-03
     HostName it075640.users.bris.ac.uk
     User &lt;USERNAME&gt;
     ProxyCommand ssh snowy nc %h %p 2&gt; /dev/null
-</code></pre>
-            </div>
-          </div>
+</code></pre></div></div>
 
-          <h2 id="resources">Resources</h2>
+<h2 id="resources">Resources</h2>
 
-          <ul>
-            <li>
-              <a
-                href="http://www.bristol.ac.uk/it-services/locations/zones/zonee/cosc/remote-access"
-                >IT Services: Remote Access</a
-              >
-            </li>
-          </ul>
+<ul>
+  <li><a href="http://www.bristol.ac.uk/it-services/locations/zones/zonee/cosc/remote-access">IT Services: Remote Access</a></li>
+</ul>
 
-          <h2>Feedback</h2>
-          <p>
-            Any issues with this tutorial? Submit
-            <a href="https://github.com/cssbristol/cssbristol.github.io/issues"
-              >an issue</a
-            >
-            or a
-            <a href="https://github.com/cssbristol/cssbristol.github.io/pulls"
-              >pull request</a
-            >
-            and we'll get it sorted out right away.
-          </p>
-        </div>
-      </article>
-    </section>
+
+      <h2>Feedback</h2>
+      <p>Any issues with this tutorial? Submit <a href="https://github.com/cssbristol/cssbristol.github.io/issues">an issue</a> or a <a href="https://github.com/cssbristol/cssbristol.github.io/pulls">pull request</a> and we'll get it sorted out right away.
+    </div>
+  </article>
+</section>
+
 
     <section class="page-section sponsorsec">
-      <h1 class="sponsors-title">
-        <a href="/pages/sponsors">Proudly sponsored by</a>
-      </h1>
-      <div class="sponsors">
-        <a
-          href="https://www.publicissapient.com/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Publicis Sapient"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/publicis_sapient.svg"
-            alt="Publicis Sapient"
-            width="130"
-            height="170"
-          />
-        </a>
+    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
+    <div class="sponsors">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+            
+<a
+  href="https://www.publicissapient.com/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Publicis Sapient"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/publicis_sapient.svg"
+    alt="Publicis Sapient"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.qualcomm.com/home"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Qualcomm"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/qualcomm.png"
-            alt="Qualcomm"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+          
+            
+<a
+  href="https://www.qualcomm.com/home"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qualcomm"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qualcomm.png"
+    alt="Qualcomm"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.qube-rt.com/careers/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Qube Research & Technologies"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/qube-rt.svg"
-            alt="Qube Research & Technologies"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+          
+            
+<a
+  href="https://www.qube-rt.com/careers/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qube Research & Technologies"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qube-rt.svg"
+    alt="Qube Research & Technologies"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.xmos.ai/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="XMOS"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/xmos.svg"
-            alt="XMOS"
-            width="130"
-            height="170"
-          />
-        </a>
-      </div>
-      <div class="sponsors__action_item">
-        <a href="/pages/sponsors">Learn more about working with us.</a>
-      </div>
-    </section>
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+            
+<a
+  href="https://www.xmos.ai/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="XMOS"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/xmos.svg"
+    alt="XMOS"
+    width="130"
+    height="170"
+  />
+</a>
+
+          
+        
+      
+    </div>
+    <div class="sponsors__action_item">
+      <a href="/pages/sponsors">Learn more about working with us.</a>
+    </div>
+</section>
+
 
     <footer class="page-footer">
-      <span class="page-footer__text"
-        >&copy; University of Bristol Computer Science Society</span
-      >
-      <nav class="page-footer__menu">
-        <ul>
-          <li>
-            <a class="page-link" href="/about/">About</a>
-          </li>
+  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
+  <nav class="page-footer__menu">
+    <ul>
+    
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/about/">About</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/contact/">Contact</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/events/index.html">Events</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/jobs/">Jobs</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/sponsors">Sponsor us</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/tutorials/">Tutorials</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/wellbeing/">Wellbeing</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    </ul>
+  </nav>
+</footer>
 
-          <li>
-            <a class="page-link" href="/contact/">Contact</a>
-          </li>
 
-          <li>
-            <a class="page-link" href="/events/index.html">Events</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/jobs/">Jobs</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/sponsors">Sponsor us</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/tutorials/">Tutorials</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/wellbeing/">Wellbeing</a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
   </body>
+
 </html>

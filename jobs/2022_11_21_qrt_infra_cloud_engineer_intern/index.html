@@ -1,642 +1,1271 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="/assets/favicons/apple-touch-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="/assets/favicons/apple-touch-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="/assets/favicons/apple-touch-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="/assets/favicons/apple-touch-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="/assets/favicons/apple-touch-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="/assets/favicons/apple-touch-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="/assets/favicons/apple-touch-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="/assets/favicons/apple-touch-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/assets/favicons/apple-touch-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-32x32.png"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-194x194.png"
-      sizes="194x194"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-96x96.png"
-      sizes="96x96"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/android-chrome-192x192.png"
-      sizes="192x192"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-16x16.png"
-      sizes="16x16"
-    />
-    <link rel="manifest" href="/assets/favicons/manifest.json" />
-    <link
-      rel="mask-icon"
-      href="/assets/favicons/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#3498db" />
-    <meta
-      name="msapplication-TileImage"
-      content="/assets/favicons/mstile-144x144.png"
-    />
-    <meta name="theme-color" content="#3498db" />
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/assets/favicons/manifest.json">
+<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#3498db">
+<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+<meta name="theme-color" content="#3498db">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta
-      name="description"
-      content="The salary for our internship is equivalent to an annual salary which ranges from £68,000 - £80,000 (dependent on experience), but pro-rated for the duration of the internship (typically 12 weeks)."
-    />
+  <meta name="description" content="The salary for our internship is equivalent to an annual salary which ranges from £68,000 - £80,000 (dependent on experience), but pro-rated for the duration of the internship (typically 12 weeks).">
 
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:title"
-      content="Infrastructure and Cloud Engineer Internship - CSS Bristol"
-    />
-    <meta
-      property="og:description"
-      content="The salary for our internship is equivalent to an annual salary which ranges from £68,000 - £80,000 (dependent on experience), but pro-rated for the duration of the internship (typically 12 weeks)."
-    />
-    <meta
-      property="og:image"
-      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
-    />
-    <meta
-      property="og:url"
-      content="https://cssbristol.co.uk/jobs/2022_11_21_qrt_infra_cloud_engineer_intern/"
-    />
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Infrastructure and Cloud Engineer Internship - CSS Bristol">
+<meta property="og:description" content="The salary for our internship is equivalent to an annual salary which ranges from £68,000 - £80,000 (dependent on experience), but pro-rated for the duration of the internship (typically 12 weeks).">
+<meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
+<meta property="og:url" content="https://cssbristol.co.uk/jobs/2022_11_21_qrt_infra_cloud_engineer_intern/">
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Infrastructure and Cloud Engineer Internship - CSS Bristol"
-    />
-    <meta
-      name="twitter:description"
-      content="The salary for our internship is equivalent to an annual salary which ranges from £68,000 - £80,000 (dependent on experience), but pro-rated for the duration of the internship (typically 12 weeks)."
-    />
-    <meta
-      name="twitter:image"
-      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
-    />
-    <meta name="twitter:site" content="@cssbristol" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Infrastructure and Cloud Engineer Internship - CSS Bristol">
+<meta name="twitter:description" content="The salary for our internship is equivalent to an annual salary which ranges from £68,000 - £80,000 (dependent on experience), but pro-rated for the duration of the internship (typically 12 weeks).">
+<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
+<meta name="twitter:site" content="@cssbristol">
+ 
 
-    <title>Infrastructure and Cloud Engineer Internship - CSS Bristol</title>
 
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    />
+  <title>Infrastructure and Cloud Engineer Internship - CSS Bristol</title>
 
-    <link rel="stylesheet" href="/assets/css/site.css" />
-    <link
-      rel="canonical"
-      href="https://cssbristol.co.uk/jobs/2022_11_21_qrt_infra_cloud_engineer_intern/"
-    />
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
 
-    <!-- Prefetch background images so they load faster next time page loads -->
-    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+  <link rel="canonical" href="https://cssbristol.co.uk/jobs/2022_11_21_qrt_infra_cloud_engineer_intern/" />
+  
 
-    <!-- Script for FontAwesome icons -->
-    <script
-      src="https://kit.fontawesome.com/5918af34b4.js"
-      crossorigin="anonymous"
-      defer
-    ></script>
+  
 
-    <!-- Script for randomly choosing header background -->
-    <script
-      type="text/javascript"
-      src="/assets/scripts/header-random-bg.js"
-      defer
-    ></script>
+  <!-- Prefetch background images so they load faster next time page loads -->
+  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
 
-    <!-- Cloudflare Web Analytics -->
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
-    ></script>
+  <!-- Script for FontAwesome icons -->
+  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
+  
+  <!-- Script for randomly choosing header background -->
+  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
+  
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
 
-    <!-- remove after a couple of months -->
-    <script>
-      const path = window.location.pathname;
-      if (path.startsWith("/events/")) {
-        const newPath = path.replaceAll("_", "-");
-        if (newPath !== path) {
-          window.location.replace(newPath);
-        }
+  <!-- remove after a couple of months -->
+  <script>
+    const path = window.location.pathname;
+    if (path.startsWith("/events/")) {
+      const newPath = path.replaceAll("_", "-");
+      if (newPath !== path) {
+        window.location.replace(newPath);
       }
-    </script>
-  </head>
+    }
+  </script>
+</head>
+
 
   <body>
+
     <header class="page-header noscript" id="page-header--random-bg">
-      <div class="bg">
-        <div id="header-random-background"></div>
-      </div>
-      <div class="navigation-items">
-        <div itemscope itemtype="http://schema.org/Organization">
-          <span style="display: none" itemprop="name"
-            >University of Bristol Computer Science Society</span
-          >
-          <a
-            aria-label="Home"
-            href="/"
-            class="page-header__logo"
-            itemprop="url"
-          >
-            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-          </a>
-        </div>
-        <nav class="page-navigation">
-          <ul class="page-navigation__links">
-            <li><a href="/about/">About</a></li>
+  <div class="bg">
+    <div id="header-random-background"></div>
+  </div>
+  <div class="navigation-items">
+    <div itemscope itemtype="http://schema.org/Organization">
+      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
+      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
+        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+      </a>
+    </div>
+    <nav class="page-navigation">
+      <ul class="page-navigation__links">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/about/">About</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/contact/">Contact</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/events/index.html">Events</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/jobs/">Jobs</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/sponsors">Sponsor us</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/tutorials/">Tutorials</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/wellbeing/">Wellbeing</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </nav>
+  </div>
+  
+</header>
 
-            <li><a href="/contact/">Contact</a></li>
-
-            <li><a href="/events/index.html">Events</a></li>
-
-            <li><a href="/jobs/">Jobs</a></li>
-
-            <li><a href="/sponsors">Sponsor us</a></li>
-
-            <li><a href="/tutorials/">Tutorials</a></li>
-
-            <li><a href="/wellbeing/">Wellbeing</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
 
     <section class="page-section">
-      <article class="article extrawide event-page">
-        <section>
-          <h1 class="event-page__title">
-            Infrastructure and Cloud Engineer Internship at Qube Research &
-            Technologies
-          </h1>
-          <div class="blog-post__body">
-            <p>
-              The salary for our internship is equivalent to an annual salary
-              which ranges from £68,000 - £80,000 (dependent on experience), but
-              pro-rated for the duration of the internship (typically 12 weeks).
-            </p>
+  <article class="article extrawide event-page">
+    <section>
+      <h1 class="event-page__title">Infrastructure and Cloud Engineer Internship at Qube Research & Technologies</h1>
+      <div class="blog-post__body"><p>The salary for our internship is equivalent to an annual salary which ranges from £68,000 - £80,000 (dependent on experience), but pro-rated for the duration of the internship (typically 12 weeks).</p>
 
-            <p>
-              <strong
-                >Open to penultimate year STEM students or upcoming
-                graduates.</strong
-              >
-            </p>
+<p><strong>Open to penultimate year STEM students or upcoming graduates.</strong></p>
 
-            <h2 id="application-deadline">Application deadline</h2>
-            <p>
-              <strong
-                >QRT recruits interns on a rolling basis. Apply early to
-                maximise your chances of success!</strong
-              >
-            </p>
+<h2 id="application-deadline">Application deadline</h2>
+<p><strong>QRT recruits interns on a rolling basis. Apply early to maximise your chances of success!</strong></p>
 
-            <h2 id="about-qrt">About QRT</h2>
-            <p>
-              Qube Research &amp; Technologies (QRT) is a global quantitative
-              and systematic investment manager, operating in all liquid asset
-              classes across the world. We are a technology and data driven
-              group implementing a scientific approach to investing. Combining
-              data, research, technology and trading expertise has shaped QRT’s
-              collaborative mindset which enables us to solve the most complex
-              challenges. QRT’s culture of innovation continuously drives our
-              ambition to deliver high quality returns for our investors.
-            </p>
+<h2 id="about-qrt">About QRT</h2>
+<p>Qube Research &amp; Technologies (QRT) is a global quantitative and systematic investment manager, operating in all liquid asset classes across the world. We are a technology and data driven group implementing a scientific approach to investing. Combining data, research, technology and trading expertise has shaped QRT’s collaborative mindset which enables us to solve the most complex challenges. QRT’s culture of innovation continuously drives our ambition to deliver high quality returns for our investors.</p>
 
-            <p>
-              We are looking to add motivated, intellectually curious
-              penultimate year STEM students or upcoming graduates with
-              entrepreneurial spirit to join our Data Development group for a
-              12-week summer internship.
-            </p>
+<p>We are looking to add motivated, intellectually curious penultimate year STEM students or upcoming graduates with entrepreneurial spirit to join our Data Development group for a 12-week summer internship.</p>
 
-            <h2 id="the-opportunity">The Opportunity</h2>
-            <p>
-              The Infrastructure Engineering and Cloud Engineering teams are
-              fundamental to QRT, underpinning our research, trading and support
-              systems globally. You will join a specific team aligned to your
-              skills and interests. Our Infrastructure Engineering team is
-              responsible for developing, designing and implementing server and
-              network infrastructure, including continually evaluating new low
-              latency and performance techniques for ultra-low latency trading.
-              Our Cloud Engineering team scale and operate the majority of QRTs
-              research technology trading stack using AWS and related cloud
-              technologies with automation and infrastructure as code at the
-              heart of their success.
-            </p>
+<h2 id="the-opportunity">The Opportunity</h2>
+<p>The Infrastructure Engineering and Cloud Engineering teams are fundamental to QRT, underpinning our research, trading and support systems globally. You will join a specific team aligned to your skills and interests. Our Infrastructure Engineering team is responsible for developing, designing and implementing server and network infrastructure, including continually evaluating new low latency and performance techniques for ultra-low latency trading. Our Cloud Engineering team scale and operate the majority of QRTs research technology trading stack using AWS and related cloud technologies with automation and infrastructure as code at the heart of their success.</p>
 
-            <p>
-              You will be given continuous, hands-on training and mentorship
-              from an experienced QRT colleague and the wider business
-              throughout your time with QRT, helping you to learn technologies
-              unique to the financial sector, soft skills and best practices
-              within professional software, cloud and hardware engineering. We
-              will demystify the world of systematic trading, explaining the
-              core components of a global trading system – previous finance
-              experience is not required! You will receive practical experience
-              of QRTs infrastructure and cloud ecosystems and will work on
-              system source code in various areas of the stack.
-            </p>
+<p>You will be given continuous, hands-on training and mentorship from an experienced QRT colleague and the wider business throughout your time with QRT, helping you to learn technologies unique to the financial sector, soft skills and best practices within professional software, cloud and hardware engineering. We will demystify the world of systematic trading, explaining the core components of a global trading system – previous finance experience is not required! You will receive practical experience of QRTs infrastructure and cloud ecosystems and will work on system source code in various areas of the stack.</p>
 
-            <p>
-              Our goal is to give you a real sense of what it’s like to work at
-              QRT and the sorts of problems you would solve. Successfully
-              completing our internship programme is a fast-track way of
-              securing a return place at QRT as a full-time graduate engineer.
-            </p>
+<p>Our goal is to give you a real sense of what it’s like to work at QRT and the sorts of problems you would solve. Successfully completing our internship programme is a fast-track way of securing a return place at QRT as a full-time graduate engineer.</p>
 
-            <h2 id="team-responsibilities">Team Responsibilities:</h2>
-            <p>
-              Working across our Infrastructure and Cloud group can span a
-              multitude of areas including:
-            </p>
-            <ul>
-              <li>
-                Intel CPU tuning deep dives including overclocking L3 cache
-                configuration, or performance testing production code.
-              </li>
-              <li>
-                Deploying Jupyter Notebook Python research/development
-                environments at scale using Apache Spark, Hadoop, clustering,
-                AWS, etc.
-              </li>
-              <li>
-                Testing and benchmarking new bleeding edge tech in our
-                performance lab, with the view of releasing new technology into
-                production that has a genuinely positive and measurable impact
-                to the business.
-              </li>
-              <li>
-                Building and supporting the tooling to allow our developers to
-                spin up hundreds or thousands of CPU cores for their research on
-                an as-needed basis.
-              </li>
-              <li>
-                Exposure to the following technologies: Linux, RedHat,
-                Python/C++ development, FPGA’s, Solarflare, git, Bash, SQL,
-                Networks, AWS Cloud Computing, Network protocols, techniques and
-                technologies, Terraform, Ansible, Apache Spark, Hadoop, as well
-                as all of our internal software engineering tools.
-              </li>
-            </ul>
+<h2 id="team-responsibilities">Team Responsibilities:</h2>
+<p>Working across our Infrastructure and Cloud group can span a multitude of areas including:</p>
+<ul>
+  <li>Intel CPU tuning deep dives including overclocking L3 cache configuration, or performance testing production code.</li>
+  <li>Deploying Jupyter Notebook Python research/development environments at scale using Apache Spark, Hadoop, clustering, AWS, etc.</li>
+  <li>Testing and benchmarking new bleeding edge tech in our performance lab, with the view of releasing new technology into production that has a genuinely positive and measurable impact to the business.</li>
+  <li>Building and supporting the tooling to allow our developers to spin up hundreds or thousands of CPU cores for their research on an as-needed basis.</li>
+  <li>Exposure to the following technologies: Linux, RedHat, Python/C++ development, FPGA’s, Solarflare, git, Bash, SQL, Networks, AWS Cloud Computing, Network protocols, techniques and technologies, Terraform, Ansible, Apache Spark, Hadoop, as well as all of our internal software engineering tools.</li>
+</ul>
 
-            <h2 id="what-we-are-looking-for">What we are looking for:</h2>
-            <ul>
-              <li>
-                Strong penultimate year students or upcoming graduates studying
-                for a degree (Bachelor’s, Master’s or PhD) in any STEM subject
-                (computer science, physics, mathematics or any related
-                engineering discipline) on track towards obtaining a 2:1 or
-                above.
-              </li>
-              <li>
-                Demonstrable passion for technology! Regardless of whether you
-                have formal CompSci training or not – we are more interested in
-                your achievements related to software/data engineering. For
-                example - hobbies, past-time, open source or academic projects,
-                etc. covering the following:
-                <ul>
-                  <li>
-                    Scripting languages e.g. Python or Bash or another
-                    programming language.
-                  </li>
-                  <li>Tools like GIT, SQL, gcc.</li>
-                  <li>Linux command-line (Redhat/CentOS).</li>
-                  <li>Automation technologies (e.g. Ansible, Terraform).</li>
-                  <li>AWS services (e.g. EC2, VPC, S3 etc).</li>
-                  <li>Contributions to or building open-source projects.</li>
-                </ul>
-              </li>
-              <li>
-                Pro-active and unafraid to ask questions. You can really have a
-                huge impact here, improving our performance with suggestions and
-                optimisations.
-              </li>
-              <li>Entrepreneurial approach and self-motivated.</li>
-            </ul>
+<h2 id="what-we-are-looking-for">What we are looking for:</h2>
+<ul>
+  <li>Strong penultimate year students or upcoming graduates studying for a degree (Bachelor’s, Master’s or PhD) in any STEM subject (computer science, physics, mathematics or any related engineering discipline) on track towards obtaining a 2:1 or above.</li>
+  <li>Demonstrable passion for technology! Regardless of whether you have formal CompSci training or not – we are more interested in your achievements related to software/data engineering. For example - hobbies, past-time, open source or academic projects, etc. covering the following:
+    <ul>
+      <li>Scripting languages e.g. Python or Bash or another programming language.</li>
+      <li>Tools like GIT, SQL, gcc.</li>
+      <li>Linux command-line (Redhat/CentOS).</li>
+      <li>Automation technologies (e.g. Ansible, Terraform).</li>
+      <li>AWS services (e.g. EC2, VPC, S3 etc).</li>
+      <li>Contributions to or building open-source projects.</li>
+    </ul>
+  </li>
+  <li>Pro-active and unafraid to ask questions. You can really have a huge impact here, improving our performance with suggestions and optimisations.</li>
+  <li>Entrepreneurial approach and self-motivated.</li>
+</ul>
 
-            <h2 id="why-should-you-apply">Why should you apply?</h2>
-            <ul>
-              <li>
-                This is a paid summer internship, and you will receive a
-                competitive salary (pro-rated for 12 weeks).
-              </li>
-              <li>
-                Breakfast &amp; lunch provided along with many other company
-                perks.
-              </li>
-              <li>
-                Relaxed dress code and good work/life balance in a truly
-                collaborative, innovative and fun environment.
-              </li>
-              <li>
-                A brand-new office in the Nova building in vibrant and historic
-                Victoria with state-of-the-art facilities and a roof terrace
-                with views of London.
-              </li>
-              <li>
-                Regular team-wide, company-wide and internship specific social
-                events.
-              </li>
-              <li>
-                Opportunity to get involved in various charitable initiatives
-                that are supported by QRT. Our company commitments can be found
-                here.
-              </li>
-              <li>
-                Excellent training and support throughout your internship at
-                QRT.
-              </li>
-              <li>
-                We actively sponsor open source projects &amp; technologies and
-                encourage contribution back to the relevant projects we use.
-              </li>
-            </ul>
+<h2 id="why-should-you-apply">Why should you apply?</h2>
+<ul>
+  <li>This is a paid summer internship, and you will receive a competitive salary (pro-rated for 12 weeks).</li>
+  <li>Breakfast &amp; lunch provided along with many other company perks.</li>
+  <li>Relaxed dress code and good work/life balance in a truly collaborative, innovative and fun environment.</li>
+  <li>A brand-new office in the Nova building in vibrant and historic Victoria with state-of-the-art facilities and a roof terrace with views of London.</li>
+  <li>Regular team-wide, company-wide and internship specific social events.</li>
+  <li>Opportunity to get involved in various charitable initiatives that are supported by QRT. Our company commitments can be found here.</li>
+  <li>Excellent training and support throughout your internship at QRT.</li>
+  <li>We actively sponsor open source projects &amp; technologies and encourage contribution back to the relevant projects we use.</li>
+</ul>
 
-            <h2 id="interview-process">Interview Process:</h2>
-            <ol>
-              <li>
-                <strong>Submit an application:</strong> share your resume with
-                us – these will be reviewed on a monthly rolling basis.
-              </li>
-              <li>
-                <strong>Initial Technical Assessment:</strong> Selected
-                candidates will be asked to complete an assessment focussed on
-                software engineering fundamentals.
-              </li>
-              <li>
-                <strong>Interview(s):</strong> For those who pass the technical
-                assessment, the final step will be to meet your potential future
-                colleagues on-site or via phone/zoom. This will enable us to
-                better assess your technical skills and career goals, as well as
-                for you to learn more about us!
-              </li>
-              <li><strong>Job Offers extended</strong></li>
-            </ol>
-          </div>
-        </section>
-        <section class="event-page__details">
-          <h2>The Details</h2>
-
-          <div class="event-page__details__row job-details">
-            <i
-              class="fas fa-building"
-              data-tooltip="Hiring Company"
-              aria-label="Hiring Company"
-            ></i>
-
-            <a
-              href="https://www.qube-rt.com/careers/"
-              target="_blank"
-              rel="noopener sponsored"
-              data-tooltip="Qube Research & Technologies"
-              class="company-logo"
-            >
-              <img
-                src="/assets/images/contrib/companies/qube-rt.svg"
-                alt="Qube Research & Technologies"
-                width="130"
-                height="170"
-              />
-            </a>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-calendar-day"
-              data-tooltip="Start Date"
-              aria-label="Start Date"
-            ></i>
-            <p>Summer 2023</p>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-map-marker"
-              data-tooltip="Job Location"
-              aria-label="Job Location"
-            ></i>
-            <p>London, England</p>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-pound-sign"
-              data-tooltip="Base Salary"
-              aria-label="Base Salary"
-            ></i>
-            <p>68000 GBP /Year</p>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-user-clock"
-              data-tooltip="Employment type"
-              aria-label="Employment Type"
-            ></i>
-            <p>Summer Internship</p>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-hourglass-end"
-              data-tooltip="Apply by"
-              aria-label="Apply by"
-            ></i>
-            <p>03/03/23 23:59</p>
-          </div>
-
-          <div class="event-page__details__hosted-with">
-            <hr />
-
-            <a
-              class="btn btn--dark"
-              style="margin: 20px"
-              target="_blank"
-              href="https://www.qube-rt.com/careers/intern-opportunities/job?gh_jid=6495363002"
-            >
-              Apply Here
-            </a>
-          </div>
-        </section>
-      </article>
+<h2 id="interview-process">Interview Process:</h2>
+<ol>
+  <li><strong>Submit an application:</strong> share your resume with us – these will be reviewed on a monthly rolling basis.</li>
+  <li><strong>Initial Technical Assessment:</strong> Selected candidates will be asked to complete an assessment focussed on software engineering fundamentals.</li>
+  <li><strong>Interview(s):</strong> For those who pass the technical assessment, the final step will be to meet your potential future colleagues on-site or via phone/zoom. This will enable us to better assess your technical skills and career goals, as well as for you to learn more about us!</li>
+  <li><strong>Job Offers extended</strong></li>
+</ol>
+</div>
     </section>
+    <section class="event-page__details">
+      <h2>The Details</h2>
+      
+      <div class="event-page__details__row job-details">
+        <i class="fas fa-building" data-tooltip="Hiring Company" aria-label="Hiring Company"></i>
+        
+        
+<a
+  href="https://www.qube-rt.com/careers/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qube Research & Technologies"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qube-rt.svg"
+    alt="Qube Research & Technologies"
+    width="130"
+    height="170"
+  />
+</a>
+
+        
+      </div>
+      
+      
+      <div class="event-page__details__row">
+        <i class="fas fa-calendar-day" data-tooltip="Start Date" aria-label="Start Date"></i>
+        <p>Summer 2023</p>
+      </div>
+      
+      
+      <div class="event-page__details__row">
+        <i class="fas fa-map-marker" data-tooltip="Job Location" aria-label="Job Location"></i>
+        <p>London, England</p>
+      </div>
+      
+      
+      <div class="event-page__details__row">
+        <i class="fas fa-pound-sign" data-tooltip="Base Salary" aria-label="Base Salary"></i>
+        <p>68000 GBP /Year</p>
+      </div>
+      
+      
+      <div class="event-page__details__row">
+        <i class="fas fa-user-clock" data-tooltip="Employment type" aria-label="Employment Type"></i>
+        <p>Summer Internship</p>
+      </div>
+      
+      
+      <div class="event-page__details__row">
+        <i class="fas fa-hourglass-end" data-tooltip="Apply by" aria-label="Apply by"></i>
+        <p>
+          03/03/23 23:59
+        </p>
+      </div>
+      
+      
+      <div class="event-page__details__hosted-with">
+        <hr />
+        
+        <a class="btn btn--dark" style="margin: 20px" target="_blank" href="https://www.qube-rt.com/careers/intern-opportunities/job?gh_jid=6495363002">
+          Apply Here
+        </a>
+        
+        
+      </div>
+      
+    </section>
+  </article>
+</section>
 
     <section class="page-section sponsorsec">
-      <h1 class="sponsors-title">
-        <a href="/pages/sponsors">Proudly sponsored by</a>
-      </h1>
-      <div class="sponsors">
-        <a
-          href="https://www.publicissapient.com/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Publicis Sapient"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/publicis_sapient.svg"
-            alt="Publicis Sapient"
-            width="130"
-            height="170"
-          />
-        </a>
+    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
+    <div class="sponsors">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+            
+<a
+  href="https://www.publicissapient.com/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Publicis Sapient"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/publicis_sapient.svg"
+    alt="Publicis Sapient"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.qualcomm.com/home"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Qualcomm"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/qualcomm.png"
-            alt="Qualcomm"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+          
+            
+<a
+  href="https://www.qualcomm.com/home"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qualcomm"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qualcomm.png"
+    alt="Qualcomm"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.qube-rt.com/careers/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Qube Research & Technologies"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/qube-rt.svg"
-            alt="Qube Research & Technologies"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+          
+            
+<a
+  href="https://www.qube-rt.com/careers/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qube Research & Technologies"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qube-rt.svg"
+    alt="Qube Research & Technologies"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.xmos.ai/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="XMOS"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/xmos.svg"
-            alt="XMOS"
-            width="130"
-            height="170"
-          />
-        </a>
-      </div>
-      <div class="sponsors__action_item">
-        <a href="/pages/sponsors">Learn more about working with us.</a>
-      </div>
-    </section>
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+            
+<a
+  href="https://www.xmos.ai/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="XMOS"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/xmos.svg"
+    alt="XMOS"
+    width="130"
+    height="170"
+  />
+</a>
+
+          
+        
+      
+    </div>
+    <div class="sponsors__action_item">
+      <a href="/pages/sponsors">Learn more about working with us.</a>
+    </div>
+</section>
+
 
     <footer class="page-footer">
-      <span class="page-footer__text"
-        >&copy; University of Bristol Computer Science Society</span
-      >
-      <nav class="page-footer__menu">
-        <ul>
-          <li>
-            <a class="page-link" href="/about/">About</a>
-          </li>
+  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
+  <nav class="page-footer__menu">
+    <ul>
+    
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/about/">About</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/contact/">Contact</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/events/index.html">Events</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/jobs/">Jobs</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/sponsors">Sponsor us</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/tutorials/">Tutorials</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/wellbeing/">Wellbeing</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    </ul>
+  </nav>
+</footer>
 
-          <li>
-            <a class="page-link" href="/contact/">Contact</a>
-          </li>
 
-          <li>
-            <a class="page-link" href="/events/index.html">Events</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/jobs/">Jobs</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/sponsors">Sponsor us</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/tutorials/">Tutorials</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/wellbeing/">Wellbeing</a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
   </body>
+
 </html>

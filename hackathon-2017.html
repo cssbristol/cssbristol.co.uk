@@ -1,692 +1,1270 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="/assets/favicons/apple-touch-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="/assets/favicons/apple-touch-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="/assets/favicons/apple-touch-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="/assets/favicons/apple-touch-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="/assets/favicons/apple-touch-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="/assets/favicons/apple-touch-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="/assets/favicons/apple-touch-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="/assets/favicons/apple-touch-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/assets/favicons/apple-touch-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-32x32.png"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-194x194.png"
-      sizes="194x194"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-96x96.png"
-      sizes="96x96"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/android-chrome-192x192.png"
-      sizes="192x192"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-16x16.png"
-      sizes="16x16"
-    />
-    <link rel="manifest" href="/assets/favicons/manifest.json" />
-    <link
-      rel="mask-icon"
-      href="/assets/favicons/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#3498db" />
-    <meta
-      name="msapplication-TileImage"
-      content="/assets/favicons/mstile-144x144.png"
-    />
-    <meta name="theme-color" content="#3498db" />
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/assets/favicons/manifest.json">
+<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#3498db">
+<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+<meta name="theme-color" content="#3498db">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta
-      name="description"
-      content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department."
-    />
+  <meta name="description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
 
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="CSS Hackathon 2017 - CSS Bristol" />
-    <meta
-      property="og:description"
-      content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department."
-    />
-    <meta
-      property="og:image"
-      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
-    />
-    <meta property="og:url" content="https://cssbristol.co.uk/hackathon-2017" />
+  <meta property="og:type" content="website">
+<meta property="og:title" content="CSS Hackathon 2017 - CSS Bristol">
+<meta property="og:description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
+<meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
+<meta property="og:url" content="https://cssbristol.co.uk/hackathon-2017">
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="CSS Hackathon 2017 - CSS Bristol" />
-    <meta
-      name="twitter:description"
-      content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department."
-    />
-    <meta
-      name="twitter:image"
-      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
-    />
-    <meta name="twitter:site" content="@cssbristol" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CSS Hackathon 2017 - CSS Bristol">
+<meta name="twitter:description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
+<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
+<meta name="twitter:site" content="@cssbristol">
+ 
 
-    <title>CSS Hackathon 2017 - CSS Bristol</title>
 
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    />
+  <title>CSS Hackathon 2017 - CSS Bristol</title>
 
-    <link rel="stylesheet" href="/assets/css/site.css" />
-    <link rel="canonical" href="https://cssbristol.co.uk/hackathon-2017" />
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
 
-    <!-- Prefetch background images so they load faster next time page loads -->
-    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+  <link rel="canonical" href="https://cssbristol.co.uk/hackathon-2017" />
+  
 
-    <!-- Script for FontAwesome icons -->
-    <script
-      src="https://kit.fontawesome.com/5918af34b4.js"
-      crossorigin="anonymous"
-      defer
-    ></script>
+  
 
-    <!-- Script for randomly choosing header background -->
-    <script
-      type="text/javascript"
-      src="/assets/scripts/header-random-bg.js"
-      defer
-    ></script>
+  <!-- Prefetch background images so they load faster next time page loads -->
+  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
 
-    <!-- Cloudflare Web Analytics -->
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
-    ></script>
+  <!-- Script for FontAwesome icons -->
+  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
+  
+  <!-- Script for randomly choosing header background -->
+  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
+  
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
 
-    <!-- remove after a couple of months -->
-    <script>
-      const path = window.location.pathname;
-      if (path.startsWith("/events/")) {
-        const newPath = path.replaceAll("_", "-");
-        if (newPath !== path) {
-          window.location.replace(newPath);
-        }
+  <!-- remove after a couple of months -->
+  <script>
+    const path = window.location.pathname;
+    if (path.startsWith("/events/")) {
+      const newPath = path.replaceAll("_", "-");
+      if (newPath !== path) {
+        window.location.replace(newPath);
       }
-    </script>
-  </head>
+    }
+  </script>
+</head>
+
 
   <body>
+
     <header class="page-header noscript" id="page-header--random-bg">
-      <div class="bg">
-        <div id="header-random-background"></div>
-      </div>
-      <div class="navigation-items">
-        <div itemscope itemtype="http://schema.org/Organization">
-          <span style="display: none" itemprop="name"
-            >University of Bristol Computer Science Society</span
-          >
-          <a
-            aria-label="Home"
-            href="/"
-            class="page-header__logo"
-            itemprop="url"
-          >
-            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-          </a>
-        </div>
-        <nav class="page-navigation">
-          <ul class="page-navigation__links">
-            <li><a href="/about/">About</a></li>
+  <div class="bg">
+    <div id="header-random-background"></div>
+  </div>
+  <div class="navigation-items">
+    <div itemscope itemtype="http://schema.org/Organization">
+      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
+      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
+        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+      </a>
+    </div>
+    <nav class="page-navigation">
+      <ul class="page-navigation__links">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/about/">About</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/contact/">Contact</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/events/index.html">Events</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/jobs/">Jobs</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/sponsors">Sponsor us</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/tutorials/">Tutorials</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/wellbeing/">Wellbeing</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </nav>
+  </div>
+  
+</header>
 
-            <li><a href="/contact/">Contact</a></li>
-
-            <li><a href="/events/index.html">Events</a></li>
-
-            <li><a href="/jobs/">Jobs</a></li>
-
-            <li><a href="/sponsors">Sponsor us</a></li>
-
-            <li><a href="/tutorials/">Tutorials</a></li>
-
-            <li><a href="/wellbeing/">Wellbeing</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
 
     <section class="page-section">
-      <article class="article">
-        <p><a href="/explore-week-spring-2017">Back to Explore Week</a></p>
+  <article class="article">
+    <p><a href="/explore-week-spring-2017">Back to Explore Week</a></p>
 
-        <h1 id="boeing-explore-week-hackathon-2017">
-          Boeing Explore Week Hackathon 2017
-        </h1>
+<h1 id="boeing-explore-week-hackathon-2017">Boeing Explore Week Hackathon 2017</h1>
 
-        <h2 id="midday-february-27---midday-february-28">
-          Midday February 27 - Midday February 28
-        </h2>
+<h2 id="midday-february-27---midday-february-28">Midday February 27 - Midday February 28</h2>
 
-        <p>
-          This year we’re holding our first ever Explore Week Hackathon!
-          <strong
-            >Make the most of a week free from lectures and deadlines</strong
-          >
-          by entering our biggest, best Hackathon yet.
-        </p>
+<p>This year we’re holding our first ever Explore Week Hackathon! <strong>Make the most of a week free from lectures and deadlines</strong> by entering our biggest, best Hackathon yet.</p>
 
-        <p>
-          <a
-            href="https://www.facebook.com/events/392877197725107/"
-            class="btn btn--dark"
-            >Facebook Event</a
-          >
-          <a href="https://goo.gl/forms/lFDrMaW7tgRLT0ah2" class="btn btn--dark"
-            >Sign Up Now</a
-          >
-        </p>
+<p><a href="https://www.facebook.com/events/392877197725107/" class="btn btn--dark">Facebook Event</a>
+<a href="https://goo.gl/forms/lFDrMaW7tgRLT0ah2" class="btn btn--dark">Sign Up Now</a></p>
 
-        <p>
-          <img
-            src="/assets/images/contrib/events/2017-02-27-hackathon/hackathon-cover-image.png"
-            alt="CSS Explore Week Hackathon 2017"
-          />
-        </p>
+<p><img src="/assets/images/contrib/events/2017-02-27-hackathon/hackathon-cover-image.png" alt="CSS Explore Week Hackathon 2017" /></p>
 
-        <h2 id="sign-up-now">
-          <a href="https://goo.gl/forms/lFDrMaW7tgRLT0ah2">Sign up now!</a>
-        </h2>
+<h2 id="sign-up-now"><a href="https://goo.gl/forms/lFDrMaW7tgRLT0ah2">Sign up now!</a></h2>
 
-        <p>
-          Teams can be composed of <strong>up to 6 people</strong>. Make sure
-          you <a href="https://goo.gl/forms/lFDrMaW7tgRLT0ah2">sign up</a> so we
-          can reserve your place!
-        </p>
+<p>Teams can be composed of <strong>up to 6 people</strong>. Make sure you <a href="https://goo.gl/forms/lFDrMaW7tgRLT0ah2">sign up</a> so we can reserve your place!</p>
 
-        <p>
-          <strong>Don’t have a team yet?</strong> We’re happy to help match you
-          up with people! Just mention it on the signup form.
-        </p>
+<p><strong>Don’t have a team yet?</strong> We’re happy to help match you up with people! Just mention it on the signup form.</p>
 
-        <p>
-          Never done something like this before? Don’t worry - anyone can
-          participate!
-        </p>
+<p>Never done something like this before? Don’t worry - anyone can participate!</p>
 
-        <h2 id="prizes">Prizes</h2>
+<h2 id="prizes">Prizes</h2>
 
-        <p>There are three prize categories:</p>
+<p>There are three prize categories:</p>
 
-        <h3 id="best-environmental-impact">Best environmental impact</h3>
-        <p>£100 cash per team member</p>
+<h3 id="best-environmental-impact">Best environmental impact</h3>
+<p>£100 cash per team member</p>
 
-        <h3 id="best-implemented-prototype">Best-implemented prototype</h3>
-        <p>Quadcopter per team member</p>
+<h3 id="best-implemented-prototype">Best-implemented prototype</h3>
+<p>Quadcopter per team member</p>
 
-        <h3 id="most-creative-idea">Most creative idea</h3>
-        <p>Google Chromecast per team member</p>
+<h3 id="most-creative-idea">Most creative idea</h3>
+<p>Google Chromecast per team member</p>
 
-        <h2 id="theme">Theme</h2>
+<h2 id="theme">Theme</h2>
 
-        <p>
-          This year’s theme:
-          <strong
-            >build something that might help protect or improve the
-            environment</strong
-          >!
-        </p>
+<p>This year’s theme: <strong>build something that might help protect or improve the environment</strong>!</p>
 
-        <p>
-          We’re deliberately keeping this as broad as possible, because we want
-          to see what you come up with!
-        </p>
+<p>We’re deliberately keeping this as broad as possible, because we want to see what you come up with!</p>
 
-        <p>
-          Maybe you’ll write a piece of software with super-low energy
-          requirements. What about a system for monitoring your vegetable patch?
-          Or a robot that turns off unused appliances? You could write a vision
-          algorithm that detects damage to forests or ice shelves. Perhaps
-          you’ll even write a cool visualisation that uses Bristol’s Open Data
-          platform.
-        </p>
+<p>Maybe you’ll write a piece of software with super-low energy requirements. What about a system for monitoring your vegetable patch? Or a robot that turns off unused appliances? You could write a vision algorithm that detects damage to forests or ice shelves. Perhaps you’ll even write a cool visualisation that uses Bristol’s Open Data platform.</p>
 
-        <p>
-          If you want some inspiration, we’ve put together a huge list of ideas
-          and resources below.
-        </p>
+<p>If you want some inspiration, we’ve put together a huge list of ideas and resources below.</p>
 
-        <h2 id="resources">Resources</h2>
+<h2 id="resources">Resources</h2>
 
-        <p>
-          This year, we’re keen to help teams with access to any equipment or
-          resources they might need for their project.
-          <a href="mailto:webmaster@cssbristol.co.uk">Contact us</a> if you know
-          you’re going to need something, and we’ll see what we can do.
-        </p>
+<p>This year, we’re keen to help teams with access to any equipment or resources they might need for their project. <a href="mailto:webmaster@cssbristol.co.uk">Contact us</a> if you know you’re going to need something, and we’ll see what we can do.</p>
 
-        <p>For example, you might want:</p>
+<p>For example, you might want:</p>
 
-        <ul>
-          <li>
-            A Raspberry Pi, Arduino, mbed, ESP32 or other development board
-          </li>
-          <li>Powerful compute resources, like an Amazon EC2 GPU instance</li>
-          <li>Sensors or camera modules</li>
-        </ul>
+<ul>
+  <li>A Raspberry Pi, Arduino, mbed, ESP32 or other development board</li>
+  <li>Powerful compute resources, like an Amazon EC2 GPU instance</li>
+  <li>Sensors or camera modules</li>
+</ul>
 
-        <h2 id="ideas">Ideas</h2>
+<h2 id="ideas">Ideas</h2>
 
-        <p>
-          <a href="http://www.boeing.co.uk/"><strong>Boeing</strong></a> is our
-          Hackathon sponsor this year. They have a particular interest in
-          environmental monitoring of the Antarctic. Here are some cool ideas
-          they’ve suggested:
-        </p>
+<p><a href="http://www.boeing.co.uk/"><strong>Boeing</strong></a> is our Hackathon sponsor this year. They have a particular interest in environmental monitoring of the Antarctic. Here are some cool ideas they’ve suggested:</p>
 
-        <h3 id="monitoring-the-antarctic-with-computer-vision">
-          <strong>Monitoring the Antarctic</strong> with Computer Vision
-        </h3>
+<h3 id="monitoring-the-antarctic-with-computer-vision"><strong>Monitoring the Antarctic</strong> with Computer Vision</h3>
 
-        <p>
-          Use computer vision techniques to analyse polar imagery, looking for
-          cracks or other interesting features. You may have heard recently in
-          the news about a huge crack developing in the Larsen C Ice Shelf.
-          Perhaps you could use the features you pick out to generate a cool map
-          or 3D model?
-        </p>
+<p>Use computer vision techniques to analyse polar imagery, looking for cracks or other interesting features. You may have heard recently in the news about a huge crack developing in the Larsen C Ice Shelf. Perhaps you could use the features you pick out to generate a cool map or 3D model?</p>
 
-        <p>
-          <img
-            src="/assets/images/contrib/events/2017-02-27-hackathon/larsen-c.jpg"
-            alt="Larsen C crack"
-          />
-        </p>
+<p><img src="/assets/images/contrib/events/2017-02-27-hackathon/larsen-c.jpg" alt="Larsen C crack" /></p>
 
-        <p>Here are some resources you might find useful:</p>
+<p>Here are some resources you might find useful:</p>
 
-        <p>
-          <a href="https://scihub.copernicus.eu/"
-            >Open data from the Copernicus Programme</a
-          >, which is run by the European Commission and the European Space
-          Agency. Once you’ve registered for free, you can search for data in
-          the <a href="https://scihub.copernicus.eu/dhus/">Scientific Hub</a>.
-          To use the data, you might want to investigate ESA’s
-          <a href="http://step.esa.int/main/">STEP Platform</a>. There are lots
-          of
-          <a href="https://www.youtube.com/watch?v=10x7UI7oD3E">tutorials</a>
-          available.
-        </p>
+<p><a href="https://scihub.copernicus.eu/">Open data from the Copernicus Programme</a>, which is run by the European Commission and the European Space Agency. Once you’ve registered for free, you can search for data in the <a href="https://scihub.copernicus.eu/dhus/">Scientific Hub</a>. To use the data, you might want to investigate ESA’s <a href="http://step.esa.int/main/">STEP Platform</a>. There are lots of <a href="https://www.youtube.com/watch?v=10x7UI7oD3E">tutorials</a> available.</p>
 
-        <p>
-          <a href="http://quantarctica.npolar.no/">Quantarctica</a> is a free
-          GIS package for exploring a wide variety of open GIS data.
-        </p>
+<p><a href="http://quantarctica.npolar.no/">Quantarctica</a> is a free GIS package for exploring a wide variety of open GIS data.</p>
 
-        <p>
-          Here’s a good list of
-          <a href="http://gisgeography.com/free-satellite-imagery-data-list/"
-            >free satellite imagery</a
-          >
-          put together by GISGeography.
-        </p>
+<p>Here’s a good list of <a href="http://gisgeography.com/free-satellite-imagery-data-list/">free satellite imagery</a> put together by GISGeography.</p>
 
-        <p>
-          The
-          <a href="https://data.bas.ac.uk/">British Antarctic Survey</a>
-          maintains a database of their various sets of polar data.
-        </p>
+<p>The <a href="https://data.bas.ac.uk/">British Antarctic Survey</a> maintains a database of their various sets of polar data.</p>
 
-        <p>
-          <a
-            href="http://www.antarcticglaciers.org/antarctica/antarctic-datasets/"
-            >AntarcticGlaciers.org</a
-          >
-          also maintains a list of useful datasets.
-        </p>
+<p><a href="http://www.antarcticglaciers.org/antarctica/antarctic-datasets/">AntarcticGlaciers.org</a> also maintains a list of useful datasets.</p>
 
-        <h3 id="drone-route-planning-for-environmental-observation">
-          <strong>Drone route-planning</strong> for environmental observation
-        </h3>
+<h3 id="drone-route-planning-for-environmental-observation"><strong>Drone route-planning</strong> for environmental observation</h3>
 
-        <p>
-          Imagine you want to monitor the environmental condition of a remote
-          region of Earth using drones. There may be a number of points where
-          you can recharge, and a number of spots you are keen to monitor.
-          Perhaps you want to consider the
-          <a href="https://github.com/cambecc/earth">effect of weather</a> on
-          the drone’s flight?
-        </p>
+<p>Imagine you want to monitor the environmental condition of a remote region of Earth using drones. There may be a number of points where you can recharge, and a number of spots you are keen to monitor. Perhaps you want to consider the <a href="https://github.com/cambecc/earth">effect of weather</a> on the drone’s flight?</p>
 
-        <p>
-          When you’re trying to fly a drone around the complex edges of a polar
-          ice cap, efficient route planning becomes particularly important.
-          Could you build a system that suggests the best route? What about a
-          <em>fleet</em> of drones?
-        </p>
+<p>When you’re trying to fly a drone around the complex edges of a polar ice cap, efficient route planning becomes particularly important. Could you build a system that suggests the best route? What about a <em>fleet</em> of drones?</p>
 
-        <p>
-          <a href="https://github.com/felixge/node-ar-drone">ar-drone</a> is a
-          library that implements the control protocol of the Parrot AR Drone as
-          a Node app. Perhaps you could build a drone simulator that listens to
-          the control output and displays it in 3D? Maybe you could do something
-          cool using
-          <a href="https://github.com/shama/voxel-drone">voxel-drone</a>, which
-          simulates ar-drone in a Minecraft-y world?
-        </p>
+<p><a href="https://github.com/felixge/node-ar-drone">ar-drone</a> is a library that implements the control protocol of the Parrot AR Drone as a Node app. Perhaps you could build a drone simulator that listens to the control output and displays it in 3D? Maybe you could do something cool using <a href="https://github.com/shama/voxel-drone">voxel-drone</a>, which simulates ar-drone in a Minecraft-y world?</p>
 
-        <p>
-          <img
-            src="/assets/images/contrib/events/2017-02-27-hackathon/voxel-drone.png"
-            alt="Voxel Drone screenshot"
-          />
-        </p>
+<p><img src="/assets/images/contrib/events/2017-02-27-hackathon/voxel-drone.png" alt="Voxel Drone screenshot" /></p>
 
-        <h3 id="climate-projection"><strong>Climate projection</strong></h3>
+<h3 id="climate-projection"><strong>Climate projection</strong></h3>
 
-        <p>
-          Using the climate data and imagery from above, could you build a model
-          of the effect of temperature on the area of ice? Maybe you could use
-          this to project the change in the area of ice in the future under
-          various different conditions.
-        </p>
+<p>Using the climate data and imagery from above, could you build a model of the effect of temperature on the area of ice? Maybe you could use this to project the change in the area of ice in the future under various different conditions.</p>
 
-        <p>
-          The US National Snow and Ice Data Center provides some useful
-          <a
-            href="https://nsidc.org/data/docs/daac/nsidc0190_surface_obs.gd.html"
-            >climate data</a
-          >, as does
-          <a href="http://www.realclimate.org/index.php/data-sources/"
-            >RealClimate</a
-          >.
-        </p>
+<p>The US National Snow and Ice Data Center provides some useful <a href="https://nsidc.org/data/docs/daac/nsidc0190_surface_obs.gd.html">climate data</a>, as does <a href="http://www.realclimate.org/index.php/data-sources/">RealClimate</a>.</p>
 
-        <h3 id="recommended-libraries">Recommended libraries</h3>
+<h3 id="recommended-libraries">Recommended libraries</h3>
 
-        <ul>
-          <li>
-            <a href="http://opencv.org/">OpenCV</a> - everyone’s favourite
-            open-source computer vision library. Remember, it works with Python
-            too!
-          </li>
-        </ul>
+<ul>
+  <li><a href="http://opencv.org/">OpenCV</a> - everyone’s favourite open-source computer vision library. Remember, it works with Python too!</li>
+</ul>
 
-        <h2 id="easy-hacks">Easy hacks</h2>
+<h2 id="easy-hacks">Easy hacks</h2>
 
-        <p>
-          New to hackathons? Don’t worry - everyone can contribute something,
-          and it’s a great way to gain confidence!
-        </p>
+<p>New to hackathons? Don’t worry - everyone can contribute something, and it’s a great way to gain confidence!</p>
 
-        <p>We’ve put together some easy ideas to get you started.</p>
+<p>We’ve put together some easy ideas to get you started.</p>
 
-        <h3 id="3d-maps-with-cesiumjs">
-          <strong>3D Maps</strong> with CesiumJS
-        </h3>
+<h3 id="3d-maps-with-cesiumjs"><strong>3D Maps</strong> with CesiumJS</h3>
 
-        <p>
-          <a href="https://cesiumjs.org/">CesiumJS</a> is a WebGL-based engine
-          for displaying virtual 3D maps and globes in the browser. There are
-          lots of
-          <a
-            href="http://cesiumjs.org/Cesium/Apps/Sandcastle/index.html?src=Hello%20World.html&amp;label=Showcases"
-            >code examples</a
-          >
-          showing how to do things like overlay 3D models on the globe,
-          automatically control the camera, display different layers of imagery
-          and more.
-        </p>
+<p><a href="https://cesiumjs.org/">CesiumJS</a> is a WebGL-based engine for displaying virtual 3D maps and globes in the browser. There are lots of <a href="http://cesiumjs.org/Cesium/Apps/Sandcastle/index.html?src=Hello%20World.html&amp;label=Showcases">code examples</a> showing how to do things like overlay 3D models on the globe, automatically control the camera, display different layers of imagery and more.</p>
 
-        <p>
-          Alternatively, look at
-          <a href="https://carto.com/builder/">Carto</a> for analysis of
-          location data.
-        </p>
+<p>Alternatively, look at <a href="https://carto.com/builder/">Carto</a> for analysis of location data.</p>
 
-        <h3 id="environmental-monitoring">
-          <strong>Environmental monitoring</strong>
-        </h3>
+<h3 id="environmental-monitoring"><strong>Environmental monitoring</strong></h3>
 
-        <p>
-          Try building an environmental sensor using a
-          <a href="https://www.raspberrypi.org/products/">Raspberry Pi</a> and
-          the
-          <a href="https://www.raspberrypi.org/products/sense-hat/">Sense HAT</a
-          >! You should be able to do this entirely from Python. Once you’ve got
-          that working, what will you do with the data? Perhaps you can tweet it
-          using the Twitter API. Maybe you can record the results into a
-          database on your server, then build a webapp to display them in the
-          browser.
-        </p>
+<p>Try building an environmental sensor using a <a href="https://www.raspberrypi.org/products/">Raspberry Pi</a> and the <a href="https://www.raspberrypi.org/products/sense-hat/">Sense HAT</a>! You should be able to do this entirely from Python. Once you’ve got that working, what will you do with the data? Perhaps you can tweet it using the Twitter API. Maybe you can record the results into a database on your server, then build a webapp to display them in the browser.</p>
 
-        <p>
-          If you want help getting hold of any of this equipment, let us know!
-          We might be able to provide you with a Raspberry Pi and some other
-          bits.
-        </p>
+<p>If you want help getting hold of any of this equipment, let us know! We might be able to provide you with a Raspberry Pi and some other bits.</p>
 
-        <h3 id="bristol-open-data-visualisation">
-          Bristol <strong>Open Data</strong> visualisation
-        </h3>
+<h3 id="bristol-open-data-visualisation">Bristol <strong>Open Data</strong> visualisation</h3>
 
-        <p>
-          Build something cool on top of Bristol’s
-          <a href="https://opendata.bristol.gov.uk/category/Environment"
-            >environmental</a
-          >
-          or
-          <a href="https://opendata.bristol.gov.uk/category/Energy">energy</a>
-          open data. Bath has a
-          <a href="https://data.bathhacked.org/">similar datastore</a>.
-        </p>
+<p>Build something cool on top of Bristol’s <a href="https://opendata.bristol.gov.uk/category/Environment">environmental</a> or <a href="https://opendata.bristol.gov.uk/category/Energy">energy</a> open data. Bath has a <a href="https://data.bathhacked.org/">similar datastore</a>.</p>
 
-        <p>
-          <a href="http://www.gridwatch.templar.co.uk/">Dashboards</a> are
-          always neat!
-        </p>
+<p><a href="http://www.gridwatch.templar.co.uk/">Dashboards</a> are always neat!</p>
 
-        <p>
-          <img
-            src="/assets/images/contrib/events/2017-02-27-hackathon/bristol-open-data.png"
-            alt="Bristol Open Data portal"
-          />
-        </p>
+<p><img src="/assets/images/contrib/events/2017-02-27-hackathon/bristol-open-data.png" alt="Bristol Open Data portal" /></p>
 
-        <h2 id="more-ideas">More ideas</h2>
+<h2 id="more-ideas">More ideas</h2>
 
-        <h3 id="open-source-contributions">
-          <strong>Open-source</strong> contributions
-        </h3>
+<h3 id="open-source-contributions"><strong>Open-source</strong> contributions</h3>
 
-        <p>
-          Seen a library or project above that you think could use some help?
-          Why not spend your 24 hours working on a patch to contribute back to
-          the community. The same goes for any other open source project that
-          you think might be relevant!
-        </p>
+<p>Seen a library or project above that you think could use some help? Why not spend your 24 hours working on a patch to contribute back to the community. The same goes for any other open source project that you think might be relevant!</p>
 
-        <h3 id="educational-application">
-          <strong>Educational</strong> application
-        </h3>
+<h3 id="educational-application"><strong>Educational</strong> application</h3>
 
-        <p>
-          Build an app that educates people on some aspect of the environment.
-          Try targeting a platform you haven’t used before. Qt on desktop? React
-          Native on mobile? Elm in the browser?
-        </p>
-      </article>
-    </section>
+<p>Build an app that educates people on some aspect of the environment. Try targeting a platform you haven’t used before. Qt on desktop? React Native on mobile? Elm in the browser?</p>
+
+  </article>
+</section>
+
 
     <section class="page-section sponsorsec">
-      <h1 class="sponsors-title">
-        <a href="/pages/sponsors">Proudly sponsored by</a>
-      </h1>
-      <div class="sponsors">
-        <a
-          href="https://www.publicissapient.com/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Publicis Sapient"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/publicis_sapient.svg"
-            alt="Publicis Sapient"
-            width="130"
-            height="170"
-          />
-        </a>
+    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
+    <div class="sponsors">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+            
+<a
+  href="https://www.publicissapient.com/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Publicis Sapient"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/publicis_sapient.svg"
+    alt="Publicis Sapient"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.qualcomm.com/home"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Qualcomm"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/qualcomm.png"
-            alt="Qualcomm"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+          
+            
+<a
+  href="https://www.qualcomm.com/home"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qualcomm"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qualcomm.png"
+    alt="Qualcomm"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.qube-rt.com/careers/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Qube Research & Technologies"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/qube-rt.svg"
-            alt="Qube Research & Technologies"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+          
+            
+<a
+  href="https://www.qube-rt.com/careers/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qube Research & Technologies"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qube-rt.svg"
+    alt="Qube Research & Technologies"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.xmos.ai/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="XMOS"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/xmos.svg"
-            alt="XMOS"
-            width="130"
-            height="170"
-          />
-        </a>
-      </div>
-      <div class="sponsors__action_item">
-        <a href="/pages/sponsors">Learn more about working with us.</a>
-      </div>
-    </section>
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+            
+<a
+  href="https://www.xmos.ai/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="XMOS"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/xmos.svg"
+    alt="XMOS"
+    width="130"
+    height="170"
+  />
+</a>
+
+          
+        
+      
+    </div>
+    <div class="sponsors__action_item">
+      <a href="/pages/sponsors">Learn more about working with us.</a>
+    </div>
+</section>
+
 
     <footer class="page-footer">
-      <span class="page-footer__text"
-        >&copy; University of Bristol Computer Science Society</span
-      >
-      <nav class="page-footer__menu">
-        <ul>
-          <li>
-            <a class="page-link" href="/about/">About</a>
-          </li>
+  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
+  <nav class="page-footer__menu">
+    <ul>
+    
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/about/">About</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/contact/">Contact</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/events/index.html">Events</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/jobs/">Jobs</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/sponsors">Sponsor us</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/tutorials/">Tutorials</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/wellbeing/">Wellbeing</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    </ul>
+  </nav>
+</footer>
 
-          <li>
-            <a class="page-link" href="/contact/">Contact</a>
-          </li>
 
-          <li>
-            <a class="page-link" href="/events/index.html">Events</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/jobs/">Jobs</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/sponsors">Sponsor us</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/tutorials/">Tutorials</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/wellbeing/">Wellbeing</a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
   </body>
+
 </html>
