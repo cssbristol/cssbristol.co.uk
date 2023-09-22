@@ -2,7 +2,7 @@
 layout: page-wide
 title: Tutorials
 permalink: /tutorials/
-show-in-nav: true
+show-in-nav: false
 ---
 
 # Tutorials

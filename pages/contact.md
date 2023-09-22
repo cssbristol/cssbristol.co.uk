@@ -2,7 +2,7 @@
 layout: page-wide
 title: Contact
 permalink: /contact/
-show-in-nav: true
+show-in-nav: false
 ---
 
 # Want to get in touch?

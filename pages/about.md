@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-show-in-nav: true
+show-in-nav: false
 ---
 
 # Hi there, we're CSS Bristol!
