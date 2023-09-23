@@ -2,7 +2,7 @@
 layout: page-wide
 title: Tutorials
 permalink: /tutorials/
-show-in-nav: false
+show-in-nav: true
 ---
 
 # Tutorials
@@ -24,17 +24,3 @@ show-in-nav: false
     {% endfor %}
   </div>
 </div>
-
-**I can't believe it, a riddle? Here? With an egg at the end of it? Ridiculous.**
-
-*If you throw me out the window,*
-
-*You'll leave a grieving wife.*
-
-*But leave me in the middle of the door,*
-
-*And you might just save a life.*
-
-*What am I?*
-
-**The riddle's correct answer is a link to the egg:** cssbristol.co.uk/**?**

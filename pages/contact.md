@@ -2,7 +2,7 @@
 layout: page-wide
 title: Contact
 permalink: /contact/
-show-in-nav: false
+show-in-nav: true
 ---
 
 # Want to get in touch?
@@ -21,11 +21,7 @@ Perhaps you're looking for a [previous committee member](/halloffame)?
 {% include committee.html data-file=committee.members %}
 
 # Course Reps
-
-<div>
-A list of your <span style="color:#ffffff">vxjwlrai</span> course reps can be found on the <a href="https://www.bristolsu.org.uk/course_rep">SU webpage</a> <em>(Requires SSO login)</em>
-</div>
-
+A list of your course reps can be found on the [SU webpage](https://www.bristolsu.org.uk/course_rep) *(Requires SSO login)*
 {% comment %}
 # Course Reps 2018-19
 

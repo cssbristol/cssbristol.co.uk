@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-show-in-nav: false
+show-in-nav: true
 ---
 
 # Hi there, we're CSS Bristol!
@@ -31,13 +31,3 @@ Take a look at the [minutes](https://drive.google.com/drive/folders/11IjgcZ8T9o9
 * [CSS FB Code of Conduct](https://drive.google.com/open?id=0Bw8lYTnOhFe7ZlFGQk9DSnVoeFE)
 * [CSS Assets](/assets_overview)
 * [Old CSS site](/old)
-
-
-
-
-
-**Oh, what's this? A riddle? With an easter egg at the end of it?**
-
-*The more you take, the more you leave behind. "What am I?"*
-
-**The riddle's correct answer is a link to the egg:** cssbristol.co.uk/**?????????**
