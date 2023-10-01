@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     form.addEventListener("submit", function (event) {
         event.preventDefault();
+
         const elements = event.target.elements;
         const name = elements.name.value;
         const companyName = elements.companyName.value;
@@ -44,6 +45,8 @@ document.addEventListener("DOMContentLoaded", function () {
             } else {
                 formFeedback.innerHTML = "<div>An unexpected error occurred. Please contact us by email instead.</div>";
             }
+        }).catch(function (e) {
+            formFeedback.innerHTML = "<div>An unexpected error occurred. Please contact us by email instead.</div>";
         });
 
         return false;
