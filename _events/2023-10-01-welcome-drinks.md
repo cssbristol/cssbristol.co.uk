@@ -16,6 +16,4 @@ category:
 
 Have a relaxing evening with your course mates and take advantage of the bar tab for the CSS welcome drinks!
 
-You must have signed up to CSS to use the bar tab - membership is free!
-
-Sign up at the [CSS SU page](https://www.bristolsu.org.uk/groups/computer-science-society-22c3).
+You must have signed up on the [CSS SU page](https://www.bristolsu.org.uk/groups/computer-science-society-22c3) to use the bar tab - membership is free!
