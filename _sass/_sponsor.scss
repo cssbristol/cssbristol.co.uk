@@ -341,7 +341,7 @@
 
     .contact {
         margin-top: 12em;
-        // background-image: url('/assets/images/contrib/sponsorship-page/horse.svg');
+        background-image: url('/assets/images/contrib/sponsorship-page/horse.svg');
         background-repeat: no-repeat;
         background-size: contain;
         background-position: right bottom;
@@ -467,6 +467,13 @@
 }
 
 .contact-form {
+    #sponsorship-form-feedback > div {
+        margin-top: 2em;
+        font-weight: bold;
+        background: linear-gradient(to left, $dark-pink, lighten($dark-purple, 10%));
+        color: #fff;
+        padding: 1em;
+    }
     label {
         display: block;
         font-weight: 700;

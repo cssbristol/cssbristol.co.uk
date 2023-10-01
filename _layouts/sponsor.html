@@ -163,25 +163,20 @@ layout: bare
         <section class="section contact" id="contact">
             <div class="container narrow wrapper">
                 <h2 class="heading">Get in touch with us</h2>
-                <p>If you'd like to work with us, please get in touch with us by emailing
-                    <a href="mailto:president@cssbristol.co.uk">president@cssbristol.co.uk</a> or
-                    <a href="mailto:vice-president@cssbristol.co.uk">vice-president@cssbristol.co.uk</a>.
-                </p>
-
-
-                {% comment %}
-                ================================================
-                UNCOMMENT THIS WHEN BACK-END FORM HANDLING ADDED
-                remember to also uncomment horse background
-                ================================================
-                <p>Drop us a note by filling in the form below. Alternatively, you can send an email to
-                    <a href="mailto:president@cssbristol.co.uk">president@cssbristol.co.uk</a> or
-                    <a href="mailto:vice-president@cssbristol.co.uk">vice-president@cssbristol.co.uk</a>.
+                <p>Drop us a note by filling in the form below. Alternatively, you can email to
+                    <a href="mailto:sponsorship@cssbristol.co.uk">sponsorship@cssbristol.co.uk</a>
                 </p>
 
                 <p>Thank you for your interest!</p>
+                <noscript>
+                    The contact form requires Javascript to be enabled. Please contact us by email instead.
+                    <style>
+                        #sponsorship-contact-form {
+                            display: none;
+                        }
+                    </style>
+                </noscript>
                 {% include contact-form.html %}
-                {% endcomment %}
             </div>
         </section>
     </div>
@@ -189,5 +184,7 @@ layout: bare
 
   {% include sponsors.html %}
   <script src="/assets/scripts/sponsorshop-slider.js"></script>
+  <script src="/assets/scripts/contact-form-submit.js"></script>
+
     {% include footer.html %}
   

@@ -1,23 +1,23 @@
-<form class="contact-form">
+<form class="contact-form" id="sponsorship-contact-form">
     <div class="row">
         <div class="input-group half-cols left-col" id="name-group">
             <label for="name">Name *</label>
-            <input type="text" placeholder="Your name" id="name" name="name" />
+            <input type="text" placeholder="Your name" id="name" name="name" required />
         </div>
         <div class="input-group half-cols right-col" id="position-group">
             <label for="position">Position *</label>
-            <input type="text" placeholder="E.g. 'Campus recruiter'" id="position" name="position" />
+            <input type="text" placeholder="E.g. 'Campus recruiter'" id="position" name="jobPosition" required />
         </div>
     </div>
     <div class="row">
         <div class="input-group two-cols left-col" id="company-group">
             <label for="company">Company name *</label>
-            <input type="text" placeholder="Your company name" id="company" name="company" />
+            <input type="text" placeholder="Your company name" id="company" name="companyName" required />
         </div>
         <div class="input-group two-cols right-col" id="budget-group">
             <label for="budget">Budget *</label>
-            <select name="budget" id="budget">
-                <option disabled selected>Select from dropdown</option>
+            <select name="budget" id="budget" required>
+                <option disabled selected value="">Select from dropdown</option>
                 <option>Less than £200</option>
                 <option>£200-499</option>
                 <option>£500-999</option>
@@ -32,31 +32,33 @@
     <div class="row">
         <div class="input-group left-col" id="email-group">
             <label for="email">Email address *</label>
-            <input type="email" placeholder="example@example.com" id="email" name="email" />
+            <input type="email" placeholder="example@example.com" id="email" name="emailAddr" required/>
         </div>
         <div class="input-group left-col" id="tel-group">
             <label for="tel">Telephone</label>
-            <input type="tel" placeholder="(+44) ##### #####" id="tel" name="tel" />
+            <input type="tel" placeholder="(+44) ##### #####" id="tel" name="telNum" />
         </div>
     </div>
     <div class="row">
         <div class="input-group left-col" id="interest-group">
             <label for="interest">I'm interested in</label>
-            <select name="interest" id="interest">
-                <option disabled selected>Select from dropdown</option>
+            <select name="interestedIn" id="interest" required>
+                <option disabled selected value="">Select from dropdown</option>
                 <option>A year-long sponsorship</option>
                 <option>A tech-talk</option>
                 <option>Hackathon or Game-jam</option>
                 <option>Custom event</option>
                 <option>Outreach</option>
+                <option>Other (please specify in message below)</option>
             </select>
         </div>
     </div>
     <div class="row">
         <div class="input-group left-col" id="message-group">
             <label for="message">Message *</label>
-            <textarea rows="12" cols="80" id="message" name="message"></textarea>
+            <textarea rows="12" cols="80" id="message" name="message" required></textarea>
         </div>
     </div>
     <input type="submit" value="Send" class="btn dark" />
+    <div id="sponsorship-form-feedback"></div>
 </form>
