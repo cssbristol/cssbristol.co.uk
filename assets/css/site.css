@@ -930,7 +930,7 @@ body.agm-event .agm-btn:hover:after { transform: scaleX(1); }
 
 .page-section.sponsor #get-involved .events h5 { font-weight: 700; margin: 1.5em auto 0; }
 
-.page-section.sponsor .contact { margin-top: 12em; background-repeat: no-repeat; background-size: contain; background-position: right bottom; }
+.page-section.sponsor .contact { margin-top: 12em; background-image: url("/assets/images/contrib/sponsorship-page/horse.svg"); background-repeat: no-repeat; background-size: contain; background-position: right bottom; }
 
 @media screen and (max-width: 900px) { .page-section.sponsor .contact { margin-top: 6em; } }
 
@@ -977,6 +977,8 @@ body.agm-event .agm-btn:hover:after { transform: scaleX(1); }
 .sponsorship-cards .card .premium h4 .fas { border-radius: 50%; background: #fff; color: #C63B63; vertical-align: middle; font-size: 0.6em; padding: 0.2em; margin-left: 0.5em; }
 
 .sponsorship-cards .sponsor-cta, .page-section.sponsor .sponsorship-cards a.btn.sponsor-cta { margin: 3em auto 0; }
+
+.contact-form #sponsorship-form-feedback > div { margin-top: 2em; font-weight: bold; background: linear-gradient(to left, #D30055, #550053); color: #fff; padding: 1em; }
 
 .contact-form label { display: block; font-weight: 700; font-size: 1em; margin: 0 auto 0.5em; }
 
