@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("sponsorship-contact-form");
     const formFeedback = document.getElementById("sponsorship-form-feedback");
+    console.log("SUBMITTED");
     if(!form) return false;
 
     form.addEventListener("submit", function (event) {
