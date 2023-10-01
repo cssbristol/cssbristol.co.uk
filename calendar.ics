@@ -4203,6 +4203,22 @@ DESCRIPTION:Come along and join the Computer Science Societ...
 LOCATION:1.11 Merchant Ventures Building
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2023-10-01-welcome-drinks
+ @cssbristol.co.uk
+DTSTAMP:20231005T200000
+DTSTART:20231005T200000
+DTEND:20231005T235900
+LAST-MODIFIED:20231001T134600
+URL:https://www.cssbristol.co.uk
+ /events/2023-10-01-welcome-drinks/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/2023-10-01-welcome-drinks.jpg
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Welcome Drinks
+DESCRIPTION:Have a relaxing evening with your course mates ...
+LOCATION:Steam
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2023-09-06-qrt-electronic-trading
  @cssbristol.co.uk
 DTSTAMP:20231010T180000
