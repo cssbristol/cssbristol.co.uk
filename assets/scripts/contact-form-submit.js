@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 formFeedback.innerHTML = "<div>An unexpected error occurred. Please contact us by email instead.</div>";
             } else {
                 formFeedback.innerHTML = "<div>Your query has been passed on to our committee, who aim to reply as soon as possible.</div>";
-                form.target.reset();
+                form.reset();
             }
         }).catch(function (e) {
             console.error(e);
