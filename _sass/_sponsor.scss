@@ -467,7 +467,7 @@
 }
 
 .contact-form {
-    #sponsorship-form-feedback {
+    #sponsorship-form-feedback > div {
         font-weight: bold;
         background: linear-gradient(to left, $dark-pink, lighten($dark-purple, 10%));
         color: #fff;

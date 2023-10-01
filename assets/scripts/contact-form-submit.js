@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const requiredFields = [name, companyName, jobPosition, budget, emailAddr, telNum, interestedIn, message];
         if(requiredFields.find(val => !val)) {
-            formFeedback.textContent = "Please fill in all required fields.";
+            formFeedback.innerHTML = "<div>Please fill in all required fields.</div>";
             return false;
         }
 
@@ -40,9 +40,9 @@ document.addEventListener("DOMContentLoaded", function () {
             }),
         }).then(function(resp) {
             if(resp.status >= 200 || resp.status < 300) {
-                formFeedback.textContent = "Your query has been passed on to our committee, who aim to reply as soon as possible";
+                formFeedback.innerHTML = "<div>Your query has been passed on to our committee, who aim to reply as soon as possible</div>";
             } else {
-                formFeedback.textContent = "An unexpected error occurred. Please contact us by email instead.";
+                formFeedback.innerHTML = "<div>An unexpected error occurred. Please contact us by email instead.</div>";
             }
         });
 
