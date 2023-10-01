@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("sponsorship-contact-form");
     const formFeedback = document.getElementById("sponsorship-form-feedback");
-    if(!form) return;
+    if(!form) return false;
 
     form.addEventListener("submit", function (event) {
         event.preventDefault();
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const requiredFields = [name, companyName, jobPosition, budget, emailAddr, telNum, interestedIn, message];
         if(requiredFields.find(val => !val)) {
             formFeedback.textContent = "Please fill in all required fields.";
-            return;
+            return false;
         }
 
         // uses MS PowerAutomate workflow for back-end processing
@@ -45,5 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 formFeedback.textContent = "An unexpected error occurred. Please contact us by email instead.";
             }
         });
+
+        return false;
     });
 });
