@@ -42,12 +42,14 @@ document.addEventListener("DOMContentLoaded", function () {
             }),
         }).then(function(resp) {
             if(resp.status >= 200 || resp.status < 300) {
+                console.error(`${resp.status} response code returned.`)
                 formFeedback.innerHTML = "<div>Your query has been passed on to our committee, who aim to reply as soon as possible.</div>";
                 form.target.reset();
             } else {
                 formFeedback.innerHTML = "<div>An unexpected error occurred. Please contact us by email instead.</div>";
             }
         }).catch(function (e) {
+            console.error(e);
             formFeedback.innerHTML = "<div>An unexpected error occurred. Please contact us by email instead.</div>";
         });
 
