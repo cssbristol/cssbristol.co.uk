@@ -41,12 +41,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 message,
             }),
         }).then(function(resp) {
+            // if response isn't 2xx
             if(resp.status < 200 && resp.status > 299) {
                 console.error(`${resp.status} response code returned.`)
+                formFeedback.innerHTML = "<div>An unexpected error occurred. Please contact us by email instead.</div>";
+            } else {
                 formFeedback.innerHTML = "<div>Your query has been passed on to our committee, who aim to reply as soon as possible.</div>";
                 form.target.reset();
-            } else {
-                formFeedback.innerHTML = "<div>An unexpected error occurred. Please contact us by email instead.</div>";
             }
         }).catch(function (e) {
             console.error(e);
