@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 message,
             }),
         }).then(function(resp) {
-            if(resp.status >= 200 || resp.status < 300) {
+            if(resp.status < 200 && resp.status > 299) {
                 console.error(`${resp.status} response code returned.`)
                 formFeedback.innerHTML = "<div>Your query has been passed on to our committee, who aim to reply as soon as possible.</div>";
                 form.target.reset();
