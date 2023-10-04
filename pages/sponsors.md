@@ -13,10 +13,6 @@ intro:
       theme: dark
       location: "#get-involved"
       file: false
-    - text: Download brochure
-      theme: light
-      location: "/assets/files/sponsorship-brochure-2023-24.pdf"
-      file: true
 
 past-sponsors:
   - number: 1
