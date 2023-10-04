@@ -15,7 +15,7 @@ intro:
       file: false
     - text: Download brochure
       theme: light
-      location: "/assets/files/sponsorship-brochure-2022.pdf"
+      location: "/assets/files/sponsorship-brochure-2023-24.pdf"
       file: true
 
 past-sponsors:
