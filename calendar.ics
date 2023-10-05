@@ -4275,14 +4275,14 @@ UID:events-2023-09-30-publicis-sapiens-talk
 DTSTAMP:20231019T180000
 DTSTART:20231019T180000
 DTEND:20231019T190000
-LAST-MODIFIED:20231002T131000
+LAST-MODIFIED:20231005T142000
 URL:https://www.cssbristol.co.uk
  /events/2023-09-30-publicis-sapiens-talk/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:CodeAid – Digitalising the Non-Digital
-DESCRIPTION:DETAILS TO BE ANNOUNCED
+DESCRIPTION:A Publicis Sapient initiative to support charit...
 LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
