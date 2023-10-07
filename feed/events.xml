@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://cssbristol.co.uk/feed/events.xml" rel="self" type="application/atom+xml" /><link href="https://cssbristol.co.uk/" rel="alternate" type="text/html" /><updated>2023-10-07T19:13:55+01:00</updated><id>https://cssbristol.co.uk/feed/events.xml</id><title type="html">CSS Bristol | Events</title><subtitle>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</subtitle><entry><title type="html">CSS GameJam 2023</title><link href="https://cssbristol.co.uk/events/2023-07-30-gamejam/" rel="alternate" type="text/html" title="CSS GameJam 2023" /><published>2023-10-29T09:00:00+00:00</published><updated>2023-10-07T13:49:31+01:00</updated><id>https://cssbristol.co.uk/events/gamejam</id><content type="html" xml:base="https://cssbristol.co.uk/events/2023-07-30-gamejam/">&lt;h2 id=&quot;the-early-bird-gets-the-worm&quot;&gt;The early bird gets the worm…&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://cssbristol.co.uk/feed/events.xml" rel="self" type="application/atom+xml" /><link href="https://cssbristol.co.uk/" rel="alternate" type="text/html" /><updated>2023-10-07T21:30:04+01:00</updated><id>https://cssbristol.co.uk/feed/events.xml</id><title type="html">CSS Bristol | Events</title><subtitle>CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.</subtitle><entry><title type="html">CSS GameJam 2023</title><link href="https://cssbristol.co.uk/events/2023-07-30-gamejam/" rel="alternate" type="text/html" title="CSS GameJam 2023" /><published>2023-10-29T09:00:00+00:00</published><updated>2023-10-07T13:49:31+01:00</updated><id>https://cssbristol.co.uk/events/gamejam</id><content type="html" xml:base="https://cssbristol.co.uk/events/2023-07-30-gamejam/">&lt;h2 id=&quot;the-early-bird-gets-the-worm&quot;&gt;The early bird gets the worm…&lt;/h2&gt;
 &lt;p&gt;but you were so early that I haven’t even
 opened the can of worms yet.&lt;/p&gt;
 
@@ -14,7 +14,38 @@ opened the can of worms yet.&lt;/p&gt;
 
 &lt;p&gt;Want to have a crack at the CSS GameJam later this month?&lt;/p&gt;
 
-&lt;p&gt;Look no further, and come on down to our beginner friendly Unity workshop!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Workshop&quot;]" /><summary type="html">Don’t have any experience with game development?</summary></entry><entry><title type="html">Scavenger Hunt</title><link href="https://cssbristol.co.uk/events/2023-07-30-scavenger-hunt/" rel="alternate" type="text/html" title="Scavenger Hunt" /><published>2023-10-11T14:00:00+01:00</published><updated>2023-10-04T12:00:18+01:00</updated><id>https://cssbristol.co.uk/events/scavenger-hunt</id><content type="html" xml:base="https://cssbristol.co.uk/events/2023-07-30-scavenger-hunt/">&lt;p&gt;Join us for an action packed afternoon like no other with an opportunity to explore the city and a chance to win some prizes!&lt;/p&gt;
+&lt;p&gt;Look no further, and come on down to our beginner friendly Unity workshop!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Workshop&quot;]" /><summary type="html">Don’t have any experience with game development?</summary></entry><entry><title type="html">CSS EGM 2023</title><link href="https://cssbristol.co.uk/events/2023-10-13-egm/" rel="alternate" type="text/html" title="CSS EGM 2023" /><published>2023-10-13T18:00:00+01:00</published><updated>2023-10-07T21:27:46+01:00</updated><id>https://cssbristol.co.uk/events/egm</id><content type="html" xml:base="https://cssbristol.co.uk/events/2023-10-13-egm/">&lt;p&gt;Do you love pizza? What about democracy? If the answer is yes then come to our annual EGM!&lt;/p&gt;
+
+&lt;h2 id=&quot;run-for-election&quot;&gt;Run for election&lt;/h2&gt;
+
+&lt;h3 id=&quot;first-year--postgrad-reps&quot;&gt;&lt;strong&gt;First year / Postgrad Reps&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;The reps liase between their cohort and CSS. Help us act on feedback to make CSS events work for everyone!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Become the &lt;a href=&quot;https://forms.office.com/e/XfDyyUfhSp&quot;&gt;first year rep&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Become the &lt;a href=&quot;https://forms.office.com/e/XfDyyUfhSp&quot;&gt;postgrad rep&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;press-officer&quot;&gt;&lt;strong&gt;Press Officer&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Press make posters and graphics for our website and social media. If you like digital design, consider running!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Become a &lt;a href=&quot;https://forms.office.com/e/XfDyyUfhSp&quot;&gt;press officer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;submit-a-motion&quot;&gt;Submit a motion&lt;/h2&gt;
+
+&lt;p&gt;Does the ambition lie in you to change the holy laws of the CSS constitution?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Submit a &lt;a href=&quot;https://forms.office.com/e/GmaZT3NYYn&quot;&gt;motion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;join-for-the-free-pizza&quot;&gt;Join for the free pizza&lt;/h2&gt;
+
+&lt;p&gt;No CSS event is complete without pizza. We will have pizza at the EGM; all you have to do is vote :D&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Social&quot;]" /><summary type="html">Do you love pizza? What about democracy? If the answer is yes then come to our annual EGM!</summary></entry><entry><title type="html">Scavenger Hunt</title><link href="https://cssbristol.co.uk/events/2023-07-30-scavenger-hunt/" rel="alternate" type="text/html" title="Scavenger Hunt" /><published>2023-10-11T14:00:00+01:00</published><updated>2023-10-04T12:00:18+01:00</updated><id>https://cssbristol.co.uk/events/scavenger-hunt</id><content type="html" xml:base="https://cssbristol.co.uk/events/2023-07-30-scavenger-hunt/">&lt;p&gt;Join us for an action packed afternoon like no other with an opportunity to explore the city and a chance to win some prizes!&lt;/p&gt;
 
 &lt;h2 id=&quot;sign-up-link&quot;&gt;&lt;a href=&quot;https://forms.office.com/e/yvPfpp6vZm&quot;&gt;SIGN UP LINK&lt;/a&gt;&lt;/h2&gt;</content><author><name></name></author><category term="[&quot;Social&quot;, &quot;Trip&quot;]" /><summary type="html">Join us for an action packed afternoon like no other with an opportunity to explore the city and a chance to win some prizes!</summary></entry><entry><title type="html">A Window Into Electronic Trading</title><link href="https://cssbristol.co.uk/events/2023-09-06-qrt-electronic-trading/" rel="alternate" type="text/html" title="A Window Into Electronic Trading" /><published>2023-10-10T18:00:00+01:00</published><updated>2023-09-06T19:18:20+01:00</updated><id>https://cssbristol.co.uk/events/qrt-electronic-trading</id><content type="html" xml:base="https://cssbristol.co.uk/events/2023-09-06-qrt-electronic-trading/">&lt;h1 id=&quot;details-to-be-announced&quot;&gt;Details to be announced!&lt;/h1&gt;
 
@@ -61,36 +92,4 @@ so we know how many people are going to show up.&lt;/p&gt;</content><author><nam
 
 &lt;p&gt;Want to make a change to how the society runs? Put forward a motion to change our &lt;a href=&quot;https://cssbristol.co.uk/constitution&quot;&gt;constitution&lt;/a&gt;. Constitutional changes must receive a two-thirds majority. Non-constitutional motions must receive a majority.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://forms.office.com/e/FahWRwFCBX&quot;&gt;Submit a motion!&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Careers&quot;]" /><summary type="html">It’s that time of year again! We’ll be electing thirteen new committee members. You can nominate yourself for multiple positions, as shown below:</summary></entry><entry><title type="html">REACTivate your skills with Publicis Sapient!</title><link href="https://cssbristol.co.uk/events/2023-04-26-publicis-sapient/" rel="alternate" type="text/html" title="REACTivate your skills with Publicis Sapient!" /><published>2023-04-26T13:30:00+01:00</published><updated>2023-04-25T13:47:03+01:00</updated><id>https://cssbristol.co.uk/events/publicis-sapient</id><content type="html" xml:base="https://cssbristol.co.uk/events/2023-04-26-publicis-sapient/">&lt;p&gt;Discover the dynamic capabilities of React, one of the most sought-after front-end frameworks, powering leading websites such as Facebook, Twitter, and TripAdvisor, and even fuelling native app development! Join us for an engaging, hands-on workshop where esteemed industry professionals from Publicis Sapient will guide you through the captivating realm of React. Immerse yourself in this interactive learning experience to unravel the secrets behind React’s popularity and versatility, equipping you with the skills needed to excel in the ever-evolving world of web development. Don’t miss this golden opportunity to learn, explore, and create with React!&lt;/p&gt;
-
-&lt;h2 id=&quot;about-publicis-sapient&quot;&gt;About Publicis Sapient&lt;/h2&gt;
-
-&lt;p&gt;A Digital Consultancy for a Digital Age. We fuse strategy, experience design &amp;amp; engineering to digitally transform world leading brands.&lt;/p&gt;
-
-&lt;p&gt;Publicis Sapient is a global leader in digital business transformation, combining strategy, technology, and data-driven insights to create innovative, customer-centric solutions for a rapidly evolving digital world. With a strong focus on industries such as retail, financial services, energy, and healthcare, Publicis Sapient has collaborated with prominent clients such as Lloyds, Asda, Nissan and many more, helping them navigate and thrive in the digital landscape. As a pioneering force in the realms of digital marketing, artificial intelligence, and user experience, Publicis Sapient fosters a culture of continuous learning and growth.&lt;/p&gt;
-
-&lt;p&gt;For those eager to launch their careers in a cutting-edge environment, Publicis Sapient offers exceptional internship and graduate opportunities. As a part of their diverse and talented team, you’ll have the chance to work on challenging projects, develop your skills, and make a tangible impact in the digital world. Don’t miss the chance to explore a rewarding career path with Publicis Sapient, where you’ll be empowered to innovate, collaborate, and drive the future of digital transformation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Be sure to mark your calendars, as applications for Publicis Sapient’s job openings, internships, and Graduate roles open in September.&lt;/strong&gt; Don’t miss the opportunity to embark on a fulfilling career journey with a global leader in digital transformation, where you can hone your skills, make an impact, and contribute to shaping the future of technology.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/contrib/events/2023-04-26-publicis-sapient-team.png&quot; alt=&quot;Publicis Sapient Team&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;who-is-this-workshop-for&quot;&gt;Who is this workshop for?&lt;/h2&gt;
-&lt;p&gt;Those with some programming experience and an interest in upskilling in the front end technology of React. Don’t know any React? Come along and learn from the start.&lt;/p&gt;
-
-&lt;h2 id=&quot;will-i-need-to-install-any-software-in-advance&quot;&gt;Will I need to install any software in advance?&lt;/h2&gt;
-&lt;p&gt;You won’t need any software downloaded in advance we will be using an online code editor.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-can-i-expect-from-publicis-sapient&quot;&gt;What can I expect from Publicis Sapient?&lt;/h2&gt;
-
-&lt;p&gt;During this session we will tell you some more about the different opportunities, how you can be successful and the career progression on offer. We will have time for a Q&amp;amp;A section with some of our current graduates and previous interns that will be returning onto our graduate programme.&lt;/p&gt;
-
-&lt;p&gt;You can find out more from our Interns and Grads here:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ofrf0K1gT3A&quot;&gt;https://www.youtube.com/watch?v=ofrf0K1gT3A&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://careers.publicissapient.com/life-at-ps/blog/my-early-careers-experience&quot;&gt;https://careers.publicissapient.com/life-at-ps/blog/my-early-careers-experience&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://careers.publicissapient.com/life-at-ps/blog/joining-a-program-where-everyone-can-thrive&quot;&gt;https://careers.publicissapient.com/life-at-ps/blog/joining-a-program-where-everyone-can-thrive&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://careers.publicissapient.com/life-at-ps/blog/medicine-to-software-engineering&quot;&gt;https://careers.publicissapient.com/life-at-ps/blog/medicine-to-software-engineering&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://careers.publicissapient.com/life-at-ps/blog/finding-my-support-system&quot;&gt;https://careers.publicissapient.com/life-at-ps/blog/finding-my-support-system&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="[&quot;Networking&quot;, &quot;Workshop&quot;]" /><summary type="html">Discover the dynamic capabilities of React, one of the most sought-after front-end frameworks, powering leading websites such as Facebook, Twitter, and TripAdvisor, and even fuelling native app development! Join us for an engaging, hands-on workshop where esteemed industry professionals from Publicis Sapient will guide you through the captivating realm of React. Immerse yourself in this interactive learning experience to unravel the secrets behind React’s popularity and versatility, equipping you with the skills needed to excel in the ever-evolving world of web development. Don’t miss this golden opportunity to learn, explore, and create with React!</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://forms.office.com/e/FahWRwFCBX&quot;&gt;Submit a motion!&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Careers&quot;]" /><summary type="html">It’s that time of year again! We’ll be electing thirteen new committee members. You can nominate yourself for multiple positions, as shown below:</summary></entry></feed>
