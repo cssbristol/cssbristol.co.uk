@@ -4270,6 +4270,22 @@ DESCRIPTION:Join us for an action packed afternoon like no ...
 LOCATION:Merchant Ventures Building
 END:VEVENT
 BEGIN:VEVENT
+UID:events-2023-10-17-unity-workshop
+ @cssbristol.co.uk
+DTSTAMP:20231017T180000
+DTSTART:20231017T180000
+DTEND:20231017T200000
+LAST-MODIFIED:20231007T134900
+URL:https://www.cssbristol.co.uk
+ /events/2023-10-17-unity-workshop/
+IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
+ images/contrib/events/
+ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
+SUMMARY:Unity Game Engine Workshop
+DESCRIPTION:Don’t have any experience with game development?
+LOCATION:MVB 1.08 PC
+END:VEVENT
+BEGIN:VEVENT
 UID:events-2023-09-30-publicis-sapiens-talk
  @cssbristol.co.uk
 DTSTAMP:20231019T180000
@@ -4288,10 +4304,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:events-2023-07-30-gamejam
  @cssbristol.co.uk
-DTSTAMP:20231029T080000
-DTSTART:20231029T080000
+DTSTAMP:20231029T090000
+DTSTART:20231029T090000
 DTEND:20231030T170000
-LAST-MODIFIED:20231004T130200
+LAST-MODIFIED:20231007T134900
 URL:https://www.cssbristol.co.uk
  /events/2023-07-30-gamejam/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
