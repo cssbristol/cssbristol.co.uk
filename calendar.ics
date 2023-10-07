@@ -3,6 +3,8 @@ VERSION:2.0
 NAME:CSS Bristol Events
 URL:https://www.cssbristol.co.uk/events
 PRODID:-//CSS Bristol//NONSGML website//EN
+X-PUBLISHED-TTL:PT1H
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-WR-TIMEZONE:Europe/London
 BEGIN:VTIMEZONE
 TZID:Europe/London
