@@ -1,5 +1,5 @@
 ---
 name: Wise
-logo: wise.svg
+logo: wise.png
 link: https://www.wise.com/
 ---
