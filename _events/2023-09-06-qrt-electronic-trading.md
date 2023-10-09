@@ -1,7 +1,8 @@
 ---
 layout: event
 published: true
-cancelled: false
+cancelled: true
+cancel_reason: Rescheduled to a later date
 title: A Window Into Electronic Trading
 date:     2023-10-10 18:00:00 +0100
 date_end: 2023-10-10 19:00:00 +0100
