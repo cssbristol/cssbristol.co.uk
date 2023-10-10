@@ -4240,23 +4240,6 @@ DESCRIPTION:Have a relaxing evening with your course mates ...
 LOCATION:Steam
 END:VEVENT
 BEGIN:VEVENT
-UID:events-2023-09-06-qrt-electronic-trading
- @cssbristol.co.uk
-DTSTAMP:20231010T180000
-DTSTART:20231010T180000
-DTEND:20231010T190000
-LAST-MODIFIED:20231009T090700
-URL:https://www.cssbristol.co.uk
- /events/2023-09-06-qrt-electronic-trading/
-IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
- images/contrib/events/2022-11-21-qrt-electronic-trading.jpg
-ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
-SUMMARY:A Window Into Electronic Trading
-DESCRIPTION:Details to be announced!
-LOCATION:
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:events-2023-07-30-scavenger-hunt
  @cssbristol.co.uk
 DTSTAMP:20231011T140000
