@@ -4192,14 +4192,14 @@ DESCRIPTION:It’s that time of year again! We’ll be electing...
 LOCATION:Senate House 2.22
 END:VEVENT
 BEGIN:VEVENT
-UID:events-2023-05-18-bbq
+UID:events-2023-06-03-bbq
  @cssbristol.co.uk
 DTSTAMP:20230603T120000
 DTSTART:20230603T120000
 DTEND:20230603T170000
-LAST-MODIFIED:20230524T125600
+LAST-MODIFIED:20231010T162900
 URL:https://www.cssbristol.co.uk
- /events/2023-05-18-bbq/
+ /events/2023-06-03-bbq/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/2018_06_02_bbq.jpg
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
@@ -4208,14 +4208,14 @@ DESCRIPTION:Yet another CSS BBQ 🙄, can’t believe we have to...
 LOCATION:Brandon Hill
 END:VEVENT
 BEGIN:VEVENT
-UID:events-2023-09-16-freshers-quiz
+UID:events-2023-09-19-freshers-quiz
  @cssbristol.co.uk
 DTSTAMP:20230919T170000
 DTSTART:20230919T170000
 DTEND:20230919T190000
-LAST-MODIFIED:20230916T155900
+LAST-MODIFIED:20231010T162900
 URL:https://www.cssbristol.co.uk
- /events/2023-09-16-freshers-quiz/
+ /events/2023-09-19-freshers-quiz/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
@@ -4224,14 +4224,14 @@ DESCRIPTION:Come along and join the Computer Science Societ...
 LOCATION:1.11 Merchant Ventures Building
 END:VEVENT
 BEGIN:VEVENT
-UID:events-2023-10-01-welcome-drinks
+UID:events-2023-10-05-welcome-drinks
  @cssbristol.co.uk
 DTSTAMP:20231005T200000
 DTSTART:20231005T200000
 DTEND:20231005T235900
-LAST-MODIFIED:20231001T161600
+LAST-MODIFIED:20231010T162900
 URL:https://www.cssbristol.co.uk
- /events/2023-10-01-welcome-drinks/
+ /events/2023-10-05-welcome-drinks/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/2023-10-01-welcome-drinks.jpg
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
@@ -4240,14 +4240,14 @@ DESCRIPTION:Have a relaxing evening with your course mates ...
 LOCATION:Steam
 END:VEVENT
 BEGIN:VEVENT
-UID:events-2023-07-30-scavenger-hunt
+UID:events-2023-10-11-scavenger-hunt
  @cssbristol.co.uk
 DTSTAMP:20231011T140000
 DTSTART:20231011T140000
 DTEND:20231011T193000
-LAST-MODIFIED:20231004T120000
+LAST-MODIFIED:20231010T162900
 URL:https://www.cssbristol.co.uk
- /events/2023-07-30-scavenger-hunt/
+ /events/2023-10-11-scavenger-hunt/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/2023-07-30-scavenger-hunt.jpg
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
@@ -4261,11 +4261,11 @@ UID:events-2023-10-13-egm
 DTSTAMP:20231013T180000
 DTSTART:20231013T180000
 DTEND:20231013T200000
-LAST-MODIFIED:20231009T093200
+LAST-MODIFIED:20231010T162200
 URL:https://www.cssbristol.co.uk
  /events/2023-10-13-egm/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
- images/contrib/events/
+ images/contrib/events/2023-10-13-egm.png
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:CSS EGM 2023
 DESCRIPTION:Do you love pizza? What about democracy? If the...
@@ -4304,14 +4304,14 @@ DESCRIPTION:Don’t have any experience with game development?
 LOCATION:MVB 1.08 PC
 END:VEVENT
 BEGIN:VEVENT
-UID:events-2023-09-30-publicis-sapiens-talk
+UID:events-2023-10-19-publicis-sapiens-talk
  @cssbristol.co.uk
 DTSTAMP:20231019T180000
 DTSTART:20231019T180000
 DTEND:20231019T190000
-LAST-MODIFIED:20231005T182100
+LAST-MODIFIED:20231010T162900
 URL:https://www.cssbristol.co.uk
- /events/2023-09-30-publicis-sapiens-talk/
+ /events/2023-10-19-publicis-sapiens-talk/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
@@ -4320,14 +4320,14 @@ DESCRIPTION:A Publicis Sapient initiative to support charit...
 LOCATION:MVB 1.11/1.11A
 END:VEVENT
 BEGIN:VEVENT
-UID:events-2023-07-30-gamejam
+UID:events-2023-10-29-gamejam
  @cssbristol.co.uk
 DTSTAMP:20231029T090000
 DTSTART:20231029T090000
 DTEND:20231030T170000
-LAST-MODIFIED:20231007T134900
+LAST-MODIFIED:20231010T162900
 URL:https://www.cssbristol.co.uk
- /events/2023-07-30-gamejam/
+ /events/2023-10-29-gamejam/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
