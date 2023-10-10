@@ -6,7 +6,7 @@ cancel_reason:
 title: CodeAid – Digitalising the Non-Digital
 date:     2023-10-19 18:00:00 +0100
 date_end: 2023-10-19 19:00:00 +0100
-banner:
+banner: 2023-10-19-publicis-sapiens-talk.png
 location: MVB 1.11/1.11A
 ticket_link:
 price: Free
