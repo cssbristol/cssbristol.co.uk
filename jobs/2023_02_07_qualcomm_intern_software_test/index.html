@@ -1,592 +1,1078 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="/assets/favicons/apple-touch-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="/assets/favicons/apple-touch-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="/assets/favicons/apple-touch-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="/assets/favicons/apple-touch-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="/assets/favicons/apple-touch-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="/assets/favicons/apple-touch-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="/assets/favicons/apple-touch-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="/assets/favicons/apple-touch-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/assets/favicons/apple-touch-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-32x32.png"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-194x194.png"
-      sizes="194x194"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-96x96.png"
-      sizes="96x96"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/android-chrome-192x192.png"
-      sizes="192x192"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicons/favicon-16x16.png"
-      sizes="16x16"
-    />
-    <link rel="manifest" href="/assets/favicons/manifest.json" />
-    <link
-      rel="mask-icon"
-      href="/assets/favicons/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#3498db" />
-    <meta
-      name="msapplication-TileImage"
-      content="/assets/favicons/mstile-144x144.png"
-    />
-    <meta name="theme-color" content="#3498db" />
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/assets/favicons/manifest.json">
+<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#3498db">
+<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+<meta name="theme-color" content="#3498db">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta
-      name="description"
-      content="Applications should be sent as soon as possible for the best chance."
-    />
+  <meta name="description" content="Applications should be sent as soon as possible for the best chance.">
 
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:title"
-      content="Software Test Internship - CSS Bristol"
-    />
-    <meta
-      property="og:description"
-      content="Applications should be sent as soon as possible for the best chance."
-    />
-    <meta
-      property="og:image"
-      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
-    />
-    <meta
-      property="og:url"
-      content="https://cssbristol.co.uk/jobs/2023_02_07_qualcomm_intern_software_test/"
-    />
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Software Test Internship - CSS Bristol">
+<meta property="og:description" content="Applications should be sent as soon as possible for the best chance.">
+<meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
+<meta property="og:url" content="https://cssbristol.co.uk/jobs/2023_02_07_qualcomm_intern_software_test/">
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Software Test Internship - CSS Bristol"
-    />
-    <meta
-      name="twitter:description"
-      content="Applications should be sent as soon as possible for the best chance."
-    />
-    <meta
-      name="twitter:image"
-      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
-    />
-    <meta name="twitter:site" content="@cssbristol" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Software Test Internship - CSS Bristol">
+<meta name="twitter:description" content="Applications should be sent as soon as possible for the best chance.">
+<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
+<meta name="twitter:site" content="@cssbristol">
+ 
 
-    <title>Software Test Internship - CSS Bristol</title>
 
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    />
+  <title>Software Test Internship - CSS Bristol</title>
 
-    <link rel="stylesheet" href="/assets/css/site.css" />
-    <link
-      rel="canonical"
-      href="https://cssbristol.co.uk/jobs/2023_02_07_qualcomm_intern_software_test/"
-    />
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
 
-    <!-- Prefetch background images so they load faster next time page loads -->
-    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
-    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+  <link rel="canonical" href="https://cssbristol.co.uk/jobs/2023_02_07_qualcomm_intern_software_test/" />
+  
 
-    <!-- Script for FontAwesome icons -->
-    <script
-      src="https://kit.fontawesome.com/5918af34b4.js"
-      crossorigin="anonymous"
-      defer
-    ></script>
+  
 
-    <!-- Script for randomly choosing header background -->
-    <script
-      type="text/javascript"
-      src="/assets/scripts/header-random-bg.js"
-      defer
-    ></script>
+  <!-- Prefetch background images so they load faster next time page loads -->
+  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
+  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
 
-    <!-- Cloudflare Web Analytics -->
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
-    ></script>
+  <!-- Script for FontAwesome icons -->
+  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
+  
+  <!-- Script for randomly choosing header background -->
+  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
+  
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
 
-    <!-- remove after a couple of months -->
-    <script>
-      const path = window.location.pathname;
-      if (path.startsWith("/events/")) {
-        const newPath = path.replaceAll("_", "-");
-        if (newPath !== path) {
-          window.location.replace(newPath);
-        }
+  <!-- remove after a couple of months -->
+  <script>
+    const path = window.location.pathname;
+    if (path.startsWith("/events/")) {
+      const newPath = path.replaceAll("_", "-");
+      if (newPath !== path) {
+        window.location.replace(newPath);
       }
-    </script>
-  </head>
+    }
+  </script>
+</head>
+
 
   <body>
+
     <header class="page-header noscript" id="page-header--random-bg">
-      <div class="bg">
-        <div id="header-random-background"></div>
-      </div>
-      <div class="navigation-items">
-        <div itemscope itemtype="http://schema.org/Organization">
-          <span style="display: none" itemprop="name"
-            >University of Bristol Computer Science Society</span
-          >
-          <a
-            aria-label="Home"
-            href="/"
-            class="page-header__logo"
-            itemprop="url"
-          >
-            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-          </a>
-        </div>
-        <nav class="page-navigation">
-          <ul class="page-navigation__links">
-            <li><a href="/about/">About</a></li>
+  <div class="bg">
+    <div id="header-random-background"></div>
+  </div>
+  <div class="navigation-items">
+    <div itemscope itemtype="http://schema.org/Organization">
+      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
+      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
+        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+      </a>
+    </div>
+    <nav class="page-navigation">
+      <ul class="page-navigation__links">
+        
+        
+        
+        <li><a href="/about/">About</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/contact/">Contact</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/events/index.html">Events</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/jobs/">Jobs</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/sponsors">Sponsor us</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/tutorials/">Tutorials</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="/wellbeing/">Wellbeing</a></li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </nav>
+  </div>
+  
+</header>
 
-            <li><a href="/contact/">Contact</a></li>
-
-            <li><a href="/events/index.html">Events</a></li>
-
-            <li><a href="/jobs/">Jobs</a></li>
-
-            <li><a href="/sponsors">Sponsor us</a></li>
-
-            <li><a href="/tutorials/">Tutorials</a></li>
-
-            <li><a href="/wellbeing/">Wellbeing</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
 
     <section class="page-section">
-      <article class="article extrawide event-page">
-        <section>
-          <h1 class="event-page__title">
-            Software Test Internship at Qualcomm
-          </h1>
-          <div class="blog-post__body">
-            <p>
-              <strong
-                >Applications should be sent as soon as possible for the best
-                chance.</strong
-              >
-            </p>
+  <article class="article extrawide event-page">
+    <section>
+      <h1 class="event-page__title">Software Test Internship at Qualcomm</h1>
+      <div class="blog-post__body"><p><strong>Applications should be sent as soon as possible for the best chance.</strong></p>
 
-            <p>
-              The role of an Intern as a tools test engineer is to test and
-              debug software produced by the software tools groups at Qualcomm
-              Cambridge. The tools software is comprised of GUI applications and
-              command line utilities across Windows, GNU Linux, Android and IOS
-              platforms. The tools groups are also responsible for some embedded
-              software.
-            </p>
+<p>The role of an Intern as a tools test engineer is to test and debug software produced by the software tools groups at Qualcomm Cambridge. The tools software is comprised of GUI applications and command line utilities across Windows, GNU Linux, Android and IOS platforms.  The tools groups are also responsible for some embedded software.</p>
 
-            <p>
-              Once adequate induction and training has been provided, the Intern
-              will assist with the manual and automatic test execution of a
-              major aspect of a project and will be responsible for delivering
-              the software test results on a timescale agreed with the group
-              leader. There will also be an opportunity to assist with the
-              support and development of the test automation and results
-              analysis infrastructure. The Intern will work with a moderate
-              level of supervision.
-            </p>
+<p>Once adequate induction and training has been provided, the Intern will assist with the manual and automatic test execution of a major aspect of a project and will be responsible for delivering the software test results on a timescale agreed with the group leader. There will also be an opportunity to assist with the support and development of the test automation and results analysis infrastructure. The Intern will work with a moderate level of supervision.</p>
 
-            <h2 id="the-responsibilities-of-this-role-include">
-              The responsibilities of this role include
-            </h2>
+<h2 id="the-responsibilities-of-this-role-include">The responsibilities of this role include</h2>
 
-            <ul>
-              <li>
-                Test software of major scale and complexity to agreed timescales
-              </li>
-              <li>
-                Find and investigate software defects and create high quality
-                defect reports
-              </li>
-              <li>Create, document and execute detailed test plans</li>
-              <li>Deliver high quality test results</li>
-              <li>
-                Create and maintain relevant documentation where necessary
-              </li>
-              <li>
-                Contribute towards the continuous development of the
-                department’s processes
-              </li>
-              <li>Produce or improve test automation development</li>
-              <li>
-                Assist with the support and development of the test automation
-                infrastructure
-              </li>
-              <li>
-                Assist with the arrangements and management of schoolwork
-                experience students.
-              </li>
-            </ul>
+<ul>
+  <li>Test software of major scale and complexity to agreed timescales</li>
+  <li>Find and investigate software defects and create high quality defect reports</li>
+  <li>Create, document and execute detailed test plans</li>
+  <li>Deliver high quality test results</li>
+  <li>Create and maintain relevant documentation where necessary</li>
+  <li>Contribute towards the continuous development of the department’s processes</li>
+  <li>Produce or improve test automation development</li>
+  <li>Assist with the support and development of the test automation infrastructure</li>
+  <li>Assist with the arrangements and management of schoolwork experience students.</li>
+</ul>
 
-            <h2 id="the-responsibilities-of-this-role-do-not-include">
-              The responsibilities of this role do not include
-            </h2>
+<h2 id="the-responsibilities-of-this-role-do-not-include">The responsibilities of this role do not include</h2>
 
-            <ul>
-              <li>
-                Financial accountability (e.g., does not involve budgeting
-                responsibility).
-              </li>
-              <li>Influence over key organizational decisions.</li>
-              <li>Role in strategic planning.</li>
-            </ul>
+<ul>
+  <li>Financial accountability (e.g., does not involve budgeting responsibility).</li>
+  <li>Influence over key organizational decisions.</li>
+  <li>Role in strategic planning.</li>
+</ul>
 
-            <h2 id="principle-duties-and-responsibilities">
-              Principle Duties and Responsibilities
-            </h2>
+<h2 id="principle-duties-and-responsibilities">Principle Duties and Responsibilities</h2>
 
-            <ul>
-              <li>
-                Collects basic information (e.g., logs, requirements) and
-                identifies common errors related to systems testing.
-              </li>
-              <li>
-                Conducts log analyses to identify where an issue has occurred.
-              </li>
-              <li>
-                Discusses testing problems with manager and peers on a regular
-                basis to maintain open communication.
-              </li>
-              <li>
-                Communicates with tech leads on a project in order to verify the
-                accuracy as well as adequate running time.
-              </li>
-              <li>
-                Detects bugs in the “system under test” and report/reproduce
-                issues using basic debugging approaches.
-              </li>
-              <li>Escalates technical issues to more senior colleagues.</li>
-              <li>
-                Collaborates with individuals inside own team to complete
-                project work
-              </li>
-            </ul>
+<ul>
+  <li>Collects basic information (e.g., logs, requirements) and identifies common errors related to systems testing.</li>
+  <li>Conducts log analyses to identify where an issue has occurred.</li>
+  <li>Discusses testing problems with manager and peers on a regular basis to maintain open communication.</li>
+  <li>Communicates with tech leads on a project in order to verify the accuracy as well as adequate running time.</li>
+  <li>Detects bugs in the “system under test” and report/reproduce issues using basic debugging approaches.</li>
+  <li>Escalates technical issues to more senior colleagues.</li>
+  <li>Collaborates with individuals inside own team to complete project work</li>
+</ul>
 
-            <h2 id="required-competencies">Required Competencies</h2>
+<h2 id="required-competencies">Required Competencies</h2>
 
-            <ul>
-              <li>
-                Time Management – The ability to manage time to meet deadlines,
-                comply to office hours, attend required meetings at specified
-                times, manage time priorities etc.
-              </li>
-              <li>
-                Analytical Skills - The ability to collect information and
-                identify fundamental patterns/trends in simple to moderately
-                complex data. This includes the ability to gather, integrate,
-                and interpret information from several sources.
-              </li>
-              <li>
-                Building Trusting Relationships - The ability to build trusting,
-                collaborative relationships and rapport with different types of
-                people and in other groups.
-              </li>
-              <li>
-                Communication - The ability to convey information clearly and
-                accurately, as well as choosing the most effective method of
-                delivery (e.g., email, phone, face-to-face). This includes using
-                a technically sound communication style both verbally and in
-                writing.
-              </li>
-              <li>
-                Creating the New and Different – be willing to comment and offer
-                suggestions for improvements to existing systems.
-              </li>
-              <li>
-                Taking Initiative – Willingness to attack work activities with
-                drive and energy, learning how these impacts on work on key
-                metric.
-              </li>
-            </ul>
+<ul>
+  <li>Time Management – The ability to manage time to meet deadlines, comply to office hours, attend required meetings at specified times, manage time priorities etc.</li>
+  <li>Analytical Skills - The ability to collect information and identify fundamental patterns/trends in simple to moderately complex data. This includes the ability to gather, integrate, and interpret information from several sources.</li>
+  <li>Building Trusting Relationships - The ability to build trusting, collaborative relationships and rapport with different types of people and in other groups.</li>
+  <li>Communication - The ability to convey information clearly and accurately, as well as choosing the most effective method of delivery (e.g., email, phone, face-to-face). This includes using a technically sound communication style both verbally and in writing.</li>
+  <li>Creating the New and Different – be willing to comment and offer suggestions for improvements to existing systems.</li>
+  <li>Taking Initiative – Willingness to attack work activities with drive and energy, learning how these impacts on work on key metric.</li>
+</ul>
 
-            <h2 id="desirable-competencies">Desirable Competencies</h2>
+<h2 id="desirable-competencies">Desirable Competencies</h2>
 
-            <ul>
-              <li>
-                Basic understanding of python and/or squish automation tool.
-              </li>
-              <li>
-                A limited understanding of PowerShell would be advantageous.
-              </li>
-            </ul>
+<ul>
+  <li>Basic understanding of python and/or squish automation tool.</li>
+  <li>A limited understanding of PowerShell would be advantageous.</li>
+</ul>
 
-            <h2 id="minimum-qualifications">Minimum Qualifications</h2>
+<h2 id="minimum-qualifications">Minimum Qualifications</h2>
 
-            <ul>
-              <li>
-                Conclude the first year of a bachelor’s degree in Engineering,
-                Information Systems, Computer Science, or related field.
-              </li>
-            </ul>
+<ul>
+  <li>Conclude the first year of a bachelor’s degree in Engineering, Information Systems, Computer Science, or related field.</li>
+</ul>
 
-            <h2 id="physical-requirements">Physical Requirements</h2>
+<h2 id="physical-requirements">Physical Requirements</h2>
 
-            <ul>
-              <li>
-                Monitors and utilizes computers and test equipment for more than
-                6 hours a day.
-              </li>
-              <li>
-                Continuous communication which includes the comprehension of
-                information with colleagues.
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section class="event-page__details">
-          <h2>The Details</h2>
-
-          <div class="event-page__details__row job-details">
-            <i
-              class="fas fa-building"
-              data-tooltip="Hiring Company"
-              aria-label="Hiring Company"
-            ></i>
-
-            <a
-              href="https://www.qualcomm.com/home"
-              target="_blank"
-              rel="noopener sponsored"
-              data-tooltip="Qualcomm"
-              class="company-logo"
-            >
-              <img
-                src="/assets/images/contrib/companies/qualcomm.png"
-                alt="Qualcomm"
-                width="130"
-                height="170"
-              />
-            </a>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-map-marker"
-              data-tooltip="Job Location"
-              aria-label="Job Location"
-            ></i>
-            <p>Cambridge, UK</p>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-user-clock"
-              data-tooltip="Employment type"
-              aria-label="Employment Type"
-            ></i>
-            <p>Summer Internship</p>
-          </div>
-
-          <div class="event-page__details__row">
-            <i
-              class="fas fa-hourglass-end"
-              data-tooltip="Apply by"
-              aria-label="Apply by"
-            ></i>
-            <p>28/02/23 23:59</p>
-          </div>
-
-          <div class="event-page__details__hosted-with">
-            <hr />
-
-            <a
-              class="btn btn--dark"
-              style="margin: 20px"
-              target="_blank"
-              href="https://qualcomm.wd5.myworkdayjobs.com/en-US/External/job/Cambridge-GBR/Software-Test-Internship--Cambridge-2023_3046347"
-            >
-              Apply Here
-            </a>
-          </div>
-        </section>
-      </article>
+<ul>
+  <li>Monitors and utilizes computers and test equipment for more than 6 hours a day.</li>
+  <li>Continuous communication which includes the comprehension of information with colleagues.</li>
+</ul>
+</div>
     </section>
+    <section class="event-page__details">
+      <h2>The Details</h2>
+      
+      <div class="event-page__details__row job-details">
+        <i class="fas fa-building" data-tooltip="Hiring Company" aria-label="Hiring Company"></i>
+        
+        
+<a
+  href="https://www.qualcomm.com/home"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qualcomm"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qualcomm.png"
+    alt="Qualcomm"
+    width="130"
+    height="170"
+  />
+</a>
+
+        
+      </div>
+      
+      
+      
+      <div class="event-page__details__row">
+        <i class="fas fa-map-marker" data-tooltip="Job Location" aria-label="Job Location"></i>
+        <p>Cambridge, UK</p>
+      </div>
+      
+      
+      
+      <div class="event-page__details__row">
+        <i class="fas fa-user-clock" data-tooltip="Employment type" aria-label="Employment Type"></i>
+        <p>Summer Internship</p>
+      </div>
+      
+      
+      <div class="event-page__details__row">
+        <i class="fas fa-hourglass-end" data-tooltip="Apply by" aria-label="Apply by"></i>
+        <p>
+          28/02/23 23:59
+        </p>
+      </div>
+      
+      
+      <div class="event-page__details__hosted-with">
+        <hr />
+        
+        <a class="btn btn--dark" style="margin: 20px" target="_blank" href="https://qualcomm.wd5.myworkdayjobs.com/en-US/External/job/Cambridge-GBR/Software-Test-Internship--Cambridge-2023_3046347">
+          Apply Here
+        </a>
+        
+        
+      </div>
+      
+    </section>
+  </article>
+</section>
 
     <section class="page-section sponsorsec">
-      <h1 class="sponsors-title">
-        <a href="/pages/sponsors">Proudly sponsored by</a>
-      </h1>
-      <div class="sponsors">
-        <a
-          href="https://www.publicissapient.com/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Publicis Sapient"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/publicis_sapient.svg"
-            alt="Publicis Sapient"
-            width="130"
-            height="170"
-          />
-        </a>
+    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
+    <div class="sponsors">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+            
+<a
+  href="https://www.publicissapient.com/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Publicis Sapient"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/publicis_sapient.svg"
+    alt="Publicis Sapient"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.qualcomm.com/home"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Qualcomm"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/qualcomm.png"
-            alt="Qualcomm"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+          
+            
+<a
+  href="https://www.qualcomm.com/home"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qualcomm"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qualcomm.png"
+    alt="Qualcomm"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.qube-rt.com/careers/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="Qube Research & Technologies"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/qube-rt.svg"
-            alt="Qube Research & Technologies"
-            width="130"
-            height="170"
-          />
-        </a>
+          
+        
+      
+        
+          
+            
+<a
+  href="https://www.qube-rt.com/careers/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="Qube Research & Technologies"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/qube-rt.svg"
+    alt="Qube Research & Technologies"
+    width="130"
+    height="170"
+  />
+</a>
 
-        <a
-          href="https://www.xmos.ai/"
-          target="_blank"
-          rel="noopener sponsored"
-          data-tooltip="XMOS"
-          class="company-logo"
-        >
-          <img
-            src="/assets/images/contrib/companies/xmos.svg"
-            alt="XMOS"
-            width="130"
-            height="170"
-          />
-        </a>
-      </div>
-      <div class="sponsors__action_item">
-        <a href="/pages/sponsors">Learn more about working with us.</a>
-      </div>
-    </section>
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+          
+            
+<a
+  href="https://www.xmos.ai/"
+  target="_blank"
+  rel="noopener sponsored"
+  data-tooltip="XMOS"
+  class="company-logo"
+>
+  <img
+    src="/assets/images/contrib/companies/xmos.svg"
+    alt="XMOS"
+    width="130"
+    height="170"
+  />
+</a>
+
+          
+        
+      
+    </div>
+    <div class="sponsors__action_item">
+      <a href="/pages/sponsors">Learn more about working with us.</a>
+    </div>
+</section>
+
 
     <footer class="page-footer">
-      <span class="page-footer__text"
-        >&copy; University of Bristol Computer Science Society</span
-      >
-      <nav class="page-footer__menu">
-        <ul>
-          <li>
-            <a class="page-link" href="/about/">About</a>
-          </li>
+  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
+  <nav class="page-footer__menu">
+    <ul>
+    
+    
+      
+      <li>
+        <a class="page-link" href="/about/">About</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/contact/">Contact</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/events/index.html">Events</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/jobs/">Jobs</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/sponsors">Sponsor us</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/tutorials/">Tutorials</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li>
+        <a class="page-link" href="/wellbeing/">Wellbeing</a>
+      </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    </ul>
+  </nav>
+</footer>
 
-          <li>
-            <a class="page-link" href="/contact/">Contact</a>
-          </li>
 
-          <li>
-            <a class="page-link" href="/events/index.html">Events</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/jobs/">Jobs</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/sponsors">Sponsor us</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/tutorials/">Tutorials</a>
-          </li>
-
-          <li>
-            <a class="page-link" href="/wellbeing/">Wellbeing</a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
   </body>
+
 </html>
