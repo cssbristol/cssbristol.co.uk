@@ -54,6 +54,8 @@ def get_event(path: Path) -> Event:
 def post_daily_post(events: List[Event]) -> None:
     events_list = ""
     for e in events:
+        if e.cancelled:
+            continue
         if e.date:
             events_list += f"- {e.title} @ {e.date.strftime('%H:%M')}\n  {e.website_link}\n"
         else:
@@ -62,15 +64,17 @@ def post_daily_post(events: List[Event]) -> None:
     if not events_list:
         return 
 
-    webhook = DiscordWebhook(url=DISCORD_URL)
-    webhook.set_content(content=f"Today we have the following events: :eyes:\n{events_list}\nLooking forward to seeing you!")
-    response = webhook.execute()
-    handle_response(response)
+    post_msg(f"Today we have the following events: :eyes:\n{events_list}\nLooking forward to seeing you!")
 
 
 def post_warning(event: Event) -> None:
+    if (event.cancelled):
+        return
+    post_msg(f"Today's event, {event.title}, is starting in 15 Minutes! :tada:\n{event.website_link}")
+
+def post_msg(msg: str) -> None:
     webhook = DiscordWebhook(url=DISCORD_URL)
-    webhook.set_content(content=f"Today's event, {event.title}, is starting in 15 Minutes! :tada:\n{event.website_link}")
+    webhook.set_content(content=msg)
     response = webhook.execute()
     handle_response(response)
 
