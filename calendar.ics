@@ -4326,11 +4326,11 @@ UID:events-2023-10-17-unity-workshop
 DTSTAMP:20231017T180000
 DTSTART:20231017T180000
 DTEND:20231017T200000
-LAST-MODIFIED:20231007T134900
+LAST-MODIFIED:20231011T201800
 URL:https://www.cssbristol.co.uk
  /events/2023-10-17-unity-workshop/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
- images/contrib/events/
+ images/contrib/events/2023-10-17-unity-workshop.png
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Unity Game Engine Workshop
 DESCRIPTION:Don’t have any experience with game development?
