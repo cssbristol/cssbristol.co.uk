@@ -6,7 +6,7 @@ cancel_reason:
 title: Unity Game Engine Workshop
 date:     2023-10-17 18:00:00 +0100
 date_end: 2023-10-17 20:00:00 +0100
-banner:
+banner: 2023-10-17-unity-workshop.png
 location: MVB 1.08 PC
 ticket_link:
 price: Free
