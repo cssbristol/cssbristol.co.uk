@@ -4310,7 +4310,7 @@ UID:events-2023-10-16-git-with-formula-student-ai
 DTSTAMP:20231016T180000
 DTSTART:20231016T180000
 DTEND:20231016T190000
-LAST-MODIFIED:20231010T163300
+LAST-MODIFIED:20231012T193300
 URL:https://www.cssbristol.co.uk
  /events/2023-10-16-git-with-formula-student-ai/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -4318,7 +4318,7 @@ IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:Intro to Git with Formula Student AI
 DESCRIPTION:Dr David Bernhard will be delivering an introdu...
-LOCATION:To be announced
+LOCATION:MVB 1.15PC or Teams
 END:VEVENT
 BEGIN:VEVENT
 UID:events-2023-10-17-unity-workshop
