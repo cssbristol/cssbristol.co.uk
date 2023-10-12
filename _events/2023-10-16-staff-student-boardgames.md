@@ -6,7 +6,7 @@ cancel_reason:
 title: Staff Student Boardgames
 date:     2023-10-16 15:30:00 +0100
 date_end: 2023-10-16 19:00:00 +0100
-banner:
+banner: 2023-10-16-staff-student-boardgames.png
 location: MVB Lower Atrium
 ticket_link:
 price: Free
