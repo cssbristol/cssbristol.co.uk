@@ -6,7 +6,7 @@ cancel_reason:
 title: Intro to Git with Formula Student AI
 date:     2023-10-16 18:00:00 +0100
 date_end: 2023-10-16 19:00:00 +0100
-banner:
+banner: 2023-10-16-git-with-formula-student-ai.png
 location: MVB 1.15PC or Teams
 ticket_link:
 price: Free
