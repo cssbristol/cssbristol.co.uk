@@ -4278,7 +4278,7 @@ UID:events-2023-10-13-egm
 DTSTAMP:20231013T180000
 DTSTART:20231013T180000
 DTEND:20231013T200000
-LAST-MODIFIED:20231013T144100
+LAST-MODIFIED:20231013T152300
 URL:https://www.cssbristol.co.uk
  /events/2023-10-13-egm/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
@@ -4287,7 +4287,6 @@ ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:CSS EGM 2023
 DESCRIPTION:Do you love pizza? What about democracy? If the...
 LOCATION:MVB 1.11
-STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:events-2023-10-16-staff-student-boardgames
