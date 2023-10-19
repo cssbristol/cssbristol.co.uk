@@ -1,414 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-  <meta charset=utf-8>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="/assets/favicons/manifest.json">
-<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#3498db">
-<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
-<meta name="theme-color" content="#3498db">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/assets/favicons/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/assets/favicons/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/assets/favicons/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/assets/favicons/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/assets/favicons/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/assets/favicons/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/assets/favicons/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/assets/favicons/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicons/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-194x194.png"
+      sizes="194x194"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/android-chrome-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link rel="manifest" href="/assets/favicons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/assets/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#3498db" />
+    <meta
+      name="msapplication-TileImage"
+      content="/assets/favicons/mstile-144x144.png"
+    />
+    <meta name="theme-color" content="#3498db" />
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta name="description" content="Git is a way to store, back up and organise your code. It is one of those things that you wish you’d been taught in your first term if you discover it later on.This tutorial assumes that you are moderately familiar with using a terminal/shell.InstallingThe lab machines should have git installed a...">
+    <meta
+      name="description"
+      content="Git is a way to store, back up and organise your code. It is one of those things that you wish you’d been taught in your first term if you discover it later on.This tutorial assumes that you are moderately familiar with using a terminal/shell.InstallingThe lab machines should have git installed a..."
+    />
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="First Steps with Git - CSS Bristol">
-<meta property="og:description" content="Git is a way to store, back up and organise your code. It is one of those things that you wish you’d been taught in your first term if you discover it later on. This tutorial assumes that you are moderately familiar with using a terminal/shell. Installing The lab machines...">
-<meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
-<meta property="og:url" content="https://cssbristol.co.uk/tutorial/2017/10/18/git.html">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="First Steps with Git - CSS Bristol" />
+    <meta
+      property="og:description"
+      content="Git is a way to store, back up and organise your code. It is one of those things that you wish you’d been taught in your first term if you discover it later on. This tutorial assumes that you are moderately familiar with using a terminal/shell. Installing The lab machines..."
+    />
+    <meta
+      property="og:image"
+      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
+    />
+    <meta
+      property="og:url"
+      content="https://cssbristol.co.uk/tutorial/2017/10/18/git.html"
+    />
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="First Steps with Git - CSS Bristol">
-<meta name="twitter:description" content="Git is a way to store, back up and organise your code. It is one of those things that you wish you’d been taught in your first term if you discover it later on. This tutorial assumes that you are moderately familiar with using a terminal/shell. Installing The lab machines...">
-<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
-<meta name="twitter:site" content="@cssbristol">
- 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="First Steps with Git - CSS Bristol" />
+    <meta
+      name="twitter:description"
+      content="Git is a way to store, back up and organise your code. It is one of those things that you wish you’d been taught in your first term if you discover it later on. This tutorial assumes that you are moderately familiar with using a terminal/shell. Installing The lab machines..."
+    />
+    <meta
+      name="twitter:image"
+      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
+    />
+    <meta name="twitter:site" content="@cssbristol" />
 
+    <title>First Steps with Git - CSS Bristol</title>
 
-  <title>First Steps with Git - CSS Bristol</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    />
 
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
+    <link rel="stylesheet" href="/assets/css/site.css" />
+    <link
+      rel="canonical"
+      href="https://cssbristol.co.uk/tutorial/2017/10/18/git.html"
+    />
 
-  <link rel="stylesheet" href="/assets/css/site.css" />
-  <link rel="canonical" href="https://cssbristol.co.uk/tutorial/2017/10/18/git.html" />
-  
+    <!-- Prefetch background images so they load faster next time page loads -->
+    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
 
-  
+    <!-- Script for FontAwesome icons -->
+    <script
+      src="https://kit.fontawesome.com/5918af34b4.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
 
-  <!-- Prefetch background images so they load faster next time page loads -->
-  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
+    <!-- Script for randomly choosing header background -->
+    <script
+      type="text/javascript"
+      src="/assets/scripts/header-random-bg.js"
+      defer
+    ></script>
 
-  <!-- Script for FontAwesome icons -->
-  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
-  
-  <!-- Script for randomly choosing header background -->
-  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
-  
-  <!-- Cloudflare Web Analytics -->
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
+    <!-- Cloudflare Web Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
+    ></script>
 
-  <!-- remove after a couple of months -->
-  <script>
-    const path = window.location.pathname;
-    if (path.startsWith("/events/")) {
-      const newPath = path.replaceAll("_", "-");
-      if (newPath !== path) {
-        window.location.replace(newPath);
+    <!-- remove after a couple of months -->
+    <script>
+      const path = window.location.pathname;
+      if (path.startsWith("/events/")) {
+        const newPath = path.replaceAll("_", "-");
+        if (newPath !== path) {
+          window.location.replace(newPath);
+        }
       }
-    }
-  </script>
-</head>
-
+    </script>
+  </head>
 
   <body>
-
     <header class="page-header noscript" id="page-header--random-bg">
-  <div class="bg">
-    <div id="header-random-background"></div>
-  </div>
-  <div class="navigation-items">
-    <div itemscope itemtype="http://schema.org/Organization">
-      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
-      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
-        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-      </a>
-    </div>
-    <nav class="page-navigation">
-      <ul class="page-navigation__links">
-        
-        
-        
-        <li><a href="/about/">About</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/contact/">Contact</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/events/index.html">Events</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/jobs/">Jobs</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/sponsors">Sponsor us</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/tutorials/">Tutorials</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/wellbeing/">Wellbeing</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      </ul>
-    </nav>
-  </div>
-  
-</header>
+      <div class="bg">
+        <div id="header-random-background"></div>
+      </div>
+      <div class="navigation-items">
+        <div itemscope itemtype="http://schema.org/Organization">
+          <span style="display: none" itemprop="name"
+            >University of Bristol Computer Science Society</span
+          >
+          <a
+            aria-label="Home"
+            href="/"
+            class="page-header__logo"
+            itemprop="url"
+          >
+            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+          </a>
+        </div>
+        <nav class="page-navigation">
+          <ul class="page-navigation__links">
+            <li><a href="/about/">About</a></li>
 
+            <li><a href="/contact/">Contact</a></li>
+
+            <li><a href="/events/index.html">Events</a></li>
+
+            <li><a href="/jobs/">Jobs</a></li>
+
+            <li><a href="/sponsors">Sponsor us</a></li>
+
+            <li><a href="/tutorials/">Tutorials</a></li>
+
+            <li><a href="/wellbeing/">Wellbeing</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
     <section class="page-section">
-  <article class="article blog-post" itemscope itemtype="http://schema.org/BlogPosting">
-    <header class="blog-post__header">
-      <h1 class="blog-post__title" itemprop="name headline">First Steps with Git</h1>
-      <p class="blog-post__meta">
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">David Bernhard</span></span> on 
-        <time datetime="2017-10-18T15:00:00+01:00" itemprop="datePublished">Oct 18, 2017</time>
-      </p>
-      
-    </header>
-    <div itemprop="articleBody" class="blog-post__body">
-      
+      <article
+        class="article blog-post"
+        itemscope
+        itemtype="http://schema.org/BlogPosting"
+      >
+        <header class="blog-post__header">
+          <h1 class="blog-post__title" itemprop="name headline">
+            First Steps with Git
+          </h1>
+          <p class="blog-post__meta">
+            <span
+              itemprop="author"
+              itemscope
+              itemtype="http://schema.org/Person"
+              ><span itemprop="name">David Bernhard</span></span
+            >
+            on
+            <time datetime="2017-10-18T15:00:00+01:00" itemprop="datePublished"
+              >Oct 18, 2017</time
+            >
+          </p>
+        </header>
+        <div itemprop="articleBody" class="blog-post__body">
+          <p>
+            Git is a way to store, back up and organise your code. It is one of
+            those things that you wish you’d been taught in your first term if
+            you discover it later on.
+          </p>
 
-      <p>Git is a way to store, back up and organise your code. It is one of those things that you wish you’d been taught in your first term if you discover it later on.</p>
+          <p>
+            This tutorial assumes that you are moderately familiar with using a
+            terminal/shell.
+          </p>
 
-<p>This tutorial assumes that you are moderately familiar with using a terminal/shell.</p>
+          <h2 id="installing">Installing</h2>
 
-<h2 id="installing">Installing</h2>
+          <p>
+            The lab machines should have git installed already. On your own
+            machine, type “git” in a terminal and if you’re lucky you’ll get the
+            help text, showing it’s installed. If you need to install it
+            yourself:
+          </p>
 
-<p>The lab machines should have git installed already. On your own machine, type “git” in a terminal and if you’re lucky you’ll get the help text, showing it’s installed. If you need to install it yourself:</p>
+          <ul>
+            <li>
+              If you’re using Linux, your package manager should provide it. Try
+              <code class="language-plaintext highlighter-rouge"
+                >sudo apt install git</code
+              >
+              for debian and derivatives like ubuntu and mint.
+              <code class="language-plaintext highlighter-rouge"
+                >sudo yum install git</code
+              >
+              should work on Fedora.
+            </li>
+            <li>
+              On a Mac, if you’re using homebrew then
+              <code class="language-plaintext highlighter-rouge"
+                >brew install git</code
+              >
+              should do it, or you can download git from
+              <a href="https://git-scm.com/download/mac">the website</a>.
+            </li>
+            <li>
+              On Windows,
+              <a href="https://git-for-windows.github.io/">git for windows</a>
+              gives you git and an “open git here” option in the right-click
+              menu of every folder.
+            </li>
+          </ul>
 
-<ul>
-  <li>If you’re using Linux, your package manager should provide it. Try <code class="language-plaintext highlighter-rouge">sudo apt install git</code> for debian and derivatives like ubuntu and mint. <code class="language-plaintext highlighter-rouge">sudo yum install git</code> should work on Fedora.</li>
-  <li>On a Mac, if you’re using homebrew then <code class="language-plaintext highlighter-rouge">brew install git</code> should do it, or you can download git from <a href="https://git-scm.com/download/mac">the website</a>.</li>
-  <li>On Windows, <a href="https://git-for-windows.github.io/">git for windows</a> gives you git and an “open git here” option in the right-click menu of every folder.</li>
-</ul>
+          <h2 id="create-a-repository">Create a repository</h2>
 
-<h2 id="create-a-repository">Create a repository</h2>
+          <p>
+            When you start on a new project or unit, create an empty folder, go
+            to it in your terminal and type
+            <code class="language-plaintext highlighter-rouge">git init</code>.
+            This creates a hidden subfolder
+            <code class="language-plaintext highlighter-rouge">.git</code> which
+            is your <strong>repository</strong> - it will store the entire
+            history of your project and every change you make, as long as you
+            remember to commit these changes (which we’ll do soon). This not
+            only gets you unlimited undo/redo, so you can try things out and
+            undo them if they don’t work, but you can also maintain several
+            different versions of your code and switch between them.
+          </p>
 
-<p>When you start on a new project or unit, create an empty folder, go to it in your terminal and type <code class="language-plaintext highlighter-rouge">git init</code>. This creates a hidden subfolder <code class="language-plaintext highlighter-rouge">.git</code> which is your <strong>repository</strong> - it will store the entire history of your project and every change you make, as long as you remember to commit these changes (which we’ll do soon). This not only gets you unlimited undo/redo, so you can try things out and undo them if they don’t work, but you can also maintain several different versions of your code and switch between them.</p>
+          <p>
+            The folder containing the
+            <code class="language-plaintext highlighter-rouge">.git</code>
+            folder is your <strong>working tree</strong> - one particular
+            version of your project.
+          </p>
 
-<p>The folder containing the <code class="language-plaintext highlighter-rouge">.git</code> folder is your <strong>working tree</strong> - one particular version of your project.</p>
+          <h2 id="making-commits">Making commits</h2>
 
-<h2 id="making-commits">Making commits</h2>
+          <p>
+            Let’s say you’ve written some code in a file
+            <code class="language-plaintext highlighter-rouge">hello.c</code>:
+          </p>
 
-<p>Let’s say you’ve written some code in a file <code class="language-plaintext highlighter-rouge">hello.c</code>:</p>
-
-<pre><code class="language-C">#include &lt;stdio.h&gt;
+          <pre><code class="language-C">#include &lt;stdio.h&gt;
 
 int main() {
   puts("Hello World!");
@@ -416,15 +336,68 @@ int main() {
 }
 </code></pre>
 
-<p>Type <code class="language-plaintext highlighter-rouge">git status</code> in your terminal. This will show that there’s an untracked change in file <code class="language-plaintext highlighter-rouge">hello.c</code>. If colours are set up correctly, untracked changes are red and tracked ones are green.</p>
+          <p>
+            Type
+            <code class="language-plaintext highlighter-rouge">git status</code>
+            in your terminal. This will show that there’s an untracked change in
+            file
+            <code class="language-plaintext highlighter-rouge">hello.c</code>.
+            If colours are set up correctly, untracked changes are red and
+            tracked ones are green.
+          </p>
 
-<p>To tell git to track this change, run <code class="language-plaintext highlighter-rouge">git add hello.c</code>. Run <code class="language-plaintext highlighter-rouge">git status</code> again and you’ll see “new file: hello.c”, possibly in green. This means you’ve told git about this change, but it’s not committed yet (not saved in the repository). Run <code class="language-plaintext highlighter-rouge">git commit -m 'New file'</code>. Each commit must have a message and the <code class="language-plaintext highlighter-rouge">-m &lt;message&gt;</code> option is a way to provide this. The single quotes around the message are to do with how your shell parses arguments - basically if you put single quotes around a commit message then you can use spaces, punctuation etc. and it should work as long as there’s no single quotes in your message itself. Do <code class="language-plaintext highlighter-rouge">git status</code> again and you should see “nothing to commit, working tree clean” which is a good message to see.</p>
+          <p>
+            To tell git to track this change, run
+            <code class="language-plaintext highlighter-rouge"
+              >git add hello.c</code
+            >. Run
+            <code class="language-plaintext highlighter-rouge">git status</code>
+            again and you’ll see “new file: hello.c”, possibly in green. This
+            means you’ve told git about this change, but it’s not committed yet
+            (not saved in the repository). Run
+            <code class="language-plaintext highlighter-rouge"
+              >git commit -m 'New file'</code
+            >. Each commit must have a message and the
+            <code class="language-plaintext highlighter-rouge"
+              >-m &lt;message&gt;</code
+            >
+            option is a way to provide this. The single quotes around the
+            message are to do with how your shell parses arguments - basically
+            if you put single quotes around a commit message then you can use
+            spaces, punctuation etc. and it should work as long as there’s no
+            single quotes in your message itself. Do
+            <code class="language-plaintext highlighter-rouge">git status</code>
+            again and you should see “nothing to commit, working tree clean”
+            which is a good message to see.
+          </p>
 
-<p>The simplest way to work with git is this: make changes, commit changes, repeat. Git lets you undo/redo changes at the commit level so it’s helpful to make lots of small commits instead of few large ones; commit messages help you find commits when you want to e.g. revert to a particular commit.</p>
+          <p>
+            The simplest way to work with git is this: make changes, commit
+            changes, repeat. Git lets you undo/redo changes at the commit level
+            so it’s helpful to make lots of small commits instead of few large
+            ones; commit messages help you find commits when you want to e.g.
+            revert to a particular commit.
+          </p>
 
-<p>If you make a change to your source file - perhaps add a comma after <code class="language-plaintext highlighter-rouge">Hello</code> - you’ll see “modified: hello.c” under a heading “Changes not staged for commit” (in red if colours are working). <code class="language-plaintext highlighter-rouge">git add hello.c</code> tracks the change (it now appears under “Changes to be committed” in the status text), <code class="language-plaintext highlighter-rouge">git commit -m 'Added a comma'</code> commits it:</p>
+          <p>
+            If you make a change to your source file - perhaps add a comma after
+            <code class="language-plaintext highlighter-rouge">Hello</code> -
+            you’ll see “modified: hello.c” under a heading “Changes not staged
+            for commit” (in red if colours are working).
+            <code class="language-plaintext highlighter-rouge"
+              >git add hello.c</code
+            >
+            tracks the change (it now appears under “Changes to be committed” in
+            the status text),
+            <code class="language-plaintext highlighter-rouge"
+              >git commit -m 'Added a comma'</code
+            >
+            commits it:
+          </p>
 
-<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git status
+          <div class="language-text highlighter-rouge">
+            <div class="highlight">
+              <pre class="highlight"><code>$ git status
 On branch master
 Changes not staged for commit:
   (use "git add &lt;file&gt;..." to update what will be committed)
@@ -451,644 +424,459 @@ $ git commit -m 'Added a comma.'
 $ git status
 On branch master
 nothing to commit, working tree clean
-</code></pre></div></div>
+</code></pre>
+            </div>
+          </div>
 
-<p>In summary:</p>
+          <p>In summary:</p>
 
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">git status</code> shows you whether there are any uncommitted changes in your repos.</li>
-  <li><code class="language-plaintext highlighter-rouge">git add FILE</code> tracks a change, but doesn’t commit it yet.</li>
-  <li><code class="language-plaintext highlighter-rouge">git commit -m 'MESSAGE'</code> commits all tracked changes.</li>
-</ul>
+          <ul>
+            <li>
+              <code class="language-plaintext highlighter-rouge"
+                >git status</code
+              >
+              shows you whether there are any uncommitted changes in your repos.
+            </li>
+            <li>
+              <code class="language-plaintext highlighter-rouge"
+                >git add FILE</code
+              >
+              tracks a change, but doesn’t commit it yet.
+            </li>
+            <li>
+              <code class="language-plaintext highlighter-rouge"
+                >git commit -m 'MESSAGE'</code
+              >
+              commits all tracked changes.
+            </li>
+          </ul>
 
-<p>If “git status” shows “working tree clean” then all your changes have been saved.</p>
+          <p>
+            If “git status” shows “working tree clean” then all your changes
+            have been saved.
+          </p>
 
-<h2 id="reverting-changes">Reverting changes</h2>
+          <h2 id="reverting-changes">Reverting changes</h2>
 
-<p>As you might have gathered already from the help text, if you’ve made changes to a file that you’ve not committed yet and you want to undo them back to the last commit, <code class="language-plaintext highlighter-rouge">git checkout -- FILENAME</code> reverts the file. There is a space both before and after the <code class="language-plaintext highlighter-rouge">--</code> in that command.</p>
+          <p>
+            As you might have gathered already from the help text, if you’ve
+            made changes to a file that you’ve not committed yet and you want to
+            undo them back to the last commit,
+            <code class="language-plaintext highlighter-rouge"
+              >git checkout -- FILENAME</code
+            >
+            reverts the file. There is a space both before and after the
+            <code class="language-plaintext highlighter-rouge">--</code> in that
+            command.
+          </p>
 
-<p>If you’ve committed changes and want to go back to an earlier commit, the first thing you do is <code class="language-plaintext highlighter-rouge">git log</code> which shows you a list of all commits. If there are a lot, <code class="language-plaintext highlighter-rouge">git log | less</code> lets you view them one page at a time - advance with SPACE, exit with Q. <code class="language-plaintext highlighter-rouge">git log --oneline</code> shows just one line per commit and you can stick <code class="language-plaintext highlighter-rouge">| less</code> on the end of that too. Each commit has a hash value which is a long hexadecimal string. When referencing a commit, you usually only need to type the first few characters of the hash.</p>
+          <p>
+            If you’ve committed changes and want to go back to an earlier
+            commit, the first thing you do is
+            <code class="language-plaintext highlighter-rouge">git log</code>
+            which shows you a list of all commits. If there are a lot,
+            <code class="language-plaintext highlighter-rouge"
+              >git log | less</code
+            >
+            lets you view them one page at a time - advance with SPACE, exit
+            with Q.
+            <code class="language-plaintext highlighter-rouge"
+              >git log --oneline</code
+            >
+            shows just one line per commit and you can stick
+            <code class="language-plaintext highlighter-rouge">| less</code> on
+            the end of that too. Each commit has a hash value which is a long
+            hexadecimal string. When referencing a commit, you usually only need
+            to type the first few characters of the hash.
+          </p>
 
-<p>Let’s say I decide I don’t want a comma after “Hello” after all.</p>
+          <p>
+            Let’s say I decide I don’t want a comma after “Hello” after all.
+          </p>
 
-<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git log --oneline
+          <div class="language-text highlighter-rouge">
+            <div class="highlight">
+              <pre class="highlight"><code>$ git log --oneline
 6e7e782 Added a comma.
 4f251ef New file
 
 $ git checkout 4f25 hello.c`
-</code></pre></div></div>
+</code></pre>
+            </div>
+          </div>
 
-<p>The command <code class="language-plaintext highlighter-rouge">git checkout HASH FILENAME</code> reverts the file to the state in the given commit. The file is now in “changed and not tracked” state as if you’d edited it by hand. You can also <code class="language-plaintext highlighter-rouge">git checkout HASH</code>  filename to revert all files back to an older commit.</p>
+          <p>
+            The command
+            <code class="language-plaintext highlighter-rouge"
+              >git checkout HASH FILENAME</code
+            >
+            reverts the file to the state in the given commit. The file is now
+            in “changed and not tracked” state as if you’d edited it by hand.
+            You can also
+            <code class="language-plaintext highlighter-rouge"
+              >git checkout HASH</code
+            >
+            filename to revert all files back to an older commit.
+          </p>
 
-<h2 id="excluding-files">Excluding files</h2>
+          <h2 id="excluding-files">Excluding files</h2>
 
-<p>Let’s compile our file: <code class="language-plaintext highlighter-rouge">gcc hello.c -Wall -Werror -std=c99 -o hello</code>. You do use <code class="language-plaintext highlighter-rouge">-Wall -Werror</code> on all your C programs to catch possible bugs, right?</p>
+          <p>
+            Let’s compile our file:
+            <code class="language-plaintext highlighter-rouge"
+              >gcc hello.c -Wall -Werror -std=c99 -o hello</code
+            >. You do use
+            <code class="language-plaintext highlighter-rouge"
+              >-Wall -Werror</code
+            >
+            on all your C programs to catch possible bugs, right?
+          </p>
 
-<p>We now have two files in the working tree: <code class="language-plaintext highlighter-rouge">hello.c</code> and <code class="language-plaintext highlighter-rouge">hello</code> (or <code class="language-plaintext highlighter-rouge">hello.exe</code> if we’re on windows). However we don’t want to track <code class="language-plaintext highlighter-rouge">hello</code> in the repository - you want your sources but not your compiled files in the repository. You can just compile the sources again whenever you need to, after all.</p>
+          <p>
+            We now have two files in the working tree:
+            <code class="language-plaintext highlighter-rouge">hello.c</code>
+            and
+            <code class="language-plaintext highlighter-rouge">hello</code> (or
+            <code class="language-plaintext highlighter-rouge">hello.exe</code>
+            if we’re on windows). However we don’t want to track
+            <code class="language-plaintext highlighter-rouge">hello</code> in
+            the repository - you want your sources but not your compiled files
+            in the repository. You can just compile the sources again whenever
+            you need to, after all.
+          </p>
 
-<p>Create a file called <code class="language-plaintext highlighter-rouge">.gitignore</code> (yes, it starts with a dot) with one line <code class="language-plaintext highlighter-rouge">hello</code> (or <code class="language-plaintext highlighter-rouge">hello.exe</code>) in it. Each line in this file is treated as a pattern that matches one or more files (you can do <code class="language-plaintext highlighter-rouge">*.exe</code> to exclude all windows executables for example) that git should ignore. Adding the name of a folder to a gitignore file ignores that folder and everything in it. When you do <code class="language-plaintext highlighter-rouge">git status</code> again you’ll see that git ignores your executable file, but notices the new file <code class="language-plaintext highlighter-rouge">.gitignore</code>. Add that file to the repository and commit.</p>
+          <p>
+            Create a file called
+            <code class="language-plaintext highlighter-rouge">.gitignore</code>
+            (yes, it starts with a dot) with one line
+            <code class="language-plaintext highlighter-rouge">hello</code> (or
+            <code class="language-plaintext highlighter-rouge">hello.exe</code>)
+            in it. Each line in this file is treated as a pattern that matches
+            one or more files (you can do
+            <code class="language-plaintext highlighter-rouge">*.exe</code> to
+            exclude all windows executables for example) that git should ignore.
+            Adding the name of a folder to a gitignore file ignores that folder
+            and everything in it. When you do
+            <code class="language-plaintext highlighter-rouge">git status</code>
+            again you’ll see that git ignores your executable file, but notices
+            the new file
+            <code class="language-plaintext highlighter-rouge">.gitignore</code
+            >. Add that file to the repository and commit.
+          </p>
 
-<h1 id="remote-repositories">Remote repositories</h1>
+          <h1 id="remote-repositories">Remote repositories</h1>
 
-<p>So far we’ve just saved our project’s history in a subfolder on our own machine. The next step is to save it in the cloud so that several people can work on it together, or you can work on it from different machines (for example, home and lab PC).</p>
+          <p>
+            So far we’ve just saved our project’s history in a subfolder on our
+            own machine. The next step is to save it in the cloud so that
+            several people can work on it together, or you can work on it from
+            different machines (for example, home and lab PC).
+          </p>
 
-<p>There are three big free providers of git services: <a href="https://gitlab.com/">gitlab</a>, <a href="https://github.com/">github</a> and <a href="https://bitbucket.org/">bitbucket</a>. Gitlab and bitbucket offer you unlimited (within reason) free private repositories (where you control who can read/write them), github gives you one free private repository (5 if you sign up for their student pack with your university e-mail). All three providers offer unlimited free public repositories for open-source projects.</p>
+          <p>
+            There are three big free providers of git services:
+            <a href="https://gitlab.com/">gitlab</a>,
+            <a href="https://github.com/">github</a> and
+            <a href="https://bitbucket.org/">bitbucket</a>. Gitlab and bitbucket
+            offer you unlimited (within reason) free private repositories (where
+            you control who can read/write them), github gives you one free
+            private repository (5 if you sign up for their student pack with
+            your university e-mail). All three providers offer unlimited free
+            public repositories for open-source projects.
+          </p>
 
-<p><strong>WARNING: do not under any circumstances place code that you have submitted or intend to submit as assessed coursework to a public repository on any provider. If another student finds this code and submits a copy of it, you are both in trouble for plagiarism. Yes, this has happened in the past.</strong></p>
+          <p>
+            <strong
+              >WARNING: do not under any circumstances place code that you have
+              submitted or intend to submit as assessed coursework to a public
+              repository on any provider. If another student finds this code and
+              submits a copy of it, you are both in trouble for plagiarism. Yes,
+              this has happened in the past.</strong
+            >
+          </p>
 
-<p>The next few steps in this tutorial are based on the gitlab UI to create a remote repository, but github and bitbucket offer the same features.</p>
+          <p>
+            The next few steps in this tutorial are based on the gitlab UI to
+            create a remote repository, but github and bitbucket offer the same
+            features.
+          </p>
 
-<ul>
-  <li>Go to <a href="https://gitlab.com">gitlab.com</a> and register an account.</li>
-  <li>Click “New project”, choose a project name and set visibility to private.</li>
-</ul>
+          <ul>
+            <li>
+              Go to <a href="https://gitlab.com">gitlab.com</a> and register an
+              account.
+            </li>
+            <li>
+              Click “New project”, choose a project name and set visibility to
+              private.
+            </li>
+          </ul>
 
-<p>You get to see your project page. The git address of your project is <code class="language-plaintext highlighter-rouge">https://gitlab.com/USERNAME/PROJECTNAME.git</code>, so for example my username is <code class="language-plaintext highlighter-rouge">david-bristol</code> and I have a project called <code class="language-plaintext highlighter-rouge">coconut</code> that lives at <a href="https://gitlab.com/david-bristol/coconut.git">https://gitlab.com/david-bristol/coconut.git</a>. If you access this link on the web, it’ll remove the “.git” part at the end but you need it in your terminal.</p>
+          <p>
+            You get to see your project page. The git address of your project is
+            <code class="language-plaintext highlighter-rouge"
+              >https://gitlab.com/USERNAME/PROJECTNAME.git</code
+            >, so for example my username is
+            <code class="language-plaintext highlighter-rouge"
+              >david-bristol</code
+            >
+            and I have a project called
+            <code class="language-plaintext highlighter-rouge">coconut</code>
+            that lives at
+            <a href="https://gitlab.com/david-bristol/coconut.git"
+              >https://gitlab.com/david-bristol/coconut.git</a
+            >. If you access this link on the web, it’ll remove the “.git” part
+            at the end but you need it in your terminal.
+          </p>
 
-<p>The command <code class="language-plaintext highlighter-rouge">git clone ADDRESS</code> downloads a repository and sets up some information so that you can synchronise the local and remote copies. For example, <code class="language-plaintext highlighter-rouge">git clone https://gitlab.com/david-bristol/coconut.git</code> will create a subfolder <code class="language-plaintext highlighter-rouge">coconut</code> with the contents of my coconut project. Since this is a public project, the files will just appear - for a private project, git will ask for your username and password first.</p>
+          <p>
+            The command
+            <code class="language-plaintext highlighter-rouge"
+              >git clone ADDRESS</code
+            >
+            downloads a repository and sets up some information so that you can
+            synchronise the local and remote copies. For example,
+            <code class="language-plaintext highlighter-rouge"
+              >git clone https://gitlab.com/david-bristol/coconut.git</code
+            >
+            will create a subfolder
+            <code class="language-plaintext highlighter-rouge">coconut</code>
+            with the contents of my coconut project. Since this is a public
+            project, the files will just appear - for a private project, git
+            will ask for your username and password first.
+          </p>
 
-<p>You can now use the following two commands to synchronise the local and remote copies:</p>
+          <p>
+            You can now use the following two commands to synchronise the local
+            and remote copies:
+          </p>
 
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">git pull</code> pulls any changes from the remote copy to the local one.</li>
-  <li><code class="language-plaintext highlighter-rouge">git push</code> pushes your local changes to the remote copy.</li>
-</ul>
+          <ul>
+            <li>
+              <code class="language-plaintext highlighter-rouge">git pull</code>
+              pulls any changes from the remote copy to the local one.
+            </li>
+            <li>
+              <code class="language-plaintext highlighter-rouge">git push</code>
+              pushes your local changes to the remote copy.
+            </li>
+          </ul>
 
-<p>It is advised to use these commands only when your working tree is clean.</p>
+          <p>
+            It is advised to use these commands only when your working tree is
+            clean.
+          </p>
 
-<p>The rough outline of setting up a git project to work together:</p>
+          <p>The rough outline of setting up a git project to work together:</p>
 
-<ul>
-  <li>Everyone creates an account with the same provider.</li>
-  <li>One person creates the online repository and gives everyone else on the project access to it (assuming a private repository). On gitlab, choose settings/members in the left menu, enter the other developers’ gitlab usernames and set their role to “Developer” (the default “Guest” lets you read but not write).</li>
-  <li>Everyone clones the repository to their own machine.</li>
-</ul>
+          <ul>
+            <li>Everyone creates an account with the same provider.</li>
+            <li>
+              One person creates the online repository and gives everyone else
+              on the project access to it (assuming a private repository). On
+              gitlab, choose settings/members in the left menu, enter the other
+              developers’ gitlab usernames and set their role to “Developer”
+              (the default “Guest” lets you read but not write).
+            </li>
+            <li>Everyone clones the repository to their own machine.</li>
+          </ul>
 
-<p>The commands <code class="language-plaintext highlighter-rouge">git add</code> and <code class="language-plaintext highlighter-rouge">git commit</code> add changes from your <strong>working tree</strong> to the <strong>local copy of the repository</strong>. The commands <code class="language-plaintext highlighter-rouge">git push</code> and <code class="language-plaintext highlighter-rouge">git pull</code> move committed changes from the <strong>local copy of the repository</strong> to the <strong>remote copy of the repository</strong> and back again. After pushing/pulling, all copies of the repository should be identical.</p>
+          <p>
+            The commands
+            <code class="language-plaintext highlighter-rouge">git add</code>
+            and
+            <code class="language-plaintext highlighter-rouge">git commit</code>
+            add changes from your <strong>working tree</strong> to the
+            <strong>local copy of the repository</strong>. The commands
+            <code class="language-plaintext highlighter-rouge">git push</code>
+            and
+            <code class="language-plaintext highlighter-rouge">git pull</code>
+            move committed changes from the
+            <strong>local copy of the repository</strong> to the
+            <strong>remote copy of the repository</strong> and back again. After
+            pushing/pulling, all copies of the repository should be identical.
+          </p>
 
-<p>Your daily coding routine:</p>
+          <p>Your daily coding routine:</p>
 
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">git pull</code> to download any changes that your colleagues have made.</li>
-  <li>Make changes, commit, repeat. Once again: make small changes and commit frequently. This step only writes to the local copy of your repository and does not require internet access.</li>
-  <li>At the end of the day, or whenever you want to share code with others, <code class="language-plaintext highlighter-rouge">git push</code>. This uploads your changes to the server.</li>
-</ul>
+          <ul>
+            <li>
+              <code class="language-plaintext highlighter-rouge">git pull</code>
+              to download any changes that your colleagues have made.
+            </li>
+            <li>
+              Make changes, commit, repeat. Once again: make small changes and
+              commit frequently. This step only writes to the local copy of your
+              repository and does not require internet access.
+            </li>
+            <li>
+              At the end of the day, or whenever you want to share code with
+              others,
+              <code class="language-plaintext highlighter-rouge">git push</code
+              >. This uploads your changes to the server.
+            </li>
+          </ul>
 
-<p>You can save yourself a lot of trouble by only doing push/pull operations with a clean working tree, e.g. you’ve added and committed all changes to the local copy of your repository.
-In theory, that’s all you need. In practice, what happens if two people edit the same file?</p>
+          <p>
+            You can save yourself a lot of trouble by only doing push/pull
+            operations with a clean working tree, e.g. you’ve added and
+            committed all changes to the local copy of your repository. In
+            theory, that’s all you need. In practice, what happens if two people
+            edit the same file?
+          </p>
 
-<p><em>You do not have to agree via e-mail or some other system who is currently editing which files. Git is set up to handle this situation!</em></p>
+          <p>
+            <em
+              >You do not have to agree via e-mail or some other system who is
+              currently editing which files. Git is set up to handle this
+              situation!</em
+            >
+          </p>
 
-<p>What happens is that your <code class="language-plaintext highlighter-rouge">git push</code> will fail if someone else has pushed since your last pull. In this case, do a <code class="language-plaintext highlighter-rouge">git pull</code>. If you’ve both been editing different files, git will update the ones you haven’t changed with the new versions from the remote copy. Check that everything still works/compiles and then try and push again.</p>
+          <p>
+            What happens is that your
+            <code class="language-plaintext highlighter-rouge">git push</code>
+            will fail if someone else has pushed since your last pull. In this
+            case, do a
+            <code class="language-plaintext highlighter-rouge">git pull</code>.
+            If you’ve both been editing different files, git will update the
+            ones you haven’t changed with the new versions from the remote copy.
+            Check that everything still works/compiles and then try and push
+            again.
+          </p>
 
-<p>If you’ve both been editing the same files, git will see if there’s an obvious way to combine your changes (for example you’ve both edited different functions in the same file). If so, all is well. If not, you have a conflict. The line <code class="language-plaintext highlighter-rouge">CONFLICT ...</code> when you try and pull will alert you to this and tell you which files are affected (so will <code class="language-plaintext highlighter-rouge">git status</code>). When you open these files, you’ll see markers as follows in places where there’s a conflict (search for <code class="language-plaintext highlighter-rouge">&lt;&lt;&lt;</code> in your text editor to find them):</p>
+          <p>
+            If you’ve both been editing the same files, git will see if there’s
+            an obvious way to combine your changes (for example you’ve both
+            edited different functions in the same file). If so, all is well. If
+            not, you have a conflict. The line
+            <code class="language-plaintext highlighter-rouge"
+              >CONFLICT ...</code
+            >
+            when you try and pull will alert you to this and tell you which
+            files are affected (so will
+            <code class="language-plaintext highlighter-rouge">git status</code
+            >). When you open these files, you’ll see markers as follows in
+            places where there’s a conflict (search for
+            <code class="language-plaintext highlighter-rouge"
+              >&lt;&lt;&lt;</code
+            >
+            in your text editor to find them):
+          </p>
 
-<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+          <div class="language-text highlighter-rouge">
+            <div class="highlight">
+              <pre class="highlight"><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 puts("Hello, world!");
 =======
 puts("Hi world!");
 &gt;&gt;&gt;&gt;&gt;&gt;&gt; 31be48e8e2a86fb71b0b0b61bb08019314d87a1b
-</code></pre></div></div>
+</code></pre>
+            </div>
+          </div>
 
-<p>This means that you tried to change a line to read <code class="language-plaintext highlighter-rouge">puts("Hello, world!");</code> but someone else changed the same line to <code class="language-plaintext highlighter-rouge">puts("Hi world!");</code> since your last pull. Fix the conflict by choosing what to do with the line(s) in question and then delete the <code class="language-plaintext highlighter-rouge">&lt;&lt;&lt; === &gt;&gt;&gt;</code> marker lines and check that everything compiles and works again. Then you can add and commit the file and try to push again.</p>
+          <p>
+            This means that you tried to change a line to read
+            <code class="language-plaintext highlighter-rouge"
+              >puts("Hello, world!");</code
+            >
+            but someone else changed the same line to
+            <code class="language-plaintext highlighter-rouge"
+              >puts("Hi world!");</code
+            >
+            since your last pull. Fix the conflict by choosing what to do with
+            the line(s) in question and then delete the
+            <code class="language-plaintext highlighter-rouge"
+              >&lt;&lt;&lt; === &gt;&gt;&gt;</code
+            >
+            marker lines and check that everything compiles and works again.
+            Then you can add and commit the file and try to push again.
+          </p>
 
-<p>Conflicts, although annoying, are nothing to be afraid of. They can happen as part of normal git working practice in a team and you deal with them as they happen.</p>
-
-    </div>
-  </article>
-</section>
-
+          <p>
+            Conflicts, although annoying, are nothing to be afraid of. They can
+            happen as part of normal git working practice in a team and you deal
+            with them as they happen.
+          </p>
+        </div>
+      </article>
+    </section>
 
     <section class="page-section sponsorsec">
-    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
-    <div class="sponsors">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-            
-<a
-  href="https://www.publicissapient.com/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Publicis Sapient"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/publicis_sapient.svg"
-    alt="Publicis Sapient"
-    width="130"
-    height="170"
-  />
-</a>
+      <h1 class="sponsors-title">
+        <a href="/pages/sponsors">Proudly sponsored by</a>
+      </h1>
+      <div class="sponsors">
+        <a
+          href="https://www.publicissapient.com/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Publicis Sapient"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/publicis_sapient.svg"
+            alt="Publicis Sapient"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-          
-        
-      
-        
-          
-            
-<a
-  href="https://www.qube-rt.com/careers/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Qube Research & Technologies"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/qube-rt.svg"
-    alt="Qube Research & Technologies"
-    width="130"
-    height="170"
-  />
-</a>
-
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-    </div>
-    <div class="sponsors__action_item">
-      <a href="/pages/sponsors">Learn more about working with us.</a>
-    </div>
-</section>
-
+        <a
+          href="https://www.qube-rt.com/careers/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Qube Research & Technologies"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/qube-rt.svg"
+            alt="Qube Research & Technologies"
+            width="130"
+            height="170"
+          />
+        </a>
+      </div>
+      <div class="sponsors__action_item">
+        <a href="/sponsors">Learn more about working with us.</a>
+      </div>
+    </section>
 
     <footer class="page-footer">
-  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
-  <nav class="page-footer__menu">
-    <ul>
-    
-    
-      
-      <li>
-        <a class="page-link" href="/about/">About</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/contact/">Contact</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/events/index.html">Events</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/jobs/">Jobs</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/sponsors">Sponsor us</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/tutorials/">Tutorials</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/wellbeing/">Wellbeing</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    </ul>
-  </nav>
-</footer>
+      <span class="page-footer__text"
+        >&copy; University of Bristol Computer Science Society</span
+      >
+      <nav class="page-footer__menu">
+        <ul>
+          <li>
+            <a class="page-link" href="/about/">About</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/contact/">Contact</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/events/index.html">Events</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/jobs/">Jobs</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/sponsors">Sponsor us</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/tutorials/">Tutorials</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/wellbeing/">Wellbeing</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
-
 </html>

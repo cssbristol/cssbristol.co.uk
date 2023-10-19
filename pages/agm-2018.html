@@ -1,1101 +1,729 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-  <meta charset=utf-8>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="/assets/favicons/manifest.json">
-<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#3498db">
-<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
-<meta name="theme-color" content="#3498db">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/assets/favicons/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/assets/favicons/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/assets/favicons/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/assets/favicons/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/assets/favicons/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/assets/favicons/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/assets/favicons/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/assets/favicons/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicons/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-194x194.png"
+      sizes="194x194"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/android-chrome-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link rel="manifest" href="/assets/favicons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/assets/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#3498db" />
+    <meta
+      name="msapplication-TileImage"
+      content="/assets/favicons/mstile-144x144.png"
+    />
+    <meta name="theme-color" content="#3498db" />
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta name="description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
+    <meta
+      name="description"
+      content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department."
+    />
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="AGM - CSS Bristol">
-<meta property="og:description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
-<meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
-<meta property="og:url" content="https://cssbristol.co.uk/pages/agm-2018.html">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AGM - CSS Bristol" />
+    <meta
+      property="og:description"
+      content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department."
+    />
+    <meta
+      property="og:image"
+      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
+    />
+    <meta
+      property="og:url"
+      content="https://cssbristol.co.uk/pages/agm-2018.html"
+    />
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="AGM - CSS Bristol">
-<meta name="twitter:description" content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department.">
-<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
-<meta name="twitter:site" content="@cssbristol">
- 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AGM - CSS Bristol" />
+    <meta
+      name="twitter:description"
+      content="CSS is the University of Bristol Computer Science Society. We exist to represent, support and entertain all members of the Computer Science department."
+    />
+    <meta
+      name="twitter:image"
+      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
+    />
+    <meta name="twitter:site" content="@cssbristol" />
 
+    <title>AGM - CSS Bristol</title>
 
-  <title>AGM - CSS Bristol</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    />
 
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
+    <link rel="stylesheet" href="/assets/css/site.css" />
+    <link rel="canonical" href="https://cssbristol.co.uk/pages/agm-2018.html" />
 
-  <link rel="stylesheet" href="/assets/css/site.css" />
-  <link rel="canonical" href="https://cssbristol.co.uk/pages/agm-2018.html" />
-  
+    <!-- Prefetch background images so they load faster next time page loads -->
+    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
 
-  
+    <!-- Script for FontAwesome icons -->
+    <script
+      src="https://kit.fontawesome.com/5918af34b4.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
 
-  <!-- Prefetch background images so they load faster next time page loads -->
-  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
+    <!-- Script for randomly choosing header background -->
+    <script
+      type="text/javascript"
+      src="/assets/scripts/header-random-bg.js"
+      defer
+    ></script>
 
-  <!-- Script for FontAwesome icons -->
-  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
-  
-  <!-- Script for randomly choosing header background -->
-  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
-  
-  <!-- Cloudflare Web Analytics -->
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
+    <!-- Cloudflare Web Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
+    ></script>
 
-  <!-- remove after a couple of months -->
-  <script>
-    const path = window.location.pathname;
-    if (path.startsWith("/events/")) {
-      const newPath = path.replaceAll("_", "-");
-      if (newPath !== path) {
-        window.location.replace(newPath);
+    <!-- remove after a couple of months -->
+    <script>
+      const path = window.location.pathname;
+      if (path.startsWith("/events/")) {
+        const newPath = path.replaceAll("_", "-");
+        if (newPath !== path) {
+          window.location.replace(newPath);
+        }
       }
-    }
-  </script>
-</head>
-
+    </script>
+  </head>
 
   <body>
-
     <header class="page-header noscript" id="page-header--random-bg">
-  <div class="bg">
-    <div id="header-random-background"></div>
-  </div>
-  <div class="navigation-items">
-    <div itemscope itemtype="http://schema.org/Organization">
-      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
-      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
-        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-      </a>
-    </div>
-    <nav class="page-navigation">
-      <ul class="page-navigation__links">
-        
-        
-        
-        <li><a href="/about/">About</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/contact/">Contact</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/events/index.html">Events</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/jobs/">Jobs</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/sponsors">Sponsor us</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/tutorials/">Tutorials</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/wellbeing/">Wellbeing</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      </ul>
-    </nav>
-  </div>
-  
-</header>
+      <div class="bg">
+        <div id="header-random-background"></div>
+      </div>
+      <div class="navigation-items">
+        <div itemscope itemtype="http://schema.org/Organization">
+          <span style="display: none" itemprop="name"
+            >University of Bristol Computer Science Society</span
+          >
+          <a
+            aria-label="Home"
+            href="/"
+            class="page-header__logo"
+            itemprop="url"
+          >
+            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+          </a>
+        </div>
+        <nav class="page-navigation">
+          <ul class="page-navigation__links">
+            <li><a href="/about/">About</a></li>
 
+            <li><a href="/contact/">Contact</a></li>
+
+            <li><a href="/events/index.html">Events</a></li>
+
+            <li><a href="/jobs/">Jobs</a></li>
+
+            <li><a href="/sponsors">Sponsor us</a></li>
+
+            <li><a href="/tutorials/">Tutorials</a></li>
+
+            <li><a href="/wellbeing/">Wellbeing</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
     <section class="page-section">
-  <article class="article">
-    <h1 id="annual-general-meeting-2018">Annual General Meeting 2018</h1>
-
-<p>It’s that time of year again! Come to the CSS AGM for free pizza and a free vote.</p>
-
-<hr />
-
-<h2 id="nominate-yourself-or-submit-a-motion">Nominate yourself or submit a motion!</h2>
-
-<p>Could you see yourself at the helm of our next Hackathon or Bar Crawl? Being a committee member is a great way to gain experience running events, dealing with industrial sponsors and communications. And to boot - it’s a whole lot of fun!</p>
-
-<p><a href="https://goo.gl/forms/935LJiynSu6a1UZk1">Apply for a position!</a></p>
-
-<p>Want to make a change to how the society runs? Put forward a motion to change our <a href="https://cssbristol.co.uk/pages/constitution">constitution</a>. Constitutional changes must receive a two-thirds majority. Non-constitutional motions must receive a majority.</p>
-
-<p><a href="https://goo.gl/forms/935LJiynSu6a1UZk1">Submit a motion!</a></p>
-
-<hr />
-
-<h2 id="current-motions">Current Motions</h2>
-
-<h3 id="equality-of-catering"><a href="https://goo.gl/forms/30t3z0uRx7ybxrIZ2">Equality of Catering</a></h3>
-
-<p>Proposer: Alessio Zakaria</p>
-
-<p>The proposer has updated the motion to clarify the constitution wording:</p>
-
-<p>This motion proposes that it be compulsory for CSS to query dietary requirements
-for events prior to all events and cater for these. A proposed method of doing
-so would be a poll on a Facebook event. This is to ensure equality of access to
-CSS events and promote inclusivity.</p>
-
-<p>To ensure that this requirement is upheld, a change to the constitution is
-proposed as follows;</p>
-
-<p>Add a new section, entitled Equality and Diversity, which has the following
-text:</p>
-
-<p>“The committee must make a reasonable attempt to gather dietary requirements
-prior to catered events and adapt food and drink provision appropriately.”</p>
-
-<h4 id="previous-draft">Previous draft</h4>
-
-<p>This motion proposes that it be compulsory for CSS to query dietary requirements for events prior to all events and cater for these. A proposed method of doing so would be a poll on a Facebook event. This is to ensure equality of access to CSS events and promote inclusivity.</p>
-
-<h3 id="change-nomination-period"><a href="https://goo.gl/forms/MJbVc9KXIPp6Hg0Y2">Change nomination period</a></h3>
-
-<p>These two motions have the same aim, and so have been combined.</p>
-
-<p>Proposer: Iwan Pettifer-Cole</p>
-
-<p>Change the constitution to allow for nominations of candidates to be made prior to the AGM being held. This allows for more time for members to consider and debate over who to vote for.</p>
-
-<p>Proposer: Alessio Zakaria</p>
-
-<p>The constitution states in paragraph 7 section 1 that “Nominations shall be
-opened and closed at the meeting at which the election is to take place.” This
-is currently unfair to those who are studying abroad for a year as they cannot
-apply to be a committee member. It further reduces the time in which people have
-to make a decision about their preferred candidate.</p>
-
-<p>This motion will amend paragraph 7 section 1 to say:</p>
-
-<p>Elections shall be held at the Annual General Meeting to elect officers as
-specified in section 4. A by-election may be held at any General Meeting where
-the post is vacant. Nominations may be opened in advance of a General Meeting
-at the discretion of the committee.</p>
-
-<h2 id="current-nominees">Current Nominees</h2>
-
-<p>We’ll be electing twelve new committee members. You can nominate yourself for multiple positions - here is the current competition!</p>
-
-<p align="center">
-<img src="/assets/images/contrib/events/2018-4-AGM/nominees.png" />
-</p>
-
-<h3 id="vote-now">Vote Now</h3>
-
-<ul>
-  <li><a href="/agm-2018/vote/president">President</a></li>
-  <li><a href="/agm-2018/vote/vice-president">Vice-President</a></li>
-  <li><a href="/agm-2018/vote/treasurer">Treasurer</a></li>
-  <li><a href="/agm-2018/vote/secretary">Secretary</a></li>
-  <li><a href="/agm-2018/vote/events">Events</a></li>
-  <li><a href="/agm-2018/vote/press">Press</a></li>
-  <li><a href="/agm-2018/vote/webmaster">Webmaster</a></li>
-  <li><a href="/agm-2018/vote/sports">Sports</a></li>
-  <li><a href="/agm-2018/vote/outreach">Outreach</a></li>
-  <li><a href="/agm-2018/vote/equality">Equality</a></li>
-  <li><a href="/agm-2018/vote/general1">General Officer 1</a></li>
-  <li><a href="/agm-2018/vote/general2">General Officer 2</a></li>
-</ul>
-
-<h3 id="adam-deegan">Adam Deegan</h3>
-
-<p>Through being the first-year rep for CSS I’ve gathered lots of experience and knowledge related to the society and want to have a greater impact on how it’s run. I loved helping with events last year and want to continue the quality and volume of them, and include some more focus on mental health/wellbeing (from events like a weekly coffee shop meetup).</p>
-
-<h3 id="muntazim-ali">Muntazim Ali</h3>
-
-<p>UNBAN ME FROM THE DISCORD (ps this is not a joke I am running for every role and plan to give a speech)</p>
-
-<h3 id="miklós-borsi">Miklós Borsi</h3>
-
-<p>I am applying for the CSS committee because I have enormous leadership experience. I organize discussions, plan projects, distribute tasks and make everything run smoothly and on time. I’ve been JCR Committee, Esports officer and Social Secretary, lead of just about every group project and even a game studio of my friends and I.</p>
-
-<p>I believe I can make the entire committee’s lives easier and the society more efficient if elected.That was way enough bragging for now. You may ask, dear reader, what direction I would like CSS to take. You asked exactly the right question then because the answer is in the paragraph just below. Read on!</p>
-
-<p>I plan to forge CSS from a society to a community. The current technical and professional side is excellently done - the tech talks, hackathons and such are great. However, the society often feels disjoint, cliqued. I believe that we could have more events not necessarily centered around computer science itself - events that let people get to know each other better. I would push for more pub quizzes, picnics, Game Jams and joint socials.</p>
-
-<h3 id="katie-marquand">Katie Marquand</h3>
-
-<p>Having been the Sports and Social Officer for the past year I believe that I have the experience and skills necessary to help run the society.  Being part of the committee last year gave me a sense of purpose and I would love the opportunity to represent CSS again and continue to improve the events and socials.  Also I’ll make sure there is a football team this time.</p>
-
-<h3 id="kenneth-lomas">Kenneth Lomas</h3>
-
-<p>I reckon I’d be able to do this. I will work hard for the society
-and keep all the papers tidy.</p>
-
-<h3 id="elias-kassell-raymond">Elias Kassell Raymond</h3>
-
-<p>I am currently treasurer for the University of Bristol Boat Club, the club with the largest cash flow of any associated with the SU. I know most of the SU finance team, have completely remade the finance management system for my position, participated in many purchases, and would love to apply my skills and connections to CSS.</p>
-
-<p>I am also Chief Technology Office for a new project, the Bristol Hedge Fund, a rapidly growing finance project aiming for mass student participation, and would like to introduce the opportunities they provide to anyone interested in a career in finance. These opportunities include talks from prominent members of banks, the use our practice trading platform, and given the skills of CSS the opportunity to help to develop our platform.</p>
-
-<p>Next year I will be taking particular interest in acquiring unrestricted funds for the Boat Club, and would like to see what I could do for the CSS as well.</p>
-
-<p>Pizza pizza pizza pizza pizza!</p>
-
-<h3 id="roberto-lau-soto">Roberto Lau-Soto</h3>
-
-<p>I would be honoured to be chosen as either events lead or as a general officer on the committee. I can bring my experience as a first year course rep with regards to listening to what people want and coordinating with others to provide a rewarding experience at uni for CompSci students. If given the role of Events lead especially I would try my hardest to secure a wide range of talks (with free pizza of course) throughout the year and help other events like hackathons, revision workshops etc. run as smoothly as possible.</p>
-
-<h3 id="kyle-welch">Kyle Welch</h3>
-
-<p>Over my time at Bristol I’ve worked on numerous Outreach/Widening-Participation projects and would love to bring that experience into the role as Outreach officer. One of the main goals I’d like to achieve is to make information around working on Outreach projects more accessible - possibly set up a web page with information about opportunities available. This could include work from in the department (Digimakers, etc.), but also other projects around University and the local area (like Bristol Hub).</p>
-
-<p>I’m also hoping to reach out to other Computer Science Societies at Universities in the UK and organising a collaborative event (Hackathon, Coding Challenge or something else).</p>
-
-<p>An event I’m also particularly keen to start up Coffee &amp; Code (or similar). It would be a regular social where people from CS could meet up in a local coffee shop (perhaps BTP) ,  have some coffee and code. The overall aim would be to make it as inclusive as possible and to foster a greater sense of community within CSS.</p>
-
-<h3 id="theano-xirouchaki">Theano Xirouchaki</h3>
-
-<p>Having participated in a variety of events run by the CCS I have decided to get more involved and help out in the future as these events give a unique opportunity to work together and learn more about subject areas we are interested in but which may not be strictly related to our units, as well as have fun.</p>
-
-<h3 id="jay-lees">Jay Lees</h3>
-
-<p>Throughout my time at Bristol so far, CSS has really worked hard to make computer science feel so much more than a day job: the society has been a family, and the opportunities it provides are incredible. I want to lead the society into the new academic year continuing to provide this and more for all students, new and old, making sure that no one ever has the problem of insufficient free pizza!</p>
-
-<h3 id="krzysztof-gora">Krzysztof Gora</h3>
-
-<p>In my previous position as Academic and an LGBT Ambassador for my Sixth Form, and together with a team, I was responsible for organising extra support, creating and running the debating club, assisting with ensuring a smooth transition for new students into the Sixth Form, study groups and regular advice assemblies. I also supported my school’s KS3 Computer Science club, which gave me the chance to inspire younger students with my passion for the subject. For the European Day of Languages in 2013 I devised and delivered Polish language lessons to teachers and pupils. This has since continued and expanded, incorporating other languages.</p>
-
-<p>As a Sixth Form student I was always committed to my School and helping the diverse student community. My current experience with CSS is that it already is a very welcoming and inclusive place and I believe that with my skills and experience I can make it even better.</p>
-
-<h3 id="james-daly">James Daly</h3>
-
-<p>Firstly, I apologise for not being at the AGM in person, due to study abroad in Hong Kong. It’s been an inspiring year here and I hope I can bring back some of the energy Hong Kong University of Science and Technology students have for their societies to Bristol.</p>
-
-<p>—OUTREACH—
-Unfortunately, my contributions to Caroline’s outreach department have been heavily impaired by my distance from Bristol and the restrictions upon my visa here. However, I was a very active contributor to DigiMakers, DigiMakers Roadshow and the other programmes organised by Caroline in the year and summer before my departure here, and I look forward to returning to a close working relationship with Caroline. The opportunity to do so as a representative for CSS, and to extend our outreach, I would very much enjoy.</p>
-
-<p>—PRESS AND ADVERTISING—
-Previously I’ve been IT &amp; Press Secretary in my sixth-form council and the founding Press Secretary for Bristol’s Disney Society. I enjoy design, CSS has a strong brand and I look forward to hopefully strengthening it further in 2018/19.</p>
-
-<h3 id="jian-wang">Jian Wang</h3>
-
-<p>With the backing of the previous press officer I’d like to use new means to reach all the CS students that attend our university. One of the main ideas would be to use the current Discord server and make it more active so people can actively participate, see announcements and ask questions directly to the committee. On top of that I have the experience of participatting in previous student-led councils so I think I’ll be able to properly do the work. Also, CSE representation ahoy.</p>
-
-<h3 id="sibela-chinareva">Sibela Chinareva</h3>
-
-<p>I’m interested in designing and developing front end for web applications. This year I had a great time working on the front end of my team’s Software Engineering project, a web app to manage the University’s SPE unit. Having such role will also help me with job applications in Web Development so pls vote.</p>
-
-<h3 id="qi-rui-chen">Qi-rui Chen</h3>
-
-<p>Originally I was interested in joining CSS after seeing the impact it had on my friend Alessio, the previous president. When thinking about what role would suite me, it was pretty obvious that webmaster was the only choice.</p>
-
-<p>If given the opportunity I’d like to make better use of the website, keeping it more frequently updated and mirroring content from Facebook. Personally this would also be a leaning experience for me, as I have always wanted to self host services but never found the time.</p>
-
-<hr />
-
-<p>Nominees will have a chance to speak for 60s (once, regardless of how many positions you apply for) during the AGM.</p>
-
-<p>If you’re abroad this year or can’t attend the AGM - don’t worry! You can still apply. We recommend recording a short video of yourself speaking so that we can play it at the AGM. If you like, we can read out a written statement instead.</p>
-
-<p>Have questions about what it’s like to be a CSS committee member? <a href="https://cssbristol.co.uk/contact/">Ask any of us!</a></p>
-
-<p><a class="btn btn--dark" href="https://www.facebook.com/events/356362618213335/">
-  Facebook event
-</a></p>
-
-  </article>
-</section>
-
+      <article class="article">
+        <h1 id="annual-general-meeting-2018">Annual General Meeting 2018</h1>
+
+        <p>
+          It’s that time of year again! Come to the CSS AGM for free pizza and a
+          free vote.
+        </p>
+
+        <hr />
+
+        <h2 id="nominate-yourself-or-submit-a-motion">
+          Nominate yourself or submit a motion!
+        </h2>
+
+        <p>
+          Could you see yourself at the helm of our next Hackathon or Bar Crawl?
+          Being a committee member is a great way to gain experience running
+          events, dealing with industrial sponsors and communications. And to
+          boot - it’s a whole lot of fun!
+        </p>
+
+        <p>
+          <a href="https://goo.gl/forms/935LJiynSu6a1UZk1"
+            >Apply for a position!</a
+          >
+        </p>
+
+        <p>
+          Want to make a change to how the society runs? Put forward a motion to
+          change our
+          <a href="https://cssbristol.co.uk/pages/constitution">constitution</a
+          >. Constitutional changes must receive a two-thirds majority.
+          Non-constitutional motions must receive a majority.
+        </p>
+
+        <p>
+          <a href="https://goo.gl/forms/935LJiynSu6a1UZk1">Submit a motion!</a>
+        </p>
+
+        <hr />
+
+        <h2 id="current-motions">Current Motions</h2>
+
+        <h3 id="equality-of-catering">
+          <a href="https://goo.gl/forms/30t3z0uRx7ybxrIZ2"
+            >Equality of Catering</a
+          >
+        </h3>
+
+        <p>Proposer: Alessio Zakaria</p>
+
+        <p>
+          The proposer has updated the motion to clarify the constitution
+          wording:
+        </p>
+
+        <p>
+          This motion proposes that it be compulsory for CSS to query dietary
+          requirements for events prior to all events and cater for these. A
+          proposed method of doing so would be a poll on a Facebook event. This
+          is to ensure equality of access to CSS events and promote inclusivity.
+        </p>
+
+        <p>
+          To ensure that this requirement is upheld, a change to the
+          constitution is proposed as follows;
+        </p>
+
+        <p>
+          Add a new section, entitled Equality and Diversity, which has the
+          following text:
+        </p>
+
+        <p>
+          “The committee must make a reasonable attempt to gather dietary
+          requirements prior to catered events and adapt food and drink
+          provision appropriately.”
+        </p>
+
+        <h4 id="previous-draft">Previous draft</h4>
+
+        <p>
+          This motion proposes that it be compulsory for CSS to query dietary
+          requirements for events prior to all events and cater for these. A
+          proposed method of doing so would be a poll on a Facebook event. This
+          is to ensure equality of access to CSS events and promote inclusivity.
+        </p>
+
+        <h3 id="change-nomination-period">
+          <a href="https://goo.gl/forms/MJbVc9KXIPp6Hg0Y2"
+            >Change nomination period</a
+          >
+        </h3>
+
+        <p>These two motions have the same aim, and so have been combined.</p>
+
+        <p>Proposer: Iwan Pettifer-Cole</p>
+
+        <p>
+          Change the constitution to allow for nominations of candidates to be
+          made prior to the AGM being held. This allows for more time for
+          members to consider and debate over who to vote for.
+        </p>
+
+        <p>Proposer: Alessio Zakaria</p>
+
+        <p>
+          The constitution states in paragraph 7 section 1 that “Nominations
+          shall be opened and closed at the meeting at which the election is to
+          take place.” This is currently unfair to those who are studying abroad
+          for a year as they cannot apply to be a committee member. It further
+          reduces the time in which people have to make a decision about their
+          preferred candidate.
+        </p>
+
+        <p>This motion will amend paragraph 7 section 1 to say:</p>
+
+        <p>
+          Elections shall be held at the Annual General Meeting to elect
+          officers as specified in section 4. A by-election may be held at any
+          General Meeting where the post is vacant. Nominations may be opened in
+          advance of a General Meeting at the discretion of the committee.
+        </p>
+
+        <h2 id="current-nominees">Current Nominees</h2>
+
+        <p>
+          We’ll be electing twelve new committee members. You can nominate
+          yourself for multiple positions - here is the current competition!
+        </p>
+
+        <p align="center">
+          <img src="/assets/images/contrib/events/2018-4-AGM/nominees.png" />
+        </p>
+
+        <h3 id="vote-now">Vote Now</h3>
+
+        <ul>
+          <li><a href="/agm-2018/vote/president">President</a></li>
+          <li><a href="/agm-2018/vote/vice-president">Vice-President</a></li>
+          <li><a href="/agm-2018/vote/treasurer">Treasurer</a></li>
+          <li><a href="/agm-2018/vote/secretary">Secretary</a></li>
+          <li><a href="/agm-2018/vote/events">Events</a></li>
+          <li><a href="/agm-2018/vote/press">Press</a></li>
+          <li><a href="/agm-2018/vote/webmaster">Webmaster</a></li>
+          <li><a href="/agm-2018/vote/sports">Sports</a></li>
+          <li><a href="/agm-2018/vote/outreach">Outreach</a></li>
+          <li><a href="/agm-2018/vote/equality">Equality</a></li>
+          <li><a href="/agm-2018/vote/general1">General Officer 1</a></li>
+          <li><a href="/agm-2018/vote/general2">General Officer 2</a></li>
+        </ul>
+
+        <h3 id="adam-deegan">Adam Deegan</h3>
+
+        <p>
+          Through being the first-year rep for CSS I’ve gathered lots of
+          experience and knowledge related to the society and want to have a
+          greater impact on how it’s run. I loved helping with events last year
+          and want to continue the quality and volume of them, and include some
+          more focus on mental health/wellbeing (from events like a weekly
+          coffee shop meetup).
+        </p>
+
+        <h3 id="muntazim-ali">Muntazim Ali</h3>
+
+        <p>
+          UNBAN ME FROM THE DISCORD (ps this is not a joke I am running for
+          every role and plan to give a speech)
+        </p>
+
+        <h3 id="miklós-borsi">Miklós Borsi</h3>
+
+        <p>
+          I am applying for the CSS committee because I have enormous leadership
+          experience. I organize discussions, plan projects, distribute tasks
+          and make everything run smoothly and on time. I’ve been JCR Committee,
+          Esports officer and Social Secretary, lead of just about every group
+          project and even a game studio of my friends and I.
+        </p>
+
+        <p>
+          I believe I can make the entire committee’s lives easier and the
+          society more efficient if elected.That was way enough bragging for
+          now. You may ask, dear reader, what direction I would like CSS to
+          take. You asked exactly the right question then because the answer is
+          in the paragraph just below. Read on!
+        </p>
+
+        <p>
+          I plan to forge CSS from a society to a community. The current
+          technical and professional side is excellently done - the tech talks,
+          hackathons and such are great. However, the society often feels
+          disjoint, cliqued. I believe that we could have more events not
+          necessarily centered around computer science itself - events that let
+          people get to know each other better. I would push for more pub
+          quizzes, picnics, Game Jams and joint socials.
+        </p>
+
+        <h3 id="katie-marquand">Katie Marquand</h3>
+
+        <p>
+          Having been the Sports and Social Officer for the past year I believe
+          that I have the experience and skills necessary to help run the
+          society. Being part of the committee last year gave me a sense of
+          purpose and I would love the opportunity to represent CSS again and
+          continue to improve the events and socials. Also I’ll make sure there
+          is a football team this time.
+        </p>
+
+        <h3 id="kenneth-lomas">Kenneth Lomas</h3>
+
+        <p>
+          I reckon I’d be able to do this. I will work hard for the society and
+          keep all the papers tidy.
+        </p>
+
+        <h3 id="elias-kassell-raymond">Elias Kassell Raymond</h3>
+
+        <p>
+          I am currently treasurer for the University of Bristol Boat Club, the
+          club with the largest cash flow of any associated with the SU. I know
+          most of the SU finance team, have completely remade the finance
+          management system for my position, participated in many purchases, and
+          would love to apply my skills and connections to CSS.
+        </p>
+
+        <p>
+          I am also Chief Technology Office for a new project, the Bristol Hedge
+          Fund, a rapidly growing finance project aiming for mass student
+          participation, and would like to introduce the opportunities they
+          provide to anyone interested in a career in finance. These
+          opportunities include talks from prominent members of banks, the use
+          our practice trading platform, and given the skills of CSS the
+          opportunity to help to develop our platform.
+        </p>
+
+        <p>
+          Next year I will be taking particular interest in acquiring
+          unrestricted funds for the Boat Club, and would like to see what I
+          could do for the CSS as well.
+        </p>
+
+        <p>Pizza pizza pizza pizza pizza!</p>
+
+        <h3 id="roberto-lau-soto">Roberto Lau-Soto</h3>
+
+        <p>
+          I would be honoured to be chosen as either events lead or as a general
+          officer on the committee. I can bring my experience as a first year
+          course rep with regards to listening to what people want and
+          coordinating with others to provide a rewarding experience at uni for
+          CompSci students. If given the role of Events lead especially I would
+          try my hardest to secure a wide range of talks (with free pizza of
+          course) throughout the year and help other events like hackathons,
+          revision workshops etc. run as smoothly as possible.
+        </p>
+
+        <h3 id="kyle-welch">Kyle Welch</h3>
+
+        <p>
+          Over my time at Bristol I’ve worked on numerous
+          Outreach/Widening-Participation projects and would love to bring that
+          experience into the role as Outreach officer. One of the main goals
+          I’d like to achieve is to make information around working on Outreach
+          projects more accessible - possibly set up a web page with information
+          about opportunities available. This could include work from in the
+          department (Digimakers, etc.), but also other projects around
+          University and the local area (like Bristol Hub).
+        </p>
+
+        <p>
+          I’m also hoping to reach out to other Computer Science Societies at
+          Universities in the UK and organising a collaborative event
+          (Hackathon, Coding Challenge or something else).
+        </p>
+
+        <p>
+          An event I’m also particularly keen to start up Coffee &amp; Code (or
+          similar). It would be a regular social where people from CS could meet
+          up in a local coffee shop (perhaps BTP) , have some coffee and code.
+          The overall aim would be to make it as inclusive as possible and to
+          foster a greater sense of community within CSS.
+        </p>
+
+        <h3 id="theano-xirouchaki">Theano Xirouchaki</h3>
+
+        <p>
+          Having participated in a variety of events run by the CCS I have
+          decided to get more involved and help out in the future as these
+          events give a unique opportunity to work together and learn more about
+          subject areas we are interested in but which may not be strictly
+          related to our units, as well as have fun.
+        </p>
+
+        <h3 id="jay-lees">Jay Lees</h3>
+
+        <p>
+          Throughout my time at Bristol so far, CSS has really worked hard to
+          make computer science feel so much more than a day job: the society
+          has been a family, and the opportunities it provides are incredible. I
+          want to lead the society into the new academic year continuing to
+          provide this and more for all students, new and old, making sure that
+          no one ever has the problem of insufficient free pizza!
+        </p>
+
+        <h3 id="krzysztof-gora">Krzysztof Gora</h3>
+
+        <p>
+          In my previous position as Academic and an LGBT Ambassador for my
+          Sixth Form, and together with a team, I was responsible for organising
+          extra support, creating and running the debating club, assisting with
+          ensuring a smooth transition for new students into the Sixth Form,
+          study groups and regular advice assemblies. I also supported my
+          school’s KS3 Computer Science club, which gave me the chance to
+          inspire younger students with my passion for the subject. For the
+          European Day of Languages in 2013 I devised and delivered Polish
+          language lessons to teachers and pupils. This has since continued and
+          expanded, incorporating other languages.
+        </p>
+
+        <p>
+          As a Sixth Form student I was always committed to my School and
+          helping the diverse student community. My current experience with CSS
+          is that it already is a very welcoming and inclusive place and I
+          believe that with my skills and experience I can make it even better.
+        </p>
+
+        <h3 id="james-daly">James Daly</h3>
+
+        <p>
+          Firstly, I apologise for not being at the AGM in person, due to study
+          abroad in Hong Kong. It’s been an inspiring year here and I hope I can
+          bring back some of the energy Hong Kong University of Science and
+          Technology students have for their societies to Bristol.
+        </p>
+
+        <p>
+          —OUTREACH— Unfortunately, my contributions to Caroline’s outreach
+          department have been heavily impaired by my distance from Bristol and
+          the restrictions upon my visa here. However, I was a very active
+          contributor to DigiMakers, DigiMakers Roadshow and the other
+          programmes organised by Caroline in the year and summer before my
+          departure here, and I look forward to returning to a close working
+          relationship with Caroline. The opportunity to do so as a
+          representative for CSS, and to extend our outreach, I would very much
+          enjoy.
+        </p>
+
+        <p>
+          —PRESS AND ADVERTISING— Previously I’ve been IT &amp; Press Secretary
+          in my sixth-form council and the founding Press Secretary for
+          Bristol’s Disney Society. I enjoy design, CSS has a strong brand and I
+          look forward to hopefully strengthening it further in 2018/19.
+        </p>
+
+        <h3 id="jian-wang">Jian Wang</h3>
+
+        <p>
+          With the backing of the previous press officer I’d like to use new
+          means to reach all the CS students that attend our university. One of
+          the main ideas would be to use the current Discord server and make it
+          more active so people can actively participate, see announcements and
+          ask questions directly to the committee. On top of that I have the
+          experience of participatting in previous student-led councils so I
+          think I’ll be able to properly do the work. Also, CSE representation
+          ahoy.
+        </p>
+
+        <h3 id="sibela-chinareva">Sibela Chinareva</h3>
+
+        <p>
+          I’m interested in designing and developing front end for web
+          applications. This year I had a great time working on the front end of
+          my team’s Software Engineering project, a web app to manage the
+          University’s SPE unit. Having such role will also help me with job
+          applications in Web Development so pls vote.
+        </p>
+
+        <h3 id="qi-rui-chen">Qi-rui Chen</h3>
+
+        <p>
+          Originally I was interested in joining CSS after seeing the impact it
+          had on my friend Alessio, the previous president. When thinking about
+          what role would suite me, it was pretty obvious that webmaster was the
+          only choice.
+        </p>
+
+        <p>
+          If given the opportunity I’d like to make better use of the website,
+          keeping it more frequently updated and mirroring content from
+          Facebook. Personally this would also be a leaning experience for me,
+          as I have always wanted to self host services but never found the
+          time.
+        </p>
+
+        <hr />
+
+        <p>
+          Nominees will have a chance to speak for 60s (once, regardless of how
+          many positions you apply for) during the AGM.
+        </p>
+
+        <p>
+          If you’re abroad this year or can’t attend the AGM - don’t worry! You
+          can still apply. We recommend recording a short video of yourself
+          speaking so that we can play it at the AGM. If you like, we can read
+          out a written statement instead.
+        </p>
+
+        <p>
+          Have questions about what it’s like to be a CSS committee member?
+          <a href="https://cssbristol.co.uk/contact/">Ask any of us!</a>
+        </p>
+
+        <p>
+          <a
+            class="btn btn--dark"
+            href="https://www.facebook.com/events/356362618213335/"
+          >
+            Facebook event
+          </a>
+        </p>
+      </article>
+    </section>
 
     <section class="page-section sponsorsec">
-    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
-    <div class="sponsors">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-            
-<a
-  href="https://www.publicissapient.com/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Publicis Sapient"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/publicis_sapient.svg"
-    alt="Publicis Sapient"
-    width="130"
-    height="170"
-  />
-</a>
+      <h1 class="sponsors-title">
+        <a href="/pages/sponsors">Proudly sponsored by</a>
+      </h1>
+      <div class="sponsors">
+        <a
+          href="https://www.publicissapient.com/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Publicis Sapient"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/publicis_sapient.svg"
+            alt="Publicis Sapient"
+            width="130"
+            height="170"
+          />
+        </a>
 
-          
-        
-      
-        
-          
-        
-      
-        
-          
-            
-<a
-  href="https://www.qube-rt.com/careers/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Qube Research & Technologies"
-  class="company-logo"
->
-  <img
-    src="/assets/images/contrib/companies/qube-rt.svg"
-    alt="Qube Research & Technologies"
-    width="130"
-    height="170"
-  />
-</a>
-
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-    </div>
-    <div class="sponsors__action_item">
-      <a href="/pages/sponsors">Learn more about working with us.</a>
-    </div>
-</section>
-
+        <a
+          href="https://www.qube-rt.com/careers/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Qube Research & Technologies"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/qube-rt.svg"
+            alt="Qube Research & Technologies"
+            width="130"
+            height="170"
+          />
+        </a>
+      </div>
+      <div class="sponsors__action_item">
+        <a href="/sponsors">Learn more about working with us.</a>
+      </div>
+    </section>
 
     <footer class="page-footer">
-  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
-  <nav class="page-footer__menu">
-    <ul>
-    
-    
-      
-      <li>
-        <a class="page-link" href="/about/">About</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/contact/">Contact</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/events/index.html">Events</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/jobs/">Jobs</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/sponsors">Sponsor us</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/tutorials/">Tutorials</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/wellbeing/">Wellbeing</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    </ul>
-  </nav>
-</footer>
+      <span class="page-footer__text"
+        >&copy; University of Bristol Computer Science Society</span
+      >
+      <nav class="page-footer__menu">
+        <ul>
+          <li>
+            <a class="page-link" href="/about/">About</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/contact/">Contact</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/events/index.html">Events</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/jobs/">Jobs</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/sponsors">Sponsor us</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/tutorials/">Tutorials</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/wellbeing/">Wellbeing</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
-
 </html>
