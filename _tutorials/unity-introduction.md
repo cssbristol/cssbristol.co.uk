@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 published: true
-title: Unity for Beginners&colon; Flappy Bird!
+title: "Unity for Beginners: Flappy Bird!"
 date: 2023-10-17 18:00:00 +0000
 author:
     name: Austin Long
@@ -9,8 +9,6 @@ author:
     email: mf19511@bristol.ac.uk
 abstract: Learn how to make a simplified version of Flappy Bird in Unity! This tutorial is aimed at complete beginners, so don't worry if you've never used Unity before!
 ---
-
-# Unity Workshop
 
 This sheet is designed to be a pretty structured walkthrough of game development in Unity.
 
