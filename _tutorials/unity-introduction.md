@@ -16,6 +16,8 @@ This sheet is designed to be a pretty structured walkthrough of game development
 
 We will be making our own version of [Flappy Bird](https://en.wikipedia.org/wiki/Flappy_Bird) - this task is pretty much the game development equivalent of the “Hello, World” programming exercise. It should equip you with the prerequisite knowledge you will need to create most kinds of games you might want to work on during the upcoming game jam.
 
+The completed code for this project is [available on GitHub](https://github.com/cssbristol/2023-Unity-Workshop/tree/main).
+
 The instructions are very slow and thorough in the earlier sections so as to give you a strong understanding of the most basic Unity functionality, but as the workshop progresses the pace will pickup! If you're confident in the earlier sections, feel free to skim through them, and if the later parts are a bit unclear please feel free to ask for help.
 
 There are some notes strewn throughout the sheet which aren't necessary for progression, but may provide some hints or explain tangential information in better detail. There are also tasks which will prompt you to do some programming without much assistance.
