@@ -10,7 +10,7 @@ author:
 abstract: Learn how to make a simplified version of Flappy Bird in Unity! This tutorial is aimed at complete beginners, so don't worry if you've never used Unity before!
 ---
 
-## Unity Workshop
+# Unity Workshop
 
 This sheet is designed to be a pretty structured walkthrough of game development in Unity.
 
@@ -24,7 +24,7 @@ There are some notes strewn throughout the sheet which aren't necessary for prog
 
 Throughout the workshop, I assume that everyone will be using the lab machines. If you aren't, you'll need to go through the instructions [here](https://unity.com/download) in order to install the required software on your machine.
 
-### Setup
+## Setup
 
 First, we need to create a project. We will be doing so through the Unity Hub, which is a piece of software that helps you manage your various projects and Unity Editor installations.
 
@@ -37,7 +37,7 @@ First, we need to create a project. We will be doing so through the Unity Hub, w
 
 Once you've created a project, the Unity editor will start up. The user interface might be a little overwhelming at first, but we'll discuss each element of it as we progress through the workshop.
 
-### The Bird
+## The Bird
 
 The beating heart of “Flappy Bird” is the flappy bird - let's start by making one. The hierarchy panel (shown below) lists all of the GameObjects (things) in your game. You'll see that we currently have just two GameObjects: a camera and a light. The camera defines the player's view into the game world, and the light will light everything up. Let's add one more GameObject to represent our bird. Right click on the hierachy panel and select 2D Objects → Sprite → Square.
 
@@ -72,13 +72,13 @@ Lets tackle these one by one.
 
 > Note: Remember to save your work regularly with the CTRL + S hotkey.
 
-#### Falling
+### Falling
 
 One of the things that Unity handles is the simulation of physics. We can tell Unity to include our bird in its physics simulations by giving it a component called “Rigidbody 2D”. Do this by selecting the bird, clicking add component in the inspector view, and then selecting Physics 2D → Rigidbody 2D. If you press play again, you should see that [the bird is able to fall](/assets/images/contrib/tutorials/unity-intro/falling.gif)!
 
 > Note: You can change the physical properties of the bird (e.g. its mass, to what extent it's affected by gravity) by changing the options listed under the Bird's Rigidbody 2D component in the inspector.
 
-#### Flapping
+### Flapping
 
 Now we need to have the bird fly upwards when the player presses a specified button. This isn't something that Unity has already done for us, so we'll have to make our own component by writing a script. Select the bird, click “Add Component” in the inspector, select “New Script” and name your script something sensible. Your script should appear in the project view (shown below), double click on it to open it for editing.
 
@@ -173,7 +173,7 @@ Try putting this inside our “if” statement and pressing play, you should see
 
 You've now learned about most of the major fundamental concepts in Unity. You can navigate the user interface and the Unity ecosystem. You can create GameObjects and modify the behavior of those GameObjects by adding components. You can even make your own components that react to user input and interact with other components. 
 
-### The Pipes
+## The Pipes
 
 For the pipes, let's make two square sprites. We'll elongate them by tweaking the y component of the scale field inside of their transform component. Make sure that there's some space between them for the bird to fit through - you can tweak their positions by selecting them and dragging the arrows that pop up in the scene view. Aim to end up with something like this:
 
@@ -285,7 +285,7 @@ pipe.transform.position += new Vector3(0, Random.Range(-2.5f, 2.5f));
 
 Much better! You should end up with something like [this](/assets/images/contrib/tutorials/unity-intro/goal3.gif).
 
-### Game Over
+## Game Over
 
 You may notice that our bird can go right through the pipe! We can remedy this by adding Box Collider 2D components to all of our sprites. The box collider will define the area within your sprite that cannot pass through other sprites. Your result should look something like [this](/assets/images/contrib/tutorials/unity-intro/goal4.gif)
 
@@ -330,7 +330,7 @@ private void OnCollisionEnter2D(Collision2D col)
 
 Now your “lose text” condition should be working how we want it to!
 
-### Keeping Score
+## Keeping Score
 
 **Task**: You can use what you've learnt so far, with a little googling, to implement the score system. You'll want to:
 
@@ -346,12 +346,12 @@ You should aim for something like [this](/assets/images/contrib/tutorials/unity-
 
 If you're having trouble, check out the example project in this repo for hints.
 
-### Releasing your Game
+## Releasing your Game
 
-#### Building
+### Building
 
 No one at Spoons will be impressed if you pull out your laptop and show them your project running in the Unity editor - trust me. You'll want to build it first. Select File → Build Settings and a new window will appear. Here you can select which platform you would like your game to run on. Select Build or "Build and Run" to have Unity package all your code and assets packaged up into a nice .exe file that you can run outside of the editor.
 
-#### Sharing
+### Sharing
 
 Now having your game run in a dedicated window is cool and everything, but what happens when the friends you've made at Spoons want to play it on their own time? You'll need to share your game on a platform that they'll all have access to. [This article](https://medium.com/@youngchae.depriest/uploading-your-unity-game-onto-itch-io-92dddd6fb71a) explains how to upload your game to itch.io - a popular platform for sharing Indie games.
