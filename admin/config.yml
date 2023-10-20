@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: cssbristol/cssbristol.github.io
+  name: git-gateway
   branch: dev
 
 media_folder: "assets/images/contrib/uploads"
