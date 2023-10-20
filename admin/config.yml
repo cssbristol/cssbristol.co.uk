@@ -24,7 +24,7 @@ collections:
       - {label: Cancel Reason, name: "cancel_reason", widget: "string", required: false}
       - {label: Start Time/Date, name: date, widget: "datetime"}
       - {label: End Time/Date, name: date_end, widget: "datetime"}
-      - {label: Banner, name: banner, widget: "image", media_folder: "/assets/images/contrib/events"}
+      - {label: Banner, name: banner, widget: "image", media_folder: "/assets/images/contrib/events", required: false}
       - {label: Body, name: "body", widget: "markdown"}
       - {label: Location, name: location, widget: "string"}
       - {label: Facebook Link, name: fb_link, widget: "string", required: false}
@@ -34,11 +34,14 @@ collections:
         name: cohost
         widget: list
         collapsed: false
+        required: false
         fields:
           - label: "Name"
             name: "Name"
+            required: false
           - label: "Company"
             name: "company"
+            required: false
             widget: "relation"
             collection: "companies"
             search_fields: ["name"]
