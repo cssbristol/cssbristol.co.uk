@@ -229,5 +229,17 @@
       </div>
       <div class="side" id="right"></div>
     </div>
+    <!-- See https://www.staticcms.org/docs/add-to-your-site-cdn#add-the-netlify-identity-widget -->
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>
