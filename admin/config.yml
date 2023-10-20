@@ -35,6 +35,7 @@ collections:
         widget: list
         collapsed: false
         required: false
+        default: "",
         fields:
           - label: "Name"
             name: "Name"
