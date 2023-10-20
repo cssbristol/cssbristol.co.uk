@@ -43,6 +43,12 @@ collections:
             collection: "companies"
             search_fields: ["name"]
             value_field: "name"
+    sortable_fields:
+      fields: ['date', 'date_end', 'title']
+      default:
+        field: date
+        direction: Descending
+
 
 
 
