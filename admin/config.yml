@@ -62,7 +62,7 @@ collections:
     label: "Jobs"
     folder: "_jobs/"
     media_folder: "assets/images/contrib/uploads/"
-    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     preview_path: jobs/{{slug}}
     editor:
       preview: false

@@ -4353,14 +4353,14 @@ DESCRIPTION:A Publicis Sapient initiative to support charit...
 LOCATION:MVB 1.11/1.11A
 END:VEVENT
 BEGIN:VEVENT
-UID:events-2023-10-21broad-introduction-to-unity-technologies
+UID:events-2023-10-21-broad-introduction-to-unity-technologies
  @cssbristol.co.uk
 DTSTAMP:20231024T183000
 DTSTART:20231024T183000
 DTEND:20231024T193000
-LAST-MODIFIED:20231021T191300
+LAST-MODIFIED:20231021T192000
 URL:https://www.cssbristol.co.uk
- /events/2023-10-21_broad-introduction-to-unity-technologies/
+ /events/2023-10-21-broad-introduction-to-unity-technologies/
 IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
  images/contrib/events//assets/images/contrib/events/2023-10-24-unity-lecture.jpg
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
