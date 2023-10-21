@@ -12,7 +12,7 @@
   {% assign checkHttpStart = c.logo | split: "http://" | first}
   {% assign checkHttpsStart = c.logo | split: "https://" | first}
   {% assign checkSlashStart = c.logo | split: "/" | first}
-  {% assign isRelative = checkHttpStart != blank and checkHttpsStart != blank and checkSlashStart != blank %}
+  {% assign isRelative = checkHttpStart != blank or checkHttpsStart != blank or checkSlashStart != blank %}
   {% if isRelative %}
     {% assign imagePath = c.logo | prepend: "/assets/images/contrib/companies/" %}
   {% else %}
