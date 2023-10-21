@@ -5,7 +5,7 @@ backend:
 media_folder: "assets/images/contrib/uploads"
 site_url: https://cssbristol.co.uk
 display_url: https://cssbristol.co.uk
-logo_url: /assets/images/core/logo-small-dark.png
+logo_url: /assets/images/core/logo-small-light.png
 
 collections:
   - name: "events"
@@ -186,3 +186,4 @@ collections:
       fields: ['title']
       default:
         field: title
+    identifier_field: permalink
