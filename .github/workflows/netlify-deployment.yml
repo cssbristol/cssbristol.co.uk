@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  jekyll:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: 📂 setup
