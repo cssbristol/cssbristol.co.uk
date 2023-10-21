@@ -1,4 +1,4 @@
-{% assign c = site.companies | where_exp: "c", "c.name == include.company"| first | strip %}
+{% assign c = site.companies | where_exp: "c", "c.name == include.company"| first %}
 <a
   href="{% if c.link %}{{ c.link }}{% else %}#{% endif %}"
   target="_blank"
@@ -6,24 +6,25 @@
   data-tooltip="{{ c.name }}"
   class="company-logo"
 >
-  {% comment %}
-    check if the url starts with "http://", "https://" or "/"; if it does then don't prepend the path ot the companies directory
-  {% endcomment %}
+{% if c.logo %}
   {% assign checkHttpStart = c.logo | split: "http://"| first | strip %}
   {% assign checkHttpsStart = c.logo | split: "https://"| first | strip %}
   {% assign checkSlashStart = c.logo | split: "/"| first | strip %}
-  {% assign checkHttpStart = page.banner | split: "http://"| first | strip %}
-  {% assign checkHttpsStart = page.banner | split: "https://"| first | strip %}
-  {% assign checkSlashStart = page.banner | split: "/"| first | strip %}
-  {% if checkHttpStart != blank and checkHttpsStart != blank and checkSlashStart != blank %}
+
+  {% if checkHttpStart != "" and checkHttpsStart != "" and checkSlashStart != "" %}
       {% assign imagePath = c.logo | prepend: "/assets/images/contrib/companies/" %}
   {% else %}
     {% assign imagePath = c.logo %}
   {% endif %}
+
   <img
     src="{{ imagePath }}"
     alt="{{ c.name }}"
     width="130"
     height="170"
   />
+
+{% else %}
+    {{ c.name }}
+{% endif %}
 </a>
