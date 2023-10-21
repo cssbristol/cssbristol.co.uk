@@ -88,7 +88,7 @@ check if the url starts with "http://", "https://" or "/"; if it does then don't
         <i class="fab fa-facebook"></i>
         <p>Join the Facebook event!</p>
       </a>
-      {% endif %} {% if page.cohost %}
+      {% endif %} {% if page.cohost.size > 0 %}
       <div class="event-page__details__hosted-with">
         <hr />
         <h4>Hosted with:</h4>
