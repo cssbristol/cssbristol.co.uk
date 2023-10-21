@@ -139,7 +139,7 @@ collections:
             name: "end"
             widget: "datetime"
             format: "yyyy-MM-dd HH:mm:ss"
-    indentifier_field: name
+    identifier_field: name
 
 
   - name: "tutorials"
