@@ -1,8 +1,9 @@
-name: "Scheduled: Build and deploy jekyll site to Netlify"
+name: "Build and deploy jekyll site to Netlify"
 
 on:
   schedule:
     - cron: "0 6,13-15,18,22 * * *"
+  workflow_dispatch:
 
 jobs:
   jekyll:
