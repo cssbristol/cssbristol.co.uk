@@ -54,18 +54,57 @@ collections:
         direction: Descending
 
 
+  - name: "jobs"
+    label: "Jobs"
+    folder: "_jobs/"
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    preview_path: jobs/{{slug}}
+    editor:
+      preview: false
+    fields:
+      - {label: layout, name: "layout", widget: "hidden", default: "job"}
+      - {label: Title, name: "title", widget: "string"}
+      - {label: Hide?, name: "hide", widget: "boolean", default: false}
+      - {label: Sponsored?, name: "sponsored", widget: "boolean", default: false}
+      - {label: Date Posted, name: datePosted, widget: "datetime", format: "yyyy-MM-dd HH:mm:ss xx"}
+      - {label: Valid Thru, name: validThrough, widget: "datetime", format: "yyyy-MM-dd HH:mm:ss xx"}
+      - label: "Hiring Organisation"
+        name: "hiringOrganization"
+        widget: "object"
+        fields:
+          - {label: "Name", name: "name", widget: "relation", collection: "companies", search_fields: ["name"], value_field: "name"}
+          - {label: "Address", name: "address", widget: "text"}
+      - {label: Location, name: "jobLocation", widget: "string"}
+      - {label: Industry, name: "industry", widget: "string"}
+      - {label: Employment Type, name: "employmentType", widget: "string"}
+      - {label: Start Date, name: "startDate", widget: "string"}
+      - {label: Occupational Category, name: "occupationalCategory", widget: "string"}
+      - {label: Base Salary, name: "baseSalary", widget: "string", required: false}
+      - {label: Salary Currency, name: "salaryCurrency", widget: "string", required: false}
+      - {label: Salary Period, name: "salaryPeriod", widget: "string", required: false}
+      - {label: Logo, name: logo, widget: "image", media_folder: "/assets/images/contrib/companies"}
+      - label: "How to apply"
+        name: "apply"
+        widget: "object"
+        fields:
+          - {label: "Application Link", name: "link", widget: "text", required: false}
+          - label: "Email"
+            name: "email"
+            widget: "object"
+            required: false
+            fields:
+              - {label: "Email Address", name: "address", widget: "text"}
+              - label: What should they send?
+                name: items
+                widget: list
+                collapsed: false
+                fields:
+                  - label: "Item name"
+                    name: "name"
+                    description: "What should the email include? (E.g. CV, Cover Letter, GitHub username.)"
+                    widget: "string"
+      - {label: Body, name: "body", widget: "markdown"}
 
-
-  # - name: "jobs"
-  #   label: "Jobs"
-  #   folder: "_jobs/"
-  #   slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
-  #   preview_path: jobs/{{slug}}
-  #   editor:
-  #     preview: false
-  #   fields:
-  #     - {label: layout, name: "layout", widget: "hidden", default: "job"}
-  #     - {label: Title, name: "title", widget: "string"}
 
   - name: "companies"
     label: "Companies"
@@ -75,3 +114,66 @@ collections:
       - {label: Name, name: "name"}
       - {label: Logo, name: logo, widget: "image", media_folder: "/assets/images/contrib/companies"}
       - {label: Link, name: "link"}
+      - label: Sponsorship Terms
+        name: sponsor
+        widget: list
+        collapsed: false
+        required: false
+        default: ""
+        fields:
+          - label: "Start Date"
+            name: "start"
+            widget: "datetime"
+            format: "yyyy-MM-dd HH:mm:ss"
+          - label: "End Date"
+            name: "end"
+            widget: "datetime"
+            format: "yyyy-MM-dd HH:mm:ss"
+
+
+  - name: "tutorials"
+    label: "Tutorials"
+    folder: "_tutorials/"
+    create: true
+    preview_path: tutorials/{{slug}}
+    editor:
+      preview: false
+    fields: 
+      - {label: layout, name: "layout", widget: "hidden", default: "tutorial"}
+      - {label: Title, name: "title", widget: "string"}
+      - {label: Published?, name: "published", widget: "boolean", default: false}
+      - {label: Date, name: date, widget: "datetime", format: "yyyy-MM-dd HH:mm:ss xx"}
+      - {label: Abstract, name: abstract, widget: "text"}
+      - {label: Body, name: "body", widget: "markdown"}
+      - label: Author
+        name: author
+        widget: "object"
+        fields:
+          - {name: "name", label: "Name", widget: "string"}
+          - {name: "email", label: "Email", widget: "string"}
+          - {name: "url", label: "URL", widget: "string"}
+    sortable_fields:
+      fields: ['date', 'title']
+      default:
+        field: date
+        direction: Descending
+
+
+  - name: "page"
+    label: "Page"
+    folder: "pages/"
+    create: true
+    slug: "{{permalink}}"
+    preview_path: pages/{{slug}}
+    editor:
+      preview: false
+    fields: 
+      - {label: layout, name: "layout", widget: "hidden", default: "page"}
+      - {label: Title, name: "title", widget: "string"}
+      - {label: Show in navigation?, name: "show-in-nav", widget: "boolean", default: false}
+      - {label: Permalink, name: permalink, widget: "string"}
+      - {label: Body, name: "body", widget: "markdown"}
+    sortable_fields:
+      fields: ['title']
+      default:
+        field: title
