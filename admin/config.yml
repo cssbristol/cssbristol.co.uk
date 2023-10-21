@@ -2,7 +2,10 @@ backend:
   name: git-gateway
   branch: dev
 
-media_folder: "assets/images/contrib/uploads"
+media_folder: "assets/images/contrib/"
+media_library:
+  folder_support: true
+
 site_url: https://cssbristol.co.uk
 display_url: https://cssbristol.co.uk
 logo_url: /assets/images/core/logo-small-light.png
@@ -11,6 +14,7 @@ collections:
   - name: "events"
     label: "Events"
     folder: "_events/"
+    media_folder: "assets/images/contrib/events"
     create: true
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     preview_path: events/{{slug}}
@@ -57,6 +61,7 @@ collections:
   - name: "jobs"
     label: "Jobs"
     folder: "_jobs/"
+    media_folder: "assets/images/contrib/uploads/"
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     preview_path: jobs/{{slug}}
     editor:
@@ -115,6 +120,7 @@ collections:
   - name: "companies"
     label: "Companies"
     folder: "_companies/"
+    media_folder: "assets/images/contrib/companies/"
     indentifier_field: name
     fields:
       - {label: Name, name: "name"}
@@ -171,6 +177,7 @@ collections:
   - name: "page"
     label: "Page"
     folder: "pages/"
+    media_folder: "assets/images/contrib/uploads/"
     create: true
     slug: "{{permalink}}"
     preview_path: pages/{{slug}}
