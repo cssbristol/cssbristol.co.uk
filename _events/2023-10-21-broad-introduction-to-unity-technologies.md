@@ -5,7 +5,7 @@ published: true
 cancelled: false
 date: 2023-10-24 18:30:25 +0100
 date_end: 2023-10-24 19:30:25 +0100
-banner: /assets/images/contrib/events/2023-10-24-unity-lecture.jpg
+banner: /assets/images/contrib/events/untitled-1-3.jpg
 location: MVB 1.11
 category:
   - Tech Talk
