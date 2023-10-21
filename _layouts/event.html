@@ -2,6 +2,19 @@
 layout: default
 feed: "/feed/events.xml"
 ---
+{% comment %}
+check if the url starts with "http://", "https://" or "/"; if it does then don't prepend the path ot the companies directory
+{% endcomment %}
+
+{% assign checkHttpStart = page.banner | split: "http://" | first}
+{% assign checkHttpsStart = page.banner | split: "https://" | first}
+{% assign checkSlashStart = page.banner | split: "/" | first}
+{% assign isRelative = checkHttpStart != blank and checkHttpsStart != blank and checkSlashStart != blank %}
+{% if isRelative %}
+{% assign bannerPath = page.banner | prepend: "/assets/images/contrib/companies/" %}
+{% else %}
+{% assign bannerPath = page.banner %}
+{% endif %}
 
 <section class="page-section">
   {% if page.cancelled %}
@@ -14,12 +27,13 @@ feed: "/feed/events.xml"
     {% endif %}
   </div>
   {% endif %}
+
   <article class="article extrawide event-page">
     <section>
       {% if page.banner %}
       <div
         class="event-page__banner"
-        style="background-image: url(/assets/images/contrib/events/{{ page.banner }});"
+        style="background-image: url({{ bannerPath }});"
       ></div>
       {% else %}
       <div
