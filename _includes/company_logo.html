@@ -9,10 +9,10 @@
   {% comment %}
     check if the url starts with "http://", "https://" or "/"; if it does then don't prepend the path ot the companies directory
   {% endcomment %}
-  {% assign checkHttpStart = c.logo | split: "http://" | first}
-  {% assign checkHttpsStart = c.logo | split: "https://" | first}
-  {% assign checkSlashStart = c.logo | split: "/" | first}
-  {% assign isRelative = checkHttpStart != blank or checkHttpsStart != blank or checkSlashStart != blank %}
+  {% assign checkHttpStart = c.logo | split: "http://" | first %}
+  {% assign checkHttpsStart = c.logo | split: "https://" | first %}
+  {% assign checkSlashStart = c.logo | split: "/" | first %}
+  {% assign isRelative = checkHttpStart != blank and checkHttpsStart != blank and checkSlashStart != blank %}
   {% if isRelative %}
     {% assign imagePath = c.logo | prepend: "/assets/images/contrib/companies/" %}
   {% else %}
