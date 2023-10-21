@@ -10,10 +10,8 @@ check if the url starts with "http://", "https://" or "/"; if it does then don't
   {% assign checkHttpStart = page.banner | split: "http://"| first | strip %}
   {% assign checkHttpsStart = page.banner | split: "https://"| first | strip %}
   {% assign checkSlashStart = page.banner | split: "/"| first | strip %}
-  <!-- checkSlashStart: "{{ checkSlashStart }}" -->
   {% if checkHttpStart != "" and checkHttpsStart != "" and checkSlashStart != "" %}
     {% assign bannerPath = page.banner | prepend: "/assets/images/contrib/events/" %}
-    <!-- bannerPath: "{{ bannerPath }}" -->
   {% else %}
     {% assign bannerPath = page.banner %}
   {% endif %}
