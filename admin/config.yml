@@ -157,3 +157,22 @@ collections:
       default:
         field: date
         direction: Descending
+
+  - name: "page"
+    label: "Page"
+    folder: "pages/"
+    create: true
+    slug: "{{permalink}}"
+    preview_path: pages/{{slug}}
+    editor:
+      preview: false
+    fields: 
+      - {label: layout, name: "layout", widget: "hidden", default: "page"}
+      - {label: Title, name: "title", widget: "string"}
+      - {label: Show in navigation?, name: "show-in-nav", widget: "boolean", default: false}
+      - {label: Permalink, name: permalink, widget: "string"}
+      - {label: Body, name: "body", widget: "markdown"}
+    sortable_fields:
+      fields: ['title']
+      default:
+        field: title
