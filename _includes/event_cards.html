@@ -4,9 +4,9 @@
       check if the url starts with "http://", "https://" or "/"; if it does then don't prepend the path ot the companies directory
     {% endcomment %}
 
-    {% assign checkHttpStart = event.banner | split: "http://" | first %}
-    {% assign checkHttpsStart = event.banner | split: "https://" | first %}
-    {% assign checkSlashStart = event.banner | split: "/" | first %}
+    {% assign checkHttpStart = event.banner | split: "http://"| first | strip %}
+    {% assign checkHttpsStart = event.banner | split: "https://"| first | strip %}
+    {% assign checkSlashStart = event.banner | split: "/"| first | strip %}
     {% if checkHttpStart != blank and checkHttpsStart != blank and checkSlashStart != blank %}
      {% assign bannerPath = event.banner | prepend: "/assets/images/contrib/events/" %}
     {% else %}

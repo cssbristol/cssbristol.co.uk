@@ -1,4 +1,4 @@
-{% assign c = site.companies | where_exp: "c", "c.name == include.company" | first %}
+{% assign c = site.companies | where_exp: "c", "c.name == include.company"| first | strip %}
 <a
   href="{% if c.link %}{{ c.link }}{% else %}#{% endif %}"
   target="_blank"
@@ -9,12 +9,12 @@
   {% comment %}
     check if the url starts with "http://", "https://" or "/"; if it does then don't prepend the path ot the companies directory
   {% endcomment %}
-  {% assign checkHttpStart = c.logo | split: "http://" | first %}
-  {% assign checkHttpsStart = c.logo | split: "https://" | first %}
-  {% assign checkSlashStart = c.logo | split: "/" | first %}
-  {% assign checkHttpStart = page.banner | split: "http://" | first %}
-  {% assign checkHttpsStart = page.banner | split: "https://" | first %}
-  {% assign checkSlashStart = page.banner | split: "/" | first %}
+  {% assign checkHttpStart = c.logo | split: "http://"| first | strip %}
+  {% assign checkHttpsStart = c.logo | split: "https://"| first | strip %}
+  {% assign checkSlashStart = c.logo | split: "/"| first | strip %}
+  {% assign checkHttpStart = page.banner | split: "http://"| first | strip %}
+  {% assign checkHttpsStart = page.banner | split: "https://"| first | strip %}
+  {% assign checkSlashStart = page.banner | split: "/"| first | strip %}
   {% if checkHttpStart != blank and checkHttpsStart != blank and checkSlashStart != blank %}
       {% assign imagePath = c.logo | prepend: "/assets/images/contrib/companies/" %}
   {% else %}

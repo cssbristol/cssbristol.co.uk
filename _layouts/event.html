@@ -6,13 +6,11 @@ feed: "/feed/events.xml"
 check if the url starts with "http://", "https://" or "/"; if it does then don't prepend the path ot the companies directory
 {% endcomment %}
 
-{% assign checkHttpStart = page.banner | split: "http://" | first %}
-{% assign checkHttpsStart = page.banner | split: "https://" | first %}
-{% assign checkSlashStart = page.banner | split: "/" | first %}
+{% assign checkHttpStart = page.banner | split: "http://"| first | strip %}
+{% assign checkHttpsStart = page.banner | split: "https://"| first | strip %}
+{% assign checkSlashStart = page.banner | split: "/"| first | strip %}
 {% if checkHttpStart != blank and checkHttpsStart != blank and checkSlashStart != blank %}
-  <!-- checkSlashStart: {{ checkSlashStart }} -->
   {% assign bannerPath = page.banner | prepend: "/assets/images/contrib/events/" %}
-  <!-- checkSlashStart: {{ bannerPath }} -->
 {% else %}
   {% assign bannerPath = page.banner %}
 {% endif %}
