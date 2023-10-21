@@ -1,31 +1,29 @@
 ---
 layout: page-wide
 title: Contact
+show-in-nav: "true\r"
 permalink: /contact/
-show-in-nav: true
 ---
-
 # Want to get in touch?
 
 If you're a student with feedback about the course then take your pick from the [course reps](#course-reps) below - they're friendly and here to represent you.
 
-For queries regarding job postings, CSS events or anything else, send an e-mail to the most relevant CSS committee member. We'll all be happy to help.
+If you're not sure who to contact, you can reach all of us at [hello@cssbristol.co.uk](mailto:hello@cssbristol.co.uk), and someone will pick up on your query!
 
 Course directors, tutors and other key staff contacts can be found [here](http://www.bris.ac.uk/engineering/departments/computerscience/contact/).
 
 Perhaps you're looking for a [previous committee member](/halloffame)?
 
 {% assign committee = site.committees | sort: "year" | last %}
-# CSS Committee {{ committee.year }}
 
-{% include committee.html data-file=committee.members %}
+# CSS Committee {{ [committee.year](committee.year) }}
+
+{% include [committee.html](committee.html) data-file=committee.members %}
 
 # Course Reps
-A list of your course reps can be found on the [SU webpage](https://www.bristolsu.org.uk/course_rep) *(Requires SSO login)*
-{% comment %}
+
+A list of your course reps can be found on the [SU webpage](https://www.bristolsu.org.uk/course_rep) _(Requires SSO login)_ {% comment %}
+
 # Course Reps 2018-19
 
-{% include reps.html data-file=site.data.reps-2018-19 %}
-{% endcomment %}
-
-
+{% include [reps.html](reps.html) [data-file=site.data.reps-2018-19](data-file=site.data.reps-2018-19) %} {% endcomment %}
