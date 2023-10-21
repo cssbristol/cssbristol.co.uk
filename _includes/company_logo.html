@@ -1,4 +1,5 @@
 {% assign c = site.companies | where_exp: "c", "c.name == include.company"| first | strip %}
+{% if c.logo %}
 <a
   href="{% if c.link %}{{ c.link }}{% else %}#{% endif %}"
   target="_blank"
@@ -21,3 +22,4 @@
     height="170"
   />
 </a>
+{% endif %}
