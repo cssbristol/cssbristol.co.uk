@@ -12,9 +12,6 @@
   {% assign checkHttpStart = c.logo | split: "http://"| first | strip %}
   {% assign checkHttpsStart = c.logo | split: "https://"| first | strip %}
   {% assign checkSlashStart = c.logo | split: "/"| first | strip %}
-  {% assign checkHttpStart = page.banner | split: "http://"| first | strip %}
-  {% assign checkHttpsStart = page.banner | split: "https://"| first | strip %}
-  {% assign checkSlashStart = page.banner | split: "/"| first | strip %}
   {% if checkHttpStart != blank and checkHttpsStart != blank and checkSlashStart != blank %}
       {% assign imagePath = c.logo | prepend: "/assets/images/contrib/companies/" %}
   {% else %}
