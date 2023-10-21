@@ -34,6 +34,12 @@ collections:
       - {label: Facebook Link, name: fb_link, widget: "string", required: false}
       - {label: Ticket Link, name: ticket_link, widget: "string", required: false}
       - {label: Price, name: price, widget: "string", required: false}
+      - label: "Event Category"
+        name: "category"
+        widget: "select"
+        options: ["Social", "Tech Talk", "Trip", "Networking", "Careers", "Competition", "Debate", "Workshop"]
+        multiple: true
+        required: false
       - label: Co-Host
         name: cohost
         widget: list
