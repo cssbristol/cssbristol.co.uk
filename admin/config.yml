@@ -120,7 +120,6 @@ collections:
   - name: "companies"
     label: "Companies"
     folder: "_companies/"
-    media_folder: "assets/images/contrib/companies/"
     indentifier_field: name
     fields:
       - {label: Name, name: "name"}
@@ -177,7 +176,6 @@ collections:
   - name: "page"
     label: "Page"
     folder: "pages/"
-    media_folder: "assets/images/contrib/uploads/"
     create: true
     slug: "{{permalink}}"
     preview_path: pages/{{slug}}
