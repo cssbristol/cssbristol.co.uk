@@ -120,7 +120,6 @@ collections:
   - name: "companies"
     label: "Companies"
     folder: "_companies/"
-    indentifier_field: name
     fields:
       - {label: Name, name: "name"}
       - {label: Logo, name: logo, widget: "image", media_folder: "/assets/images/contrib/companies"}
@@ -140,6 +139,7 @@ collections:
             name: "end"
             widget: "datetime"
             format: "yyyy-MM-dd HH:mm:ss"
+    indentifier_field: name
 
 
   - name: "tutorials"
