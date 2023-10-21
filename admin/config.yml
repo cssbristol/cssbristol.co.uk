@@ -164,8 +164,8 @@ collections:
         widget: "object"
         fields:
           - {name: "name", label: "Name", widget: "string"}
-          - {name: "email", label: "Email", widget: "string"}
-          - {name: "url", label: "URL", widget: "string"}
+          - {name: "email", label: "Email", widget: "string", required: false}
+          - {name: "url", label: "URL", widget: "string", required: false}
     sortable_fields:
       fields: ['date', 'title']
       default:
