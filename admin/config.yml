@@ -75,3 +75,30 @@ collections:
       - {label: Name, name: "name"}
       - {label: Logo, name: logo, widget: "image", media_folder: "/assets/images/contrib/companies"}
       - {label: Link, name: "link"}
+
+  - name: "tutorials"
+    label: "Tutorials"
+    folder: "_tutorials/"
+    create: true
+    preview_path: tutorials/{{slug}}
+    editor:
+      preview: false
+    fields: 
+      - {label: layout, name: "layout", widget: "hidden", default: "tutorial"}
+      - {label: Title, name: "title", widget: "string"}
+      - {label: Published?, name: "published", widget: "boolean", default: false}
+      - {label: Date, name: date, widget: "datetime", format: "yyyy-MM-dd HH:mm:ss xx"}
+      - {label: Abstract, name: abstract, widget: "text"}
+      - {label: Body, name: "body", widget: "markdown"}
+      - label: Author
+        name: author
+        widget: "object"
+        fields:
+          - {name: "name", label: "Name", widget: "string"}
+          - {name: "email", label: "Email", widget: "string"}
+          - {name: "url", label: "URL", widget: "string"}
+    sortable_fields:
+      fields: ['date', 'title']
+      default:
+        field: date
+        direction: Descending
