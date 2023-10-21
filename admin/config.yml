@@ -103,7 +103,7 @@ collections:
                     name: "name"
                     description: "What should the email include? (E.g. CV, Cover Letter, GitHub username.)"
                     widget: "string"
-
+      - {label: Body, name: "body", widget: "markdown"}
 
 
   - name: "companies"
@@ -157,6 +157,7 @@ collections:
       default:
         field: date
         direction: Descending
+
 
   - name: "page"
     label: "Page"
