@@ -29,7 +29,7 @@ collections:
       - {label: Start Time/Date, name: date, widget: "datetime", format: "yyyy-MM-dd HH:mm:ss xx"}
       - {label: End Time/Date, name: date_end, widget: "datetime", format: "yyyy-MM-dd HH:mm:ss xx"}
       - {label: Banner, name: banner, widget: "image", media_folder: "/assets/images/contrib/events", required: false}
-      - {label: Body, name: "body", widget: "markdown"}
+      - {label: Body, name: "body", widget: "markdown", show_raw: true}
       - {label: Location, name: location, widget: "string"}
       - {label: Facebook Link, name: fb_link, widget: "string", required: false}
       - {label: Ticket Link, name: ticket_link, widget: "string", required: false}
@@ -114,7 +114,7 @@ collections:
                     name: "name"
                     description: "What should the email include? (E.g. CV, Cover Letter, GitHub username.)"
                     widget: "string"
-      - {label: Body, name: "body", widget: "markdown"}
+      - {label: Body, name: "body", widget: "markdown", show_raw: true}
     sortable_fields:
       fields: ['datePosted', 'title', 'validThrough']
       default:
@@ -164,7 +164,7 @@ collections:
       - {label: Published?, name: "published", widget: "boolean", default: false}
       - {label: Date, name: date, widget: "datetime", format: "yyyy-MM-dd HH:mm:ss xx"}
       - {label: Abstract, name: abstract, widget: "text"}
-      - {label: Body, name: "body", widget: "markdown"}
+      - {label: Body, name: "body", widget: "markdown", show_raw: true}
       - label: Author
         name: author
         widget: "object"
@@ -192,7 +192,7 @@ collections:
       - {label: Title, name: "title", widget: "string"}
       - {label: Show in navigation?, name: "show-in-nav", widget: "boolean", default: false}
       - {label: Permalink, name: permalink, widget: "string"}
-      - {label: Body, name: "body", widget: "markdown"}
+      - {label: Body, name: "body", widget: "markdown", show_raw: true}
     sortable_fields:
       fields: ['title']
       default:
