@@ -75,6 +75,22 @@ collections:
       - {label: Name, name: "name"}
       - {label: Logo, name: logo, widget: "image", media_folder: "/assets/images/contrib/companies"}
       - {label: Link, name: "link"}
+      - label: Sponsorship Terms
+        name: sponsor
+        widget: list
+        collapsed: false
+        required: false
+        default: ""
+        fields:
+          - label: "Start Date"
+            name: "start"
+            widget: "datetime"
+            format: "yyyy-MM-dd HH:mm:ss"
+          - label: "End Date"
+            name: "end"
+            widget: "datetime"
+            format: "yyyy-MM-dd HH:mm:ss"
+
 
   - name: "tutorials"
     label: "Tutorials"
