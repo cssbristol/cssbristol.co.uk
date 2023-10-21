@@ -116,7 +116,7 @@
       img {
         min-height: 1.5rem;
         max-height: 5rem;
-        display: inline-block;
+        display: inline-block!important;
         object-fit: contain;
         vertical-align: middle;
       }
