@@ -140,6 +140,9 @@ collections:
   - name: "tutorials"
     label: "Tutorials"
     folder: "_tutorials/"
+    media_folder: "/assets/images/contrib/tutorials"
+    media_library:
+      folder_support: true
     create: true
     preview_path: tutorials/{{slug}}
     editor:
