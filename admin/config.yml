@@ -104,6 +104,12 @@ collections:
                     description: "What should the email include? (E.g. CV, Cover Letter, GitHub username.)"
                     widget: "string"
       - {label: Body, name: "body", widget: "markdown"}
+    sortable_fields:
+      fields: ['datePosted', 'title', 'validThrough']
+      default:
+        field: datePosted
+        direction: Descending
+
 
 
   - name: "companies"
@@ -134,6 +140,9 @@ collections:
   - name: "tutorials"
     label: "Tutorials"
     folder: "_tutorials/"
+    media_folder: "/assets/images/contrib/tutorials"
+    media_library:
+      folder_support: true
     create: true
     preview_path: tutorials/{{slug}}
     editor:
