@@ -66,7 +66,8 @@ collections:
 
   - name: "jobs"
     label: "Jobs"
-    folder: "_jobs/"
+    create: true
+    folder: "_jobs/"    
     media_folder: "/assets/images/contrib/uploads/"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     preview_path: jobs/{{slug}}
@@ -126,6 +127,7 @@ collections:
   - name: "companies"
     label: "Companies"
     folder: "_companies/"
+    create: true
     fields:
       - {label: Name, name: "name"}
       - {label: Logo, name: logo, widget: "image", media_folder: "/assets/images/contrib/companies"}
