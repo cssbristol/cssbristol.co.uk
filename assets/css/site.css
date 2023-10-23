@@ -128,6 +128,8 @@ body { display: flex; min-height: 100vh; flex-direction: column; font-family: "O
 
 .page-section p { margin: 16px 0; }
 
+.page-section li p { display: inline-block; }
+
 .page-section h1 { font-size: 25px; margin: 50px 10px; max-width: 1000px; text-align: center; line-height: 1; }
 
 @media screen and (max-width: 900px) { .page-section h1 { margin: 20px 10px; } }
