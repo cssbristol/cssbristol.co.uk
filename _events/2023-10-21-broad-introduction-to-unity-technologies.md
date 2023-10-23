@@ -9,7 +9,8 @@ banner: /assets/images/contrib/events/untitled-1-3.jpg
 location: MVB 1.11
 category:
   - Tech Talk
-cohost: ""
+cohost:
+  - company: Lever Software
 ---
 Join us for a whirlwind tour of the Unity game-engine, where you will gain a high-level understanding of the different tech involved with making games with Unity.
 
