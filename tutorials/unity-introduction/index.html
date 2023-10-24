@@ -1,539 +1,638 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-  <meta charset=utf-8>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="/assets/favicons/manifest.json">
-<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#3498db">
-<meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
-<meta name="theme-color" content="#3498db">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/assets/favicons/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/assets/favicons/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/assets/favicons/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/assets/favicons/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/assets/favicons/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/assets/favicons/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/assets/favicons/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/assets/favicons/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicons/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-194x194.png"
+      sizes="194x194"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/android-chrome-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link rel="manifest" href="/assets/favicons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="/assets/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#3498db" />
+    <meta
+      name="msapplication-TileImage"
+      content="/assets/favicons/mstile-144x144.png"
+    />
+    <meta name="theme-color" content="#3498db" />
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta name="description" content="This sheet is designed to be a pretty structured walkthrough of game development in Unity.">
+    <meta
+      name="description"
+      content="This sheet is designed to be a pretty structured walkthrough of game development in Unity."
+    />
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Unity for Beginners: Flappy Bird! - CSS Bristol">
-<meta property="og:description" content="This sheet is designed to be a pretty structured walkthrough of game development in Unity.">
-<meta property="og:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png" />
-<meta property="og:url" content="https://cssbristol.co.uk/tutorials/unity-introduction/">
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Unity for Beginners: Flappy Bird! - CSS Bristol"
+    />
+    <meta
+      property="og:description"
+      content="This sheet is designed to be a pretty structured walkthrough of game development in Unity."
+    />
+    <meta
+      property="og:image"
+      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
+    />
+    <meta
+      property="og:url"
+      content="https://cssbristol.co.uk/tutorials/unity-introduction/"
+    />
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Unity for Beginners: Flappy Bird! - CSS Bristol">
-<meta name="twitter:description" content="This sheet is designed to be a pretty structured walkthrough of game development in Unity.">
-<meta name="twitter:image" content="https://cssbristol.co.uk/assets/images/core/og-image.png">
-<meta name="twitter:site" content="@cssbristol">
- 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Unity for Beginners: Flappy Bird! - CSS Bristol"
+    />
+    <meta
+      name="twitter:description"
+      content="This sheet is designed to be a pretty structured walkthrough of game development in Unity."
+    />
+    <meta
+      name="twitter:image"
+      content="https://cssbristol.co.uk/assets/images/core/og-image.png"
+    />
+    <meta name="twitter:site" content="@cssbristol" />
 
+    <title>Unity for Beginners: Flappy Bird! - CSS Bristol</title>
 
-  <title>Unity for Beginners: Flappy Bird! - CSS Bristol</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    />
 
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
+    <link rel="stylesheet" href="/assets/css/site.css" />
+    <link
+      rel="canonical"
+      href="https://cssbristol.co.uk/tutorials/unity-introduction/"
+    />
 
-  <link rel="stylesheet" href="/assets/css/site.css" />
-  <link rel="canonical" href="https://cssbristol.co.uk/tutorials/unity-introduction/" />
-  
+    <!-- Prefetch background images so they load faster next time page loads -->
+    <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg" />
+    <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg" />
 
-  
+    <!-- Script for FontAwesome icons -->
+    <script
+      src="https://kit.fontawesome.com/5918af34b4.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
 
-  <!-- Prefetch background images so they load faster next time page loads -->
-  <link rel="prefetch" href="/assets/images/core/header-bg-01_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-02_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-03_70000.jpg">
-  <link rel="prefetch" href="/assets/images/core/header-bg-04_70000.jpg">
+    <!-- Script for randomly choosing header background -->
+    <script
+      type="text/javascript"
+      src="/assets/scripts/header-random-bg.js"
+      defer
+    ></script>
 
-  <!-- Script for FontAwesome icons -->
-  <script src="https://kit.fontawesome.com/5918af34b4.js" crossorigin="anonymous" defer></script>
-  
-  <!-- Script for randomly choosing header background -->
-  <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
-  
-  <!-- Cloudflare Web Analytics -->
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
+    <!-- Cloudflare Web Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'
+    ></script>
 
-  <!-- remove after a couple of months -->
-  <script>
-    const path = window.location.pathname;
-    if (path.startsWith("/events/")) {
-      const newPath = path.replaceAll("_", "-");
-      if (newPath !== path) {
-        window.location.replace(newPath);
+    <!-- remove after a couple of months -->
+    <script>
+      const path = window.location.pathname;
+      if (path.startsWith("/events/")) {
+        const newPath = path.replaceAll("_", "-");
+        if (newPath !== path) {
+          window.location.replace(newPath);
+        }
       }
-    }
-  </script>
-  
-  <!-- Netlify Identity Widget (used only for /admin but needs to be an all pages for reset/activation emails) -->
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    </script>
 
-</head>
-
+    <!-- Netlify Identity Widget (used only for /admin but needs to be an all pages for reset/activation emails) -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  </head>
 
   <body>
-
     <header class="page-header noscript" id="page-header--random-bg">
-  <div class="bg">
-    <div id="header-random-background"></div>
-  </div>
-  <div class="navigation-items">
-    <div itemscope itemtype="http://schema.org/Organization">
-      <span style="display: none;" itemprop="name">University of Bristol Computer Science Society</span>
-      <a aria-label="Home" href="/" class="page-header__logo" itemprop="url">
-        <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
-      </a>
-    </div>
-    <nav class="page-navigation">
-      <ul class="page-navigation__links">
-        
-        
-        
-        <li><a href="/about/">About</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/contact/">Contact</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/events/index.html">Events</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/jobs/">Jobs</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/sponsors">Sponsor us</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/tutorials/">Tutorials</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <li><a href="/wellbeing/">Wellbeing</a></li>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      </ul>
-    </nav>
-  </div>
-  
-</header>
-
-
-    <section class="page-section">
-  <article class="article">
-    <header class="blog-post__header">
-      <h1 class="blog-post__title">Unity for Beginners: Flappy Bird!</h1>
-      <div class="blog-post__meta" itemscope itemtype="http://schema.org/Person">
-        
-        <div class="icon">
-          <img itemprop="image" src="//www.gravatar.com/avatar/fbc0e3ef685c1249ff628aabd139b24c?s=150&d=https%3A%2F%2Fcssbristol.co.uk%2Fassets%2Fimages%2Fcore%2Fplaceholder-avatar.png" alt="" />
+      <div class="bg">
+        <div id="header-random-background"></div>
+      </div>
+      <div class="navigation-items">
+        <div itemscope itemtype="http://schema.org/Organization">
+          <span style="display: none" itemprop="name"
+            >University of Bristol Computer Science Society</span
+          >
+          <a
+            aria-label="Home"
+            href="/"
+            class="page-header__logo"
+            itemprop="url"
+          >
+            <!-- <img src="/assets/images/core/logo-inline-light.png" alt="CSS Bristol logo" itemprop="logo"> -->
+          </a>
         </div>
-        
+        <nav class="page-navigation">
+          <ul class="page-navigation__links">
+            <li><a href="/about/">About</a></li>
 
-        
-        <span itemprop="author">
-          <span itemprop="url">https://www.linkedin.com/in/austin-long-90166a1b1/</span>
-          
-          <a href="https://www.linkedin.com/in/austin-long-90166a1b1/" itemprop="name">Austin Long</a>
-          
-        </span> on
-        
-        <time datetime="2023-10-17T19:00:00+01:00">Oct 17, 2023</time>
+            <li><a href="/contact/">Contact</a></li>
+
+            <li><a href="/events/index.html">Events</a></li>
+
+            <li><a href="/jobs/">Jobs</a></li>
+
+            <li><a href="/sponsors">Sponsor us</a></li>
+
+            <li><a href="/tutorials/">Tutorials</a></li>
+
+            <li><a href="/wellbeing/">Wellbeing</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
-    <div class="blog-post__body">
-      <p>This sheet is designed to be a pretty structured walkthrough of game development in Unity.</p>
 
-<p>We will be making our own version of <a href="https://en.wikipedia.org/wiki/Flappy_Bird">Flappy Bird</a> - this task is pretty much the game development equivalent of the “Hello, World” programming exercise. It should equip you with the prerequisite knowledge you will need to create most kinds of games you might want to work on during the upcoming game jam.</p>
+    <section class="page-section">
+      <article class="article">
+        <header class="blog-post__header">
+          <h1 class="blog-post__title">Unity for Beginners: Flappy Bird!</h1>
+          <div
+            class="blog-post__meta"
+            itemscope
+            itemtype="http://schema.org/Person"
+          >
+            <div class="icon">
+              <img
+                itemprop="image"
+                src="//www.gravatar.com/avatar/fbc0e3ef685c1249ff628aabd139b24c?s=150&d=https%3A%2F%2Fcssbristol.co.uk%2Fassets%2Fimages%2Fcore%2Fplaceholder-avatar.png"
+                alt=""
+              />
+            </div>
 
-<p>The completed code for this project is <a href="https://github.com/cssbristol/2023-Unity-Workshop/tree/main">available on GitHub</a>.</p>
+            <span itemprop="author">
+              <span itemprop="url"
+                >https://www.linkedin.com/in/austin-long-90166a1b1/</span
+              >
 
-<p>The instructions are very slow and thorough in the earlier sections so as to give you a strong understanding of the most basic Unity functionality, but as the workshop progresses the pace will pickup! If you’re confident in the earlier sections, feel free to skim through them, and if the later parts are a bit unclear please feel free to ask for help.</p>
+              <a
+                href="https://www.linkedin.com/in/austin-long-90166a1b1/"
+                itemprop="name"
+                >Austin Long</a
+              >
+            </span>
+            on
 
-<p>There are some notes strewn throughout the sheet which aren’t necessary for progression, but may provide some hints or explain tangential information in better detail. There are also tasks which will prompt you to do some programming without much assistance.</p>
+            <time datetime="2023-10-17T19:00:00+01:00">Oct 17, 2023</time>
+          </div>
+        </header>
+        <div class="blog-post__body">
+          <p>
+            This sheet is designed to be a pretty structured walkthrough of game
+            development in Unity.
+          </p>
 
-<p>Throughout the workshop, I assume that everyone will be using the lab machines. If you aren’t, you’ll need to go through the instructions <a href="https://unity.com/download">here</a> in order to install the required software on your machine.</p>
+          <p>
+            We will be making our own version of
+            <a href="https://en.wikipedia.org/wiki/Flappy_Bird">Flappy Bird</a>
+            - this task is pretty much the game development equivalent of the
+            “Hello, World” programming exercise. It should equip you with the
+            prerequisite knowledge you will need to create most kinds of games
+            you might want to work on during the upcoming game jam.
+          </p>
 
-<h2 id="setup">Setup</h2>
+          <p>
+            The completed code for this project is
+            <a
+              href="https://github.com/cssbristol/2023-Unity-Workshop/tree/main"
+              >available on GitHub</a
+            >.
+          </p>
 
-<p>First, we need to create a project. We will be doing so through the Unity Hub, which is a piece of software that helps you manage your various projects and Unity Editor installations.</p>
+          <p>
+            The instructions are very slow and thorough in the earlier sections
+            so as to give you a strong understanding of the most basic Unity
+            functionality, but as the workshop progresses the pace will pickup!
+            If you’re confident in the earlier sections, feel free to skim
+            through them, and if the later parts are a bit unclear please feel
+            free to ask for help.
+          </p>
 
-<ol>
-  <li>Click on the start menu (bottom-left of the screen) and open “Unity Hub”, which is located near to the bottom of the list of applications. If Unity Hub buffers endlessly at this point, it’s probably best to switch machines (I don’t know how to fix that).</li>
-  <li>Unity Hub will prompt you to sign in or create an account with Unity. Once you have done so, a popup will appear with the heading “This site is trying to open Unity Hub” - click “Open”.</li>
-  <li>Unity Hub will prompt you to install a Unity editor, select “Locate Existing Installation” and then “C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Unity”</li>
-  <li>Now go to Projects → New Project → 2D (URP). Change the project name and project location to whatever you like by editing the fields on the RHS, and then click “New Project”.</li>
-</ol>
+          <p>
+            There are some notes strewn throughout the sheet which aren’t
+            necessary for progression, but may provide some hints or explain
+            tangential information in better detail. There are also tasks which
+            will prompt you to do some programming without much assistance.
+          </p>
 
-<blockquote>
-  <p>Note: Project templates specify the initial state of the project when you create it. Here we are using the “2D (URP)” project template, which is going to result in our project defaulting to 2D graphics. You may be wondering what the difference is between the “2D” and the “2D (URP)” templates. The URP refers to a particular way of doing graphics that Unity is currently switching to. I’ve chosen to use it because Unity is pushing for URP to replace the old way of doing graphics, so best to learn that. But for this project it won’t make any difference.</p>
-</blockquote>
+          <p>
+            Throughout the workshop, I assume that everyone will be using the
+            lab machines. If you aren’t, you’ll need to go through the
+            instructions <a href="https://unity.com/download">here</a> in order
+            to install the required software on your machine.
+          </p>
 
-<p>Once you’ve created a project, the Unity editor will start up. The user interface might be a little overwhelming at first, but we’ll discuss each element of it as we progress through the workshop.</p>
+          <h2 id="setup">Setup</h2>
 
-<h2 id="the-bird">The Bird</h2>
+          <p>
+            First, we need to create a project. We will be doing so through the
+            Unity Hub, which is a piece of software that helps you manage your
+            various projects and Unity Editor installations.
+          </p>
 
-<p>The beating heart of “Flappy Bird” is the flappy bird - let’s start by making one. The hierarchy panel (shown below) lists all of the GameObjects (things) in your game. You’ll see that we currently have just two GameObjects: a camera and a light. The camera defines the player’s view into the game world, and the light will light everything up. Let’s add one more GameObject to represent our bird. Right click on the hierachy panel and select 2D Objects → Sprite → Square.</p>
+          <ol>
+            <li>
+              Click on the start menu (bottom-left of the screen) and open
+              “Unity Hub”, which is located near to the bottom of the list of
+              applications. If Unity Hub buffers endlessly at this point, it’s
+              probably best to switch machines (I don’t know how to fix that).
+            </li>
+            <li>
+              Unity Hub will prompt you to sign in or create an account with
+              Unity. Once you have done so, a popup will appear with the heading
+              “This site is trying to open Unity Hub” - click “Open”.
+            </li>
+            <li>
+              Unity Hub will prompt you to install a Unity editor, select
+              “Locate Existing Installation” and then “C:\\Program Files\\Unity
+              2022.3.6f1\\Editor\\Unity”
+            </li>
+            <li>
+              Now go to Projects → New Project → 2D (URP). Change the project
+              name and project location to whatever you like by editing the
+              fields on the RHS, and then click “New Project”.
+            </li>
+          </ol>
 
-<p><img src="/assets/images/contrib/tutorials/unity-intro/hierarchy-panel.png" alt="Hierarchy Panel" /></p>
+          <blockquote>
+            <p>
+              Note: Project templates specify the initial state of the project
+              when you create it. Here we are using the “2D (URP)” project
+              template, which is going to result in our project defaulting to 2D
+              graphics. You may be wondering what the difference is between the
+              “2D” and the “2D (URP)” templates. The URP refers to a particular
+              way of doing graphics that Unity is currently switching to. I’ve
+              chosen to use it because Unity is pushing for URP to replace the
+              old way of doing graphics, so best to learn that. But for this
+              project it won’t make any difference.
+            </p>
+          </blockquote>
 
-<blockquote>
-  <p>Note: I lied, the hierarchy panel doesn’t show everything in your game. Games can be split into smaller pieces called scenes for organizational purposes. You can edit one scene at a time. The hierarchy panel shows all the GameObjects in the scene that you’re currently editing. Since this game is small, we’ll keep everything within one scene for simplicity. You can see at the top of the hierarchy panel that Unity has named this scene “SampleScene”.</p>
-</blockquote>
+          <p>
+            Once you’ve created a project, the Unity editor will start up. The
+            user interface might be a little overwhelming at first, but we’ll
+            discuss each element of it as we progress through the workshop.
+          </p>
 
-<p>You should now see that a white square has appeared in the scene panel (shown below). This panel shows a visual representation of everything in your game world. You can move the view around by holding down the middle mouse button and dragging. Zooming in and out can be done with the scroll wheel.</p>
+          <h2 id="the-bird">The Bird</h2>
 
-<p><img src="/assets/images/contrib/tutorials/unity-intro/scene-view.png" alt="Scene View" /></p>
+          <p>
+            The beating heart of “Flappy Bird” is the flappy bird - let’s start
+            by making one. The hierarchy panel (shown below) lists all of the
+            GameObjects (things) in your game. You’ll see that we currently have
+            just two GameObjects: a camera and a light. The camera defines the
+            player’s view into the game world, and the light will light
+            everything up. Let’s add one more GameObject to represent our bird.
+            Right click on the hierachy panel and select 2D Objects → Sprite →
+            Square.
+          </p>
 
-<p>You can select entities by either clicking on them in the hierarchy panel, or clicking on them in the scene panel. Once you have done so, direct your attention to the inspector panel (shown below). The inspector panel contains information about the GameObject that you currently have selected. This information is grouped together into what are called components. You’ll see a “Transform” component that describes where the bird is, and a “Sprite Renderer” component that describes how the bird looks.</p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/unity-intro/hierarchy-panel.png"
+              alt="Hierarchy Panel"
+            />
+          </p>
 
-<p><img src="/assets/images/contrib/tutorials/unity-intro/inspector-panel.png" alt="Inspector Panel" /></p>
+          <blockquote>
+            <p>
+              Note: I lied, the hierarchy panel doesn’t show everything in your
+              game. Games can be split into smaller pieces called scenes for
+              organizational purposes. You can edit one scene at a time. The
+              hierarchy panel shows all the GameObjects in the scene that you’re
+              currently editing. Since this game is small, we’ll keep everything
+              within one scene for simplicity. You can see at the top of the
+              hierarchy panel that Unity has named this scene “SampleScene”.
+            </p>
+          </blockquote>
 
-<blockquote>
-  <p>Note: You can change the name of our bird GameObject from “Square” to something more descriptive by changing the name field at the top of the inspector panel.</p>
-</blockquote>
+          <p>
+            You should now see that a white square has appeared in the scene
+            panel (shown below). This panel shows a visual representation of
+            everything in your game world. You can move the view around by
+            holding down the middle mouse button and dragging. Zooming in and
+            out can be done with the scroll wheel.
+          </p>
 
-<p>So now we have an object to represent the bird. If we press the play button at the top-center of the screen, we can see how it behaves when the game is running. The game panel (shown below) will come to the fore, you should see that the bird currently does… nothing. You can press the play button again to stop the game.</p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/unity-intro/scene-view.png"
+              alt="Scene View"
+            />
+          </p>
 
-<p><img src="/assets/images/contrib/tutorials/unity-intro/game-panel.png" alt="Game Panel" /></p>
+          <p>
+            You can select entities by either clicking on them in the hierarchy
+            panel, or clicking on them in the scene panel. Once you have done
+            so, direct your attention to the inspector panel (shown below). The
+            inspector panel contains information about the GameObject that you
+            currently have selected. This information is grouped together into
+            what are called components. You’ll see a “Transform” component that
+            describes where the bird is, and a “Sprite Renderer” component that
+            describes how the bird looks.
+          </p>
 
-<blockquote>
-  <p>Note: When you press play, the Unity editor enters “Play Mode”. Any changes that are made during play mode will be reverted when exiting play mode, except for changes to code, which will usually cause Unity to spam you with warnings and errors.</p>
-</blockquote>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/unity-intro/inspector-panel.png"
+              alt="Inspector Panel"
+            />
+          </p>
 
-<p>By the end of this section, we want the bird to do the following:</p>
+          <blockquote>
+            <p>
+              Note: You can change the name of our bird GameObject from “Square”
+              to something more descriptive by changing the name field at the
+              top of the inspector panel.
+            </p>
+          </blockquote>
 
-<ol>
-  <li>Fall under the influence of gravity.</li>
-  <li>Fly upwards when the player presses a specified button.</li>
-  <li>Look like a bird.</li>
-  <li>Sound like a bird.</li>
-</ol>
+          <p>
+            So now we have an object to represent the bird. If we press the play
+            button at the top-center of the screen, we can see how it behaves
+            when the game is running. The game panel (shown below) will come to
+            the fore, you should see that the bird currently does… nothing. You
+            can press the play button again to stop the game.
+          </p>
 
-<p>Lets tackle these one by one.</p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/unity-intro/game-panel.png"
+              alt="Game Panel"
+            />
+          </p>
 
-<blockquote>
-  <p>Note: Remember to save your work regularly with the CTRL + S hotkey.</p>
-</blockquote>
+          <blockquote>
+            <p>
+              Note: When you press play, the Unity editor enters “Play Mode”.
+              Any changes that are made during play mode will be reverted when
+              exiting play mode, except for changes to code, which will usually
+              cause Unity to spam you with warnings and errors.
+            </p>
+          </blockquote>
 
-<h3 id="falling">Falling</h3>
+          <p>
+            By the end of this section, we want the bird to do the following:
+          </p>
 
-<p>One of the things that Unity handles is the simulation of physics. We can tell Unity to include our bird in its physics simulations by giving it a component called “Rigidbody 2D”. Do this by selecting the bird, clicking add component in the inspector view, and then selecting Physics 2D → Rigidbody 2D. If you press play again, you should see that <a href="/assets/images/contrib/tutorials/unity-intro/falling.gif">the bird is able to fall</a>!</p>
+          <ol>
+            <li>Fall under the influence of gravity.</li>
+            <li>Fly upwards when the player presses a specified button.</li>
+            <li>Look like a bird.</li>
+            <li>Sound like a bird.</li>
+          </ol>
 
-<blockquote>
-  <p>Note: You can change the physical properties of the bird (e.g. its mass, to what extent it’s affected by gravity) by changing the options listed under the Bird’s Rigidbody 2D component in the inspector.</p>
-</blockquote>
+          <p>Lets tackle these one by one.</p>
 
-<h3 id="flapping">Flapping</h3>
+          <blockquote>
+            <p>
+              Note: Remember to save your work regularly with the CTRL + S
+              hotkey.
+            </p>
+          </blockquote>
 
-<p>Now we need to have the bird fly upwards when the player presses a specified button. This isn’t something that Unity has already done for us, so we’ll have to make our own component by writing a script. Select the bird, click “Add Component” in the inspector, select “New Script” and name your script something sensible. Your script should appear in the project view (shown below), double click on it to open it for editing.</p>
+          <h3 id="falling">Falling</h3>
 
-<p><img src="/assets/images/contrib/tutorials/unity-intro/project-panel.png" alt="Project Panel" /></p>
+          <p>
+            One of the things that Unity handles is the simulation of physics.
+            We can tell Unity to include our bird in its physics simulations by
+            giving it a component called “Rigidbody 2D”. Do this by selecting
+            the bird, clicking add component in the inspector view, and then
+            selecting Physics 2D → Rigidbody 2D. If you press play again, you
+            should see that
+            <a href="/assets/images/contrib/tutorials/unity-intro/falling.gif"
+              >the bird is able to fall</a
+            >!
+          </p>
 
-<blockquote>
-  <p>Note: The project panel is simply a file explorer that allows you to view all of the files under the assets folder in your project.</p>
-</blockquote>
+          <blockquote>
+            <p>
+              Note: You can change the physical properties of the bird (e.g. its
+              mass, to what extent it’s affected by gravity) by changing the
+              options listed under the Bird’s Rigidbody 2D component in the
+              inspector.
+            </p>
+          </blockquote>
 
-<p>We have three lines at the top which start with the word “using”. They allow us to import and make use of other people’s code. “System.Collections” and “System.Collections.Generic” provide us with common data types that many scripts will tend to use. “UnityEngine” allows us to make use of all of Unity’s functionality.</p>
+          <h3 id="flapping">Flapping</h3>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>using System.Collections;  
+          <p>
+            Now we need to have the bird fly upwards when the player presses a
+            specified button. This isn’t something that Unity has already done
+            for us, so we’ll have to make our own component by writing a script.
+            Select the bird, click “Add Component” in the inspector, select “New
+            Script” and name your script something sensible. Your script should
+            appear in the project view (shown below), double click on it to open
+            it for editing.
+          </p>
+
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/unity-intro/project-panel.png"
+              alt="Project Panel"
+            />
+          </p>
+
+          <blockquote>
+            <p>
+              Note: The project panel is simply a file explorer that allows you
+              to view all of the files under the assets folder in your project.
+            </p>
+          </blockquote>
+
+          <p>
+            We have three lines at the top which start with the word “using”.
+            They allow us to import and make use of other people’s code.
+            “System.Collections” and “System.Collections.Generic” provide us
+            with common data types that many scripts will tend to use.
+            “UnityEngine” allows us to make use of all of Unity’s functionality.
+          </p>
+
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre class="highlight"><code>using System.Collections;  
 using System.Collections.Generic;  
 using UnityEngine;
-</code></pre></div></div>
+</code></pre>
+            </div>
+          </div>
 
-<p>Then we have the class declaration. Classes are used to organize your code by bundling code and data together. The class is named “Bird” to match the name I chose for my script, and the “: Monobehaviour” means that this class inherits from the monobehaviour class. This is to say that our class will not only have all the code that we write in it,  but all the code that the original Monobehaviour class had too.</p>
+          <p>
+            Then we have the class declaration. Classes are used to organize
+            your code by bundling code and data together. The class is named
+            “Bird” to match the name I chose for my script, and the “:
+            Monobehaviour” means that this class inherits from the monobehaviour
+            class. This is to say that our class will not only have all the code
+            that we write in it,  but all the code that the original
+            Monobehaviour class had too.
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>public class Bird : Monobehaviour
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre class="highlight"><code>public class Bird : Monobehaviour
 {
 	...
 }
-</code></pre></div></div>
+</code></pre>
+            </div>
+          </div>
 
-<blockquote>
-  <p>Note: In Unity, all components should inherit from Monobehaviour.</p>
-</blockquote>
+          <blockquote>
+            <p>
+              Note: In Unity, all components should inherit from Monobehaviour.
+            </p>
+          </blockquote>
 
-<p>Inside the class declaration, we have two empty functions that are provided by Monobehaviour. The first of which is the Start() function, which is called when the game starts.</p>
+          <p>
+            Inside the class declaration, we have two empty functions that are
+            provided by Monobehaviour. The first of which is the Start()
+            function, which is called when the game starts.
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Start is called before the first frame update
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre
+                class="highlight"
+              ><code>// Start is called before the first frame update
 void Start()
 {
         
 }
-</code></pre></div></div>
+</code></pre>
+            </div>
+          </div>
 
-<p>Then we have the Update() function, which is called at the start of each frame while the game is running.</p>
+          <p>
+            Then we have the Update() function, which is called at the start of
+            each frame while the game is running.
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Update is called once per frame
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre class="highlight"><code>// Update is called once per frame
 void Update()
 {
 
 }
-</code></pre></div></div>
+</code></pre>
+            </div>
+          </div>
 
-<blockquote>
-  <p>Note: Games are essentially a series of still images shown to the user one after another in very quick succession. The user will be shown an image, the game will check for input, perform any necessary calculations, update its state, and then show the user another image. Each of these cycles is called a frame.</p>
-</blockquote>
+          <blockquote>
+            <p>
+              Note: Games are essentially a series of still images shown to the
+              user one after another in very quick succession. The user will be
+              shown an image, the game will check for input, perform any
+              necessary calculations, update its state, and then show the user
+              another image. Each of these cycles is called a frame.
+            </p>
+          </blockquote>
 
-<p>We’ll add the following to our Update() function. “Input” is a namespace, which is to say that it’s a keyword we can use to access a bunch of functionality related to user input. “GetKeyDown()” is a function that takes as it’s argument a key (“KeyCode.Space”) and returns a Boolean to indicate whether that key has been pressed down this frame. If that Boolean is true, then we will print the string“Flap!” to the console.</p>
+          <p>
+            We’ll add the following to our Update() function. “Input” is a
+            namespace, which is to say that it’s a keyword we can use to access
+            a bunch of functionality related to user input. “GetKeyDown()” is a
+            function that takes as it’s argument a key (“KeyCode.Space”) and
+            returns a Boolean to indicate whether that key has been pressed down
+            this frame. If that Boolean is true, then we will print the
+            string“Flap!” to the console.
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Update is called once per frame
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre class="highlight"><code>// Update is called once per frame
 void Update()
 {
 	if (Input.GetKeyDown(KeyCode.Space))
@@ -541,75 +640,223 @@ void Update()
 		Debug.Log("Flap!");
 	}
 }
-</code></pre></div></div>
+</code></pre>
+            </div>
+          </div>
 
-<blockquote>
-  <p>Note: You may see references to Unity’s new input system online. This is a more fancy way of dealing with user input that makes it much simpler to do things like button remapping and support for multiple control schemes, but much more complicated to do something simple like this.</p>
-</blockquote>
+          <blockquote>
+            <p>
+              Note: You may see references to Unity’s new input system online.
+              This is a more fancy way of dealing with user input that makes it
+              much simpler to do things like button remapping and support for
+              multiple control schemes, but much more complicated to do
+              something simple like this.
+            </p>
+          </blockquote>
 
-<p>If we press space while the game is running, we should see the following in the Console panel (shown below). To view the console, you’ll need to click on the word “Console” at the top of the project panel.</p>
+          <p>
+            If we press space while the game is running, we should see the
+            following in the Console panel (shown below). To view the console,
+            you’ll need to click on the word “Console” at the top of the project
+            panel.
+          </p>
 
-<p><img src="/assets/images/contrib/tutorials/unity-intro/console-panel.png" alt="Console Panel" /></p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/unity-intro/console-panel.png"
+              alt="Console Panel"
+            />
+          </p>
 
-<p>So we can recognize user input, now we need to interface with Unity’s physics system to make the bird fly up when the space bar is pressed. Our bird’s Rigidbody 2D component has a function that allows us to apply force to the bird. But how do we use this function from within our script? Well, we can use the GetComponent&lt;&gt;() function to access other components on the same GameObject as our script, like so:</p>
+          <p>
+            So we can recognize user input, now we need to interface with
+            Unity’s physics system to make the bird fly up when the space bar is
+            pressed. Our bird’s Rigidbody 2D component has a function that
+            allows us to apply force to the bird. But how do we use this
+            function from within our script? Well, we can use the
+            GetComponent&lt;&gt;() function to access other components on the
+            same GameObject as our script, like so:
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var rigidbody2d = GetComponent&lt;Rigidbody2D&gt;();
-</code></pre></div></div>
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre
+                class="highlight"
+              ><code>var rigidbody2d = GetComponent&lt;Rigidbody2D&gt;();
+</code></pre>
+            </div>
+          </div>
 
-<p>Then, we can access the Rigidbody2D’s functions through the variable that we’ve created, like so:</p>
+          <p>
+            Then, we can access the Rigidbody2D’s functions through the variable
+            that we’ve created, like so:
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rigidbody2d.AddForce(...)
-</code></pre></div></div>
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre class="highlight"><code>rigidbody2d.AddForce(...)
+</code></pre>
+            </div>
+          </div>
 
-<p>We need to give the AddForce function two arguments:</p>
+          <p>We need to give the AddForce function two arguments:</p>
 
-<ol>
-  <li>A vector. The magnitude indicates the amount of force, and the direction indicates the direction of the force. Vectors can be declared with the syntax “new Vector2(x, y)”.</li>
-  <li>A “ForceMode”. This indicates whether the force is an impulse (like the flapping of a bird’s wings), or not (like a thruster).</li>
-</ol>
+          <ol>
+            <li>
+              A vector. The magnitude indicates the amount of force, and the
+              direction indicates the direction of the force. Vectors can be
+              declared with the syntax “new Vector2(x, y)”.
+            </li>
+            <li>
+              A “ForceMode”. This indicates whether the force is an impulse
+              (like the flapping of a bird’s wings), or not (like a thruster).
+            </li>
+          </ol>
 
-<p>If we give these arguments, our function call will look like this:</p>
+          <p>
+            If we give these arguments, our function call will look like this:
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rigidbody2d.AddForce(new Vector2(0, 10), ForceMode2D.Impulse);
-</code></pre></div></div>
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre
+                class="highlight"
+              ><code>rigidbody2d.AddForce(new Vector2(0, 10), ForceMode2D.Impulse);
+</code></pre>
+            </div>
+          </div>
 
-<p>Try putting this inside our “if” statement and pressing play, you should see something like <a href="/assets/images/contrib/tutorials/unity-intro/goal.gif">this</a></p>
+          <p>
+            Try putting this inside our “if” statement and pressing play, you
+            should see something like
+            <a href="/assets/images/contrib/tutorials/unity-intro/goal.gif"
+              >this</a
+            >
+          </p>
 
-<p>You’ve now learned about most of the major fundamental concepts in Unity. You can navigate the user interface and the Unity ecosystem. You can create GameObjects and modify the behavior of those GameObjects by adding components. You can even make your own components that react to user input and interact with other components. </p>
+          <p>
+            You’ve now learned about most of the major fundamental concepts in
+            Unity. You can navigate the user interface and the Unity ecosystem.
+            You can create GameObjects and modify the behavior of those
+            GameObjects by adding components. You can even make your own
+            components that react to user input and interact with other
+            components. 
+          </p>
 
-<h2 id="the-pipes">The Pipes</h2>
+          <h2 id="the-pipes">The Pipes</h2>
 
-<p>For the pipes, let’s make two square sprites. We’ll elongate them by tweaking the y component of the scale field inside of their transform component. Make sure that there’s some space between them for the bird to fit through - you can tweak their positions by selecting them and dragging the arrows that pop up in the scene view. Aim to end up with something like this:</p>
+          <p>
+            For the pipes, let’s make two square sprites. We’ll elongate them by
+            tweaking the y component of the scale field inside of their
+            transform component. Make sure that there’s some space between them
+            for the bird to fit through - you can tweak their positions by
+            selecting them and dragging the arrows that pop up in the scene
+            view. Aim to end up with something like this:
+          </p>
 
-<p><img src="/assets/images/contrib/tutorials/unity-intro/making-pipes.png" alt="Making Pipes" /></p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/unity-intro/making-pipes.png"
+              alt="Making Pipes"
+            />
+          </p>
 
-<p>These pipes are currently two separate objects, but in Flappy Bird they always move as one. It would make sense to group the two pipes together, and move the group as a whole rather than each pipe individually. To do this, let’s create a GameObject with no components on it to represent the group. Right click in the hierarchy and select “Create Empty”. Now in the hierarchy panel, click and drag both of your pipes underneath the new GameObject. Your hierarchy should look like this:</p>
+          <p>
+            These pipes are currently two separate objects, but in Flappy Bird
+            they always move as one. It would make sense to group the two pipes
+            together, and move the group as a whole rather than each pipe
+            individually. To do this, let’s create a GameObject with no
+            components on it to represent the group. Right click in the
+            hierarchy and select “Create Empty”. Now in the hierarchy panel,
+            click and drag both of your pipes underneath the new GameObject.
+            Your hierarchy should look like this:
+          </p>
 
-<p><img src="/assets/images/contrib/tutorials/unity-intro/pipe-hierarchy.png" alt="Pipe Hierarchy" /></p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/unity-intro/pipe-hierarchy.png"
+              alt="Pipe Hierarchy"
+            />
+          </p>
 
-<p>In this situation, it is common to call the empty GameObject the “Parent”, and the grouped GameObjects “Children”. Whenever the parent moves, the children will move too.</p>
+          <p>
+            In this situation, it is common to call the empty GameObject the
+            “Parent”, and the grouped GameObjects “Children”. Whenever the
+            parent moves, the children will move too.
+          </p>
 
-<p><strong>Task</strong>: Using what you learnt from making the bird move, try making the pipes move from the right side of the screen to the left. They should start moving when the game starts, and they should not be affected by gravity. Aim for something like <a href="/assets/images/contrib/tutorials/unity-intro/goal2.gif">this</a>.</p>
+          <p>
+            <strong>Task</strong>: Using what you learnt from making the bird
+            move, try making the pipes move from the right side of the screen to
+            the left. They should start moving when the game starts, and they
+            should not be affected by gravity. Aim for something like
+            <a href="/assets/images/contrib/tutorials/unity-intro/goal2.gif"
+              >this</a
+            >.
+          </p>
 
-<p>Now we don’t want just one set of pipes, we want many. There is a way for us to essentially copy and paste the pipes that we’ve already made whenever we need new ones. Drag the pipe parent from the hierarchy panel to the project panel. By doing this you have made what is called a prefab. This is a little like copying something onto your clipboard. You can edit the prefab by double clicking on it, and you can stop editing it by clicking the back arrow near the top of the hierarchy view. </p>
+          <p>
+            Now we don’t want just one set of pipes, we want many. There is a
+            way for us to essentially copy and paste the pipes that we’ve
+            already made whenever we need new ones. Drag the pipe parent from
+            the hierarchy panel to the project panel. By doing this you have
+            made what is called a prefab. This is a little like copying
+            something onto your clipboard. You can edit the prefab by double
+            clicking on it, and you can stop editing it by clicking the back
+            arrow near the top of the hierarchy view. 
+          </p>
 
-<blockquote>
-  <p>Note: Whenever you make changes to the prefab, those changes are mirrored in all the places you use the prefab.</p>
-</blockquote>
+          <blockquote>
+            <p>
+              Note: Whenever you make changes to the prefab, those changes are
+              mirrored in all the places you use the prefab.
+            </p>
+          </blockquote>
 
-<p>Now we need to create a new game object that’s in charge of pasting our prefab into the game world. Create an empty GameObject for this purpose, and then add a script to it. We want this script to paste the pipe into the world every so often. In order to do this, we have a couple of problems to tackle. First of all, how do we refer to our prefab in the script? Well, our prefab is a type of GameObject, so that will be its type. We can initialise it by adding the snippet “[SerializeField]” at the beginning of our variable declaration. This will let Unity know to add a field to our scripts section of the inspector into which we can drag and drop whichever GameObject we want our variable to refer to.</p>
+          <p>
+            Now we need to create a new game object that’s in charge of pasting
+            our prefab into the game world. Create an empty GameObject for this
+            purpose, and then add a script to it. We want this script to paste
+            the pipe into the world every so often. In order to do this, we have
+            a couple of problems to tackle. First of all, how do we refer to our
+            prefab in the script? Well, our prefab is a type of GameObject, so
+            that will be its type. We can initialise it by adding the snippet
+            “[SerializeField]” at the beginning of our variable declaration.
+            This will let Unity know to add a field to our scripts section of
+            the inspector into which we can drag and drop whichever GameObject
+            we want our variable to refer to.
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[SerializeField] GameObject pipePrefab;
-</code></pre></div></div>
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre
+                class="highlight"
+              ><code>[SerializeField] GameObject pipePrefab;
+</code></pre>
+            </div>
+          </div>
 
-<p>Next, we need to keep track of how much time has passed. We can do this by checking the “time” variable of the “Time” namespace, as so:</p>
+          <p>
+            Next, we need to keep track of how much time has passed. We can do
+            this by checking the “time” variable of the “Time” namespace, as so:
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var currentTime = Time.time;
-</code></pre></div></div>
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre class="highlight"><code>var currentTime = Time.time;
+</code></pre>
+            </div>
+          </div>
 
-<p>We can check the time when the game starts, and compare that with the time at the start of each frame to see how much time has elapsed.</p>
+          <p>
+            We can check the time when the game starts, and compare that with
+            the time at the start of each frame to see how much time has
+            elapsed.
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>float startTime, elapsedTime;
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre class="highlight"><code>float startTime, elapsedTime;
 
 void Start()
 {
@@ -620,11 +867,18 @@ void Update()
 {
 	elapsedTime = Time.time - startTime;
 }
-</code></pre></div></div>
+</code></pre>
+            </div>
+          </div>
 
-<p>When a certain amount of time has passed, we can paste our prefab into the world and reset the timer.</p>
+          <p>
+            When a certain amount of time has passed, we can paste our prefab
+            into the world and reset the timer.
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>void Update()
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre class="highlight"><code>void Update()
 {
 	elapsedTime = Time.time - startTime;
 	if (elapsedTime &gt; 3)
@@ -633,24 +887,45 @@ void Update()
 		startTime = Time.time // Reset timer.
 	}
 }
-</code></pre></div></div>
+</code></pre>
+            </div>
+          </div>
 
-<blockquote>
-  <p>Note: Another common way of tackling time-dependent behavior is by using coroutines. They’re a bit advanced to fit in here, but they’re definitely worth learning about once you’re comfortable with the tools provided by this workshop.</p>
-</blockquote>
+          <blockquote>
+            <p>
+              Note: Another common way of tackling time-dependent behavior is by
+              using coroutines. They’re a bit advanced to fit in here, but
+              they’re definitely worth learning about once you’re comfortable
+              with the tools provided by this workshop.
+            </p>
+          </blockquote>
 
-<p>Now to tackle our last problem. How do we paste our prefab? Well, we can do that with the “Instantiate” function, as so:</p>
+          <p>
+            Now to tackle our last problem. How do we paste our prefab? Well, we
+            can do that with the “Instantiate” function, as so:
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Instantiate(pipePrefab);
-</code></pre></div></div>
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre class="highlight"><code>Instantiate(pipePrefab);
+</code></pre>
+            </div>
+          </div>
 
-<blockquote>
-  <p>Note: By default, the “Instantiate” function will paste the GameObject into whatever location the parent running the script occupies. If you want to change this, you can provide an additional argument of type “Vector2” to specify a location.</p>
-</blockquote>
+          <blockquote>
+            <p>
+              Note: By default, the “Instantiate” function will paste the
+              GameObject into whatever location the parent running the script
+              occupies. If you want to change this, you can provide an
+              additional argument of type “Vector2” to specify a location.
+            </p>
+          </blockquote>
 
-<p>Putting it all together:</p>
+          <p>Putting it all together:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>using System.Collections;
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre class="highlight"><code>using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -676,54 +951,149 @@ public class PipeManager : MonoBehaviour
         }
     }
 }
-</code></pre></div></div>
+</code></pre>
+            </div>
+          </div>
 
-<blockquote>
-  <p>Note: We keep installing new pipes, but we never delete the old ones. This means Unity is still keeping track of all the old ones, which can get more and more computationally expensive as more pipes are instantiated. Instantiate actually returns a value which points to the GameObject it creates. You can use this to keep track of old pipes, and delete (Delete(object)) them when they are no longer useful.</p>
-</blockquote>
+          <blockquote>
+            <p>
+              Note: We keep installing new pipes, but we never delete the old
+              ones. This means Unity is still keeping track of all the old ones,
+              which can get more and more computationally expensive as more
+              pipes are instantiated. Instantiate actually returns a value which
+              points to the GameObject it creates. You can use this to keep
+              track of old pipes, and delete (Delete(object)) them when they are
+              no longer useful.
+            </p>
+          </blockquote>
 
-<p>Problem: These pipes are all being instantiated at the same place. Let’s add some random variations to their y-position like so:</p>
+          <p>
+            Problem: These pipes are all being instantiated at the same place.
+            Let’s add some random variations to their y-position like so:
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var pipe = Instantiate(pipePrefab);
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre class="highlight"><code>var pipe = Instantiate(pipePrefab);
 pipe.transform.position += new Vector3(0, Random.Range(-2.5f, 2.5f));
-</code></pre></div></div>
+</code></pre>
+            </div>
+          </div>
 
-<p>Much better! You should end up with something like <a href="/assets/images/contrib/tutorials/unity-intro/goal3.gif">this</a>.</p>
+          <p>
+            Much better! You should end up with something like
+            <a href="/assets/images/contrib/tutorials/unity-intro/goal3.gif"
+              >this</a
+            >.
+          </p>
 
-<h2 id="game-over">Game Over</h2>
+          <h2 id="game-over">Game Over</h2>
 
-<p>You may notice that our bird can go right through the pipe! We can remedy this by adding Box Collider 2D components to all of our sprites. The box collider will define the area within your sprite that cannot pass through other sprites. Your result should look something like <a href="/assets/images/contrib/tutorials/unity-intro/goal4.gif">this</a></p>
+          <p>
+            You may notice that our bird can go right through the pipe! We can
+            remedy this by adding Box Collider 2D components to all of our
+            sprites. The box collider will define the area within your sprite
+            that cannot pass through other sprites. Your result should look
+            something like
+            <a href="/assets/images/contrib/tutorials/unity-intro/goal4.gif"
+              >this</a
+            >
+          </p>
 
-<blockquote>
-  <p>Note: Adding collision to the pipes can be a little tricky. Remember to edit the prefab, rather than whatever’s in the scene hierarchy. Also, remember that we want the box colliders to be on the “children” GameObjects, because they’re the ones with the sprites.</p>
-</blockquote>
+          <blockquote>
+            <p>
+              Note: Adding collision to the pipes can be a little tricky.
+              Remember to edit the prefab, rather than whatever’s in the scene
+              hierarchy. Also, remember that we want the box colliders to be on
+              the “children” GameObjects, because they’re the ones with the
+              sprites.
+            </p>
+          </blockquote>
 
-<p>You’ll notice that the objects collide into one another, but we aren’t interested in simulating the collision of two objects… We just want to know when they collide so that we can end the game. Let’s add the following function to the Bird class in our Bird script:</p>
+          <p>
+            You’ll notice that the objects collide into one another, but we
+            aren’t interested in simulating the collision of two objects… We
+            just want to know when they collide so that we can end the game.
+            Let’s add the following function to the Bird class in our Bird
+            script:
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>private void OnCollisionEnter2D(Collision2D col)
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre
+                class="highlight"
+              ><code>private void OnCollisionEnter2D(Collision2D col)
 {
         
 }
-</code></pre></div></div>
+</code></pre>
+            </div>
+          </div>
 
-<p>This function will be called whenever our bird collides into something, which is when we want the game to end. Typically, when a game ends, the game will stop and some “You Lose!” text will popup on the screen. Let’s implement that. The “timescale” variable of the “Time” namespace is used to describe the rate at which time progresses. By setting it to 0, we can stop the game.</p>
+          <p>
+            This function will be called whenever our bird collides into
+            something, which is when we want the game to end. Typically, when a
+            game ends, the game will stop and some “You Lose!” text will popup
+            on the screen. Let’s implement that. The “timescale” variable of the
+            “Time” namespace is used to describe the rate at which time
+            progresses. By setting it to 0, we can stop the game.
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Time.timescale = 0;
-</code></pre></div></div>
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre class="highlight"><code>Time.timescale = 0;
+</code></pre>
+            </div>
+          </div>
 
-<p>Now, for the “You Lose!” text. In the hierarchy panel, we can create some text by right clicking and selecting UI → Text - TextMeshPro. Unity will prompt you to “Import TMP Essentials”. Do so, but you do not need to import the examples and extras - just close the popup.</p>
+          <p>
+            Now, for the “You Lose!” text. In the hierarchy panel, we can create
+            some text by right clicking and selecting UI → Text - TextMeshPro.
+            Unity will prompt you to “Import TMP Essentials”. Do so, but you do
+            not need to import the examples and extras - just close the popup.
+          </p>
 
-<blockquote>
-  <p>Note: TextMeshPro (TMP) is an add-on to Unity that provides extra functionality as compared to Unity’s original text objects. Nowadays, TextMeshPro has become the standard that people default to, so we will be using that as well.</p>
-</blockquote>
+          <blockquote>
+            <p>
+              Note: TextMeshPro (TMP) is an add-on to Unity that provides extra
+              functionality as compared to Unity’s original text objects.
+              Nowadays, TextMeshPro has become the standard that people default
+              to, so we will be using that as well.
+            </p>
+          </blockquote>
 
-<p>You’ll notice that three things have appeared in your scene hierarchy: EventSystem, Canvas, and Text (TMP). The EventSystem is something that Unity provides to help the user interface register user input. The text is the thing that we intended to create, and the Canvas is a GameObject that all UI in your game world must be a child of. Select the text and centre it by experimenting with the options in the “Rect Transform” component, then edit the “TextMeshPro - Text (UI)” component to make it say “You Lose!”. The game panel should show something like this:</p>
+          <p>
+            You’ll notice that three things have appeared in your scene
+            hierarchy: EventSystem, Canvas, and Text (TMP). The EventSystem is
+            something that Unity provides to help the user interface register
+            user input. The text is the thing that we intended to create, and
+            the Canvas is a GameObject that all UI in your game world must be a
+            child of. Select the text and centre it by experimenting with the
+            options in the “Rect Transform” component, then edit the
+            “TextMeshPro - Text (UI)” component to make it say “You Lose!”. The
+            game panel should show something like this:
+          </p>
 
-<p><img src="/assets/images/contrib/tutorials/unity-intro/you-lose.png" alt="You Lose Text" /></p>
+          <p>
+            <img
+              src="/assets/images/contrib/tutorials/unity-intro/you-lose.png"
+              alt="You Lose Text"
+            />
+          </p>
 
-<p>Now, we don’t want the loss text showing up all the time, only when the player loses. We can make it inactive by clicking on the text GameObject and unchecking the box at the top of the inspector. Now it’s invisible! We can reactivate it when the bird collides into something like so:</p>
+          <p>
+            Now, we don’t want the loss text showing up all the time, only when
+            the player loses. We can make it inactive by clicking on the text
+            GameObject and unchecking the box at the top of the inspector. Now
+            it’s invisible! We can reactivate it when the bird collides into
+            something like so:
+          </p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[SerializeField] GameObject LoseText; // Drag and drop the text into this field in the inspector.
+          <div class="language-plaintext highlighter-rouge">
+            <div class="highlight">
+              <pre
+                class="highlight"
+              ><code>[SerializeField] GameObject LoseText; // Drag and drop the text into this field in the inspector.
 
 ...
 
@@ -732,598 +1102,184 @@ private void OnCollisionEnter2D(Collision2D col)
     Time.timeScale = 0;
     LoseText.SetActive(true);
 } 
-</code></pre></div></div>
+</code></pre>
+            </div>
+          </div>
 
-<p>Now your “lose text” condition should be working how we want it to!</p>
+          <p>
+            Now your “lose text” condition should be working how we want it to!
+          </p>
 
-<h2 id="keeping-score">Keeping Score</h2>
+          <h2 id="keeping-score">Keeping Score</h2>
 
-<p><strong>Task</strong>: You can use what you’ve learnt so far, with a little googling, to implement the score system. You’ll want to:</p>
+          <p>
+            <strong>Task</strong>: You can use what you’ve learnt so far, with a
+            little googling, to implement the score system. You’ll want to:
+          </p>
 
-<ol>
-  <li>Add some text to the screen to indicate the player’s current score.</li>
-  <li>Add a collider to the gap between the pipes.</li>
-  <li>Set the collider to be a trigger in the inspector. This means that collisions are registered but objects can still pass through.</li>
-  <li>Use the “OnTriggerEnter2D” function (analogous to OnColliderEnter2D) to track when the bird enters the gap.</li>
-  <li>When the bird enters the gap, find the score text, and set it to display a value one higher than what was displayed there before.</li>
-</ol>
+          <ol>
+            <li>
+              Add some text to the screen to indicate the player’s current
+              score.
+            </li>
+            <li>Add a collider to the gap between the pipes.</li>
+            <li>
+              Set the collider to be a trigger in the inspector. This means that
+              collisions are registered but objects can still pass through.
+            </li>
+            <li>
+              Use the “OnTriggerEnter2D” function (analogous to
+              OnColliderEnter2D) to track when the bird enters the gap.
+            </li>
+            <li>
+              When the bird enters the gap, find the score text, and set it to
+              display a value one higher than what was displayed there before.
+            </li>
+          </ol>
 
-<blockquote>
-  <p>Note: The <a href="https://docs.unity3d.com/ScriptReference/index.html">Unity Documentation</a> will be very useful in finding out more information about functions that you haven’t used before.</p>
-</blockquote>
+          <blockquote>
+            <p>
+              Note: The
+              <a href="https://docs.unity3d.com/ScriptReference/index.html"
+                >Unity Documentation</a
+              >
+              will be very useful in finding out more information about
+              functions that you haven’t used before.
+            </p>
+          </blockquote>
 
-<p>You should aim for something like <a href="/assets/images/contrib/tutorials/unity-intro/goal5.gif">this</a>.</p>
+          <p>
+            You should aim for something like
+            <a href="/assets/images/contrib/tutorials/unity-intro/goal5.gif"
+              >this</a
+            >.
+          </p>
 
-<p>If you’re having trouble, check out the example project in this repo for hints.</p>
+          <p>
+            If you’re having trouble, check out the example project in this repo
+            for hints.
+          </p>
 
-<h2 id="releasing-your-game">Releasing your Game</h2>
+          <h2 id="releasing-your-game">Releasing your Game</h2>
 
-<h3 id="building">Building</h3>
+          <h3 id="building">Building</h3>
 
-<p>No one at Spoons will be impressed if you pull out your laptop and show them your project running in the Unity editor - trust me. You’ll want to build it first. Select File → Build Settings and a new window will appear. Here you can select which platform you would like your game to run on. Select Build or “Build and Run” to have Unity package all your code and assets packaged up into a nice .exe file that you can run outside of the editor.</p>
+          <p>
+            No one at Spoons will be impressed if you pull out your laptop and
+            show them your project running in the Unity editor - trust me.
+            You’ll want to build it first. Select File → Build Settings and a
+            new window will appear. Here you can select which platform you would
+            like your game to run on. Select Build or “Build and Run” to have
+            Unity package all your code and assets packaged up into a nice .exe
+            file that you can run outside of the editor.
+          </p>
 
-<h3 id="sharing">Sharing</h3>
+          <h3 id="sharing">Sharing</h3>
 
-<p>Now having your game run in a dedicated window is cool and everything, but what happens when the friends you’ve made at Spoons want to play it on their own time? You’ll need to share your game on a platform that they’ll all have access to. <a href="https://medium.com/@youngchae.depriest/uploading-your-unity-game-onto-itch-io-92dddd6fb71a">This article</a> explains how to upload your game to itch.io - a popular platform for sharing Indie games.</p>
+          <p>
+            Now having your game run in a dedicated window is cool and
+            everything, but what happens when the friends you’ve made at Spoons
+            want to play it on their own time? You’ll need to share your game on
+            a platform that they’ll all have access to.
+            <a
+              href="https://medium.com/@youngchae.depriest/uploading-your-unity-game-onto-itch-io-92dddd6fb71a"
+              >This article</a
+            >
+            explains how to upload your game to itch.io - a popular platform for
+            sharing Indie games.
+          </p>
 
-
-      <h2>Feedback</h2>
-      <p>Any issues with this tutorial? Submit <a href="https://github.com/cssbristol/cssbristol.github.io/issues">an issue</a> or a <a href="https://github.com/cssbristol/cssbristol.github.io/pulls">pull request</a> and we'll get it sorted out right away.
-    </div>
-  </article>
-</section>
-
+          <h2>Feedback</h2>
+          <p>
+            Any issues with this tutorial? Submit
+            <a href="https://github.com/cssbristol/cssbristol.github.io/issues"
+              >an issue</a
+            >
+            or a
+            <a href="https://github.com/cssbristol/cssbristol.github.io/pulls"
+              >pull request</a
+            >
+            and we'll get it sorted out right away.
+          </p>
+        </div>
+      </article>
+    </section>
 
     <section class="page-section sponsorsec">
-    <h1 class="sponsors-title"><a href="/pages/sponsors">Proudly sponsored by</a></h1>
-    <div class="sponsors">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-            
-<a
-  href="https://www.publicissapient.com/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Publicis Sapient"
-  class="company-logo"
->
+      <h1 class="sponsors-title">
+        <a href="/pages/sponsors">Proudly sponsored by</a>
+      </h1>
+      <div class="sponsors">
+        <a
+          href="https://www.publicissapient.com/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Publicis Sapient"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/publicis_sapient.svg"
+            alt="Publicis Sapient"
+            width="130"
+            height="170"
+          />
+        </a>
 
-  
-  
-  
-
-  
-
-  <img
-    src="/assets/images/contrib/companies/publicis_sapient.svg"
-    alt="Publicis Sapient"
-    width="130"
-    height="170"
-  />
-
-
-</a>
-
-          
-        
-      
-        
-          
-        
-      
-        
-          
-            
-<a
-  href="https://www.qube-rt.com/careers/"
-  target="_blank"
-  rel="noopener sponsored"
-  data-tooltip="Qube Research & Technologies"
-  class="company-logo"
->
-
-  
-  
-  
-
-  
-
-  <img
-    src="/assets/images/contrib/companies/qube-rt.svg"
-    alt="Qube Research & Technologies"
-    width="130"
-    height="170"
-  />
-
-
-</a>
-
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-          
-        
-      
-    </div>
-    <div class="sponsors__action_item">
-      <a href="/sponsors">Learn more about working with us.</a>
-    </div>
-</section>
-
+        <a
+          href="https://www.qube-rt.com/careers/"
+          target="_blank"
+          rel="noopener sponsored"
+          data-tooltip="Qube Research & Technologies"
+          class="company-logo"
+        >
+          <img
+            src="/assets/images/contrib/companies/qube-rt.svg"
+            alt="Qube Research & Technologies"
+            width="130"
+            height="170"
+          />
+        </a>
+      </div>
+      <div class="sponsors__action_item">
+        <a href="/sponsors">Learn more about working with us.</a>
+      </div>
+    </section>
 
     <footer class="page-footer">
-  <span class="page-footer__text">&copy; University of Bristol Computer Science Society</span>
-  <nav class="page-footer__menu">
-    <ul>
-    
-    
-      
-      <li>
-        <a class="page-link" href="/about/">About</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/contact/">Contact</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/events/index.html">Events</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/jobs/">Jobs</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/sponsors">Sponsor us</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/tutorials/">Tutorials</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-      <li>
-        <a class="page-link" href="/wellbeing/">Wellbeing</a>
-      </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-    </ul>
-  </nav>
-</footer>
+      <span class="page-footer__text"
+        >&copy; University of Bristol Computer Science Society</span
+      >
+      <nav class="page-footer__menu">
+        <ul>
+          <li>
+            <a class="page-link" href="/about/">About</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/contact/">Contact</a>
+          </li>
 
+          <li>
+            <a class="page-link" href="/events/index.html">Events</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/jobs/">Jobs</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/sponsors">Sponsor us</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/tutorials/">Tutorials</a>
+          </li>
+
+          <li>
+            <a class="page-link" href="/wellbeing/">Wellbeing</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
-
 </html>
