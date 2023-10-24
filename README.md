@@ -21,7 +21,7 @@ If you have comments or questions, there are lots of ways to get in touch:
 
 ### Blog posts and tutorials
 
-We would love to add your content to the site! If you think you can contribute a tutorial or a blog post, have a read of [the instructions](http://cssbristol.co.uk/tutorials/post-on-the-site/) and submit a pull request with your content.
+We would love to add your content to the site! If you think you can contribute a tutorial or a blog post, have a read of [the instructions](https://cssbristol.co.uk/tutorials/post-on-the-site/) and submit a pull request with your content.
 
 ### New features
 
