@@ -42,6 +42,9 @@ exclude:
   - _companies/template
   - vendor
 
+include:
+  - _redirects
+
 pagination:
   enabled: true
   debug: false
