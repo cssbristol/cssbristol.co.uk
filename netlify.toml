@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "cssbristol.netlify.app/*"
-  to = "cssbristol.co.uk/:splat"
-  status = 301
-  force = true
