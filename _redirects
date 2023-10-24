@@ -4,4 +4,3 @@ cssbristol.netlify.app/*    cssbristol.co.uk/:splat    301
 # Misc. Redirects
 /discord                    https://discord.gg/nYwbhf8 301
 /join                       https://www.bristolsu.org.uk/groups/computer-science-society-22c3 301
-/test                       /test2
