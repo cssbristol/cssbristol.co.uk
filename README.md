@@ -1,5 +1,8 @@
 # Computer Science Society - University of Bristol
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/908c1c40-dcf1-4f63-95ee-d28ca1dbe989/deploy-status)](https://app.netlify.com/sites/cssbristol/deploys)
+[![Scheduled Build and deploy jekyll site to Netlify](https://github.com/cssbristol/cssbristol.github.io/actions/workflows/netlify-deployment.yml/badge.svg)](https://github.com/cssbristol/cssbristol.github.io/actions/workflows/netlify-deployment.yml)
+
 ## Overview
 
 This repository contains the code for the University of Bristol Computer Science Society website, [cssbristol.co.uk](http://www.cssbristol.co.uk/).
