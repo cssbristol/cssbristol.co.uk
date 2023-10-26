@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Staff Student Boardgames
-published: false
+published: true
 cancelled: false
 date: 2023-11-02 15:30:07 +0000
 date_end: 2023-11-02 19:00:07 +0000
