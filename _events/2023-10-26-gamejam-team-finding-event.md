@@ -5,7 +5,7 @@ published: true
 cancelled: false
 date: 2023-10-27 18:00:35 +0100
 date_end: 2023-10-27 20:00:35 +0100
-location: MVB
+location: MVB 1.11
 price: Free
 category:
   - Social
