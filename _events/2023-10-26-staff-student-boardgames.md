@@ -8,9 +8,12 @@ date_end: 2023-11-02 19:00:07 +0000
 banner: /assets/images/contrib/events/board-games-banner-3.jpeg
 location: MVB 1.11/a
 price: Free
-category: ""
+category:
+  - Social
 cohost: ""
 ---
+Free over reading week?
+
 ## Join us for a staff & student board game session!
 
 It will be a drop-in session – there’ll be lots of short games that are easy to pick up, even if you don’t play lots of board games, so pop by and meet some new people!
