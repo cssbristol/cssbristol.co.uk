@@ -16,6 +16,8 @@ cohost:
   - Name: ""
     company: Morgan Stanley
   - Name: BAME in Finance society
+    name: BAME in Finance Society
+    link: https://www.bristolsu.org.uk/groups/bame-in-finance
 ---
 ### An exclusive on-campus event with alumni from Morgan Stanley, including a Senior Recruiter and 3 Associates.
 
