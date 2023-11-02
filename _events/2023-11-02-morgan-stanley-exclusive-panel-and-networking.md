@@ -15,6 +15,7 @@ category:
 cohost:
   - Name: ""
     company: Morgan Stanley
+  - Name: BAME in Finance society
 ---
 ### An exclusive on-campus event with alumni from Morgan Stanley, including a Senior Recruiter and 3 Associates.
 
