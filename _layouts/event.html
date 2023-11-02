@@ -93,13 +93,16 @@ check if the url starts with "http://", "https://" or "/"; if it does then don't
         <hr />
         <h4>Hosted with:</h4>
         <ul>
-          {% for host in page.cohost %} {% if host.link %}
-          <li>
-            <a href="{{ host.link }}"> {{ host.name }} </a>
-          </li>
-          {% elsif host.company %}
+          {% for host in page.cohost %} {% if host.company %}
           <li>
             {% include company_logo.html company=host.company %}
+          </li>
+          {% elseif host.name %} 
+          <li> {% if host.link %} 
+            <a href="{{ host.link }}"> {{ host.name }} </a>
+            {% else %}
+            {{ host.name }}
+            {% endif %}
           </li>
           {% else %}
           <li>{{ host }}</li>

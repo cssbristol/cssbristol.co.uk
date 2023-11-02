@@ -47,9 +47,6 @@ collections:
         required: false
         default: ""
         fields:
-          - label: "Name"
-            name: "Name"
-            required: false
           - label: "Company"
             name: "company"
             required: false
@@ -57,6 +54,12 @@ collections:
             collection: "companies"
             search_fields: ["name"]
             value_field: "name"
+          - label: "Name"
+            name: "name"
+            required: false
+          - label: "Link"
+            name: "link"
+            required: false
     sortable_fields:
       fields: ['date', 'date_end', 'title']
       default:
