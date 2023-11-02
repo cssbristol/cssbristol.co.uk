@@ -4,7 +4,7 @@ title: Morgan Stanley - Exclusive Panel and Networking
 published: true
 cancelled: false
 date: 2023-11-09 18:30:29 +0000
-date_end: 2023-11-09 21:00:29 +0000
+date_end: 2023-11-09 20:00:29 +0000
 banner: /assets/images/contrib/events/morgan_stanley_network.jpg
 location: Pugsley Theatre, Queen's Bldg.
 ticket_link: https://forms.gle/bxkE62DeAeXDRGaXA
