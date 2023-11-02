@@ -97,7 +97,7 @@ check if the url starts with "http://", "https://" or "/"; if it does then don't
           <li>
             {% include company_logo.html company=host.company %}
           </li>
-          {% elseif host.name %} 
+          {% elsif host.name %} 
           <li> {% if host.link %} 
             <a href="{{ host.link }}"> {{ host.name }} </a>
             {% else %}
