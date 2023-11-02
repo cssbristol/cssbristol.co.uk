@@ -12,7 +12,9 @@ price: Free
 category:
   - Tech Talk
   - Networking
-cohost: []
+cohost:
+  - Name: ""
+    company: Morgan Stanley
 ---
 ### An exclusive on-campus event with alumni from Morgan Stanley, including a Senior Recruiter and 3 Associates.
 
