@@ -5,6 +5,7 @@ published: true
 cancelled: false
 date: 2023-11-07 19:30:37 +0000
 date_end: 2023-11-07 23:59:37 +0000
+banner: /assets/images/contrib/events/bar_crawl.jpg
 location: W.G. Grace
 price: Free
 category:
