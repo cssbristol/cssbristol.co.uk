@@ -1,3 +1,20 @@
+{% if page.banner %}
+  {% assign checkHttpStart = page.banner | split: "http://"| first | strip %}
+  {% assign checkHttpsStart = page.banner | split: "https://"| first | strip %}
+  {% assign checkSlashStart = page.banner | split: "/"| first | strip %}
+  {% if checkHttpStart != "" and checkHttpsStart != "" and checkSlashStart != "" %}
+    {% assign bannerPath = page.banner | prepend: "/assets/images/contrib/events/" %}
+  {% else %}
+    {% assign bannerPath = page.banner %}
+  {% endif %}
+{% else %}
+  {% if page.layout == "event" %}
+    {% assign bannerPath = "/assets/images/core/default-event-banner.jpg" %}
+  {% else %}
+    {% assign bannerPath = "/assets/images/core/header-bg-04.jpg" %}
+  {% endif %}
+{% endif %}
+
 <head>
   <meta charset=utf-8>
   <meta name="viewport" content="width=device-width,initial-scale=1">
