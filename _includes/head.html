@@ -1,20 +1,3 @@
-{% if page.banner %}
-  {% assign checkHttpStart = page.banner | split: "http://"| first | strip %}
-  {% assign checkHttpsStart = page.banner | split: "https://"| first | strip %}
-  {% assign checkSlashStart = page.banner | split: "/"| first | strip %}
-  {% if checkHttpStart != "" and checkHttpsStart != "" and checkSlashStart != "" %}
-    {% assign bannerPath = page.banner | prepend: "/assets/images/contrib/events/" %}
-  {% else %}
-    {% assign bannerPath = page.banner %}
-  {% endif %}
-{% else %}
-  {% if page.layout == "event" %}
-    {% assign bannerPath = "/assets/images/core/default-event-banner.jpg" %}
-  {% else %}
-    {% assign bannerPath = "/assets/images/core/header-bg-04.jpg" %}
-  {% endif %}
-{% endif %}
-
 <head>
   <meta charset=utf-8>
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -59,13 +42,7 @@
   <script type="text/javascript" src="/assets/scripts/header-random-bg.js" defer></script>
   
   <!-- Cloudflare Web Analytics -->
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>
-
-  <!-- OpenGraph tags -->
-  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}" />
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 300 }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:image" content="{% if page.banner %}{{ page.banner | strip }} - {% endif %}" />
-  
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d431ecabd63d4eea9aeb6a714157d663"}'></script>  
 
   <!-- remove after a couple of months -->
   <script>
