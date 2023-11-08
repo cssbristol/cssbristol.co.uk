@@ -1,12 +1,29 @@
+{% if page.banner %}
+  {% assign checkHttpStart = page.banner | split: "http://"| first | strip %}
+  {% assign checkHttpsStart = page.banner | split: "https://"| first | strip %}
+  {% assign checkSlashStart = page.banner | split: "/"| first | strip %}
+  {% if checkHttpStart != "" and checkHttpsStart != "" and checkSlashStart != "" %}
+    {% assign bannerPath = page.banner | prepend: "/assets/images/contrib/events/" %}
+  {% else %}
+    {% assign bannerPath = page.banner %}
+  {% endif %}
+{% else %}
+  {% if page.layout == "event" %}
+    {% assign bannerPath = "/assets/images/core/default-event-banner.jpg" %}
+  {% else %}
+    {% assign bannerPath = "/assets/images/core/og-image.png" %}
+  {% endif %}
+{% endif %}
+
 <meta property="og:type" content="website">
 <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}">
 <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:50 | strip | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
-<meta property="og:image" content="{% if page.banner %}https://cssbristol.co.uk/assets/images/contrib/events/{{ page.banner }}{% else %}https://cssbristol.co.uk/assets/images/core/og-image.png{% endif %}" />
+<meta property="og:image" content="{{ bannerPath | prepend: site.url }}" />
 <meta property="og:url" content="https://cssbristol.co.uk{{ page.url }}">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}">
 <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:50 | strip | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
-<meta name="twitter:image" content="{% if page.banner %}https://cssbristol.co.uk/assets/images/contrib/events/{{ page.banner }}{% else %}https://cssbristol.co.uk/assets/images/core/og-image.png{% endif %}">
+<meta name="twitter:image" content="{{ bannerPath prepend: site.url }}">
 <meta name="twitter:site" content="@cssbristol">
  
