@@ -18,12 +18,12 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}">
 <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:50 | strip | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
-<meta property="og:image" content="{{ bannerPath }}" />
+<meta property="og:image" content="{{ bannerPath prepend: site.url }}" />
 <meta property="og:url" content="https://cssbristol.co.uk{{ page.url }}">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}">
 <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:50 | strip | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
-<meta name="twitter:image" content="{{ bannerPath }}">
+<meta name="twitter:image" content="{{ bannerPath prepend: site.url }}">
 <meta name="twitter:site" content="@cssbristol">
  
