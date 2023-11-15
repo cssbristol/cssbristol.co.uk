@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Britol Digital Game Lab's 'Concept' Game Jam
+title: Bristol Digital Game Lab's 'Concept' Game Jam
 published: true
 cancelled: false
 date: 2023-11-29 16:00:24 +0000
