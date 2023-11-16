@@ -5,6 +5,7 @@ published: true
 cancelled: false
 date: 2023-11-22 16:00:54 +0000
 date_end: 2023-11-22 18:00:54 +0000
+banner: /assets/images/contrib/events/how_to_succeed.jpg
 location: Fry Building g.13
 price: Free
 category:
