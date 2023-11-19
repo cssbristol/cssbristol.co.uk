@@ -17,7 +17,7 @@ cohost:
   - name: Centre for Creative Technologies
     link: https://creativetechnologies.blogs.bristol.ac.uk/
 ---
-From education and health to financial services and facial recognition, algorithms have become key components in scaling decision making. The danger, of course, is they can embed and augment existing biases, or even generate new types of bias within complex systems. This danger is only amplified by the application of machine learning and AI. The aim of this condensed game jam is to think about how the mechanisms of gaming and play can2 expose these processes.
+From education and health to financial services and facial recognition, algorithms have become key components in scaling decision making. The danger, of course, is they can embed and augment existing biases, or even generate new types of bias within complex systems. This danger is only amplified by the application of machine learning and AI. The aim of this condensed game jam is to think about how the mechanisms of gaming and play can expose these processes.
 
 If you would like to attend the jam, please complete our [sign up form](https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVGwHBrGi7VX1OnOFOJyBYzwtUNlFMUloyM1NCU1pBMkdLR0hDTThaRlA4Ty4u). The event is open to both University staff, students, and the wider public.
 
