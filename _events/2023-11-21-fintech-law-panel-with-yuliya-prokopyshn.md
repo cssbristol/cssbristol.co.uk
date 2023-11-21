@@ -9,7 +9,8 @@ location: Queens Building Lecture Theatre 1.15
 price: Free
 category:
   - Tech Talk
-cohost: []
+cohost:
+  - company: Gunnercooke
 ---
 Yuliya Prokopyshn is an associate at Gunnercooke LLP who specialises in technology law, blockchain and FinTech. She is an experienced public speaker, editorial writer, and lawyer.
 
