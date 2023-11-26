@@ -17,4 +17,4 @@ We have lots of games that are easy to learn and join in.
 
 If you’re on Coursework weeks, take a brake and think of something different for an hour or two!
 
-(We'll be in the the lower atrium from 15:00-16:00, then in 1.11/a from 16:00)
+### (We'll be in the the lower atrium from 15:00-16:00, then in 1.11/a from 16:00)
