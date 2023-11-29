@@ -1,6 +1,6 @@
 ---
 layout: event
-title: FinTech Law panel with Yuliya Prokopyshn
+title: Navigating the legal landscape of emerging technologies
 published: true
 cancelled: false
 date: 2023-12-06 13:30:09 +0000
