@@ -5,6 +5,7 @@ published: true
 cancelled: false
 date: 2023-12-06 13:30:09 +0000
 date_end: 2023-12-06 15:00:09 +0000
+banner: assets/images/contrib/events/screenshot_2023-12-06_at_00.13.01.png
 location: Queens Building Lecture Theatre 1.15
 price: Free
 category:
