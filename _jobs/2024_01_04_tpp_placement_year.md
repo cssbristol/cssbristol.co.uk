@@ -9,7 +9,7 @@ title: Technical Engineer Placement Year
 logo: tpp.png
 jobLocation: UK
 industry: System Administration
-employmentType: Placement year
+employmentType: Full-time
 validThrough: 2024-03-04 12:00:00 +0100
 startDate:
 occupationalCategory:
