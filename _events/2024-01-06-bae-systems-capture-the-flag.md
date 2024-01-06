@@ -14,7 +14,7 @@ category:
 cohost:
   - company: BAE Systems
 ---
-BAE Systems are running a Capture the Flag event, a day of cyber security challenges and games.
+### BAE Systems are running a Capture the Flag event, a day of cyber security challenges and games.
 
 Anybody who is currently enrolled at The University of Bristol can sign up and play.
 
