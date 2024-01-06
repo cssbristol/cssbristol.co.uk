@@ -6,7 +6,7 @@ cancelled: false
 date: 2024-02-03 09:30:48 +0000
 date_end: 2024-02-03 16:30:48 +0000
 banner: assets/images/contrib/events/2022-10-29_bae_ctf.png
-location: TBD
+location: TBD (though likely MVB 1.11)
 price: Free
 category:
   - Competition
