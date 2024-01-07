@@ -5,7 +5,7 @@ published: true
 cancelled: false
 date: 2024-02-03 09:30:48 +0000
 date_end: 2024-02-03 16:30:48 +0000
-banner: assets/images/contrib/events/2023-02-03_bae_ctf.jpg
+banner: /assets/images/contrib/events/2023-02-03_bae_ctf.jpg
 location: TBD (though likely MVB 1.11)
 price: Free
 category:
