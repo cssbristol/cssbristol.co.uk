@@ -1,6 +1,6 @@
 ---
 layout: event
-title: BAE systems Capture the Flag
+title: BAE Systems Capture the Flag
 published: true
 cancelled: false
 date: 2024-02-03 09:30:48 +0000
