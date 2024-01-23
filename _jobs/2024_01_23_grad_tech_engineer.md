@@ -28,3 +28,5 @@ We are currently looking for bright graduates to join our close-knit technical t
 - Windows & Server Administration – patching & performance testing
 
 You will actively participate in the designing, maintaining and upgrading of services that are critical to the NHS and many healthcare organisations around the world. You will be working as a team to address the current challenges such as the rapid expansion of our mobile Apps and AI as we scale on an international level.
+
+We will give you an excellent starting salary of £60,000 with outstanding annual pay reviews and no crazy working hours! Your salary will increase rapidly during your time at the company.
