@@ -5,6 +5,7 @@ published: true
 cancelled: false
 date: 2024-02-13 17:00:19 +0000
 date_end: 2024-02-13 18:00:19 +0000
+banner: assets/images/contrib/events/dyson_talk_2024.png
 location: TBD (Likely MVB 1.11)
 price: Free
 category:
