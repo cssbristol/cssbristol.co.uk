@@ -3,6 +3,7 @@ backend:
   branch: dev
 
 media_folder: "/assets/images/contrib/"
+public_folder: "/assets/images/contrib/"
 media_library:
   folder_support: true
 
@@ -15,6 +16,7 @@ collections:
     label: "Events"
     folder: "_events/"
     media_folder: "/assets/images/contrib/events"
+    public_folder: "/assets/images/contrib/events"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     preview_path: events/{{slug}}
@@ -28,7 +30,7 @@ collections:
       - {label: Cancel Reason, name: "cancel_reason", widget: "string", required: false}
       - {label: Start Time/Date, name: date, widget: "datetime", format: "yyyy-MM-dd HH:mm:ss xx"}
       - {label: End Time/Date, name: date_end, widget: "datetime", format: "yyyy-MM-dd HH:mm:ss xx"}
-      - {label: Banner, name: banner, widget: "image", media_folder: "/assets/images/contrib/events", required: false}
+      - {label: Banner, name: banner, widget: "image", media_folder: "/assets/images/contrib/events", public_folder: "/assets/images/contrib/events", required: false}
       - {label: Body, name: "body", widget: "markdown", show_raw: true}
       - {label: Location, name: location, widget: "string"}
       - {label: Facebook Link, name: fb_link, widget: "string", required: false}
@@ -72,6 +74,7 @@ collections:
     create: true
     folder: "_jobs/"    
     media_folder: "/assets/images/contrib/uploads/"
+    public_folder: "/assets/images/contrib/uploads/"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     preview_path: jobs/{{slug}}
     editor:
@@ -97,7 +100,7 @@ collections:
       - {label: Base Salary, name: "baseSalary", widget: "string", required: false}
       - {label: Salary Currency, name: "salaryCurrency", widget: "string", required: false}
       - {label: Salary Period, name: "salaryPeriod", widget: "string", required: false}
-      - {label: Logo, name: logo, widget: "image", media_folder: "/assets/images/contrib/companies"}
+      - {label: Logo, name: logo, widget: "image", media_folder: "/assets/images/contrib/companies", public_folder: "/assets/images/contrib/companies"}
       - label: "How to apply"
         name: "apply"
         widget: "object"
@@ -133,7 +136,7 @@ collections:
     create: true
     fields:
       - {label: Name, name: "name"}
-      - {label: Logo, name: logo, widget: "image", media_folder: "/assets/images/contrib/companies"}
+      - {label: Logo, name: logo, widget: "image", media_folder: "/assets/images/contrib/companies", public_folder: "/assets/images/contrib/companies"}
       - {label: Link, name: "link"}
       - label: Sponsorship Terms
         name: sponsor
@@ -157,6 +160,7 @@ collections:
     label: "Tutorials"
     folder: "_tutorials/"
     media_folder: "/assets/images/contrib/tutorials"
+    public_folder: "/assets/images/contrib/tutorials"
     media_library:
       folder_support: true
     create: true
