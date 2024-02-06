@@ -5,7 +5,7 @@ published: true
 cancelled: false
 date: 2024-02-14 09:30:06 +0000
 date_end: 2024-02-14 16:30:06 +0000
-banner: assets/images/contrib/events/2024-01-20-logic-reasoning-test-tpp-careers.jpg
+banner: ""
 location: Wills Reception Room, Clifton Hill House
 ticket_link: https://tpp-careers.com/aptitude-test/
 category:
