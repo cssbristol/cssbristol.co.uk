@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "FSAI: PyTorch Workshop"
+title: "FSAI: ML Workshop (PyTorch)"
 published: true
 cancelled: false
 date: 2024-03-20 14:00:00 +0000
