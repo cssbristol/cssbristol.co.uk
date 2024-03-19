@@ -5,6 +5,7 @@ published: true
 cancelled: false
 date: 2024-03-20 14:00:00 +0000
 date_end: 2024-03-20 16:00:00 +0000
+banner: assets/images/contrib/events/fsai-ml-workshop.png
 location: MVB 1.07 PC
 category: ""
 cohost: ""
