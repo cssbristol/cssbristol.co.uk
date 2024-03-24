@@ -10,7 +10,7 @@ logo: tpp.png
 jobLocation: UK
 industry: Software Development
 employmentType: Full-time
-validThrough: 2024-03-20 12:00:00 +0100
+validThrough: 2024-09-01 12:00:00 +0100
 startDate:
 occupationalCategory:
 baseSalary: 60,000
