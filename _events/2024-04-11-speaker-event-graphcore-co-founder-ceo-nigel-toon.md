@@ -13,7 +13,7 @@ cohost:
   - name: The Business Society
   - name: Marketing Society
 ---
-### At this event, Nigel Toon will be speaking about his experiences as an entrepreneur and founder of multiple massively successful companies.
+#### At this event, Nigel Toon will be speaking about his experiences as an entrepreneur and founder of multiple massively successful companies.
 
 Some facts about Nigel Toon:
 
