@@ -3,8 +3,8 @@ layout: event
 title: Logic & Reasoning Test - TPP Careers
 published: true
 cancelled: false
-date: 2024-04-19 09:30:00 +0000
-date_end: 2024-04-19 10:30:00 +0000
+date: 2024-04-19 09:30:00 +0100
+date_end: 2024-04-19 10:30:00 +0100
 location: Wills Reception Room, Clifton Hill House
 ticket_link: https://tpp-careers.com/aptitude-test/
 category:
