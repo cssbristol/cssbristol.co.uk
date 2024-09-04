@@ -1,10 +1,13 @@
 ---
 layout: freshers
 title: Freshers
-permalink: "/freshers23"
+permalink: "/freshers24"
+redirect_from:
+- /freshers
+- /freshers/
 show-in-nav: false
-freshers_start: 2023-09-16 00:00:01
-freshers_end:   2023-09-22 00:00:01
+freshers_start: 2024-09-09 00:00:01
+freshers_end:   2024-09-15 00:00:01
 ---
 
 {% if upcoming %}
@@ -40,11 +43,10 @@ freshers_end:   2023-09-22 00:00:01
 
 {% include social-links.html %}
 
-## FAQs
+## CSS Freshers WhatsApp group
+Join [the WhatsApp group](https://chat.whatsapp.com/BvvBmwWs4kW35PGux1ddY0) to connect with other CS freshers.
 
-#### 'Do I need to bring a laptop/desktop?'
-Unfortunatly this year the University is mandating you bring your own device. It doesn't have to be powerful, in fact we would recommend a small and light one.
-Contrary to the University's advice, I'd recommend a Chromebook as they have [full linux support](https://support.google.com/chromebook/answer/9145439?hl=en-GB) 
+## FAQs
 
 #### 'Where is [insert] lecture?'
 No one knows! Seriously, we still all get lost, just ask someone on campus or follow everyone else.
