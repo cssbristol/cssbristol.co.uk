@@ -1,6 +1,6 @@
 ---
 layout: event
-title: FSAI | Pub Quiz
+title: "FSAI: Pub Quiz"
 published: true
 cancelled: false
 date: 2024-10-15 20:00:00 +0100
