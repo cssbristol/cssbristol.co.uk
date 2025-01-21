@@ -9,7 +9,7 @@ show-in-nav: true
 
 If you're a student with feedback about the course then take your pick from the [course reps](#course-reps) below - they're friendly and here to represent you.
 
-If you're not sure who to contact, you can reach all of us at [hello@cssbristol.co.uk](mailto:hello@cssbristol.co.uk), and someone will pick up on your query!
+If you're not sure who to contact, you can reach all of us at [cs-society@bristol.ac.uk](mailto:cs-society@bristol.ac.uk), and someone will pick up on your query!
 
 Course directors, tutors and other key staff contacts can be found [here](http://www.bris.ac.uk/engineering/departments/computerscience/contact/).
 
