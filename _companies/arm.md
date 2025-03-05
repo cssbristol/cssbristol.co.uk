@@ -1,6 +1,6 @@
 ---
 name: arm
-logo: arm.svg
+logo: arm.png
 link: https://www.arm.com/
 sponsor:
   - start: 2017-09-01 01:00:00
