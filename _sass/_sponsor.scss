@@ -1,3 +1,6 @@
+@use "variables" as *;
+@use "grid" as *;
+
 .page-section.sponsor {
     * {
         box-sizing: border-box;
