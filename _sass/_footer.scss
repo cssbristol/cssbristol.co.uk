@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 .page-footer {
   background: #2e3440;
   color: $white;
@@ -18,6 +20,12 @@
     padding: 20px 10px;
   }
 
+  &__sulogo {
+    object-fit: contain;
+    height: 3em;
+    flex-grow: 1
+  }
+
   &__text {
     flex-grow: 1;
     @include media-query($on-palm) {
@@ -29,7 +37,7 @@
   &__menu {
     display: inline-flex;
     justify-content: flex-end;
-    flex-grow: 2;
+    flex-grow: 1;
     @include media-query($on-palm) {
       display: none;
     }

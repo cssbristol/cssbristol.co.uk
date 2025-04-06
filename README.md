@@ -39,7 +39,7 @@ We're all ears for any ideas that you might have. If you want to write it yourse
 
 - Fork the project on GitHub.
 - Clone your fork, e.g. `git clone https://github.com/<username>/cssbristol.github.io`
-- `bundle install` to install all dependencies (Ruby gems).
+- `bundle install` to install all dependencies (Ruby gems). You may need to set `$GEM_HOME$ to somewhere accessible by your user.
 - `bundle exec jekyll build` to build the site.
 - `bundle exec jekyll serve`, then view site at [http://localhost:4000/](http://localhost:4000/)
 
@@ -66,7 +66,7 @@ The site was ported to Jekyll by [Ross Gardiner](https://github.com/rossng), the
 
 The site was then maintained by: Louis Heath and then Sibela Chinareva
 
-The site is currently maintained and updated by [Daniel Jones](https://github.com/danjones1618)
+The site is currently maintained and updated by [Murray Groves](https://github.com/MurrayGroves)
 
 ### Authors
 

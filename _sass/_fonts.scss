@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 h1 {
   text-transform: uppercase;
 }
@@ -10,4 +12,4 @@ h1, h2, h3, h4, h5, h6,
 }
 
 // Acumin Pro for .acumin
-// @import url("https://use.typekit.net/gtw0nwa.css");
+// @use url("https://use.typekit.net/gtw0nwa.css") as *;

@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 .article {
   max-width: $content-width;
   padding: 0 20px;
