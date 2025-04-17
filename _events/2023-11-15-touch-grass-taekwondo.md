@@ -5,7 +5,7 @@ published: true
 cancelled: false
 date: 2023-11-19 16:00:10 +0000
 date_end: 2023-11-19 18:00:10 +0000
-banner: /assets/images/contrib/events/touch_grass_taekwondo.jpg
+banner: touch_grass_taekwondo.jpg
 location: Carpenter room, Richmond building
 ticket_link: https://www.bristolsu.org.uk/groups/computer-science-society-22c3/events/touch-grass-collabs-taekwondo
 price: Free
