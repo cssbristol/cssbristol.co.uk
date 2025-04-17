@@ -1,7 +1,8 @@
 name: "Event reminder announcement"
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # Every 30 minutes
+    - cron: "*/30 * * * *"
 jobs:
   announce:
     runs-on: ubuntu-latest
@@ -10,7 +11,7 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: '3.9'
-      - uses: actions/cache@v2
+      - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: ${{ hashFiles('.github/announce/requirements.txt') }}

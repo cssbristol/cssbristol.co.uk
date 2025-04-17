@@ -52,6 +52,7 @@ def get_event(path: Path) -> Event:
 
 
 def post_daily_post(events: List[Event]) -> None:
+    """Post events to Discord that are happening today, if any"""
     events_list = ""
     for e in events:
         if e.cancelled:
@@ -70,7 +71,7 @@ def post_daily_post(events: List[Event]) -> None:
 def post_warning(event: Event) -> None:
     if (event.cancelled):
         return
-    post_msg(f"Today's event, {event.title}, is starting in 15 Minutes! :tada:\n{event.website_link}")
+    post_msg(f"Today's event, {event.title}, is starting soon! :tada:\n{event.website_link}")
 
 def post_msg(msg: str) -> None:
     webhook = DiscordWebhook(url=DISCORD_URL)
@@ -96,7 +97,7 @@ def handle_response(response: Union[Response, List[Response]]) -> None:
 
 def main(daily_post: bool) -> None:
     today = datetime.now(pytz.timezone("Europe/London"))
-    warning_mins = 15
+    warning_mins = 30
     daily_posts: List[Event] = []
 
     for event_path in glob.iglob("_events/*"):
@@ -110,6 +111,7 @@ def main(daily_post: bool) -> None:
             elif delta <= timedelta(minutes=warning_mins) and delta >= timedelta():
                 post_warning(event)
 
+    # If running daily post check (at 08:00) then post events happening today
     if daily_post:
         post_daily_post(daily_posts)
 

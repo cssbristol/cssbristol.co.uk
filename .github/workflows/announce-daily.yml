@@ -1,6 +1,7 @@
 name: "Daily event announcement"
 on:
   schedule:
+    # Every day at 08:00 UTC
     - cron: "0 8 * * *"
 jobs:
   announce:
@@ -10,7 +11,7 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: '3.9'
-      - uses: actions/cache@v2
+      - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: ${{ hashFiles('.github/announce/requirements.txt') }}
