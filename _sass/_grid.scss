@@ -21,12 +21,10 @@
 }
  */
 
+@use "variables" as *;
+
 $spacer: 2rem; // Space between cols
 $grid-cols: 12; // Total no. columns
-$container-breakpoint-md: $on-palm;
-$container-breakpoint-lg: $on-laptop;
-$container-breakpoint-xl: 100em;
-
 
 // Container to place columns in
 @mixin grid-container {

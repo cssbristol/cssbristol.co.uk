@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 html.agm-event {
   scroll-behavior: smooth;
   scroll-snap-type: y proximity;

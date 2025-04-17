@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 html {
   scroll-behavior: smooth;
 }
@@ -195,10 +197,11 @@ body {
   color: $medium-text;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
+  gap: 1em;
 
   font-size: 14px;
   padding: 20px 50px;
@@ -208,17 +211,34 @@ body {
   }
 
   &__text {
-    flex-grow: 1;
+    flex: 1;
     @include media-query($on-palm) {
       text-align: center;
       width: 100%;
-    }
+    };
+    align-self: flex-start;
+    margin-top: auto;
+    margin-bottom: auto;
+    // Don't over-wrap, prefer moving logo down instead
+    min-width: min(80%, 20em)
+  }
+
+  &__sulogo {
+    object-fit: contain;
+    height: 3em;
+    flex: 1;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   &__menu {
     display: inline-flex;
     justify-content: flex-end;
-    flex-grow: 2;
+    align-self: flex-end;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: fit-content;
+    flex: 1;
     @include media-query($on-palm) {
       display: none;
     }
@@ -226,11 +246,12 @@ body {
     li {
       display: inline;
       list-style-type: none;
+      padding-right: 0.5em;
+      align-self: flex-start;
     }
 
     a {
       color: $medium-text;
-      padding: 10px;
       text-decoration: none;
     }
   }
