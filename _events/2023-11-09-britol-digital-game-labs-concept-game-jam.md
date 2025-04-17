@@ -5,7 +5,7 @@ published: true
 cancelled: false
 date: 2023-11-29 16:00:24 +0000
 date_end: 2023-11-29 20:00:24 +0000
-banner: /assets/images/contrib/events/2023-11-09-britol-digital-game-labs-concept-game-jam.jpg
+banner: 2023-11-09-britol-digital-game-labs-concept-game-jam.jpg
 location: Humanities Exhibition Gallery Space (7 Woodland Road)
 ticket_link: https://forms.office.com/Pages/ResponsePage.aspx?id=MH_ksn3NTkql2rGM8aQVGwHBrGi7VX1OnOFOJyBYzwtUNlFMUloyM1NCU1pBMkdLR0hDTThaRlA4Ty4u
 price: Free

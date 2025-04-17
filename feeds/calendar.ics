@@ -38,8 +38,7 @@ DTEND:{{ event.date_end | date: "%Y%m%dT%H%M00" }}
 LAST-MODIFIED:{{ event.last_modified_at | date: "%Y%m%dT%H%M00" }}
 URL:https://www.cssbristol.co.uk
  {{ event.url }}
-IMAGE;VALUE=URI:https://www.cssbristol.co.uk/assets/
- images/contrib/events/{{ event.banner }}
+IMAGE;VALUE=URI:{{"https://www.cssbristol.co.uk/assets/images/contrib/events/" | append: event.banner | fold_lines }}
 ORGANIZER;CN="CSS":MAILTO:webmaster@cssbristol.co.uk
 SUMMARY:{{ event.title | truncate:50 }}
 DESCRIPTION:{{ event.excerpt | strip_html | fold_lines | strip }}

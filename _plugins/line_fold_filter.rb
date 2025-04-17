@@ -3,11 +3,10 @@ module Jekyll
     def fold_lines(input, line_length = 55)
       return input unless input.is_a?(String)
 
-      folded_lines = input.split("\n").map do |line|
-        fold_line(line, line_length)
-      end
+      # Replace all newline characters with literal backslash-n
+      input = input.gsub("\n", '\\n')
 
-      folded_lines.join("\n")
+      fold_line(input, line_length)
     end
 
     private

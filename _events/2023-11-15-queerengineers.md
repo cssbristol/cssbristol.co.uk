@@ -6,7 +6,7 @@ cancelled: false
 cancel_reason: null
 date: 2023-11-15 13:10:00 +0000
 date_end: 2023-11-15 15:00:00 +0000
-banner: /assets/images/contrib/events/2023-11-15-queer-engineers-launch.jpg
+banner: 2023-11-15-queer-engineers-launch.jpg
 location: MVB 1.11/1.11A
 category:
   - Social
