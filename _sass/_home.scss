@@ -20,7 +20,7 @@
 
 .hero {
   text-align: center;
-  margin: 5rem auto 7rem;
+  margin: 3rem auto 3rem;
   max-width: $content-width;
   padding: 0 10px;
   width: 100%;
@@ -28,7 +28,6 @@
   @include media-query($on-palm) {
     margin: 20px auto;
   }
-
 
   flex-shrink: 1;
 

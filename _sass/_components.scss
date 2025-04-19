@@ -130,13 +130,13 @@
 .btn, a.btn {
   border: 4px solid  $dark-pink;
   border-radius: 3px;
-  color: #999;
+  color: $dark-text;
   display: inline-block;
   font-size: 1em;
   font-weight: 800;
   letter-spacing: 0;
   line-height: 20px;
-  margin: 0.25em 0;
+  margin: 0.25em auto;
   padding: 0.5em 1em;
   text-align: center;
   text-decoration: none;
@@ -153,10 +153,14 @@
     color: #fff;
   }
 
+  &--fit-content {
+    width: fit-content;
+  }
+
   &:hover, &:focus {
     background-color: $dark-purple;
     border-color: $dark-purple;
-    color: #fff;
+    color: $medium-text;
   }
 
   &:focus {

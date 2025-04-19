@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+{% if current_month >= 9 and current_month <= 11 %}
+{% assign hero_buttons = site.data.hero_buttons.freshers %}
+{% else %}
+{% assign hero_buttons = site.data.hero_buttons.default %}
+{% endif %}
+
+{% include header.html hero-pretitle=page.hero.pretitle hero-title=page.hero.title hero-buttons=hero_buttons %}
+
+{{ content }}
+
+{% include sponsors.html %}
+
+{% include footer.html %}
+
+</body>
+
+</html>

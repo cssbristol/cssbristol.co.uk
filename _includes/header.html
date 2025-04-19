@@ -20,7 +20,7 @@
       </ul>
     </nav>
   </div>
-  {% if include.hero-contents %}
-  {% include hero.html hero-contents=include.hero-contents %}
+  {% if include.hero-pretitle or include.hero-title or include.hero-buttons %}
+  {% include hero.html pretitle=include.hero-pretitle title=include.hero-title buttons=include.hero-buttons %}
   {% endif %}
 </header>
