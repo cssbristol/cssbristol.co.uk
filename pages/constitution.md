@@ -12,6 +12,9 @@ updates to the constitution will be posted here.
 The society is affiliated with Bristol SU, the Students' Union of the University of Bristol.
 
 - [Computer Science Society Constitution (2025-04-06, pdf)](/assets/files/constitution-2025-04-06.pdf)
+- [Computer Science Society Constitution (2024-04-23, pdf)](/assets/files/constitution-2024-04-23.pdf)
+- [Computer Science Society Constitution (2023-05-11, pdf)](/assets/files/constitution-2023-05-11.pdf)
+- [Computer Science Society Constitution (2021-07-21, pdf)](/assets/files/constitution-2021-07-21.pdf)
 - [Computer Science Society Constitution (2020-08-10, pdf)](/assets/files/constitution-2020-08-10.pdf)
 - [Computer Science Society Constitution (2018-06-20, pdf)](/assets/files/constitution-2018-06-20.pdf)
 - [Computer Science Society Constitution (2017-06-05, pdf)](/assets/files/constitution-2017-06-05.pdf)
