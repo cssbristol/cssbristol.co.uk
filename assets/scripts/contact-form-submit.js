@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("sponsorship-contact-form");
     const formFeedback = document.getElementById("sponsorship-form-feedback");
     console.log("SUBMITTED");
-    if(!form) return false;
+    if (!form) return false;
 
     form.addEventListener("submit", function (event) {
         event.preventDefault();
@@ -18,10 +18,12 @@ document.addEventListener("DOMContentLoaded", function () {
         const message = elements.message.value;
 
         const requiredFields = [name, companyName, jobPosition, budget, emailAddr, telNum, interestedIn, message];
-        if(requiredFields.find(val => !val)) {
+        if (requiredFields.find(val => !val)) {
             formFeedback.innerHTML = "<div>Please fill in all required fields.</div>";
             return false;
         }
+
+        // TODO - Open mailto link with pre-filled body and subject
 
         // uses MS PowerAutomate workflow for back-end processing
         const processingURL = "https://prod-139.westeurope.logic.azure.com:443/workflows/83671c3104be4329813f7b996418f427/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=Sel8HbeYlcu_jZiXXEF2kq8YHJn7A9SfaI-lT1rjnWs";
@@ -40,9 +42,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 interestedIn,
                 message,
             }),
-        }).then(function(resp) {
+        }).then(function (resp) {
             // if response isn't 2xx
-            if(resp.status < 200 && resp.status > 299) {
+            if (resp.status < 200 && resp.status > 299) {
                 console.error(`${resp.status} response code returned.`)
                 formFeedback.innerHTML = "<div>An unexpected error occurred. Please contact us by email instead.</div>";
             } else {

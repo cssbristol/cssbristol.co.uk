@@ -9,6 +9,8 @@ feed: "/feed/events.xml"
 show-in-nav: true
 ---
 
+<h1>Calendar</h1>
+Add the official <a href="/feeds">CSS calendar</a> to your calendar to keep up to date and get reminders about events!
 {% assign upcoming = paginator.posts | where_exp: "event", "event.date_end >= site.time" | reverse %}
 {% if upcoming == empty and paginator.page == 1 %}
 <h1>We're busy planning new events!</h1>
