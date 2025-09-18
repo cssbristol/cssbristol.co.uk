@@ -4,7 +4,7 @@ published: true
 cancelled: false
 cancel_reason:
 title: Lightning Talks
-date: 2025-09-18 10:30:00 +0000
+date: 2025-09-18 09:30:00 +0000
 date_end: 2025-09-18 12:30:00 +0000
 location: MVB 1.11
 price: FREE

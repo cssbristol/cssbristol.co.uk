@@ -4,7 +4,7 @@ published: true
 cancelled: false
 cancel_reason:
 title: Tea and Coffee Morning
-date: 2025-09-19 11:00:00 +0000
+date: 2025-09-19 10:00:00 +0000
 date_end: 2025-09-19 12:00:00 +0000
 location: Senate House 5.22
 banner: 2025/coffee.png
