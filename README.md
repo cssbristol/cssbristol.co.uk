@@ -5,11 +5,15 @@
 
 ## Overview
 
-This repository contains the code for the University of Bristol Computer Science Society website, [cssbristol.co.uk](http://www.cssbristol.co.uk/).
+This repository contains the code for the University of Bristol Computer Science Society
+website, [cssbristol.co.uk](http://www.cssbristol.co.uk/).
 
-The site is built using [Jekyll](https://jekyllrb.com/), a static site generator. If you want to get Jekyll running locally, GitHub provides [some instructions](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/).
+The site is built using [Jekyll](https://jekyllrb.com/), a static site generator. If you want to get Jekyll running
+locally, GitHub
+provides [some instructions](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/).
 
-When a commit is made to `master`, GitHub will automatically rebuild the site and the updated version will start being served to users.
+When a commit is made to `master`, GitHub will automatically rebuild the site and the updated version will start being
+served to users.
 
 If you have comments or questions, there are lots of ways to get in touch:
 
@@ -19,13 +23,17 @@ If you have comments or questions, there are lots of ways to get in touch:
 
 ## Contributing
 
+When adding events, make sure you put the time zone correctly depending on if it's daylight savings!
+
 ### Blog posts and tutorials
 
-We would love to add your content to the site! If you think you can contribute a tutorial or a blog post, have a read of [the instructions](https://cssbristol.co.uk/tutorials/post-on-the-site/) and submit a pull request with your content.
+We would love to add your content to the site! If you think you can contribute a tutorial or a blog post, have a read
+of [the instructions](https://cssbristol.co.uk/tutorials/post-on-the-site/) and submit a pull request with your content.
 
 ### New features
 
-We're all ears for any ideas that you might have. If you want to write it yourself, let us know and we'll see if we can help out. If you just want to submit a feature request or idea, create an issue.
+We're all ears for any ideas that you might have. If you want to write it yourself, let us know and we'll see if we can
+help out. If you just want to submit a feature request or idea, create an issue.
 
 ### Build & Run
 
@@ -39,7 +47,8 @@ We're all ears for any ideas that you might have. If you want to write it yourse
 
 - Fork the project on GitHub.
 - Clone your fork, e.g. `git clone https://github.com/<username>/cssbristol.github.io`
-- `bundle install` to install all dependencies (Ruby gems). You may need to set `$GEM_HOME$ to somewhere accessible by your user.
+- `bundle install` to install all dependencies (Ruby gems). You may need to set `$GEM_HOME$ to somewhere accessible by
+  your user.
 - `bundle exec jekyll build` to build the site.
 - `bundle exec jekyll serve`, then view site at [http://localhost:4000/](http://localhost:4000/)
 
@@ -60,7 +69,8 @@ We're all ears for any ideas that you might have. If you want to write it yourse
 
 ### Developers
 
-The initial version of the current site was designed and written by [Julian Laval](https://github.com/JulianLaval), the 2015-16 webmaster.
+The initial version of the current site was designed and written by [Julian Laval](https://github.com/JulianLaval), the
+2015-16 webmaster.
 
 The site was ported to Jekyll by [Ross Gardiner](https://github.com/rossng), the 2016-17 webmaster.
 
@@ -74,9 +84,11 @@ The site is currently maintained and updated by [Murray Groves](https://github.c
 
 ## License
 
-The code and contents of this website are freely available under the [MIT License](https://raw.githubusercontent.com/cssbristol/cssbristol.github.io/master/LICENSE.md).
+The code and contents of this website are freely available under
+the [MIT License](https://raw.githubusercontent.com/cssbristol/cssbristol.github.io/master/LICENSE.md).
 
-Jekyll, and any parts of the Jekyll default template are also available under the [MIT License](https://raw.githubusercontent.com/jekyll/jekyll/master/LICENSE).
+Jekyll, and any parts of the Jekyll default template are also available under
+the [MIT License](https://raw.githubusercontent.com/jekyll/jekyll/master/LICENSE).
 
 ViewerJS is licensed under the [AGPL 3.0](https://github.com/kogmbh/ViewerJS/blob/master/AGPL-3.0.txt).
 
