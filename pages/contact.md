@@ -7,11 +7,14 @@ show-in-nav: true
 
 # Want to get in touch?
 
-If you're a student with feedback about the course then take your pick from the [course reps](#course-reps) below - they're friendly and here to represent you.
+If you're a student with feedback about the course then take your pick from the [course reps](#course-reps) below -
+they're friendly and here to represent you.
 
-If you're not sure who to contact, you can reach all of us at [cs-society@bristol.ac.uk](mailto:cs-society@bristol.ac.uk), and someone will pick up on your query!
+If you're not sure who to contact, please reach out to our Vice-President
+at [vp@cssbristol.co.uk](mailto:vp@cssbristol.co.uk)!
 
-Course directors, tutors and other key staff contacts can be found [here](http://www.bris.ac.uk/engineering/departments/computerscience/contact/).
+Course directors, tutors and other key staff contacts can be
+found [here](http://www.bris.ac.uk/engineering/departments/computerscience/contact/).
 
 Perhaps you're looking for a [previous committee member](/halloffame)?
 
@@ -22,8 +25,11 @@ Perhaps you're looking for a [previous committee member](/halloffame)?
 {% include committee.html data-file=committee.members %}
 
 # Course Reps
-A list of your course reps can be found on the [SU webpage](https://www.bristolsu.org.uk/course_rep) *(Requires SSO login)*
+
+A list of your course reps can be found on the [SU webpage](https://www.bristolsu.org.uk/course_rep) *(Requires SSO
+login)*
 {% comment %}
+
 # Course Reps 2018-19
 
 {% include reps.html data-file=site.data.reps-2018-19 %}
