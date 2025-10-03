@@ -65,7 +65,7 @@ def post_daily_post(events: List[Event]) -> None:
     if not events_list:
         return 
 
-    post_msg(f"Today we have the following events: :eyes:\n{events_list}\nLooking forward to seeing you!")
+    post_msg(f"<@&1356666383630602402> Today we have the following events: :eyes:\n{events_list}\nLooking forward to seeing you!")
 
 
 def post_warning(event: Event) -> None:
