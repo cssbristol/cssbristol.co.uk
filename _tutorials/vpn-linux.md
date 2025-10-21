@@ -80,5 +80,5 @@ nmcli connection modify BristolUniversityVPN vpn.secrets gwcert=,gateway=$GATEWA
 ```
 
 ## Resources
-[Michigan Technological University Service Desk](https://servicedesk.mtu.edu/TDClient/1801/Portal/KB/ArticleDet?ID=51485)
-[OpenConnect on the ArchWiki](https://wiki.archlinux.org/title/OpenConnect)
+- [Michigan Technological University Service Desk](https://servicedesk.mtu.edu/TDClient/1801/Portal/KB/ArticleDet?ID=51485)
+- [OpenConnect on the ArchWiki](https://wiki.archlinux.org/title/OpenConnect)
