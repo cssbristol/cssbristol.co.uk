@@ -71,7 +71,7 @@ nmcli connection up BristolUniversityVPN --ask
 ```
 You should now be able to connect and disconnect to the VPN through the your desktop environment.
 
-**INSERT IMAGE HERE**
+![Connect to the VPN via KDE Plasma](/assets/images/contrib/tutorials/vpn-linux/plasma-nm.png)
 
 #### IMPORTANT: UPDATING THE COOKIE
 The VPN will eventually stop working when your cookie expires. Obtain a new cookie following Step 0, then run the following:
