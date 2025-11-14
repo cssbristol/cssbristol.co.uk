@@ -9,7 +9,7 @@ title: Aptitude Tests
 logo: tpp.png
 jobLocation: UK
 industry: Medical Technology
-validThrough: 2025-10-21 12:00:00 +0100
+validThrough: 2026-01-28 12:00:00 +0100
 startDate:
 occupationalCategory:
 apply:
@@ -20,6 +20,8 @@ TPP is holding aptitude tests at Goldney House in Bristol on the following dates
 
 - 3rd October 2025
 - 22nd October 2025
+- 27th November 2025
+- 27th January 2026
 
 TPP is a UK based IT company, dedicated to delivering world class healthcare software through our innovative products.
 We’re currently hiring for various graduate roles and for our Summer Intern programme. We’re looking for the brightest
