@@ -22,3 +22,11 @@ We need you! If you have a CS-related topic that you are interested in, come and
 around 15 mins long plus a Q&A with the audience. If you are interested in talking please sign
 up [here](https://forms.cloud.microsoft/e/gkssp43pcb)! You
 don't need to be an expert in giving talks, so don't be afraid to sign up if you want to give it a go.
+
+# Talks announced!
+
+Iris Rosega - DoH: How to secure internet traffic
+Aditya Sethi - Game Development & Design Society @UoB
+Jay Parker - Partners for Life! - or the Misadventures of a Nerd with Fancy Equipment
+Phoebe Harris - Blockchain without the Bullshit - an introduction to GNU Taler
+Murray Groves - Unstoppable Networks: Meshtastic & Reticulum
