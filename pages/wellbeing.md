@@ -9,6 +9,8 @@ show-in-nav: true
 The University of Bristol Computer Science Society is committed to fostering a culture of inclusion, where everyone is
 treated equally regardless of race, gender, sex, ethnicity, religion, disability, or other characteristics.
 
+![](/assets/images/contrib/wellbeing-toolkit.jpeg)
+
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
