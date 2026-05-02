@@ -5,7 +5,7 @@ cancelled: false
 cancel_reason:
 title: 2026 Summer BBQ
 date: 2026-05-17 12:00:00 +0000
-date_end: 2026-05-17 18:00:00 +0000
+date_end: 2026-05-17 17:00:00 +0000
 location: The Downs
 banner: 2026/bbq-2026.png
 price: FREE
