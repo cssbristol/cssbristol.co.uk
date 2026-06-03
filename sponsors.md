@@ -27,7 +27,7 @@ past-sponsors:
       logo: /assets/images/contrib/sponsorship-page/sponsor-logos/visa.svg
       url: "https://visa.co.uk/"
     - name: TPP
-      logo: /assets/images/contrib/sponsorship-page/companies/tpp.webp
+      logo: /assets/images/contrib/sponsorship-page/companies/tpp.svg
       url: "https://tpp-careers.com/"
     - name: Microsoft
       logo: /assets/images/contrib/sponsorship-page/sponsor-logos/microsoft.svg
