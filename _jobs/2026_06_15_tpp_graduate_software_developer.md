@@ -10,7 +10,7 @@ logo: tpp.png
 jobLocation: UK
 industry: Medical Software
 employmentType: Full-time
-validThrough: 2026-09-01 12:00:00 +0100
+validThrough: 2026-11-01 12:00:00 +0100
 startDate:
 occupationalCategory:
 baseSalary: 60,000
