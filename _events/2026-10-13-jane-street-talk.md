@@ -19,6 +19,8 @@ kiosk:
 
 ## Presented by: Leo, Software Engineer
 
+### Making OCaml Safe for Performance Engineering
+
 This talk describes the various ways in which Jane Street has modified our primary programming language -- OCaml -- to better suit our needs. It focuses on the development of two main features: local allocations and unboxed types, as well as our commitment to using and contributing to the open-source ecosystem.
 
 Tuesday 13th October <br>

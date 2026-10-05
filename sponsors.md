@@ -17,6 +17,9 @@ intro:
 past-sponsors:
   - number: 1
     content: 
+    - name: Jane Street
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/jane-street.png
+      url: "https://www.janestreet.com/"
     - name: Bloomberg
       logo: /assets/images/contrib/sponsorship-page/sponsor-logos/bloomberg.svg
       url: "https://www.bloomberg.com/europe"
@@ -27,7 +30,7 @@ past-sponsors:
       logo: /assets/images/contrib/sponsorship-page/sponsor-logos/visa.svg
       url: "https://visa.co.uk/"
     - name: TPP
-      logo: /assets/images/contrib/sponsorship-page/companies/tpp.png
+      logo: /assets/images/contrib/sponsorship-page/sponsor-logos/tpp.svg
       url: "https://tpp-careers.com/"
     - name: Microsoft
       logo: /assets/images/contrib/sponsorship-page/sponsor-logos/microsoft.svg
