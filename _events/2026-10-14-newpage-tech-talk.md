@@ -9,7 +9,7 @@ date_end: 2026-10-14 15:00:00 +0000
 location: Queen's 1.40
 banner: 
 price: FREE
-category: Careers
+category: Tech Talk
 kiosk:
   title: What does it take to build a successful career in tech in the age of AI?
   description: 

@@ -9,7 +9,7 @@ date_end: 2026-10-27 18:30:00 +0000
 location: Virtual via Zoom
 banner: 2026/jane-street-event.png
 price: FREE
-category: Careers
+category: Tech Talk
 kiosk:
   title: Making OCaml Safe for Performance Engineering
   description: "Making OCaml Safe for Performance Engineering" 
