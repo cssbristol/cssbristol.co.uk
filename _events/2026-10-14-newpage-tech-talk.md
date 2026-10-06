@@ -16,6 +16,8 @@ kiosk:
   show_sponsors: true
   show_date: true
 ---
+
+What does it take to build a successful career in tech in the age of AI?
  
 Join Newpage, a global technology consultancy opening its new Bristol hub, for industry insight into the future of software engineering, AI and data-driven careers.
  
