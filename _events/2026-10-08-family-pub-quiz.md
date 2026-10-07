@@ -4,7 +4,7 @@ published: true
 cancelled: false
 cancel_reason:
 title: Family Pub Quiz
-date: 2026-10-08 20:30:00 +0000
+date: 2026-10-08 18:30:00 +0000
 date_end: 2026-10-08 23:59:59 +0000
 location: White Harte
 banner: 2026/pub-quiz.png
