@@ -4,7 +4,7 @@ published: true
 cancelled: false
 cancel_reason:
 title: Newpage Tech Talk
-date: 2026-10-14 14:30:00 +0000
+date: 2026-10-14 13:30:00 +0000
 date_end: 2026-10-14 15:00:00 +0000
 location: Queen's 1.40
 banner: 

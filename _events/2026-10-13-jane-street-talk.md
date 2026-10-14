@@ -4,7 +4,7 @@ published: true
 cancelled: false
 cancel_reason:
 title: Jane Street Tech Talk
-date: 2026-10-27 18:30:00 +0000
+date: 2026-10-27 17:30:00 +0000
 date_end: 2026-10-27 18:30:00 +0000
 location: Virtual via Zoom
 banner: 2026/jane-street-event.png
