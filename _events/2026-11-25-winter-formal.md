@@ -8,7 +8,7 @@ date: 2026-11-25 17:30:00 +0000
 date_end: 2026-11-25 23:59:59 +0000
 location: Square Club
 banner: 2026/winter-formal.jpg
-price: FREE
+price: £35
 category: Social
 kiosk:
   title: Winter Formal
