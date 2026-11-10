@@ -43,6 +43,8 @@ TECH: Strands Agents, MCP, A2A, Bedrock
 
 [✓] Real-world applications: create practical, production-ready agent systems
 
+#### AWS Accounts, credits and Pizza will be provided.
+
 ## Sign-up
 
 If you are interested in coming along, please join the AWS Bristol User Group [here](https://www.meetup.com/aws-user-group-bristol/). From there you can get a free ticket to the event.
