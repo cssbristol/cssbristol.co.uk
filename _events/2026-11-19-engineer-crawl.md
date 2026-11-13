@@ -6,7 +6,7 @@ cancel_reason:
 title: Engineering Pub Crawl
 date: 2026-11-19 19:30:00 +0000
 date_end: 2026-11-19 23:59:59 +0000
-location: Senate House Living Room 1
+location: White Harte
 banner: 2026/engineer-pub.png
 price: FREE
 category: Social
